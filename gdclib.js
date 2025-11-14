@@ -35,5 +35,25 @@ class GdcExplorerLib {
         this.projects_summary = info;
         this.processed_counts = counts;
     }
+
+    async _get_cases_demography(p){
+        // cases.demographic.ethnicity, cases.demographic.gender, cases.demographic.race
+        let filters = { "op":"and",
+                "content":[
+                    {
+                        "op":"in",
+                        "content":{
+                            "field":"project.project_id",
+                                "value": [ p ]
+                        }
+                    }
+                ]
+            }
+        let body = JSON.stringify( { "filters": filters, "facets": "demographic.gender,demographic.ethnicity,demographic.race", "size": 0 } );
+        let r = await fetch("https://api.gdc.cancer.gov/v0/cases", { "method": "POST", "headers": { "Content-Type": "application/json" }, "body": body });
+        let dat = await r.json();
+
+        return dat.data.aggregations;
+    }
     
 }
