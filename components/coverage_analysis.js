@@ -8,38 +8,70 @@ class CoverageSummary extends HTMLElement {
       <p id = "notice" > Loading... </p>
 
       <section id="coverage_analysis" class="mt-3">
-          <p>
-             Overview about the GDC TCGA projects available and the cases coverage by omic data.
-          </p>
-          
-          <!--
-          <p>
-             Choose a project to load details about the information available for the cases.
-          </p>
+            <p>
+                Overview about the GDC TCGA projects available and the cases coverage by omic data.
+            </p>
             
-            <div class="col-auto" id="project_select" onchange="render_plots_cpu_alloc()" >
+            <div id="project_filter" style="display: none;" > 
+                <h4> Filter the projects you want to explore (max. 40, out of <span id="total_projects">  </span> ) </h4>
+
+                <div class="row g-2 align-items-center" id="filters_area" >
+
+
+                </div>
+
+                <div class="mt-3 col-12" >
+                    <button type="button" class="ml-3 btn btn-primary" id="go_filter" onclick="get_filtered_projects()" > Filter projects </button>
+
+                    <button type="button" class="ml-3 btn btn-primary" id="go_filter" onclick="update_main_plots()" > Reload plots </button>
+                </div>
+
+                <div class="mt-3 col-12" >
+                    <h5> Selected projects: </h5>
+                    <div id="projects_set" > </div>
+                </div>
             </div>
-            
-            <div class="col-auto" >
-                <button type="button" class="ml-3 btn btn-primary" id="go_cpu_alloc" onclick="render_plots_cpu_alloc()" >Reload plots</button>
-            </div>
-          </div>
-          -->
-          
-            <div class="row justify-content-center">
-                <div class="col-12">
-                    <div id="plot_cases_files_count" class="mt-3 " style="display: none;" >  </div>
+
+            <hr />
+
+            <div class="row justify-content-center mt-3"  >
+                <div class="col-12" id="instructions" style="display: none;" >
+                    <p>
+                        Choose a project (clicking on the blue bar) to load details about the information available for the cases.
+                    </p>
+
+                    <div  class="mt-3 row justify-content-center"  >
+                        <div id="plot_cases_files_count" class="col-12 " style="display: none;" >  </div>
+                    </div>
                 </div>
-                <div class="col-12">
-                    <div id="plot_cases_demography" class="mt-3 " style="display: none;" >  </div>
+
+                <div class="col-12" id="analysis_current" style="display: none;" >
+                    <h4 class="mt-3" id="selected_proj" >  </h4>
+                    <p>
+                        <span style = "font-weight: bold;" > Name: </span> 
+                        <span id = "proj_name" >  </span> 
+                    </p>
+
+                    <!-- plot demographic information of cases -->
+                    <div class="col-12" id="cases_demography" style="display: none;" >
+                        <p> The plots below show the distribution of cases across demographic information </p>
+                        <div id="plot_cases_demography" class="mt-3 row justify-content-start"  >  </div>
+                    </div>
+
+                    <!-- plot coverage -->
+                    <div class="col-12" id="cases_coverage" style="display: none;" >
+                        <p> The plots below show the cases coverage for the technical information regarding the project files repository </p>
+                        
+                        <div  class="mt-3 row justify-content-start"  >
+                            <div id="plot_cases_coverage_datCategory" class="mt-3 col-6" >  </div>
+
+                            <div id="plot_cases_coverage_expStrategy" class="mt-3 col-6" >  </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="col-6">
-                    <div id="plot_files_access" class="mt-3 " style="display: none;" >  </div>
-                </div>
+
             </div>
         </section>
-        
-        <hr />
         
     `;
   }
@@ -63,10 +95,67 @@ sec 3 - demographic arrangement of cases. given a project (select) there is also
 let obj_cov = {};
 
 let config = { "responsive": true };
-let pie_layout = { "width": 400, "height": 400 };
+let pie_layout = { "width": 500, "height": 500 };
 
+// Section 0 - projects filtering
+// obj_cov.projects.filter( e => e.disease_type.map( e => e.toLowerCase() ).filter( it => it.indexOf('epith')!=-1 ) )
 
-function render_pieplot_demography(p){
+function render_filter_projs_area(){
+    project_filter.style.display = 'none';
+
+    let domid_container = "filters_area";
+
+    let selected = "TCGA";
+    let domid_target = "program";
+    let label = _capitalize(domid_target);
+    let options = obj_cov.meta.program;
+    fill_select( label, options, domid_target, domid_container, selected, 'Any');
+
+    selected = "";
+    domid_target = "disease";
+    label = _capitalize(domid_target);
+    options = obj_cov.meta.disease;
+    options.unshift('Any');
+    fill_select( label, options, domid_target, domid_container, selected, 'Any');
+
+    selected = "";
+    domid_target = "primary_site";
+    label = _capitalize(domid_target);
+    options = obj_cov.meta.primary_site;
+    options.unshift('Any');
+    fill_select( label, options, domid_target, domid_container, selected, 'Any');
+
+    total_projects.innerHTML = obj_cov.projects.length;
+
+    project_filter.style.display = '';
+}
+
+function update_main_plots(){
+    analysis_current.style.display = 'none';
+    instructions.style.display = 'none';
+
+    let p = select_program.value;
+    let d = select_disease.value;
+    let s = select_primary_site.value;
+
+    let fp = new Set( obj_cov.projects.filter( x => (x.project_id.split('-')[0] == p) || p == 'Any' ) );
+    let fd = new Set( obj_cov.projects.filter( x => (x.disease_type.includes(d) ) || d == 'Any' ) );
+    let fs = new Set( obj_cov.projects.filter( x => (x.primary_site.includes(s) ) || s == 'Any' ) );
+    
+    let inter = intersect(fp, fd, fs);
+    obj_cov.filtered_projects = Array.from(inter).map( x => x.project_id );
+
+    generate_tags(obj_cov.filtered_projects, "projects_set");
+
+    prepare_plot_overview_projects();
+    
+    instructions.style.display = '';
+
+}
+
+function _render_pieplot_demography(){
+    let p = obj_cov.current_project.project_id;
+
     obj_cov._get_cases_demography(p).then( (dat) => {
         let keys = Object.keys(dat);
         let div_ids = [];
@@ -76,7 +165,7 @@ function render_pieplot_demography(p){
 
             div_ids.push(`pie_${_id}`);
             htmls += `
-                <div  id = "pie_${_id}" >
+                <div  id = "pie_${_id}" class="col-4" >
 
                 </div>
             `;
@@ -93,70 +182,25 @@ function render_pieplot_demography(p){
             let pldata = [{ "values": values, "labels": labels, "type": "pie" }];
             Plotly.newPlot( `pie_${_id}`, pldata, itlay, config);
         });
-        document.getElementById("plot_cases_demography").style.display = '';
+    
+        if( keys.length > 0 ){
+            document.getElementById("cases_demography").style.display = '';
+        }
     } );
 }
- 
-async function _get_files_access(p){
-    let filters = { "op":"and",
-            "content":[
-                {
-                    "op":"in",
-                    "content":{
-                        "field":"cases.project.project_id",
-                            "value": [ p ]
-                    }
-                },
-                /*,
-                {
-                    "op":"=",
-                    "content":{
-                        "field":"access",
-                        "value":"open"
-                    }
-                }
-                {
-                    "op":"=",
-                    "content":{
-                        "field":"data_category",
-                        "value":"Simple Nucleotide Variation"
-                    }
-                },
-                {
-                    "op":"=",
-                    "content":{
-                        "field":"data_type",
-                        "value":"Masked Somatic Mutation"
-                    }
-                },
-                {
-                    "op":"=",
-                    "content":{
-                        "field":"data_format",
-                        "value":"maf"
-                    }
-                },
-                {
-                    "op":"=",
-                    "content":{
-                        "field":"experimental_strategy",
-                        "value":"WXS"
-                    }
-                }
-                */
-            ]
-        }
-    let body = JSON.stringify({ "filters": filters, "facets": "access", "size": 0 });
-    let r = await fetch("https://api.gdc.cancer.gov/v0/files", { "method": "POST", "headers": { "Content-Type": "application/json" }, "body": body });
-    let dat = await r.json();
-    
-    /*
-    let query = encodeURI( JSON.stringify(filters) );
-    //let url = "https://api.gdc.cancer.gov/files?filters="+query+"&format=tsv&fields=file_id,cases.project.project_id,cases.submitter_id,cases.case_id,cases.samples.tumor_descriptor,cases.samples.tissue_type,cases.demographic.ethnicity,cases.demographic.gender,cases.demographic.race,cases.demographic.year_of_birth,cases.diagnoses.vital_status,cases.diagnoses.days_to_last_follow_up,cases.diagnoses.age_at_diagnosis,cases.diagnoses.classification_of_tumor,cases.diagnoses.days_to_recurrence,cases.diagnoses.tumor_stage&size=1000";
-    let url = "https://api.gdc.cancer.gov/files?filters="+query+"&format=tsv&fields=file_id&size=10000";
-    let r = await fetch(url);
-    let dat = await r.text();
-    */
+
+function setup_current_project_analysis(p){
+    analysis_current.style.display = 'none';
+
+    obj_cov.current_project = obj_cov.projects.filter( x => x.project_id == p )[0];
+    document.getElementById('proj_name').innerHTML = obj_cov.current_project.name;
+
+    selected_proj.innerHTML = `Selected project: ${p}`;
+
+    _render_pieplot_demography();
+    prepare_plots_coverage();
+
+    analysis_current.style.display = '';  
 }
 
 // Section 1
@@ -164,27 +208,85 @@ function prepare_plot_overview_projects(){
 
     let layout = { barmode: 'group', title: { text: "Cases and Files count per project" }, xaxis: { title: { text: 'Projects' } }, yaxis: { title: { text: 'Cases Count' } }, yaxis2: { title: 'Files Count', overlaying: 'y', side: 'right' } };
     
-    let tcga_pids = obj_cov.pids.filter( e => e.toLowerCase().indexOf('tcga')!=-1 );
+    let filtered_pids = obj_cov.filtered_projects; // obj_cov.pids.filter( e => e.toLowerCase().indexOf('tcga')!=-1 );
     
     let pl = [];
-    let y = tcga_pids.map( e => obj_cov.processed_counts[e].cases );
-    pl.push( { "name": "Cases", "x": tcga_pids, "y": y, "type": "bar" } );
-    y = tcga_pids.map( e => obj_cov.processed_counts[e].files );
-    pl.push( { "name": "Files", "x": tcga_pids, "y": y, "type": "scatter", "mode": 'lines+markers', "yaxis": 'y2' } );
+    let y = filtered_pids.map( e => obj_cov.processed_counts[e].cases );
+    pl.push( { "name": "Cases", "x": filtered_pids, "y": y, "type": "bar" } );
+
+    y = filtered_pids.map( e => obj_cov.processed_counts[e].files );
+    pl.push( { "name": "Files", "x": filtered_pids, "y": y, "type": "scatter", "mode": 'lines+markers', "yaxis": 'y2' } );
     
     let sec1plot = document.getElementById('plot_cases_files_count');
-    Plotly.newPlot( "plot_cases_files_count", pl, layout, config )
+    Plotly.newPlot( "plot_cases_files_count", pl, layout, config );
 
     sec1plot.on('plotly_click', function(data){
         let p = data.points[0].x;
         console.log(p);
-        render_pieplot_demography(p);
+        setup_current_project_analysis(p);
+        
     });
     sec1plot.style.display = '';
 }
     
-// Section 2              
-function render_project_selection(){
+// Section 2
+function _render_plot_cases_coverage_datCategory(info){
+    let layout = { 
+        barmode: 'group', 
+        title: { text: "Cases coverage per Data Category" }, 
+        xaxis: { title: { text: 'Data Category' } }, 
+        yaxis: { title: { text: 'Abs. Cases Count' } }, 
+        yaxis2: { title: 'Cases Coverage (%)', overlaying: 'y', side: 'right', range: [0, 100] }
+    };
+    
+    let pl = [];
+    let y = info.absolute;
+    pl.push( { "name": "Absolute Cases count", "x": info.x, "y": y, "type": "bar" } );
+
+    y = info.relative;
+    pl.push( { "name": "Cases Coverage (%)", "x": info.x, "y": y, "type": "scatter", "mode": 'lines+markers', "yaxis": 'y2' } );
+    
+    let sec2plot1 = document.getElementById('plot_cases_coverage_datCategory');
+    Plotly.newPlot( "plot_cases_coverage_datCategory", pl, layout, config );
+
+    sec2plot1.style.display = '';
+}
+function _render_plot_cases_coverage_expStrategy(info){
+    let layout = { 
+        barmode: 'group', 
+        title: { text: "Cases coverage per Experimental Strategy" }, 
+        xaxis: { title: { text: 'Data Category' } }, 
+        yaxis: { title: { text: 'Abs. Cases Count' } }, 
+        yaxis2: { title: 'Cases Coverage (%)', overlaying: 'y', side: 'right', range: [0, 100] } 
+    };
+    
+    let pl = [];
+    let y = info.absolute;
+    pl.push( { "name": "Absolute Cases count", "x": info.x, "y": y, "type": "bar" } );
+
+    y = info.relative;
+    pl.push( { "name": "Cases Coverage (%)", "x": info.x, "y": y, "type": "scatter", "mode": 'lines+markers', "yaxis": 'y2' } );
+    
+    let sec2plot2 = document.getElementById('plot_cases_coverage_expStrategy');
+    Plotly.newPlot( "plot_cases_coverage_expStrategy", pl, layout, config );
+
+    sec2plot2.style.display = '';
+}
+
+function prepare_plots_coverage(){
+    cases_coverage.style.display = 'none';
+
+    let p = obj_cov.current_project.project_id;
+
+    obj_cov.prepare_coverage_data_dataCategory_expStrategy(p).then( (dat) => {
+        _render_plot_cases_coverage_datCategory( dat["data_category"] );
+        _render_plot_cases_coverage_expStrategy( dat["experimental_strategy"] );
+
+        cases_coverage.style.display = '';
+    } );
+}
+
+function render_coverage_by_project(){
   document.getElementById('project_select').innerHTML = 'Loading ...';
   
   let options = "";
@@ -207,8 +309,9 @@ let init_case_coverage = async () => {
     obj_cov = new GdcExplorerLib( );
     await obj_cov.get_projects();
     await obj_cov.get_all_project_summary( obj_cov.pids );
-      
-    prepare_plot_overview_projects();
+    
+    render_filter_projs_area();
+    update_main_plots();
 
     document.getElementById('notice').innerHTML = '';
 }
