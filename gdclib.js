@@ -9,6 +9,10 @@ class GdcExplorerLib {
     	
     }
     // Coverage is given by the case_couunt in each entry of exp strategy or data category divided by the general case_count of the project
+    /*
+    The combined nuleotide variation, somatic structural variation and structural variation data types contain only controlled access files. The sequencing reads type not only it is controlled but it needs a whole pipeline to be ready to use in downstream analysis.
+    
+    */
     
     get_metadata_options(){
         let programs = [];
