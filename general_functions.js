@@ -26,7 +26,12 @@ function _make_assoc_array(e, header){
 	return d;
 }
 
-function fill_select( label, options, domid_target, domid_container, selected){
+function fill_select( label, options, domid_target, domid_container, selected, function_change){
+    let fadd = '';
+    if( function_change ){
+        fadd = ` onChange="${function_change}" `
+    }
+    
 	let ops = "";
 	options.forEach( e => {
 		let add = "";
@@ -39,7 +44,7 @@ function fill_select( label, options, domid_target, domid_container, selected){
 	let htmls = `
 		<div class="col-auto">
 	        <label class="form-label" > ${ label }:</label>
-			<select class="form-select" id="select_${domid_target}" >
+			<select class="form-select" id="select_${domid_target}" ${fadd} >
 				${ ops }
 			</select>
 		</div>

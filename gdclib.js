@@ -6,7 +6,7 @@ class GdcExplorerLib {
         this.projects = [];
     	this.projects_summary = {};
     	this.processed_counts = {};
-    	this.formats_datCategory = { "biospecimen": ["svs", "jpeg 2000"], "clinical": ["bcr xml"], "copy number variation": ["tsv", "txt"], "dna methylation": ["txt"], "proteome profiling": ["tsv"], "simple nucleotide variation": ["maf"] };
+    	this.formats_datCategory = { "biospecimen": ["svs", "jpeg 2000"], "clinical": ["bcr xml"], "copy number variation": ["tsv", "txt"], "dna methylation": ["txt"], "proteome profiling": ["tsv"], "simple nucleotide variation": ["maf"], "transcriptome profiling": ["tsv"] };
     	
     }
     // Coverage is given by the case_couunt in each entry of exp strategy or data category divided by the general case_count of the project
@@ -200,7 +200,7 @@ class GdcExplorerLib {
         return dat.data;
     }
     
-    async get_file_by_uuid(uuid){
+    async _get_file_by_uuid(uuid){
         let url = `https://api.gdc.cancer.gov/data/${uuid}`
         let r = await fetch( url });
         let dat = await r.text();
@@ -209,7 +209,7 @@ class GdcExplorerLib {
     
     async get_files_by_group( uuids ){
         let that = this;
-        let promises = uuids.map( id => that.get_file_by_uuid(id) );
+        let promises = uuids.map( id => that._get_file_by_uuid(id) );
         let dat = await Promise.all( promises );
         
     }
