@@ -6,6 +6,7 @@ class GdcExplorerLib {
         this.projects = [];
     	this.projects_summary = {};
     	this.processed_counts = {};
+    	this.formats_datCategory = { "biospecimen": ["svs", "jpeg 2000"], "clinical": ["bcr xml"], "copy number variation": ["tsv", "txt"], "dna methylation": ["txt"], "proteome profiling": ["tsv"], "simple nucleotide variation": ["maf"] };
     	
     }
     // Coverage is given by the case_couunt in each entry of exp strategy or data category divided by the general case_count of the project
@@ -132,7 +133,7 @@ class GdcExplorerLib {
         return dat.data.aggregations;
     }
 
-    async prepare_coverage_data_dataCategory_expStrategy(p){
+    async prepare_coverage_data_dataCategory_expStrategy(p, datcat){
         let that = this;
         let promises = [ this._get_cases_count_by_data_category(p), this._get_cases_count_by_exp_strategy(p) ];
         let dat = await Promise.all( promises );
@@ -153,6 +154,64 @@ class GdcExplorerLib {
         }
 
         return coverage;
+    }
+    
+    async get_case_files_by_data_category(p, datcat){
+        let format = thhis.formats_datCategory[datcat];
+        
+        let filters = { "op":"and",
+                "content":[
+                    {
+                        "op":"in",
+                        "content":{
+                            "field":"project.project_id",
+                                "value": [ p ]
+                        }
+                    },
+                    {
+                        "op":"=",
+                        "content":{
+                            "field":"data_category",
+                                "value": datcat
+                        }
+                    },
+                    {
+                        "op":"=",
+                        "content":{
+                            "field":"access",
+                                "value": "open"
+                        }
+                    },
+                    {
+                        "op":"in",
+                        "content":{
+                            "field":"data_format",
+                                "value": format
+                        }
+                    }
+                ]
+            }
+        filters = encodeURI( JSON.stringify( filters ) );
+        
+        let url = `https://api.gdc.cancer.gov/files?filters=${filters}&fields=file_id,cases.project.project_id,cases.submitter_id,cases.case_id,cases.samples.tumor_descriptor,cases.samples.tissue_type,cases.demographic.ethnicity,cases.demographic.gender,cases.demographic.race,cases.demographic.year_of_birth,cases.diagnoses.vital_status,cases.diagnoses.days_to_last_follow_up,cases.diagnoses.age_at_diagnosis,cases.diagnoses.classification_of_tumor,cases.diagnoses.days_to_recurrence,cases.diagnoses.tumor_stage&size=1000`
+        let r = await fetch( url });
+        let dat = await r.json();
+
+        return dat.data;
+    }
+    
+    async get_file_by_uuid(uuid){
+        let url = `https://api.gdc.cancer.gov/data/${uuid}`
+        let r = await fetch( url });
+        let dat = await r.text();
+        
+    }
+    
+    async get_files_by_group( uuids ){
+        let that = this;
+        let promises = uuids.map( id => that.get_file_by_uuid(id) );
+        let dat = await Promise.all( promises );
+        
     }
     
 }
