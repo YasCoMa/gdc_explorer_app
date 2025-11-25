@@ -157,7 +157,7 @@ class GdcExplorerLib {
     }
     
     async get_case_files_by_data_category(p, datcat){
-        let format = thhis.formats_datCategory[datcat];
+        let format = this.formats_datCategory[datcat];
         
         let filters = { "op":"and",
                 "content":[
