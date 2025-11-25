@@ -164,7 +164,7 @@ class GdcExplorerLib {
                     {
                         "op":"in",
                         "content":{
-                            "field":"project.project_id",
+                            "field":"cases.project.project_id",
                                 "value": [ p ]
                         }
                     },
@@ -197,6 +197,8 @@ class GdcExplorerLib {
         let r = await fetch( url );
         let dat = await r.json();
 
+        // stages = dat.data.hits.map( e => e.cases[0].samples[0]['tumor_descriptor'] )
+
         return dat.data;
     }
     
@@ -205,6 +207,7 @@ class GdcExplorerLib {
         let r = await fetch( url );
         let dat = await r.text();
         
+        // values = dat.split('\n').map( e => { try{ return parseFloat( e.split('\t')[1] ) } catch { return 0 } } )
     }
     
     async get_files_by_group( uuids ){
