@@ -151,7 +151,7 @@ class GdcExplorerLib {
                 "absolute": dat[1]["files.experimental_strategy"].buckets.map( e => e.doc_count ), 
                 "relative": dat[1]["files.experimental_strategy"].buckets.map( e => ( e.doc_count / total_cases )*100 )
             }
-        }
+        };
 
         return coverage;
     }
@@ -193,7 +193,7 @@ class GdcExplorerLib {
             }
         filters = encodeURI( JSON.stringify( filters ) );
         
-        let url = `https://api.gdc.cancer.gov/files?filters=${filters}&fields=file_id,cases.project.project_id,cases.submitter_id,cases.case_id,cases.samples.tumor_descriptor,cases.samples.tissue_type,cases.demographic.ethnicity,cases.demographic.gender,cases.demographic.race,cases.demographic.year_of_birth,cases.diagnoses.vital_status,cases.diagnoses.days_to_last_follow_up,cases.diagnoses.age_at_diagnosis,cases.diagnoses.classification_of_tumor,cases.diagnoses.days_to_recurrence,cases.diagnoses.tumor_stage&size=1000`
+        let url = `https://api.gdc.cancer.gov/files?filters=${filters}&fields=file_id,file_size,cases.project.project_id,cases.submitter_id,cases.case_id,cases.samples.tumor_descriptor,cases.samples.tissue_type,cases.demographic.ethnicity,cases.demographic.gender,cases.demographic.race,cases.demographic.year_of_birth,cases.diagnoses.vital_status,cases.diagnoses.days_to_last_follow_up,cases.diagnoses.age_at_diagnosis,cases.diagnoses.classification_of_tumor,cases.diagnoses.days_to_recurrence,cases.diagnoses.tumor_stage&size=1000`
         let r = await fetch( url );
         let dat = await r.json();
 
@@ -203,10 +203,12 @@ class GdcExplorerLib {
     }
     
     async _get_file_by_uuid(uuid){
-        let url = `https://api.gdc.cancer.gov/data/${uuid}`
+        let url = `https://api.gdc.cancer.gov/data/${uuid}`;
         let r = await fetch( url );
         let dat = await r.text();
-        
+        let lines = dat.split('\n');
+
+        return lines;
         // values = dat.split('\n').map( e => { try{ return parseFloat( e.split('\t')[1] ) } catch { return 0 } } )
     }
     
@@ -214,7 +216,10 @@ class GdcExplorerLib {
         let that = this;
         let promises = uuids.map( id => that._get_file_by_uuid(id) );
         let dat = await Promise.all( promises );
+
+        return dat;
         
     }
+
     
 }
