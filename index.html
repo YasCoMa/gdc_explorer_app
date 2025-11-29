@@ -49,15 +49,9 @@
                     <button class="nav-link active" id="coverage-tab" data-bs-toggle="tab" data-bs-target="#coverage" type="button" role="tab" aria-controls="coverage" aria-selected="true"> Explore Project coverage </button>
                   </li>
                   
-                  <!--
                   <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="occupancy-tab" data-bs-toggle="tab" data-bs-target="#occupancy" type="button" role="tab" aria-controls="occupancy" aria-selected="false"> CPU nodes - Maximum occupancy in job tasks </button>
+                    <button class="nav-link" id="expai1-tab" data-bs-toggle="tab" data-bs-target="#expai1" type="button" role="tab" aria-controls="expai1" aria-selected="false"> Experiment disparity methylation </button>
                   </li>
-                  
-                  <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="occupancy_gpu-tab" data-bs-toggle="tab" data-bs-target="#occupancy_gpu" type="button" role="tab" aria-controls="occupancy_gpu" aria-selected="false"> GPU nodes - Maximum occupancy in job tasks </button>
-                  </li>
-                  -->
                   
                 </ul>
 
@@ -66,15 +60,9 @@
                         <coverage-component />
                     </div>
                     
-                    <!--
-                    <div class="tab-pane " id="occupancy" role="tabpanel" aria-labelledby="occupancy-tab">
-                        <joboccupancy-component />
+                    <div class="tab-pane " id="expai1" role="tabpanel" aria-labelledby="expai1-tab">
+                        <expai1-component />
                     </div>
-                    
-                    <div class="tab-pane " id="occupancy_gpu" role="tabpanel" aria-labelledby="occupancy_gpu-tab">
-                        <joboccupancygpu-component />
-                    </div>
-                    -->
                     
                 </div>
                 
@@ -83,6 +71,7 @@
                 <script src="gdclib.js"></script>
                 
                 <script src="components/coverage_analysis.js"></script>
+                <script src="components/expai1_analysis.js"></script>
                 
             </div>
         </div>

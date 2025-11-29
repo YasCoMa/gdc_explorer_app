@@ -21,8 +21,9 @@ samples = {}
 dat.hits.forEach( el => {
 	let uuid = el.file_id;
 	let size = el.file_size;
+	let platform = el.platform;
 	let sample_id = el.cases[0].submiter_id;
-	let oaux = { 'uuid': uuid, 'submitter_id': sample_id, "size": size };
+	let oaux = { 'uuid': uuid, 'submitter_id': sample_id, "size": size, "platform": platform };
 	let sobj = { "sample_id": sample_id };
 
 	let tissue = el.samples[0].tissue_type;

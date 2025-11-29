@@ -12,10 +12,10 @@ class ExpAiDisparitySummary extends HTMLElement {
                 Exploratory data analysis and feature extraction with group stratification, acccording to a project and a target data category
             </p>
             
-            <div id="project_filter" style="display: none;" > 
-                <h4> Filter the projects you want to explore (max. 40, out of <span id="total_projects">  </span> ) </h4>
+            <div id="project_filter_ai1" style="display: none;" > 
+                <h4> Filter the project you want to explore </h4>
 
-                <div class="row g-2 align-items-center" id="filters_area" >
+                <div class="row g-2 align-items-center" id="filters_area_ai1" >
 
 
                 </div>
@@ -62,35 +62,43 @@ sec 3 - demographic arrangement of cases. given a project (select) there is also
 
 let obj_ai1 = {};
 
-let config = { "responsive": true };
-let pie_layout = { "width": 500, "height": 500 };
+let config_ai1 = { "responsive": true };
+let pie_layout_ai1 = { "width": 500, "height": 500 };
 
 // Section 0 - projects filtering
 // obj_ai1.projects.filter( e => e.disease_type.map( e => e.toLowerCase() ).filter( it => it.indexOf('epith')!=-1 ) )
 
-function _fill_data_category(p){
-    domid_target = "data_category";
-    label = _capitalize(domid_target);
-    options = obj_ai1.projects_summary[p].data_categories.map( e => e.data_category );
-    selected = options[0];
+function _fill_data_category(){
+    let p = select_project_ai1.value;
+    let allowed = new Set( Object.keys(obj_ai1.formats_datCategory) )
+
+    let domid_container = "filters_area_ai1";
+
+    let domid_target = "data_category_ai1";
+    let label = "Data Category";
+    let options = new Set( obj_ai1.projects_summary[p].data_categories.map( e => e.data_category.toLowerCase() ) );
+    options = options.intersection(allowed); // Filter data categories that have open parsable (not platform-specific raw output as idat) data
+    options = Array.from( options );
+    let selected = options[0];
     fill_select( label, options, domid_target, domid_container, selected, null);
 }
 
-function render_filter_projs_area(){
-    project_filter.style.display = 'none';
+function render_filter_projs_area_ai1(){
+    project_filter_ai1.style.display = 'none';
 
-    let domid_container = "filters_area";
+    let domid_container = "filters_area_ai1";
 
-    let domid_target = "project";
-    let label = _capitalize(domid_target);
+    let domid_target = "project_ai1";
+    let label = "Project";
     let options = Object.keys(obj_ai1.projects_summary);
+    
     let selected = options[0];
     let onchange = "_fill_data_category()"
     fill_select( label, options, domid_target, domid_container, selected, onchange);
 
-    _fill_data_category(selected);
+    _fill_data_category();
 
-    project_filter.style.display = '';
+    project_filter_ai1.style.display = '';
 }
 
 let init_case_expai1 = async () => {
@@ -100,7 +108,7 @@ let init_case_expai1 = async () => {
     await obj_ai1.get_projects();
     await obj_ai1.get_all_project_summary( obj_ai1.pids );
     
-    render_filter_projs_area();
+    render_filter_projs_area_ai1();
 
     document.getElementById('notice_ai1').innerHTML = '';
 }

@@ -13,7 +13,7 @@ class CoverageSummary extends HTMLElement {
             </p>
             
             <div id="project_filter" style="display: none;" > 
-                <h4> Filter the projects you want to explore (max. 40, out of <span id="total_projects">  </span> ) </h4>
+                <h4> Filter the project you want to explore (max. 40, out of <span id="total_projects">  </span> ) </h4>
 
                 <div class="row g-2 align-items-center" id="filters_area" >
 
@@ -21,8 +21,6 @@ class CoverageSummary extends HTMLElement {
                 </div>
 
                 <div class="mt-3 col-12" >
-                    <button type="button" class="ml-3 btn btn-primary" id="go_filter" onclick="get_filtered_projects()" > Filter projects </button>
-
                     <button type="button" class="ml-3 btn btn-primary" id="go_filter" onclick="update_main_plots()" > Reload plots </button>
                 </div>
 
@@ -109,21 +107,21 @@ function render_filter_projs_area(){
     let domid_target = "program";
     let label = _capitalize(domid_target);
     let options = obj_cov.meta.program;
-    fill_select( label, options, domid_target, domid_container, selected, 'Any');
+    fill_select( label, options, domid_target, domid_container, selected, null);
 
     selected = "";
     domid_target = "disease";
     label = _capitalize(domid_target);
     options = obj_cov.meta.disease;
     options.unshift('Any');
-    fill_select( label, options, domid_target, domid_container, selected, 'Any');
+    fill_select( label, options, domid_target, domid_container, selected, null);
 
     selected = "";
     domid_target = "primary_site";
     label = _capitalize(domid_target);
     options = obj_cov.meta.primary_site;
     options.unshift('Any');
-    fill_select( label, options, domid_target, domid_container, selected, 'Any');
+    fill_select( label, options, domid_target, domid_container, selected, null);
 
     total_projects.innerHTML = obj_cov.projects.length;
 
@@ -222,7 +220,7 @@ function prepare_plot_overview_projects(){
 
     sec1plot.on('plotly_click', function(data){
         let p = data.points[0].x;
-        console.log(p);
+
         setup_current_project_analysis(p);
         
     });
@@ -284,23 +282,6 @@ function prepare_plots_coverage(){
 
         cases_coverage.style.display = '';
     } );
-}
-
-function render_coverage_by_project(){
-  document.getElementById('project_select').innerHTML = 'Loading ...';
-  
-  let options = "";
-  obj_cov.pids.forEach( (v) => { options += `<option value="${v}" > ${v} </option>`; } );
-  
-  let html = `
-  <label class="form-label" > Project:</label>
-  <select class="form-control" id="sel_project">
-      ${options}
-  </select>
-  `;
-  document.getElementById('project_select').innerHTML = html;
-  
-  render_plots_cpu_alloc();
 }
 
 let init_case_coverage = async () => {
