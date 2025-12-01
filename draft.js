@@ -1,6 +1,8 @@
 p = 'TCGA-KIRC'
 datcat = 'dna methylation'
 
+mapp = obj_cov.get_methylation_mapping()
+
 dat = await obj_cov.get_case_files_by_data_category(p, datcat)
 uuids = dat.filter( e => e.file_size <= obj_cov.file_size_limit ).map( e => e.file_id )
 
