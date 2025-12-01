@@ -2,7 +2,7 @@ p = 'TCGA-KIRC'
 datcat = 'dna methylation'
 
 dat = await obj_cov.get_case_files_by_data_category(p, datcat)
-uuids = dat.hits.filter( e => e.file_id ).map( e => e.file_id )
+uuids = dat.filter( e => e.file_size <= obj_cov.file_size_limit ).map( e => e.file_id )
 
 // mapping cpg ids to genes and chromosomes: HumanMethylation450 v1.2 Manifest File (CSV Format) in https://support.illumina.com/downloads/infinium_humanmethylation450_product_files.html
 
@@ -18,7 +18,7 @@ uuids = dat.hits.filter( e => e.file_id ).map( e => e.file_id )
 	// In the cases that there was a tumor, what was the mean diagnosis age per subgroup?
 	samples = {}
 
-	dat.hits.forEach( el => {
+	dat.forEach( el => {
 		let uuid = el.file_id;
 		let size = el.file_size;
 		let platform = el.platform;
@@ -88,6 +88,6 @@ uuids = dat.hits.filter( e => e.file_id ).map( e => e.file_id )
 	normal =  Object.keys(y).filter( e => y[e].tissue == 'Normal' ).length
 
 
-dfs = await obj_cov.get_files_by_group( uuids )
+dfs = await obj_cov.retrieve_process_methylation_files( uuids )
 
 f = await obj_cov._get_file_by_uuid("daa01486-58c6-4fc3-aab5-a0c4680ee10f") // example of file with 765 Kb

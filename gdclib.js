@@ -202,7 +202,7 @@ class GdcExplorerLib {
         let before = dat.data.hits.length;
         let that = this;
         dat = dat.data.hits.filter( e => e.file_size <= that.file_size_limit );
-        let after = dat.data.hits.length;
+        let after = dat.length;
         let delta = after - before;
         if( delta > 0 ){
         console.log( `INFORMATION: ${delta} files were filtered out because their sizes are up to to the file size limit configured (${this.file_size_limit})` )
@@ -210,7 +210,7 @@ class GdcExplorerLib {
 
         // stages = dat.data.hits.map( e => e.cases[0].samples[0]['tumor_descriptor'] )
 
-        return dat.data;
+        return dat;
     }
     
     async _get_file_by_uuid(uuid){
@@ -233,7 +233,7 @@ class GdcExplorerLib {
 
     async _process_methylation_file(uuid){
         let that = this;
-        let lines = await obj_cov._get_file_by_uuid(uuid);
+        let lines = await this._get_file_by_uuid(uuid);
         let annotation = {};
         let cgids = Object.keys(this.methylation_cgids_ann);
         lines = lines.map( e => e.split('\t') ).filter( e => cgids.includes(e[0]) )
