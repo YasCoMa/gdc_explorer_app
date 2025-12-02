@@ -1,11 +1,13 @@
 class GdcExplorerLib {
 
     constructor(){
+        this.file_size_limit = 15000000;
         this.meta = { 'program': [], 'disease': [], 'primary_site': [] };
         this.pids = [];
         this.projects = [];
     	this.projects_summary = {};
     	this.processed_counts = {};
+        this.methylation_cgids_ann = {};
     	this.formats_datCategory = { "biospecimen": ["svs", "jpeg 2000"], "clinical": ["bcr xml"], "copy number variation": ["tsv", "txt"], "dna methylation": ["txt"], "proteome profiling": ["tsv"], "simple nucleotide variation": ["maf"], "transcriptome profiling": ["tsv"] };
     	
     }
@@ -151,7 +153,7 @@ class GdcExplorerLib {
                 "absolute": dat[1]["files.experimental_strategy"].buckets.map( e => e.doc_count ), 
                 "relative": dat[1]["files.experimental_strategy"].buckets.map( e => ( e.doc_count / total_cases )*100 )
             }
-        }
+        };
 
         return coverage;
     }
@@ -193,28 +195,66 @@ class GdcExplorerLib {
             }
         filters = encodeURI( JSON.stringify( filters ) );
         
-        let url = `https://api.gdc.cancer.gov/files?filters=${filters}&fields=file_id,cases.project.project_id,cases.submitter_id,cases.case_id,cases.samples.tumor_descriptor,cases.samples.tissue_type,cases.demographic.ethnicity,cases.demographic.gender,cases.demographic.race,cases.demographic.year_of_birth,cases.diagnoses.vital_status,cases.diagnoses.days_to_last_follow_up,cases.diagnoses.age_at_diagnosis,cases.diagnoses.classification_of_tumor,cases.diagnoses.days_to_recurrence,cases.diagnoses.tumor_stage&size=1000`
+        let url = `https://api.gdc.cancer.gov/files?filters=${filters}&fields=file_id,file_size,platform,cases.project.project_id,cases.submitter_id,cases.case_id,cases.samples.tumor_descriptor,cases.samples.tissue_type,cases.demographic.ethnicity,cases.demographic.gender,cases.demographic.race,cases.demographic.year_of_birth,cases.diagnoses.vital_status,cases.diagnoses.days_to_last_follow_up,cases.diagnoses.age_at_diagnosis,cases.diagnoses.classification_of_tumor,cases.diagnoses.days_to_recurrence,cases.diagnoses.tumor_stage&size=1000`
         let r = await fetch( url );
         let dat = await r.json();
 
+        let before = dat.data.hits.length;
+        let that = this;
+        dat = dat.data.hits.filter( e => e.file_size <= that.file_size_limit );
+        let after = dat.length;
+        let delta = after - before;
+        if( delta > 0 ){
+        console.log( `INFORMATION: ${delta} files were filtered out because their sizes are up to to the file size limit configured (${this.file_size_limit})` )
+        }
+
         // stages = dat.data.hits.map( e => e.cases[0].samples[0]['tumor_descriptor'] )
 
-        return dat.data;
+        return dat;
     }
     
     async _get_file_by_uuid(uuid){
-        let url = `https://api.gdc.cancer.gov/data/${uuid}`
+        let url = `https://api.gdc.cancer.gov/data/${uuid}`;
         let r = await fetch( url );
         let dat = await r.text();
-        
+        let lines = dat.split('\n').slice(0, -1);
+
+        return lines;
         // values = dat.split('\n').map( e => { try{ return parseFloat( e.split('\t')[1] ) } catch { return 0 } } )
     }
     
-    async get_files_by_group( uuids ){
+    async retrieve_process_methylation_files( uuids ){
         let that = this;
-        let promises = uuids.map( id => that._get_file_by_uuid(id) );
+        let promises = uuids.map( id => that._process_methylation_file(id) );
         let dat = await Promise.all( promises );
-        
+
+        return dat;
     }
+
+    async _process_methylation_file(uuid){
+        let that = this;
+        let lines = await this._get_file_by_uuid(uuid);
+        let annotation = {};
+        let cgids = Object.keys(this.methylation_cgids_ann);
+        lines = lines.map( e => e.split('\t') ).filter( e => cgids.includes(e[0]) )
+        let dt = {};
+        lines.forEach( (l) => {
+            let ann = that.methylation_cgids_ann[l[0]]
+            ann["value"] = parseFloat(l[1]);
+            dt[l[0]] = ann;
+        } );
+        return dt
+    }
+
+    async get_methylation_mapping(){
+        let url = `${location.href}/data_processed/all_mapp.json`;
+        let r = await fetch( url );
+        let dat = await r.json();
+
+        this.methylation_cgids_ann = dat;
+
+        return dat;
+    }
+
     
 }

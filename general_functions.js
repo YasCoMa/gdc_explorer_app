@@ -41,15 +41,21 @@ function fill_select( label, options, domid_target, domid_container, selected, f
 		ops += `<option value = "${ e }" ${ add } > ${ e } </option>` 
 	} );
 
-	let htmls = `
-		<div class="col-auto">
-	        <label class="form-label" > ${ label }:</label>
-			<select class="form-select" id="select_${domid_target}" ${fadd} >
-				${ ops }
-			</select>
-		</div>
-	`;
-	document.getElementById(domid_container).innerHTML += htmls;
+	let eldom = document.getElementById(`select_${domid_target}`);
+	if( ! eldom ){
+		let htmls = `
+			<div class="col-auto">
+		        <label class="form-label" > ${ label }:</label>
+				<select class="form-select" id="select_${domid_target}" ${fadd} >
+					${ ops }
+				</select>
+			</div>
+		`;
+		document.getElementById(domid_container).innerHTML += htmls;
+	}
+	else{
+		eldom.innerHTML = ops;
+	}
 }
 
 function generate_tags(options, domid_container){
