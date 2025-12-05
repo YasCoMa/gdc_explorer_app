@@ -86,10 +86,14 @@ uuids = dat.filter( e => e.file_size <= obj_cov.file_size_limit ).map( e => e.fi
 // Filter samples whose file_size is under 20Mb
 
 // Checking tumor / normal samples distribution
-	tumor = Object.keys(y).filter( e => y[e].tissue == 'Tumor' ).length
-	normal =  Object.keys(y).filter( e => y[e].tissue == 'Normal' ).length
+tumor = Object.keys(y).filter( e => y[e].tissue == 'Tumor' )
+normal =  Object.keys(y).filter( e => y[e].tissue == 'Normal' )
 
+
+tdfs = await obj_cov.retrieve_process_methylation_files( tumor.slice(0,10) )
+ndfs = await obj_cov.retrieve_process_methylation_files( normal.slice(0,10) )
 
 dfs = await obj_cov.retrieve_process_methylation_files( uuids )
+
 
 f = await obj_cov._get_file_by_uuid("daa01486-58c6-4fc3-aab5-a0c4680ee10f") // example of file with 765 Kb
