@@ -1,7 +1,7 @@
 class GdcExplorerLib {
 
     constructor(){
-        this.file_size_limit = 15000000;
+        this.file_size_limit = 1000000;
         this.meta = { 'program': [], 'disease': [], 'primary_site': [] };
         this.pids = [];
         this.projects = [];
@@ -225,6 +225,7 @@ class GdcExplorerLib {
     
     async retrieve_process_methylation_files( uuids ){
         let that = this;
+        this.metexp_features = {};
         let promises = uuids.map( id => that._process_methylation_file(id) );
         let dat = await Promise.all( promises );
 
@@ -236,14 +237,29 @@ class GdcExplorerLib {
         let lines = await this._get_file_by_uuid(uuid);
         let annotation = {};
         let cgids = Object.keys(this.methylation_cgids_ann);
-        lines = lines.map( e => e.split('\t') ).filter( e => cgids.includes(e[0]) )
+        lines = lines.map( e => e.split('\t') ).filter( e => cgids.includes(e[0]) );
+        dt = this.metexp_features;
+        lines.forEach( (l) => {
+            let keys = Object.keys(dt);
+            if( ! keys.include(l[0]) ){
+                dt[ l[0] ] = {};
+            }
+            dt[ l[0] ][uuid] = parseFloat(l[1]);
+        } );
+        this.metexp_features = dt;
+
+
+        /*
         let dt = {};
         lines.forEach( (l) => {
             let ann = that.methylation_cgids_ann[l[0]]
             ann["value"] = parseFloat(l[1]);
             dt[l[0]] = ann;
         } );
-        return dt
+        
+        return dt;
+        */
+        return 1
     }
 
     async get_methylation_mapping(){
