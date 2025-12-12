@@ -255,6 +255,30 @@ class GdcExplorerLib {
 
         return dat;
     }
+    
+    async get_case_data_survival(p){
+        
+        let filters = { "op":"and",
+                "content":[
+                    {
+                        "op":"in",
+                        "content":{
+                            "field":"project.project_id",
+                                "value": [ p ]
+                        }
+                    }
+                ]
+            }
+        filters = encodeURI( JSON.stringify( filters ) );
+        
+        let url = `https://api.gdc.cancer.gov/v0/cases?filters=${filters}&fields=case_id,diagnoses.age_at_diagnosis,diagnoses.classification_of_tumor,diagnoses.days_to_death,diagnoses.days_to_last_follow_up,diagnoses.classification_of_tumor,files.cases.diagnoses.vital_status,demographic.gender,file.cases.diagnoses.tumor_stage&size=1000`
+        let r = await fetch( url );
+        let dat = await r.json();
+
+        // stages = dat.data.hits.map( e => e.cases[0].samples[0]['tumor_descriptor'] )
+
+        return dat.data;
+    }
 
     
 }

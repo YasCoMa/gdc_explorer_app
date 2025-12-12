@@ -1,0 +1,1001 @@
+annotations.0.case_id	cases.0.demographic.gender	cases.0.diagnoses.0.age_at_diagnosis	cases.0.diagnoses.0.days_to_last_follow_up	cases.0.diagnoses.1.age_at_diagnosis	cases.0.diagnoses.1.days_to_last_follow_up	cases.0.diagnoses.2.age_at_diagnosis	cases.0.diagnoses.2.days_to_last_follow_up	cases.0.project.disease_type	cases.0.project.primary_site	id	submitter_id
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	9db8268c-46a9-4d0b-89bc-a4b18e81996d	TCGA-B8-4146_D4A0B297-B80E-48B0-9FEF-1A1678AFF9BE_PDF
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	c72cadae-fbf1-4a1d-8dd8-4f61e5b6afef	TCGA-KIRC.2cddbdf5-3719-46b1-bc3d-52ca7628ff0a.ascat2.allelic_specific.seg.txt
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	542c23f9-0b72-48a3-afa0-0fa6c46d227b	5f0efe4a-12cf-4534-b6b6-dbc1df6e5f3f
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	ef51ea8f-a046-4744-8e92-22910aa5cf0f	ee5f4838-dcef-47df-a1ea-154ddaa0fd20
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	e5844854-ad8a-4259-ab7b-5a0e41d3481a	b9bdabd1-c756-4359-b79f-97a84ea631f0
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	89a3b249-78fc-485f-8376-b593208cbcb9	0a41a097-2576-4670-8fcc-efeeebfe2bd3
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	d0e70b69-a4d8-46f1-92a2-c13ef8042765	4d5dd0b1-f3a7-41a2-9e24-b33d624b45f1
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	dd0db8ff-30be-4b8d-ba2e-8a87b79542f3	909c9355-cb95-4301-9cf8-6c06a7919933
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	e4189e18-9bc2-4edf-a77e-44be113eb4cf	5447173e-23b3-4ccc-9e21-5e1d63a38b8e
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	8f7e8d83-489b-44a1-ba55-85caa4ac0936	120c7d0d-f807-4676-b11a-b0c2d8cd13b2
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	3475b1a1-e40f-4ce9-910b-a55d0cd89612	cc35440e-5424-4254-9dd7-c1b764247112_dr12_allcnv
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	0e2118be-7b69-430a-9c0d-3594e1218bd7	113d34a4-09b7-41ad-8501-b86e3ed15022
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	ca361b5f-48cf-4d89-ab6d-afac14aae13a	23483df9-e84c-433d-a89c-fa2318cb3eb4
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	8732ab71-05b3-4b23-9b9f-6d974d26379a	d6aca38c-e4bf-4612-bc9b-803d18fef711
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	840a23f1-9eb8-44eb-a16e-23833f8d6174	9f859941-f05a-4dd0-83a9-0993800ef2ba
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	078f12bf-ef25-49d1-9911-59b55bc1f15c	97b7f2f8-9d61-49f2-aed5-77a02b93d82f
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	79346205-48e2-488b-8546-efb3f3a13f01	decb6fb6-39a5-498e-a755-132a8ffd8eee
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	c79c55b2-e54d-4ad5-b585-7259c8d1df61	TCGA-B8-4146-01B-11D-1668-01_TCGA-B8-4146-10A-01D-1668-01_segment_ASCAT3
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	216aac0d-390d-497e-a128-a02fd8ac68f4	2fd17c68-2d2f-4394-a340-4dda2f5f3d38
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	1df4810e-2c14-4767-a7e1-11ebfeee5a5d	d7f3bf3d-3cf7-4128-9ccb-7e1dfa4cae1d
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	72679072-dcf5-4583-aba3-fc4511226c1d	0f93adcb-43f8-43f1-aa9a-35d4432350f2_dr12_nocnv
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	076325be-91b6-43c2-9ba1-7433fe745bc4	53784cad-04d5-4e87-baf5-34bde628dad1
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	407bbe18-b420-422b-9181-81c9b210c008	c2c9a34a-280b-4afe-95c4-397041062edc
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	44c858ac-1ce0-491a-aef5-979224aa09f5	9f908caf-7eb8-4b97-80f3-96a61828c7f5
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	cc7496cd-c974-4813-9674-a9998f97da58	4f6e8574-0d8e-4b55-a29b-52befb35577a
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	4dddb8dd-70cb-4132-83fb-8fce8a430822	576ee7c7-3e4d-4ca8-a043-bff03a26fdd5
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	da5d02ef-a866-4ba2-858f-02ba7648cf2d	BUBBY_p_TCGA_b89_105_SNP_N_GenomeWideSNP_6_D03_777460.birdseed.data.txt
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	1d3e810e-fecf-458f-8755-7eacfc7bf261	803207ee-c270-4685-98c3-84c5c87c6aeb
+cba5705a-80dd-4496-9283-c5d3a92c7dba	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	02f6797c-db8e-4868-a0a1-27d465874094	723f4f29-ff8d-4eb2-a097-f5281f4a1ddb
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	22d22c3b-7dfc-4dff-99c1-735b43b9508d	BUBBY_p_TCGA_b89_105_SNP_N_GenomeWideSNP_6_D07_777512.birdseed.data.txt
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	3ba597c2-6842-4b3f-b737-5c5eb9b835a7	720d5f86-a991-443e-b1bc-219b1ed75810
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	b1200d2e-0a87-424b-833b-2862db7c7b65	mirna_swap_dr11_457_MirnaExpression1613cc59-5c62-44d6-a863-bde6ff0ef3a7_profiling
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	fe53a2c2-a8b6-40ca-ad7b-a717f72ba5ad	396b6f98-ccd7-47c5-a589-a00ec35a2ab4
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	98e7bf3d-3a1c-4d72-a501-3b0664241f7f	afca5e61-9815-40fd-ab6f-8ff3c505dcc6
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	f21bc575-971c-4487-a766-725726711fcc	TCGA-B8-4146-01B-11D-1668-01_estimate_ABSOLUTE
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	63e80ed4-3532-411e-b6a3-c4f05de135cd	TCGA-B8-4146-01B-11D-1668-01_TCGA-B8-4146-10A-01D-1668-01_estimate_ASCAT3
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	b7db6795-90b9-4adc-9b15-60d349a09b1b	a2cf9a89-9b74-4537-a949-bbed582e01d9
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	de8ea765-8ef2-4839-9a65-b5e4a7938de3	f5bddba9-b813-4d09-a69b-1610ee5371ab_legacy
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	a15813ed-bb44-42ca-8ac6-26aaf5bbdf93	5fae941c-663e-449a-86fb-10d3ad3c7807
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	42409d18-9000-405c-b23f-9945fdaf90df	5031469e-2760-46ca-8ffe-7fd150c3dd50_legacy
+	female	15063	511.0					Kidney Renal Clear Cell Carcinoma	Kidney	51af1ada-2585-4fff-aed8-e27425a9f943	1ac80bb5-b8b2-49d3-a662-8859ef800ba0
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	3bca5269-8bb3-4826-bc22-e7b068853f45	a171d419-8710-4e1a-a2af-35315e6c0861
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	e454fd05-0937-45ce-9a3a-cd55f54abf18	8f753925-fdcb-4204-9998-06d2cf172a82
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	b56bec1f-fa44-4e25-b974-8c65c0861c50	4bb1d210-b4c5-4d21-b38b-be7ba0f5618c
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	80564340-ed6c-4a49-a4bf-de90143f75a0	78994c17-3e5d-4e24-a962-167fd9d6de15
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	ecc7e6cb-06fc-4fb9-9cf3-6d89b144c90f	8fa126a4-a9ed-4d93-b12b-ba1dbca3ac9f
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	38c88019-1965-429b-b987-70952dec6ec9	nationwidechildrens.org_clinical.TCGA-BP-4977.xml
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	76426ce9-3ebb-4e93-9e5c-ebf4c1e57179	TCGA-BP-4977-01A-01D-1331-01_TCGA-BP-4977-11A-01D-1331-01_estimate_ASCAT3
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	a7fe216f-6dfc-4d11-a388-f4027b74aa74	0c1bdb48-e2e9-47ac-b6f3-88843462575d
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	158ce85f-d6d9-4e79-b232-abd18ba5240c	abb11f0a-d044-4d00-b5e2-34dab904af5d
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	0e9ee465-45a7-4381-8b4a-5e02999cc03a	2dae19c7-8213-45e2-88f2-d2d38fc37490
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	4a7ed0a1-a582-4f0c-86e9-808380994623	mirna_swap_dr11_482_MirnaExpressionae37cac8-8fef-4e7a-b292-3447364d7790_isoform_profiling
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	cfd46421-f116-44c0-8d66-edb2092813a4	NARKY_p_TCGAb69_SNP_N_GenomeWideSNP_6_B01_697828.birdseed.data.txt
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	db713f41-2466-423c-9074-a8ce0689ab79	mirna_swap_dr11_482_AlignedReadsae37cac8-8fef-4e7a-b292-3447364d7790
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	15b23246-de12-4e46-8dd4-02e470e09433	8be4b2e7-68a7-4a19-a0a1-dbcfe4cc7051_dr12_nocnv
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	8ff2f788-d614-494f-be7f-654151a03dcb	e93acee0-545b-4c67-99cd-0ffd1c65f4d1
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	bb863170-16e6-49f5-8ed6-234334ba05b9	746bf97b-0af1-471f-9f89-2b12fb94576b
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	24a4c9e3-c98d-42fc-bd15-969f82c5e8fa	075b1968-4151-4f4b-bd59-e389963b750b
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	501b878a-52be-4813-a58a-cae025061f35	b6b06ce4-94f9-4bea-b6c4-a6f41050b228
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	d83961e6-c1ff-41d6-aeb5-5f56d2156dfe	nationwidechildrens.org_biospecimen.TCGA-BP-4977.xml
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	32edd352-acd1-48ab-ac81-5d762a9dac81	2fc3cb69-6026-407a-84e8-cef0f61e6213
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	ecb65c55-c332-4e3b-b1f1-e3484ac91b33	f3206196-f39b-4a6e-8927-53a327b0d939
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	be6ba8c9-3c1f-45b9-b8d7-7e17afa06591	eed00aa4-a314-469d-a853-2a7ee915ddd6
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	74edcb91-b9d9-449a-b428-dc7fcf671f7b	36ff77ee-6e93-4d5d-a8a8-26d36fb9fca7_legacy
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	dbb350a8-313e-47b3-ac04-e61bacaf5e25	118ff748-dc12-4979-829a-3f46b16d06a9
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	70b7011c-a27f-483f-8c5f-9d3c3df41494	b198fe36-cd55-4292-97bf-a430a6bb885a
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	06dc58b8-c722-4029-8895-9b275eb74302	b207913e-7119-4c15-89b2-579db4e281f6_legacy
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	6f110624-c755-4b22-9a29-b04180749bd3	mirna_swap_dr11_482_MirnaExpressionae37cac8-8fef-4e7a-b292-3447364d7790_profiling
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	6d1bf93d-1541-4136-bb4a-f062017e6b57	c0f98ea2-6919-4a6d-af40-0a3c76ac9f7d
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	cdf53735-16ae-47c6-857c-f2e352bc84f4	a5cf19bd-1be8-4abc-b8dd-d97959e05f35
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	213c8213-b2bf-42a6-af89-473a8ea18c7b	b82910f1-16aa-4ae8-8869-97680068c30e
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	7dfffefc-73d7-4330-9715-7ab7ab3da299	4678a45d-f0d4-49d4-b477-48e211a73a84
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	531d12d3-7404-4cae-9055-742ede0eb805	8be4b2e7-68a7-4a19-a0a1-dbcfe4cc7051_dr12_allcnv
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	f708e956-e4e0-4bce-a4d4-98ff5fa1293a	b05a4ca1-0a9a-48b0-a01e-87689de5e32e
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	f2524bdf-18a5-45c7-b2be-fb0a535165ea	TCGA-BP-4977-01Z-00-DX1_slide_image
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	77010566-9858-4b49-b953-e388e5c593a8	b3f59fea-fee3-432c-b201-a6fe25e56921
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	eec7eba8-da61-4b53-a059-ebe2a1d8d48b	cd94e253-fcfd-4d2f-b763-23a3cfa64540
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	9bcb1f1e-c20e-4299-9542-a30db0a76cf7	TCGA-BP-4977-01A-01-BS1_slide_image
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	a44f01db-cefe-4b9d-bc0d-71a0afdd3d76	nationwidechildrens.org_ssf.TCGA-BP-4977.xml
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	fdd92a4b-aabb-4462-babe-e46f329f3005	f12c06a6-d397-4661-99d3-2e3a014b15b3
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	dbd14803-738c-4444-b246-517d0ce9475b	abf4434b-1688-4279-bc6e-7e83d55b816c_dr12_nocnv
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	14980e65-7ccb-422e-9dba-bc6edc8a43d3	feac59d7-c850-40b5-a0e7-35440b34f9fc
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	8f04cfaa-f6d2-4c62-a9cc-6073176d2f72	TCGA-BP-4977-11A-01-TS1_slide_image
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	8bb175ba-eb58-478b-ae50-a168873bbcb1	722a8803-e946-41d3-861e-5ae3d96a516c
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	8c9a8ba1-8d38-40aa-b094-6bee48834bdb	abf4434b-1688-4279-bc6e-7e83d55b816c_dr12_allcnv
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	624c170d-1a6d-48d6-b6b3-15be53e17889	2b62af19-4e85-4392-8923-1757fe6bd519
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	8fa8dcd9-53ef-4795-9fe8-7dd0a7b14d97	e46a0be1-dc02-4b01-9d9f-f26bcccf90d7
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	2c69ebb2-e08a-4ab2-a872-c8b8ae9c8229	TCGA-BP-4977-01A-01D-1331-01_estimate_ABSOLUTE
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	c4d17493-a994-4470-9db5-add9813bce84	aa10f237-f3d3-40ae-a6e1-275def9b25d7
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	089c02b8-f1a2-4cb0-93db-a78120f15a56	604e95ad-69fe-4c4f-8978-9289de2a72d6
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	cf487c42-9602-4d6e-932f-09654c71feef	714cb554-02e2-49ea-9a8c-ea7c7d63d38b
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	e474042e-14ee-4673-85e6-53e4c832d327	6fb413b2-4a0b-4ddb-a99b-57778f613409
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	85d1255b-f0e3-4f7c-850b-a967b1a4dbed	3685dfa6-7b81-4522-a962-de32a2e419e3
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	77dbb468-8055-49ab-b8c4-67262844e4db	TCGA-BP-4977-01A-01D-1331-01_TCGA-BP-4977-11A-01D-1331-01_segment_ASCAT3
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	4f20689b-44a7-4b05-8a3a-e6e429b19293	6859930b-8a8f-4411-8557-16764e0ed56c
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	38314288-b884-4062-847b-fb3fc04eabad	71477175-2738-4dc1-8882-0a61a20ff18a
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	af287fe3-b845-41a4-b10d-f0a4d8b51d1c	TCGA-BP-4977-01A-21-1740-20_RPPA
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	2bcfbfe4-7246-4b1a-aa90-c618e1555ba9	NARKY_p_TCGAb69_SNP_N_GenomeWideSNP_6_H02_697880.birdseed.data.txt
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	4165629d-7cc8-488d-996a-27ca1d052b1f	TCGA-KIRC.cdc0a674-6d5d-4c46-b1b5-b06b6da301ad.gene_level_copy_number.tsv
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	f65e68c4-c11e-4117-985a-26b3d2838f13	TCGA-BP-4977-01A-01-TS1_slide_image
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	0284657b-545e-41e6-931d-fec0263260a4	TCGA-BP-4977_34A3C089-4E82-48A9-9641-74927A3CCCB4_PDF
+	male	20950	454.0					Kidney Renal Clear Cell Carcinoma	Kidney	118b714f-61c5-413d-82d7-c9d4c0a0f1aa	TCGA-KIRC.cdc0a674-6d5d-4c46-b1b5-b06b6da301ad.ascat2.allelic_specific.seg.txt
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	ca080092-1d58-4c3d-8b27-6d92a60c3ca8	TCGA-BP-4981-01A-01-BS1_slide_image
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	cc1bc0d4-c739-4cd5-83f9-4539ca11cdd9	391fdb4c-6f19-42aa-a788-02d18ada5c86
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	59c891cb-2b4c-4418-b568-a57fd1d8428f	nationwidechildrens.org_biospecimen.TCGA-BP-4981.xml
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	3919130a-bdc6-482d-b745-af6393ccaa95	3a758e65-7d5a-41f8-acb9-58c17d16396b
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	dec66489-fe8c-4626-860c-fc8f152df7ab	f907b65d-5bf4-4d33-89b1-96af4bd217ba
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	dc673b76-fe4a-41ef-8038-3e51da713afb	TCGA-BP-4981-01A-01-TS1_slide_image
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	1005aeff-69ec-4566-983e-de019bfa0078	TCGA-BP-4981-01A-01D-1331-01_TCGA-BP-4981-11A-01D-1331-01_estimate_ASCAT3
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	4606e65f-f3fb-465d-974a-c9ba8d694c48	aabcafac-0d57-491f-b978-1813ab16a0bc
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	b69486c7-c6d9-4685-bd7b-526d1f5b7ade	f4d61d4d-ba9e-46ba-ba38-3b9a849a2d3e
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	1620bbfd-bf3c-42af-af62-4ade15cdb62d	a9190c31-ebeb-498f-8c90-5b16030589ae
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	b5a9874c-cd0d-420e-b83a-bb33331bef32	mirna_swap_dr11_63_MirnaExpressiona5b811f5-9ae2-45da-bfb4-29fb64125b92_isoform_profiling
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	14740977-f6fa-43ae-9532-1bd8292c1d71	0d91efdf-61f4-4b9b-8fc2-b717117bcf47
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	b3ea9d2e-bdeb-4ab9-b257-9ebae1d74430	c378f5c2-57da-4ab2-b2de-597d99e47df3
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	5db20bf4-c3a2-43f3-91ae-93de9eba3990	61def5f6-25d2-4bd1-81ce-1f139d584f7f
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	b65b4ebc-e8b9-4926-8761-56b99fbd9e9a	a0edbdc8-df51-47eb-a2b7-b1ee1424b632
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	04d48ce9-1f5d-4084-86f3-d8338cfba016	b285a82d-0632-4ea6-bf78-1d3c8e7888bf
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	783eaeac-ce7a-464c-b851-8befb79543bd	4c73d656-0378-4c86-9471-1b8e32f0d0d5
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	4550a11b-d165-4c73-847c-8a107be0513e	b43e185f-85f9-41f9-8b76-8b874685b3db
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	1ab9ffcf-dead-4b58-8321-1be62b59f3c0	d94ba736-e311-4925-80c2-7ef0fc224190
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	cd6b9984-1df8-40e3-8c54-2d26285cd92b	13934d68-9361-4cc2-8202-f0ec18a367c5
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	74aa7c30-5750-4ef8-bd5d-abcd48ec91b5	TCGA-BP-4981-11A-01-TS1_slide_image
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	54f4e5d3-6da9-47e7-93f9-23c872879b4f	7fe7195a-8711-47e4-a33f-400037b65757
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	7cc51046-7fb8-42d5-9c2d-de833351022b	abe093cb-603f-4064-bd6c-753c854c3c8f
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	06ef22fc-5867-47c9-af1e-a43c4d217171	TCGA-BP-4981-01Z-00-DX1_slide_image
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	c1160cc4-5ba5-47df-9971-afbd5ba60dd0	ff5c6e08-979a-4dbc-a509-dc9cbbb411fb
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	8b554203-d83b-469b-b81f-0f77ea1bdf95	mirna_swap_dr11_63_AlignedReadsa5b811f5-9ae2-45da-bfb4-29fb64125b92
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	9de2ec0d-bf7d-42a2-bd93-bb608df75621	TCGA-KIRC.48516b5b-52f7-470e-9339-289f7e1db97a.gene_level_copy_number.tsv
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	bd7035d9-1dc1-46fb-bd1e-27f7fdbab71a	22a178aa-ebfa-46ca-a9e7-830440cb05bd_dr12_allcnv
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	ae3eb54c-4ddf-4a8a-9d30-80d509619973	TCGA-BP-4981-01A-01D-1331-01_estimate_ABSOLUTE
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	51b28374-340c-44ca-a726-ea6d684e29e7	mirna_swap_dr11_63_MirnaExpressiona5b811f5-9ae2-45da-bfb4-29fb64125b92_profiling
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	9694509a-b9dc-4204-8b8c-dad5beba9cd0	TCGA-BP-4981-01A-21-1740-20_RPPA
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	508322d3-a8b6-4a12-ba22-531c03c1fe00	0636ad6d-a252-4716-82b9-614654844f2f
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	9caa49c2-e25a-487f-9567-eb5bc12249d2	b7305fbf-06f3-4e45-bf47-1f3f4f460b8e
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	d1d0e97e-fdfa-41df-82ef-e0a943c04663	5f5dc11d-4829-4365-b75d-4a48deffa598
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	5a3391a1-3f6d-424a-9633-404c6c4d8b51	57d23727-7936-4186-b11c-f292e72fe49d_legacy
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	1467f49d-b4c1-4be0-ad3e-4334102d2abd	7ef76adb-0d5e-4af6-8f8c-bfd97df415d0_legacy
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	21b072ae-dbf6-4557-8541-6cac4e9da9d2	TCGA-BP-4981-01A-01D-1331-01_TCGA-BP-4981-11A-01D-1331-01_segment_ASCAT3
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	88eef0d6-6364-4d57-8db4-5cb2cdd7bece	d67db314-07c2-4964-8878-227801b4405a
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	8c78671e-a6ad-4fb4-b43c-c22753cb6d90	53ba62f1-8ead-4e68-9f08-cc85fde50311
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	bb00a112-4b27-49b8-96b7-06de9ce381ae	a9015d91-1999-4d9f-84b6-5a1e020dd873
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	b60ebaa5-33d8-42d9-861a-dd291ee8fb56	49fb2cb4-95b3-4c76-8add-57c93e25fc0a
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	4d99545c-b688-4632-9313-c841642c9ab0	ffa86d6d-775e-4b61-903b-9b3118ebb7b1
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	4dd30a14-42eb-4d6b-b762-657da28a3221	TCGA-BP-4981_A51F871B-296D-4AAC-B9F7-91E0F3FAEFC3_PDF
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	3a110c3a-a60b-4f67-9d2b-c5eae2705d14	62b522f6-b3a1-4d05-9562-d0e2a2f280d4
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	d2d55263-f5f3-4e12-a432-7727a2cdb501	dfe73e62-5ed9-40b8-bb22-79d33d4ab066
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	d45e8ead-e19a-498a-9b24-b92239c73453	13b447ae-eb0e-46f8-88a0-4734bc8f0d8f
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	d4125039-c9eb-4964-b6a0-18885517a444	22a178aa-ebfa-46ca-a9e7-830440cb05bd_dr12_nocnv
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	2bcc2a35-802f-419e-9e9f-4e91f62ec84b	18e69cdb-fa0e-4cb8-b37b-ee11db2ea4c4
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	ca8f0745-e25a-44a1-97b1-56d637f51f21	59ce3f84-7643-43af-bd4d-ec06c27ab3aa
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	0655af2f-7ab4-4fdd-b32b-eef8eab820a7	b1432365-dafd-47b2-8bf3-ab5fd6eea290
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	0dd52b5d-172a-4069-adbe-998f213a0e1e	6948b383-3817-4db3-b8c0-308479251617
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	2fca1407-e8f5-4b1e-86a8-27899ed967d0	3fc3d9ad-3766-43a5-b2d8-28c5824f169f
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	efb5e9f3-dddd-4517-a21e-92c6824302ac	2606480a-4a0d-4c26-ad29-a00b443f05b6
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	aed71487-da0c-435e-bbc6-b80e73d54557	da9798d3-0675-4056-9cb6-6037b445b76f
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	447f52d1-898a-4f99-acd9-ff662a265ef3	TCGA-KIRC.48516b5b-52f7-470e-9339-289f7e1db97a.ascat2.allelic_specific.seg.txt
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	674c7a32-e9be-4655-a931-7c584a872e5b	nationwidechildrens.org_ssf.TCGA-BP-4981.xml
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	f6f55234-8097-4b1d-bae7-de6380218dd9	NARKY_p_TCGAb69_SNP_N_GenomeWideSNP_6_E06_697896.birdseed.data.txt
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	756832f0-5d09-401a-bbe4-6fa0875a81e0	abb47de0-1b2d-4c43-aa6a-771739ac78fc
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	f15a32be-341a-4e38-8d7a-528e49cc15af	b0bab9f4-b892-43c8-b00b-218ffc664a98
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	42ffddcc-8a29-4c4a-b6b3-38751061fd13	ce65daa6-4cce-4d15-bc10-ef980e85048d
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	a1d78270-b9d4-402b-9d02-3e2847c29c8f	2498b0c1-6a70-4fd7-b8ec-3e5c7a8fb358
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	5c81b8a0-f542-4301-82bc-b99ebb1b962b	f52760f1-a9ab-44bf-9d80-a8af6da87f4d
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	5d39d7e3-28b2-4116-a7f0-8042c95b0a1a	NARKY_p_TCGAb69_SNP_N_GenomeWideSNP_6_B03_697970.birdseed.data.txt
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	4dcac4d5-2264-479c-86e0-5e199844af97	c4c1b0a8-c3ff-453a-a9e8-152364843c88_dr12_nocnv
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	fad34b63-c8a3-466c-93e3-e47872e56892	nationwidechildrens.org_clinical.TCGA-BP-4981.xml
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	a83717a7-f5b1-42b5-8424-9b53f8bb98e2	6d83d1b2-4472-4470-87de-c43de15ec402
+	female	27676	1097.0					Kidney Renal Clear Cell Carcinoma	Kidney	a6cfeca0-4483-4a35-b1bd-30f4e28809c4	c4c1b0a8-c3ff-453a-a9e8-152364843c88_dr12_allcnv
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	9e91af66-eb2d-43ad-b6be-c337adb60b2f	a6b7a715-12cc-4ef5-9817-0668c1621af4
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	f1b90914-b38e-472d-ac17-c92db3e2beb5	39c97b0a-644b-4afd-9c47-592cf68becdc
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	86406769-4430-4286-82dd-623d0d3eded9	f84438b0-7932-4637-8e33-84cf379e5902
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	b2f9e7aa-f9a6-4706-acd4-b933f6ad6bc2	TCGA-KIRC.e0c2417b-c44e-4a32-bf6f-8ce868d680f1.gene_level_copy_number.tsv
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	2faa29c8-49e9-4fda-baea-f73583f3a27f	03319a11-b94d-4917-8422-9810c8c7bd35
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	eca96423-3397-4687-9a5d-c98b8876e9ce	TCGA-KIRC.e0c2417b-c44e-4a32-bf6f-8ce868d680f1.ascat2.allelic_specific.seg.txt
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	825c13b2-89d6-4634-a323-2991bfce027f	TCGA-CJ-5675-11A-01-TS1_slide_image
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	d4d5f285-2c6c-494e-8497-dcbf540c3442	8e7098bb-34aa-4d3c-8b1c-6d3bb98ab720
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	2e3faf57-3b7c-4a31-a44d-2700f7d9b14d	0802f7a1-1c05-4ed1-b25a-f92ec5401ee5
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	521b4140-6872-47ab-bb4e-dd8477c793a5	mirna_swap_dr11_231_AlignedReadsb9454391-0400-4014-a43a-ccf0e35af086
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	e6431dbc-708b-425e-893a-89cc3cbab4ec	4588937d-8c4d-460f-aa3a-86baed4e5db7_legacy
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	ba7a6b4e-24ae-4bbf-a25d-5c630f6681c7	SOOKS_p_TCGA_b90_SNP_N_GenomeWideSNP_6_D12_748618.birdseed.data.txt
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	81e2136c-78c5-45c8-bfa1-7373d981e173	c4d58d01-24f5-405c-9355-fe902a296d45
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	4247e4cd-529e-496a-add7-8bfcfcf2015f	nationwidechildrens.org_clinical.TCGA-CJ-5675.xml
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	3b286d19-790d-475e-aa79-94b376c8ac79	e916f862-99b6-4fbd-adc1-1b234469aa5c
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	d2d0de24-771e-4ad2-b29f-68e9a6d5ff94	863f32cc-9b0e-4394-98a2-6311968ed58e
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	d1bea9b8-fd94-420b-8e92-e24de9cd5d25	mirna_swap_dr11_231_MirnaExpressionb9454391-0400-4014-a43a-ccf0e35af086_isoform_profiling
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	b135a6c7-1ec1-4f62-9585-2bb1708f9270	7f3e2bcf-5d26-4a98-b336-af7ae631fc7b
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	f4009fe5-622e-4d16-8a77-0254b1692197	TCGA-CJ-5675-01A-11D-1530-01_estimate_ABSOLUTE
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	98c003e5-5c02-414f-b36a-d8f998890420	b1ed3f28-2011-4205-a150-6790f5ec2e9d
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	da87bb85-954f-40b3-90fa-33c3598ca847	SOOKS_p_TCGA_b90_SNP_N_GenomeWideSNP_6_C01_748582.birdseed.data.txt
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	3a521cd7-29c3-441d-8c65-ee1b99088d82	d56e344d-33e7-4e38-a7e4-925f83b16e4d
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	801056e3-7498-4813-84dd-d66abcb64903	1e9365e7-84c8-411e-9c28-5d258d252158
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	05a1cc12-88ce-43b8-b8b6-d24abb071ea4	168d6bda-b64d-433f-8a4d-5c44324a8069
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	5b34b7e7-a544-4bbb-932c-1eb74149733c	1f307eaa-848f-4baa-b3dc-571700397e50
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	579b9ccf-ac6a-489c-80e6-596597e3abdc	TCGA-CJ-5675-01A-11D-1530-01_TCGA-CJ-5675-11A-01D-1530-01_estimate_ASCAT3
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	d3250255-25bb-45f8-8db8-3309b14ad775	TCGA-CJ-5675-01A-01-TS1_slide_image
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	ec630d71-8642-48ee-b4a2-03dd92f31a24	256e7bc9-2efc-44e6-b742-46c46aa3bf4b
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	8d51ceb9-f79d-44aa-9a07-048613f3afac	eddeb7bd-357e-459d-9b0b-096d7b61e1b1_dr12_nocnv
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	58bc633f-4b98-4bee-b39f-3e41a3695944	3a40401e-a0f6-427f-9b0b-c73e7142845f
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	78a34d90-9901-482d-ab56-c0361cfac542	a862f43d-2d75-4b96-88d5-30b205f92eee
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	8f678129-b1fe-49ca-a119-8424c2f09d97	TCGA-CJ-5675_D6D422EC-85A9-47F1-BFE5-C4B958515E3A_PDF
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	80ebf5f3-e9a1-4f23-af42-29c9ff8030fc	ff7345a6-00d5-404e-ab4e-1985b2afeb01_dr12_allcnv
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	388bf839-f8a1-41cc-9e06-0a72cd159754	eddeb7bd-357e-459d-9b0b-096d7b61e1b1_dr12_allcnv
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	b38a7cc9-f610-4ef8-87fc-69038f93d221	948dc42d-b6b6-4604-b2a5-7bc2d594bb63
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	01c3efd7-1fe4-45f6-96fc-7076086cce25	7aa2da5a-9261-4871-a9fe-b2656c7ded59
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	45a2c6d4-39ec-429a-94c2-b190cee73a2d	TCGA-CJ-5675-01Z-00-DX1_slide_image
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	54a97e0a-4022-4a2b-9904-fd51a79cbb10	f69ed0dd-39b8-4cec-aa88-3a015d9d57c5
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	11055308-6551-4c31-8d60-19d8eafbca16	mirna_swap_dr11_231_MirnaExpressionb9454391-0400-4014-a43a-ccf0e35af086_profiling
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	81ac491a-35be-48af-9f4d-f531b2c9c8ee	f07b82ea-cd08-4b4d-8256-46445b972896
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	9b15401a-bfad-43fd-a3d7-1e83663fb747	89dd293f-d966-458c-b364-579994e4373b
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	1172cc96-9d40-4504-adc8-c85a8f938265	63ac0e77-3b20-4a78-891d-4547fe76f85e
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	945816fd-0810-4b56-8d84-cbc2c9647166	TCGA-CJ-5675-01A-11D-1530-01_TCGA-CJ-5675-11A-01D-1530-01_segment_ASCAT3
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	ca3abb69-6d07-4504-acf5-93659abea173	nationwidechildrens.org_biospecimen.TCGA-CJ-5675.xml
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	1b100cfe-fb2b-4c9f-a288-7a1006c2ff41	a2abb6ef-4cd8-44eb-9f83-ef9c71be7e14
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	ae7036fa-f0ae-4239-90a2-03af17e87076	89df631d-505a-46ba-a068-d5a216085c5e
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	353ee9a7-673a-4724-bc3d-ee6ad6aa34b3	96581b2a-92f4-4ba1-b72b-6a37592eb135
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	3ac2d35b-1601-4c16-8fff-15d888000d14	432900e1-0b5f-4f1d-af92-e8c8b0e6b84f
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	527ce1f4-a2ee-4b99-a30d-cfb9b0fbb0a4	432d1fae-858f-4607-a942-8555abdf41e4
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	7360ae0a-45f0-4f24-90b8-ad2fc14db121	TCGA-CJ-5675-01A-01-BS1_slide_image
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	fa2dafa3-79a7-46b0-8be6-fb2316b30ef4	1cb79142-9ffc-4fad-bc48-1018fd141e39
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	78acd650-d709-4e16-8656-b8901ea2b783	417122f6-f4ad-436c-a331-21ab611c95ea
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	b1f8d1d6-83f2-4253-87fd-d644b9f5f12e	nationwidechildrens.org_ssf.TCGA-CJ-5675.xml
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	f6ae46e6-1612-4e17-a47d-5bed268b877b	9a35e0ea-f0ae-4fd5-ae18-9292b5eae79c
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	a50fadeb-f2ad-486d-b6c8-8afb2cbbcf8d	1f6d393e-9872-44c3-a59c-0d1f20d6d4c3
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	b3c710be-5b16-47e4-8a29-9e472392b756	41d480bb-80ca-4f7d-8ec2-a82451a20b84
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	791e6419-67e4-484e-901a-232e7fca337f	5a4c0b4a-2a66-4475-90b5-9c026388c7a4
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	173b37f6-89bd-4650-8c48-3985a526af94	ec1bba37-2057-45a2-850f-4f11c5d69eb4_legacy
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	b67ef76c-9290-48f2-864f-3a5e3a64c38a	6a850e3a-9a50-405b-bafe-483794d11921
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	53031bb9-1d67-4991-b06c-b07ca1691a73	fae81de7-90d0-492f-ad2e-440ecda2f7a6
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	d22a2d46-e4a8-4e72-8454-4bc7b280315d	c08577f9-710b-48fb-915f-cb92f71259cb
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	afcb0582-41a7-465a-b779-ca28936cf457	c65861a9-865b-43b1-8f2b-0a3571e961d2
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	6ff96eea-6961-4682-924f-904cc4a655c6	ff7345a6-00d5-404e-ab4e-1985b2afeb01_dr12_nocnv
+	male	26517		25617	3936.0	26517		Kidney Renal Clear Cell Carcinoma	Kidney	df3aed57-447e-4351-a211-158001acd153	TCGA-CJ-5675-01A-13-1742-20_RPPA
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	be27ba16-714e-45b6-a67d-92fd8aad8427	196459b0-c1d9-445e-832a-a82d686cc88d
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	61bef480-c195-435b-a205-5b81aba27a66	7353b86f-e164-4337-a426-7fa5d13abcf9
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	5c311fb7-48c9-4447-a3c4-4953b48abc33	4fcc0ee1-d32a-432d-bd0b-7f6f98bf4069
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	d29fc250-19c8-4907-b275-9874a409279d	82375ed0-5d21-437f-9d40-24900cd3a469
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	b1016e38-cfbd-472b-b8eb-8f363605b3e4	7971d45f-711b-42a1-aab1-fcd5fb2ca37c
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	1532d5e4-410a-4168-91f4-421abe6e7bd3	32cd54d4-d97b-45c9-a5bf-20e2729c7bae_legacy
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	8818ae53-3768-432e-b840-4943cd746269	66ec50d6-cb3e-4f57-b9da-b830221ef4db
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	71f4bfaa-e33c-458e-a638-274d9a8b3c60	TCGA-B0-4845-01A-01D-1274-01_TCGA-B0-4845-11A-01D-1274-01_segment_ASCAT3
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	0d59a6b8-df18-4a39-a099-4f96d99b0412	TCGA-B0-4845-11A-01-BS1_slide_image
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	2c6e7b77-bc2c-4941-b7e5-14b31cd7ccc1	553c04bc-522b-4520-afbc-b03f7bdfb7a4
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	dba8b360-4736-466e-97c8-c51e96f37085	b1373860-15bd-4aaa-a11d-d06fd2289044
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	8a63d0bb-54a5-4ded-ab4d-e57040a994e2	nationwidechildrens.org_biospecimen.TCGA-B0-4845.xml
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	9378cca3-7878-48c3-a38e-3d3a90990fd5	9f8e27b7-747b-4f82-859c-8ab8c1a42660
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	57f64c4c-44ac-41cd-9716-2b397bc4effa	69a3704e-42c5-4f70-b34f-5ca6a9fda93e_dr12_nocnv
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	efd0c59b-f103-4266-8292-e98e397abc99	e35d7078-40f4-4d2c-95ae-c5c8d4b6a113
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	e36a9fe2-84df-4794-a26d-ee6dc52382f5	nationwidechildrens.org_clinical.TCGA-B0-4845.xml
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	02fbf988-a7da-4987-aa1d-c2f1c0638b38	0b4ae672-d01b-44e1-95d6-de8256bd2709
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	32ea5e31-7a79-4ab6-b119-d41b1bc19066	43af2f8e-a365-48fa-b56e-d0ba8292c327
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	624759ee-492b-49d2-a37e-fe9905f429dd	nationwidechildrens.org_ssf.TCGA-B0-4845.xml
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	9434dbb9-8393-49c2-8d3e-b20dca5e0305	mirna_swap_dr11_307_MirnaExpression166e8869-a23b-48ad-b05b-9f3b2e344d3b_isoform_profiling
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	58011978-8532-4105-bec0-88c18a1d45c1	d601fca3-cbac-444c-a965-df08582797d3
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	62e7d257-025e-48ce-9479-057571548c62	854b6c76-625f-4427-b1da-ef92decb7422
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	e6c684a7-0858-4513-bff2-967d7253410b	PLENA_p_TCGAb63and64_SNP_N_GenomeWideSNP_6_G09_697282.birdseed.data.txt
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	85cb9537-3e73-4149-9f80-1a7b391cb500	mirna_swap_dr11_307_AlignedReads166e8869-a23b-48ad-b05b-9f3b2e344d3b
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	54ea3f6d-fa5e-45ff-b885-4f8c45820378	7d1fd643-f4bc-4d32-be77-9307db70c4d1
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	7750e662-1360-473f-9538-80bbe8fe1248	TCGA-B0-4845-01A-01-TS1_slide_image
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	919b937f-1bad-4672-85ae-bdb3322d8635	515af61d-2654-4a75-855b-a1810b4195eb_legacy
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	cc852e51-7ed1-40a0-aa7b-2a3bfb1b7e5e	TCGA-B0-4845_A6ED168A-DB1A-4AC6-9979-3560EFE5DAAA_PDF
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	c9ff19f6-4b30-4ae2-8d77-779f337b0323	TCGA-B0-4845-01A-21-1739-20_RPPA
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	352d51c7-a8fe-4d4b-af19-589c8c1a2845	a76a92c9-0d18-48a9-9e71-67c6f07a01f8
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	3e60a38f-a06e-44df-a1c3-c6c910e77359	TCGA-B0-4845-01Z-00-DX1_slide_image
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	98c59379-173c-41d6-874a-195230d513e3	a0916e69-2029-4e41-bf78-7b6ffef6eaa1
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	aa370abd-d60d-472e-b92f-f4477209df8a	7f692a26-b649-4bcd-9603-416178817a44
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	91d61f46-035c-42c4-8db5-b6332f59f410	d889945e-724f-474a-afc7-ef05f185314e
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	d1e45097-d21a-4290-a81f-ad237fd978b4	69a3704e-42c5-4f70-b34f-5ca6a9fda93e_dr12_allcnv
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	633fef2c-c9ce-4b76-ae7b-0dfcc4123a6f	f8684891-55d3-4531-be04-ad516764517f
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	2fbefd2b-8235-497f-a876-862ff4a49680	TCGA-KIRC.1ebf06c0-0491-4596-8b36-980486adf709.gene_level_copy_number.tsv
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	6f589e7f-057b-49a8-ad56-7d50bced7894	TCGA-B0-4845-01A-01-BS1_slide_image
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	b2ca8a06-2888-4073-a4c8-1e0bb6d6f623	TCGA-KIRC.1ebf06c0-0491-4596-8b36-980486adf709.ascat2.allelic_specific.seg.txt
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	3d24b51b-a8b7-487e-ba68-36a8e6bfce93	b24d0c4e-f7e3-4601-8421-d454f88d807f
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	533224da-2130-4c6d-b1fb-526509924814	98432333-3233-4b74-85d8-b296fdc7b3ef
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	ae639e4b-b26f-47ee-a78b-984da8922ca0	11f4769f-1ec5-4107-9b3d-fcb593da2cf3_dr12_allcnv
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	dcfb89e4-734d-4ed9-b919-bd05bd3d217b	TCGA-B0-4845-01A-01D-1274-01_TCGA-B0-4845-11A-01D-1274-01_estimate_ASCAT3
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	68b356f6-cde8-4039-a649-d238d96d8a18	mirna_swap_dr11_307_MirnaExpression166e8869-a23b-48ad-b05b-9f3b2e344d3b_profiling
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	5ff65718-4377-45cd-9720-b1ceef0ffdfc	TCGA-B0-4845-11A-01-TS1_slide_image
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	58750b3b-dfb0-461c-a034-5fc0aac9df84	TCGA-B0-4845-01A-01D-1274-01_estimate_ABSOLUTE
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	6a7b2510-6d8a-4a2c-8435-3edb7539bdc7	a1872e18-05f5-4a7e-ac9c-e187030b8a10
+	male	26330		25582	1986.0			Kidney Renal Clear Cell Carcinoma	Kidney	4a1091d5-e320-43f6-8503-47050eec1e6f	11f4769f-1ec5-4107-9b3d-fcb593da2cf3_dr12_nocnv
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	7697ecfc-fd98-4cd3-a4da-156117e1de18	TCGA-CJ-5677-01A-01-BS1_slide_image
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	8aff9c08-2d52-4759-8455-f0a7d1edd655	776f3380-e4b6-4a68-8d23-a4623b9e557e
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	377eeaac-920c-4f47-8093-1fb8c01bb370	496c2f56-236c-495a-aa1f-9c3df12ae8bb
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	3097cce8-a67d-4c76-9fd9-bee03915eb34	e88b42d9-ea73-441f-9b38-0c307f946dc9
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	a13160c6-b784-4295-b238-d091b2cfef91	da1b7e7e-209b-480f-8180-bc1522f6fc30
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	5bbadc88-3f29-440a-8d0d-995c1fcac54b	mirna_swap_dr11_237_AlignedReadsbcaa5b2f-a97b-4962-a5d0-d4d0c6ed5334
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	37135de1-42f7-4e98-a703-8d3cd8ed9684	05ec19a6-70c2-4801-8a56-79a5745614ea
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	696cb289-fdc2-488e-b5a9-418d3024eca5	TCGA-CJ-5677-01A-01-TS1_slide_image
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	127fc1ee-0944-417c-8bfe-ab5750d6dec4	nationwidechildrens.org_clinical.TCGA-CJ-5677.xml
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	6b7eea9a-d750-428b-80f4-a3a32a7bff8c	fd611ab1-c7a9-4252-bed0-03b38b87fddc
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	934c8335-8f69-472c-9d15-e415fc2c2bd9	ea390000-5d59-42e5-954e-ac23a028383b
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	fbfabaf7-deb6-4248-ac75-7105a0d9232a	b703030b-c9d9-4524-8674-e79126d4fba5
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	deb5b8d4-6a3e-42d9-998f-ac17c0d39899	53bbcd5b-57fa-4a74-a108-85ca81d2a4aa
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	78dc6fc3-c0da-4df4-88ba-7f97ce215558	1ad303d5-3e62-471b-a99d-a25700ec7f15
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	a1ebe169-2727-4d61-bf51-6ce5f2e8b018	8e228e67-afa4-45e9-a0bc-6ba0a945bedd_dr12_allcnv
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	fcc09d9a-9fa8-4c2f-a7de-3dfc00dbdc1b	TCGA-KIRC.cbc7213b-2973-44a6-b743-c09183392633.ascat2.allelic_specific.seg.txt
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	7b6185e6-d748-4b99-a639-d01adf5cb02b	372a5e08-7142-4cc0-adae-9e5839a0266d_legacy
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	6c711988-4c49-4916-a2d9-571e2731ee4b	nationwidechildrens.org_ssf.TCGA-CJ-5677.xml
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	cd472fb1-a19f-42b9-ae1d-cb75faa782be	ea1a0ecc-9839-4d70-8253-d6afc31cd4e1
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	f6b29ee4-cd77-45ff-87cb-50b70101283a	mirna_swap_dr11_237_MirnaExpressionbcaa5b2f-a97b-4962-a5d0-d4d0c6ed5334_isoform_profiling
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	9d4c9701-1e57-47a7-a76b-b897e9a3709c	2f23f55f-db25-4c6e-a6a0-ffce6ee60f9c
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	58c53eb7-0fa9-4d5c-b04f-1690c94350de	mirna_swap_dr11_166_AlignedReadsfba03650-54c5-409a-89a8-cab392c5bc8d
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	faa0567b-a570-4675-99df-a23aed3d0642	c94265a9-4c9e-4c1c-bb13-8c3b79bc0feb
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	556eb7f6-09ea-4ab2-99db-56efe092c3c2	mirna_swap_dr11_237_MirnaExpressionbcaa5b2f-a97b-4962-a5d0-d4d0c6ed5334_profiling
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	2742de20-7cba-48f1-8a3f-60f27593e865	d2ce967d-0a4e-48ce-8fc1-aa9f4d306450
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	95202dd0-939b-4dd0-89b9-ac8a6d6b5488	6a01d04f-3b33-47c9-b0a6-3b026db82a6e
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	a8d7a111-8d21-4717-b49a-586bb2cab3f4	04e10955-5b4f-495e-8e86-d86100b3287e
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	ae093695-7ab2-4b66-95ee-b8bee09fc995	745909cb-6eff-40ef-977e-481220db1901
+	male	19059	648.0					Kidney Renal Clear Cell Carcinoma	Kidney	065b66c6-d786-4dd5-85ca-f98ee5bb45b7	dac6470e-16d4-4d63-adc9-e03c9ecc81e5_dr12_allcnv
+	male	19059	648.0					Kidney Renal Clear Cell Carcinoma	Kidney	8d6321ba-1e0e-4380-9012-e7faab73f7ac	787fd215-b0eb-4d8e-93bd-daea3ed193c6
+	male	19059	648.0					Kidney Renal Clear Cell Carcinoma	Kidney	b4962bc8-1f2e-4f18-b775-ace63bfc54be	7ec5bc91-0032-4400-a77c-206e845a8039
+	male	19059	648.0					Kidney Renal Clear Cell Carcinoma	Kidney	35dbd381-6ed9-46ba-bef1-f9006a7ab5e0	aa84910a-4c80-4022-90d9-f1ea391f41fb
+	male	19059	648.0					Kidney Renal Clear Cell Carcinoma	Kidney	b6d62d19-082c-4d1c-924b-e70d463a346e	9f33d906-8813-49fc-a1f5-51ea6773c8e0
+cfc999aa-802e-4a0d-8b14-be2b19fa2a17	male	19059	648.0					Kidney Renal Clear Cell Carcinoma	Kidney	b3e6cdf6-3412-40cc-9c1a-d266d03428a7	a607fa24-c083-4a15-9783-dd7e92ba3f99
+	male	19059	648.0					Kidney Renal Clear Cell Carcinoma	Kidney	79eb2e53-e2db-497d-8170-16c95f1660a2	TCGA-KIRC.b5640538-8ba5-4924-acaa-86e0c1fafaa0.gene_level_copy_number.tsv
+	male	19059	648.0					Kidney Renal Clear Cell Carcinoma	Kidney	fdf8c335-a82f-420c-aa74-a2ac80143732	30ce5c4b-883b-4224-b60f-36cbf4eb01ad
+	male	19059	648.0					Kidney Renal Clear Cell Carcinoma	Kidney	f6fb0bd4-32fb-4253-b038-5d0305555df8	TCGA-B2-4101-01A-02D-1274-01_estimate_ABSOLUTE
+	male	19059	648.0					Kidney Renal Clear Cell Carcinoma	Kidney	921d8936-960d-4e91-a5ca-250e0e38dfbb	5aea61a2-05aa-489b-ad10-f0d2718c3bcd
+	male	19059	648.0					Kidney Renal Clear Cell Carcinoma	Kidney	b6c7efaf-94e2-4675-9c81-6b3be73a0688	dac6470e-16d4-4d63-adc9-e03c9ecc81e5_dr12_nocnv
+	male	19059	648.0					Kidney Renal Clear Cell Carcinoma	Kidney	3932b08b-bae1-4ca9-9c1b-cb111c2f20a6	TCGA-B2-4101-11A-01-BS1_slide_image
+	male	19059	648.0					Kidney Renal Clear Cell Carcinoma	Kidney	61614c27-c592-494d-9843-fbf24084c3b3	TCGA-B2-4101-01A-02D-1274-01_TCGA-B2-4101-10A-01D-1274-01_segment_ASCAT3
+	male	19059	648.0					Kidney Renal Clear Cell Carcinoma	Kidney	7dd8b4d2-c27b-48d7-806f-e766edc34f17	47503f7d-e57d-4cb5-9964-a5ecdaaa5f18
+	male	19059	648.0					Kidney Renal Clear Cell Carcinoma	Kidney	3e761a6f-9e99-4e7a-9416-7598111df11c	c1cbcc68-16e4-45c2-9b2b-32c07167c003_dr12_allcnv
+	male	19059	648.0					Kidney Renal Clear Cell Carcinoma	Kidney	35d42855-b4d1-4b41-ae3a-a42bb9cfe09b	a60d7abb-c312-4bf1-b40e-5c8b58bc0dad
+	male	19059	648.0					Kidney Renal Clear Cell Carcinoma	Kidney	dfed3e51-d3f9-46f7-8f2d-27f9a4aec111	mirna_swap_dr11_506_AlignedReads268de89e-1076-4ed9-9442-e9a81c55e095
+	male	19059	648.0					Kidney Renal Clear Cell Carcinoma	Kidney	c89af882-31e7-4be4-a33c-141a1d33fd2c	nationwidechildrens.org_biospecimen.TCGA-B2-4101.xml
+	male	19059	648.0					Kidney Renal Clear Cell Carcinoma	Kidney	c42c7832-b9f5-432c-9ff1-8c962aa5129d	c9e4ee1f-4b48-46d6-8f6e-080cb956b383_legacy
+	male	19059	648.0					Kidney Renal Clear Cell Carcinoma	Kidney	bcea7320-38cb-4529-8645-ccbaf3e15c68	f7427669-5a62-4d9b-85c8-28142c4fb29a
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	bc1033fb-faf1-4f24-ba23-a97f4275f661	TCGA-6D-AA2E-01A-11D-A36W-01_TCGA-6D-AA2E-10A-01D-A36Z-01_estimate_ASCAT3
+	male	19059	648.0					Kidney Renal Clear Cell Carcinoma	Kidney	c8bb6fb0-b1b9-4e2b-ac51-1e5166ec9ecd	7e103ae0-9715-47be-88ed-e73e84ffbc5a
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	544771ea-2cb3-45d4-acf3-33f21c9fb6d3	a3e64644-01ce-47cc-814f-ef69e5c109f2
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	e4b0a4b1-a4ac-4b5b-9d53-397a76c3069c	701e0ff9-323b-4b17-9886-d62e7c9e1841
+	male	19059	648.0					Kidney Renal Clear Cell Carcinoma	Kidney	b54c245c-932d-4c0d-b609-fc9885a2e0ec	c56ec86c-e7c3-408f-a73c-5c4d2f406ff0
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	b4a33791-6033-45b5-8c47-d5d6a7a1b4d1	1693fb7b-5f48-4f5c-9340-9ec7c60f3b4e
+	male	19059	648.0					Kidney Renal Clear Cell Carcinoma	Kidney	9ba598dd-4e6e-411a-86dc-20f7988e9b17	TCGA-B2-4101-01A-01-BS1_slide_image
+	male	19059	648.0					Kidney Renal Clear Cell Carcinoma	Kidney	0906b261-ab66-46c0-961e-b7e70a99d1f9	eb778f30-0d62-4503-8ad0-73ae79c16072
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	213ea0eb-0e66-4161-9d1d-035364d09016	TCGA-KIRC.6d667d47-f952-44f0-8ff7-81878fdb085d.gene_level_copy_number.tsv
+	male	19059	648.0					Kidney Renal Clear Cell Carcinoma	Kidney	078f25ee-ecb2-4b1e-98eb-e63f67f85dda	mirna_swap_dr11_506_MirnaExpression268de89e-1076-4ed9-9442-e9a81c55e095_isoform_profiling
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	560e7824-1826-4b67-9ad8-3950dfaec88e	82133303-1018-4fb3-9d78-94c618ef0c17
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	9edb410a-3dd4-4371-8abb-b4e5bdd9d891	c1b96f12-1f91-4484-8ae2-b2a1dd298b58
+	male	19059	648.0					Kidney Renal Clear Cell Carcinoma	Kidney	69b96a62-0489-4af9-8fd9-37584c03b5ef	0edd1a7f-d71f-4591-a76c-8bd59b9035b6
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	8f08c8b1-9c24-4b53-aeb6-873a4ce5b693	2df117ff-c467-464b-aea1-7fbab836c32a
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	7ff05ac3-dc35-4fbe-833c-c228946037c8	0f1c6511-92bb-4aec-8a54-34e51f317221
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	4ec8f386-9c4a-4167-93d4-bd4e99a5e75d	1fc29b48-8b0d-4a7c-83df-ddba865c5a36
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	d95d8ff9-4f94-4384-9c78-279fb0534b10	b1bff1ac-bae2-4726-a77f-4c82c6f65720
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	75e24a25-ff50-44ea-a0c4-5517ff5c648d	4f573296-63b9-41fe-a2bc-283a3fbc3ca8
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	c5af95fb-40cd-40e6-8092-70a06073a847	TCGA-B4-5377-01A-21-1741-20_RPPA
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	6b4c79fa-47f2-4f02-8fc4-9156b980ac70	mirna_swap_dr11_9_AlignedReadsc0b8b6f1-a593-4b93-aa78-0949f68520cf
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	6bdd8fe1-c803-42a3-846c-5721ec9cf490	8232b3b3-145e-4bd1-9e88-d44ccadb7c98
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	cf2b915e-70c8-41b5-b9b1-53118fd82307	1dc7f742-a4d9-4686-8a4d-ce51af087822
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	1ce395be-b43e-4ed9-a1d3-463b2139ced0	TCGA-B4-5377-01A-01D-1499-01_estimate_ABSOLUTE
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	fa820423-a224-4a0f-a480-60308df9309e	mirna_swap_dr11_9_MirnaExpressionc0b8b6f1-a593-4b93-aa78-0949f68520cf_isoform_profiling
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	e7f0e708-7ed4-4d7a-9df1-ce3815b5a7c9	65182100-ad5d-4f76-8f23-58cbf0ff5533
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	f876ee0b-64f6-4e11-a980-3e0ed1371d75	nationwidechildrens.org_ssf.TCGA-B4-5377.xml
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	72865980-02f0-44c2-b119-49302d3178c8	b400f62f-7adf-4c61-b270-3802478c74e6
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	e1572f05-1da8-4c1e-9627-dc319d174048	a154b1b8-f65f-4dd3-a4a2-30006f892a9e
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	19477e8a-9d22-4a79-8e21-9a29526d064f	aad30da6-abed-41e5-8221-af20e48edc22_dr12_nocnv
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	bb3196b4-9379-466f-900c-1ea6e59590fd	DADOS_p_TCGAb3_85_86_87_88_NSP_GenomeWideSNP_6_E10_1464642.birdseed.data.txt
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	0d729657-842b-4188-be91-98978e5f5caf	TCGA-B4-5377-01A-01D-1499-01_TCGA-B4-5377-10A-01D-1499-01_estimate_ASCAT3
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	1f8241a5-0e41-47f0-9a3f-2133075e8ccc	a9693284-5e13-4c69-9034-dc7eedb44cd5
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	c0dc2255-258a-463b-bd10-f6ee1771860d	22e935cc-7da6-4acb-8bea-33154d3191a0
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	e21a6a2b-9694-4e25-88fc-2836dc61f4ef	ca602606-d55e-48b5-b6bf-80987e3b22da
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	523d38ed-c1ed-42dc-b92d-2f0b8138b1aa	5352359d-6d98-44f4-9536-b65a8032a0b8
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	78440b63-df59-484b-a0f3-049d716df6fb	a5cd8a6a-53af-4f61-86d7-08d3744a7264
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	3d17c448-b01d-4f70-beb6-3d6ea664f539	5127baf4-5f11-4f6e-ab58-a07766293886
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	dde56fcf-ffcc-4696-ac7a-0839761db53a	25aa86f6-1a59-4425-97b2-793187761bcd
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	85b0de85-b504-4ded-80b5-4397fed27adc	1657336e-9dea-417d-901d-fe8b6ab2daa4
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	0a532c2a-d163-440a-ad7a-7639b0b5e273	24bd6fac-11d6-4754-9bc9-273976196acf
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	f7e4655d-7778-4c24-842c-4afd11e09965	5b83b225-8d0f-40cc-a22f-0c4789a25b87
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	e3496414-10bd-43b5-bd72-ffe0d28da144	fa570f11-627f-48cd-9fed-fd6ceaff9aa5
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	5d21eb92-03ed-4374-831a-0bd7dcd83bc8	e6c3dc1b-e9d4-4396-bd88-676d97dc6a5a
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	1da45fc9-59c7-4bfa-9794-381299bdf8dd	8475dfa4-51d4-408e-a5d0-b8c692fe1253
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	2ace72ab-5bf1-429c-af18-6165e523f3f3	DADOS_p_TCGAb3_85_86_87_88_NSP_GenomeWideSNP_6_E11_1464804.birdseed.data.txt
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	bf241557-5975-4eaa-b542-fd155d853e7f	87f77f5a-d004-4464-93ae-b8b7871acdd2
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	bd7cd62d-9dd4-493a-8ee1-3bbc2038e671	ffb4a86a-b693-428d-a31c-bb85c990812c
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	5cf6d2f5-dee9-428b-9b52-73a409856253	1ae326d7-2bf3-4eb7-8671-474879a82b5e
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	704cdb5f-9a67-4ec2-bf7f-7eb288961e76	TCGA-6D-AA2E-01A-21-A45H-20_RPPA
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	360dfc61-796e-4531-bc19-b4337145ff00	mirna_swap_dr11_282_AlignedReadsb0e1e8eb-e691-4293-a285-2464f6176ff6
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	8e1997fe-8cac-4ac1-b3f9-013d1a5e2b73	TCGA-6D-AA2E-01A-11D-A36W-01_estimate_ABSOLUTE
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	2867a12e-cbb2-49e3-be86-17421819a815	23a7154e-9c13-4156-8db2-1c755137cfdc
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	498ee3e0-7e09-4d09-9682-15424d7d9852	f36a0ea7-cd97-4e2b-81e8-1bb5fd3eb973
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	670f632c-982d-4669-b247-98098273ba1f	TCGA-KIRC.633d9407-4aa8-4ed3-868d-5b9f98307a76.gene_level_copy_number.tsv
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	9c1c27b6-cc69-44d0-9d42-464a8017baba	e88ea073-3df8-410d-bdc9-fdd6e25c5855
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	bd31cae2-992b-4f05-8f34-25e821558b76	850f6caf-cedd-4e42-a18f-91ff7cbd3d7f
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	bc425c34-2add-479c-8bdb-d549f527ee09	e2785f4f-a88d-46fe-be66-0d797207fab7
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	bedd78d3-c6dd-4804-91a5-dc7328faac21	41867e2e-8fa8-407d-96cc-e2dbf917ea63_dr12_allcnv
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	b67b73b8-9d40-46a4-8eb1-4331340fa646	46036cf2-c430-46c9-88be-6c7e8de786c6
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	84d27282-9e0c-4c02-bccb-c8fc755b8090	nationwidechildrens.org_ssf.TCGA-6D-AA2E.xml
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	3d02a2e2-446a-45ab-9748-9c338856fcc4	aad30da6-abed-41e5-8221-af20e48edc22_dr12_allcnv
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	32425466-b7e6-4456-ab93-7fcd7f0748ff	ea052602-2523-4590-96d8-3e5fed871f85
+	female	25043	362.0					Kidney Renal Clear Cell Carcinoma	Kidney	e785f3ab-78ea-4219-99f6-6e0d51df3082	0d4df4c8-1f1f-461f-8cf2-4c2d19043d87
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	da826461-292d-4138-96e6-76ea07fbdc65	6bb92453-f60a-47cb-a197-d66e2aa8be1e
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	80f5cf92-e86d-4fd1-9165-fc7d481f2250	476a4160-e5c3-4eb0-92e8-b95c49e8be38
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	1d620610-f6f3-49a4-a6f3-89607a540916	NINES_p_TCGAb68_SNP_N_GenomeWideSNP_6_F06_730644.birdseed.data.txt
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	926a1888-32b8-4861-a566-9b041b38d00f	98749479-18aa-48e3-9113-957f43294371
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	29c1ec3e-d517-46ce-b294-e40c43a8cfea	TCGA-B4-5377-01A-01D-1499-01_TCGA-B4-5377-10A-01D-1499-01_segment_ASCAT3
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	8045dc59-8aac-4df9-b0dd-90b58d990cb2	0ed8c489-214c-4fa5-8645-33fc88d6f97e
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	b9ac24f1-593a-47c2-90a1-aea416676073	731def80-f995-4507-a459-a2b09e5bb9fe
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	911594e4-d137-4bc4-a870-db3d35653da3	b8dc31ab-ebbe-4617-9106-19ea039dd31c
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	60ff3df8-6045-40c0-8c12-91e566163eee	1d82a02c-da66-417f-9e2a-504be0e21e0e
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	a698622e-3fc0-47c9-adee-259a38202f88	aba86acc-95d6-44b8-b040-5a7f4378965e
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	b7e5e226-0cc0-4b4b-be2c-d02a73f8982d	8321560f-2120-4e2d-ac4c-057421789fc9_legacy
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	2d9fc6e7-17ac-4362-8b41-5bd6d319b2aa	46dc900b-68bf-47e0-9412-6e83fe3871ca
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	7e686c42-9b13-4b6b-a509-aada4c20cf6b	a67ca2d3-a7a1-4d08-b92c-a9891e726da2
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	646a22e1-a42d-4964-8126-6f7393c85a50	nationwidechildrens.org_biospecimen.TCGA-B4-5377.xml
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	b0caed95-c96d-4c3f-bd86-2fda70f2d431	90c39dd2-00af-4511-b913-0b19df6be25f
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	ec2eb8e4-330d-410a-9427-725e8bc1b66b	afe1345f-aac7-4fea-bf3b-7b9ff61304c2
+	female	25115	365.0					Kidney Renal Clear Cell Carcinoma	Kidney	482c2a63-9434-4a93-8d99-df51f9a74bcc	de9c2acc-6e0d-4f93-9519-63c0ec9fde10
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	aea9232a-da79-4d0d-8d98-cbc07e624e28	3a507e9e-a6c2-4422-a0a5-db2e7a13966f
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	dd24dfe6-c019-42bc-92a6-a45f4136238e	9a1b7615-7393-4670-bcc9-70cfbc216bfe
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	40ad29a5-ad57-4e5c-b4ec-2ca29ebdeac1	52aff1e9-8b38-43a4-860d-d50126f9f129
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	13333142-4d60-40c3-9d14-d59570207a89	4049b6e5-b850-4857-966e-be2395bb7d69
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	a94b6f5b-e97d-4dd6-a0af-4e006a1782af	NARKY_p_TCGAb69_SNP_N_GenomeWideSNP_6_H07_697812.birdseed.data.txt
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	26739e3a-bec2-469d-85a6-cc2efe227e65	4d31aea1-85a0-4088-96c1-5ce09874f493
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	20264ba8-6701-406a-84f4-a21fe6302d40	648e6c6b-2d9f-481f-a63e-6fbb6aaca0bf
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	861972e9-92bd-4400-971c-f8c83e6294ec	2ae07dc2-3d5b-4e56-9f3a-94068ab26d4c
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	c46fbb42-25e1-4ab4-b3f6-9d4c14360871	47b04be5-aeba-4a60-bb71-5212c101d8bc
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	4db08c83-17b3-493d-8dc3-ef82be3052dd	b49d8b01-618d-448b-99b2-cb7731e542c0
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	9ab7548b-f4a0-4053-846c-de5697cf5481	6f26d5a8-a3f1-479e-9ab9-5fdc2be1eca4
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	ee76df62-6a62-4129-bfce-408e2bbcc02d	4e7286bf-b439-472d-b633-b9507cb4dcd0_legacy
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	339b9580-3617-4aca-b1f2-f3e36c174410	046ddd0d-080d-45d4-af5a-940877b3f8d7
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	f5471a9c-b405-4cca-bf06-fac2166dcbf5	4a028c9f-5ad6-458d-9c79-015d74602f0a
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	b8d574ac-6537-47fa-bb34-a85792742058	TCGA-KIRC.ffd26882-d25f-4330-a3e4-8a8e0d5bc141.ascat2.allelic_specific.seg.txt
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	77e1ea88-7f31-496b-a4f8-178fc23cc850	b7396cc2-109a-4d72-8ba3-8763e76bd5d4
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	4c18c5cd-f93c-49b4-ba21-a8a78b4587eb	8a55f89a-31e6-4f49-b299-93cb28ec2845
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	053ced05-7ea6-4e6c-a8b0-b1425727c90e	85bbd6cf-59e8-40b1-947b-cdcb339d24b8
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	7a7d3b06-ad52-4d73-8814-0266fd8715db	035770e2-e787-41e1-b7cc-53b931d1d58c_legacy
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	2b1c7a26-2915-4e85-b6db-9e8fe2a43ba0	872353a6-64fa-4de9-80b9-e0fca049524b
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	b0f2b429-4ce5-4253-9911-b8b3a22930a5	TCGA-BP-4961-01Z-00-DX1_slide_image
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	2a52bed8-3128-400e-a734-050bf5cd163f	33e95521-5aa5-4b98-a017-ea82f932bb40
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	7fc83367-1e79-4dbc-8bde-e7a139e1f5de	dde9bdc5-6c98-4aca-b19d-46b559283fee_legacy
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	11693b42-6d55-429a-adc8-ad9607f02c4d	bc89f2c3-ee47-4ba3-874b-a326a9e7bd92
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	344667ad-e365-4618-a995-34892f36caab	67cf3981-5715-4890-9dd2-10f75df4c5fd
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	ad48d136-e3c8-40b5-a61b-50a9c59053b6	TCGA-KIRC.cf625520-4c28-4208-8eb3-9c5b49bbedbb.ascat2.allelic_specific.seg.txt
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	cf8bb8b6-fcd8-4254-a0da-b7f45fd8dcef	9fe247e5-8553-486c-bd6e-11f6ebbb5219_dr12_allcnv
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	65e8e914-ce05-4414-8421-35b0afba9601	TCGA-B8-5163-01A-01-BS1_slide_image
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	8c3ea613-2c69-4aaf-b987-254a14733ad3	TCGA-BP-4961-01A-01-TS1_slide_image
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	d06363e8-d6b0-4a14-94b9-efa12cc7c572	0620c684-7a53-4cd4-9e3d-7b1d622bee7c
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	4a240c58-ec3b-4ddd-ace0-fb367d5f1553	mirna_swap_dr11_157_MirnaExpression69bc7fa6-3a02-40f7-b6af-7f66b0e91bdf_profiling
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	633c1d8a-eae4-4e4a-a62a-75e6d1426db9	f3605f71-51f2-4c95-b6b4-32d83ebd1075
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	6442dfb3-761c-4da1-a30d-cd8c2932b043	c61da186-adaf-4b04-b0ac-c6dff6056b5a
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	1afd0a8d-54da-4a3e-b6a2-6017cf78cdb3	67d2b5e0-6bec-47d2-9956-e6eeaabcf46a
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	235f5678-ed60-45d1-8542-8141c53ef54a	TCGA-BP-4961-01A-01-BS1_slide_image
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	63b18654-44f8-494c-83a5-0657f44dc879	e8bb79f5-a868-43de-9e3a-2ad17f01df41
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	e0ed36e4-5d35-408b-b2fb-a860347bf9d7	NARKY_p_TCGAb69_SNP_N_GenomeWideSNP_6_E08_697888.birdseed.data.txt
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	a08d7365-b404-4551-8638-1b377e11ce96	NINES_p_TCGAb68_SNP_N_GenomeWideSNP_6_C09_730666.birdseed.data.txt
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	f6f793eb-59aa-4d57-92a0-ca9e6527e1f3	668c0760-1a80-4e7a-9add-f67308d9c56a
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	89342a87-db19-4f8c-8bcf-fca04eb11dcb	eaf7f8be-8fc5-4030-a4ab-9993446350a1
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	7af23392-bb24-4340-b3a4-1f68e10ecbbf	TCGA-BP-4961_75D67C82-1B9C-4B88-A087-205C1356131A_PDF
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	e2208b29-37eb-4fd3-8f62-888b67dbe8c8	29e9b6ee-7499-497f-87fb-39e2abd30869
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	7d1bf03e-6721-4772-836d-03813f4b8128	ce7439e7-7ceb-48ed-8bfb-f0365ee0ca4e
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	5bc0bf27-222c-46f5-a13e-5baf79585b4a	ab04703a-5346-4fc7-b2c1-33677bded0a5
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	12639f11-a51a-4119-84ab-0fc88652eed9	9898833f-d026-4131-9bdf-703b0209846d
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	a26fc228-cba5-4a0c-a3e2-e8067738cd11	TCGA-BP-4961-11A-01-TS1_slide_image
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	8b1c99eb-6fff-4c6b-856c-f05fcb86ef43	de5596a3-7fc1-42f7-8824-b34aa502f29d
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	ff533a84-48a3-4afe-86e7-39021379f598	nationwidechildrens.org_clinical.TCGA-BP-4961.xml
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	8252770e-0340-4930-8c3a-a77d3b814356	mirna_swap_dr11_486_MirnaExpression8e8a1896-03e7-41d3-8df3-315748d94a48_profiling
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	5ad001ac-e647-465c-9944-7fc68e9f7bb8	mirna_swap_dr11_157_MirnaExpression69bc7fa6-3a02-40f7-b6af-7f66b0e91bdf_isoform_profiling
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	39c94a70-a68c-405c-bfbf-9675fbb1411a	4b63b1fe-425c-40be-96d4-238baeca14ae
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	3dacb8c1-84a7-4fe5-af4b-7c1ca0a113ee	TCGA-KIRC.cf625520-4c28-4208-8eb3-9c5b49bbedbb.gene_level_copy_number.tsv
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	c350bdab-0604-46dc-8d38-4b097b955998	TCGA-B8-5163-01Z-00-DX1_slide_image
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	46508297-3561-453d-9ac2-eb8d42e6fcfb	83c4b168-74a7-4dca-8a11-ea34ebabb273
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	a44b5cef-d0df-44b7-87e7-c3f2289e5b8d	nationwidechildrens.org_clinical.TCGA-B8-5163.xml
+	female	23293	822.0					Kidney Renal Clear Cell Carcinoma	Kidney	eb7fdd91-dfcd-4d5e-af1e-994492bf7a74	9fe247e5-8553-486c-bd6e-11f6ebbb5219_dr12_nocnv
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	ecf1f796-c316-4294-9699-d48e303910fa	TCGA-B0-5092-11A-01-TS1_slide_image
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	32d19f90-46a4-4cb6-a412-742284d2eacd	47ec2941-21b7-4af1-b888-e500eb62de7d
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	5376042e-3893-460e-9140-169bc788b25f	081bb473-8e14-48c4-bb75-8b45cd630d01
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	4ba99ab8-00d9-4c61-9517-6d373ef32ba0	TCGA-BP-4961-01A-01D-1331-01_TCGA-BP-4961-11A-01D-1331-01_segment_ASCAT3
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	75d50768-d91a-4f48-8e2c-3a1b130a807c	TCGA-B0-5092-01A-21-1740-20_RPPA
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	ed81a644-6128-4f08-97f0-35716fb3bc47	b26e17e6-50c9-4fbd-9d27-9cc24baa879f
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	d25a7917-234d-47dd-990c-c4e77372f500	f55e086b-0622-4544-b7e3-63786b48f6cb
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	fd04e272-bb99-474b-929d-7763b3bb9372	b65d864e-fc6c-492d-bdcd-73643c9819bd
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	634acc20-765a-4517-b7ba-cc2425700282	f2585c1d-0c82-4e71-8952-d616bf1c832d_dr12_nocnv
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	502e5e53-614c-4d99-80cc-37209c5d39e5	180eebbf-98a5-4a8e-8e94-6bbbf020fee3
+	male	17284	1935.0					Kidney Renal Clear Cell Carcinoma	Kidney	fb9c655b-2254-428d-9dc1-9c9adf16adf2	3879c27e-1713-4b33-ba00-3a4e0b96e2c8
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	c9df1542-ed20-469e-ba26-ffd5d58abe57	f92f1410-2296-447b-a052-b797bdcfeac1
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	d1cf92cf-9ab2-47e3-9822-397e92204af9	TCGA-B0-5092-01A-01-BS1_slide_image
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	4f21d531-3570-4cbd-90aa-5a87655fc6f7	9a2dbcc2-72d4-4386-a54b-357831bb627c
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	c0cba9a4-3776-462a-8604-5e3dde24ae85	f763b752-f7d1-463b-ad60-83e96a2502cc
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	c929afa9-4b40-40a6-bd7a-02d77ee2c3cf	c14a4d68-dda6-469c-9a74-a026fddf2a1a
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	d92ee46c-81d0-4eee-b9bf-09688d83f179	NINES_p_TCGAb68_SNP_N_GenomeWideSNP_6_E07_730662.birdseed.data.txt
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	736a95eb-5d79-4a57-9602-dcdaa5470da6	4d821740-74c3-4326-91a0-97dd1f8c74bb
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	f7cc9232-eece-4f43-8d04-3c55cf9610d5	nationwidechildrens.org_biospecimen.TCGA-B0-5092.xml
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	b57142e6-d0bb-49bd-b603-a136ab927f0d	d7ce232b-0a0b-42d8-8243-50245538c382
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	c120ad06-8aa3-486b-9b2c-d64954ac0554	f01f31f5-31a0-4576-b835-3750b66471f9_legacy
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	1976550f-e936-408e-8e0e-249d8ec46b9d	55a1f117-b2b2-4181-a9e2-0081bdd3855e
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	0081b854-6784-47fa-b459-a75d5de841dd	c5452943-6c79-488e-a94f-6193d9319d2d
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	b86fb8e6-fe7d-4a25-a003-29e36a3cca0b	TCGA-CJ-5677-01Z-00-DX1_slide_image
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	c5a6e539-0032-4edc-a2f9-0ed2e0d9656a	mirna_swap_dr11_480_AlignedReads2a827b32-880e-4776-9a53-33757fea493e
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	b8c83d65-b47c-48dd-b7ed-3c68382ede87	TCGA-CJ-5677-11A-01-TS1_slide_image
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	8c6edbfb-0c6d-40f3-986a-36f8233cb7a7	10250789-2642-4f7c-b661-91ae3403d6e1
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	03b7b178-180d-4080-93c4-8af5226d2642	e83eef51-7812-46d8-8494-f85ffc8276fe
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	c17feb66-8b43-43fb-b114-122dd84d8aec	a87f290c-5c5d-4115-b92a-61d73f880d3b
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	8e74f079-00c6-4dd7-8af1-8e661128f795	d240eee9-b636-4556-befb-38594108e2a3_dr12_nocnv
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	eea867bb-dc2f-4026-bb91-9478f87e510a	nationwidechildrens.org_biospecimen.TCGA-CJ-5677.xml
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	ea08136c-709f-46cb-b2e3-f028dbac16e3	b566631d-f34a-4ce3-9af1-a3ba97615b23
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	1bc6dddc-7e00-464e-9e69-515842bf324d	a5fda785-06ce-4451-8517-82f8c9ba105b
+	female	19849	782.0	20137				Kidney Renal Clear Cell Carcinoma	Kidney	fc1885fd-5c80-4875-a9b0-20784d985e8f	38b66e3d-22d3-4be1-b407-0f36e7cc4663
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	4dbbdeb3-1ba3-4a83-9f1f-8038a8ef41d3	7f687c76-7162-4dbd-a7b2-fb94abf50337_dr12_allcnv
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	515ab7e3-743d-4779-a5f5-4a0c6e44132a	TCGA-B0-5092_98AF808E-5C91-4F81-B0AF-2895AF96D4BC_PDF
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	adf18bd9-7fbc-4661-a5bf-4628d0a0b5c3	6566a5e4-4c0a-4155-9dea-60d5aa2067bc
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	4de664f3-261c-4304-bd98-89570ca4efec	21e335fd-52db-4ffa-b701-8913d93b732a_legacy
+	male	17557	1168.0					Kidney Renal Clear Cell Carcinoma	Kidney	4bc584d9-3392-47e2-b81d-3d43b79f3e6f	MANIA_p_TCGASNP_b82and51R_N_GenomeWideSNP_6_A01_734928.birdseed.data.txt
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	ef33b0c7-4d32-4224-b95d-07a2500856c2	TCGA-B0-5092-01A-01D-1417-01_TCGA-B0-5092-11A-01D-1417-01_segment_ASCAT3
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	db99b502-b286-4b36-a0a5-28b6b413b81a	9ef3aa81-13e8-4083-a3ea-9dcbff5d565e
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	a2ae20c0-d793-4abb-8237-30e95cc1f5ab	NINES_p_TCGAb68_SNP_N_GenomeWideSNP_6_E08_730626.birdseed.data.txt
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	108ede47-53d8-4e77-8ba2-7ef5bbe27b64	d9359157-1724-4942-87df-a85f7abf2c43
+	male	17557	1168.0					Kidney Renal Clear Cell Carcinoma	Kidney	01f59158-3a41-46a2-8152-6220a0a28c90	187a61bf-48e6-4c11-84a6-aa24057940b9
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	36bb7447-58e7-4271-b1fb-e5503c803b83	828d639e-3c1c-4c14-9419-8c2504e136c9
+	female	19611	459.0					Kidney Renal Clear Cell Carcinoma	Kidney	18b9d858-481c-481f-bdea-067b2fb82555	400cc651-c1e4-42f0-824b-1f60949c5db9
+	male	17557	1168.0					Kidney Renal Clear Cell Carcinoma	Kidney	fc795e3e-e8d8-49c0-a9f7-555ce6fb0e72	93495692-8672-41e0-8797-6b001be6b369
+	male	17557	1168.0					Kidney Renal Clear Cell Carcinoma	Kidney	953719f6-11fb-4dd0-82c0-6e32af2a83d0	35823e2d-7bb3-4604-9afb-1e04fc9e71fb_dr12_nocnv
+	male	17557	1168.0					Kidney Renal Clear Cell Carcinoma	Kidney	190770ae-b7f7-45a8-b71e-46fb01d7263f	nationwidechildrens.org_clinical.TCGA-AK-3458.xml
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	79862dfe-aaf4-4e07-8848-4870076e9eed	2bb57060-13cb-4b63-a87b-1a5d4aae3810_dr12_allcnv
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	ac2e3f82-8e8b-4ea1-af0d-094e5193e6aa	REEDY_p_TCGAb65_SNP_N_GenomeWideSNP_6_D04_697602.birdseed.data.txt
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	8d47c2ac-1eb0-4b17-a151-6e9aeefb98bd	TCGA-CZ-4857-01A-01D-1302-01_estimate_ABSOLUTE
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	b7d387b0-2b89-44fa-a9ae-f426e8c6e4cc	TCGA-CZ-4857-01A-01-BS1_slide_image
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	a17997f8-bd67-489c-976d-9efa6576c9e2	TCGA-CZ-4857-01A-01D-1302-01_TCGA-CZ-4857-11A-01D-1302-01_segment_ASCAT3
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	6765c51b-9f30-4c6f-b90f-824ed49293c1	TCGA-KIRC.95abbe14-bb84-4597-9ab9-228d1cfd41b6.gene_level_copy_number.tsv
+	male	17557	1168.0					Kidney Renal Clear Cell Carcinoma	Kidney	a27b6bc4-b0ea-49eb-8172-35d18ed0ff8e	c956ec7b-4bcb-44b3-8c19-644e2843a0c6
+	male	17557	1168.0					Kidney Renal Clear Cell Carcinoma	Kidney	41f3e29e-48f1-4ef0-96b0-81137be96f00	nationwidechildrens.org_ssf.TCGA-AK-3458.xml
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	82a17dd5-9de4-4879-bc2f-5d09b943b46a	974a6e2e-b452-4b90-ab1c-57bbe1b8a8a6
+	male	17557	1168.0					Kidney Renal Clear Cell Carcinoma	Kidney	2a054c97-a408-4d2a-ab9b-8eef78e7a3e5	cfd730dd-d672-49d5-abff-3486b01fae2d
+	male	17557	1168.0					Kidney Renal Clear Cell Carcinoma	Kidney	aa9069d2-be58-4ea8-82eb-59ea1481a398	ab9bb16b-c22f-445f-9fc2-77217514355a
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	c545065b-b587-4838-afd2-e52a4969c80e	5a6bb27c-73e8-49e2-9c20-a680bc1d0a8b
+	male	17557	1168.0					Kidney Renal Clear Cell Carcinoma	Kidney	669ce132-9d34-4f94-9612-312077d7b45e	TCGA-AK-3458-01A-01D-1499-01_TCGA-AK-3458-10A-01D-1499-01_segment_ASCAT3
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	9a960ee1-0f6d-4952-93c7-b7b93d6cd59e	TCGA-KIRC.95abbe14-bb84-4597-9ab9-228d1cfd41b6.ascat2.allelic_specific.seg.txt
+	male	17557	1168.0					Kidney Renal Clear Cell Carcinoma	Kidney	02ba0100-b335-4726-b5e5-f04e89cbf566	09c942d0-dfcc-42e0-9d55-dcf7c0d7b63b
+	male	17557	1168.0					Kidney Renal Clear Cell Carcinoma	Kidney	bf47c05d-60da-4527-8221-cb89623b191b	9f48df71-9be6-47c6-a9e6-02f51c4a4045
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	05811420-ac13-48c0-b4a0-a4be9f6b08d4	2bb57060-13cb-4b63-a87b-1a5d4aae3810_dr12_nocnv
+	male	17557	1168.0					Kidney Renal Clear Cell Carcinoma	Kidney	25948d36-aeae-42aa-a45b-abb257be4532	5ca5edb0-4eac-4b2a-bcd5-e1d3c83a1f1b
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	72724a87-ef5c-4ed0-9eda-0fb303399085	mirna_swap_dr11_120_MirnaExpression21c62f1d-5fd4-4665-9ca7-879ec29ba943_profiling
+	male	17557	1168.0					Kidney Renal Clear Cell Carcinoma	Kidney	4131296c-c5e7-4080-a3bc-3d5a15654217	TCGA-AK-3458-01A-01D-1499-01_TCGA-AK-3458-10A-01D-1499-01_estimate_ASCAT3
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	52390f00-27d4-440c-9981-a9d075aec903	TCGA-CZ-4857-11A-01-TS1_slide_image
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	6ff818a2-bb33-4517-85c3-cbec2bf5ecdf	03cb1589-1578-4f69-b1a5-4ac853ea66d7
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	dc54b5f2-880a-4b85-922b-8b7e9feeb1b3	TCGA-CZ-4857-01A-01D-1302-01_TCGA-CZ-4857-11A-01D-1302-01_estimate_ASCAT3
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	7ba23d19-2156-44c4-8474-d0586fa5297f	08b2d4bd-401e-425a-aa12-f8dcd32b91ed
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	a35dd54f-e101-4433-9835-cd1ab7edc773	79d068fc-13b4-450e-919e-cf4a76c3762a
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	bfffba92-7c92-4870-91bd-3f0732af5b13	mirna_swap_dr11_120_MirnaExpression21c62f1d-5fd4-4665-9ca7-879ec29ba943_isoform_profiling
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	4cd89b5d-0260-45cc-b9e4-f2a4e0131629	f2ce36ed-ee94-4926-9338-ea6d98d9b42f
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	f012b504-acca-46d8-8afd-3833692f929b	TCGA-CZ-4857-11A-01-BS1_slide_image
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	a8c4e665-ead5-4eb8-97f9-d8a5163880d6	58570fa5-2b8d-4b93-991f-ae8aa8b4fbb4
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	60df40c4-3d68-4c69-bcd7-1a2234d584c7	nationwidechildrens.org_ssf.TCGA-CZ-4857.xml
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	f4f23f37-c5f0-499a-a61e-859bfb8ef130	8746eaa7-6ca1-455e-9ca6-b50e03265221
+	male	17557	1168.0					Kidney Renal Clear Cell Carcinoma	Kidney	fe43151b-195c-4eff-973d-4b69cd02d144	9b25ff83-e341-4c71-afed-8f496598462f
+	male	17557	1168.0					Kidney Renal Clear Cell Carcinoma	Kidney	91d17922-aa02-41c0-ba9f-5aa9eb141988	86f238c0-ba07-40b2-a55f-d36f8e62ce1a
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	b8266b14-473f-4c83-ad69-ce1d1f64343e	b230cd40-888b-4fff-a628-be8977dc35ac_dr12_nocnv
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	5d8a92d0-cc5e-47a3-8961-aa868e852b26	feef34ca-0a30-42a5-b7db-d9a37c17eb80
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	ab6e9bb7-4fb5-4e18-b5db-0ca4c4b3f8a7	34e58565-71ea-44c8-b4b4-3b85e25f2fc6
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	dd84c69b-13b4-4245-879b-8e88031def0d	05bb2d88-e025-4317-bcd9-649270216d68
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	3a5f91c0-49bf-4ca7-ac01-4cad252db986	nationwidechildrens.org_biospecimen.TCGA-CZ-4857.xml
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	3cd32f7b-22db-474c-b9f1-40ddd8e24dc1	424510ae-5fcb-4b70-8225-f0a5843eeb6d
+	male	20906		20718	1432.0	21708		Kidney Renal Clear Cell Carcinoma	Kidney	96f85030-8274-4406-8ad7-51f944683e00	TCGA-CZ-4857-01A-21-1738-20_RPPA
+	male	17557	1168.0					Kidney Renal Clear Cell Carcinoma	Kidney	d4451acf-6daa-4db6-b627-ccf8b9e0510c	28192456-e250-4576-87b8-d93e842977b3
+	male	17557	1168.0					Kidney Renal Clear Cell Carcinoma	Kidney	d3e0c509-6fb4-4fbe-994b-5a9691d255ec	84fa2337-9d3e-4509-86f6-ff9076461c9b
+	male	17557	1168.0					Kidney Renal Clear Cell Carcinoma	Kidney	4bc67f13-2c7c-4be8-8bfe-1c2fffecf694	ae91ba7c-8ee7-4daa-85f0-526c92b6397e
+	male	17557	1168.0					Kidney Renal Clear Cell Carcinoma	Kidney	8edb7b0f-bd9a-4649-ad88-fe7348f7c91b	TCGA-KIRC.1c7c4d72-3432-4c4a-b249-021f451dd74f.gene_level_copy_number.tsv
+	male	17557	1168.0					Kidney Renal Clear Cell Carcinoma	Kidney	013117c1-8995-430e-b5fa-6217348caa39	mirna_swap_dr11_540_AlignedReads0bf35c78-3c9e-49a2-9007-f52c034b98b9
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	32265a11-9e95-4fa1-ba44-035993305452	mirna_swap_dr11_582_MirnaExpression10b45c8a-146c-4e86-a2ee-b77f69461d67_profiling
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	8940581d-a89b-4289-9f66-8d77651b0aa1	TCGA-B0-4703_15843D37-AD2B-4997-AE96-FAB2C69C03C3_PDF
+	male	17557	1168.0					Kidney Renal Clear Cell Carcinoma	Kidney	47a93a1e-12b2-47ae-9d44-720389249eb9	b88c3cb9-28b4-433f-a13f-35f02061b217
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	fa11d00d-52b4-48ff-897e-adb09a217679	8f508eb4-c6d9-402c-919c-23b8821642b2
+	male	17557	1168.0					Kidney Renal Clear Cell Carcinoma	Kidney	f1798bdd-1e30-48d8-a867-f3f1d9344dcd	75b2e1cc-21c1-413a-9907-9eeb6c51da1d
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	1c62f27d-a768-4a6b-b3d6-35820330ae67	8cdd8fde-8493-4bce-8f00-dc3cccf4be0d_dr12_allcnv
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	cf68fbd7-b997-4572-86d3-6a2d893d893d	28143c3c-5db2-4e0d-8a5b-18f08d1d4f87
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	d7efa82c-9585-46d1-bdb8-cc58b9a23841	mirna_swap_dr11_582_AlignedReads10b45c8a-146c-4e86-a2ee-b77f69461d67
+	male	19302		19139	1200.0			Kidney Renal Clear Cell Carcinoma	Kidney	1e6085ea-163e-488b-91f1-cbca191b9ed5	TCGA-B0-4846-01A-01-TS1_slide_image
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	1314b02c-f8f4-466e-8736-d11d375a1c8b	TCGA-B0-4703-01A-01-TS1_slide_image
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	b8e448d6-2b9f-4cf9-8842-a9b37d4b4022	a1f12e86-1c17-4a4b-8342-5beb5c7ad7d6
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	ed0b1100-1265-4be7-836d-fb01f8a7aab0	TCGA-B0-4703-01A-01D-1274-01_TCGA-B0-4703-11A-01D-1274-01_segment_ASCAT3
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	50e8d867-820d-40fb-b32a-3f1943fa2fc0	a8c5c737-5260-4243-abfe-72509caab861
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	ba6c5057-342d-42a9-97a3-dc59c3a71d49	ad873ce4-15f2-433c-8f7b-08b9d55511d9
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	5e7d4aa6-d0df-4bdc-9380-ae2be0b6303f	0159b878-c4d6-4772-9c5d-1b126432dc50_legacy
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	bdf8e857-ba70-42ce-8e78-d19e289dfdac	9d196d8d-236f-4caa-b681-a5349cc8eeef
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	c4db04c1-026a-44ea-a9a0-4065f4a9f6c7	7443f067-df4e-4e86-9735-0020452f4740
+	male	19302		19139	1200.0			Kidney Renal Clear Cell Carcinoma	Kidney	7eb0b764-75a4-4de8-ada5-9d32ca19316d	e5df28eb-4eab-4bc5-8d4c-e70f3cfc8c47_dr12_allcnv
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	6226ab9a-5e53-449c-bb8f-18906d6ad8ee	TCGA-KIRC.0d883d6d-3e36-401c-8bb9-7aca0a2695e3.gene_level_copy_number.tsv
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	00e582f6-119c-4d84-b059-be9d6c68814f	b17e274d-8435-4220-8bc6-6c02dd020d57
+	male	19302		19139	1200.0			Kidney Renal Clear Cell Carcinoma	Kidney	1501efe3-b064-407e-b548-9c2b935e92b2	227f841e-28a6-406d-adc1-4e61d1805f50
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	e3c1e108-2b2e-4a81-a97b-dedeb4b1f1cc	nationwidechildrens.org_ssf.TCGA-B0-4703.xml
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	3164960f-466a-4ca5-b9eb-55044eb9819c	nationwidechildrens.org_clinical.TCGA-B0-4703.xml
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	08cc8d87-1930-4c5b-a7fc-4eb5f3f9afb9	14369b41-3fa1-4078-a703-a1ead022a851
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	5d137aa8-fae1-4078-b896-b46560377b89	f4b74c46-1fb3-40b1-a672-b98bc13f0672
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	d6637889-a985-4869-b634-c1829506753c	PLENA_p_TCGAb63and64_SNP_N_GenomeWideSNP_6_G11_697256.birdseed.data.txt
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	d6305b7e-cc34-430b-ac0e-31bcaffdcdcf	0cec7229-1541-48e4-9d35-d19ee2a156a8
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	c691f551-991f-44f1-9313-08c1d72e0b79	6c2f8c3d-8752-4c11-881c-18d2c435a873
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	b455401e-970d-4c12-b37c-7a10e6aa2d42	TCGA-B0-4703-01A-01-BS1_slide_image
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	b09a7b66-f9d4-4987-9917-c26f14572da4	TCGA-B0-4703-01A-01D-1274-01_TCGA-B0-4703-11A-01D-1274-01_estimate_ASCAT3
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	62ea726d-ea80-4236-8670-6ce58b433121	nationwidechildrens.org_biospecimen.TCGA-B0-4703.xml
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	27ac8666-1fad-48f3-aa29-96c5d63c3618	99367c42-34d4-46ae-b692-33b37df0c10a
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	354bb1af-3347-4f37-b4dc-95d35f3aa8f1	9bae75d4-3311-4f93-86cd-4af959af752e
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	f582e550-653f-4647-be0d-d5e4a6d84658	PLENA_p_TCGAb63and64_SNP_N_GenomeWideSNP_6_F07_697252.birdseed.data.txt
+	male	19302		19139	1200.0			Kidney Renal Clear Cell Carcinoma	Kidney	7c4fc223-718d-4cfc-abb3-7f4f3c96cf60	PLENA_p_TCGAb63and64_SNP_N_GenomeWideSNP_6_C04_697358.birdseed.data.txt
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	9ea838a7-d9c6-4ff7-9a9b-946845da7458	TCGA-B0-4703-01Z-00-DX1_slide_image
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	ea7148b4-09af-4a7e-bd24-5ffd97cc829e	391b5957-f9b9-4cdb-8237-c6dede25de33
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	6fdc3d5e-ebd8-4714-8340-1ee85e097c30	37d184fc-2ba7-483f-9950-c1fc6889581d
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	653618e7-6846-4ac0-8a23-934e0b1d08ca	77aced08-adcc-44d3-b536-fa1550a29db1
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	f7b53e4e-b3be-47be-b666-c9e679d2ecc4	27817d75-2262-4f3e-abbb-e8481db1d333
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	f983fa67-c4d3-43bf-a0e5-3d877024625f	TCGA-B0-4703-01A-02-1738-20_RPPA
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	99b062ef-f80b-4667-9e5b-a8f72e97bdf3	de9b7d35-3055-49a6-827a-1d650ae1fd97_legacy
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	44ce1a0b-03be-4481-b99f-80b3b6c93931	fdc5de9b-b42f-4bc1-ae93-918520a85bc1
+	male	18921	182.0					Kidney Renal Clear Cell Carcinoma	Kidney	469a5f53-7a54-46de-b20b-d1db1639d1e6	8cdd8fde-8493-4bce-8f00-dc3cccf4be0d_dr12_nocnv
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	e81aa9b5-54a1-481f-8cb6-eee8209e23ee	NARKY_p_TCGAb69_SNP_N_GenomeWideSNP_6_C09_697918.birdseed.data.txt
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	2ea55012-7af1-4c0f-b5fd-adcdb0e3f0c6	TCGA-BP-4974-01A-01D-1331-01_estimate_ABSOLUTE
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	0de5eeae-8f30-400f-8955-512c6184c957	dc0e1d0d-46ac-49bb-a073-13543dc33366
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	612844d4-bfce-4486-bde9-006355d95999	mirna_swap_dr11_372_MirnaExpression6efbdc53-81cd-4b5a-be17-683193f84875_isoform_profiling
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	de07907b-40e0-4edf-b2d9-51b6f15cbc63	f116311c-915b-4304-ad7b-1496e3af6780
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	8934d507-fd01-4618-baca-ac35ed9fb2e4	3d32b4bd-c781-4ab9-9a21-2f18ad7ed27e
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	eb28b690-e769-4b3a-825f-3fbdd308265c	TCGA-BP-4974-01A-01-TS1_slide_image
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	cb44534c-ffb6-4645-b526-80d6955b5921	1d25f142-010b-4dc0-a05c-b983269ab833
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	0e358f86-0446-4df7-984b-3ace07b22676	ce620125-c4f8-42eb-8baa-50d08953a2cd_dr12_nocnv
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	58b4f1a9-7df2-4e4a-baae-1e25a30c7b77	70e2f595-248b-419a-b2d2-f64d6b525064
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	643d92e2-0c31-4f62-a555-e67439023b21	88bcc25e-ccd4-4d37-a03b-8fa5ce83aa73
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	5236b78a-2da0-41c9-a285-c45301a00866	3256516c-3d28-498b-9492-53ed259724ec
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	9d9f5c87-e1c1-4831-aa19-ef1d89e3922c	831b7d83-7339-455c-89d8-6bee1d44a280
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	debcab82-5639-4012-a65c-425e51465d97	cc799e38-2ad7-4faa-8c6a-a1bc1d135eb6
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	890a416f-1303-4c05-a86f-6cbfb5278e3d	c485511f-0cc2-415a-996f-6b42ab9fc7ea
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	cb63410c-41b4-4b47-9436-c8cee37a19f5	d8cb21bb-6ce5-43e0-9769-0d8c90d639e7
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	3ad791c5-99ca-4976-b94e-24f44ee05126	1434ca60-ec29-4f44-9b27-374700304e66
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	a559654b-8514-4f81-81c3-74bc8a0252be	8d093946-c525-42b6-b7a2-3730161378f9
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	c581285b-8645-49ba-8ad9-d2b8a806f121	10a7bdaa-fa0a-4f5c-aa92-47b17107946b
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	b7c5ef6c-c684-4fcb-bd56-9802b0ad9ea9	nationwidechildrens.org_ssf.TCGA-BP-4161.xml
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	a27e0e98-8428-4066-a156-f967bfe1ee30	d80cf270-67b3-4d63-b8e6-e5bf263f3e71
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	22f64bf9-972e-4048-b172-799df933fecb	TCGA-KIRC.bfdf29e2-df03-46e5-af0c-e13b05b15abe.ascat2.allelic_specific.seg.txt
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	26466c48-195a-4b1d-b24e-ec8c3314c24a	5c48bdd2-fb84-459a-a970-ff3823c610e7
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	d7c07f15-456b-49aa-9c61-f9660422faa6	3719dec8-6dc0-4214-b18f-a9e2be6ffba6
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	e1beebe9-dc24-4f9d-a89f-87001fcf25c7	7f488cdd-9b1c-41be-8ad3-46403135593a
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	045f9351-2cd7-4355-ad00-75bbe331256d	bfe572af-ce14-416f-9b43-79e47f493853
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	ee717692-fc5c-4220-b257-42a97b972f15	TCGA-KIRC.2a9695c2-f0bc-445b-8811-5f1442a840dd.gene_level_copy_number.tsv
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	3948a5d7-d7e8-4652-b807-7ab199f4640a	d50bcf0e-16b1-4c25-9448-03240053ffff
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	7eb9adbf-489f-4170-b9e2-99885602bd97	3f559398-d970-4565-91cd-df586ca545e5
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	d3e1236a-0680-4c79-b609-0f1d75e300b7	e721bab7-15b5-4a01-994c-e97e895d0ad4_dr12_nocnv
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	9ced210e-c4c1-47e6-8840-6a8df6674540	TCGA-BP-4974-01A-21-1740-20_RPPA
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	1513013b-437b-4486-9deb-be19cbeba03e	nationwidechildrens.org_clinical.TCGA-BP-4974.xml
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	2b47c872-21c9-44ba-a560-00fb7fc24116	37400746-c7a1-4fef-95a2-420dc8d9fb7b
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	558b1be8-4e42-4d2c-81f3-0b7c2eb061f3	TCGA-BP-4161-01A-01-BS1_slide_image
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	05920e8b-a363-48a2-a9e5-9fc7aa6a61b4	60790ffc-cf37-45fd-a370-c5961a711e8c
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	22667b5b-e452-4917-b528-1f01ebb1d3a7	mirna_swap_dr11_372_MirnaExpression6efbdc53-81cd-4b5a-be17-683193f84875_profiling
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	dec6d619-a65a-47e4-ae8a-c1c0b4f76da1	87ad2c4c-05f8-4d91-85bb-b625099c54a5
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	7d8e2ada-7b2f-461b-b4a9-4e3395c7e2bc	e2fa512a-f9ee-4d15-91cc-f476f2f2f8da
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	947c2a16-0614-4282-b011-9f2463883301	TCGA-BP-4974-01A-01D-1331-01_TCGA-BP-4974-11A-01D-1331-01_estimate_ASCAT3
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	833b3d0e-8604-4622-9215-594e5e5f9c8c	b8857a77-665c-49f6-8249-d1b901405fc5
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	bb40b905-aff2-46d2-a46d-b72c4ffd3c6b	a480272e-d170-4dad-8acf-45a0db9bdcb9
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	b85536ad-1c63-4c34-bda8-577e171eaf0e	mirna_swap_dr11_570_AlignedReads79624bb9-3db1-4c89-9ed5-a51dbe2b9b6f
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	f2beae87-9231-41bd-b79b-121187dbc435	TCGA-BP-4161-01A-01-TS1_slide_image
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	b9a93d5f-52c2-4c70-9426-c11440b58256	a8615488-4ad0-4f1c-8f08-edd3a8945c98
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	aa82e448-9de4-4cdf-b2a3-dab4c0369f7a	e24c9082-2e21-4df6-a2c1-610a2de432ef
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	425838ba-93fa-4d8d-8e64-9b8fbc626570	f581b63a-0a9f-4c2e-8248-78776f7ac295
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	842bd26e-204a-4997-88da-700aa1459bc9	SITUS_p_TCGAb50_SNP_N_GenomeWideSNP_6_D11_680076.birdseed.data.txt
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	abcd3611-4872-42f6-bf5f-298064111490	TCGA-BP-4974-11A-01-TS1_slide_image
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	f8439271-b3d4-420c-b12b-86637467e5b5	df7d12ec-1667-41b4-82d2-c7a4a6010f15
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	d5eb3926-8cd6-43fe-835f-410f17a6bc64	7501275a-1c1f-4eb7-9268-3dc9ded10a0c
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	cfccb889-4f9d-4c92-bf9a-e80c7eb60b67	d274eadb-f50d-4dac-b8a4-ef3f317a6dac
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	019a1f9a-7e7c-4f88-a9a6-2b42f71f76cb	ab3d0b99-6dae-4fb4-ad9d-f8956d3dfb20
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	95b5b8f6-26ad-4f63-aea6-d2b76a3a00b8	3e20280c-4335-4be7-b649-c94bb7025d1d
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	3d333119-213a-4f2b-9d16-704c275f3770	TCGA-BP-4974-01Z-00-DX1_slide_image
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	2b7dd235-7cbc-42e6-853e-3dc5d43f664b	0c7e1772-e12f-4ccb-bccb-daa62c7c1fac_legacy
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	008cf583-2706-4d5a-a86e-6a3fce7c1fd1	a4ca51ba-c2fa-4958-b1ff-fe38043c9e22
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	35831360-ac1f-49b8-97cf-898dd0df4833	a34dfc5a-ad61-41a2-8355-24be02ac3b26
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	0a91177a-7048-41bc-b133-56dc1d93fd66	5b0580d1-13eb-4e82-a641-13c54d679887
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	def2c6a8-a58f-4199-9bac-2547d48ad366	8795ff37-7d84-453d-a7b4-a2a0423df252_dr12_nocnv
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	da17187e-b38e-44c9-b570-3749960781a5	df26fe9d-276c-43a3-8db4-41438cfaa705
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	03582d49-8e13-44cf-8b72-0b818cbf6042	caf68ced-35bb-432c-981f-0642b59ea00b
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	e4d0f84b-8377-4258-878d-e8661f57ba26	05590169-6f13-4408-b1ce-854c39a3e6f7_dr12_allcnv
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	6da6efdc-df06-4032-b73e-74d0fa74aa20	0714352d-cb6d-47be-a991-2bf7ec58cffb_legacy
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	0bd4f2d8-6de0-4e39-b20c-870cee1f4322	ac35f1f0-2fc7-4193-ac0e-2e0ed7251a30
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	b135ba53-7f92-4d6b-99bf-16b6579d47ec	SITUS_p_TCGAb50_SNP_N_GenomeWideSNP_6_D02_680166.birdseed.data.txt
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	3452baf2-765f-4097-8adc-026cd09df3d2	TCGA-KIRC.f337c176-ded4-4190-8ca2-99887ad4decc.ascat2.allelic_specific.seg.txt
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	40171148-c3a7-4566-8d3b-0f4a6033480b	578ba6a8-d73e-4ed6-8d48-41d611e2fce6
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	a1b6f1cd-e762-45ae-8934-1e85801f6013	e721bab7-15b5-4a01-994c-e97e895d0ad4_dr12_allcnv
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	ef6ef3e2-8a9d-42ed-bd48-fa89a4a0cd0f	5ae661c7-9770-40df-a16a-ddd03152813a
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	6ec44112-09e3-423f-9551-eb7e3e8e3741	TCGA-BP-4161-01A-01D-1185-01_TCGA-BP-4161-11A-01D-1185-01_segment_ASCAT3
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	6d9d8d83-87de-4a44-bc6d-705d3b2bacf5	TCGA-BP-4161-01A-02D-1322-01_estimate_ABSOLUTE
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	6d39a97b-9dab-4e3c-a3d2-7e0e463641ac	TCGA-BP-4161-01A-01D-1185-01_TCGA-BP-4161-11A-01D-1185-01_estimate_ASCAT3
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	09aad4f7-aa75-44ea-a56c-9c31d257b12d	85213df0-8887-4e40-8a3e-485313e3dacf
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	5af04509-04bc-4984-be1a-86d8a30ccd67	c814280a-9ccd-4751-8e50-9c3b35964f7f
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	80860692-0f88-4ce5-a232-281c72c8fbe5	56ac732d-670a-4c9e-8692-ec2f5d016aa6_legacy
+	male	29804		27119	2746.0			Kidney Renal Clear Cell Carcinoma	Kidney	94a84d7e-8840-4f8a-9689-2119688dc403	8f9f1998-78ab-4fac-988a-cc749c55caf6
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	bfaab407-d932-40a4-957d-26d12d888d0e	981c4552-887c-492a-bf76-e086092642fa
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	85e6b353-1ae6-4932-abc0-a030b5d256ec	52aa4787-7df7-4a78-b168-e613c4328de7
+	male	21345		21310	211.0			Kidney Renal Clear Cell Carcinoma	Kidney	55481510-a813-470f-9b83-9331ce4ff22c	TCGA-BP-4974-01A-01D-1331-01_TCGA-BP-4974-11A-01D-1331-01_segment_ASCAT3
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	2d36bd3c-db07-4295-89d2-86870bbf5089	a28efc04-ab2e-4347-b7e6-2be11334d1ac
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	90452207-4fa3-4455-8bac-665e5b59f0b8	04f8e8d0-5ee1-462d-9f5c-3f286adc56d2_dr12_nocnv
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	817294e2-b0ab-4587-826a-bff7b914659c	3087c950-dd06-4ff8-9903-808b07b63907
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	c88585eb-f4ae-42b1-acd7-d9fbf4e8e05b	TCGA-BP-4964-01A-01D-1331-01_estimate_ABSOLUTE
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	35bba2f9-6265-490d-bd50-a76fd329f3ab	NARKY_p_TCGAb69_SNP_N_GenomeWideSNP_6_H06_697924.birdseed.data.txt
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	a52f91f3-d843-43ee-991c-9c73af529871	7eff246b-31f2-4fa5-a6ad-a461fe5ea97d
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	f7cc8321-c2e1-4bf0-9d34-53b4839c4ff3	92cd5f53-1139-4143-888a-d01c54ef32e6
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	3bfd4b35-5c62-4a09-a642-ea387d456507	a644714b-5ec7-4cf3-8c18-d694a7b6377e
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	9fc1cdd0-c6dc-47e1-b9d2-83b162d65cb6	TCGA-BP-5001-01A-21-1740-20_RPPA
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	d88db40e-5cab-4ddd-9b29-d46d40980ac7	954f0cd0-a284-40f1-885d-e58459a21e0d
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	938d82d9-f970-44be-a1d2-9ebbf8e0a79e	a3cccb53-6a83-40a1-a976-ae7d4056a3f8
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	2006faa1-2864-43af-a8fd-7739b01ec649	10b65e8c-18b2-474e-8d09-046da42b9f9c
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	12382af5-f52b-41d0-90ea-fae24f91b3ae	d2abe975-24d0-4976-b307-3ff62ac308ed
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	b114d900-17a4-4f7e-8263-e92ea48f838b	TCGA-BP-5001-01A-01D-1331-01_TCGA-BP-5001-11A-01D-1331-01_segment_ASCAT3
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	77d9e5f2-c646-412a-99c0-3564c68d0af0	NARKY_p_TCGAb69_SNP_N_GenomeWideSNP_6_F07_697838.birdseed.data.txt
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	9c277d64-d7c2-43ad-a4bc-624fdcf3bd81	4238ef09-c0ab-42d9-bed6-42f5ba23f94a
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	27807cb2-323d-4fa9-84c1-069c4f963cef	4f7b5e18-ab69-46d9-89c7-a48dea4cef6a
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	209a947e-8f67-4c07-b5f0-1dc0d5056eb0	d8995913-55c5-40a8-8657-10d1d08da62d
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	abdb5997-85ac-45ff-b27f-12df7e0210c2	14763cd7-38b3-4bb3-a0d1-7da74998bf30_dr12_allcnv
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	f248d292-bd26-4b67-9bc3-dd997222049a	a392cec1-113a-4009-877c-3ffbba68ce00
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	368dc6e8-73c3-46d7-a02f-4defb7a014fa	nationwidechildrens.org_ssf.TCGA-BP-5001.xml
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	f457a9a6-92e8-4dc2-9b46-a4e4afa324ff	TCGA-BP-5001-01A-01D-1331-01_TCGA-BP-5001-11A-01D-1331-01_estimate_ASCAT3
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	0f36fb71-af82-4ef5-bc7e-b3adec4f9afc	012f2c42-f22a-4aad-a36c-c190114d1454
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	8e6a7eb8-424c-4678-a99f-f36e79ff0b00	e40dd1f4-b444-42c9-97e4-1554eda15337
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	2b5c018a-53a8-4e76-9fb7-d141cdb3528b	TCGA-BP-4964-01A-21-1739-20_RPPA
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	f27d468d-965b-4fd4-8202-b2d474364bd0	ac93606c-8582-4b4b-84fa-23e85f7b478d_legacy
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	79b7738a-41ff-4b97-a8cd-2cdeb7b9e82a	e0c79bfc-df6c-42ba-a69c-c3987bc852ce
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	b058a9a0-3533-4792-9b38-f721b906a675	11ba290b-5eea-47c4-b4d8-e6b8b64ee03e
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	b1453e3f-43eb-4786-a240-532777f48d3f	TCGA-BP-4964-01Z-00-DX1_slide_image
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	3dca68d7-4d20-4bad-8e7a-0a92d69115f2	7c12f523-f111-4e4c-8324-873bf5e8bd41
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	d439756c-9bae-4668-adc5-efb82104f27a	4b38d912-fe5d-4af7-a2c4-28cc316f3c2e
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	c8d101e4-eadf-4a8a-8ec6-fddac839a6ba	ff81b25d-4baa-4c1f-b7e9-9fb3d07dfa61
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	3aee2a21-d1b5-4749-8f3b-849f68868be4	TCGA-KIRC.8cd9356c-59ed-4ed0-887f-abbb90122897.ascat2.allelic_specific.seg.txt
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	01bcd78d-d617-4009-9364-d67f875d3e67	865bb076-75a1-488e-900b-b29c5161eaae
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	7a820f9d-ae7f-4748-b6c3-458495155014	80a06af4-f669-4304-a064-02818831b342
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	2a0d8794-895e-4dad-a3a7-0466cacf4325	5cf2f053-4764-4d77-8b0c-2876131f154b
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	d646320f-c028-44e8-84d1-4942064016ac	a064b306-68e7-479f-83e3-760ac29da4f2
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	f52d5218-36e9-408f-8591-d555d548ca21	0f303458-4f00-47ed-b05e-be0be38549c0
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	2d74dec3-a211-4cd3-aca4-8b7e5eef115b	29f0df27-6862-4dc9-bb6e-63c57589d692
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	eea65f0e-cd9e-4a89-915e-dbd269db2e7a	ca76d1fe-a2fd-49db-a29f-280a89d6a689
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	012a2c54-2e13-446b-966c-397b854fff05	05848b8e-865d-47db-9485-42da6b70b26b
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	689b011a-7c37-4ae3-9050-e03505a38a08	TCGA-BP-5001_ABB12726-85B5-4C11-B497-9BEA22DD6A43_PDF
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	a97eab60-32c5-488d-8811-b37ce4c7c533	317decea-41b3-42d5-a49a-26157b0b8eb1
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	754a89a9-7ac7-4ff8-875e-bc71ca5409fb	TCGA-BP-5001-01A-01D-1331-01_estimate_ABSOLUTE
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	67c65e87-3bd3-41c3-ac40-2413b89341e4	d266cc9a-5425-40be-abe3-a6f39f59cd15
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	c06806e4-2eec-4d52-ba0f-9bf305542158	3f2660ae-a49f-476f-a7ea-ea8240f4dc68
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	de7480b3-3eb2-4bdf-b3cf-ec09131399cb	b55096c5-b753-497e-b1dc-d138c7c13557
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	52ffa9f5-2503-4860-8303-8038196f0154	9c159d78-e1a9-472c-a3a6-09439bb6b37c
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	d7c46833-e8d7-4a47-b74e-3378d9c19f20	TCGA-BP-4964-11A-01-TS1_slide_image
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	9993de2e-cf8d-4452-9e15-8b74d0b327fe	ccaf1cda-1e7c-4a66-87ef-21d708e81fc0
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	a7608742-9573-4158-8bc3-03192d202891	TCGA-BP-4964-01A-01-TS1_slide_image
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	a8926c56-75b1-435e-ac5e-49099e9317b9	mirna_swap_dr11_403_MirnaExpression39f908d9-ebfb-47b3-a4db-3d573bd1cccd_isoform_profiling
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	d5637845-7e3a-472d-aa1c-77657523a51e	667d3830-27db-4899-984e-76da8103967d
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	52ead6d7-aade-4a16-a26e-f41909de7f76	TCGA-BP-4964-01A-01D-1331-01_TCGA-BP-4964-11A-01D-1331-01_estimate_ASCAT3
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	18377811-c04a-40f5-90f5-7e0cf291d71d	32cd902b-85f0-4266-b7d5-d908bf62961c
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	55d9c51d-f7f5-49f8-b695-16f0ed699f50	nationwidechildrens.org_clinical.TCGA-BP-5001.xml
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	dfff98cd-0c7f-41d4-8732-540772e2b881	ed3c2fb2-4ee0-4b50-bd15-a0f68f8b7905
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	b5a4e191-2deb-47bc-a058-f8aa7f94584d	nationwidechildrens.org_biospecimen.TCGA-BP-5001.xml
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	5bdf8a18-b951-4fc2-8408-814a639d429d	9b0dbb60-5b1e-4f77-b2e3-bfe42410e4b9
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	34f1a535-2f56-4292-aa65-4ad129c6d108	b3aa5ee0-2010-4ddb-9c29-9b763d3a861f
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	2cd77a99-0b28-4804-88ed-a9bd29fdfbe1	6a3ae6ae-2d51-4649-96f3-5572541f216e
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	254d6b63-8508-4cab-9724-b64efe290688	3c0091de-3104-4404-bf0e-f0b18d16b61c
+	female	20084	1862.0					Kidney Renal Clear Cell Carcinoma	Kidney	9df4cd65-0eb9-49c8-a709-65174e38cdcb	c792bfe9-f9b0-482d-860f-87f2c3367396_legacy
+	male	23190	1876.0					Kidney Renal Clear Cell Carcinoma	Kidney	f0be4bbb-2a8f-404c-9d0a-0a25ffa2672d	81e3da2a-d511-4293-85f6-41bde5adc61c_dr12_allcnv
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	d610a136-6a49-4f89-b244-d33349d73b23	5d99e761-4cce-4093-a9cb-e65397ef63d6
+	male	23190	1876.0					Kidney Renal Clear Cell Carcinoma	Kidney	40730e67-29b3-46d6-85d2-b74b85b32080	9d844c86-7209-47db-a70a-e39b8409baa6
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	d5457d43-58e2-4feb-b6ba-be0befe3e7ca	5f234fd6-912c-43d5-b021-e385b8f6d83e
+	male	23190	1876.0					Kidney Renal Clear Cell Carcinoma	Kidney	fa157747-3f20-4974-b9d9-1d560c3e2b7c	TCGA-BP-4769-01A-01-BS1_slide_image
+	male	23190	1876.0					Kidney Renal Clear Cell Carcinoma	Kidney	433c796e-ac03-4bf5-b457-b7a8bce87796	cc01f046-159b-4cd2-9e57-b06155d2c42c
+	male	23190	1876.0					Kidney Renal Clear Cell Carcinoma	Kidney	2fbe7062-deb5-4783-a2be-df87f1f3f8af	e3b062c2-7c3c-44a3-85db-f59f11086761
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	b338d8b3-300a-4e7a-a7ec-98ab00bbf335	mirna_swap_dr11_403_AlignedReads39f908d9-ebfb-47b3-a4db-3d573bd1cccd
+	female	15858	1177.0					Kidney Renal Clear Cell Carcinoma	Kidney	ea804ef1-fe8c-4e9b-a3ac-f8389a2121b3	TCGA-BP-5001-11A-01-TS1_slide_image
+	male	23190	1876.0					Kidney Renal Clear Cell Carcinoma	Kidney	2e5fc0b0-de38-48d4-a03d-45523e87e228	TCGA-BP-4769-01A-01D-1283-01_estimate_ABSOLUTE
+	male	17557	1168.0					Kidney Renal Clear Cell Carcinoma	Kidney	d7174a9e-23af-49d4-ad2c-532b98e54763	7a79d9b0-1585-4f35-bb6e-9477ab54df35
+	male	23190	1876.0					Kidney Renal Clear Cell Carcinoma	Kidney	35278316-9137-4845-ba40-3caa2e168191	nationwidechildrens.org_ssf.TCGA-BP-4769.xml
+	male	17557	1168.0					Kidney Renal Clear Cell Carcinoma	Kidney	392c11e0-bf5f-44a6-a54b-b7f1a26c352a	6c5136b0-a532-45c4-b3a8-945696bbb011
+	male	23190	1876.0					Kidney Renal Clear Cell Carcinoma	Kidney	987dc6d2-cca7-404c-87e6-9df286bc35f0	SPIKE_p_TCGA_B64_SNP_N_GenomeWideSNP_6_A02_707098.birdseed.data.txt
+	male	23190	1876.0					Kidney Renal Clear Cell Carcinoma	Kidney	b43b3c05-47f5-43ea-bd68-8e20a2001635	TCGA-KIRC.eced6fa8-1d5e-4d5c-81f4-42a1fb4bf032.gene_level_copy_number.tsv
+	male	23190	1876.0					Kidney Renal Clear Cell Carcinoma	Kidney	6c58735a-e44f-4163-8850-cba0a64676be	81e3da2a-d511-4293-85f6-41bde5adc61c_dr12_nocnv
+	male	17557	1168.0					Kidney Renal Clear Cell Carcinoma	Kidney	0807c158-a966-4002-b1f2-91cd0f0ff545	e01132e7-ab5c-44e2-a87a-a8c8283d3343
+	male	17557	1168.0					Kidney Renal Clear Cell Carcinoma	Kidney	d114f3a1-11a4-4f8d-aff8-8a96fa794f60	2e5c2baa-d461-4751-b5a9-0bcf9f35d6d1
+	male	23190	1876.0					Kidney Renal Clear Cell Carcinoma	Kidney	6d3cc04e-ba0f-4c3d-ace5-1018abb47aaf	f42088c2-82ba-4823-8f6b-c5ccf66455b0
+	male	23190	1876.0					Kidney Renal Clear Cell Carcinoma	Kidney	54ca0e69-2e02-4df9-85b9-d8a9323e746c	57477a36-8352-43c1-8f25-d60fa4ab5cba
+	female	24132	709.0					Kidney Renal Clear Cell Carcinoma	Kidney	9bd952f3-23c7-4b12-b75b-92f705887445	bc269c20-d435-46b0-98d1-4528bfce1ed5
+	male	23190	1876.0					Kidney Renal Clear Cell Carcinoma	Kidney	44a173b7-dcbd-4f9a-bc3c-ed166d30051d	4dbc51bd-23e0-4005-b673-7533b85a5255
+	male	23190	1876.0					Kidney Renal Clear Cell Carcinoma	Kidney	f9dc8f06-3b05-4fc5-9385-5950380abd93	nationwidechildrens.org_clinical.TCGA-BP-4769.xml
+	male	23190	1876.0					Kidney Renal Clear Cell Carcinoma	Kidney	6b704d15-90f8-47b9-8ae3-6f9fbd210fb5	TCGA-BP-4769-11A-01-TS1_slide_image
+	female	24132	709.0					Kidney Renal Clear Cell Carcinoma	Kidney	92b3a814-3d29-4a60-9c91-17a86e0c46eb	bd11f24c-152a-47ed-8dc8-0fae5fcfe53b
+	female	24132	709.0					Kidney Renal Clear Cell Carcinoma	Kidney	ec3d784b-f063-412c-b12f-354297e50542	454d2844-48a7-4e57-a268-1438535b783b
+	male	23190	1876.0					Kidney Renal Clear Cell Carcinoma	Kidney	266439f4-4d1b-450d-9cd7-cb7a0e38f66f	TCGA-BP-4769-01Z-00-DX1_slide_image
+	male	23190	1876.0					Kidney Renal Clear Cell Carcinoma	Kidney	c69d9c36-61e3-4985-b17b-b64bd7ed3821	60cd3c12-5b00-4b43-9104-f22f5954c1bf
+dfa9513d-4e09-405b-a80f-2987ec5c5263	female	24132	709.0					Kidney Renal Clear Cell Carcinoma	Kidney	1f6d594e-6f6e-48a8-a4c5-d7ae95885720	746c9d98-9ceb-4f86-9633-e810036a2ca0
+	male	23190	1876.0					Kidney Renal Clear Cell Carcinoma	Kidney	7f45f7a8-dbe1-414e-b7b6-7dfa0da95d55	be1fc0d3-ff88-4bba-8935-68a34f7a003f
+	male	23190	1876.0					Kidney Renal Clear Cell Carcinoma	Kidney	7ac84028-6894-4547-a917-420ab94cb2bc	TCGA-BP-4769-01A-01D-1283-01_TCGA-BP-4769-11A-01D-1283-01_estimate_ASCAT3
+	female	24132	709.0					Kidney Renal Clear Cell Carcinoma	Kidney	864d3aab-ff88-4c80-8c66-a23492720723	e3fb12f6-7c4e-46e2-9922-fc7082d51745
+	female	24132	709.0					Kidney Renal Clear Cell Carcinoma	Kidney	e2e9c9f7-fe43-4019-8d40-5ab739c9bae6	73de14de-a6fd-4468-a0a4-cd43aa2b9f02_legacy
+	female	24132	709.0					Kidney Renal Clear Cell Carcinoma	Kidney	fb5d39b0-7f09-4462-a883-7c0710f6e0dd	6126464c-8500-4bb1-be5d-928250d0c2ba
+	female	24132	709.0					Kidney Renal Clear Cell Carcinoma	Kidney	4fbe2c92-d46f-4f77-a293-e01d39380999	427fc685-2ef1-470f-ac56-8c1afc0f7a5d
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	a905cd35-ffd1-4474-bcb1-9e34f22f25fa	mirna_swap_dr11_182_MirnaExpression8d0c20ab-a4a9-4ec4-8820-50397905efb9_profiling
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	0d20797a-f8b8-494a-bb75-a79138145323	46b5de55-ec1f-467d-82ea-fe564cabf2df
+	male	12508	1107.0					Kidney Renal Clear Cell Carcinoma	Kidney	418823c9-6f08-4289-84cc-4d74ab7dff29	f872defb-675a-4a5d-a8f7-00683387a6e6
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	0dbb6549-9972-4916-ae8b-44546620e621	1631c478-8dce-481b-bd2c-4a47860d7def
+	male	12508	1107.0					Kidney Renal Clear Cell Carcinoma	Kidney	272b1876-275f-420f-bbf9-362cd493ad52	5109aa1f-3b8f-4619-a120-0e74c333c752
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	2f193afb-0c4a-4237-bff3-7dbe0b02f3d1	TCGA-B0-5697_AA9FCAA9-CA62-4BC0-AF7A-F7B4009B37F1_PDF
+	male	12508	1107.0					Kidney Renal Clear Cell Carcinoma	Kidney	50edb5f4-7d50-40c1-926c-9a8427dc21fb	REEDY_p_TCGAb65_SNP_N_GenomeWideSNP_6_E02_697598.birdseed.data.txt
+	male	12508	1107.0					Kidney Renal Clear Cell Carcinoma	Kidney	efa6232f-5efd-449b-ad16-ac8da03c654a	TCGA-BP-4797-01A-01-BS1_slide_image
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	2170f867-3a7d-4b29-9293-87bde64bff09	5905d573-2c6f-46ee-a8c3-cd27144288bd_dr12_allcnv
+	male	12508	1107.0					Kidney Renal Clear Cell Carcinoma	Kidney	56842037-4899-45af-8d99-b9f609bc50f3	5a44f290-3224-4198-8410-929339bfd93b
+	male	12508	1107.0					Kidney Renal Clear Cell Carcinoma	Kidney	3cce1402-e32b-4df5-a51a-ff06bed600fb	e7a79d90-79f6-4d4e-9493-bb82d9e9c66e
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	6466a62c-7259-4efe-87e5-d619fcdf89fc	TCGA-B0-5697-01A-11D-1530-01_TCGA-B0-5697-11A-01D-1530-01_estimate_ASCAT3
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	45654a9d-9bb7-4bad-8e3f-4955793a2789	e3a4031d-c567-4cb6-9238-b4f61be5263d
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	4786c37f-e50f-4c92-bc9f-7a0189301006	c4f387df-d82c-4667-bd3c-7e9ca4d50b1b
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	d207f5a9-6f8c-448e-b132-8c915ce236b0	c002d72c-284f-4bfa-8cd0-f967e9592c75_legacy
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	0aeaacf6-7855-487f-924b-ba937bff7c05	SOOKS_p_TCGA_b90_SNP_N_GenomeWideSNP_6_F09_748534.birdseed.data.txt
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	a19a5b92-76d8-434d-a332-00d0dd4ebff2	nationwidechildrens.org_ssf.TCGA-B0-5697.xml
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	e875e145-5460-4c56-92ee-54482f66476f	mirna_swap_dr11_243_MirnaExpression4e5447d1-3755-42f8-814b-13cd82e58c4c_profiling
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	1b19b145-5d69-4f9e-93ef-72c5fef904cc	b2b2efb0-1697-4629-bca1-f4db24195ff9
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	29ce9742-d0b9-4cb2-b5af-2c0570db72ce	4cb9c507-d1d4-4f31-abde-b7fb0c19d452
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	fc5075a9-0d66-4c26-a806-06b8888f6ce6	03866d79-1b37-4752-ae3d-b4725b3d5b5f
+	male	12508	1107.0					Kidney Renal Clear Cell Carcinoma	Kidney	cbc1f026-36e1-4b5a-a4e5-43d14391ba64	26b2b94e-3219-44e7-a195-3fee7db69de4
+	male	12508	1107.0					Kidney Renal Clear Cell Carcinoma	Kidney	5cbf5f61-2469-40f2-b2d9-0409d833e21a	mirna_swap_dr11_114_MirnaExpression01af1cd9-320e-4bfa-a332-7d2e342c77ac_isoform_profiling
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	8bb6d5c4-ea05-476d-996f-e767e4c89e64	98d53318-cc5f-4953-84b3-0527a15ba3b8
+	male	12508	1107.0					Kidney Renal Clear Cell Carcinoma	Kidney	025c8cea-bd6e-415c-8440-7124ff272442	TCGA-BP-4797-01A-01D-1302-01_TCGA-BP-4797-11A-01D-1302-01_estimate_ASCAT3
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	d0683446-a15b-4fc8-a17d-06000518566e	SOOKS_p_TCGA_b90_SNP_N_GenomeWideSNP_6_C12_748560.birdseed.data.txt
+	male	12508	1107.0					Kidney Renal Clear Cell Carcinoma	Kidney	ab0a8e3c-5db0-4bea-bb6b-8aadaf7b6e35	d8af8966-ae5b-42db-9c26-f64c937e3a4d_dr12_allcnv
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	0d5a67a2-fc9f-4eaa-9b85-1c4c82fe0e01	bf13a5e0-437e-4be6-8076-d8a74a9ae521
+	male	12508	1107.0					Kidney Renal Clear Cell Carcinoma	Kidney	1c84472c-76d9-4a4f-82af-42e5ec7a3a80	c6f38b23-c42a-4d09-aa7e-077845eb0ac4
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	7ea612fe-f1d0-4850-a387-288e6adb48bd	5905d573-2c6f-46ee-a8c3-cd27144288bd_dr12_nocnv
+	male	12508	1107.0					Kidney Renal Clear Cell Carcinoma	Kidney	9f39ce2d-2001-49df-bd02-757559f1cd50	TCGA-BP-4797-01A-01-TS1_slide_image
+	male	12508	1107.0					Kidney Renal Clear Cell Carcinoma	Kidney	97743b8c-3a44-4647-be82-7fd39a943cb9	e77d96e7-5c8d-46a7-9588-82ff5bd00c00
+	male	23373	1834.0					Kidney Renal Clear Cell Carcinoma	Kidney	b4c27928-d48b-4195-b356-a010fe884c5b	TCGA-BP-4963-01A-01D-1331-01_estimate_ABSOLUTE
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	dd0f7ee1-9353-4af4-942e-b0ae09436f34	a5982b4d-3af4-46e8-9989-7f0c5058ddfa
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	9108d3ca-a63d-4268-8201-38c0bb2a5c79	TCGA-B0-5697-01A-13-1742-20_RPPA
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	4fd7065c-974b-4cd3-bf65-669b044727b2	19d7b6c5-6319-4da2-a8f4-476872172a21
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	dc425164-07bf-4a91-af05-e25dfe137f16	36cd45bf-7064-4e51-8601-51bc5ea7f80a
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	19eb548f-4b66-4fde-8103-bcf37ef33bbd	81f8c28b-865f-457c-824b-1947af562f91
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	0055fdb3-3c71-4f60-877f-5b028fd70494	mirna_swap_dr11_243_AlignedReads4e5447d1-3755-42f8-814b-13cd82e58c4c
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	471c05b5-5beb-4380-8b53-d97dfe0a6df0	28e9d982-5aca-4133-8405-b242bf21c483_dr12_allcnv
+	male	12508	1107.0					Kidney Renal Clear Cell Carcinoma	Kidney	aede7891-801c-43f7-9d23-0b746090001e	84c8e806-f4ed-471a-983a-d4ec1f03c40b_legacy
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	7912f642-2fd5-4b45-9835-69c7dbdfe7c8	TCGA-KIRC.41d138fb-cc75-4790-a72a-4256b0c5ed11.gene_level_copy_number.tsv
+	male	12508	1107.0					Kidney Renal Clear Cell Carcinoma	Kidney	77c314ce-4e8c-48c4-8db8-6709b4e1512c	273f3e46-65a1-4739-b39b-5ccdae3edcad
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	0ddfdb14-b859-40a6-aa82-d3db8bf1178b	bf3d03f9-94f5-413e-a44c-6d52cb236939
+	male	12508	1107.0					Kidney Renal Clear Cell Carcinoma	Kidney	96b71fbd-1453-46fc-911b-4906faf6d4a3	d8af8966-ae5b-42db-9c26-f64c937e3a4d_dr12_nocnv
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	c1860ab3-2e09-421b-ad97-d321c003ec75	81b27392-163a-4859-b237-6f88a1e760de
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	ef56ad69-bec4-49f6-8bf4-b3fbb28813a7	TCGA-B0-5697-01A-11D-1530-01_TCGA-B0-5697-11A-01D-1530-01_segment_ASCAT3
+	male	23373	1834.0					Kidney Renal Clear Cell Carcinoma	Kidney	9f3e5bff-a552-4950-ad01-cfb25afde3b4	ec875d93-f007-4801-802b-78da7ce1729b_legacy
+	male	23373	1834.0					Kidney Renal Clear Cell Carcinoma	Kidney	bcbc7359-c042-4791-896e-7fc0c6f0d801	64df696a-5bff-45ce-bea3-bd1094b7bea1
+	male	23373	1834.0					Kidney Renal Clear Cell Carcinoma	Kidney	8f6a2e14-3550-4ff0-ac75-3c018a34bf9b	b2245e2f-9447-48a4-9499-de233d1bf805
+	male	23373	1834.0					Kidney Renal Clear Cell Carcinoma	Kidney	a7b5d331-9c4f-48cc-87ce-cc22096e1764	nationwidechildrens.org_biospecimen.TCGA-BP-4963.xml
+	male	23373	1834.0					Kidney Renal Clear Cell Carcinoma	Kidney	84cd8cea-8b75-4611-ac71-4ad8164ea672	TCGA-KIRC.f77f13b3-5a3a-4fa7-a81e-fce2b66f6e48.ascat2.allelic_specific.seg.txt
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	1c5905f7-6527-4f19-b802-20d36218b48e	mirna_swap_dr11_182_MirnaExpression8d0c20ab-a4a9-4ec4-8820-50397905efb9_isoform_profiling
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	05aedbb7-c56c-4756-b8e8-302afaedcb4c	9f6e47ef-8adf-49b2-a28c-bdda01bdc98a
+	male	12508	1107.0					Kidney Renal Clear Cell Carcinoma	Kidney	bb47d799-13b1-413c-9f90-7b9f6bbfffaf	834ad5cf-72ce-421d-b8cd-26b3b48bcc02
+	male	23373	1834.0					Kidney Renal Clear Cell Carcinoma	Kidney	bbad1697-e743-4497-b6f0-f83ed98c376b	1720377f-9c4c-42b9-a73c-c1abb3a72465_legacy
+	male	12508	1107.0					Kidney Renal Clear Cell Carcinoma	Kidney	7e52f593-fd2e-42ee-a4dc-7f60e20ff7e2	REEDY_p_TCGAb65_SNP_N_GenomeWideSNP_6_G10_697736.birdseed.data.txt
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	87ba7a6c-228f-4c35-897f-aa054ed25488	dc76f6d5-3de2-436f-9bb8-b8973aaf74fb
+	male	23373	1834.0					Kidney Renal Clear Cell Carcinoma	Kidney	b2f32adf-21df-44bd-be6c-189f2084c94c	89c1781b-de01-4fa8-91d2-5935b7cd4b57
+	male	23373	1834.0					Kidney Renal Clear Cell Carcinoma	Kidney	ccd899d8-85b1-4490-87fd-c8b5f7488e05	TCGA-BP-4963-01A-01D-1331-01_TCGA-BP-4963-11A-01D-1331-01_estimate_ASCAT3
+	male	23373	1834.0					Kidney Renal Clear Cell Carcinoma	Kidney	f8db3b8c-2b1b-410d-ab62-cb1bbf6b9bea	TCGA-BP-4963-11A-01-TS1_slide_image
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	0d0311d7-5fc6-46d7-8c22-737f878ff2c0	mirna_swap_dr11_243_MirnaExpression4e5447d1-3755-42f8-814b-13cd82e58c4c_isoform_profiling
+	male	23373	1834.0					Kidney Renal Clear Cell Carcinoma	Kidney	71a19939-5a52-4e54-8227-e5be9962e879	d8f08aa1-4485-4458-a172-f0b0e94f9a78
+	male	12508	1107.0					Kidney Renal Clear Cell Carcinoma	Kidney	d6aae2a4-3b1a-4255-889a-95d585b089ac	mirna_swap_dr11_114_MirnaExpression01af1cd9-320e-4bfa-a332-7d2e342c77ac_profiling
+	female	27032		26993		26824	329.0	Kidney Renal Clear Cell Carcinoma	Kidney	c814494d-b582-400a-bd5f-760e77ba1b69	5825b926-3176-45e9-a97b-b725604d051c
+	male	18486	2630.0					Kidney Renal Clear Cell Carcinoma	Kidney	415d9096-9abf-4386-9e19-eaa5b2f47ed1	0008a2c8-f9b8-4df2-b3ec-d69f4fd6e7f7
+	male	12508	1107.0					Kidney Renal Clear Cell Carcinoma	Kidney	ba723f42-5cd5-4aef-b91e-10b1e1cdc051	9b85804d-cae8-4e70-adc1-f4aad744cf47_dr12_nocnv
+	female	27032		26993		26824	329.0	Kidney Renal Clear Cell Carcinoma	Kidney	61e2532a-8a10-4d2a-910a-97816e6b9a6b	nationwidechildrens.org_ssf.TCGA-BP-4770.xml
+	male	12508	1107.0					Kidney Renal Clear Cell Carcinoma	Kidney	66321b4e-9a6d-4d33-83a2-0199eefceb0c	nationwidechildrens.org_biospecimen.TCGA-BP-4797.xml
+	male	12508	1107.0					Kidney Renal Clear Cell Carcinoma	Kidney	ce9ca187-718c-4860-925f-0148a9c4917a	TCGA-BP-4797-11A-01-TS1_slide_image
+	female	27032		26993		26824	329.0	Kidney Renal Clear Cell Carcinoma	Kidney	0a1c49ea-df93-4cdd-8bb4-668a1d120a96	3ac31066-1418-4a83-9aca-5f1ce3f1fdc7
+	male	20993	1955.0					Kidney Renal Clear Cell Carcinoma	Kidney	8878d3f0-d048-4961-97c0-d17e66ef668d	mirna_swap_dr11_265_MirnaExpressione964d846-e66a-46d8-9861-867fa2168dfd_profiling
+	male	20993	1955.0					Kidney Renal Clear Cell Carcinoma	Kidney	bbc5490c-4334-4bbe-9b62-fac772f94896	0dff1328-3ed3-4588-8f72-428d90c56cbd_legacy
+	male	20993	1955.0					Kidney Renal Clear Cell Carcinoma	Kidney	5c90d758-b163-4954-b87a-7d49860344fe	TCGA-CJ-4876-11A-01-TS1_slide_image
+	male	20993	1955.0					Kidney Renal Clear Cell Carcinoma	Kidney	fc558f43-c9e5-47de-ba7c-7ac3871d2caa	TCGA-CJ-4876-01A-01-TS1_slide_image
+	male	12508	1107.0					Kidney Renal Clear Cell Carcinoma	Kidney	6b3689f2-ebe5-4f96-b5d6-251eb3bca82d	e3178273-d85d-470e-aaff-33aafe6b6c3d
+	female	27032		26993		26824	329.0	Kidney Renal Clear Cell Carcinoma	Kidney	a18dad5a-e163-4a58-8dd3-b26cbf05ac37	TCGA-BP-4770-01A-01-BS1_slide_image
+	male	20993	1955.0					Kidney Renal Clear Cell Carcinoma	Kidney	1b8350b5-c61b-424c-b2d0-dd7cdca8b6a6	675605c7-e1d9-4fc2-ab36-6e77d29dac2c
+	male	20993	1955.0					Kidney Renal Clear Cell Carcinoma	Kidney	0c58c79c-111a-4c0f-813b-178c98cdfba4	TCGA-CJ-4876-01A-01D-1302-01_estimate_ABSOLUTE
+df1e2e79-0126-4f3a-85e3-36f59be04622	female	17331	356.0					Kidney Renal Clear Cell Carcinoma	Kidney	596f5861-23a3-4020-990f-79db2ee030e5	dca56078-6c0f-498d-9bdd-46ab52c7e607
+	male	20993	1955.0					Kidney Renal Clear Cell Carcinoma	Kidney	dbcea2bd-f09d-457a-a46f-dd4381ef2610	7f5f936b-6760-4587-bd17-7c5b27325fa9
+	male	20993	1955.0					Kidney Renal Clear Cell Carcinoma	Kidney	7d5a05d1-3ef9-4ab2-94dd-8293ae009761	REEDY_p_TCGAb65_SNP_N_GenomeWideSNP_6_A02_697614.birdseed.data.txt
+	female	27032		26993		26824	329.0	Kidney Renal Clear Cell Carcinoma	Kidney	a09054bd-bd13-45d6-838c-37e41271668a	04d62b50-b6e7-4e97-8c43-aecaee083417
+	male	20993	1955.0					Kidney Renal Clear Cell Carcinoma	Kidney	dc7d18ff-d0b0-4a76-a879-f352e764c5ed	4fc9cb42-f123-410f-8e12-fd7d085bfe70
+	female	17331	356.0					Kidney Renal Clear Cell Carcinoma	Kidney	944a5dd1-88b5-4076-8b8e-0155c551625c	094ac570-da8c-453f-bd39-adc1a0e21921_legacy
+	female	27032		26993		26824	329.0	Kidney Renal Clear Cell Carcinoma	Kidney	e89e0a8c-a7d6-4f15-87a4-44aaeb710ebd	b2ebdfb6-5d18-41b0-8ced-c62780b8e9d6
+	female	17331	356.0					Kidney Renal Clear Cell Carcinoma	Kidney	b7a3c663-8012-41e1-8ce5-b42c559b1dc1	849ce4f4-ff6b-42f1-aaeb-1c014c521f05
+	female	27032		26993		26824	329.0	Kidney Renal Clear Cell Carcinoma	Kidney	0e10317f-021b-4ef8-82ff-2cd3eb6b6f4d	c449d41d-3ded-47f1-a6fe-ed3eae931fb2
+	male	20993	1955.0					Kidney Renal Clear Cell Carcinoma	Kidney	35469210-6fa7-4fcc-8b7b-c44d6d11b877	8579e077-14ce-4476-bac5-c525700d60e4
+	male	20993	1955.0					Kidney Renal Clear Cell Carcinoma	Kidney	3d8ee98c-bad6-47ca-8e15-7767d618c27d	eb9f9ce2-d386-42a9-b25c-19f98ce379bb
+	male	20993	1955.0					Kidney Renal Clear Cell Carcinoma	Kidney	573f6eed-e746-4b8b-a267-9523185414e2	699d7bcb-c898-43b3-ae1d-80963c0da7c8_dr12_nocnv
+	male	20993	1955.0					Kidney Renal Clear Cell Carcinoma	Kidney	47e7d8fb-040e-49d5-9c3c-73c4cb9423a3	nationwidechildrens.org_clinical.TCGA-CJ-4876.xml
+	male	20993	1955.0					Kidney Renal Clear Cell Carcinoma	Kidney	f67f6361-ad95-403e-92c1-d8dce51164bb	1bfce662-4ebc-4a2d-a82f-0f435a55ada8
+	female	27032		26993		26824	329.0	Kidney Renal Clear Cell Carcinoma	Kidney	9034606e-290b-4a4c-a1d9-55cd66fec88a	ddbc593c-bd81-4987-b0f9-e0e1ea70c690
+	male	20993	1955.0					Kidney Renal Clear Cell Carcinoma	Kidney	b6f67c98-b44d-4a35-8e19-42cfdc734db4	nationwidechildrens.org_ssf.TCGA-CJ-4876.xml
+	female	27032		26993		26824	329.0	Kidney Renal Clear Cell Carcinoma	Kidney	985d74e2-4eb5-4b51-b4c6-aaade085ea27	ef9e3696-d3e1-4349-b6a3-5eb70f9d1067
+	male	20993	1955.0					Kidney Renal Clear Cell Carcinoma	Kidney	3c0eea79-293b-48be-a647-e6bdea0fed48	d84f6e60-5303-4d4c-8f8e-57705d11b6b8
+	female	27032		26993		26824	329.0	Kidney Renal Clear Cell Carcinoma	Kidney	5014b708-d840-462f-91fd-782691a3f3d1	1d743ca6-9348-4559-a1ff-e846c2c1a814
+	female	17331	356.0					Kidney Renal Clear Cell Carcinoma	Kidney	82a23f2c-8ed5-4b52-ba61-a2f32aca5964	53a5151d-d308-4f07-aa88-a11dffcdc049
+	male	20993	1955.0					Kidney Renal Clear Cell Carcinoma	Kidney	85f13589-9056-423b-a08e-52df2d0810df	TCGA-CJ-4876-01A-01D-1302-01_TCGA-CJ-4876-11A-01D-1302-01_estimate_ASCAT3
+	female	27032		26993		26824	329.0	Kidney Renal Clear Cell Carcinoma	Kidney	159d169a-de45-4d3e-95ac-0a66c57304cd	3121af10-eaf1-47c2-afb5-8d86f859db55
+	female	27032		26993		26824	329.0	Kidney Renal Clear Cell Carcinoma	Kidney	f1c9a5af-a1a8-4150-9139-055b7dc053e5	nationwidechildrens.org_biospecimen.TCGA-BP-4770.xml
+	female	29150	1270.0					Kidney Renal Clear Cell Carcinoma	Kidney	536c3bd7-c894-4dd5-9db7-a4ea186d0714	TCGA-BP-4763-01A-01D-1283-01_estimate_ABSOLUTE
+	female	29150	1270.0					Kidney Renal Clear Cell Carcinoma	Kidney	c91846ba-2713-4424-9e2d-2e9a45bed9fa	ea005b1d-577a-4c8f-9a54-71b394777085
+	female	29150	1270.0					Kidney Renal Clear Cell Carcinoma	Kidney	8b6a7877-1a17-423f-89f4-b3c0735953dc	c7a27be6-1fd7-428b-b305-45f8e0b5bf57_dr12_nocnv
+	female	27032		26993		26824	329.0	Kidney Renal Clear Cell Carcinoma	Kidney	71259bfa-7519-4d29-a900-b7835c8d6119	f1f5a01f-7f3e-4222-9f8f-097948f7f29d_dr12_nocnv
+	female	29150	1270.0					Kidney Renal Clear Cell Carcinoma	Kidney	22b1e16e-8977-42f8-b48a-327230203523	510e30c4-2ce7-431d-b351-f7ad78bf8fb2
+	female	29150	1270.0					Kidney Renal Clear Cell Carcinoma	Kidney	dff27de9-a457-4a13-9d49-5e365b8f8412	f52ba1e4-b564-48ef-a7d9-9b819ce0d0ab
+	female	27032		26993		26824	329.0	Kidney Renal Clear Cell Carcinoma	Kidney	8fc12c26-3443-418f-a6bb-4956b9b33211	TCGA-BP-4770-01A-01D-1499-01_TCGA-BP-4770-11A-01D-1499-01_estimate_ASCAT3
+	female	27032		26993		26824	329.0	Kidney Renal Clear Cell Carcinoma	Kidney	74d4d15b-6248-4d39-8883-fa07fc13a43d	d738d732-645f-43c4-b8e1-f0c3fcac6c84
+	female	29150	1270.0					Kidney Renal Clear Cell Carcinoma	Kidney	d2569b10-ab19-4798-8bab-bef9e697d5d1	ba32660b-8505-435e-ba13-730dcd5c3199
+	female	29150	1270.0					Kidney Renal Clear Cell Carcinoma	Kidney	6d675b3c-55eb-4a1b-bb50-277bc6e7fd9e	4a3b3e90-a778-4dae-83d4-d9ea44c583bc
+	female	29150	1270.0					Kidney Renal Clear Cell Carcinoma	Kidney	bd5b9382-fd9a-4546-98ea-ea67c51b290d	c7a27be6-1fd7-428b-b305-45f8e0b5bf57_dr12_allcnv
+	female	29150	1270.0					Kidney Renal Clear Cell Carcinoma	Kidney	aab1b68f-6aff-4981-8539-94bc7eb9135a	nationwidechildrens.org_biospecimen.TCGA-BP-4763.xml
+	female	29150	1270.0					Kidney Renal Clear Cell Carcinoma	Kidney	22d6d020-9e3c-4bea-81f9-9b04d08cc70f	TCGA-BP-4763-01A-01-TS1_slide_image
+	female	29150	1270.0					Kidney Renal Clear Cell Carcinoma	Kidney	16808c20-6f23-4c67-883a-2ad410b2dbd3	TCGA-BP-4763-11A-01-TS1_slide_image
+	female	27032		26993		26824	329.0	Kidney Renal Clear Cell Carcinoma	Kidney	be788051-55b6-42b8-8746-786cb13ff2ae	fb9406a8-8a7f-43a1-9e6e-76c4d8c2c227
+	female	29150	1270.0					Kidney Renal Clear Cell Carcinoma	Kidney	935bfdac-fee1-44c4-ae2f-d4629ae7792e	TCGA-BP-4763-01Z-00-DX1_slide_image
+	female	29150	1270.0					Kidney Renal Clear Cell Carcinoma	Kidney	e2c628eb-6d9b-43fa-a104-5f75b58d9438	388fbdee-f12b-4483-aaf5-664dc9e91d99
+	female	27032		26993		26824	329.0	Kidney Renal Clear Cell Carcinoma	Kidney	269c550d-8d9c-45a0-ad1b-8f6449cba014	TCGA-BP-4770-11A-01-TS1_slide_image
+	female	29150	1270.0					Kidney Renal Clear Cell Carcinoma	Kidney	1b9158dc-7c10-456f-bd4e-4b2539f21638	TCGA-BP-4763-01A-01D-1283-01_TCGA-BP-4763-11A-01D-1283-01_segment_ASCAT3
+	female	17331	356.0					Kidney Renal Clear Cell Carcinoma	Kidney	c124ce64-ef49-45ea-a3d3-8ee34bafb343	mirna_swap_dr11_13_MirnaExpressionba5c0760-35aa-4aaa-bce1-3673937fa6d3_profiling
+	female	29150	1270.0					Kidney Renal Clear Cell Carcinoma	Kidney	4c3b6b85-3dc5-4d5c-868b-0e60241f9a1c	4bcbd34f-300f-4aab-9eaa-e5ae83a22683_dr12_allcnv
+	female	17331	356.0					Kidney Renal Clear Cell Carcinoma	Kidney	c979238f-1196-4825-8c2d-c4664db7bcdc	nationwidechildrens.org_ssf.TCGA-T7-A92I.xml
+	female	29150	1270.0					Kidney Renal Clear Cell Carcinoma	Kidney	861e9f5b-6370-4ed3-b2de-cebb905c9d9a	mirna_swap_dr11_363_AlignedReads1b205c65-74a9-44d1-a124-108c0a0ec5f0
+	female	27032		26993		26824	329.0	Kidney Renal Clear Cell Carcinoma	Kidney	9ae2309d-02ee-42cb-bfa8-5c81ac7ea947	TCGA-BP-4770-01Z-00-DX1_slide_image
+	female	29150	1270.0					Kidney Renal Clear Cell Carcinoma	Kidney	384a40d4-7ac9-436b-bb78-8baabf849fef	d86eaaae-8a45-4c29-90c4-9e55ca7f3608
+	female	27032		26993		26824	329.0	Kidney Renal Clear Cell Carcinoma	Kidney	503fee59-1d49-4eb3-82f4-d55b1e986760	ea993c51-452b-4b9c-b516-51910484c24a
+	female	29150	1270.0					Kidney Renal Clear Cell Carcinoma	Kidney	fc4d65ee-201c-4362-b8a6-7a550ab2c0e5	c64f1b8a-83bb-4245-89e6-4550339ab4aa
+	female	29150	1270.0					Kidney Renal Clear Cell Carcinoma	Kidney	5b66912a-3d4b-4fe6-afaf-d38425db832a	5605918e-ff4f-424b-a31f-008b03e5a4a4
+	female	29150	1270.0					Kidney Renal Clear Cell Carcinoma	Kidney	b1b97b0f-a3f8-41b0-8001-ad121bbe6c55	TCGA-BP-4763_B852166F-5F68-425D-83C3-FA6F4D2A34F7_PDF
+	female	27032		26993		26824	329.0	Kidney Renal Clear Cell Carcinoma	Kidney	69dc5128-246b-4307-a43a-ee2ccb0fbc6c	MANIA_p_TCGASNP_b82and51R_N_GenomeWideSNP_6_B12_734844.birdseed.data.txt
+	female	17331	356.0					Kidney Renal Clear Cell Carcinoma	Kidney	c91076fa-0545-4567-8c4c-3fab238aafb8	f18b21df-4964-432f-a378-7a6cdbcb50c3
+	male	14675	1487.0					Kidney Renal Clear Cell Carcinoma	Kidney	25a57db4-7dbe-40a7-8d99-790005ccbff3	73622a18-e886-4a60-965c-2e9761bd3072
+	female	17331	356.0					Kidney Renal Clear Cell Carcinoma	Kidney	72449ac2-6c97-4390-b99e-3069331d2358	4e472a1f-3d6b-4677-a2a2-44e8e4a75470
+	female	17331	356.0					Kidney Renal Clear Cell Carcinoma	Kidney	a9b71e88-2604-469a-9a28-a7b1e988f797	0276a41b-2bb6-4afb-aa98-42b26ec0fd39
+	female	17331	356.0					Kidney Renal Clear Cell Carcinoma	Kidney	1427d735-af96-43ef-9647-735e72926f5a	nationwidechildrens.org_clinical.TCGA-T7-A92I.xml
+	female	17331	356.0					Kidney Renal Clear Cell Carcinoma	Kidney	a128d26e-70a8-42ef-9372-ad2db0093fe1	32f6d5ba-b492-4b02-9049-ee77d66a353f
+	female	17331	356.0					Kidney Renal Clear Cell Carcinoma	Kidney	3ee036b3-6f8d-4e39-8fff-106eb8860c77	3500f5f3-0916-4e25-ad95-b65cd3112c06
+	female	17331	356.0					Kidney Renal Clear Cell Carcinoma	Kidney	06c385f4-ecb4-48fa-9769-f3584a0cc4ee	d3ec70c4-34a6-4e75-9866-f38f54cabdd6
+	male	27436	62.0					Kidney Renal Clear Cell Carcinoma	Kidney	b51b0c47-aa03-402e-b6bf-885bf24649d7	22a14143-cca1-4b5b-a778-4b699202ceea
+	female	17331	356.0					Kidney Renal Clear Cell Carcinoma	Kidney	47467ad3-3c82-46a6-96a9-155f6583309f	0c5db8af-7ae9-4eb7-8627-e18787ddf105
+	male	27436	62.0					Kidney Renal Clear Cell Carcinoma	Kidney	833b5be3-1b42-4d0f-aabd-33357f750e57	23061a6d-79db-4616-a7bc-b8d1b2671b26
+	male	27436	62.0					Kidney Renal Clear Cell Carcinoma	Kidney	bd1a3a52-8deb-4f3b-b0b5-88c27eeaffe2	a4de9fd2-ad1b-4691-9b4a-0305217082ba
+	male	27436	62.0					Kidney Renal Clear Cell Carcinoma	Kidney	e7fa3e37-17b2-4458-9021-a255e3f1e734	03c3f590-dfc4-489b-842b-27f0334d79a6_legacy
+	male	14675	1487.0					Kidney Renal Clear Cell Carcinoma	Kidney	407abd3e-6bed-4af5-86dc-be60c8226416	93f4d5e2-9122-44e4-832b-6a9f67a29d50
+	male	27436	62.0					Kidney Renal Clear Cell Carcinoma	Kidney	76768f75-a2c4-4238-8926-074d55fc88c5	84a50932-d344-46d5-b234-440694b2aa7d_dr12_allcnv
+	female	17331	356.0					Kidney Renal Clear Cell Carcinoma	Kidney	37bcff84-83ca-4605-bb05-3c54341118ae	f153b732-eb58-494c-a44b-3dc39b68e004_legacy
+	male	27436	62.0					Kidney Renal Clear Cell Carcinoma	Kidney	73c1a92e-9184-4633-9cb3-d2bbe3133741	TCGA-KIRC.e8ddcf0d-1c0e-4fd3-be32-06f71c95feb1.ascat2.allelic_specific.seg.txt
+	male	27436	62.0					Kidney Renal Clear Cell Carcinoma	Kidney	da4b1164-cd19-45e1-8a72-db91e75496d1	TCGA-BP-5173-01A-01-TS1_slide_image
+	male	14675	1487.0					Kidney Renal Clear Cell Carcinoma	Kidney	6b5ac003-0c83-48df-8bcd-c939c14b1b09	e1733bed-c097-48ca-aaca-26af7d94d859
+	male	14675	1487.0					Kidney Renal Clear Cell Carcinoma	Kidney	91c121d7-e748-4de9-8a94-111bd70ef810	d77c6b45-e7c6-4cec-9d13-6c68a64d2360
+	male	27436	62.0					Kidney Renal Clear Cell Carcinoma	Kidney	2da4ed2d-19e6-49b3-931c-e4efef851bd0	643b12d2-0922-4d6b-892e-b36be953e6c4_legacy
+	male	27436	62.0					Kidney Renal Clear Cell Carcinoma	Kidney	51269403-1a48-40d3-9667-980ae9f1188c	c7aa7d9f-44a1-42e4-aa04-b7945f9dc155
+	male	14675	1487.0					Kidney Renal Clear Cell Carcinoma	Kidney	2b5fc2ba-8d5f-4e47-a733-118c13e07907	TCGA-BP-4971_AFA4B302-55A6-410D-94F9-B6B2FA4BD9C4_PDF
+	male	14675	1487.0					Kidney Renal Clear Cell Carcinoma	Kidney	c3ef7008-6915-4298-92d3-300ef3388cb3	nationwidechildrens.org_clinical.TCGA-BP-4971.xml
+	male	27436	62.0					Kidney Renal Clear Cell Carcinoma	Kidney	141e1f02-8ead-4a95-867f-c5f95773e2ac	990cdca2-6d08-4c4e-9b37-1de9491f3285
+df1e2e79-0126-4f3a-85e3-36f59be04622	female	17331	356.0					Kidney Renal Clear Cell Carcinoma	Kidney	93c09202-d459-404f-a6ac-45f96129fbbf	7189617d-6fff-4986-9ff1-873de4564d0f
+	male	27436	62.0					Kidney Renal Clear Cell Carcinoma	Kidney	cd68770d-35db-4c9f-846c-5cbada4dd561	ff5ad1d5-e4a6-4103-a6a1-d053cd625f13
+	male	27436	62.0					Kidney Renal Clear Cell Carcinoma	Kidney	4551ecff-333d-4ed4-88d5-0a9296170862	mirna_swap_dr11_599_MirnaExpression0ddc88eb-bcd4-4ebf-ad6f-2c874b59bb71_profiling
+	male	14675	1487.0					Kidney Renal Clear Cell Carcinoma	Kidney	a78d4921-6f0c-4cc2-a783-47baabc22499	mirna_swap_dr11_179_AlignedReads2f5f352b-ea18-4234-a527-0f2930378aa6
+	male	27436	62.0					Kidney Renal Clear Cell Carcinoma	Kidney	b952197e-676f-44a0-9242-62c0579d9d65	TCGA-BP-5173-01A-01D-1423-01_TCGA-BP-5173-11A-01D-1423-01_segment_ASCAT3
+	male	27436	62.0					Kidney Renal Clear Cell Carcinoma	Kidney	92f7fa2c-8bad-451f-9fe3-80def0f653e0	TARSI_p_TCGAb70_SNP_N_GenomeWideSNP_6_C03_741974.birdseed.data.txt
+	male	14675	1487.0					Kidney Renal Clear Cell Carcinoma	Kidney	e604e4c7-f748-48ef-8dac-70b2235e06ff	TCGA-BP-4971-01A-21-1739-20_RPPA
+	male	27436	62.0					Kidney Renal Clear Cell Carcinoma	Kidney	c8baeb4c-a551-4fb0-9192-6dd654a314eb	b6ad7283-735b-40ee-8e5c-ba629687865f
+	male	14675	1487.0					Kidney Renal Clear Cell Carcinoma	Kidney	faec4afb-ea06-4ad2-aaab-144decfb9317	91a207da-25b0-4f43-a24f-2dc2cd3bee32
+	female	17331	356.0					Kidney Renal Clear Cell Carcinoma	Kidney	79ef3b51-76d4-443d-a4dc-4cd99fa38bda	mirna_swap_dr11_13_MirnaExpressionba5c0760-35aa-4aaa-bce1-3673937fa6d3_isoform_profiling
+	female	17331	356.0					Kidney Renal Clear Cell Carcinoma	Kidney	535a0322-3721-4596-913e-c2a3d4bba541	2fe19f93-77ad-4c30-b60d-e933a14726f9
+	female	17331	356.0					Kidney Renal Clear Cell Carcinoma	Kidney	fc8f2244-abb4-42df-834e-5e82b71d2cd3	TCGA-T7-A92I-01A-11D-A36W-01_estimate_ABSOLUTE
+	male	14675	1487.0					Kidney Renal Clear Cell Carcinoma	Kidney	a1bca025-131a-4d4d-8dd7-90ece1047d34	d22d7fc6-2b4a-41a5-a36f-372e0406854a
+	male	27436	62.0					Kidney Renal Clear Cell Carcinoma	Kidney	1cd78d05-b510-456d-9b07-0dbfe719952e	71224cb6-6f41-4551-bfe8-d745b95109f6
+	male	27436	62.0					Kidney Renal Clear Cell Carcinoma	Kidney	167de1b9-3815-4ea1-b65b-5209474f7385	fd0c657f-5949-48f6-8c4c-bc2c3c17d286
+	male	14675	1487.0					Kidney Renal Clear Cell Carcinoma	Kidney	c2f4777f-fbec-4a6e-b325-059f320f0280	7ce799f6-6f4d-4971-be82-27448db7fa35
+	male	27436	62.0					Kidney Renal Clear Cell Carcinoma	Kidney	6aee758d-113a-4a0e-9fb4-a6387add21f1	55bd8063-0f16-48cc-8313-2838a4aeb78f
+	male	14675	1487.0					Kidney Renal Clear Cell Carcinoma	Kidney	657c1a90-c79c-4b07-85c3-c7860ed32db8	6f1562e0-9d22-41dd-82cd-734ab1ec0942
+	male	27436	62.0					Kidney Renal Clear Cell Carcinoma	Kidney	0e20ec1a-21df-4028-b345-b70d88d18c5f	b43dec0f-91cb-4254-98e4-cf62f05c408e
+	male	14675	1487.0					Kidney Renal Clear Cell Carcinoma	Kidney	e204452b-b7e8-4ae4-a7ff-c7108814020d	3e54591e-9b8a-40dc-b9db-225b10750c31
+	female	17331	356.0					Kidney Renal Clear Cell Carcinoma	Kidney	1b50841b-7641-439e-a14b-cb679e1493c6	TCGA-T7-A92I-01A-11D-A36W-01_TCGA-T7-A92I-10A-01D-A36Z-01_segment_ASCAT3
+	male	27436	62.0					Kidney Renal Clear Cell Carcinoma	Kidney	def9dd52-e1d0-4b78-a80f-78e73a5d44cd	TCGA-BP-5173-01A-01D-1423-01_TCGA-BP-5173-11A-01D-1423-01_estimate_ASCAT3
+	male	14675	1487.0					Kidney Renal Clear Cell Carcinoma	Kidney	a33205b0-1007-440d-af27-eb48b689e5d0	9e21ecf6-938d-47f0-a374-ef694d322714
+	female	26659	77.0					Kidney Renal Clear Cell Carcinoma	Kidney	91b6dfc1-f5f1-4c17-b6e5-018487b0bfb8	mirna_swap_dr11_224_MirnaExpressione719647e-15a5-48c3-8548-fc81519bd6aa_isoform_profiling
+	male	14675	1487.0					Kidney Renal Clear Cell Carcinoma	Kidney	521ce466-da07-456f-bf2b-d587861101d1	4ac6d00b-3b03-470c-a1aa-7872ddf0a70f
+	female	26659	77.0					Kidney Renal Clear Cell Carcinoma	Kidney	0be720bd-5ce0-4ef9-88fe-3ca4aa1964bb	43108f9b-002f-428a-a4ee-14b7aa507170
+	male	27436	62.0					Kidney Renal Clear Cell Carcinoma	Kidney	cbb91d89-08c9-45a0-8b1f-04cd36719ded	5bd55cac-6ab5-408b-b7c7-aec157155b7e
+e3aa5595-223b-42e9-aec0-e49f631e37d5	male	23039	1238.0					Kidney Renal Clear Cell Carcinoma	Kidney	e6feae03-1e45-4ac9-a6c6-5574002a4af2	06d6a517-856d-4106-935d-2db1145fb933
+	female	26659	77.0					Kidney Renal Clear Cell Carcinoma	Kidney	40b59db1-ffb0-44df-a944-d9d0e1f0618d	6f0cefd8-1df9-495c-ac21-c97e3fd40508
+	female	26659	77.0					Kidney Renal Clear Cell Carcinoma	Kidney	703dcca7-ad80-4ea0-a4f6-2ccc3d7c355a	d72cbe56-f3cc-4635-8760-c9817807cf28_dr12_nocnv
+	male	27436	62.0					Kidney Renal Clear Cell Carcinoma	Kidney	7e44a1ce-5b68-420f-b4a7-4ab1cc100fc2	bbd07ad3-4341-4709-970d-426162e99fcf
+	female	26659	77.0					Kidney Renal Clear Cell Carcinoma	Kidney	a29275b0-e588-4925-899f-aff2bc51d589	0110c508-f0c5-4c90-ae46-6808d9bc87f6
+	male	17611	932.0	17933				Kidney Renal Clear Cell Carcinoma	Kidney	6defab52-bf1e-4f5c-b98d-73a86014c6cf	0b0b1391-cb02-4bf2-be43-0072ea496a34
+	male	23039	1238.0					Kidney Renal Clear Cell Carcinoma	Kidney	c6e761b3-11e4-499d-bf2f-d80121ae7885	e5733a91-cf62-4e92-ba0a-0f4326c5ee83
+	male	23039	1238.0					Kidney Renal Clear Cell Carcinoma	Kidney	4bcd796d-e5cf-43aa-bf64-91b9295e34b5	BEFIT_p_TCGAb32_SNP_S_GenomeWideSNP_6_A11_585060.birdseed.data.txt
+	male	23039	1238.0					Kidney Renal Clear Cell Carcinoma	Kidney	d5760700-208d-4915-b80f-e3443d32b4ce	0f0223c2-29c1-4eec-ae62-d9a7c682c7ca
+	male	17611	932.0	17933				Kidney Renal Clear Cell Carcinoma	Kidney	cf75c507-0c4e-4a63-b611-22d4cc9182ef	TCGA-CJ-4887-01A-01D-1302-01_TCGA-CJ-4887-11A-01D-1302-01_estimate_ASCAT3
+	male	17611	932.0	17933				Kidney Renal Clear Cell Carcinoma	Kidney	0de89107-7bfd-4c42-91f5-9475e3c7f6fb	4489bac1-73e5-4a59-b3fa-5d8fa2787b58_dr12_nocnv
+	female	26659	77.0					Kidney Renal Clear Cell Carcinoma	Kidney	9689c632-f74a-419a-a1e6-fcdab91dc950	nationwidechildrens.org_clinical.TCGA-B0-4693.xml
+	female	26659	77.0					Kidney Renal Clear Cell Carcinoma	Kidney	411027e6-c4a5-4ab0-8d10-290a5a698504	TCGA-B0-4693-01A-01-BS1_slide_image
+	female	26659	77.0					Kidney Renal Clear Cell Carcinoma	Kidney	b709e207-715b-4829-845a-8756e902a71a	TCGA-B0-4693-01Z-00-DX1_slide_image
+	female	26659	77.0					Kidney Renal Clear Cell Carcinoma	Kidney	cdae9918-d8b0-4601-b149-1701ec90bc6a	b6a9cd94-3f91-4ca5-b837-f9d5165b6bbc
+	male	17611	932.0	17933				Kidney Renal Clear Cell Carcinoma	Kidney	4a0d03ae-65be-4168-89c9-0a756f0e47fc	c5331962-6b21-4b68-9826-b507f9abf439
+	male	23039	1238.0					Kidney Renal Clear Cell Carcinoma	Kidney	9c489ebb-56a8-40ac-9690-c74494056713	750e3cc8-a269-4fdf-9b63-3ee8835a4ead
+	female	26659	77.0					Kidney Renal Clear Cell Carcinoma	Kidney	1fda5fa4-b877-4ffc-9d58-75cc6e0be95b	22e6e134-db57-4d33-b873-5d87b34af8ed
+	female	26659	77.0					Kidney Renal Clear Cell Carcinoma	Kidney	544f9c44-8b36-4de5-88cd-954c8aa71be9	017cde6f-f2f1-487f-920c-52049f42bdb5
+	female	26659	77.0					Kidney Renal Clear Cell Carcinoma	Kidney	8faf645c-abe2-4c83-9bce-ffccf2105197	d8077957-3659-453d-8ce2-e20be5dddf82_legacy
+	male	23039	1238.0					Kidney Renal Clear Cell Carcinoma	Kidney	5dc3bf42-f7d0-43fd-b80e-0411542082a3	1d0aa34c-5407-40d2-b955-13b9fe699b70
+	male	17611	932.0	17933				Kidney Renal Clear Cell Carcinoma	Kidney	ab1bfb1c-99dc-4d35-900d-159052548846	817e454d-6217-499e-b991-c028d1e5bd89
+	male	23039	1238.0					Kidney Renal Clear Cell Carcinoma	Kidney	c0a7bcc1-e087-41ec-8672-2f77bd7ccb2e	BEFIT_p_TCGAb32_SNP_S_GenomeWideSNP_6_G06_585056.birdseed.data.txt
+	male	23039	1238.0					Kidney Renal Clear Cell Carcinoma	Kidney	dac7bd3c-d63b-4575-af90-c862c993af9a	b9e5fa5d-ff0f-4d21-a338-d7cded93ec92_dr12_nocnv
+	male	17611	932.0	17933				Kidney Renal Clear Cell Carcinoma	Kidney	10cd8282-08a2-48cc-95b9-0e92cd5a3ce1	e298d28f-aaf7-40bf-b4b1-3e051afb471c
+	male	17611	932.0	17933				Kidney Renal Clear Cell Carcinoma	Kidney	c2beee70-9eb9-4890-92d9-e66ee8dfcdb1	TCGA-CJ-4887-01A-01D-1302-01_estimate_ABSOLUTE
+	female	26659	77.0					Kidney Renal Clear Cell Carcinoma	Kidney	f08694c8-fa40-4c7d-a2bc-b69514f317b1	nationwidechildrens.org_biospecimen.TCGA-B0-4693.xml
+	male	17611	932.0	17933				Kidney Renal Clear Cell Carcinoma	Kidney	cf515870-6af6-4c78-9272-40dbca0033f8	312d7c43-3564-439d-9438-d0ee79d2dde4_dr12_allcnv
+	male	17611	932.0	17933				Kidney Renal Clear Cell Carcinoma	Kidney	2929e8b8-b35c-4290-96f8-7db68d52ad26	24793fb7-12b6-401e-927a-858ec39d487a
+	male	23039	1238.0					Kidney Renal Clear Cell Carcinoma	Kidney	aed88cc7-373a-4889-8d81-3304bec7ae24	749707cc-8242-4cd2-b60d-75a33446b5cb
+	male	17611	932.0	17933				Kidney Renal Clear Cell Carcinoma	Kidney	c2c36721-1560-41d4-a1ad-b34c612ff4c4	nationwidechildrens.org_biospecimen.TCGA-CJ-4887.xml
+	male	17611	932.0	17933				Kidney Renal Clear Cell Carcinoma	Kidney	39e81842-1b4d-45ce-97ed-e5252be138b4	mirna_swap_dr11_108_MirnaExpression9fcb118d-d5a5-40a0-9661-cc0acfa8ba61_isoform_profiling
+	male	23039	1238.0					Kidney Renal Clear Cell Carcinoma	Kidney	6607c76e-e0a4-4e03-8c3f-a8580d8e777d	mirna_swap_dr11_273_MirnaExpressionb9b85b8f-f6ed-4f52-b7ca-5fbf612f5728_isoform_profiling
+	male	17611	932.0	17933				Kidney Renal Clear Cell Carcinoma	Kidney	c6f79ed4-d1b8-4802-81d9-760064bd04c6	23261bf7-1473-4af3-b1b9-bdb4c8f9aef8
+	female	26659	77.0					Kidney Renal Clear Cell Carcinoma	Kidney	4555e6a7-3be1-46ab-813e-39a185df0a0e	f8cd8761-086e-4ca2-a009-c21a603b6bfb_dr12_allcnv
+	female	26659	77.0					Kidney Renal Clear Cell Carcinoma	Kidney	ac1063b2-1583-49fe-8e1f-bd94b371b8da	fd4e362c-99d4-4ea7-a1c5-f33831a6f025

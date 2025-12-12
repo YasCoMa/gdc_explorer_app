@@ -1,6 +1,11 @@
 import os
 import sys
 import json
+import gzip
+import shutil
+import requests
+import pandas as pd
+import xml.etree.ElementTree as ET
 
 class DataWrangler:
 	def __init__(self, fout = '../data_processed'):
@@ -71,13 +76,67 @@ class DataWrangler:
 		else:
 			print("Please choose a valid platform for the methylation beads: illumina_27, illumina_450, illumina_epic or illumina_epicv2")
 
+	def get_vital_status_files(self, project):
+
+	    fields = [
+	        "submitter_id",
+	        "annotations.case_id",
+	        "cases.annotations.status",
+	        "cases.diagnoses.age_at_diagnosis",
+	        "cases.diagnoses.days_to_death",
+	        "cases.diagnoses.days_to_last_follow_up",
+	        "cases.demographic.gender",
+	        "files.cases.diagnoses.vital_status",
+	        "cases.project.primary_site",
+	        "cases.project.disease_type"
+	        ]
+
+
+	    fields = ",".join(fields)
+
+
+	    cases_endpt = "https://api.gdc.cancer.gov/v0/cases"
+	    cases_endpt = "https://api.gdc.cancer.gov/files"
+
+
+	    filters = {
+	        "op": "in",
+	        "content":{
+	            "field": "cases.project.project_id",
+	            "value": [project]
+	            }
+	        }
+
+
+	    # With a GET request, the filters parameter needs to be converted
+	    # from a dictionary to JSON-formatted string
+
+
+	    params = {
+	        "filters": json.dumps(filters),
+	        "fields": fields,
+	        "format": "TSV",
+	        "size": "1000"
+	        }
+
+
+	    response = requests.get(cases_endpt, params = params)
+	    f=open(project+'_clinical.tsv','w')
+	    f.write(response.text)
+	    f.close()
+
+
 	def run(self):
+		'''
 		option = sys.argv[1]
 		print(option)
 		#try:
 		eval('self.run_'+option)()
 		#except:
 		#	print("Function not available")
+		'''
+		p = 'TCGA-BRCA'
+		self.get_vital_status_files(p)
 
 if( __name__ == "__main__" ):
 	o = DataWrangler()
