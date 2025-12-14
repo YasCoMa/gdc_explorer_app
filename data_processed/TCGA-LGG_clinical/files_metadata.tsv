@@ -1,0 +1,516 @@
+cases.0.case_id	cases.0.demographic.ethnicity	cases.0.demographic.gender	cases.0.project.disease_type	cases.0.project.primary_site	cases.0.project.project_id	cases.0.submitter_id	file_id	file_size	id
+e6c55ba6-4c8a-4ea4-8dde-74d01915db02	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7468	49ebcdda-bcab-45ca-bcaa-936088ed1de8	37530	49ebcdda-bcab-45ca-bcaa-936088ed1de8
+ec82a00f-3909-4781-8ae2-e54cbc1ac7ac	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-7015	0cccb1b4-70e1-46f8-9a32-9b4e20323c34	54895	0cccb1b4-70e1-46f8-9a32-9b4e20323c34
+e78e8845-9fba-48ba-8cf3-418429ea5f56	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7690	9b406263-80ad-4e19-a06b-42ba4fc6876d	30632	9b406263-80ad-4e19-a06b-42ba4fc6876d
+edbf86e5-3f55-4ddf-a97f-3e9dc607e53d	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TM-A84H	c6b93752-0c88-42aa-a756-a471d87aa39b	35935	c6b93752-0c88-42aa-a756-a471d87aa39b
+ef12bfb7-4147-407f-84e9-586dbb10d583	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-A7TA	70a4613f-71e7-42db-9820-daf5dfde9f32	47622	70a4613f-71e7-42db-9820-daf5dfde9f32
+a66a3847-7570-4486-8845-86b6125104a2	Unknown	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-VM-A8C8	26d3e396-29b6-4590-9705-eb6162043ffe	49516	26d3e396-29b6-4590-9705-eb6162043ffe
+f2d3fea5-0d20-42d3-b918-adad715be4ee	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-8107	6625e57f-47f3-4dbf-a890-20675f9529b8	30868	6625e57f-47f3-4dbf-a890-20675f9529b8
+f625e522-226b-450f-af94-dd2f5adb605e	hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-8564	2c249cd4-6c66-4355-b4fe-d508779f919a	53490	2c249cd4-6c66-4355-b4fe-d508779f919a
+fb6437f9-ade8-4c33-a0d0-ceacb2bf784d	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-A4XB	1db3a3e7-a390-4529-bc2e-5293e42d6e84	41572	1db3a3e7-a390-4529-bc2e-5293e42d6e84
+fcd9e1c4-bddb-4856-844c-03df48fba499	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-6392	a48fd0ce-5724-45a4-845e-7f76b8c558d9	53014	a48fd0ce-5724-45a4-845e-7f76b8c558d9
+fc222f23-b3b2-4ac0-bc61-e8e8fa5cc160	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-CS-4941	4a16d817-a8d1-47ca-9fef-e6799907ad2a	47205	4a16d817-a8d1-47ca-9fef-e6799907ad2a
+fc3948fb-df27-4149-bbfb-04443dfecc19	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-A7YU	690c080b-afa0-466f-972f-50603caec66e	28446	690c080b-afa0-466f-972f-50603caec66e
+fea46eef-6b7f-44c3-93bf-2dec16bdeb79	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7860	8f33f954-6daa-4880-a429-285753da7ec5	30608	8f33f954-6daa-4880-a429-285753da7ec5
+febe2ce5-737b-43b8-bc70-4194fe3ed5fb	hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-A4MY	7d95c84b-bb06-45c2-ad4a-2d018ef79c54	35750	7d95c84b-bb06-45c2-ad4a-2d018ef79c54
+fee2114e-f723-4374-91f8-f1dcc6b3eaee	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7470	5183cadb-b5ef-43af-a878-05c475affd3d	50354	5183cadb-b5ef-43af-a878-05c475affd3d
+fff304a2-113f-499d-a88c-9d3660c348d9	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-RY-A847	26f126f9-3e49-48da-9310-8051edb69115	30979	26f126f9-3e49-48da-9310-8051edb69115
+97bf8065-3e7d-4702-a426-24908f4d66a4	not reported	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-CS-5394	109d7c5b-42d1-44c2-95d8-8a87262c5a41	38004	109d7c5b-42d1-44c2-95d8-8a87262c5a41
+97ffbe14-9070-4a5a-8760-225a88834b40	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-A7Z2	7c6088e6-5793-481c-af32-0e2e72749d3a	71412	7c6088e6-5793-481c-af32-0e2e72749d3a
+9e621541-d603-4d2d-b86e-2834d3b9f9a5	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-8113	4fbe799c-166b-41c7-b05c-52edc2486a95	47459	4fbe799c-166b-41c7-b05c-52edc2486a95
+9ed5af0e-c87f-46ff-81e7-9d3041b4034e	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-5852	f860fe02-a03b-48bb-bb38-eb7d59949d00	42321	f860fe02-a03b-48bb-bb38-eb7d59949d00
+6a0bcf0c-fa4c-4119-99d2-f722b781d20f	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-8182	64a66347-0d51-4edc-841d-f4e6ddf3af8e	30690	64a66347-0d51-4edc-841d-f4e6ddf3af8e
+723cad09-aa2d-4492-b19d-661b310e1c58	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-A74O	0538d04a-2e5d-4654-9f38-ca45c2d10c4b	30473	0538d04a-2e5d-4654-9f38-ca45c2d10c4b
+cb1e9916-c03f-405a-a797-15823df09c8e	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DH-A66B	ce8f8937-856d-415d-b15a-33a6e7df3aa2	41847	ce8f8937-856d-415d-b15a-33a6e7df3aa2
+ba910760-ebb5-41ba-81a1-c5355e3d3087	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-A7TJ	f0b4c40c-75e5-4c10-b182-735b4ec9811b	30312	f0b4c40c-75e5-4c10-b182-735b4ec9811b
+3d58ded1-b7cf-420c-ba59-5b424683f0df	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7686	5dfd0f27-da24-4558-8951-040cfdbf542a	48525	5dfd0f27-da24-4558-8951-040cfdbf542a
+6d2c49c3-0721-4bd2-b39f-7872f2de996d	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A6WE	9bad3d91-19e4-43ce-a70e-7ee523dc44e6	60487	9bad3d91-19e4-43ce-a70e-7ee523dc44e6
+fc3b7596-f515-446f-81db-fed0154ca2c5	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-EZ-7264	331e2039-5392-4b74-8485-29c46432457f	38691	331e2039-5392-4b74-8485-29c46432457f
+7e41baba-7ef6-4030-b595-d95cd96336b5	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-A5R7	788df2d1-b1c6-4a5e-b86e-b16c3b40dc77	41491	788df2d1-b1c6-4a5e-b86e-b16c3b40dc77
+b435e88b-f105-4c65-b725-126e5a299113	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7603	57995aa2-be83-4afc-b5e7-d17f9c198d3b	35740	57995aa2-be83-4afc-b5e7-d17f9c198d3b
+457ec7f6-8612-4641-aaef-8a7f2c44c30c	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-A7YD	87a0f546-67d2-43b5-abee-cf43eaf989dd	39290	87a0f546-67d2-43b5-abee-cf43eaf989dd
+d58b535a-6c95-43bb-ad88-0600e6447537	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7689	fc591bbe-9473-4154-8c87-5e12bf7e9980	48563	fc591bbe-9473-4154-8c87-5e12bf7e9980
+ad202887-88b3-4e0f-a4c3-7e135d4cb258	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-6690	a75ae0d4-9817-43b4-ab20-0edb6867f3b1	60273	a75ae0d4-9817-43b4-ab20-0edb6867f3b1
+834e560a-a506-456d-baf2-a206ca058153	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-7010	2883d6f4-d69a-406d-96f6-904c92f79084	48162	2883d6f4-d69a-406d-96f6-904c92f79084
+cd50aea8-a5db-48d3-ad28-cbe9f9e75ae3	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TM-A84S	2fb3939d-3991-4640-8433-b5d3f03b9362	31249	2fb3939d-3991-4640-8433-b5d3f03b9362
+8996dc64-8c5e-4e07-8ed8-2eb11c03626b	Unknown	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HW-A5KJ	7e7b7392-87b0-49fe-99cb-7a359c6f39a9	63164	7e7b7392-87b0-49fe-99cb-7a359c6f39a9
+4c167f09-d664-425f-bd84-6ff8c21b272b	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-A5TW	3b78fe21-52e3-48c1-a0fd-d34f2f8790ed	31165	3b78fe21-52e3-48c1-a0fd-d34f2f8790ed
+67e9b426-72eb-4475-9689-eb75b22c4fd5	hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-A64R	7c7437e3-ed0c-4fc3-9c51-f85e86b64221	31250	7c7437e3-ed0c-4fc3-9c51-f85e86b64221
+9f469edb-6b12-4eab-bd6f-9c10034d4cb7	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-A7YH	dff5d08d-62cf-4f4b-aafd-4642b7964f74	113008	dff5d08d-62cf-4f4b-aafd-4642b7964f74
+799e9106-e62e-4681-8861-137f474ee8b8	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7602	ac1c3b3d-48aa-4369-bb65-c2e0fc3f596c	30627	ac1c3b3d-48aa-4369-bb65-c2e0fc3f596c
+55c78413-d102-4113-930e-6d842862fe75	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-5851	b46f1749-7512-4400-978d-b315a29a058f	48181	b46f1749-7512-4400-978d-b315a29a058f
+a5e10e2e-5157-487b-88dc-6c70ad5e244a	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A6U1	419478fa-6163-4bb3-9ebf-f411e08e140f	45166	419478fa-6163-4bb3-9ebf-f411e08e140f
+ea31c705-4cf8-48f5-8d13-e43563213c91	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-A6J1	0eac0d07-9da3-4cbd-9c96-239d64ef1c89	36045	0eac0d07-9da3-4cbd-9c96-239d64ef1c89
+bff37de3-dc68-4e69-bdfc-8b524dd7774f	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7481	73788291-6100-4d47-a63e-529956cdb8e2	44476	73788291-6100-4d47-a63e-529956cdb8e2
+4250ac3c-c8b0-46ce-b9c8-7963bc386041	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-A7YM	b8e1d8fd-c5b6-42a5-a329-647bcdd92e8e	82957	b8e1d8fd-c5b6-42a5-a329-647bcdd92e8e
+3b68b6ff-7efb-4d53-8bd8-c76cd68ab7c0	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TM-A84F	110f714a-d92e-460f-8cf7-dd97e508fdfd	35932	110f714a-d92e-460f-8cf7-dd97e508fdfd
+f86fa219-34e9-4812-8edf-2b66d7219779	not reported	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-CS-5395	687d1a97-a204-40ef-b473-e7fbdd2d9d34	48249	687d1a97-a204-40ef-b473-e7fbdd2d9d34
+141f0546-f6f2-408f-ac86-07ca4aadf3d0	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-P5-A72Z	a4b8e312-2710-4e6b-9ed0-abd1fc95b7e5	40541	a4b8e312-2710-4e6b-9ed0-abd1fc95b7e5
+032096a6-1923-44b9-a1cb-181bed041c8e	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A7J3	06435f6f-e3ca-42f2-a6bf-c5c73a885a23	61411	06435f6f-e3ca-42f2-a6bf-c5c73a885a23
+60b30a95-3e4c-413a-9de6-16a5bca163c4	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-CS-6670	b991e744-b08b-43b8-8d00-9bbde770b02a	62153	b991e744-b08b-43b8-8d00-9bbde770b02a
+04e6e843-7f31-43da-b111-280ce2bd1949	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-A7T8	a7095524-e8c6-46f5-8e63-bf2a454db730	71460	a7095524-e8c6-46f5-8e63-bf2a454db730
+0b283f95-dbd4-4c36-9201-2198a90ee0d6	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A6WI	1c3cde00-de1f-488f-83f0-d7822e69d688	35915	1c3cde00-de1f-488f-83f0-d7822e69d688
+0d61bdbd-24b1-4885-a099-9e42ca7eedcd	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7620	54ea6fab-5b3f-4220-b3f7-a327750c23d6	60664	54ea6fab-5b3f-4220-b3f7-a327750c23d6
+145f87a3-5e86-4a87-8e49-b166a2271d02	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-7292	3d486d72-3cb6-419e-a4bd-e8ce10c56575	53308	3d486d72-3cb6-419e-a4bd-e8ce10c56575
+135a149a-d153-465e-aa58-06d47bb18e00	hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TQ-A8XE	b9b0b8cd-a5d8-4177-86fe-95d50c839678	31539	b9b0b8cd-a5d8-4177-86fe-95d50c839678
+145c3685-f6de-4669-8ec4-6c3431a90532	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-RY-A83Z	2b331e02-0a63-474d-a4ef-cabbe570362a	30751	2b331e02-0a63-474d-a4ef-cabbe570362a
+1a20f675-d9bb-48b0-a49f-d52270bd8973	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-A74J	50990047-7c70-4512-93fa-76e8fea49aff	22650	50990047-7c70-4512-93fa-76e8fea49aff
+1aa6b9ff-7c97-47d9-923f-2bd83f20e531	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-P5-A5EU	945c460b-e03e-47e1-a99d-482cd505b685	30329	945c460b-e03e-47e1-a99d-482cd505b685
+172701cf-709b-4e8f-b2fa-e2690a9e272d	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-RY-A83Y	f325cf43-7885-4342-b30b-1dfbe6a55582	30780	f325cf43-7885-4342-b30b-1dfbe6a55582
+178ab87c-0582-4b02-bf6b-3a4c59a5ee1b	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-6400	4b5ed70a-4f15-498f-ad03-d20d5879caf0	30466	4b5ed70a-4f15-498f-ad03-d20d5879caf0
+2c03e8b9-8856-43a7-853d-5ec51a6e5330	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DH-5140	44f5422a-c9f4-4a7c-9cfa-76abb6322ae0	60715	44f5422a-c9f4-4a7c-9cfa-76abb6322ae0
+27d0d3cb-16c0-4ba8-9662-95917f665004	hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7476	15cbed64-def3-485b-a118-49551c5dc58f	48316	15cbed64-def3-485b-a118-49551c5dc58f
+2f8c789e-bbd8-4753-a48b-6894c21162f8	hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TQ-A7RK	6c7b83bd-96ad-4c6d-ab92-7f965736d1ac	31695	6c7b83bd-96ad-4c6d-ab92-7f965736d1ac
+288f6c7e-d96f-4be1-8312-77c67f75c467	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TM-A7CA	87c3e026-ea0b-4b0a-9d87-707a8ecf00ff	31287	87c3e026-ea0b-4b0a-9d87-707a8ecf00ff
+2fb951f1-00a0-4caf-ac93-096056e77b1f	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-P5-A72X	49306482-f46a-44d6-8e34-070767078250	34717	49306482-f46a-44d6-8e34-070767078250
+33615113-791b-4286-a23a-ad3d1f8d4b09	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-A4XC	ceaaf160-59c1-4d7f-ad2c-5edafe6d8c02	35676	ceaaf160-59c1-4d7f-ad2c-5edafe6d8c02
+3c6dc0eb-e94b-4293-b665-f3cba04fc8de	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-P5-A781	5729fd63-3bec-486e-bc28-81102e0629e7	34952	5729fd63-3bec-486e-bc28-81102e0629e7
+38f4b9f3-6709-40ff-9a81-5fa2111b1ce6	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7477	3216f4cb-eea9-40e5-80f0-27987623cff4	41709	3216f4cb-eea9-40e5-80f0-27987623cff4
+3f36cd97-eb22-47de-b447-5c96378e4a2b	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7687	d7cdf5e3-d155-4918-86f2-d04c38afca2a	30610	d7cdf5e3-d155-4918-86f2-d04c38afca2a
+41fbb9f1-4a13-48ab-8649-0608c89cdd9f	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A6U2	7cbbc3e9-3ac8-47b6-807c-da1b1ecc514c	43956	7cbbc3e9-3ac8-47b6-807c-da1b1ecc514c
+42251e02-b687-4bf1-a1b6-e3dd978542e4	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HW-7487	f53ab8cc-b094-4b77-beeb-450c4cc2270c	100396	f53ab8cc-b094-4b77-beeb-450c4cc2270c
+42cc9620-98fb-4164-a3b2-28d084ca5a03	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-6394	b2329d70-4e6a-411f-a114-0a4f9c0b8a6b	58909	b2329d70-4e6a-411f-a114-0a4f9c0b8a6b
+400b2fa3-baf7-4baa-99b4-88b9f25b5049	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-5318	4a835975-7813-4aa7-a452-cbe356ef4bff	123827	4a835975-7813-4aa7-a452-cbe356ef4bff
+4240c137-ee3a-474c-9426-470380cb41a2	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7880	52a5bc21-6cfe-41a5-9d30-69b668d38c03	30758	52a5bc21-6cfe-41a5-9d30-69b668d38c03
+40587b69-0f62-4a2a-88cb-1bd711377f19	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-A4XF	3ccd4488-f6e8-4e5c-b4d8-9ab620b1f866	41695	3ccd4488-f6e8-4e5c-b4d8-9ab620b1f866
+427c40f6-d1bd-49f2-b303-a975793b937e	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-7008	bbdb78a3-bdd4-41af-abc1-fdf35b5d579a	54585	bbdb78a3-bdd4-41af-abc1-fdf35b5d579a
+451bad4f-6d72-4526-9978-38e090fc479f	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-QH-A65X	bfb033c7-5a51-42f9-a610-b5ea908af07b	59344	bfb033c7-5a51-42f9-a610-b5ea908af07b
+5795a884-b62a-46a9-81d6-f24058424660	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-A7YI	a166aecd-a617-44fc-a897-c1620554090f	23130	a166aecd-a617-44fc-a897-c1620554090f
+4fb16aee-df08-441a-846b-558e0efe8342	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-VW-A8FI	269af1da-4544-4330-8d5b-64e8b9a3de34	33450	269af1da-4544-4330-8d5b-64e8b9a3de34
+5b199e7e-cc23-4065-88ad-fdfe3d0683d6	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-A710	4ca2fa26-f13c-4f24-b860-e2829fbc1c9e	36745	4ca2fa26-f13c-4f24-b860-e2829fbc1c9e
+5b744051-7355-4e15-b035-0621e709a5d7	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DH-5142	14cef899-429e-42a7-ab52-bc4b36cddf18	62763	14cef899-429e-42a7-ab52-bc4b36cddf18
+6105c037-90f1-42d9-ac38-6e2252999a64	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HW-8322	f5a0e985-e143-4a58-b44c-e2deb0ca002a	44254	f5a0e985-e143-4a58-b44c-e2deb0ca002a
+6b225409-09c0-4a51-8f42-8fefe3855c4d	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7605	e56b67cc-cbda-49d3-803e-89afa7762588	30610	e56b67cc-cbda-49d3-803e-89afa7762588
+6957d45e-7ccb-457d-800d-c2a2037f4f01	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HW-7489	8ed7f53c-754e-4e73-a27b-a82b8bdddeed	38180	8ed7f53c-754e-4e73-a27b-a82b8bdddeed
+64cd17eb-c778-45e9-b994-02b68182e51b	not reported	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-CS-4944	461bf58b-ce7f-4d7c-9e40-1ff9d1f30b56	43159	461bf58b-ce7f-4d7c-9e40-1ff9d1f30b56
+6a0b306b-f73d-45b2-93a6-b9bd625644a3	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7692	9454afc1-923f-4129-9d4e-26ccbb0030d2	35905	9454afc1-923f-4129-9d4e-26ccbb0030d2
+6ef2d9ab-f72e-48cf-92b8-f3159d28160c	hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TQ-A7RH	44b4e52f-6fe0-4bdf-9a91-cc4528082789	30982	44b4e52f-6fe0-4bdf-9a91-cc4528082789
+6a8241a8-d9ee-414b-89fd-4c3b9f181cc7	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A7J0	ac3ca394-2e81-468e-a0e3-aa8f37b8d760	65176	ac3ca394-2e81-468e-a0e3-aa8f37b8d760
+76cb16f9-37be-450e-b60a-5f0d0f1ec2bc	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-QH-A6CU	c12f292c-61fa-4f77-81a6-bc1f898b30c0	41962	c12f292c-61fa-4f77-81a6-bc1f898b30c0
+738143b3-2d82-42f0-9fd4-8cbabc9c9b4f	Unknown	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-RY-A840	3996186c-c48a-478f-aec3-4dac1688dc87	31318	3996186c-c48a-478f-aec3-4dac1688dc87
+739cc9f1-71be-4f81-a5d1-eda673903e45	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-RY-A83X	aa12e4f9-bae0-4a3e-b7d7-cc553f2abefd	30997	aa12e4f9-bae0-4a3e-b7d7-cc553f2abefd
+75dbc8fb-4db8-4764-824c-eccf3a223884	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-A7YQ	73b315cb-ea3e-4b0c-b5cb-b6b4f8f172ed	53678	73b315cb-ea3e-4b0c-b5cb-b6b4f8f172ed
+7883e417-a793-4614-9528-6c2e9e44379f	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A7R8	ffc96e20-b84b-4989-9318-17d8ad978beb	44469	ffc96e20-b84b-4989-9318-17d8ad978beb
+7662940a-22de-44d8-b59a-2f2b090ea6d5	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-A4MU	ecb4dfd6-0962-4314-b532-90e6bf0c0ef8	30672	ecb4dfd6-0962-4314-b532-90e6bf0c0ef8
+7740824e-905f-47a0-b235-54561ef58ba3	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7688	c56f1bb9-3169-40b7-8edc-e8c1de15b05c	54699	c56f1bb9-3169-40b7-8edc-e8c1de15b05c
+7e17e6fd-ed83-471f-91e3-5934885c8e87	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-A87Q	ae867359-3eac-4bcb-b27c-ed85d7b73a8a	41577	ae867359-3eac-4bcb-b27c-ed85d7b73a8a
+7eb5d055-e1c8-4b93-9205-a49a6e79dfd4	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-P5-A5F0	15c392fc-ad4d-450e-84fd-1b4237a3a2be	52977	15c392fc-ad4d-450e-84fd-1b4237a3a2be
+81fb338f-1023-49aa-ac0f-ba763a6cd68c	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-8108	ae81a1b0-2dc1-4325-89b6-3dfb14819968	30842	ae81a1b0-2dc1-4325-89b6-3dfb14819968
+85f77526-791e-47cd-904d-d1dbb49eaeab	not reported	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-5279	9de51d06-26c0-4110-a4bd-416098c6baba	43684	9de51d06-26c0-4110-a4bd-416098c6baba
+8839f236-bc04-416f-84d4-50f67fb338dc	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TM-A84O	2b1a1cde-c2a1-489f-a265-3701cc69e1a9	35834	2b1a1cde-c2a1-489f-a265-3701cc69e1a9
+8e2dcc00-9f7e-4dee-b24d-43c8b30294c5	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-7007	0e31b9c0-e95d-43ca-997b-376db2e5477f	30216	0e31b9c0-e95d-43ca-997b-376db2e5477f
+8643437f-cd1b-47c8-86bd-87b6c2f80747	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TM-A84C	04c3587a-5877-40e1-a1c2-49bcbe44d7dd	37126	04c3587a-5877-40e1-a1c2-49bcbe44d7dd
+8e44fb97-c649-4056-80ac-257cef61d226	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A7R2	b037f449-ee2b-446b-88e3-9150c6b2c9fe	27783	b037f449-ee2b-446b-88e3-9150c6b2c9fe
+952dfd5d-e65a-4307-b6a9-2ed2b0d2d9ce	not reported	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-CS-4943	0d5f95e3-eed0-48bd-837a-7faa9e2bfc0d	44320	0d5f95e3-eed0-48bd-837a-7faa9e2bfc0d
+99d396bb-5f51-4ee4-a149-244e8fcaf522	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-A64U	6c04f556-ccbd-4b4a-85e9-29276e2c8c3e	31019	6c04f556-ccbd-4b4a-85e9-29276e2c8c3e
+94a2ff09-f7ac-4aea-a2b2-0dc1b82ae635	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A7QY	2251c2d1-cd0c-494b-a78a-d6b8119c681b	37117	2251c2d1-cd0c-494b-a78a-d6b8119c681b
+9cd3b3c6-2268-4e43-964b-b7a4daf6fc6f	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-A6S8	eb0bb2f3-d7d4-4a3f-b536-08e218a192ca	37121	eb0bb2f3-d7d4-4a3f-b536-08e218a192ca
+9ee268a7-fa71-4f3f-919f-cf4ee1de2658	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7676	fcddb05d-e542-4a62-9b16-2125377afce7	30267	fcddb05d-e542-4a62-9b16-2125377afce7
+977118c8-b446-4696-aa6e-9f1a1055e241	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DH-A7UU	db5c718a-a7c9-428c-9c49-eb8e50c22fa9	49713	db5c718a-a7c9-428c-9c49-eb8e50c22fa9
+992452ee-8d9f-406b-9708-7bcb60062743	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-A7YO	f63e06d6-60b2-4be4-9309-2203c3117f7a	37274	f63e06d6-60b2-4be4-9309-2203c3117f7a
+a5d3f3fb-6541-419d-b47e-720d438f1bff	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-CS-6668	d964fbbf-9fd6-451f-86c3-f1e9f39f02ed	44910	d964fbbf-9fd6-451f-86c3-f1e9f39f02ed
+c13bac88-c85b-4ee3-a51c-fd503cd7e726	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-A619	b9944c4f-ad6e-49a2-8752-6590f8390c5c	44686	b9944c4f-ad6e-49a2-8752-6590f8390c5c
+019c5de9-74fd-48b7-95a3-227532e16c5a	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7604	cd6ccb56-5a0a-4a39-b543-f5cd21cbc215	41102	cd6ccb56-5a0a-4a39-b543-f5cd21cbc215
+0536f465-1650-4411-823c-c660bc7f3adc	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-A64O	791d0009-d23d-4aeb-a7ef-8f9d599b2c00	41670	791d0009-d23d-4aeb-a7ef-8f9d599b2c00
+72aa812d-5daa-4bd7-9028-ec541b1f25bd	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7474	0488ef30-1e15-41b7-96ec-910da838438f	30857	0488ef30-1e15-41b7-96ec-910da838438f
+da40e6d3-a2a9-4517-aaa2-aef6c3892ebf	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DH-A66G	d2d379d0-1760-40ef-884f-4dbbc835260b	41881	d2d379d0-1760-40ef-884f-4dbbc835260b
+63f4aa26-dec0-4309-8b75-6446a7241527	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TM-A84G	15dfbefe-3639-4316-bd76-97c25d57e6a8	35936	15dfbefe-3639-4316-bd76-97c25d57e6a8
+84569c1a-6baa-4380-ae3c-707df1be4618	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-5319	92fd5c50-e77e-45aa-843d-bf62ab61c49d	92624	92fd5c50-e77e-45aa-843d-bf62ab61c49d
+dd7b23a7-b41b-4670-9fc8-78895fb00cff	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-8563	4ca81d9e-6ff8-4915-b461-8456adfbb087	30825	4ca81d9e-6ff8-4915-b461-8456adfbb087
+ae2db022-eb4f-4b65-89b6-9fd4439ddeef	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-5273	a9ed14b2-78cc-4f3f-9bac-aeb1f837b016	48193	a9ed14b2-78cc-4f3f-9bac-aeb1f837b016
+2cfc07f3-a31c-41a2-a9e3-b708d2421a78	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-5965	9adf84b5-cafd-483b-bd74-508a2aeda379	51089	9adf84b5-cafd-483b-bd74-508a2aeda379
+669605f6-39a1-4f8c-81dc-39430ff5f892	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-A5TP	8aae50ad-9102-4e22-ae98-fb71ebedc87e	47849	8aae50ad-9102-4e22-ae98-fb71ebedc87e
+12f02422-585d-4068-bbde-bc279c6a89ab	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-A64P	75b9c352-ffd2-4262-ae7f-cc43ea08dd6b	36892	75b9c352-ffd2-4262-ae7f-cc43ea08dd6b
+cb041720-0efa-4eb6-a9a5-b6e138bb1a99	Unknown	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-WY-A85B	edd63e23-f3da-417f-b6bd-3b23f9105d3d	30940	edd63e23-f3da-417f-b6bd-3b23f9105d3d
+49a87025-d0a4-44b3-b6ad-563bf9651093	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7694	8444a082-14da-4c58-8ba4-8e77b2a459f5	35984	8444a082-14da-4c58-8ba4-8e77b2a459f5
+92ebe72e-508d-4547-b14b-b8e02e6233ca	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-QH-A65S	62266c58-2373-492c-8db0-fbbde2420ee6	31278	62266c58-2373-492c-8db0-fbbde2420ee6
+0557b788-5aed-4919-85eb-a503ad893d75	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-P5-A5F4	97935a19-d25e-45b5-88b8-7c21d7c17622	52558	97935a19-d25e-45b5-88b8-7c21d7c17622
+b19dcbc2-b0d4-4759-9213-1a5b99df7e76	hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TQ-A7RU	4ee0f9a9-30a1-4812-bfbd-ecc18f9c5595	31296	4ee0f9a9-30a1-4812-bfbd-ecc18f9c5595
+bcc17e9a-6fe3-44ff-963c-d2d850a431f1	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-A7YN	b686c77f-19d2-49d7-94d4-52d579856179	84231	b686c77f-19d2-49d7-94d4-52d579856179
+81076cfb-f9d7-4add-b696-6eab0bad7945	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-8015	b17f77a9-67f3-40fa-862b-347fccddf7c0	22246	b17f77a9-67f3-40fa-862b-347fccddf7c0
+b3f0dece-94e8-4eaf-91bc-4b3f4dae12d2	Unknown	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-VM-A8CD	3feec68a-7b38-429f-a741-c3fadc695104	35581	3feec68a-7b38-429f-a741-c3fadc695104
+e326c1dd-2ef8-431b-a657-440aa3f35ff3	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-5855	cdf09b2f-9273-4fa1-8b5d-38f73d13749b	48234	cdf09b2f-9273-4fa1-8b5d-38f73d13749b
+c7b2833a-9fe8-49f6-b888-2d27b0516f5c	hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-8109	56c385ca-e904-4094-b1ab-154ac82423e4	30533	56c385ca-e904-4094-b1ab-154ac82423e4
+ed833be3-0e9b-4c9b-b6d5-1098f08265a0	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-QH-A6X5	d4b36112-2b02-4783-bc8e-7743aab08fb6	30959	d4b36112-2b02-4783-bc8e-7743aab08fb6
+e3ed0c19-6acc-4be1-aae2-73fe73cc9f24	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HW-8320	bfd56040-9424-4b17-9d1c-b57e59d7aac9	62838	bfd56040-9424-4b17-9d1c-b57e59d7aac9
+dc5bdd21-b23f-400e-bbe2-4c98a517fc9e	not reported	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-CS-6669	dd21b3e2-9d62-45cd-95b0-184cfc3e52f5	44872	dd21b3e2-9d62-45cd-95b0-184cfc3e52f5
+d766c3af-f0b3-4791-a754-d6546d370f8f	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-8105	c142ba31-c117-4067-b8ac-efbe9a343ebb	35696	c142ba31-c117-4067-b8ac-efbe9a343ebb
+274496d6-0a9b-45ca-876f-b91f7277963c	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-A4DV	9791eb83-1702-418c-bbff-b464edf4a0f3	47355	9791eb83-1702-418c-bbff-b464edf4a0f3
+b4f4c9b5-bc50-4f35-a7da-fd011c3b2c02	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-QH-A6CZ	17d951e7-5dc9-4da6-8c2a-add42f6057ff	31393	17d951e7-5dc9-4da6-8c2a-add42f6057ff
+bc6fbb3c-870d-40b5-983b-7c88705e020d	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-A7YJ	334640e5-78db-43c5-8b8e-ce61ae9de834	65291	334640e5-78db-43c5-8b8e-ce61ae9de834
+ae61a71e-53a1-4884-a4a6-729744d1c309	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-A4XA	b582cfab-54c0-405c-9c04-9a85aae198dc	35733	b582cfab-54c0-405c-9c04-9a85aae198dc
+0061e9ef-df6a-414e-af64-c88f8192e2d3	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-5311	65e1183f-e9c3-45d2-9fe3-7bbfe378c324	86290	65e1183f-e9c3-45d2-9fe3-7bbfe378c324
+01c4ca12-ac08-41dd-9e4f-bfb0971688a2	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-7009	b2541d4c-898c-4d2b-8d90-5ee3ffba4dbe	50421	b2541d4c-898c-4d2b-8d90-5ee3ffba4dbe
+77472095-030d-4679-921d-8e8e217956c5	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-KT-A7W1	9856e841-1816-48e4-b890-edc7cfdada45	46669	9856e841-1816-48e4-b890-edc7cfdada45
+02194c0c-e2c1-4ea7-994a-07b61b2575e2	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7902	ecd1df74-4dc3-49cf-bba9-54aa4a940746	30903	ecd1df74-4dc3-49cf-bba9-54aa4a940746
+1f33aebc-edc1-42c5-baa9-e4b0a06fcb26	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-P5-A5EY	9c2bdf04-80bd-4866-87f2-3de0538d68a9	30025	9c2bdf04-80bd-4866-87f2-3de0538d68a9
+0bde34dd-dae9-4533-98ef-f5a61a11e7c4	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A6WH	b3220c8a-e44b-42dc-bb10-7571847ea101	43920	b3220c8a-e44b-42dc-bb10-7571847ea101
+0906ddde-02fa-417d-927b-1c400b189cac	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-8114	cc330c29-3d04-4e38-8325-79fed4983afb	49606	cc330c29-3d04-4e38-8325-79fed4983afb
+09552b53-4393-4811-a671-a9ef6eff4790	Unknown	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-WY-A85A	4482d8de-4c74-4efe-a0ec-9c0d64fddd11	23049	4482d8de-4c74-4efe-a0ec-9c0d64fddd11
+11dffe71-b516-41e8-9987-e0ff5d2356d1	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-8165	d0cd20f5-7d10-4452-a138-1f9a6e0289d5	47056	d0cd20f5-7d10-4452-a138-1f9a6e0289d5
+14e6c57d-d78e-4660-a21f-4f90a4503080	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A6WQ	651b08b6-9e6c-4dc2-91aa-e2f32e3f915d	31276	651b08b6-9e6c-4dc2-91aa-e2f32e3f915d
+0db80dff-5586-4d9f-b253-df82e6fd6901	Unknown	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HW-A5KM	61ad17a7-6358-4242-8f86-5d4855808194	30531	61ad17a7-6358-4242-8f86-5d4855808194
+152eaa99-05f5-4d30-bfb1-494a9a900e49	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-6396	34152f70-57bb-49cf-b3cf-c7e141024074	106245	34152f70-57bb-49cf-b3cf-c7e141024074
+1701f4ad-58c5-40d8-90c4-99e3acac0104	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-A4XE	e91dd27f-a393-4815-aff2-c06ffbe4c6c3	36002	e91dd27f-a393-4815-aff2-c06ffbe4c6c3
+1b43ff0c-cf13-4620-b5c7-7abd9129612f	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-7019	e1d0f393-806b-404b-b533-42f6f7da6f44	48168	e1d0f393-806b-404b-b533-42f6f7da6f44
+1b77d1e8-0a02-41de-a408-dcf33a43407a	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-P5-A737	b9db3a1a-6186-40a0-8cff-af8d06178a5e	30161	b9db3a1a-6186-40a0-8cff-af8d06178a5e
+1bff1e07-4923-43d5-b2d3-cb46b6568eed	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-A4XD	14c25e4a-b585-42ab-a158-a79a474a37cc	41513	14c25e4a-b585-42ab-a158-a79a474a37cc
+1e713e76-064d-46dc-a53c-20a17eb68341	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-A6S3	d38881c1-8030-400c-9aab-875ec88d12d1	30879	d38881c1-8030-400c-9aab-875ec88d12d1
+1ebdabea-8931-47af-a1cf-de1bd1de2a5b	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-R8-A6MO	b5ffd678-7b0e-483f-989e-f3fd7147fe5c	22293	b5ffd678-7b0e-483f-989e-f3fd7147fe5c
+21bbe030-8dbb-47eb-a670-13eb57c12159	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TM-A84R	840ea0ff-5c9b-489e-bb14-db72697e631e	31258	840ea0ff-5c9b-489e-bb14-db72697e631e
+1f54d21e-752f-496d-8453-4b9b8738cbce	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-7638	546bf634-6699-467e-ac6e-d5a232b91494	53969	546bf634-6699-467e-ac6e-d5a232b91494
+2272dff7-a509-496f-b500-467c1bce2f79	not reported	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-WY-A85E	dcb6113f-9941-4561-992a-cde94e84dc91	31465	dcb6113f-9941-4561-992a-cde94e84dc91
+1f5b6b07-45f5-4da4-932a-df9665f6c538	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-A711	ee40a730-a86c-445e-baa3-9efe27b6be42	128475	ee40a730-a86c-445e-baa3-9efe27b6be42
+29e95c77-f55b-42e1-b81e-eab4bb3cf803	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-QH-A6CV	18dbac67-e2b7-42f8-9317-b070b710303b	40728	18dbac67-e2b7-42f8-9317-b070b710303b
+24ebd152-f8d7-44eb-af7f-8ee7f2e458e4	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7607	fc61c491-cbd0-43c8-9456-220e12c51526	30927	fc61c491-cbd0-43c8-9456-220e12c51526
+2d42dd0e-be3a-46ae-a635-c6f9c52f9fa2	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-5853	2983b947-a7e1-4f8d-a944-bde843fe3127	41988	2983b947-a7e1-4f8d-a944-bde843fe3127
+284680b2-f961-402d-8740-e5f9e4fb4a98	hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-VV-A86M	9153ec57-0832-41e4-a4d7-9878424e3422	41212	9153ec57-0832-41e4-a4d7-9878424e3422
+2d860614-b772-46e2-b1cd-43bb3ead7255	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-7634	979b45c9-293b-4a57-9d31-bca0d637706c	38678	979b45c9-293b-4a57-9d31-bca0d637706c
+2e3b9f32-304e-454b-ac2c-fc72d2ccaa19	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-P5-A5F6	97851d76-3127-4d3d-aef9-42f635d9d03c	30169	97851d76-3127-4d3d-aef9-42f635d9d03c
+30bf5895-0671-4fb1-a96d-857847fcf7b0	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-A76K	e287da84-16c9-4822-9d14-d9502a2b9551	33420	e287da84-16c9-4822-9d14-d9502a2b9551
+325138ab-2947-4131-b40e-971f024723cc	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7480	b98e1e87-2cfc-4e66-9aff-dbc5a77a4f14	54884	b98e1e87-2cfc-4e66-9aff-dbc5a77a4f14
+345d975c-e666-4614-81eb-5ccbb5bd2cf7	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-QH-A870	d5c9301d-66b5-45c7-a23f-a8f73f6a6b69	37266	d5c9301d-66b5-45c7-a23f-a8f73f6a6b69
+36615695-921c-4c8a-93d6-6c788079beae	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-RY-A845	89206555-fbd7-467b-85b6-149af11d4b1b	31225	89206555-fbd7-467b-85b6-149af11d4b1b
+335bc811-8bdc-4f66-bdd0-703b7cc7464b	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-P5-A731	7ae8983a-179d-48ef-9253-54157e07b93d	34746	7ae8983a-179d-48ef-9253-54157e07b93d
+33bedfb7-33fb-479d-b997-50c3284c0ac9	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A7J1	de92a531-1934-4748-bc32-00a7190cba07	46907	de92a531-1934-4748-bc32-00a7190cba07
+3f6ffb08-32a9-4555-bfd1-243b7f526105	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-7294	11f5044f-4b9b-4ffd-927c-dccf2a14a62a	30638	11f5044f-4b9b-4ffd-927c-dccf2a14a62a
+41e4dc71-7767-44c2-9d38-110dcd37b451	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A6TS	18eba95f-6cba-4125-a771-8e5d6107bb3d	53790	18eba95f-6cba-4125-a771-8e5d6107bb3d
+432fe4a9-2cdc-4323-aff0-59e2fdeda194	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A6TX	ab2c9d78-242d-4d59-9624-63b0bd2860e7	49932	ab2c9d78-242d-4d59-9624-63b0bd2860e7
+4289a50b-c6be-495e-9826-53aeb67b6a22	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-QH-A6XA	49d2c379-e8af-4141-ba88-65d9d0ef42c1	31031	49d2c379-e8af-4141-ba88-65d9d0ef42c1
+448d3e3b-622c-4e79-bb1d-b5f2e92970e8	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7482	16dd1089-ea5f-4796-ab30-66b29f5fef6d	50798	16dd1089-ea5f-4796-ab30-66b29f5fef6d
+5017c115-39b8-4c5c-8be6-2cb298d7c641	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7695	920546f7-671b-476d-9d25-5db1b051bf59	41953	920546f7-671b-476d-9d25-5db1b051bf59
+58de25d5-8a32-4412-866b-acac2e321bfa	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-8011	c5c6319f-1b6a-4366-831f-90b66baf12a9	47508	c5c6319f-1b6a-4366-831f-90b66baf12a9
+59012b43-ab0b-42c3-aed3-94e224a3dfa7	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-P5-A72W	35e08c67-ebbc-4685-afe3-d05f6fd8ae91	34739	35e08c67-ebbc-4685-afe3-d05f6fd8ae91
+5a769292-c3ce-4e18-b821-2bfe0e24978c	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-7302	859ae7d7-fb0a-4466-8985-8d7b38131f14	49923	859ae7d7-fb0a-4466-8985-8d7b38131f14
+5a2d3bfa-4bdd-417d-9796-e3699760114c	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-A5RA	a77da783-72bf-485a-96e6-524941befe98	41639	a77da783-72bf-485a-96e6-524941befe98
+5af8ada5-86b5-4832-8a8e-e975ecca5515	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-5849	29145f7a-de5f-4136-ad60-adebaf901b30	36809	29145f7a-de5f-4136-ad60-adebaf901b30
+621424ec-67bc-4c42-b0ad-64c5654b5ad9	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A6U5	33fe8cce-f525-4e33-8bea-f88ab9b1e4c0	31284	33fe8cce-f525-4e33-8bea-f88ab9b1e4c0
+5f853a88-811d-4eb4-914e-d90862c5d2a2	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-A75K	ef12418b-8be7-4ffa-838d-07c042e4d15a	41711	ef12418b-8be7-4ffa-838d-07c042e4d15a
+66990a9d-8c40-4c56-b931-5c3826c3bc27	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-A64S	e04c0239-d7bf-4b00-bbf3-1b4ab625adf9	31074	e04c0239-d7bf-4b00-bbf3-1b4ab625adf9
+607b1f22-b744-43c5-91f7-fc69142ba30e	hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TQ-A7RR	76d24ff6-3df6-4bee-b67c-bc37e156db6e	31304	76d24ff6-3df6-4bee-b67c-bc37e156db6e
+62ec50e7-636e-46c6-afed-66bf217b59c1	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-A7TG	7ab4ddec-7ec1-4d42-8416-acff33d6fd26	28474	7ab4ddec-7ec1-4d42-8416-acff33d6fd26
+618f2aa7-d1b6-430d-a157-d3d956edefbe	hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-A5R5	fd663672-5c3f-4f59-9658-a8a8eb680296	30341	fd663672-5c3f-4f59-9658-a8a8eb680296
+6d020185-bdde-4c43-9e38-71c6ed0c13d1	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-A4DS	bb273b28-1423-4541-85f3-9f6440ad9aaf	30366	bb273b28-1423-4541-85f3-9f6440ad9aaf
+6a3e577a-4e07-4468-857a-79edbe6833cd	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7691	785cc413-9fd3-4bcc-9233-db2d59b0e917	30769	785cc413-9fd3-4bcc-9233-db2d59b0e917
+775c04e6-a02d-44a4-86f7-496056edd249	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7874	d27f4d38-6c56-42c4-bf1f-b106f9ab7f36	54700	d27f4d38-6c56-42c4-bf1f-b106f9ab7f36
+84d80bcf-da24-4b93-bfe3-3d2d53b8b07d	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TM-A7C5	64febade-5c47-4dc0-82a3-c37a3030e835	36032	64febade-5c47-4dc0-82a3-c37a3030e835
+887def39-e212-490d-8849-2bc932fceff0	Unknown	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-A64Q	7e651d5b-8662-40c7-8aa4-e63d83b528f2	36813	7e651d5b-8662-40c7-8aa4-e63d83b528f2
+86aa5790-9afd-4653-926a-625516df1f56	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7884	0d93f83e-ccd0-4fb6-8314-241c65af0d56	47547	0d93f83e-ccd0-4fb6-8314-241c65af0d56
+8ed09a8a-3284-4a1b-b369-e25d2fab0f61	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A6U6	2df8e488-7381-4b46-b800-3fe5ee6f8a3b	43763	2df8e488-7381-4b46-b800-3fe5ee6f8a3b
+8cba230b-46db-4d35-8123-3879eba32402	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-CS-6666	06a33ea2-04a0-457d-9271-94137ae13605	49836	06a33ea2-04a0-457d-9271-94137ae13605
+904371b0-1e2c-4cd7-a69d-29ae8c5fec8b	Unknown	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-A75P	319293e0-6003-4ec0-8501-726cc44b770a	31095	319293e0-6003-4ec0-8501-726cc44b770a
+9239a22e-80b1-49a2-b0d5-cbab7e415254	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-6405	c6d954c0-7f8d-4890-8168-94c0ab6d65dd	61004	c6d954c0-7f8d-4890-8168-94c0ab6d65dd
+f5416dc4-d161-4776-9827-e4ceaf42d19f	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TM-A7C4	7a773a6a-db4c-46c5-91d3-dcecadf9ddeb	31252	7a773a6a-db4c-46c5-91d3-dcecadf9ddeb
+a144e4e4-2877-4340-a2bf-524adbde8bc8	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-7300	bb5ea1ad-d873-4f1f-8c42-725937c10f99	67244	bb5ea1ad-d873-4f1f-8c42-725937c10f99
+912d6455-0a50-4fde-b785-f6c09b00b7e4	hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7882	ea4e7d72-cf04-4bbc-baf8-81bddb531e4c	30900	ea4e7d72-cf04-4bbc-baf8-81bddb531e4c
+de6f01bf-2de9-4d07-a956-e6a4c0acb371	Unknown	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-WY-A859	d9b9c5c8-4c60-4067-94b6-d35f0edca9e2	23048	d9b9c5c8-4c60-4067-94b6-d35f0edca9e2
+c3c41fd2-f0d7-4f46-9e18-cce4626538c2	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HW-7490	828885a3-f887-49a9-a200-28ec3ecd5264	38180	828885a3-f887-49a9-a200-28ec3ecd5264
+98e82e98-341a-4bca-92c0-23c65c1bf94f	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-A70Z	ca09d432-7e8c-430d-b4b9-fcb3c2f38ae7	41296	ca09d432-7e8c-430d-b4b9-fcb3c2f38ae7
+732df38e-d32c-4d63-ac97-ad655e2e5732	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-W9-A837	b0fb8659-1aaa-4c92-af2c-29a8b0d58981	31051	b0fb8659-1aaa-4c92-af2c-29a8b0d58981
+d61710c1-8ac3-44e3-b567-66288a6ab731	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-7304	500277db-e735-491d-9128-195630c20437	61263	500277db-e735-491d-9128-195630c20437
+62088274-a45b-4616-b086-b0ddd64895f0	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-QH-A6XC	9075178b-21e1-4f54-931e-eb71bc78b6b4	63966	9075178b-21e1-4f54-931e-eb71bc78b6b4
+bae316e3-1fa4-4fa7-8ad6-a458857a85d4	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-8106	1922985c-8b0f-4b69-bf0c-109823e200b8	30847	1922985c-8b0f-4b69-bf0c-109823e200b8
+b60fce04-9779-42c0-8161-d29d8a1d7c64	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-QH-A6X3	673e7a4b-ea88-4f34-b252-5deb4c5642c4	31181	673e7a4b-ea88-4f34-b252-5deb4c5642c4
+40343ebd-0d62-401e-83a4-6cdb57662ec0	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7855	8cfdfac7-2681-4f9a-8dc7-1f3b0e8e9c85	48580	8cfdfac7-2681-4f9a-8dc7-1f3b0e8e9c85
+878ced76-3144-4141-896f-50e3e863df36	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-P5-A77X	a8d414d7-28f5-465e-bac3-703030a58af8	34931	a8d414d7-28f5-465e-bac3-703030a58af8
+9ee6e821-3af2-42d7-9d14-f0ca455f338c	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-CS-6186	c80f2b49-7648-408d-8967-83153bc91f9c	53885	c80f2b49-7648-408d-8967-83153bc91f9c
+0efaf8f9-177c-4ffb-b03f-f0316adf5dc1	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-A7TI	02a37050-2378-4343-a887-93b2541cddce	56740	02a37050-2378-4343-a887-93b2541cddce
+491ea65b-86c8-4686-99cf-f09505e20183	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7693	7b416f3d-ec1b-41c5-b8f3-c818a799643b	48456	7b416f3d-ec1b-41c5-b8f3-c818a799643b
+292cf158-dd47-44a1-912b-73626095a0f7	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-7298	803080e5-31c1-404f-a88d-fdf42481ebd4	48446	803080e5-31c1-404f-a88d-fdf42481ebd4
+66c52a31-6503-40b5-a55e-fa476eaf0567	Unknown	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-VM-A8CE	c3dc6e12-0b82-4231-9430-9061092f309c	66817	c3dc6e12-0b82-4231-9430-9061092f309c
+5ccd86ab-2587-4f35-b96a-4f4320b10fb9	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-A4XH	1be0bdce-a560-477c-b6a4-a84870dfafb6	30958	1be0bdce-a560-477c-b6a4-a84870dfafb6
+033c1f48-9225-4159-b23b-7042272877da	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TM-A7CF	87ac7d94-f908-473b-a04f-4c477eb07081	39395	87ac7d94-f908-473b-a04f-4c477eb07081
+1159c88c-39d0-4c03-9c66-36af5340a67a	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-8181	663875c6-8d2b-4534-a504-e6160ab4bbf4	48794	663875c6-8d2b-4534-a504-e6160ab4bbf4
+fc8828ae-484d-4fc8-a168-f8bc58ad65b9	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-8168	2dcd58ee-1125-4c82-969c-1838171b335e	47097	2dcd58ee-1125-4c82-969c-1838171b335e
+65836b59-b469-4b89-adf5-e65735e494f5	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-R8-A6MK	e2df959e-43a5-4e94-9772-64c03d90892a	22295	e2df959e-43a5-4e94-9772-64c03d90892a
+cd69d509-a652-4257-a8d3-767296bbb4ec	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-6542	3cbdcd76-a193-4636-817a-2ec05f9a19c1	55718	3cbdcd76-a193-4636-817a-2ec05f9a19c1
+559a8f6f-dd60-43b7-ae09-16cc4206064c	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-A74L	49a162da-df0f-4626-9295-0c211423faeb	31003	49a162da-df0f-4626-9295-0c211423faeb
+735b1100-07f6-43d4-b29c-46d0f025573f	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-F6-A8O4	7c2815b9-993a-468d-8d43-80564861cd82	30268	7c2815b9-993a-468d-8d43-80564861cd82
+d61b5d20-4d6d-4fdc-afe8-4b100b686eda	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-7013	31cf5026-5794-4ebd-8522-aac846812558	42243	31cf5026-5794-4ebd-8522-aac846812558
+cc8614c4-d535-4ad9-82f0-f4dc7ad11d0f	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A89Z	7f03eeec-e9e8-47ab-a0ec-176418a3a52e	66088	7f03eeec-e9e8-47ab-a0ec-176418a3a52e
+00b18ad6-ff70-41fe-8f4d-0763ac8f28b9	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7677	51035805-1f96-452b-bfde-9f917e2604e1	48311	51035805-1f96-452b-bfde-9f917e2604e1
+97cb8701-7d63-4142-b404-006fbb3ecb0b	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-6401	6b2aadb8-ccaf-4873-9387-3da0db6d4523	54743	6b2aadb8-ccaf-4873-9387-3da0db6d4523
+4bd8ebc1-6f6e-44a2-8544-106901a7bae5	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-A5TR	7f658074-c233-4359-ba6b-166c4f7e4e74	41842	7f658074-c233-4359-ba6b-166c4f7e4e74
+bfbc0d1e-2a0b-4c60-8a37-91e3ce4b79ee	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7609	258f2ab0-d35c-4d3e-9221-80f9408a075d	48552	258f2ab0-d35c-4d3e-9221-80f9408a075d
+debe24c5-e4df-4e80-82f6-8f40395aa9e6	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HW-7493	faf91e95-4000-4631-9364-25b0b48145c5	42775	faf91e95-4000-4631-9364-25b0b48145c5
+ffcec8e5-9fd3-4b42-a7cb-74761f713cf4	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7606	e968836f-478e-4173-aba7-b1d6e17defce	54444	e968836f-478e-4173-aba7-b1d6e17defce
+0d5a4c63-c3fb-4295-a433-d90cdbfc4ed6	Unknown	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-WY-A85D	14e37af9-ee6f-4b0e-a0f4-3bf704085d85	23190	14e37af9-ee6f-4b0e-a0f4-3bf704085d85
+33600812-1894-4471-a365-75ae4d990b72	Unknown	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-VM-A8CB	2933dc58-5809-4d16-b854-2d8921841b89	30416	2933dc58-5809-4d16-b854-2d8921841b89
+48607130-c09a-491d-882f-7d2591d13182	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-5872	654e0368-070c-4dcb-a4e2-c8f15041b981	60968	654e0368-070c-4dcb-a4e2-c8f15041b981
+0073a136-d5f4-4fd6-88f9-711768f2abc6	Unknown	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-VM-A8CF	1658af63-4a94-4c20-8457-e7e37ef57e41	46224	1658af63-4a94-4c20-8457-e7e37ef57e41
+183dd089-e932-4be2-b252-0e8572e7da4e	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7483	41eb1d6e-ceee-4a82-8ecf-a50692e9aab0	41209	41eb1d6e-ceee-4a82-8ecf-a50692e9aab0
+0611f5bc-89b5-44bd-b301-751faaadb561	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-P5-A5F1	ca177888-fbe0-40ba-bd53-7a2ef86e5272	30192	ca177888-fbe0-40ba-bd53-7a2ef86e5272
+010aac75-3bfe-4bf2-b866-af0f2d92f125	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-5278	2de179b1-0337-4f3b-9543-b1bed2f659ef	43976	2de179b1-0337-4f3b-9543-b1bed2f659ef
+0639b753-4099-4ca4-adb9-763069a614ef	Unknown	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HW-A5KL	47421570-4806-4cc7-a61a-5208c8d3285c	54739	47421570-4806-4cc7-a61a-5208c8d3285c
+dc7ec60b-5ea5-48a4-8908-55caf9214272	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-R8-A73M	c0c942d5-3bfe-4c62-9118-120ed6cfc1a9	22389	c0c942d5-3bfe-4c62-9118-120ed6cfc1a9
+0709dbcc-0828-4066-aa01-96f059e5fa97	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-A75M	136a00db-efb2-44fd-ab16-2ba285675945	41691	136a00db-efb2-44fd-ab16-2ba285675945
+048056cd-39dd-4134-a58b-70bebb3dd2ff	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A6TV	7351eee2-f512-4eac-a933-7c1dcce79e6a	41686	7351eee2-f512-4eac-a933-7c1dcce79e6a
+081b6532-0ed4-445a-becb-cb2290f4854d	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A6WP	e3a62a24-f4e0-4cc4-8ca1-d1b232161364	44980	e3a62a24-f4e0-4cc4-8ca1-d1b232161364
+114902c7-77b2-42ca-926b-6895e6db5e36	hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-8010	aaf67194-b7cf-465a-834c-2392f828ed71	30866	aaf67194-b7cf-465a-834c-2392f828ed71
+0c52a842-c220-486e-88de-8a4fec5d6a58	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-A75O	709d858b-189b-4d74-9b57-03d949e5da20	30731	709d858b-189b-4d74-9b57-03d949e5da20
+0ce8d92b-54e2-45d4-a551-0faf94a27d46	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7611	1b309c9e-b8d0-412e-8762-853036335fd8	30726	1b309c9e-b8d0-412e-8762-853036335fd8
+0f0d9a7f-dd85-48aa-b5b2-deff5bb6bdeb	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-7641	f999d4b5-6918-420c-8a94-d007ca99ec17	38921	f999d4b5-6918-420c-8a94-d007ca99ec17
+38eca720-ad68-43a7-8a1c-f79f838d5d03	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A6U9	d8649ab2-60e6-433a-9556-f84567b72650	35850	d8649ab2-60e6-433a-9556-f84567b72650
+446d76df-3e78-4272-a942-ced0de27c794	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-P5-A730	03cfca13-ebde-40c3-8ef5-4eb766d5ed23	30252	03cfca13-ebde-40c3-8ef5-4eb766d5ed23
+482d4078-7576-48cf-bf7c-29014935fd47	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7472	6d7ead47-0dc3-4bc6-811d-3b48f948a23f	30842	6d7ead47-0dc3-4bc6-811d-3b48f948a23f
+4a7d4805-09e3-4044-9800-73239f4d66d4	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7854	93c04b3e-8fe5-424c-bc6b-b90f5b6632f0	44197	93c04b3e-8fe5-424c-bc6b-b90f5b6632f0
+48314732-5d1c-43e6-9878-5b58dfaeb06a	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7471	c969217b-af70-43de-a219-2b637adfa2f3	30322	c969217b-af70-43de-a219-2b637adfa2f3
+4839a058-fbca-44c7-bd61-81943b4d45d5	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7610	41026869-2fa4-4ef1-bd03-e94432e4e279	31116	41026869-2fa4-4ef1-bd03-e94432e4e279
+4c3e709a-fd52-431c-8be5-3d9b1f80ecd2	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7478	cd090e0a-2058-48ea-8a15-b01379b50c45	35804	cd090e0a-2058-48ea-8a15-b01379b50c45
+44a5c3b4-62a7-407b-b492-7069e1a43a26	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-5303	40a9e81a-bdaf-429b-8cf9-9550f60debae	54789	40a9e81a-bdaf-429b-8cf9-9550f60debae
+484dd45b-a16c-4650-bac9-832fbe4d96eb	Unknown	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-VM-A8CH	6670dea2-4cef-4136-82b4-568c203fc8e2	31001	6670dea2-4cef-4136-82b4-568c203fc8e2
+4e1606e5-f4c1-41a2-9f2c-ad0d02650070	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7857	0d58574b-0178-4483-996b-ec3cb2035dab	30586	0d58574b-0178-4483-996b-ec3cb2035dab
+467a7e6a-8cba-4ef1-8afd-6c8eaccbc3df	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-6410	ee012b69-e5ef-4312-a8fc-519342237952	36729	ee012b69-e5ef-4312-a8fc-519342237952
+4ef429be-c345-4258-9b42-b56e215e1a2c	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-6399	43290d14-6de5-430d-955a-89c79ff038ff	35686	43290d14-6de5-430d-955a-89c79ff038ff
+5a3edeb6-133e-4116-9f80-2485bd70754d	hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TQ-A7RV	8ce1e4d2-4ffc-4bc8-a50e-1f558810d73f	31670	8ce1e4d2-4ffc-4bc8-a50e-1f558810d73f
+58c82c76-9198-4c95-80f8-c043d1cea5eb	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-8167	9549e61a-bb3d-41f8-9b3d-10975718441f	35386	9549e61a-bb3d-41f8-9b3d-10975718441f
+505e9812-d13e-42d3-aee2-55a85d6f4551	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-QH-A65R	16f991ff-06a0-4070-9388-a09491afb091	41966	16f991ff-06a0-4070-9388-a09491afb091
+5a3ef1cb-c98e-473a-b097-20307b04bc1b	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-A7TC	5c2fed8d-cb21-4c03-bf28-9a8e61a0f948	30888	5c2fed8d-cb21-4c03-bf28-9a8e61a0f948
+5eef573e-6a44-4dc7-8aa7-b136863ce910	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-A7YW	43a84f91-e441-4159-89ff-a8ea408a2d84	81841	43a84f91-e441-4159-89ff-a8ea408a2d84
+61ff31a4-4fdc-476c-b456-2a2fed4bae6b	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TM-A84M	283c1a39-1bb2-4e21-b292-6017f477a5c8	53418	283c1a39-1bb2-4e21-b292-6017f477a5c8
+5de6fd84-ed02-4c27-9947-db57f05faf6d	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-8104	78fde4ce-abcf-41f2-bdf4-7d0687d8b8fc	35269	78fde4ce-abcf-41f2-bdf4-7d0687d8b8fc
+688fc346-a14d-4859-8727-057cd0a0b880	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A6TU	c4f10056-2172-461b-add4-81a84a428a27	31614	c4f10056-2172-461b-add4-81a84a428a27
+691d5202-90cc-4e08-83a3-0620a89d3a4b	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-5304	0ee5e8ce-fd58-4716-b2d4-55935f5bb5e4	86134	0ee5e8ce-fd58-4716-b2d4-55935f5bb5e4
+619e18c1-09b9-468c-816d-6789c0bef0a8	hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TQ-A7RG	04c4799b-4704-42f5-89c7-aa200e50cac9	30996	04c4799b-4704-42f5-89c7-aa200e50cac9
+6d02e00c-56a5-4433-9930-f036e2aa39aa	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-P5-A5EW	6fe9a424-f636-4da8-bc66-31e9a5f6c671	30621	6fe9a424-f636-4da8-bc66-31e9a5f6c671
+699d3ba1-94c8-409f-90c3-e7fe2f1cf825	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-A5TT	8c44c21a-35aa-4ab6-b801-7ae2bcf3472c	46622	8c44c21a-35aa-4ab6-b801-7ae2bcf3472c
+6d17c327-435a-4cba-9626-3b5b7b7375bb	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-QH-A6CS	9c1fdd8e-0fa7-4c37-b242-2e994abb98fc	47749	9c1fdd8e-0fa7-4c37-b242-2e994abb98fc
+765588aa-075f-477f-9c18-099d018d3a1b	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A7QW	dc2fa1ba-0ade-483e-af3e-42ce5ae32bfc	41812	dc2fa1ba-0ade-483e-af3e-42ce5ae32bfc
+78a212bc-a740-46bf-a10d-0b9809a5bb3f	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A7R1	43d396c1-e622-4edb-897e-775fac1bedfd	46697	43d396c1-e622-4edb-897e-775fac1bedfd
+77396ae6-3838-47bf-aaae-f9a0f401ec7f	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-A61C	d5ed47f4-bbd8-4f83-89e1-7c3c48f850a5	41777	d5ed47f4-bbd8-4f83-89e1-7c3c48f850a5
+79627774-078d-4056-84b3-f1f370f643e0	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A7QZ	c0a4fb6b-1223-4fdb-ab10-51993e7da10c	39446	c0a4fb6b-1223-4fdb-ab10-51993e7da10c
+82fd02ab-d628-469f-8853-4c603cf04964	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DH-A7US	ef5b40ac-eb3b-4e9d-9025-9b5b83aed7d1	39097	ef5b40ac-eb3b-4e9d-9025-9b5b83aed7d1
+9b161c41-4f76-4ed1-b60f-2b093bc70edb	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TM-A84L	8b1a1500-842f-4e03-881c-d7ee9074d4a2	42212	8b1a1500-842f-4e03-881c-d7ee9074d4a2
+975c76cd-f88a-4d88-93a4-fbf2cb9e2e3b	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-8111	d30d2ca0-9271-43ee-8ad1-70e8b4aa8c9e	38238	d30d2ca0-9271-43ee-8ad1-70e8b4aa8c9e
+975e17c2-b93c-4d45-8a85-786f365e4a93	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-A7Z4	72a33feb-c115-40e6-94a9-06369a2ea244	174252	72a33feb-c115-40e6-94a9-06369a2ea244
+9d0c1552-00a7-4f0a-a04a-a82e721ee4e3	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-5276	68e55a1f-0252-4b59-8e17-e91d2b41a946	60649	68e55a1f-0252-4b59-8e17-e91d2b41a946
+a0672f6f-6406-4d49-96d0-6afd571bbd00	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-A7T6	a20c1aaa-a603-4fce-95ce-b2637757b796	22584	a20c1aaa-a603-4fce-95ce-b2637757b796
+c16d9f69-26f9-4ec7-b2d5-ff9f7dacfe0f	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-CS-6665	58bbdb8c-a43a-4167-bd49-12a2dc0d3e73	49918	58bbdb8c-a43a-4167-bd49-12a2dc0d3e73
+e09f93e1-1649-48fa-9e2e-d13ac6d50b97	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-5962	5ab62312-a26a-4195-b563-40ce6a56670d	64861	5ab62312-a26a-4195-b563-40ce6a56670d
+5119aceb-ad95-4904-b6c0-a0a4b42c17d0	hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-R8-A6ML	96eef8bd-f395-4024-bdd9-f1185058a4b4	22329	96eef8bd-f395-4024-bdd9-f1185058a4b4
+0df37550-9421-4571-9844-51b457d7cb2b	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-8187	4f90699e-d9af-4ea6-a1af-4e3ebae5aab6	30407	4f90699e-d9af-4ea6-a1af-4e3ebae5aab6
+275cb949-2f61-48c9-84f0-ba8ae4fa35c4	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7881	26100735-1271-4fb1-af41-04c139fb4afa	43847	26100735-1271-4fb1-af41-04c139fb4afa
+e661e157-c6bc-4024-9905-97954759aad6	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-P5-A780	8fa7631e-a47f-4fa6-b842-c7e8494567be	34848	8fa7631e-a47f-4fa6-b842-c7e8494567be
+fcf14e9d-4671-453d-b8e0-5008e916f56d	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TM-A84Q	4fc6889c-b2a2-4d2e-b19e-520f39f942a5	36338	4fc6889c-b2a2-4d2e-b19e-520f39f942a5
+c371e2b4-209f-40f3-a30c-51df8270b5de	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7873	f70cbf7e-3f68-42a9-a627-45918807abff	43459	f70cbf7e-3f68-42a9-a627-45918807abff
+1ca2e1b3-e3eb-4740-a69a-800e3eb60787	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-QH-A6X9	10c3ff6b-1138-4ac9-bb3d-aca7844556d8	30928	10c3ff6b-1138-4ac9-bb3d-aca7844556d8
+3e4851ca-4d69-4035-a2dd-8ed6e70f1ffb	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A6WD	80d40aaa-0629-4a8d-8cdb-cdfb84f80dea	45068	80d40aaa-0629-4a8d-8cdb-cdfb84f80dea
+5b9d7565-a933-449d-8ffa-ec5f82db2e77	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FN-7833	47851300-16da-4226-a72d-2a95fe18f5e5	40930	47851300-16da-4226-a72d-2a95fe18f5e5
+fa878a23-cd20-44ef-b438-33033b5fb1fe	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-A713	df6dafd7-a5d0-49ed-b1b1-cf47ffbf3bbe	31446	df6dafd7-a5d0-49ed-b1b1-cf47ffbf3bbe
+36cf458b-3c8e-48e7-92ab-aea1c698e417	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HW-8321	ca15f353-b41d-4359-89d0-618b128fff67	53582	ca15f353-b41d-4359-89d0-618b128fff67
+42156c6a-416e-4832-9c95-cee6084b0910	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-WH-A86K	b432576a-5cdf-4bd7-b717-e70abb247d66	41829	b432576a-5cdf-4bd7-b717-e70abb247d66
+2cf49bac-dea1-45ff-9e1d-09f5a2ac5215	hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DH-5141	aed08042-ba15-43bb-b810-7c65b40540d2	55521	aed08042-ba15-43bb-b810-7c65b40540d2
+8daa29c0-f652-4130-a004-5183bbe30c63	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-6403	450b554e-36a4-4e9a-a95d-c8cc11df30cf	54142	450b554e-36a4-4e9a-a95d-c8cc11df30cf
+80db28ec-ab3d-42a7-af88-b60fe8acb5b5	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-8018	809a2eca-6660-4d00-996b-92454fc58481	30634	809a2eca-6660-4d00-996b-92454fc58481
+b7395082-415b-4ab3-bf1e-59d0f4e4b488	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A7R3	b47cf25c-7c1f-49f0-a16c-b4cf561871d0	31492	b47cf25c-7c1f-49f0-a16c-b4cf561871d0
+45b6d41b-3a1b-47e9-80e4-59355170aee7	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7608	43bd9a11-eaf8-48bb-aa7f-a7adfe5e7fcb	30973	43bd9a11-eaf8-48bb-aa7f-a7adfe5e7fcb
+230f5fa7-aa36-41ea-b40b-08f520767bd5	not reported	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-CS-4942	ec781033-96d1-4133-95ce-1137c9eef184	47511	ec781033-96d1-4133-95ce-1137c9eef184
+9922de10-9280-44c0-b86f-6d1ca7e55bf2	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-A64X	df3e9b8e-5d3a-4c09-bc80-07c94343b6fe	41714	df3e9b8e-5d3a-4c09-bc80-07c94343b6fe
+42fe260f-520b-4fac-8c09-d2b31aed59fb	not reported	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-CS-6290	e67726c9-f893-4d95-96c6-8c4fcaa79a1c	49554	e67726c9-f893-4d95-96c6-8c4fcaa79a1c
+c031f2a5-a563-4d5b-bd62-49d4fa5eca78	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-A60J	1b39bfb3-be66-4822-864a-dba6d34390f6	39148	1b39bfb3-be66-4822-864a-dba6d34390f6
+442df188-b678-45bb-bd9d-7071ed8aaa5a	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-KT-A74X	af3009e6-51bf-4b22-9432-12e18d373a12	41511	af3009e6-51bf-4b22-9432-12e18d373a12
+e488f613-f155-4e11-87d4-8c789ea81691	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-8166	1e2424b3-efa1-404f-8be6-7d0c7d3c2e8b	52956	1e2424b3-efa1-404f-8be6-7d0c7d3c2e8b
+7116ce06-d730-40e4-92d7-aef1f869b1d5	hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TQ-A7RP	0cb7b10b-3aa4-485f-9485-605eb3a17dc4	31323	0cb7b10b-3aa4-485f-9485-605eb3a17dc4
+8d07b1e8-5d1d-4a43-b616-d29dd58ce5fe	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-6689	fe2d8981-54d4-4461-a6dc-8698a8393d51	58632	fe2d8981-54d4-4461-a6dc-8698a8393d51
+f9052682-b689-4696-9ab9-3f55976b43ee	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TM-A84T	311fbbfa-eeef-4007-8a58-4ccdf68d3d07	31204	311fbbfa-eeef-4007-8a58-4ccdf68d3d07
+d13ac936-87a9-4164-bdab-02ccf3908cfe	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TM-A7C3	128c3537-65dd-45f8-90ee-cdc9e861087b	50252	128c3537-65dd-45f8-90ee-cdc9e861087b
+8655fa51-d784-4f8d-9bc8-f1da7303d22f	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-A5RC	edb36fe1-f2b4-4fc7-9b35-b306f691e0f5	33373	edb36fe1-f2b4-4fc7-9b35-b306f691e0f5
+5469c0e8-0c58-4870-b897-8fa0704599a7	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-8189	1d7807c4-afbd-4395-abd4-e60afe2c1141	47774	1d7807c4-afbd-4395-abd4-e60afe2c1141
+c13a429c-99ea-478c-ae95-fa499b9ea9fa	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-6406	988a0520-395e-47b4-b7b2-5a5a43917e60	53942	988a0520-395e-47b4-b7b2-5a5a43917e60
+81622da8-9f36-4ea3-b223-d831d8c10f87	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-7299	ae37fd00-15d1-43b9-9a33-3e08b0adc380	72462	ae37fd00-15d1-43b9-9a33-3e08b0adc380
+001ad307-4ad3-4f1d-b2fc-efc032871c7e	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-A614	b22830b2-db9e-419a-b1f1-25f8422c70a7	30513	b22830b2-db9e-419a-b1f1-25f8422c70a7
+01a13aba-74a4-4895-a5ad-e5119925c202	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A7IZ	a7ce6cac-6914-472e-acea-45d28d9a0f27	55654	a7ce6cac-6914-472e-acea-45d28d9a0f27
+0b54cda4-7568-481e-b0c6-2c5c6de0026c	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-5274	9f9185da-0bc8-4664-ab60-ff023bc6508d	48409	9f9185da-0bc8-4664-ab60-ff023bc6508d
+04d56bed-98fb-45eb-8c90-95e69264dfe2	hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-A5RB	3b01314b-e5ad-4d97-9088-25ed1a7fac95	30377	3b01314b-e5ad-4d97-9088-25ed1a7fac95
+083c0b78-88c2-4ec1-8a81-a0792b16e2cc	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DH-5144	6b654395-236f-4be9-a8b7-3a1e3ef29aef	43990	6b654395-236f-4be9-a8b7-3a1e3ef29aef
+b7cd3b44-ef6a-4207-a44f-14f5b3b56ed4	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-5270	a63ccf1b-194a-4037-99b4-d599fa405ef1	42027	a63ccf1b-194a-4037-99b4-d599fa405ef1
+10887e42-444d-49fc-aee5-dd0e9fc4ea54	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-VV-A829	6e3c1204-92a7-4311-b30e-2ca2b5b1697d	41526	6e3c1204-92a7-4311-b30e-2ca2b5b1697d
+14375753-a69f-41e0-b910-2bb8e84cc43a	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-6408	e068e4f0-11d7-41a4-a6ed-24a13453592b	60662	e068e4f0-11d7-41a4-a6ed-24a13453592b
+1937318f-a1bb-4f48-b8ec-4aadd406e52a	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-6393	56c12b5f-ec1f-4c0e-bc38-0a5f06337b4e	41146	56c12b5f-ec1f-4c0e-bc38-0a5f06337b4e
+106709ec-72df-44f0-8c71-87b7c755f8f0	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-8188	30faf1b7-3436-47ec-bd17-7a358249af07	35680	30faf1b7-3436-47ec-bd17-7a358249af07
+152f028e-ee29-40e0-8e75-5cafffacbd45	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-6402	fee41b31-feb9-46ee-ad42-b96fa6136d01	41806	fee41b31-feb9-46ee-ad42-b96fa6136d01
+15a6ad18-a81c-4f5b-80ae-ef56ccf722f9	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-5281	2fc8de61-0f1f-4415-890d-22c3a87a9451	48245	2fc8de61-0f1f-4415-890d-22c3a87a9451
+194e8231-e8d4-477f-8c62-e11f2484ecce	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A7J2	02f3ca05-1ca1-4eb7-a075-2fa0b0d80444	64157	02f3ca05-1ca1-4eb7-a075-2fa0b0d80444
+176d89d7-f8f1-4a72-b45a-31cbe1632a30	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-A64V	3436cd3d-7a83-49b3-b48e-d6514fcad2fa	36952	3436cd3d-7a83-49b3-b48e-d6514fcad2fa
+1c095c4a-df97-402e-902c-fc83bcf8ef88	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-A5TU	9fabb4b8-31f9-44e8-987a-e6e2ca029488	41918	9fabb4b8-31f9-44e8-987a-e6e2ca029488
+1cc53ade-73c0-492b-a7dc-328269fd0e66	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-5874	f325eef6-b96e-48ee-b97d-9eedf3be8f2e	36970	f325eef6-b96e-48ee-b97d-9eedf3be8f2e
+1f13065a-40f7-455d-b8eb-f9a128722eac	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-P5-A5EX	2f95bfe3-2897-4428-b209-b4ac611f3e13	41416	2f95bfe3-2897-4428-b209-b4ac611f3e13
+215e117c-4d76-463c-8f8a-fd6a28d23929	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-7006	8c3b2184-999d-4156-8ac0-f71cb5d21cc5	53946	8c3b2184-999d-4156-8ac0-f71cb5d21cc5
+1f2f3bf6-acdd-4a72-8c33-230de40910eb	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-RY-A843	32483992-65a8-4752-b28e-ceb8a287084b	30830	32483992-65a8-4752-b28e-ceb8a287084b
+23c335f6-5749-4443-8ae8-61cccbb137cb	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-A7YV	62c918b6-03be-4cbd-921c-71a163bf6633	127550	62c918b6-03be-4cbd-921c-71a163bf6633
+2c982cfb-4112-4e27-8293-25aa9e01faae	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-VW-A7QS	e53014cd-0a0b-4579-8a82-bc2eb82f0157	28839	e53014cd-0a0b-4579-8a82-bc2eb82f0157
+3431a71c-fabf-440c-b11c-8acfee04724f	hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TQ-A7RM	9b860cb4-6a8e-49cf-a846-ea8bc525c671	31306	9b860cb4-6a8e-49cf-a846-ea8bc525c671
+334f715e-08dc-4a29-b8e4-b010b829c478	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-CS-4938	ef308182-e4e7-4129-9401-a0ddb35fcdfa	38776	ef308182-e4e7-4129-9401-a0ddb35fcdfa
+3baa0015-885c-487a-9076-236f404feb3e	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-A6S6	aebdb325-46d7-444c-b448-d14ee39fcceb	49051	aebdb325-46d7-444c-b448-d14ee39fcceb
+41456932-436e-4cdb-bfe8-97d089656786	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7475	62f04a67-dfdb-48ea-a986-1014c1db416c	54943	62f04a67-dfdb-48ea-a986-1014c1db416c
+395798c5-3136-4a30-8557-a67a3abdecaf	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-A76L	1984e470-74ee-4d4e-8b76-d97ab7f83308	50976	1984e470-74ee-4d4e-8b76-d97ab7f83308
+3f70c3e3-0131-466f-92aa-0a63ab3d4258	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-CS-6188	d57cd644-b382-4fb8-be56-9b35ee87f68b	49972	d57cd644-b382-4fb8-be56-9b35ee87f68b
+3ac41cc6-5dfb-40a1-bd13-5dc7ca2bb6f3	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-A7Z3	ee9beea7-92c0-4be0-b23c-0f231d4c4632	81545	ee9beea7-92c0-4be0-b23c-0f231d4c4632
+3b19b5d1-13af-4669-a082-1bd546048185	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DH-A7UV	6e6c7c3c-c32a-480f-9578-0ae0ed954616	41583	6e6c7c3c-c32a-480f-9578-0ae0ed954616
+40ae8507-c08a-45d5-9bbb-65d236c82319	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7875	305aa9bb-a282-40c3-a3fa-449c1dc83f1b	31038	305aa9bb-a282-40c3-a3fa-449c1dc83f1b
+44553e34-5111-40a8-b76a-254751be3f87	hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TQ-A7RS	a616f0c0-dea7-4b19-9bea-edf5876f9b74	31202	a616f0c0-dea7-4b19-9bea-edf5876f9b74
+4797c600-f024-42fe-b287-d919b24dcb79	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-5280	32b0c8eb-ccfc-40c8-8425-aa4304595679	30745	32b0c8eb-ccfc-40c8-8425-aa4304595679
+427f4d23-2b76-4a2a-a498-0c3473f57169	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A7QX	d275aec1-5f29-4b79-a94d-2e56f063c852	49821	d275aec1-5f29-4b79-a94d-2e56f063c852
+55a67639-ed05-4143-af96-a377bc5489ee	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HW-7486	5d1a9849-6618-4188-9d79-51ae5391b8b8	60530	5d1a9849-6618-4188-9d79-51ae5391b8b8
+49967a57-7c12-46bb-8d71-cebbb17c9935	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HW-7495	735cd7f4-11cf-4eb5-9bb3-69883131c519	38162	735cd7f4-11cf-4eb5-9bb3-69883131c519
+49d5acbb-d75c-4485-b456-6b50667fef99	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-P5-A72U	b064c52d-7f92-4f8a-a876-4142db4909df	30175	b064c52d-7f92-4f8a-a876-4142db4909df
+58650d08-7685-41de-9ae0-21665f8f449f	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A7R4	af13f17d-bd0f-45ab-85fb-67b32f813b39	41712	af13f17d-bd0f-45ab-85fb-67b32f813b39
+5e0748f1-990b-43a9-9ff1-6a667cc228a8	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-A4X9	58a657fb-d21a-48e9-9640-9f2e1432532d	31370	58a657fb-d21a-48e9-9640-9f2e1432532d
+5ea230a6-77aa-4aa5-867c-09651d481d8b	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-5322	1010c4b8-e6fa-4d8f-85bb-491b11ea7db4	41992	1010c4b8-e6fa-4d8f-85bb-491b11ea7db4
+a0bc5147-d9b4-41fd-8df3-a241d23722e8	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-5305	3eb49bfc-dc39-4d04-b0ef-b54801e1c1cb	98852	3eb49bfc-dc39-4d04-b0ef-b54801e1c1cb
+a1192df3-7667-4d1e-a1a0-79f6cc827dcf	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A6WG	b43a5785-6481-4fa0-bca4-58ca97c38c72	49713	b43a5785-6481-4fa0-bca4-58ca97c38c72
+a2202233-4a83-4163-9532-b6edb9941453	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A6WO	d87c7c68-341a-43d7-8829-b2b87a571604	36072	d87c7c68-341a-43d7-8829-b2b87a571604
+a343fbe3-147a-4656-9e90-5408298ca12c	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A6U0	186eaec9-46f1-43ab-b7eb-afca51fcfbf9	73077	186eaec9-46f1-43ab-b7eb-afca51fcfbf9
+a3822b5e-d794-4126-b31f-c70e1cc47f22	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-P5-A735	323cdd50-5545-4485-989e-954a4065aac0	30311	323cdd50-5545-4485-989e-954a4065aac0
+a3be4e6f-c845-4d64-8111-d63fdf8cc8f1	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-A74K	3797e9ab-3471-4015-83e6-a2c6e9592293	33165	3797e9ab-3471-4015-83e6-a2c6e9592293
+a80b0fab-6189-497f-997f-77234b69179c	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A7IX	a3e4829f-c2a8-4112-891a-890b7723e7b3	88118	a3e4829f-c2a8-4112-891a-890b7723e7b3
+a85aebda-b182-41ba-815a-3ff055e22829	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-A60K	1e779c3f-d81f-4c05-bf97-a9f28acb1b90	31283	1e779c3f-d81f-4c05-bf97-a9f28acb1b90
+a85fdb41-24c1-420d-8905-ec297f018bd9	not reported	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HW-7491	7bfcaaae-d30b-4873-a57d-6f2b28c37025	43949	7bfcaaae-d30b-4873-a57d-6f2b28c37025
+a96bca45-ecc7-44f6-acb6-48b0cec3de4d	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-QH-A86X	280c8b70-2fc9-4f3e-8b3e-98d7188e4fbb	31304	280c8b70-2fc9-4f3e-8b3e-98d7188e4fbb
+ad72e61e-51e3-4992-ac77-65e895935736	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-QH-A65V	dc8dd894-2f07-4dc1-93c5-7e56a98646f3	48848	dc8dd894-2f07-4dc1-93c5-7e56a98646f3
+a96fabfa-e830-476a-b2a1-899689570bd9	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7479	482f4abb-6d83-41e9-835c-3791e8a69502	51702	482f4abb-6d83-41e9-835c-3791e8a69502
+ab24cdc3-74a1-443f-831f-b7fb3821de6a	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7616	4f17d480-0223-4f88-877c-89ff1183547e	30870	4f17d480-0223-4f88-877c-89ff1183547e
+ad1c5951-ca93-4102-889b-e28e2bcfea76	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-8110	92e28bd6-3b18-4bc3-8626-672345fe4da3	35408	92e28bd6-3b18-4bc3-8626-672345fe4da3
+ae4f0714-3b74-46c0-9c1b-f028c7cf2e62	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-A6J3	1ce36b8e-d82f-4bdf-955d-fa6f6ea1049a	47730	1ce36b8e-d82f-4bdf-955d-fa6f6ea1049a
+b3720405-ce3f-49c7-a5d9-bbffd06f6aef	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TM-A84J	d719e377-6def-4fd0-8eea-7f12f117d12b	47756	d719e377-6def-4fd0-8eea-7f12f117d12b
+b37abdc8-b9e3-4f1a-b16d-2e59442db335	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DH-A7UR	9750827a-7d1f-41f3-9080-a59dd3b1059f	49511	9750827a-7d1f-41f3-9080-a59dd3b1059f
+b027ab77-70eb-4877-91a3-702064d9cc8b	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7684	75e17dce-27a8-48ad-8206-5d1c7ee4fa36	30917	75e17dce-27a8-48ad-8206-5d1c7ee4fa36
+b10a9314-fd40-459e-97ea-affc636dceea	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A6U8	3a177138-58c7-432a-9591-c4b396292f59	59391	3a177138-58c7-432a-9591-c4b396292f59
+b2b57e93-2722-4546-9a0b-20155b86edef	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DH-A7UT	cd4b3bcd-0962-4f73-ae35-35cc47a48715	49717	cd4b3bcd-0962-4f73-ae35-35cc47a48715
+c0d47e0f-4918-4e06-9db6-201671b1259c	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-6404	d4da02f7-dde9-4fb2-be4b-73cd8632f44d	115431	d4da02f7-dde9-4fb2-be4b-73cd8632f44d
+c2c16878-b615-496c-8fcb-d49c97e15551	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7856	846056d3-7c38-4e87-82fa-1d4b99aa05c7	42324	846056d3-7c38-4e87-82fa-1d4b99aa05c7
+c2f9dff7-751b-4704-8e6e-f4f800297030	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-QH-A65Z	fa27e706-b46f-4071-a063-f1f75e7b2939	53476	fa27e706-b46f-4071-a063-f1f75e7b2939
+bc3b4816-df1d-44ed-a8c6-f32c8e011a1f	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HW-8319	6f7d118d-ecce-499c-b068-465c4b72094b	80305	6f7d118d-ecce-499c-b068-465c4b72094b
+c40ab957-fe46-43b1-992d-b4e2040a3f57	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-7637	070945f9-8a40-4e60-882c-8b5bef6fc536	38957	070945f9-8a40-4e60-882c-8b5bef6fc536
+c4f522c9-bff5-4899-8d27-c105dab795a9	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A89V	4acd150e-f41f-4aa1-9e44-8ac0714ef2ed	47779	4acd150e-f41f-4aa1-9e44-8ac0714ef2ed
+c916b9a4-008e-4d79-a50c-f15c3549fcf6	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7879	e38e7fe4-cfb4-44f3-a851-58f9114af999	48202	e38e7fe4-cfb4-44f3-a851-58f9114af999
+ca427acb-034e-42e2-961a-b9d5dc30b741	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-7309	aea8e433-0b49-4997-9759-d86016d2f834	42138	aea8e433-0b49-4997-9759-d86016d2f834
+c56fa247-ad97-4dce-a2d3-9bdfc5dc7b1b	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-A76O	66065066-2547-4e3f-89c3-283790e89b1c	47225	66065066-2547-4e3f-89c3-283790e89b1c
+cdd1fd4c-3427-496c-8391-4aeb6730d3cc	Unknown	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-VM-A8CA	2587b728-1e5c-4c6d-a213-6b341d8c463b	36372	2587b728-1e5c-4c6d-a213-6b341d8c463b
+cf29547a-305b-4e6e-8342-36aac0850065	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-QH-A6CX	d0d2ebba-3101-4aff-89b0-60322de01433	36106	d0d2ebba-3101-4aff-89b0-60322de01433
+cf2a1b98-5693-4c04-9167-f85e69a88a4a	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-A61B	a7b5a8e8-a500-4749-984b-fb312450e4b6	41447	a7b5a8e8-a500-4749-984b-fb312450e4b6
+cfcd3835-bb09-400e-b7eb-55ac139d01f8	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DH-A66F	4e7af2ae-3e83-48cd-8158-389445e1fe84	39153	4e7af2ae-3e83-48cd-8158-389445e1fe84
+c85fa637-941a-4a9a-8029-f5b44f3da430	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-P5-A5F2	d6207205-2802-44bc-b14b-42eda55452dc	47953	d6207205-2802-44bc-b14b-42eda55452dc
+da13446a-c4dc-4d02-80c8-410273925ac4	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-A6IZ	072ea711-5ff5-4cd5-a7b7-2945c2a8c755	35981	072ea711-5ff5-4cd5-a7b7-2945c2a8c755
+da735a88-d811-49f1-9091-a097c59ed68e	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-A64L	239f0034-0fbe-4584-8653-52f2f600f690	31450	239f0034-0fbe-4584-8653-52f2f600f690
+d3d8987d-0a54-45f8-b9c9-17ec89fa864e	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-A7TB	ba2a32ea-3183-40c4-bd31-ff57771347cd	53591	ba2a32ea-3183-40c4-bd31-ff57771347cd
+dadd7428-9e4d-4652-9469-ab521b88d529	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-6688	3659e6df-25a5-46ac-8902-34fe0f49a424	56732	3659e6df-25a5-46ac-8902-34fe0f49a424
+dbfaccb0-e8c0-48e8-9aef-570267574822	hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7473	903c811a-10a3-4756-ace7-164aebd09860	35730	903c811a-10a3-4756-ace7-164aebd09860
+dcbbaca6-a24b-4bed-95de-314cff71e436	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A6TY	4282e995-e6c3-4b95-a0b6-bc4a6400b988	45122	4282e995-e6c3-4b95-a0b6-bc4a6400b988
+dcd0856d-423a-40d7-8070-4c0988d61416	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DH-5143	8b2465b9-9c07-43cf-adcc-5ab16e8ee921	62427	8b2465b9-9c07-43cf-adcc-5ab16e8ee921
+d698946e-57dd-4ff2-b5fa-7a1d15c828be	hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TQ-A7RO	de175964-44db-4b06-9835-6c28f708eaec	31387	de175964-44db-4b06-9835-6c28f708eaec
+dcd45077-f068-490b-bdcc-4d4a62285116	hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-8186	2ce57aa1-48ba-441f-8426-be30ad372df0	35643	2ce57aa1-48ba-441f-8426-be30ad372df0
+e2b1d161-d8cc-4eba-87ac-9449c6cd2977	hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TQ-A7RQ	e93c6b41-e334-4d4f-b0a4-58739436a516	31229	e93c6b41-e334-4d4f-b0a4-58739436a516
+e00a9855-c15e-46ef-988f-25ca64ec4717	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-7290	d3dd1457-90bc-4528-ae31-1e5caefcbaf4	30328	d3dd1457-90bc-4528-ae31-1e5caefcbaf4
+e669a4b7-a494-490a-b78c-e664c59d0697	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-8013	86e0c669-6a7f-4498-8a07-0b96b59cf7a0	52376	86e0c669-6a7f-4498-8a07-0b96b59cf7a0
+e6b7420f-4315-46a8-aed5-5c47cce5ded3	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A6UA	a6259171-7ef8-4132-a194-4e478f540e0c	31496	a6259171-7ef8-4132-a194-4e478f540e0c
+eb42625e-fbbb-4bee-bbe9-315b3ca2138a	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-5870	f7b22a43-f194-407a-80d7-5e3a639bf2f7	53524	f7b22a43-f194-407a-80d7-5e3a639bf2f7
+e89f7631-fdac-4be9-9997-70e400efdc04	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-A615	79a04a40-3480-4fa7-8b0c-ef5ea8949a7d	43757	79a04a40-3480-4fa7-8b0c-ef5ea8949a7d
+a4e2e507-7ddf-43df-b959-fe451971af1e	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-A618	5c8830d6-6956-4f28-ada0-2c0217451655	41293	5c8830d6-6956-4f28-ada0-2c0217451655
+e8d3d888-e5fc-4469-ad0b-2c1df6e04790	not reported	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-CS-5393	90750f01-edfb-4039-8664-19de20956869	41968	90750f01-edfb-4039-8664-19de20956869
+eef15b5c-5fbe-482a-b3b0-dd091888a6a2	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-P5-A77W	0d638ea9-b592-4cdd-9cec-b9cf82885385	30161	0d638ea9-b592-4cdd-9cec-b9cf82885385
+effb5839-24a2-4b8c-8b6d-08cb66503d16	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-A61A	559ed692-d60d-43f9-b06d-df0794dbfb40	33237	559ed692-d60d-43f9-b06d-df0794dbfb40
+a56c2083-33d5-4c98-b85f-3b68a3d80add	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-A6S7	ff2feff4-d280-4b31-ac58-51d0a0169b91	53515	ff2feff4-d280-4b31-ac58-51d0a0169b91
+f79420ca-b0ae-417c-95f7-d28c35760202	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A6WM	961048af-0c13-4eba-bcbc-4c3e86e961bf	47719	961048af-0c13-4eba-bcbc-4c3e86e961bf
+a5f851c5-6130-4ea1-9f86-be59331a92f7	hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-IK-7675	2ee73df3-3c75-4e67-807c-d7f9c345087d	47371	2ee73df3-3c75-4e67-807c-d7f9c345087d
+f18dab99-26b0-4727-89a9-7f16bd382356	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-7018	2e874b4a-1120-4056-a509-f316dc8f96be	43665	2e874b4a-1120-4056-a509-f316dc8f96be
+f842f756-ce78-4c99-bcf8-3bce18a4d9ef	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-A7YE	4c5ee980-e398-4529-96b4-1cd1027ff92a	121577	4c5ee980-e398-4529-96b4-1cd1027ff92a
+f878bf8d-70eb-4b74-bf74-bdf63cb9bfae	hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TQ-A7RW	cbfc3b71-d7f8-4cb2-8cd9-c368d662169d	31699	cbfc3b71-d7f8-4cb2-8cd9-c368d662169d
+f97a9afe-e54a-4ef0-b458-0c77f938552e	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-8164	23a18926-a6b3-40e5-a6e8-75f0ad4f9d7c	36435	23a18926-a6b3-40e5-a6e8-75f0ad4f9d7c
+fb3884df-3680-4c5b-8092-981007aeba03	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-8185	20dcb790-3ecc-49b8-bc70-7a183d0b13d3	47238	20dcb790-3ecc-49b8-bc70-7a183d0b13d3
+f62be2b8-88c4-4a7e-8c80-8176fb5f6c56	not reported	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-WY-A85C	6fb8cfee-5d52-480a-87b1-079df22de8fd	31405	6fb8cfee-5d52-480a-87b1-079df22de8fd
+f6a81d81-7df4-4273-8a86-e0cd3b8b1df5	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A7IS	91aca58b-7e49-421e-99e2-1797717a97a7	35853	91aca58b-7e49-421e-99e2-1797717a97a7
+ad80a042-c4b4-445c-9678-1c2614422684	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-A4MX	fdfa6cbe-34aa-435c-ba2c-573ff89bec8e	36115	fdfa6cbe-34aa-435c-ba2c-573ff89bec8e
+ac3779f6-cc8b-428b-9531-03562a614515	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-P5-A736	b2e1282b-6385-4918-b892-8596a76124d9	34952	b2e1282b-6385-4918-b892-8596a76124d9
+ae081e4a-efa9-4b52-b15e-29085c0612d3	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-CS-6667	b85e999a-5557-4b14-8a30-26514bf6c9a9	43670	b85e999a-5557-4b14-8a30-26514bf6c9a9
+b342e980-8383-4f1b-bf57-4098c37a536c	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-7636	671fa100-90ab-4dd7-855a-cb03d4dfca3c	42207	671fa100-90ab-4dd7-855a-cb03d4dfca3c
+b6951c37-377e-49b9-862c-968082e8682f	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7858	f82515eb-b0b7-4762-9693-1614dffed5d7	35958	f82515eb-b0b7-4762-9693-1614dffed5d7
+b6c2c9bd-625b-4a98-830c-49c344f6cb5f	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-CS-5396	d6954372-aa85-461c-ba20-39a250cf5ff0	49767	d6954372-aa85-461c-ba20-39a250cf5ff0
+b6f13250-31b3-46ad-b514-5a684f1094a9	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-7643	52f783a7-2907-469b-9cbc-28b0b4925991	39528	52f783a7-2907-469b-9cbc-28b0b4925991
+b297c4dc-ec58-4392-908a-586e81d57ef0	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A6TZ	11530158-348b-442e-9d81-fe4656c62c4a	44107	11530158-348b-442e-9d81-fe4656c62c4a
+b8df1577-2a75-4eb7-ab27-f2dd76160730	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-8158	258fee26-2d4f-4f8c-b333-c6101af67f13	32853	258fee26-2d4f-4f8c-b333-c6101af67f13
+b95afb1a-a1df-4d85-ad34-191928e28a77	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-5854	3cb5c19a-6225-4795-b0e8-be24a726fa08	54882	3cb5c19a-6225-4795-b0e8-be24a726fa08
+bdfade49-9059-4665-beea-c55117ba6564	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-CS-5397	4004d605-7c68-402f-ab49-2b06159adc3d	42003	4004d605-7c68-402f-ab49-2b06159adc3d
+b9a3b647-61b3-4d98-90ca-e307ab50984a	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-8161	49a4b37c-a6d0-4794-bf47-c59b6b2de713	63587	49a4b37c-a6d0-4794-bf47-c59b6b2de713
+c05f9e21-b8fa-4537-9ae7-39d6fc9d7933	hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TQ-A7RN	128728d6-b17a-4887-b364-abab3dbc5386	31307	128728d6-b17a-4887-b364-abab3dbc5386
+b9e2f4d1-866c-4c62-a9c8-8de7eb364a6e	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7469	d4785cc7-370c-42ff-bc9a-30de8376370e	48561	d4785cc7-370c-42ff-bc9a-30de8376370e
+ba62b5eb-e169-4b41-b949-e004d66e98a1	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-A75L	8a708985-bac3-4c5b-848c-33ef5007f2c5	41769	8a708985-bac3-4c5b-848c-33ef5007f2c5
+baaddd76-277f-4c90-9cc2-0fece30c9735	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-A6S2	1b9e7605-67e6-4485-8d78-5ab14504076b	31540	1b9e7605-67e6-4485-8d78-5ab14504076b
+bb4a30d5-4eba-45db-b05a-bd843044d508	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-A7YK	52382778-ee67-483d-a039-be0f6e430969	46877	52382778-ee67-483d-a039-be0f6e430969
+bbfb5399-8d43-4b75-bf90-23ec142697d7	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-5275	51d8bdf1-fb7e-405a-ab0c-75499c2df853	55886	51d8bdf1-fb7e-405a-ab0c-75499c2df853
+c35f36b1-ba3d-4eea-bf5a-c95480202176	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-7306	50d5179c-40d3-4d03-8a43-e8df2c80d4d2	54645	50d5179c-40d3-4d03-8a43-e8df2c80d4d2
+c45e02e5-7e3c-4f36-8b8d-f54617e8a436	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A6TW	30999e8f-78cb-432f-8855-7e39bc8fb8d0	50047	30999e8f-78cb-432f-8855-7e39bc8fb8d0
+c8700ca3-8c0b-4b2a-9e87-79d244a0f892	Unknown	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-WY-A858	6bf2138a-57b6-49e0-86e5-05f8b6bee90b	23056	6bf2138a-57b6-49e0-86e5-05f8b6bee90b
+c50c984f-316a-4f24-968d-618691c54c3d	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-7012	dcfa96bf-4dd1-4a09-9818-3b921cde8861	35555	dcfa96bf-4dd1-4a09-9818-3b921cde8861
+cc451e2a-fa85-42d7-b7af-9fc0166945fa	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A7IQ	4a9aefcd-48d1-4c7b-835e-8089d32d3537	31294	4a9aefcd-48d1-4c7b-835e-8089d32d3537
+c6ceb220-282e-4eef-8d36-4ce0a625cf7e	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-A70Y	f62144ea-2e94-4de3-b44c-0ab31c84485f	49783	f62144ea-2e94-4de3-b44c-0ab31c84485f
+c6cf2b8e-40ed-4c9f-8419-d868bd5afe11	not reported	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-CS-5390	5e34fc0e-9551-4c21-b025-3a3cda78cb57	49635	5e34fc0e-9551-4c21-b025-3a3cda78cb57
+c81d4681-c02f-4b33-abe0-b6ad7d61194d	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-8163	a48ebb8e-59fb-48dc-8133-806de01aebca	52844	a48ebb8e-59fb-48dc-8133-806de01aebca
+d05079f2-9883-46e6-ad06-9e561f08d819	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-5277	6dd71316-5499-47d3-b6f0-8d6cd6c0d7f2	59495	6dd71316-5499-47d3-b6f0-8d6cd6c0d7f2
+d209cffc-fe21-4ae7-b610-e5668ea84a3b	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-QH-A6X8	ff9158ca-03a9-49f8-8f4b-2fe4c203edcb	41883	ff9158ca-03a9-49f8-8f4b-2fe4c203edcb
+d43581a5-3d49-4263-862b-ca99d15ec03d	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-A616	59920f68-e930-4048-9c1f-017c058ad75e	30418	59920f68-e930-4048-9c1f-017c058ad75e
+d50e944a-3ce4-4632-a878-118499e143e3	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-P5-A5EV	cb10af6b-6123-4d8b-a2ab-8b10a7802080	30373	cb10af6b-6123-4d8b-a2ab-8b10a7802080
+d62d871b-4612-4bf4-b53c-9dd431e507a0	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A6WL	3bf5d7da-2920-48f3-b41b-4211a41d6244	36008	3bf5d7da-2920-48f3-b41b-4211a41d6244
+d81b9957-8c82-4006-b111-449fa9fb95ed	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-P5-A733	f1fbf8e7-5939-4a9d-9a08-f2b7ad61b38a	40513	f1fbf8e7-5939-4a9d-9a08-f2b7ad61b38a
+d87742fd-ff94-4ef0-bbf4-5dd5a185a0e7	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-P5-A5ET	3b6c31c2-e619-4c0d-95f4-67b4198096e7	30436	3b6c31c2-e619-4c0d-95f4-67b4198096e7
+dce168b1-d2a9-4409-8437-ab382f6d7d31	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-A4MW	4540d7f1-ddef-4946-8980-4f411128fef3	53606	4540d7f1-ddef-4946-8980-4f411128fef3
+e117fcf4-2c01-4b4d-8faf-5de7d0e839f1	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-A5R9	a2954575-c5aa-419f-86b4-f7548c2076f7	30342	a2954575-c5aa-419f-86b4-f7548c2076f7
+e1758d75-b2a0-4386-bd72-6b2421d4da6b	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-QH-A6CY	e50989f1-07f6-47c4-a6f5-b787e8272fc6	41693	e50989f1-07f6-47c4-a6f5-b787e8272fc6
+dd163547-43ad-4fe4-873e-83c4c6be4465	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-A5TS	138002f2-6bbc-45ce-98df-332983901f13	41812	138002f2-6bbc-45ce-98df-332983901f13
+dd85dbb2-31c3-4bc2-9dff-3bd27c79a9ad	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A6UB	07c7e268-00f3-4dd7-9638-5041c73993f7	54926	07c7e268-00f3-4dd7-9638-5041c73993f7
+e30f1994-3622-43d0-bec2-6d7e2d9881d2	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-A4MT	3b0c1f54-0b63-484f-aa43-9ab8ee8e26aa	36468	3b0c1f54-0b63-484f-aa43-9ab8ee8e26aa
+ddfd76dc-15d6-4efc-85ea-31674161ebf3	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-5871	69fcdccf-54ca-44fe-96d9-b1fdd380f830	48395	69fcdccf-54ca-44fe-96d9-b1fdd380f830
+df22bc30-96e2-42de-9a39-2954db49841d	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-A64W	168db80f-2f72-4091-9e9d-e5caaaa09b02	41614	168db80f-2f72-4091-9e9d-e5caaaa09b02
+df78e63d-4387-4177-b24f-f0e2c6c7ac32	hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TQ-A7RJ	ad2db39c-c9fa-468e-bb51-1add0f16cf61	30997	ad2db39c-c9fa-468e-bb51-1add0f16cf61
+e349d8aa-bb82-4ce8-b14c-61216289f25b	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-A7TD	59bd51ef-0b8b-4d23-959f-b01a642847f4	39413	59bd51ef-0b8b-4d23-959f-b01a642847f4
+e4d9b696-3311-44e7-9191-fde56c080a00	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-6691	fc7da97d-93ef-4c96-be7a-149188419ae2	66259	fc7da97d-93ef-4c96-be7a-149188419ae2
+e0f8e70a-ac91-4d3c-806c-ba9c14ed43ab	Unknown	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-A617	5799e8b1-4fd2-4aad-b7a0-67387994918b	30813	5799e8b1-4fd2-4aad-b7a0-67387994918b
+e695b780-17f4-4e71-9120-7c6bcafaa3a7	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-6397	406cff2d-747d-4a37-8f26-439c4b49d018	47021	406cff2d-747d-4a37-8f26-439c4b49d018
+ea7f3ed6-e44b-49a1-8b5c-ce35539e7bdf	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7877	ac6ccc66-1153-4bdb-88d5-c55220ff0a51	30673	ac6ccc66-1153-4bdb-88d5-c55220ff0a51
+e7fdf164-a85d-4ff5-9676-d2215ca35403	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7601	8fe90c95-5329-4619-a7b6-f14ae048cbae	54562	8fe90c95-5329-4619-a7b6-f14ae048cbae
+ee6bf12f-8a73-49e2-b566-368b2b42165b	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TM-A84B	dee2eefe-69ad-4041-aaab-ec63ba292782	37054	dee2eefe-69ad-4041-aaab-ec63ba292782
+a418fe65-dfdd-4c84-b27c-b4567b50f457	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A6WN	e63dda1b-82df-411b-aaaf-c476dcd2c01d	81366	e63dda1b-82df-411b-aaaf-c476dcd2c01d
+f005fa99-7e4e-4308-b11c-83b25683b1fd	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DH-A66D	bd851d3b-013a-4d4a-bd22-9dab2ccda545	41903	bd851d3b-013a-4d4a-bd22-9dab2ccda545
+f4a1fc14-0d32-4e77-a8a3-fd8fea82188a	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7467	63375756-22da-4449-bcb4-b483a7b76cff	30821	63375756-22da-4449-bcb4-b483a7b76cff
+a6975eb0-cfa6-4b7a-bbe4-72bbdd3d3b6f	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A7R7	8554c842-dfb6-449e-9b3f-20cad25ffc24	58526	8554c842-dfb6-449e-9b3f-20cad25ffc24
+f5268956-789d-4b22-8f19-a3ac9353d33d	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TQ-A7RF	fbe1e2a8-f508-4bed-bb10-2b68555bdd1b	30976	fbe1e2a8-f508-4bed-bb10-2b68555bdd1b
+a6ee311c-0a7b-4f47-86f1-f2164b128f9c	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-5307	7ab619d0-355f-49a8-bd18-6b59d74883c3	92398	7ab619d0-355f-49a8-bd18-6b59d74883c3
+a776cfd0-db9f-450a-943c-5a9a80a75fb7	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-7014	964a88c4-27af-4c83-ad5e-d4feda0bc33b	36018	964a88c4-27af-4c83-ad5e-d4feda0bc33b
+fbe32b94-b3ba-4a56-aeba-4cffe8de2da4	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7681	afbb19bf-5fcd-4ed7-ac45-228d92a99141	30462	afbb19bf-5fcd-4ed7-ac45-228d92a99141
+fdff46a7-f92a-45cf-8756-6c73a406c923	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-A74H	851d0d42-63e9-4676-8a40-cc32ef68f4df	41083	851d0d42-63e9-4676-8a40-cc32ef68f4df
+fe5c5c11-ef39-4907-9a70-67f37bb62fd7	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-QH-A6CW	b080256d-f434-467c-953c-eab4f6c66e58	31478	b080256d-f434-467c-953c-eab4f6c66e58
+68f550ca-3a33-45e4-b1c9-14f99e543263	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-5963	ab3a872f-88ed-400c-99b7-8e60dbc23025	73117	ab3a872f-88ed-400c-99b7-8e60dbc23025
+5e2539e0-2088-43df-ad2a-f854d8bb6d30	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-A7YS	32d0b800-647e-45da-b635-4a0ba97256a3	47425	32d0b800-647e-45da-b635-4a0ba97256a3
+71ec4c84-4aef-4c1f-ab07-dc264c5c0602	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TM-A84I	64a17d37-e728-4ea0-8504-2abc87830295	35937	64a17d37-e728-4ea0-8504-2abc87830295
+cb598780-9e42-4167-b487-eec90ad4f36f	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-7011	fc6474e4-6a8e-4b11-a81f-52f5facb07e2	35532	fc6474e4-6a8e-4b11-a81f-52f5facb07e2
+029b33b1-7ea9-4b77-a615-7eb0e3ebd5e7	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-8191	6c1e0454-2d62-4b03-9c6e-a39e54a91f2a	55058	6c1e0454-2d62-4b03-9c6e-a39e54a91f2a
+0167cf11-74be-4701-ab9a-4e057d4bb545	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-A5TY	2a39af22-8a4d-4f75-abec-46b8b2bd7baa	81492	2a39af22-8a4d-4f75-abec-46b8b2bd7baa
+a0b7c7c8-a6f2-41ba-9e61-9b7f8fbbbe1f	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-IK-8125	588a4480-85e5-4cdb-a690-be7799ffceab	55389	588a4480-85e5-4cdb-a690-be7799ffceab
+50975570-c0d5-4ee7-9226-40b3db1bde84	not reported	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-VM-A8C9	9431ad7b-8763-49d5-b4bb-0014922d4398	38802	9431ad7b-8763-49d5-b4bb-0014922d4398
+5f10cd91-1e03-4016-b35a-8629a1a8fcc9	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-6692	3d6ce064-9066-47fb-92b5-68ab0aee8b1c	49615	3d6ce064-9066-47fb-92b5-68ab0aee8b1c
+62e27075-7ddc-4f15-ac21-0a8244abb12d	hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7680	2f0dc40e-f248-4e8d-a117-01d3e44eefe5	30949	2f0dc40e-f248-4e8d-a117-01d3e44eefe5
+6355cade-7b3a-43a8-9f1f-8e7bc45755a8	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-6395	d6e9ad34-eebd-42c9-8370-536f42dd99f6	54358	d6e9ad34-eebd-42c9-8370-536f42dd99f6
+648252da-dd86-48d1-ae75-4257e3142b0b	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-5964	8fa7ad89-4b3a-45b2-ac28-edb33530a2d2	51780	8fa7ad89-4b3a-45b2-ac28-edb33530a2d2
+722c172f-46e6-47a1-82e5-3207278df89b	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-A7YY	30fa4458-1b5c-448c-9122-b7e9e6927ecf	112095	30fa4458-1b5c-448c-9122-b7e9e6927ecf
+6fab9c30-354b-4f99-9b60-6823c12b9b0a	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-8162	a2f2793c-00a8-443f-a6a1-361650b8fb16	51715	a2f2793c-00a8-443f-a6a1-361650b8fb16
+76e54ef6-1799-4fd9-bec3-0ea960e8461e	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DH-A669	b1abde61-6fdc-4687-96b8-ed101ce95f18	23187	b1abde61-6fdc-4687-96b8-ed101ce95f18
+738f5c96-ee44-4fd7-bb8c-e2b86f8053c8	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-A60L	1b71528f-104c-4903-8c16-610e574e685d	39146	1b71528f-104c-4903-8c16-610e574e685d
+70939245-41e0-4845-a473-5fef719b9828	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-6407	aa1db090-aa15-4a94-9c1b-53f08fcd7f18	66186	aa1db090-aa15-4a94-9c1b-53f08fcd7f18
+7704e4a8-c7aa-4288-b1ed-68c23abbe924	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DB-A4XG	335ddc16-5648-4e8c-9331-03cb4e5d2817	36849	335ddc16-5648-4e8c-9331-03cb4e5d2817
+82ff7a48-ea97-476e-9f4e-aacdeb6659bd	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-P5-A5EZ	ae99083a-8f57-4595-a5b6-3fffd297cbfa	30323	ae99083a-8f57-4595-a5b6-3fffd297cbfa
+7989b7fb-b9d9-4d3f-9352-cd0c1f28d828	hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-TQ-A7RI	dd434c6f-cc89-4e7b-9cfe-9fc625c0ad78	30749	dd434c6f-cc89-4e7b-9cfe-9fc625c0ad78
+784ecaa5-7fb8-402a-8240-396aad96be83	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-F6-A8O3	ddcbbbb9-a927-471a-834e-fa0ca1754a7f	30355	ddcbbbb9-a927-471a-834e-fa0ca1754a7f
+837b51d0-e6b7-431b-a5f3-7615bdf12b67	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-5302	f64309fa-96e8-40d4-86b1-960b508da9d5	117325	f64309fa-96e8-40d4-86b1-960b508da9d5
+823f571a-3cfd-465d-95fd-187a398ccf6f	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-A76R	9baa1c6d-e8a8-4e33-8a0a-f8df9929d620	38387	9baa1c6d-e8a8-4e33-8a0a-f8df9929d620
+84ae73e4-3b39-4444-9bfb-3fc6057eab32	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-7301	889f9797-bf98-4ec1-b021-76bd6c5587d5	67425	889f9797-bf98-4ec1-b021-76bd6c5587d5
+872a12b4-8cbd-49d2-ac98-d846587f5794	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-FG-A87N	c920a67d-c045-4c9b-b56f-fa452de6ee6c	49504	c920a67d-c045-4c9b-b56f-fa452de6ee6c
+8a94ff28-a74d-4fe2-b9c0-06c01f0a3fb6	Unknown	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HW-A5KK	d9691cb5-41b2-41c9-bc28-88dd772c3fd5	46771	d9691cb5-41b2-41c9-bc28-88dd772c3fd5
+8b10f00f-fde6-423d-bc36-027931359a5a	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-A7Z6	6aaee6fe-81e6-4482-b173-5387933947d1	62133	6aaee6fe-81e6-4482-b173-5387933947d1
+8d06226e-500b-4172-ae96-c674913909e6	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-7485	d5a239dd-6471-4bab-b788-59e059365012	31065	d5a239dd-6471-4bab-b788-59e059365012
+96d9249e-501c-49e0-9559-01da978a9ca6	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-E1-A7YL	b92c92dc-13f5-4a78-90e0-e57058a3ab2d	79609	b92c92dc-13f5-4a78-90e0-e57058a3ab2d
+92a7c445-2217-400a-bdcd-df41502416b6	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-DU-5847	ce93dacc-ee9a-4676-b310-3dd68ce5fc7a	54349	ce93dacc-ee9a-4676-b310-3dd68ce5fc7a
+9b288f0e-5155-4736-bc22-e0e801d8b738	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-8558	10385d51-c54f-45fb-b86c-c1ccddec8cec	30886	10385d51-c54f-45fb-b86c-c1ccddec8cec
+9351b1ae-89e6-4091-934f-d50da06cd01d	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-8012	dd640690-e81b-4533-9674-01f406270054	31124	dd640690-e81b-4533-9674-01f406270054
+94b95c07-5f70-4a1b-b40f-dc13f6a160d5	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-S9-A7IY	797eecf7-d333-4c9e-8436-be43e9aa1ca3	53353	797eecf7-d333-4c9e-8436-be43e9aa1ca3
+976d067b-9d7f-4920-a04d-e831edc6c2c2	not hispanic or latino	male	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-QH-A6X4	e0e0747d-33ef-4924-9858-8823ade29b5c	41952	e0e0747d-33ef-4924-9858-8823ade29b5c
+9d93834a-3bf0-41fd-8c74-5ac49a6e78cd	not hispanic or latino	female	Brain Lower Grade Glioma	Brain	TCGA-LGG	TCGA-HT-8019	e472614e-7f56-440b-9c46-61af73f404ad	30710	e472614e-7f56-440b-9c46-61af73f404ad

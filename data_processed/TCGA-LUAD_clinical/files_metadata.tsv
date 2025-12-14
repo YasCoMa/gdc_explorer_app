@@ -1,0 +1,523 @@
+cases.0.case_id	cases.0.demographic.ethnicity	cases.0.demographic.gender	cases.0.project.disease_type	cases.0.project.primary_site	cases.0.project.project_id	cases.0.submitter_id	file_id	file_size	id
+482eb2a7-6fed-4e4c-b1b6-14d6d869f855	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-8074	cc177e3e-a639-4b53-a07a-87739d08b03f	34813	cc177e3e-a639-4b53-a07a-87739d08b03f
+4b7cd595-e7f9-45a8-b736-a8c7c42d9539	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-71-6725	780b4149-00ce-4780-81d6-d045d5a43c4b	51056	780b4149-00ce-4780-81d6-d045d5a43c4b
+07b5663f-9a54-4462-b6c1-6fc8116b8714	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-2655	d5e8b9b3-2b57-4c5c-88e3-dcb117139fd7	51346	d5e8b9b3-2b57-4c5c-88e3-dcb117139fd7
+467d96d7-4a42-4116-8c32-0e4b34f96d8a	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-8358	98a56332-c374-4039-9464-128ab89da3d7	35259	98a56332-c374-4039-9464-128ab89da3d7
+50b2c647-aecd-4c81-af22-0d8116593552	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-4507	3e1548fd-dcf7-4ba6-85a3-8b98ff75753e	57961	3e1548fd-dcf7-4ba6-85a3-8b98ff75753e
+5202458b-c38a-47c0-a0ba-5f1a59a762a0	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-AARO	55313f7e-fe21-48e1-a74c-d525f75b4e6f	36094	55313f7e-fe21-48e1-a74c-d525f75b4e6f
+528a0fce-0719-4b19-a69d-3f18681696c5	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-A4D0	3076c78a-adfa-4645-982e-c8a26df2a271	46803	3076c78a-adfa-4645-982e-c8a26df2a271
+52df074f-a402-4b78-9472-f8eb268efded	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-NJ-A4YQ	606aeb13-8b3a-4bc1-9fbb-ad21c04853e9	43225	606aeb13-8b3a-4bc1-9fbb-ad21c04853e9
+54254f5a-50e8-4150-a9b7-56a0470d2a56	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7143	2b9eb935-dd0d-40a4-92cd-4a9fd4e29b00	42741	2b9eb935-dd0d-40a4-92cd-4a9fd4e29b00
+4e7b2af4-b158-41a7-be22-bea227a759e6	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-7227	78e6b014-fac3-4128-a693-881c9e3453b4	52334	78e6b014-fac3-4128-a693-881c9e3453b4
+548b0b68-ff45-4d45-adbe-984259e4a68b	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-7816	a4a4568a-dc00-43f9-ad98-acb3c907e41e	34530	a4a4568a-dc00-43f9-ad98-acb3c907e41e
+4efc2dac-6330-4b7a-a529-a27285f5fc23	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-75-7031	97c9ba1f-a2c0-4d7c-91a5-b3a98bda684c	34226	97c9ba1f-a2c0-4d7c-91a5-b3a98bda684c
+54a0e4d7-c274-4569-9c25-45bbe26d7f21	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-6983	cf3376f2-b8fc-4de6-9fea-c0b0d65da5f4	40483	cf3376f2-b8fc-4de6-9fea-c0b0d65da5f4
+54e90433-5218-4d83-848f-f995ecba2a63	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-L9-A7SV	db06feed-f772-44f1-b063-835659318290	47326	db06feed-f772-44f1-b063-835659318290
+5510ad32-62fd-4adc-964a-ae4e997c2f4b	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8620	46ae95c1-f345-498d-a3a0-d1222cceb6ba	40281	46ae95c1-f345-498d-a3a0-d1222cceb6ba
+781f40c9-c099-4c96-8269-ebe2a449c93d	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-8660	1f9d0790-5ada-421f-b388-4618f9e140d0	32136	1f9d0790-5ada-421f-b388-4618f9e140d0
+5134c56f-8286-4ec8-8348-237cee7dad5e	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-6978	3a12aa52-18a6-4b93-9dfa-fa20b42995df	39529	3a12aa52-18a6-4b93-9dfa-fa20b42995df
+5d5cc436-6e57-4d23-a164-7f5153c2e666	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-6778	7fbbfdda-1fe8-4276-93bb-f459b3a80ddd	42877	7fbbfdda-1fe8-4276-93bb-f459b3a80ddd
+4ad63dac-76a7-4527-abce-d7a0184e8739	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-91-8497	430b5d56-214c-401a-a7e8-2c2121a0cf35	34894	430b5d56-214c-401a-a7e8-2c2121a0cf35
+4addf05f-3668-4b3f-a17f-c0227329ca52	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4249	dd77e66a-d8d7-492f-b155-7c68edb41055	34267	dd77e66a-d8d7-492f-b155-7c68edb41055
+66763a0c-6cda-4832-a0cc-e7b496d78eaa	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4424	a6229c1c-7b2f-4a6b-93be-bbc457313290	54245	a6229c1c-7b2f-4a6b-93be-bbc457313290
+6bffe800-ec2b-4638-9333-97fe85dcd91c	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-6767	52b5f628-5b6d-4b56-af86-a0e4b78d4392	34229	52b5f628-5b6d-4b56-af86-a0e4b78d4392
+6d96a298-be5a-4e14-afe8-ca4b6ca298d6	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-8117	cf1c3905-1bc2-4fb9-ba55-12184f085e73	47157	cf1c3905-1bc2-4fb9-ba55-12184f085e73
+68b86559-38b2-41f2-b66e-c3c2b628b14d	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-4112	f703d81c-3837-40fd-a729-fc67324b9a68	68757	f703d81c-3837-40fd-a729-fc67324b9a68
+78ae716b-0ca5-4c01-a053-d41288385fcd	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-75-5122	eb645c49-ab51-422b-a383-699f92beb9a7	34315	eb645c49-ab51-422b-a383-699f92beb9a7
+793649e5-f479-4d64-8723-2ef488fe0fd9	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-62-A46U	9b23ed48-c02b-4a5c-876c-87f13061a2e7	47094	9b23ed48-c02b-4a5c-876c-87f13061a2e7
+7f6455e8-fa3d-4452-acb2-8c9995073072	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-7667	cf05998c-620f-44c5-a642-8f630addfbcd	42956	cf05998c-620f-44c5-a642-8f630addfbcd
+762dea8a-5b41-4058-979a-b7876ed13d7e	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4395	f6332d83-0545-4b7f-8fc7-ba916ff3f88e	25943	f6332d83-0545-4b7f-8fc7-ba916ff3f88e
+765ad5a5-134b-4680-a6d4-1dd113dc47cc	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-AAR4	79a396f3-91d8-4224-ae83-0860a7de1e05	43488	79a396f3-91d8-4224-ae83-0860a7de1e05
+7fd03220-531e-4ef8-beca-e9703e8c0ae1	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-NJ-A4YG	02d3f6e8-4852-4b74-9a67-7a1e2cbc448c	43148	02d3f6e8-4852-4b74-9a67-7a1e2cbc448c
+7782ceaa-da49-4232-8b3f-534971adaad8	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-73-7499	9afb4e6b-6245-4c77-97d0-e051b2b9c87f	44129	9afb4e6b-6245-4c77-97d0-e051b2b9c87f
+77f8c850-b4e6-46a1-ab12-a50e0044a0c8	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8208	c10ef2c1-d4f3-4e61-b5bf-5c6890087e3b	35966	c10ef2c1-d4f3-4e61-b5bf-5c6890087e3b
+82476d2d-e403-4f6b-8dd6-cc84e3329478	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-6595	82f544b7-18df-4927-9140-fef2a29deedf	45635	82f544b7-18df-4927-9140-fef2a29deedf
+8e2aca86-7cba-4631-9f25-4d14219dbc6d	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-A456	57dd4b9a-db2f-45fb-874b-e4c0d107251a	43274	57dd4b9a-db2f-45fb-874b-e4c0d107251a
+95fa64b0-91e1-4427-b81a-53c47a053563	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8205	64f0559c-5487-4f13-a403-51dd988e9c42	57848	64f0559c-5487-4f13-a403-51dd988e9c42
+9536e32d-2707-48d2-a36d-08c521665bb9	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-91-6828	2f4bbc0a-e0d1-4244-b829-b76e298e6d7c	34772	2f4bbc0a-e0d1-4244-b829-b76e298e6d7c
+9b4eeecb-6aff-435b-a244-ec362af92b7f	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-5425	7db9f568-0a79-4a30-bf62-1be10dce6486	62312	7db9f568-0a79-4a30-bf62-1be10dce6486
+96d93e23-bb0d-46a8-9685-5ed0d6b83059	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-99-7458	61e0c4d3-2757-4ba4-b841-f43e0b6e91a6	49171	61e0c4d3-2757-4ba4-b841-f43e0b6e91a6
+a250a369-e536-4a18-b7af-2911133d7bdc	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-A491	277c8984-af94-44cb-991e-a75002eae946	35477	277c8984-af94-44cb-991e-a75002eae946
+9759bf3a-74ff-433f-99bb-f9406f222ed2	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-99-8028	a0582343-a665-40bd-87f8-0b360b787d2f	35630	a0582343-a665-40bd-87f8-0b360b787d2f
+9f4f2ff3-3c02-4281-a398-b0d0955e58eb	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-69-8453	d6547710-4646-4b37-a382-0abb1dda1de0	79473	d6547710-4646-4b37-a382-0abb1dda1de0
+9cfc1519-33e7-4145-a4ad-78b5c449853a	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-8459	d187dff4-f585-4dfe-89cd-a12f3ba783ca	61211	d187dff4-f585-4dfe-89cd-a12f3ba783ca
+a7911bdc-13f1-434a-bfa3-f8ba55d15846	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-7574	1744572b-97cf-4abb-836e-eb3eb036371d	68821	1744572b-97cf-4abb-836e-eb3eb036371d
+a815619f-dbba-469f-a1f7-dfbd51cd86c5	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-L9-A50W	a10ff200-542c-480e-8bf3-77202ae322ae	36210	a10ff200-542c-480e-8bf3-77202ae322ae
+c95957a7-1a1a-4c8d-bb61-7c99b500f224	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-5946	ba8c2147-875a-4fbc-b948-932363b9227e	43500	ba8c2147-875a-4fbc-b948-932363b9227e
+c583fdd1-8cd2-4c15-a23e-0644261f65da	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-64-1681	61cd6a9b-2299-4966-b04a-199c6d3932ea	45594	61cd6a9b-2299-4966-b04a-199c6d3932ea
+d3ff328c-2488-47bd-8663-366b6812c7b5	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-53-7626	a8712a10-f180-4bf0-975a-9f29d595a94f	46553	a8712a10-f180-4bf0-975a-9f29d595a94f
+c353f949-5f66-4a2c-b8f0-17be8bf19e0a	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7153	a075d3e6-3bdd-4f1a-aaad-8a3f2704f095	42590	a075d3e6-3bdd-4f1a-aaad-8a3f2704f095
+db769d5c-a794-448d-9130-38a82d051c95	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-7728	622894d0-2652-4d7f-ae0c-3517d93a55f9	34908	622894d0-2652-4d7f-ae0c-3517d93a55f9
+ebcba7f2-ce13-4bae-97cd-91a6b1dcd465	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-5932	3385abf2-f141-4f06-a514-5c309144fd5f	34951	3385abf2-f141-4f06-a514-5c309144fd5f
+199386c2-bb53-4fad-a1b6-59ab216a4a50	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-1596	8a273aff-fe8e-403e-a7d0-cf3130135bdb	46155	8a273aff-fe8e-403e-a7d0-cf3130135bdb
+889aec8e-14ba-48d9-8fe1-f2416e82b333	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-6147	4b31c955-6b92-45d3-81de-5a6b14ff187e	43506	4b31c955-6b92-45d3-81de-5a6b14ff187e
+0d66bf6c-eed0-4726-bd5b-3bf6d610b4e0	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-6597	2486c117-e1ec-4c6f-a095-51a217dbd660	34673	2486c117-e1ec-4c6f-a095-51a217dbd660
+cbfef004-b437-4d51-9d88-a2db50aa6481	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-7661	66ae4daa-8a7e-4705-a728-53ef6289e8bb	43792	66ae4daa-8a7e-4705-a728-53ef6289e8bb
+9a50e7e4-831d-489f-87d2-979e987561cc	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4384	4097969c-2586-4776-96a6-0a98b6c58516	62478	4097969c-2586-4776-96a6-0a98b6c58516
+bf15f7ad-9d92-473b-91d1-f24aa373ab97	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-2659	a8c6383c-c827-470a-9d24-a0b52175b345	72300	a8c6383c-c827-470a-9d24-a0b52175b345
+1f1df7ea-00b9-4432-86de-da773d1451e5	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8511	12964954-e0b8-4536-ba99-f33a34c74b2a	35485	12964954-e0b8-4536-ba99-f33a34c74b2a
+c2a1de2e-6451-4c95-8ce6-263f2b7e6eff	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-6776	93542d01-7d01-4f98-8858-e2b634d0e51a	43046	93542d01-7d01-4f98-8858-e2b634d0e51a
+645903b5-ba37-48a1-985b-a019b8db3236	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-80-5607	80ec99a3-fa95-45bd-9094-a6ee6a6eb85d	34276	80ec99a3-fa95-45bd-9094-a6ee6a6eb85d
+1575148b-0f63-44ee-86fd-93ae1a02be0b	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-5072	60d5f0c2-8aa0-4448-92f3-141afb00fed7	64221	60d5f0c2-8aa0-4448-92f3-141afb00fed7
+9f81c602-8afa-4588-b0b6-6e5a1a128d5a	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4396	547a9ae1-7857-437b-a47a-a7fe50fa277a	26015	547a9ae1-7857-437b-a47a-a7fe50fa277a
+a52e99d6-a61a-439d-b0b1-ca7a0eabcb04	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-95-7948	843d4ae1-f16f-49ea-b2e7-e96e4a89a141	42823	843d4ae1-f16f-49ea-b2e7-e96e4a89a141
+193201a3-1447-47b1-bdf1-11ae0eb3b2f3	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-95-7562	5e2c6d1d-ccef-4e3b-9665-cf4a75d32929	46926	5e2c6d1d-ccef-4e3b-9665-cf4a75d32929
+4d51ee44-e6f4-4bcb-be28-e9df54b39a8d	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8090	cc2f50f4-8362-4784-9683-402b7c3b9a2b	35434	cc2f50f4-8362-4784-9683-402b7c3b9a2b
+ad74c0e8-8878-4efc-997d-981cd547bc5b	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-73-7498	b3c569d4-eb77-4b85-9234-1ecc2ee0b7a9	64881	b3c569d4-eb77-4b85-9234-1ecc2ee0b7a9
+9fcdccae-676e-4071-93c3-23d2d3ab0c00	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-7725	1cba5f2c-cf9e-4ab4-92f1-0a791420a0eb	35312	1cba5f2c-cf9e-4ab4-92f1-0a791420a0eb
+8b119d1c-6d21-4bbd-8a00-12da7b97d6c4	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-5420	8d9f46e4-3728-4f78-b6fa-8378b3762e06	34296	8d9f46e4-3728-4f78-b6fa-8378b3762e06
+127bf818-f7e5-46b5-a9de-39f6d96b8b83	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-38-4629	49260aba-249b-492b-95eb-92c9030d5e98	34423	49260aba-249b-492b-95eb-92c9030d5e98
+eeab558b-8d1e-4843-861d-dbfb06061758	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-67-3770	e39ced7e-75dc-491e-9295-f01b4a7fef9a	26070	e39ced7e-75dc-491e-9295-f01b4a7fef9a
+a41c46da-7ed4-4192-bd16-b3cbb94a5133	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-1592	aacc6380-1015-4528-914f-b84bf2aa4290	34295	aacc6380-1015-4528-914f-b84bf2aa4290
+c650b1ff-8a4c-4ee9-b7c1-268c28c83827	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-95-7043	cdd073b4-1ab1-4026-83e6-a291849a8450	50514	cdd073b4-1ab1-4026-83e6-a291849a8450
+8609edfc-119d-4d63-9188-c86aabd5ca52	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-8076	95aa82c5-ded5-4d00-8110-aad723489b81	55211	95aa82c5-ded5-4d00-8110-aad723489b81
+03d09c05-49ab-4ba6-a8d7-e7ccf71fafd2	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4245	bb3f6d76-3334-477b-8c69-149bcc535821	34337	bb3f6d76-3334-477b-8c69-149bcc535821
+c0fdb152-25d2-404b-bec7-a43ece381f5b	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-91-7771	0fc0dd40-c907-4364-b9f3-91f93c7b92db	46231	0fc0dd40-c907-4364-b9f3-91f93c7b92db
+3434b91a-c05f-460f-a078-7b1bb6e7085d	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4382	287fc852-21f4-4af9-803c-b664e488fd33	39078	287fc852-21f4-4af9-803c-b664e488fd33
+8a16ddb3-4861-4128-bed9-0b1f94fe8cf7	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-64-1677	6b8eace0-1ae0-47d7-9567-a9c1a133baea	57611	6b8eace0-1ae0-47d7-9567-a9c1a133baea
+8e41153b-9faf-45c3-8397-8a428ef5c0d5	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-7573	54de950b-39e6-43eb-a0b8-d11a24359b27	35086	54de950b-39e6-43eb-a0b8-d11a24359b27
+edf80622-aea2-4b50-bb69-691d6708aa83	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-38-6178	5692f36c-7d55-4b5f-a5b2-af51a3fbd4e0	46817	5692f36c-7d55-4b5f-a5b2-af51a3fbd4e0
+d94fe32f-bedd-4f4c-9feb-fcb60d40f4bb	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4434	bce9672a-44c6-4da5-a7f2-fcb69f933086	25899	bce9672a-44c6-4da5-a7f2-fcb69f933086
+0780eb43-d5b5-4c3d-9825-beacba5cc723	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-4501	a81ec21b-ddfb-412c-9fce-fa16cb473be3	40581	a81ec21b-ddfb-412c-9fce-fa16cb473be3
+78a24c56-576c-4245-bb42-6603b3d19897	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4427	4c7c10f6-241d-4fae-a6d1-9de745d13761	46019	4c7c10f6-241d-4fae-a6d1-9de745d13761
+8d535aa6-6d59-4965-b5ed-17217d8f5930	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8621	54525a04-4bdc-479a-9134-2465dbd5d03f	35457	54525a04-4bdc-479a-9134-2465dbd5d03f
+7099597a-b208-45b5-b9e0-11ab40d5e497	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-3917	690067c4-51de-4375-a825-2e24414d366f	43045	690067c4-51de-4375-a825-2e24414d366f
+e1c55bac-bb41-4964-add5-ecd6ba04b58d	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-5051	c1876e73-45ca-41fe-ba22-8da2b142f7dd	51414	c1876e73-45ca-41fe-ba22-8da2b142f7dd
+c8544fb3-b26e-4672-bb81-a271db724b04	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-64-5775	9f5ca565-41d7-471a-a05d-005d2e44ec53	46694	9f5ca565-41d7-471a-a05d-005d2e44ec53
+0075437e-ba1a-46be-86d6-9773209a2b5e	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-62-A471	ffb411d7-35b0-48c0-991d-807d48511ca3	53087	ffb411d7-35b0-48c0-991d-807d48511ca3
+03c3409a-9d16-41d0-9e26-f9fc2547a4c8	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-73-4677	8891b54a-5ad1-4c07-824e-ff6ade92c7de	34273	8891b54a-5ad1-4c07-824e-ff6ade92c7de
+0232d299-4cdf-4fd7-9a5e-8d13c208b40c	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-91-6848	45cc7517-5af2-4f2c-8310-27b78d06a44c	46144	45cc7517-5af2-4f2c-8310-27b78d06a44c
+028e99e9-5b9a-4954-bb6e-6d4709a3cea8	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-6986	01a793b9-6c33-442d-bfcd-a0dffaf65374	34571	01a793b9-6c33-442d-bfcd-a0dffaf65374
+09078761-1c14-4d01-8e15-535c19a9b0f9	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-97-8177	7d566c3e-47fe-4023-884c-72295da94222	52663	7d566c3e-47fe-4023-884c-72295da94222
+096bd95f-9900-4db2-b1c4-103902c3b31f	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-J2-A4AD	4299a677-458d-4324-989b-89edbdb8761d	35566	4299a677-458d-4324-989b-89edbdb8761d
+f3501466-cf32-4866-b5fb-e94dd32341bc	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-2661	4d89c535-b82c-447d-863e-6765f2eb5056	50797	4d89c535-b82c-447d-863e-6765f2eb5056
+0a1eea76-e19a-4547-9b24-abf7051cc4db	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-8674	3f7ec650-057d-4e1c-9f31-9bf186a73869	55120	3f7ec650-057d-4e1c-9f31-9bf186a73869
+1b354837-4925-4480-ac32-6b44d0957314	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-73-4670	176ce87c-5acc-4ef6-a72f-78b64001e143	59385	176ce87c-5acc-4ef6-a72f-78b64001e143
+11c2e619-8aeb-4f86-b03b-78f9a8099263	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-97-8179	49d6b681-edbc-411b-a287-d162e309d23f	35593	49d6b681-edbc-411b-a287-d162e309d23f
+12c07138-e3fa-418a-89e3-628da12bc99e	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-A48Y	08a176bd-1cf2-4b0c-b7d2-1b9bf10b1c74	46660	08a176bd-1cf2-4b0c-b7d2-1b9bf10b1c74
+12c27db5-db2f-48dc-a2ca-9557b951f43e	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-97-8176	6aacb3f6-6a4a-419f-9022-99380a2e27d8	78877	6aacb3f6-6a4a-419f-9022-99380a2e27d8
+1070ff27-17c9-43dd-a4f6-daa643eb9123	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8089	b83ef333-640b-4b8c-a757-f71dc5e1899a	35421	b83ef333-640b-4b8c-a757-f71dc5e1899a
+12ccd581-a921-41bc-bcee-4e9be54532cc	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-5931	60f45af9-f665-4c7c-90b1-9c1507c81b03	34619	60f45af9-f665-4c7c-90b1-9c1507c81b03
+1c339545-c08a-4a77-b8e9-a7e49e53853f	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-5944	9e8e0361-67ab-4844-ad46-45bd38d07de6	42665	9e8e0361-67ab-4844-ad46-45bd38d07de6
+1d276b62-5e64-48fb-b2ce-5192b511fe37	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-75-5146	981881e0-9cc2-4677-859f-fda50aae38bc	42907	981881e0-9cc2-4677-859f-fda50aae38bc
+1b110eb4-a01d-4c50-ba18-77da4dedd549	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-97-7552	63164f5c-b1ff-4331-91c6-305e78cb5750	43059	63164f5c-b1ff-4331-91c6-305e78cb5750
+1fc81cd4-fa89-4135-8c3c-027ffae82b05	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-5644	10c40ba8-e326-480d-b336-9fe697925acf	42939	10c40ba8-e326-480d-b336-9fe697925acf
+2de1ba51-eae1-4a54-b7cd-d6d739fdc39d	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7149	d81edb7a-f8bb-4c9b-9b58-ad84c442af72	42648	d81edb7a-f8bb-4c9b-9b58-ad84c442af72
+2a394996-809f-459f-a647-d209921ccbd2	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-73-A9RS	70dd6453-ec85-4535-a408-d98fcdc8bd47	75704	70dd6453-ec85-4535-a408-d98fcdc8bd47
+2fabeb98-05e3-4f55-97f5-fbc675e25a3d	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-62-8398	eb4b876b-aeee-48ae-bb52-9bd4032df619	38811	eb4b876b-aeee-48ae-bb52-9bd4032df619
+34040b83-7e8a-4264-a551-b16621843e28	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4244	45c390d7-3817-4716-9f40-5a53d9a399ff	26022	45c390d7-3817-4716-9f40-5a53d9a399ff
+349e6f38-2c67-4a69-a777-b9173a2a27cf	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-6777	4810e9a8-bd1e-4d0d-8ee9-757320765b76	39888	4810e9a8-bd1e-4d0d-8ee9-757320765b76
+3bc7026f-73f2-418b-bd62-f4768582b790	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-95-7567	6918ada7-a270-4313-9fd9-29b7546491e5	55566	6918ada7-a270-4313-9fd9-29b7546491e5
+46592b7b-6968-42a6-83af-0917c9f4a9a5	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7535	ea615427-9702-4a49-adf1-b8cc8e2bcec6	47302	ea615427-9702-4a49-adf1-b8cc8e2bcec6
+69dba721-a168-47a4-b7ff-80a448bad654	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-7914	e02ad356-c348-42dd-884b-97c640e895d9	52657	e02ad356-c348-42dd-884b-97c640e895d9
+47062ad2-ba82-45c8-a871-bdea84f0c405	Unknown	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-MP-A4T7	53881b4f-0d08-44d6-80b8-d7308d604ef9	26823	53881b4f-0d08-44d6-80b8-d7308d604ef9
+472337c2-a2fc-403a-8c17-69511193128b	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-8056	8e051009-70c2-409a-9243-d76fca62c74a	35093	8e051009-70c2-409a-9243-d76fca62c74a
+474b86d9-d897-467d-85d4-51dfa26ea107	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-6642	ff290b06-7570-4f88-91ff-c36a903cc956	34530	ff290b06-7570-4f88-91ff-c36a903cc956
+47b749e6-e060-4aa1-8f29-976e489ba789	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-AAR9	65d6d446-b9a6-4dc5-ac55-eb3c2cd93967	26934	65d6d446-b9a6-4dc5-ac55-eb3c2cd93967
+4b92fce2-3772-40eb-ab34-a27937b58590	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8092	e0e6f508-f697-4866-b86a-60d65c67205e	35521	e0e6f508-f697-4866-b86a-60d65c67205e
+532c1852-76dd-489f-9380-36766d6e3c34	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-7714	62c5270a-e054-449a-befe-7f43b6db941e	34987	62c5270a-e054-449a-befe-7f43b6db941e
+4c31127e-d095-4978-9dac-35153c27f6ed	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-73-4666	90b82da4-e0de-420d-ab12-ce03f5547fe0	52303	90b82da4-e0de-420d-ab12-ce03f5547fe0
+4cd3d483-2283-4c6a-a57a-444216119d34	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-6761	afbfe93d-ea63-4536-b3b8-0eff0cc31040	34758	afbfe93d-ea63-4536-b3b8-0eff0cc31040
+4d153600-81f9-44fb-b485-6355ec306d6a	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7159	1df96412-1942-45e8-9220-e2752dd8fe62	42336	1df96412-1942-45e8-9220-e2752dd8fe62
+501c987e-d1eb-48a9-89eb-72a5062c90b4	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7158	6fd77ad1-ce88-4075-b188-8560f1eb7a65	47122	6fd77ad1-ce88-4075-b188-8560f1eb7a65
+562a562b-ca03-44ac-b282-b51b457d8dae	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-62-A46Y	7bcd2333-4c4c-4f14-b582-22ebe52002a1	44009	7bcd2333-4c4c-4f14-b582-22ebe52002a1
+54a9cc9e-3eee-4caa-9f33-4ea64a2999ba	hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-53-7624	012b9ade-c884-4d3a-a557-c43336d0cabe	98021	012b9ade-c884-4d3a-a557-c43336d0cabe
+5813997a-d7dc-4f7c-8d4b-e979832168a9	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-AAR3	73217b99-b2d0-4399-9fb8-2cbb353d13b4	35475	73217b99-b2d0-4399-9fb8-2cbb353d13b4
+58babefe-7e81-4594-ba29-50d1de92a5ab	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-75-6207	846532d1-f59d-4c0a-9ae9-da77be81b1e6	33932	846532d1-f59d-4c0a-9ae9-da77be81b1e6
+591c068f-bbb1-4df2-9abb-d1a2e4a58372	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-5068	397a933d-1b0e-454a-bbe6-2f124f9161a2	40792	397a933d-1b0e-454a-bbe6-2f124f9161a2
+595fc3ad-f603-421b-b130-52f1f617050b	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-NJ-A4YF	819bbedf-93f3-4018-95a8-65b9dfe68276	35174	819bbedf-93f3-4018-95a8-65b9dfe68276
+5c06d97f-2aaa-43de-b085-09d7829356ba	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-80-5608	1d9163da-819f-44f6-b90d-ae0ad5803405	42660	1d9163da-819f-44f6-b90d-ae0ad5803405
+5a2f8140-8f90-4e94-b703-5fa5aa96be7b	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-91-6830	5607e78a-1fa9-4d8c-907e-37202f5e114c	39441	5607e78a-1fa9-4d8c-907e-37202f5e114c
+5abd6651-69be-42f8-bdc0-308e68136d31	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7163	2ed18906-9457-4b7f-bf64-c6768bf35e8c	42819	2ed18906-9457-4b7f-bf64-c6768bf35e8c
+5c266025-e590-457c-af86-4c2dc9797267	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-62-8395	f46e5791-6e76-48f9-beda-fa83d38c4664	36396	f46e5791-6e76-48f9-beda-fa83d38c4664
+ebb33753-9d38-4368-9033-3e55f129d00d	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-7671	b5f37a7c-c3a6-4d3a-8082-86074ffed064	43066	b5f37a7c-c3a6-4d3a-8082-86074ffed064
+6144d666-8f77-4efe-95f1-f9e5c4e5e056	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-6145	11a828f6-c2bf-46a2-ac23-8e4d40858e58	43165	11a828f6-c2bf-46a2-ac23-8e4d40858e58
+61c655ec-52b5-453f-a6cc-b2aba445b027	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-4486	33153bce-8736-4616-96b7-2deea5238f96	35312	33153bce-8736-4616-96b7-2deea5238f96
+497cc506-03fe-4ffa-860b-5a12adb1bc7d	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-8460	0c42a2c6-a514-4c78-a550-5b74adb88cd0	39640	0c42a2c6-a514-4c78-a550-5b74adb88cd0
+63bd2175-4b7c-44c9-aef3-9efc8f79837b	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-5429	85b57fa2-e4dc-45bf-8e22-3fd18676a5fa	33914	85b57fa2-e4dc-45bf-8e22-3fd18676a5fa
+646910ee-5f5d-40ac-a21a-75790f89430a	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-A4P8	645843bc-1b03-45ba-9ab2-2c9e9e3939f4	59868	645843bc-1b03-45ba-9ab2-2c9e9e3939f4
+67fa3e41-c7c6-44c5-9e67-6bcb2715aacc	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-69-A59K	cc28ef47-8aa7-42f2-97a6-63c52c1adc48	55102	cc28ef47-8aa7-42f2-97a6-63c52c1adc48
+6845099a-b2c9-48d8-b856-9903d39bb92e	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8514	97627fad-1e49-496c-ab1b-0ec091d457f3	35272	97627fad-1e49-496c-ab1b-0ec091d457f3
+659668e8-f0d9-4ff2-bbc8-9246f2ef49ab	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-7281	73b8a522-5731-4d9b-841d-543a6e9ed6a7	79168	73b8a522-5731-4d9b-841d-543a6e9ed6a7
+69b23036-add9-42c9-941f-02fb74d9b08c	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4425	a4bde9e8-a9d8-4613-b3f5-9cdc76bcf5a1	37496	a4bde9e8-a9d8-4613-b3f5-9cdc76bcf5a1
+6ee9caec-65ac-46db-9426-ffaa31967ae2	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-95-8494	2ce69842-cb5f-4557-b81e-c24a08a5498c	34819	2ce69842-cb5f-4557-b81e-c24a08a5498c
+67a2bc21-7c87-4678-997d-a434de672436	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7537	1e8c257c-faab-4f12-960a-8b9a7d525a34	34246	1e8c257c-faab-4f12-960a-8b9a7d525a34
+706420c4-8820-4b41-80d9-f3efd1d2a4f0	Unknown	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-MP-A4SV	daab0726-06a2-40f7-88e7-d520fdc6b452	26863	daab0726-06a2-40f7-88e7-d520fdc6b452
+6dfd47d2-831a-4386-9051-f78199a16bb5	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4397	42ffe0ce-6b8a-4407-8465-e7b76702aa4b	25898	42ffe0ce-6b8a-4407-8465-e7b76702aa4b
+742e0e32-25b5-4d41-8bf5-364b571cfd93	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-62-8394	d1071486-6453-414d-9789-95be6742dc07	38598	d1071486-6453-414d-9789-95be6742dc07
+75589307-f141-4d0d-b35d-adbbc77b3dec	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8204	152e8d8a-9aee-4907-bd69-36d1ba4db262	34994	152e8d8a-9aee-4907-bd69-36d1ba4db262
+7a0ea814-f0de-4bc4-a81a-daa000559369	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-5933	c5ae7f08-ecde-4b77-9d8f-902ed0ef110a	50935	c5ae7f08-ecde-4b77-9d8f-902ed0ef110a
+77c4dbb2-eceb-4e0d-bcde-63dc817d5f35	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-7903	35f750c0-1869-4ff2-bf2e-05f3cbeb04ad	34855	35f750c0-1869-4ff2-bf2e-05f3cbeb04ad
+7b9479ff-23d6-4689-91f0-02efc94300f9	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-A47A	2faa95e6-ca4b-4edd-8497-3dcaec8e715b	44404	2faa95e6-ca4b-4edd-8497-3dcaec8e715b
+81a0b2ff-a3d3-41bb-9ce6-765e6ae894af	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-64-1679	6443f38f-1bd8-4e21-8888-948e95ed62ff	55428	6443f38f-1bd8-4e21-8888-948e95ed62ff
+7eb540b4-8dd3-4382-a488-e48b1c7213b3	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-7109	cbbc5983-9e91-4ee1-bf9a-462dd7b6932b	34801	cbbc5983-9e91-4ee1-bf9a-462dd7b6932b
+851867cb-9ad0-4fdf-ac75-9bb0427ad440	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-A479	312b23db-19d2-4c4b-bcc8-2a4eb2c35f50	43985	312b23db-19d2-4c4b-bcc8-2a4eb2c35f50
+86dac334-f30e-438e-810a-8e45f69dbb7e	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-MP-A4TF	13369b1b-4ea1-4f4f-a515-119ad82460b6	39416	13369b1b-4ea1-4f4f-a515-119ad82460b6
+8994c8c4-9ea0-46cb-b4a5-0055d7da5bfa	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-6148	9403407e-c211-41e0-af87-d2ea48307aab	43213	9403407e-c211-41e0-af87-d2ea48307aab
+83e38dbd-edab-47f2-b19f-6ea38fc6bece	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-8120	596cbeb4-6cea-4155-b03d-a0200ec69a8a	35451	596cbeb4-6cea-4155-b03d-a0200ec69a8a
+8cc6bcec-65df-46a9-a88c-09762a132857	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-MP-A4SY	b02e8674-ff22-42c4-ac5b-451751614574	27519	b02e8674-ff22-42c4-ac5b-451751614574
+875333ab-9048-462d-aaa2-693ad127e3cc	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-38-4632	01db03e8-f4a6-44b9-b805-1a6d192127a6	77552	01db03e8-f4a6-44b9-b805-1a6d192127a6
+84c3ba70-afa7-4b69-be69-7ec8d6022c56	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-99-8025	ec1f2f8f-e7a2-4a28-9a1d-509c36bf924a	41234	ec1f2f8f-e7a2-4a28-9a1d-509c36bf924a
+87f1b3df-4bc7-4336-b658-f30ac1c5c796	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-95-8039	d6868241-fdc6-40b9-af8f-28ab05a98737	44051	d6868241-fdc6-40b9-af8f-28ab05a98737
+93766482-2f20-4c8f-bbd8-bdd203c37d5a	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-75-5126	184c5d43-79d1-4cd0-bb6d-c0e5d158e5a5	34306	184c5d43-79d1-4cd0-bb6d-c0e5d158e5a5
+44adf4cb-2829-4153-80fd-a8b7ee0e654a	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-35-4122	61f55a94-469b-4bf5-aa3e-a4568608d5ed	34604	61f55a94-469b-4bf5-aa3e-a4568608d5ed
+962fd4e7-9199-43d9-abce-e3dfa46da62c	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8510	b5eddc26-7fb3-4c06-8dd1-c4b55b2d7ef4	35220	b5eddc26-7fb3-4c06-8dd1-c4b55b2d7ef4
+8f04660a-2efb-4947-9eab-375066b9eb33	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-MP-A5C7	cfecc37a-4d4f-4835-9166-f88efabb50c8	43807	cfecc37a-4d4f-4835-9166-f88efabb50c8
+9944f46f-9fa8-4e2c-a806-776bec7f8803	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-5049	08ef559c-ada1-494f-be12-49dff119410a	57869	08ef559c-ada1-494f-be12-49dff119410a
+a3de401d-91fe-49a2-bb07-81c1a06506e6	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4389	8550b232-4e8e-4d09-a298-313a5ea62585	34198	8550b232-4e8e-4d09-a298-313a5ea62585
+98ee294a-46ed-4572-bdd4-a932c3498a25	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-MP-A4TA	0ce4869b-4508-4fbe-a052-86ef706b40f7	27534	0ce4869b-4508-4fbe-a052-86ef706b40f7
+9a63f744-4ed4-4b4d-aac6-f9bda66aa563	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-75-6205	6759d6e5-96d7-4e28-a232-055fccacb1c4	34150	6759d6e5-96d7-4e28-a232-055fccacb1c4
+a0e57b39-960e-4e46-8aa0-d0ee2fd9a7cc	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7150	bf37747b-f353-4f9a-93a8-bb268358c331	63466	bf37747b-f353-4f9a-93a8-bb268358c331
+9dda72ec-1698-44e2-b35c-11e9a2704380	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-93-A4JN	9943e348-130f-4fd1-9023-40171d1ca03b	47031	9943e348-130f-4fd1-9023-40171d1ca03b
+a1e65587-24c1-4b41-92a7-4e1f15fffd78	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-4512	a6ecd1e5-112b-4b8a-83a4-56c6172e4080	40380	a6ecd1e5-112b-4b8a-83a4-56c6172e4080
+a65700c2-e58c-4fd4-aeb1-5686b8f4d212	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-64-5815	b5395f41-d400-4d70-ad1a-bf5ed787a92b	90693	b5395f41-d400-4d70-ad1a-bf5ed787a92b
+ac0d7a82-82cb-4aec-b859-e37375f3de8b	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-97-8547	0715f7ae-f168-4c20-a33f-ff3befc379bf	52567	0715f7ae-f168-4c20-a33f-ff3befc379bf
+b2bc53d6-ef78-4ae9-a6b5-1c7cad9a43eb	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-7910	c227a4d5-ed7e-4b8e-b777-c10adac6c745	45576	c227a4d5-ed7e-4b8e-b777-c10adac6c745
+ae702159-5b6a-41dd-868c-7540f9e1131c	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-95-7039	4be1ec4e-5761-42ab-8d68-6e081bec3c22	51422	4be1ec4e-5761-42ab-8d68-6e081bec3c22
+b8b5ed35-b299-4c1e-9226-5ca055dc7a43	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-NJ-A55A	bc51cb80-4748-449d-931f-bb6fe908dbd9	43199	bc51cb80-4748-449d-931f-bb6fe908dbd9
+b36b7567-30d3-4d0c-84c4-b203986e0fdb	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8301	8a165fd1-438e-4d4e-9379-5d73881c6ce2	51671	8a165fd1-438e-4d4e-9379-5d73881c6ce2
+aee86a89-0377-4080-b16c-408bfbe78687	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-69-7980	1c8ea318-d0f6-4e29-8dea-8088e4fd9e11	43011	1c8ea318-d0f6-4e29-8dea-8088e4fd9e11
+bd4e9a9f-17f3-4d33-92fc-fcc45dd0e7b4	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-4487	3799977c-d105-4c46-9ae2-3f473babaf1f	39580	3799977c-d105-4c46-9ae2-3f473babaf1f
+c497f8c7-2fb5-44d9-bc7c-69cfd0b51b54	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-62-A46R	6de4e615-46dd-4df4-910c-56c9af6ec00a	27092	6de4e615-46dd-4df4-910c-56c9af6ec00a
+bf755bc2-b7aa-4c3c-8b3c-58b089b5cab6	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-7907	87e3c3cf-7371-42a3-990d-27f2baeaa3ee	35138	87e3c3cf-7371-42a3-990d-27f2baeaa3ee
+cbbea9f1-396a-4bf3-b67c-2cac3394dceb	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-6779	ca1886e9-dd28-4a6c-b62d-1211a954a537	59913	ca1886e9-dd28-4a6c-b62d-1211a954a537
+ccfdad76-cc45-447f-bed8-ede8f6a8844d	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-7283	4522981d-a8e1-4d70-a4da-c78b8dbbed42	46708	4522981d-a8e1-4d70-a4da-c78b8dbbed42
+cc3d9750-7ce0-489f-86d4-8017b7ebed29	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-5055	c78918ff-ae61-433d-a97c-d782c7373ddb	70267	c78918ff-ae61-433d-a97c-d782c7373ddb
+cd902d08-215e-4bd0-88e4-4fd01ab43cbf	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-8073	33a5969a-e77f-4daf-98d2-691a44fa7ce2	35273	33a5969a-e77f-4daf-98d2-691a44fa7ce2
+cc4bd56a-25c5-4c48-b583-ac3aeb778ca6	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-38-4628	504f14c8-232d-4c50-8d3b-3f26cef7b9c8	47373	504f14c8-232d-4c50-8d3b-3f26cef7b9c8
+d721bfe0-90e3-415e-b9f3-1a270efa5fbb	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-4488	352f83f1-63cc-43b7-b98f-3b8ad7b0cc09	39190	352f83f1-63cc-43b7-b98f-3b8ad7b0cc09
+54480f58-7e63-4aed-a116-c2c2252e8364	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-91-8499	00e1978e-5e9b-48eb-b3db-829bb989c094	34852	00e1978e-5e9b-48eb-b3db-829bb989c094
+54775a66-08cc-4f38-98f2-e7b2b5cec994	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-7953	97ef821c-e4e5-45c8-9308-ec6a47a520ed	43110	97ef821c-e4e5-45c8-9308-ec6a47a520ed
+4ef872e1-82c9-4939-9248-41ed9d3085b2	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7145	e0847fc9-92c3-451e-8fa8-5c93a927b56c	70657	e0847fc9-92c3-451e-8fa8-5c93a927b56c
+575752f8-2788-43cd-afde-f0f600f39d18	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-97-A4M3	551d3394-c7e0-4595-a890-abec7a50d117	36056	551d3394-c7e0-4595-a890-abec7a50d117
+552712d3-da16-441e-ba93-11810793d598	hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-69-8255	c0dd3902-8127-454d-982c-5b0c19c18e55	35023	c0dd3902-8127-454d-982c-5b0c19c18e55
+5ace9608-d38a-42f2-a877-ec7c9d211808	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-8648	4a723184-cbc7-4bf4-8d4d-eda826f16756	27153	4a723184-cbc7-4bf4-8d4d-eda826f16756
+5fd0f07b-8bb9-4378-bd26-28a26057e8fe	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8085	5b128319-08be-42f1-9dad-76039d117ff5	35172	5b128319-08be-42f1-9dad-76039d117ff5
+294ff941-aea1-4588-9a0e-e9f5393e2bb6	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-73-4662	8d2a7b70-f8f0-4101-b7f7-b600af6ed06d	43502	8d2a7b70-f8f0-4101-b7f7-b600af6ed06d
+5fe77d4a-a8a5-4c90-8ff2-9c3bbbb309ef	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-97-A4M5	3e58739a-ba3e-475c-bfbd-340f5968bb13	35435	3e58739a-ba3e-475c-bfbd-340f5968bb13
+6092bd5c-e97c-4a77-a4ad-c87623b17507	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-97-7547	47503f1e-1be3-4b57-b561-f5b8ce9865a9	74803	47503f1e-1be3-4b57-b561-f5b8ce9865a9
+5d2a9a4f-678d-4089-a8c5-81a5cb696629	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-35-5375	2dda3257-3888-4d6e-80f3-6f22a0a35900	33738	2dda3257-3888-4d6e-80f3-6f22a0a35900
+62380447-3b94-4e7c-823a-72dd7b4ccf3a	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-62-8399	5937304d-e05e-465e-9174-3abb30ade4e7	35477	5937304d-e05e-465e-9174-3abb30ade4e7
+369f14c4-2191-4962-a309-3e23ddc4e5fc	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-J2-8192	00e01b05-d939-49e6-b808-e1bab0d6773b	52798	00e01b05-d939-49e6-b808-e1bab0d6773b
+e51f717f-72e8-400e-9f35-fc5dc32fdf71	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-80-5611	6f3247ca-a7d0-4e9c-b2e7-46ee6a694650	42684	6f3247ca-a7d0-4e9c-b2e7-46ee6a694650
+5d7ec32a-049f-4997-9882-1b3ac157e02d	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-8281	16f46ffa-2452-438a-8572-8994b1aac9d9	34460	16f46ffa-2452-438a-8572-8994b1aac9d9
+656a5eb4-e4a5-4d21-a800-3586f4d6588b	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-91-8496	b7c12046-aa99-49e8-89ec-f6fed6dff738	35072	b7c12046-aa99-49e8-89ec-f6fed6dff738
+6c3655ca-8ae7-4ad7-b3e4-0c3ec293fba7	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-4490	3bee1d09-2bc5-43f2-9f31-2839dc9b09b0	45247	3bee1d09-2bc5-43f2-9f31-2839dc9b09b0
+6cf49cf0-de4c-4c90-8358-eae19c6206b0	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-35-4123	ac156c0c-ff3d-41dc-ac9d-9199fd218269	34616	ac156c0c-ff3d-41dc-ac9d-9199fd218269
+66ed89f6-8ba2-49d0-af0f-4b6ebf2381bf	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-3919	fc89c0bd-49bb-4742-8010-e23403b8744d	51601	fc89c0bd-49bb-4742-8010-e23403b8744d
+70081320-540f-41d2-8687-ee6d011f8eb0	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-MP-A4T9	ccfdaedb-7863-459b-a518-2a9dc9555b4e	75388	ccfdaedb-7863-459b-a518-2a9dc9555b4e
+75a0bb0b-6528-4fb8-a9e6-254905d21df4	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-MN-A4N1	42787c1f-54e8-4529-a52a-be3e1e98e6b6	35480	42787c1f-54e8-4529-a52a-be3e1e98e6b6
+7093024b-cf56-4783-b973-b72573ed7f2b	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-93-A4JQ	db1a1925-6b99-4b23-88f4-798294a53f11	35520	db1a1925-6b99-4b23-88f4-798294a53f11
+7be86a90-6da8-4c01-8a7a-bc5cfef9894f	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7539	9ff8ceda-92a0-4ede-b0b9-05368869501d	67948	9ff8ceda-92a0-4ede-b0b9-05368869501d
+7c4ed533-ee66-48be-a84b-ff8607742818	Unknown	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-MP-A4T8	b3c70e07-ec66-4cab-b8c9-3d68884b11c6	38500	b3c70e07-ec66-4cab-b8c9-3d68884b11c6
+7c7d777b-bf00-4c24-97fc-922580d5605f	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-NJ-A55R	0f9f14f4-d933-4402-81d7-4540b7c45644	43196	0f9f14f4-d933-4402-81d7-4540b7c45644
+7a111b4f-46e9-4e34-8024-0b9fdc5cbcd8	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-MP-A4TH	4eb7b3a4-cc91-443c-b84b-406748cdbab9	43717	4eb7b3a4-cc91-443c-b84b-406748cdbab9
+7ca711ec-9ac0-4fa7-8a60-32ae84b8789a	hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-53-A4EZ	ce2db2f1-cdba-4f49-8755-5c023fac067e	52085	ce2db2f1-cdba-4f49-8755-5c023fac067e
+7cce924f-12a1-4895-9866-5d4b1869dde6	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-6970	70265ec1-d32a-4afe-bb7b-f5c253910baf	56957	70265ec1-d32a-4afe-bb7b-f5c253910baf
+807cc7d2-6e3b-4f2d-9531-0da994eeeada	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8302	ca907bac-9383-4f41-a77d-43f5bc3e5e25	34981	ca907bac-9383-4f41-a77d-43f5bc3e5e25
+7e7f089c-25f7-4e14-aed5-d741047b9e42	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-8359	682ea8c9-1d0a-467e-a87a-e20c7f5443d6	34883	682ea8c9-1d0a-467e-a87a-e20c7f5443d6
+8504fd86-a70a-4cba-9ec8-25c9e60ca549	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-6594	a1e74b7e-1ad7-4be1-88a7-541426fbf565	39601	a1e74b7e-1ad7-4be1-88a7-541426fbf565
+8f52cccd-5709-4753-9670-31a573ee27ab	Unknown	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-MP-A4TJ	1ecad133-b099-4b1c-86e4-b4ed5a0147e8	26919	1ecad133-b099-4b1c-86e4-b4ed5a0147e8
+83a6ed20-b3cf-48b9-8ed3-a080cd4951fa	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-6968	972aca6c-9f30-45a6-9294-a8c7eecd6a46	44716	972aca6c-9f30-45a6-9294-a8c7eecd6a46
+8869000d-09d7-465a-ac32-54d1935c43e7	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-8075	c3c1072c-9786-483b-8ba8-935cc888811e	61263	c3c1072c-9786-483b-8ba8-935cc888811e
+967d6548-5a84-4b7e-bc3f-2e522859fce6	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-A47B	6d335526-4920-4619-bba0-1bac4cf53a0e	35570	6d335526-4920-4619-bba0-1bac4cf53a0e
+9582b436-145b-4f84-8f7f-8b39b8254cc1	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-99-8033	37d51cb1-cb8b-4d4f-b3a8-2c6d2dde6c2b	52564	37d51cb1-cb8b-4d4f-b3a8-2c6d2dde6c2b
+96dfa373-4597-49a5-942e-d9b4dc5d28fc	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-AAQV	76e117e8-5bcf-4342-8a54-ee0722e425ba	27901	76e117e8-5bcf-4342-8a54-ee0722e425ba
+996a0070-e9bf-4601-8ef7-60212108258d	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-5899	a3239643-3fb1-4748-90e3-52212a30cf23	46043	a3239643-3fb1-4748-90e3-52212a30cf23
+9c894668-88f5-4308-a1c0-6b8acc6aaaec	hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-7711	4c954685-cce1-4b80-a9b2-e998f37ac1a7	54751	4c954685-cce1-4b80-a9b2-e998f37ac1a7
+9ca1a26c-82e0-48b3-b3bb-2ed57086eeb1	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-97-8552	9289e1bf-72e2-450d-83d8-73ff9d7dae4e	35491	9289e1bf-72e2-450d-83d8-73ff9d7dae4e
+9a2a226e-9605-4214-9320-469305e664e6	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-AARQ	1fa36e7b-7ceb-4e1f-9476-dd7b95d0ff41	35569	1fa36e7b-7ceb-4e1f-9476-dd7b95d0ff41
+a5bd7d50-9c14-49e6-89cf-6bf440c42309	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-69-7979	40a98db7-f223-48d5-9146-4ae62159b20d	42425	40a98db7-f223-48d5-9146-4ae62159b20d
+9b132e4f-7e35-4cc5-8711-43ad62b906d0	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-6591	04623fbe-9583-4e71-ba55-ed093e5891c3	34466	04623fbe-9583-4e71-ba55-ed093e5891c3
+a214a959-3b21-4f25-a615-383cda7afdff	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8206	28eb85fb-4f0a-42db-86dd-1e00b18874e7	35152	28eb85fb-4f0a-42db-86dd-1e00b18874e7
+a534b96b-1665-444a-9308-e610f2f0e510	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-7660	fb65ebd9-8bc0-4119-bb69-d80592b6738d	49409	fb65ebd9-8bc0-4119-bb69-d80592b6738d
+ae39e358-08d7-4367-ae68-82b469e791e4	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-73-4675	c632ea93-6bd2-4659-9e48-ab27ba266a1d	83789	c632ea93-6bd2-4659-9e48-ab27ba266a1d
+a905d275-9283-4fa6-bbbf-46019bd1bcb7	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-8655	64329267-60b2-440f-a902-21ffea26594d	35004	64329267-60b2-440f-a902-21ffea26594d
+b56dad1e-2fd5-47d8-9cc7-a54be9a1bae2	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7152	e5c6f618-437a-474e-8de1-5a8f105de359	48617	e5c6f618-437a-474e-8de1-5a8f105de359
+ab8d7f84-dd71-42c7-9471-4db967a9c89c	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-6673	68654fa1-aa08-444f-af91-aa6171df5420	38971	68654fa1-aa08-444f-af91-aa6171df5420
+bab335f9-b241-41a7-b107-79b9676b37b8	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8508	9cf96b51-e2cf-49b9-959b-24510158dea7	46751	9cf96b51-e2cf-49b9-959b-24510158dea7
+bf34664d-423d-4257-99d4-797f7d366455	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-A4SU	89f0a7aa-76bd-45a3-a0f0-b137e250a0ef	36110	89f0a7aa-76bd-45a3-a0f0-b137e250a0ef
+c4cfa3cc-e305-42dd-be57-97efbb891659	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-8671	98a2e313-5d4a-456a-b9a7-63158009cc24	46837	98a2e313-5d4a-456a-b9a7-63158009cc24
+d15b7b29-c5c5-41d8-b83b-7cc12fe92820	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4415	21243488-98df-4851-87ba-a1ce928a4b96	34361	21243488-98df-4851-87ba-a1ce928a4b96
+c0c879f7-c332-4d31-9f7e-a3bf361b36ee	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-97-A4M1	d356dc1d-6379-4495-a8c5-d1f8821240b9	35546	d356dc1d-6379-4495-a8c5-d1f8821240b9
+c0e263eb-1a83-4dc8-8abe-3dd2a59bae1b	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-8672	34bfa5ba-c37c-4700-b2ff-bb2deb0b29c4	34763	34bfa5ba-c37c-4700-b2ff-bb2deb0b29c4
+d3e23815-7f9d-48aa-9aef-3a1dd9d464d7	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-99-AA5R	b96f51d1-0e46-48b3-8dba-dc6ce9ab34ea	35439	b96f51d1-0e46-48b3-8dba-dc6ce9ab34ea
+cd9e70e4-8622-4a07-8646-63f8275c1737	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-AARE	8c088ca0-cf0e-4306-b5e9-b2e1216ff42c	27864	8c088ca0-cf0e-4306-b5e9-b2e1216ff42c
+d45aee46-838e-44af-8422-46710b3240a8	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-8457	d2ac6712-4918-47ab-a411-077e94430e13	43489	d2ac6712-4918-47ab-a411-077e94430e13
+d717fa33-3c91-4ced-89c6-79ff5542f04c	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-38-4627	6c1a14d2-0a61-46e2-9b6a-2cae2dc80fc2	33881	6c1a14d2-0a61-46e2-9b6a-2cae2dc80fc2
+195a5afb-b79f-44d2-9d12-884487630c2b	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-73-4676	c595a541-1c2a-4ce4-9092-13fffa2a24eb	72761	c595a541-1c2a-4ce4-9092-13fffa2a24eb
+e0acafdd-06d0-48a6-bd68-577ef666a419	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-95-7947	946f8d23-a5be-4193-8ebe-6e699f9ddace	42803	946f8d23-a5be-4193-8ebe-6e699f9ddace
+cbf1f718-6bb7-4daf-b9d6-fb294281decb	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-97-8172	88b80a97-604d-492f-b7e2-64b80e58fa17	35629	88b80a97-604d-492f-b7e2-64b80e58fa17
+d31aeefc-b59b-42e9-9919-750b17a70a3d	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-1595	d58cffec-b7d5-4c50-8fbf-cae13ae02e56	34179	d58cffec-b7d5-4c50-8fbf-cae13ae02e56
+afb91740-2668-46d7-ba01-bb26153ad1c7	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-73-4658	de72e601-b104-4c2e-a137-e97226dfaa31	34388	de72e601-b104-4c2e-a137-e97226dfaa31
+f1985735-a188-4567-a88a-530f9b80291b	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-38-4630	946c7ae5-fe21-4d13-8b81-fa7da13983ef	65807	946c7ae5-fe21-4d13-8b81-fa7da13983ef
+0c0b610e-fe4c-406d-a5ed-5cc3b11dabf5	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-6146	cf9e4ccf-d3c3-4821-acdd-57ca84c6d378	62089	cf9e4ccf-d3c3-4821-acdd-57ca84c6d378
+6d72de06-232a-4983-a06c-eba6d82cb3f1	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-1594	7966e07e-9913-4c53-a241-f9d9d055f47c	26009	7966e07e-9913-4c53-a241-f9d9d055f47c
+102fba48-b23a-46d4-8371-71c11c1a6654	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-67-3776	88382ceb-20c4-4964-93fb-9e70ad0b96fc	26142	88382ceb-20c4-4964-93fb-9e70ad0b96fc
+d28e465c-e553-4c53-8bb7-3d8199b9a8a5	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4410	95f73523-2aa4-433a-8734-e43d51d3e3a7	26021	95f73523-2aa4-433a-8734-e43d51d3e3a7
+0b31dbdf-0623-48e4-a0ec-017650dceda7	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-91-6836	1e4e36bb-a805-4b8c-bb23-9d5bb7937ed9	34863	1e4e36bb-a805-4b8c-bb23-9d5bb7937ed9
+294cb595-0907-44c7-bbef-985a27c1e6e2	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-7724	ce0a7412-10a4-43b6-8e88-aedf4f0b6f17	34802	ce0a7412-10a4-43b6-8e88-aedf4f0b6f17
+5af499be-d2b9-4eaf-9a9f-435dccb51917	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-6979	b3900ef6-3672-406c-83b8-7e0c3be10304	46458	b3900ef6-3672-406c-83b8-7e0c3be10304
+12b79b4f-c28c-418e-a1e7-e622f33fdcc2	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-5939	047a94b3-267a-4a47-9c63-71641e2ae8bd	34296	047a94b3-267a-4a47-9c63-71641e2ae8bd
+44218b35-219c-4ad9-a01e-fde14067c4c0	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7633	9f412139-106f-48fd-bdda-28765559d563	42798	9f412139-106f-48fd-bdda-28765559d563
+f587c9ab-2949-4410-80d6-a050865d48aa	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4405	0a574fb7-74d7-463b-ae9d-e3a600119442	34315	0a574fb7-74d7-463b-ae9d-e3a600119442
+93b62fc5-a0d3-4d32-bf27-cd7c9d43cd5f	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-2664	6d2c19a7-85ec-43ed-bad3-0e334254b1f5	59846	6d2c19a7-85ec-43ed-bad3-0e334254b1f5
+230dc42d-681c-4e31-9d2e-c724e61829fb	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-8119	8f3557d7-8070-47fc-a87a-ab81e53ddff2	35536	8f3557d7-8070-47fc-a87a-ab81e53ddff2
+9b38eded-3f46-4aaa-9991-68008d97bdbe	hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-7670	9ab44656-ae24-43e6-a031-3702a6bde959	55598	9ab44656-ae24-43e6-a031-3702a6bde959
+100430c8-1446-45c8-af36-b6dbb3ddd0c1	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-5935	5a278a81-387b-404e-a14e-7b0672ae3ca4	39355	5a278a81-387b-404e-a14e-7b0672ae3ca4
+b256e065-c681-4f82-8b68-a8ef7c413791	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8207	ecf6f4f3-cabe-47bc-979b-741ccbebfa39	35222	ecf6f4f3-cabe-47bc-979b-741ccbebfa39
+722d6818-f1cb-49f4-b68a-fd0a31304681	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4402	78562298-a5f1-45e9-8f47-3ce81ef289d6	51665	78562298-a5f1-45e9-8f47-3ce81ef289d6
+2b68b51f-bd4c-4bbb-b4e6-2eead53da2a4	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-J2-8194	9fa15b50-7786-46b8-820c-62c19199674c	75157	9fa15b50-7786-46b8-820c-62c19199674c
+9a9bd705-1ef1-4a6c-bb1e-bdd346dc01c0	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8203	e2908315-7da1-42ef-aff1-3f80e6d70248	35357	e2908315-7da1-42ef-aff1-3f80e6d70248
+035c0b2b-c722-443b-8962-db4ee92c7532	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-6851	f3fe3562-1df5-4396-9c04-74202fc0d58d	34754	f3fe3562-1df5-4396-9c04-74202fc0d58d
+009be09b-f9f6-43b7-8f45-4a648f8123ce	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-67-3773	601fb1e6-e43d-4334-963a-c700269ce325	26376	601fb1e6-e43d-4334-963a-c700269ce325
+01e9888d-b5b9-48f1-8ba6-8a89af108a04	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-NJ-A7XG	5169cea7-bced-45f1-8175-e2a8b589d34d	52468	5169cea7-bced-45f1-8175-e2a8b589d34d
+05534064-8b43-4c82-95da-70fd83bd6560	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7540	b57fb9b4-1673-4493-a248-9577ad70dc5d	42096	b57fb9b4-1673-4493-a248-9577ad70dc5d
+055e9a43-3c00-4110-a303-e4407676bec0	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-7576	29c07211-93c8-4472-b96b-1cef79113709	46215	29c07211-93c8-4472-b96b-1cef79113709
+06fe7f3e-4edd-4150-981c-93787ea19b39	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8615	5cc1af60-40f0-4cbe-8596-54bc3afd125d	63436	5cc1af60-40f0-4cbe-8596-54bc3afd125d
+079ae0b3-b64b-4b8e-ab7d-225b8046568c	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-7954	bd8a1d5b-7979-4aec-bbd6-47065bfd6a5d	46720	bd8a1d5b-7979-4aec-bbd6-47065bfd6a5d
+09918b81-4696-4cba-a45a-5fe7407c2337	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-6592	8c653ca8-9966-44a1-9459-add88b1a38e4	39172	8c653ca8-9966-44a1-9459-add88b1a38e4
+772324a5-5513-454d-ad6b-605798f69b73	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8619	d80bc543-e540-420d-bb56-e4364ccc7cee	35057	d80bc543-e540-420d-bb56-e4364ccc7cee
+0a45f302-5748-48f3-9dc9-66c01843a68e	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-6981	4db19527-5888-4db3-a35e-8a73e19df399	45180	4db19527-5888-4db3-a35e-8a73e19df399
+2483621a-4db3-41ab-aa33-b9427ea8a0af	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-38-4631	d8726b28-0e5b-43b2-9fea-1f03beab1bb7	39245	d8726b28-0e5b-43b2-9fea-1f03beab1bb7
+0b15fcb8-1fb7-497e-80b9-d3db66a3c0a2	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-7284	d57dd3ee-3592-4a7a-b5ab-d6d36470e6c1	35428	d57dd3ee-3592-4a7a-b5ab-d6d36470e6c1
+0df573ee-28f0-4244-b434-09e6ca59fbf0	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-67-3771	8cfea85a-00ee-45f5-9660-14d77e720a68	26396	8cfea85a-00ee-45f5-9660-14d77e720a68
+0fe909ea-d52c-4b71-816f-57f62d4a5744	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-8054	7c127b9f-6adc-4761-a4df-4e9d7faff22a	55145	7c127b9f-6adc-4761-a4df-4e9d7faff22a
+16d3c1c1-cf3a-44b6-b564-8ae5464b243d	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-A48Z	1b6d68c6-f58d-4b21-9a68-7b309f9cbf39	56783	1b6d68c6-f58d-4b21-9a68-7b309f9cbf39
+114a34c0-983b-4d90-9181-1823c9637a63	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-6590	b41a9fe7-40b8-4411-8685-3c443436b200	46234	b41a9fe7-40b8-4411-8685-3c443436b200
+16e64a1e-08b0-4c27-8c69-fa64551f8ca4	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-8662	0b1ae95c-da7d-4c3a-a745-ed2cc66d3650	27317	0b1ae95c-da7d-4c3a-a745-ed2cc66d3650
+17e09b0d-eab2-40ec-ae3c-be9ab63fcef0	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-MN-A4N5	c7acbfaa-ecdf-4154-8cec-049c82d55c2d	35344	c7acbfaa-ecdf-4154-8cec-049c82d55c2d
+1427cd18-5ad3-491a-9981-908e31ae49db	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-91-6829	a04b377c-58fe-4478-9400-b7797fb84b08	34711	a04b377c-58fe-4478-9400-b7797fb84b08
+1c58d9b8-17a2-4fc6-9898-fe6f47bd2c2a	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-64-5779	1ae079d5-e781-4f0e-b2ae-ffd662b5c586	81950	1ae079d5-e781-4f0e-b2ae-ffd662b5c586
+15340dd3-84ae-49fb-989a-eb212f3e73da	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-6744	7e8d4e7b-ac32-49a5-a1db-7b7d01104d6a	48836	7e8d4e7b-ac32-49a5-a1db-7b7d01104d6a
+1ab7ad70-0f80-41d8-8efa-3baebc8223cc	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-64-1680	e4c76164-2e57-4a72-8c62-efd5948b1b2a	45177	e4c76164-2e57-4a72-8c62-efd5948b1b2a
+1d90c9f3-5025-4867-a2f0-e455b6a254fa	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-97-7546	071a62ba-c42e-4cb3-bfb8-117a2cdf6c15	45733	071a62ba-c42e-4cb3-bfb8-117a2cdf6c15
+1b31cdb3-1837-49d6-a857-1830f8800299	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-69-7763	74f5afd7-8356-4d98-ba70-4905447ac815	34773	74f5afd7-8356-4d98-ba70-4905447ac815
+2079155a-d91d-4246-a038-01934a580f32	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-38-4626	5e4df4be-f5c1-4a4e-8d40-b3698d79cfee	43015	5e4df4be-f5c1-4a4e-8d40-b3698d79cfee
+26a92e1b-08d8-45cd-af0c-eaf2514808a2	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-L4-A4E6	4f262baf-0c0d-4c36-afce-065b271bd85a	35594	4f262baf-0c0d-4c36-afce-065b271bd85a
+27fceec1-3298-4cdd-a4e6-8f5cf34604f0	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-5643	634e468c-8c0e-48e9-8fcf-72ece64e4b36	66328	634e468c-8c0e-48e9-8fcf-72ece64e4b36
+22302e92-fdfa-462a-9249-efdaa26ee5ed	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-6144	53211962-c9bf-4e08-98a6-10ccb6fd36b9	44215	53211962-c9bf-4e08-98a6-10ccb6fd36b9
+205759a6-6391-491b-9857-0080c3a5871e	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-75-5125	4ad4b0b7-9c93-4530-8690-0b19ff102be4	42995	4ad4b0b7-9c93-4530-8690-0b19ff102be4
+243c6fd6-5516-46e5-bcef-292d93d7b7d3	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-69-7764	71706efd-49c5-4ef9-868a-da7aa804d103	34873	71706efd-49c5-4ef9-868a-da7aa804d103
+2efc156c-464a-4c2f-a854-39fefe32081c	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-6987	c70a404a-1d41-4bd9-905f-83273f55e3b2	34658	c70a404a-1d41-4bd9-905f-83273f55e3b2
+2c03141e-a0bd-4e8d-91e4-9744d139ccce	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-NJ-A4YI	24c2c3bf-0664-44fe-bad4-8cb988a598f0	34877	24c2c3bf-0664-44fe-bad4-8cb988a598f0
+32d9935a-f5cd-43b3-88bd-09e6e2b9090d	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-A48X	aac8d690-d889-48c3-b362-76f96c1d7e68	47034	aac8d690-d889-48c3-b362-76f96c1d7e68
+33c71ead-4c2a-476d-85ef-885dbbfc2cbd	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-6774	544a4bca-26bd-4e56-9581-b5e293186d46	66806	544a4bca-26bd-4e56-9581-b5e293186d46
+3199cfe5-3be3-43cd-a36b-5cf2c7a9929f	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-5066	17b4f41b-b918-4264-b4b3-86b34dfe43e3	60617	17b4f41b-b918-4264-b4b3-86b34dfe43e3
+34d8e84e-c3e1-417d-8b9b-8563d9fa0f8e	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-8055	6cc342d7-d6eb-44a2-b01b-211b356db831	35201	6cc342d7-d6eb-44a2-b01b-211b356db831
+301ca6e8-7981-4264-b4ae-38f56f7f9225	Unknown	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-MP-A4T4	e212754f-b128-4491-ae32-91f3a8111eac	26985	e212754f-b128-4491-ae32-91f3a8111eac
+31c96e35-5e2f-429c-b12a-7bc5a497a300	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4398	e4f58732-bdde-4c54-9cc1-5215b0e93ade	45903	e4f58732-bdde-4c54-9cc1-5215b0e93ade
+3bd6badb-27ff-4d8d-b206-4d28dc264862	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-3396	0a04689d-983b-4137-be02-31befccc18fa	55542	0a04689d-983b-4137-be02-31befccc18fa
+39ab7174-5707-498d-9959-523680e04198	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-A492	58814bc1-3c4d-4214-9ece-eba5327787c6	35382	58814bc1-3c4d-4214-9ece-eba5327787c6
+3e1df30f-744a-41e9-a169-7dbbff66622e	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-69-7974	c990ff45-7da8-4e4f-bef5-cd7eb6689121	57363	c990ff45-7da8-4e4f-bef5-cd7eb6689121
+37884d39-64e8-4242-b6bd-4c0a1daa21cd	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-71-8520	6f17ac29-ce40-42a9-973c-ae9674c5a0c3	40129	6f17ac29-ce40-42a9-973c-ae9674c5a0c3
+44d8c859-4b7a-4e9d-bffc-0de0e6afdcc4	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-69-8253	9253079f-7010-463c-b240-9d4d00e717b2	46873	9253079f-7010-463c-b240-9d4d00e717b2
+3fe8f8e4-5396-4362-82f5-366e2fb69db2	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-5428	a30ce86e-bbff-475e-807d-6c9bb55bdc77	50707	a30ce86e-bbff-475e-807d-6c9bb55bdc77
+3daebe75-c6df-478e-8a4c-11186fd5ead9	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-93-A4JO	e93896bb-ac02-4c87-a85e-c9d4a64eece8	27232	e93896bb-ac02-4c87-a85e-c9d4a64eece8
+42d208bd-cd77-4bfb-ad53-9fc072a87393	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-53-7813	700c0603-7961-4067-8703-ae0f9c275726	58092	700c0603-7961-4067-8703-ae0f9c275726
+4a1d30e8-e93a-41ed-8e54-08eaff6556a7	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-L9-A444	5bdfd3bf-7cc9-4dd3-934a-b177f13e6823	35563	5bdfd3bf-7cc9-4dd3-934a-b177f13e6823
+4b22ad71-c585-4077-ad3c-c6e026d0c7fa	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-7669	8ec9dabb-f720-4845-9215-7da2ec09d569	86591	8ec9dabb-f720-4845-9215-7da2ec09d569
+67dbe286-edb3-4d07-8f74-9e5254f01945	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-7994	d748b2bf-dc09-4e8a-b603-c8b106d1a53e	46707	d748b2bf-dc09-4e8a-b603-c8b106d1a53e
+5f4934be-eee3-40e1-8838-38103badc898	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-MP-A4T6	e7d98666-01ef-4b89-b3ce-be030a5438eb	27091	e7d98666-01ef-4b89-b3ce-be030a5438eb
+681b1176-9676-44d3-892c-1d5dba1ce25b	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-75-7025	639b4598-61ba-4027-b532-267dc159ec15	43452	639b4598-61ba-4027-b532-267dc159ec15
+69584d55-18f7-4786-b3cc-cd528500be44	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8094	71e8c423-61f7-45ca-90b7-c41995808a43	35155	71e8c423-61f7-45ca-90b7-c41995808a43
+6e3b6b72-142d-4b8d-a462-28a205796e41	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-3918	23f5e630-f68f-4c5a-a694-03a4339dd9a7	69740	23f5e630-f68f-4c5a-a694-03a4339dd9a7
+673493f6-975c-49e8-934c-001e9a0fff90	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-67-3772	5248ada9-f46a-4924-8005-884016109835	26292	5248ada9-f46a-4924-8005-884016109835
+75dd635e-8e0c-4c0b-b21c-20f77770218d	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-5942	6bb01152-8eaf-41e1-a9e0-94f95641e83b	52477	6bb01152-8eaf-41e1-a9e0-94f95641e83b
+77828a90-8e2a-4664-b674-d837e6e34fe4	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-69-7761	4d56cfc7-2783-49de-883c-4da248b7cf4f	47402	4d56cfc7-2783-49de-883c-4da248b7cf4f
+7b0622ab-63ea-483f-ae40-d3ea587bdbba	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7156	a6a1a945-8463-4464-8163-480da30a2c19	34269	a6a1a945-8463-4464-8163-480da30a2c19
+7b89166e-c5b8-481b-aa70-495141499b91	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-8669	99d98029-ff9c-422a-9456-a6518a1be303	47028	99d98029-ff9c-422a-9456-a6518a1be303
+7e83f9dd-b038-497b-a113-a55605398b7b	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-99-8032	aed91b0b-c316-497b-b26d-722753f394f7	27163	aed91b0b-c316-497b-b26d-722753f394f7
+8fdbd88f-19ae-4ab8-bcd7-6bfa1bbde742	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-64-5778	d12fe78a-2151-491c-9414-f0909e4810f4	62232	d12fe78a-2151-491c-9414-f0909e4810f4
+8ab8c4ba-311e-41d0-85ea-a0245aca1bdd	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-NJ-A55O	341f0623-7a62-4eb0-9054-185d2a9ccc72	34968	341f0623-7a62-4eb0-9054-185d2a9ccc72
+86faf16c-56fd-4b7b-a6b2-b4c83bec93e1	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7161	60321f01-cae4-418f-974a-05ec420ca56d	55895	60321f01-cae4-418f-974a-05ec420ca56d
+9240d5fc-de23-4436-8099-da9bd3054860	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-62-8397	97e62c0b-e105-4ce4-95e5-4f9424d3a58a	35535	97e62c0b-e105-4ce4-95e5-4f9424d3a58a
+8c695c24-e7f9-449a-9258-a1bc8a33bf9a	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-97-8174	d141a39b-7313-40ed-9c2d-390cc458856c	38724	d141a39b-7313-40ed-9c2d-390cc458856c
+927fc5e0-2c14-4c20-a49b-f10d8a1175c3	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-L9-A8F4	9242d63f-ddb2-4994-bc73-7813ee5d750e	40096	9242d63f-ddb2-4994-bc73-7813ee5d750e
+8981f0c9-7155-4c96-bf77-7d40fe404323	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-69-7760	10b857cd-3a0a-4d9c-9425-6cb4e83dabfc	47175	10b857cd-3a0a-4d9c-9425-6cb4e83dabfc
+98ef41fa-3015-445a-bbdc-984361c911f7	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-AARN	619ff356-5b21-424b-8360-2d7fbb9a386d	27050	619ff356-5b21-424b-8360-2d7fbb9a386d
+953a908d-0993-42f6-853b-512611d19a2c	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-91-6849	cd88aac7-4022-48e2-bed4-247500c75892	34684	cd88aac7-4022-48e2-bed4-247500c75892
+a391d49f-a822-460b-981c-6fbe1868ee38	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-6743	e2bf1ca5-c76d-4f9c-8496-b2984135a6c5	61223	e2bf1ca5-c76d-4f9c-8496-b2984135a6c5
+9ee20c0d-a1c3-47f3-abda-131b3f190f52	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-5045	890734e4-b2d1-44c7-a168-7abdb018573c	39329	890734e4-b2d1-44c7-a168-7abdb018573c
+97831d28-ab41-4c18-bfc2-c4c6bc757d13	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-91-6847	06ff55c5-7276-41ea-93d7-c7661121ffd3	44115	06ff55c5-7276-41ea-93d7-c7661121ffd3
+a3f6bc1c-19ab-4eeb-a9ac-3d2fac850bde	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-7701	236e8fe6-8f18-403d-8984-8dd85e8ba50d	94740	236e8fe6-8f18-403d-8984-8dd85e8ba50d
+a5f2576a-d628-47de-a5df-76a4f3105dcc	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-L9-A743	1762c0e8-1da0-43e8-9bd8-f28b46224790	47374	1762c0e8-1da0-43e8-9bd8-f28b46224790
+a8de1beb-6296-44eb-bd63-c603f70faaf3	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8614	ba6b09d4-15fd-4854-95a1-657fae26a08e	35151	ba6b09d4-15fd-4854-95a1-657fae26a08e
+adbaba9c-5efc-4130-82f6-8055eab13795	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-A494	342dd252-3965-473b-8122-6d05c70c376e	35519	342dd252-3965-473b-8122-6d05c70c376e
+b89de053-d253-447f-952e-9a2edcf6bca5	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-A490	b158d3a0-29f1-4cd2-b08e-f4c28e09ea9e	46958	b158d3a0-29f1-4cd2-b08e-f4c28e09ea9e
+aea68827-dc0f-484d-a00d-06deeaa4b3ce	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4433	4c686cef-9ee9-4298-b7d6-2aed69c85ba1	34238	4c686cef-9ee9-4298-b7d6-2aed69c85ba1
+a8d6694c-a213-4544-ac0b-63bce16d8f4e	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-75-6203	5fecea66-4985-49a1-9667-e61bcd7db68e	52145	5fecea66-4985-49a1-9667-e61bcd7db68e
+a9644274-13bb-4228-9b4f-14260ccc26eb	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-97-7554	fdcefb0e-dd7b-445d-b2c7-5dfb75a3cd6c	47647	fdcefb0e-dd7b-445d-b2c7-5dfb75a3cd6c
+ab9e6815-4d13-44db-93e5-553eb4f5bc95	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-7662	626c9521-7e8b-41da-a44d-03597c846cfb	34884	626c9521-7e8b-41da-a44d-03597c846cfb
+abab925c-bef3-4072-b9c4-40f808744593	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-95-7944	4af55466-9620-4fc2-99f1-739a936cb0e8	42738	4af55466-9620-4fc2-99f1-739a936cb0e8
+afe83af5-af22-49c0-88b4-f1d0dfcbe238	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8097	495e28f8-d309-4b37-a2ac-ada95d9a7a8e	35304	495e28f8-d309-4b37-a2ac-ada95d9a7a8e
+b86b1616-20a2-4300-8daa-03dcc9938215	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-7659	a3adce46-305a-4f03-98c2-389fd2f1862c	42898	a3adce46-305a-4f03-98c2-389fd2f1862c
+bc4c4079-b449-485d-84e4-a40496e563e8	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-8673	aafbc782-83c0-4eaa-90fe-0f572f90c97e	43321	aafbc782-83c0-4eaa-90fe-0f572f90c97e
+ccecce70-dd54-4c5b-bf9f-ca87d290cb00	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-67-6216	5f29c342-601b-44ab-a24c-99e95d6053e5	34570	5f29c342-601b-44ab-a24c-99e95d6053e5
+d2824e6d-3784-45c2-9b0f-52b17356b5da	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-75-5147	88d7baa7-e877-4aa6-9b71-24d962d4e82a	42761	88d7baa7-e877-4aa6-9b71-24d962d4e82a
+c1a01e8c-1f7e-4e24-bfad-90b73f88e992	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7160	42e991f4-f72a-4593-a16b-436ced1dbdf9	48686	42e991f4-f72a-4593-a16b-436ced1dbdf9
+d344dae0-adf4-4697-b703-7690c13d8331	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-95-A4VK	9a086432-7ba7-4f45-bc87-7046013d0c0e	52198	9a086432-7ba7-4f45-bc87-7046013d0c0e
+c6b680e3-d96e-4fc7-8053-77454b7a14fa	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-97-A4M7	754d9608-fc7a-4fa4-8588-5aef2cbd3029	35739	754d9608-fc7a-4fa4-8588-5aef2cbd3029
+d63c028b-b6d3-49ce-b63e-261eed3b86df	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8507	5708c5d0-5908-44f0-b8cd-699a5a7ff7c2	35215	5708c5d0-5908-44f0-b8cd-699a5a7ff7c2
+d5326429-9805-47f9-97b0-fbda658e3f01	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-91-6840	eb5e6df1-021a-471c-b6b5-32981265b819	34636	eb5e6df1-021a-471c-b6b5-32981265b819
+db0b9e63-4272-4f29-bf0e-1ec0fe79a9d7	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-91-6831	f5b40683-3fb4-4dad-8578-dd971b7dae79	34574	f5b40683-3fb4-4dad-8578-dd971b7dae79
+088edf89-d2b5-40c7-b066-df3bd383f7ea	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-4505	1bb5aa6d-f015-4d04-a399-3b87c88e4461	35217	1bb5aa6d-f015-4d04-a399-3b87c88e4461
+b40d0849-f4ef-4a14-9732-9beb708cb46b	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7166	d3bc0e7d-52c8-4640-977f-c983dd256591	39313	d3bc0e7d-52c8-4640-977f-c983dd256591
+0d0d83d9-d558-4d38-977b-6f1b2471beda	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-7955	3c2d2bc6-725b-46dc-9be8-b6dd8b6df459	76168	3c2d2bc6-725b-46dc-9be8-b6dd8b6df459
+0d980584-4484-4063-8243-c3cd67f6f588	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-91-A4BD	bbddabcb-cefb-4ef2-a774-252b48eb7e57	35340	bbddabcb-cefb-4ef2-a774-252b48eb7e57
+0c59ff96-5e4a-4664-a0b1-d057b4725483	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-62-A46P	2babe148-ba7d-4490-a7fd-43ff247ac468	27396	2babe148-ba7d-4490-a7fd-43ff247ac468
+21fb46f9-4bbb-441c-af19-a687e9138344	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-6742	4277ee9a-9d5a-4bca-97f4-d51c4283ea4d	68181	4277ee9a-9d5a-4bca-97f4-d51c4283ea4d
+0ea4920f-f4c8-4590-84b3-eb419824e144	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-38-4625	663c884d-d588-4e29-a9ae-336c86a7aad6	42601	663c884d-d588-4e29-a9ae-336c86a7aad6
+923b37e4-fcf7-46a0-8cb2-9139711fec7b	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-7726	66dde8ef-db80-420f-a212-68d8a8b2932d	34915	66dde8ef-db80-420f-a212-68d8a8b2932d
+16cd58db-d52c-403e-9e9c-6da2e99f6bad	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7162	1cd928ba-b942-4b45-bc4c-7fe1d298dba1	47583	1cd928ba-b942-4b45-bc4c-7fe1d298dba1
+18478121-f1d1-4bdd-9511-8ab22f4a0660	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-8640	ac471c50-779f-472f-a717-c86dbad8d704	43337	ac471c50-779f-472f-a717-c86dbad8d704
+15f12d2c-b834-4bfc-b526-f03bf85bfe96	Unknown	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-MP-A4SW	a9131d02-5790-45f9-9b91-ff93e893ad9b	26924	a9131d02-5790-45f9-9b91-ff93e893ad9b
+1f0a5312-0590-4230-9da9-fd0cfe693586	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-7911	2b372e98-62dd-4e7a-949d-ba4f95a01e01	39875	2b372e98-62dd-4e7a-949d-ba4f95a01e01
+202e5df9-69f2-432c-a59d-cc5aa176e973	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8512	bc2a017e-5584-4afb-b57c-b47967dec351	35055	bc2a017e-5584-4afb-b57c-b47967dec351
+2f0710f4-827b-45b2-9b7e-c27385b481a7	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-6980	5305e629-f25b-4086-b893-725effdf1d1a	34585	5305e629-f25b-4086-b893-725effdf1d1a
+2a43e61e-2151-4c5a-b062-74ce9dfd8d4a	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-L9-A5IP	93ce0eb1-94f8-4c38-ade6-c7047db6e7f8	27537	93ce0eb1-94f8-4c38-ade6-c7047db6e7f8
+2f09479f-87fc-4c34-8e2c-333e970a3681	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-91-6835	d65684b4-e76e-4c1e-80da-99949bbbb05d	34779	d65684b4-e76e-4c1e-80da-99949bbbb05d
+31458638-e19c-43e5-ab13-9c64b3b3681d	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-S2-AA1A	5251b0df-d048-425c-a0c0-837581395038	35492	5251b0df-d048-425c-a0c0-837581395038
+33e3f736-7990-4f7a-ac35-863247566541	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-5423	ba6630ad-cba1-42e2-bc4d-91795c6ed677	26033	ba6630ad-cba1-42e2-bc4d-91795c6ed677
+31ff69b5-9e58-44da-8326-bdfc7ee495c4	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-97-A4M6	bd86afea-bf8c-410c-9ac3-50556a79dfca	35518	bd86afea-bf8c-410c-9ac3-50556a79dfca
+37c8d73a-45ae-40fc-ba9a-721b755c1160	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-97-7553	12639d03-5aa6-4776-a3e3-59cc4464833b	34829	12639d03-5aa6-4776-a3e3-59cc4464833b
+3b89ac82-63f6-41b9-a03d-34b9ffc1550d	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-L9-A443	30190657-68ac-4403-bc28-178574010d0a	35418	30190657-68ac-4403-bc28-178574010d0a
+3a23cdb5-2327-45ac-b0b5-d4afe038c757	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4430	3dedcb18-16a6-4eaa-9d1b-3422cb42b90a	34126	3dedcb18-16a6-4eaa-9d1b-3422cb42b90a
+3afa5045-a1ee-4a07-8aad-2e252b2f7d7a	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-AAR0	b22b151e-061b-436b-b9d7-7f71b14b934b	43786	b22b151e-061b-436b-b9d7-7f71b14b934b
+3c4ff061-d214-4d1c-8d2e-3034f207c252	hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-6775	fd67c14d-ff84-4ed9-b7a3-b859b0c476e0	43485	fd67c14d-ff84-4ed9-b7a3-b859b0c476e0
+3ed05070-6633-4de5-9f72-090f93aa2e4d	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8506	29c5f3ae-b8a5-4e2f-8d13-071dc8827573	26591	29c5f3ae-b8a5-4e2f-8d13-071dc8827573
+9c7875ad-ab71-4d48-b2e3-e4c7a46393e9	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-6745	3eadeb75-aa76-4f48-9288-1b771f53ddae	40419	3eadeb75-aa76-4f48-9288-1b771f53ddae
+e5f956dd-f49f-435c-83c3-5b1b0a2050ed	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-J2-A4AE	8eb795b0-6269-4fca-a865-752c4c494b8d	43407	8eb795b0-6269-4fca-a865-752c4c494b8d
+dc9eaaa0-0bfd-46d0-994f-310826879da4	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-69-7973	1121bfbf-e611-4439-91f6-51af10fde1a0	58175	1121bfbf-e611-4439-91f6-51af10fde1a0
+e60a8f8a-0fe6-40e5-9f30-bcff48ac73f4	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-62-A470	c06bcd43-0b1c-48ff-87dc-4c8eef5a2f7a	27391	c06bcd43-0b1c-48ff-87dc-4c8eef5a2f7a
+e64f76e4-f748-4d9e-ba71-53e2818a7920	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7542	1e327716-0c55-443f-afa7-804c5fd6b939	34186	1e327716-0c55-443f-afa7-804c5fd6b939
+e6e75590-9520-4b1c-8a28-4a1d2b2218fc	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-97-7938	d6c98016-ffd4-4742-a80b-cc2e7492a3ad	35023	d6c98016-ffd4-4742-a80b-cc2e7492a3ad
+dd46c83e-6551-485b-b935-f3beed891244	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-7815	0f06f7cf-7809-4500-80c0-c325e8ef3fd9	59613	0f06f7cf-7809-4500-80c0-c325e8ef3fd9
+dd63d0fd-e24b-40a5-88c5-7d3d4106631e	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-97-A4M0	5d9d90af-56b3-48bd-9222-e336545fda65	35484	5d9d90af-56b3-48bd-9222-e336545fda65
+e7d30bc2-42e8-49c5-a5b3-9f58411b007a	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7147	40f66744-a21b-42c2-a0d0-539703ddd5ab	34707	40f66744-a21b-42c2-a0d0-539703ddd5ab
+f17d3463-af6c-42c2-a8e9-fae45f69286f	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-6712	e2ba0ca0-102a-409d-b75d-659d3b854070	46186	e2ba0ca0-102a-409d-b75d-659d3b854070
+e8060c45-451d-4779-9584-f284db47e63e	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7148	751e397f-af5a-47c7-88d2-fc33b7e22325	34519	751e397f-af5a-47c7-88d2-fc33b7e22325
+e8b7a103-644f-4865-92f8-80b053bd5e17	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-35-3615	dc215806-4af5-465c-b7e2-c53e7bc3ff1c	33601	dc215806-4af5-465c-b7e2-c53e7bc3ff1c
+f1f80dd2-891d-46dd-a3e0-f007628cb515	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-4B-A93V	95245d37-dc46-426f-ae4c-3f2323b54507	49346	95245d37-dc46-426f-ae4c-3f2323b54507
+ea0b9461-0d4d-4ade-a255-1b03dd85e30e	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-91-A4BC	3a219981-241a-47ce-9639-a7136b819a03	34739	3a219981-241a-47ce-9639-a7136b819a03
+f2d8b332-2f03-46e5-a9d5-f163972e5fa7	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-8668	75ced4ce-458e-4926-902d-d56f81bafb3c	35247	75ced4ce-458e-4926-902d-d56f81bafb3c
+f40301ba-831e-4afd-9ce8-5f3c1a05ff7e	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-2657	9d72c2ea-0083-44c3-8133-accaebca90ff	43134	9d72c2ea-0083-44c3-8133-accaebca90ff
+f462cfef-f60a-4d3e-b92d-b8d8f50b6bb3	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-69-7978	d7209282-3663-4e9e-98d0-bf0056e046ec	34793	d7209282-3663-4e9e-98d0-bf0056e046ec
+f98ecd8a-b878-4f53-b911-20cd8e17281c	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4250	6f8ffdb4-9551-4fc8-9017-3250e3c6d818	25917	6f8ffdb4-9551-4fc8-9017-3250e3c6d818
+f59e5a76-f803-470b-910c-a897a149d939	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8505	b9f923d0-eb13-4d27-b7dc-816a1a01809c	46543	b9f923d0-eb13-4d27-b7dc-816a1a01809c
+f61d599a-43bd-4743-9568-678317e75955	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-A47F	4fc3dbf1-e21b-46e3-b68b-8a7f30382924	47167	4fc3dbf1-e21b-46e3-b68b-8a7f30382924
+ff07ea4b-4e50-410d-99d6-96a351dad7b1	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-7570	78173475-d695-46c2-99c7-44c16ada10d8	34599	78173475-d695-46c2-99c7-44c16ada10d8
+e16ca88f-488b-40f0-9169-e5a62482a2ff	hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-2666	2595ec21-fa3f-4b4b-a538-26698d4af2bb	34986	2595ec21-fa3f-4b4b-a538-26698d4af2bb
+fc79086c-af9a-4c27-b074-f7050b6f3381	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7155	e510f393-1103-4afb-be60-3df7da73fd0d	52030	e510f393-1103-4afb-be60-3df7da73fd0d
+e21e2af3-dc71-41fa-94ba-7a7929f47d90	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-J2-A4AG	8c673b5b-786e-44f9-9064-0f63a71a2b2b	43443	8c673b5b-786e-44f9-9064-0f63a71a2b2b
+fcfe0b53-dfc1-42fa-9efc-2b2ff259297e	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-97-7937	64362a00-90a2-423b-a375-ab8202a17ac6	34937	64362a00-90a2-423b-a375-ab8202a17ac6
+fd3fc273-c035-40ea-a459-ff4806f5d592	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-64-5774	f1e799a6-36e0-4647-944a-4df6902533a6	47798	f1e799a6-36e0-4647-944a-4df6902533a6
+e2b0d873-4942-4483-9a88-d5c6338d0382	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-97-A4LX	3170493e-1ceb-46b5-95e7-5f06d53e2f40	35707	3170493e-1ceb-46b5-95e7-5f06d53e2f40
+fe3eeeb6-0db4-46d7-a020-55604d474c12	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7167	83a907b3-76ea-40d1-850c-25bf35601275	34639	83a907b3-76ea-40d1-850c-25bf35601275
+e43a2b72-35c6-4466-9007-ce96caf77ea8	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-A493	cb7afb85-971d-4250-8c67-15613fd23a36	26999	cb7afb85-971d-4250-8c67-15613fd23a36
+fe714ac0-f874-426a-924b-a2980232b5f7	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8616	1693372e-7d5e-48d1-b6de-01ac2de07f26	26672	1693372e-7d5e-48d1-b6de-01ac2de07f26
+ddeacccf-0953-4952-8a4e-c2617f2e7bcc	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-5645	53879f00-d7de-4c81-9b5a-6a5f49d0ddb5	43214	53879f00-d7de-4c81-9b5a-6a5f49d0ddb5
+df576520-a6b6-4c9b-8d06-3f59cc5342fd	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-75-7030	57d733f6-2f8e-4f0c-b391-48d3cf7c1f87	46723	57d733f6-2f8e-4f0c-b391-48d3cf7c1f87
+e00a60d7-4253-443d-a187-680ad0931349	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-62-A46S	7c9b8244-7b80-4f25-ae63-e0c7c243b315	39311	7c9b8244-7b80-4f25-ae63-e0c7c243b315
+e01e4fb3-236a-4d16-9073-555876b688e9	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-A4JF	22df8e6d-4377-43c2-afd6-6b314ff126b0	55500	22df8e6d-4377-43c2-afd6-6b314ff126b0
+e0a19099-5d25-40df-ad73-6260df3a1b32	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-5715	ffe50725-6e9e-46a0-a3a3-c43c682356d4	25921	ffe50725-6e9e-46a0-a3a3-c43c682356d4
+d7ae8efb-aa4d-4807-9772-55b0a28ccd5c	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-62-A46O	fb5e0525-2f3f-48a5-b7fe-7d15c8415fb1	27719	fb5e0525-2f3f-48a5-b7fe-7d15c8415fb1
+d8faa3a7-6b3f-4e69-8c88-184e41055bd7	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-8280	24de31cd-9992-49db-9887-7a5ab0770491	46810	24de31cd-9992-49db-9887-7a5ab0770491
+da345947-498b-4272-a231-a987ed4fe151	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-A47G	984fe27f-c6f2-45f3-862d-bab157a89602	35479	984fe27f-c6f2-45f3-862d-bab157a89602
+e499069b-a16a-49e9-941a-e3e9ea62af25	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-62-A472	96756810-45eb-4880-8958-656831fcd3b5	36437	96756810-45eb-4880-8958-656831fcd3b5
+e5cb0c86-8fe2-4cfc-b32b-e8ec3839ffc4	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-6985	594c69ee-4626-4890-9255-56568f6f8e42	34407	594c69ee-4626-4890-9255-56568f6f8e42
+dbd5b0de-94c9-45dd-afb3-6820a7ecaca2	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-67-6215	50db9695-b93c-46ac-9abe-6ef4e4a65185	47242	50db9695-b93c-46ac-9abe-6ef4e4a65185
+dcd066ba-5894-453e-b1da-82092858c3db	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-6562	fee133fa-2235-4ae0-882c-0ed2311ac2e8	47330	fee133fa-2235-4ae0-882c-0ed2311ac2e8
+e68219b0-a9c2-49df-8f0d-db5ea97fd2dc	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-6543	1b36b4c0-1f7f-448d-84ac-1cf0ac9fb07f	34542	1b36b4c0-1f7f-448d-84ac-1cf0ac9fb07f
+ef42ae4c-a108-468e-beed-437cf3cf2962	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-5936	a2caea0a-a327-4529-b06b-7ac9bce8d6af	40779	a2caea0a-a327-4529-b06b-7ac9bce8d6af
+e737f650-b72d-44e7-b750-558a56716803	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4432	998c0599-fc69-47c5-ab17-5f89b6c7d708	45900	998c0599-fc69-47c5-ab17-5f89b6c7d708
+f063ddbb-1668-40df-9ec2-b0a23ca2c389	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-6984	a8ad634b-8a07-4a0e-99dc-3296013c27f4	46207	a8ad634b-8a07-4a0e-99dc-3296013c27f4
+e739b4f7-ae46-45c6-9013-9571cbadaf99	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-93-7348	b1acc286-c804-4b44-bf70-47879526ed02	42974	b1acc286-c804-4b44-bf70-47879526ed02
+f0c94f68-bfd9-45cb-b4fd-8bb1ae4e9a2b	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-69-8254	72d1b166-52a3-4c98-b460-b4dbcffdb6e1	35340	72d1b166-52a3-4c98-b460-b4dbcffdb6e1
+f327dea0-2d30-482f-809c-76a148a749b7	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-MP-A4TI	1e08fc79-a4c2-4ec6-85d1-31e582df56ba	27384	1e08fc79-a4c2-4ec6-85d1-31e582df56ba
+ef03654a-dcf1-41ff-a67e-4f3fbf9ba807	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-93-7347	40fd667a-acc7-42a4-aa8e-ddfebd27d770	43295	40fd667a-acc7-42a4-aa8e-ddfebd27d770
+f3f024c2-52f1-400e-946c-398f5b72e6dc	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-5941	8fc29a3a-e851-45ed-9c4f-267ff4a04a28	54186	8fc29a3a-e851-45ed-9c4f-267ff4a04a28
+f809e21d-5f2e-4f3b-a1aa-d6b8d463552a	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-62-A46V	5406fa4e-1e9c-4aa6-906f-ba5b7643c0d3	35447	5406fa4e-1e9c-4aa6-906f-ba5b7643c0d3
+f809e7d9-a75e-41c9-ac2c-5bec6ffcb4a2	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-AAR2	f7f38b71-15ac-4324-a0cd-76841bca2341	41376	f7f38b71-15ac-4324-a0cd-76841bca2341
+f4350d9c-3f40-4829-bbc4-8acb2f3ff512	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-97-8175	a797ade5-8434-4c35-8488-b71aafc15591	51839	a797ade5-8434-4c35-8488-b71aafc15591
+f934ed41-090e-4313-bbc5-d1a4a9ed9ad7	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-A4SS	de943482-9424-4bb4-8fe0-db47cd8fd33b	35422	de943482-9424-4bb4-8fe0-db47cd8fd33b
+fa0c7392-d485-41ac-bf7e-244a528209ae	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-5044	5afa20c3-8a50-4d93-9f03-17977cf75c82	39208	5afa20c3-8a50-4d93-9f03-17977cf75c82
+f77b6930-a1ce-446e-a15d-c018cbbecfee	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-4510	737f7d5d-43d1-4c8c-9578-078bb6e0334e	35087	737f7d5d-43d1-4c8c-9578-078bb6e0334e
+fb6b289c-aaf9-4d8e-b6e0-5d35bce1b6e1	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-64-1676	12293f8c-86f0-4ff2-832b-b104b076f04c	34143	12293f8c-86f0-4ff2-832b-b104b076f04c
+fb79c491-7b01-42ae-8369-8364e442e31b	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-2665	a5371103-11b9-40df-a35e-dfcad67bd19a	70247	a5371103-11b9-40df-a35e-dfcad67bd19a
+f77cf4d3-9829-4fd3-95a1-b29aed9e94b8	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-64-1678	58e09697-a2b2-4392-b34e-a86a3d7aa3d0	46860	58e09697-a2b2-4392-b34e-a86a3d7aa3d0
+e10568fe-0436-43f2-9f0f-48f9903868c4	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-6593	cd8d5fb0-0945-47e8-af38-ad12db07f439	39683	cd8d5fb0-0945-47e8-af38-ad12db07f439
+f7f9f522-de88-4f9c-8ba4-7be3726faaf8	Unknown	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-MP-A4TK	cd86b95b-b6af-4be1-93ad-9e6e9a9b728c	35793	cd86b95b-b6af-4be1-93ad-9e6e9a9b728c
+23069f19-eba5-4ea5-ae7d-1ee4399ce7c1	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-75-6212	d0f3caf7-8a2f-40a9-a556-d9674b735c09	61713	d0f3caf7-8a2f-40a9-a556-d9674b735c09
+2923e404-38f2-437a-b57e-23401fbe0273	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-8279	038d5076-c08c-4fde-9e96-f6fb4695056e	60041	038d5076-c08c-4fde-9e96-f6fb4695056e
+258a3a41-211b-4c66-bd3b-ef03014a6967	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-38-A44F	c83848b9-9c0f-4c72-a8e1-8c1b726d96cb	35179	c83848b9-9c0f-4c72-a8e1-8c1b726d96cb
+25d4ea9e-f773-4f11-bac9-64efdad73211	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-83-5908	d3ea1d97-42cb-47ea-a970-9f454ca7e23c	34949	d3ea1d97-42cb-47ea-a970-9f454ca7e23c
+2cd8ea73-cb3f-4b17-9b97-fa12eb03b85b	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8299	4f0301b0-993d-459e-831a-a09dbdee1e58	40249	4f0301b0-993d-459e-831a-a09dbdee1e58
+2f1a4b16-104c-40eb-8114-8245847bb716	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-8585	c3374261-db60-4f59-800e-927b86f430fe	35001	c3374261-db60-4f59-800e-927b86f430fe
+35cb7841-9b09-465a-90c5-e3b8a9faad49	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-6982	cbc213a9-e3ee-49e5-85e0-45a0f54a2d3f	57093	cbc213a9-e3ee-49e5-85e0-45a0f54a2d3f
+362000e4-cf7c-48fc-93cc-8f5994b442ea	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-A4DF	6d2488b2-c42a-4bf2-99ad-1146858b537a	40319	6d2488b2-c42a-4bf2-99ad-1146858b537a
+36470b30-a3b3-4d28-851b-918a7ff88011	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8096	0f1d897f-6764-4d6d-ae1d-6689d0d73a33	44999	0f1d897f-6764-4d6d-ae1d-6689d0d73a33
+36ad7fc7-0cc1-4f01-aef1-f89b3cb4feac	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-67-3774	cb74c72b-8027-4057-949e-00c167838232	26318	cb74c72b-8027-4057-949e-00c167838232
+397d3f69-1453-4057-b177-8723eec923d1	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-97-8171	9e831b68-62a0-4df8-8b8d-c79bb660a2b7	41621	9e831b68-62a0-4df8-8b8d-c79bb660a2b7
+d2c1e896-6886-4122-bb48-5fbcd3f641f4	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4418	dd4c2ad2-c012-4d41-a67e-e6198805cc80	25899	dd4c2ad2-c012-4d41-a67e-e6198805cc80
+42259aa6-c9f5-4309-a956-dbf930312f44	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-NJ-A4YP	65842759-c94a-4a3f-863f-88edead01d4f	34799	65842759-c94a-4a3f-863f-88edead01d4f
+108a71cf-b9db-47cd-aa74-c03ec989b41b	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-67-6217	f6a3e9e7-2736-421f-871a-5240d984b8e8	41209	f6a3e9e7-2736-421f-871a-5240d984b8e8
+42432463-8e92-4f25-b72a-f03953527aa5	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-O1-A52J	f34314d5-2e97-4c0f-ad16-5a400fac6090	27101	f34314d5-2e97-4c0f-ad16-5a400fac6090
+488646a1-0bdb-45f8-8c30-bef006924511	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-75-7027	ad8acb0e-d0dd-4da1-a736-83199487c389	42878	ad8acb0e-d0dd-4da1-a736-83199487c389
+8d0736fe-261c-445c-bfd2-a3ea3ceaf367	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-6971	c87c26bb-0dae-40a4-af46-5de87de398fd	34718	c87c26bb-0dae-40a4-af46-5de87de398fd
+433a32d0-93d1-4897-8e36-beb1ec1d998e	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-62-8402	04b52a11-9b50-4e52-9ab7-4c28f2e96df3	41126	04b52a11-9b50-4e52-9ab7-4c28f2e96df3
+9b93a7c5-f9b4-4461-8078-0201a725c9cf	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-AARR	54f4ecbf-8c1c-453a-b992-aaffa898da6d	36414	54f4ecbf-8c1c-453a-b992-aaffa898da6d
+99c35245-e1c8-4805-b7a5-f703bb506030	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-MP-A4TC	ca7316e9-c9e7-4599-847e-868b8582b9b3	38753	ca7316e9-c9e7-4599-847e-868b8582b9b3
+a046888c-f153-4f35-a1b6-23dd1691a91a	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-6975	4c4138d8-389a-4bfd-9b36-eec0248c53c1	34377	4c4138d8-389a-4bfd-9b36-eec0248c53c1
+a3fd20b2-e001-44ab-9716-754e5ae70808	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8513	cfc25f11-f3e8-48a1-9fd9-606355121928	47202	cfc25f11-f3e8-48a1-9fd9-606355121928
+9e22a3af-7f28-4757-8684-ed64a2a27ad1	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-95-A4VP	deff79e0-7550-4e47-84d9-35cead47ed1e	47453	deff79e0-7550-4e47-84d9-35cead47ed1e
+9e640ff7-996e-427b-b56c-519a1e23baab	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-A4P7	f544b3eb-e698-41ff-962f-fe778177e29b	35333	f544b3eb-e698-41ff-962f-fe778177e29b
+a244a99a-d7cc-4fb1-bc76-b66886481621	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4417	2f38e959-45d9-4114-8d45-ece8e2ec76ed	34364	2f38e959-45d9-4114-8d45-ece8e2ec76ed
+b87a5d92-4c09-48fe-bb08-b3c89a7c892e	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-4514	420271bb-6c97-4662-a1dc-85b5e0f18980	34156	420271bb-6c97-4662-a1dc-85b5e0f18980
+a816e355-be6f-4d16-b051-b6d86ed8cded	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-8278	1b72d89f-af22-4770-b308-995751e2fc7f	61126	1b72d89f-af22-4770-b308-995751e2fc7f
+ba49117e-dab6-4e7d-bc44-f11dcafa1318	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-7727	4b3929c1-d8d5-4d78-8f2b-46afe18c5d83	34797	4b3929c1-d8d5-4d78-8f2b-46afe18c5d83
+b61abdfd-b7a0-4e1a-b570-d1eaecad3a9e	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-4506	06af3805-5e45-42b5-8008-8d37cc0a1c33	35025	06af3805-5e45-42b5-8008-8d37cc0a1c33
+bab43415-d413-40be-a4c0-2c40a52afe6a	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-2668	65151b69-2ab5-4631-85bc-1236a7c4a9b5	63126	65151b69-2ab5-4631-85bc-1236a7c4a9b5
+b8475929-2d9d-4909-bd62-59684a140bd7	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4390	280af0c4-5378-48b8-bf44-49fa4978c8fb	46051	280af0c4-5378-48b8-bf44-49fa4978c8fb
+bcf2e591-9dae-440f-bd03-5f27c57db741	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-69-7765	3448cbf4-54b4-441f-8294-43ebd5d69573	47094	3448cbf4-54b4-441f-8294-43ebd5d69573
+abd6647b-d2eb-404d-8283-443e92addf55	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-7995	d4a1e710-84be-4abf-9c02-d4ad56bae665	51966	d4a1e710-84be-4abf-9c02-d4ad56bae665
+b2285924-9813-4f46-bb8f-91a0efd8a9b6	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-73-4668	e2ed4c62-4a29-4dc6-8404-aaf520c0cfbd	72847	e2ed4c62-4a29-4dc6-8404-aaf520c0cfbd
+b266cbf5-80de-4473-b16f-08c502d365ca	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-97-7941	1e9dfc87-5fce-491d-a777-73c31c1de495	35100	1e9dfc87-5fce-491d-a777-73c31c1de495
+c4c1469d-752f-42b6-8686-714ad4a8ac97	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-75-6206	7fc0779c-544e-4c44-b13a-52338ac6050c	42797	7fc0779c-544e-4c44-b13a-52338ac6050c
+d288b69f-1e79-4429-8646-9994b7c54f8f	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7154	267651f4-969a-43af-9f84-2b7130e0a6fd	34277	267651f4-969a-43af-9f84-2b7130e0a6fd
+cd0dc947-b708-464e-beb7-954c9d4583e7	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-73-4659	0798e171-987b-4d4f-b257-e2858930ed9c	112134	0798e171-987b-4d4f-b257-e2858930ed9c
+c6d78e27-e510-4f57-abae-19efa6105a8d	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-49-4494	65a5cfec-3076-4ca4-90ce-3f669d073a23	34614	65a5cfec-3076-4ca4-90ce-3f669d073a23
+cc68632c-b1e3-491b-b562-9468e2d1c101	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-86-7713	d0b14930-3fba-482d-ba18-3acda2a1669b	54857	d0b14930-3fba-482d-ba18-3acda2a1669b
+d6e274a0-6425-437b-bc07-1225be7808d5	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-6969	ef0bb8b1-e374-49af-9d81-b537a9ddbc22	26116	ef0bb8b1-e374-49af-9d81-b537a9ddbc22
+ce15f31f-2bad-4485-96fa-495bfa262e66	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4403	2acb4759-54dd-44f0-822c-4a570eb64c3d	26114	2acb4759-54dd-44f0-822c-4a570eb64c3d
+daf0e08e-1738-43f8-874a-b37d79cbe3a7	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7536	a70a5bd8-e13a-4660-8274-49962c75a565	39703	a70a5bd8-e13a-4660-8274-49962c75a565
+ccda26c1-a6d6-4317-8cf8-8a87e15ce12e	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-2662	da71fb2b-a98f-44da-a06a-bf0d893cfbd1	75400	da71fb2b-a98f-44da-a06a-bf0d893cfbd1
+30f276a8-3a4b-4de8-aea0-7f605d100401	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-93-A4JP	b2bdd90f-91f5-480a-97af-ca5a7c7951dc	41417	b2bdd90f-91f5-480a-97af-ca5a7c7951dc
+32a7b827-c3f9-4607-ae63-dae8caa2bc97	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-L4-A4E5	1b74b20d-be60-42b3-b87d-399373e0d8ba	35702	1b74b20d-be60-42b3-b87d-399373e0d8ba
+2db08267-d346-4d42-aac0-b76831903253	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-75-6211	e673cc92-58b2-4253-8eb9-da1f9c81a090	39034	e673cc92-58b2-4253-8eb9-da1f9c81a090
+345aef28-d49b-491b-a337-b1ac55c37d35	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-97-A4M2	cceb2777-813d-49a3-81fe-03d506da112f	35575	cceb2777-813d-49a3-81fe-03d506da112f
+383d1253-349f-43b3-bebd-9f1d1cf14b3d	Unknown	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-MP-A4TD	464d896f-0883-49ce-b583-bd2f33fcc387	38996	464d896f-0883-49ce-b583-bd2f33fcc387
+32592562-11fa-435a-b40b-2b242bae53aa	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-75-6214	d05a2b4b-20e4-4cac-984c-68d8ea93ee7e	43227	d05a2b4b-20e4-4cac-984c-68d8ea93ee7e
+368e23f0-e573-4547-bf5a-14080baf737b	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-50-5930	2a56cfee-9972-42d4-bcd9-d09558448461	45196	2a56cfee-9972-42d4-bcd9-d09558448461
+389f78a3-fa0b-406c-9434-aa0298341a8c	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-95-A4VN	725d6ce8-1884-4184-b1ff-64a7dfa1ce48	35565	725d6ce8-1884-4184-b1ff-64a7dfa1ce48
+bbe88801-34f3-46d2-bbfd-b46c3901ed71	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-93-8067	d556325e-63be-4781-b848-e7ce10f8c762	35821	d556325e-63be-4781-b848-e7ce10f8c762
+4036c6fc-c82e-47bb-a384-6f299dc30b52	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-7672	623bcbd5-9d71-442f-8c0f-361c12c867cd	42914	623bcbd5-9d71-442f-8c0f-361c12c867cd
+41c4c704-825e-49f5-9d54-dbd7d30725e0	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-64-5781	9030abc5-c97e-4282-baec-791bafa158d8	79689	9030abc5-c97e-4282-baec-791bafa158d8
+36bf02f8-c1c8-49f9-a417-adf88a205c70	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4426	d488bd02-8e8e-4b11-b7c8-931733d8f73f	34215	d488bd02-8e8e-4b11-b7c8-931733d8f73f
+3e34c7d9-90fa-41e2-ba6b-4bbc332adc4e	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-A4DG	8bac0ae0-8448-4b5c-9387-87b5bb721b3c	35144	8bac0ae0-8448-4b5c-9387-87b5bb721b3c
+3e635902-5310-4406-8b4d-a238ce382639	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-67-4679	7867b7e9-9be7-4330-998d-729a4799af28	26065	7867b7e9-9be7-4330-998d-729a4799af28
+3b21b982-dba2-45f4-ad8d-21dc86fcaaa7	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-A57B	e7f745dd-3165-42f4-9b10-8bed12d0816d	35322	e7f745dd-3165-42f4-9b10-8bed12d0816d
+42ca54fc-c1ae-41cd-bca1-7fe9810db460	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-2656	e86ea39f-ad73-43b8-b113-098e8c498592	51408	e86ea39f-ad73-43b8-b113-098e8c498592
+3d2aa654-1b5f-4eb4-a1c2-af31f5760069	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4420	f5bb8c13-e39d-4aa8-a84b-aef10215f768	34247	f5bb8c13-e39d-4aa8-a84b-aef10215f768
+d12b6930-9ae4-4fe7-ad69-d183135c91ab	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8091	569d36e3-012f-4ce3-a5c3-f9994d3e3505	35255	569d36e3-012f-4ce3-a5c3-f9994d3e3505
+44dec838-b653-42a7-a58b-a1fd232cd68c	not reported	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-05-4422	78736844-b2f9-4854-b1e8-2b8691ed7890	25907	78736844-b2f9-4854-b1e8-2b8691ed7890
+8214a0d1-5e2d-4a7a-acb1-e5580755db83	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-38-7271	c3058f36-d4ed-446b-9b8c-2bcad1ce7cc5	85246	c3058f36-d4ed-446b-9b8c-2bcad1ce7cc5
+bebd0025-74e2-451b-93b3-86f82df43573	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-MP-A4TE	e1a345be-1310-4572-8d38-069d79a78f6f	44204	e1a345be-1310-4572-8d38-069d79a78f6f
+c9c533ee-e154-4a56-bce9-b5af37574b2f	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-7913	5019c061-5a4a-4fd0-9e93-1f411902f630	35545	5019c061-5a4a-4fd0-9e93-1f411902f630
+c4d1e105-28b7-48df-abef-fbe09782fdb2	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-6972	67699775-f29d-4efe-bbe3-473627c5414e	34605	67699775-f29d-4efe-bbe3-473627c5414e
+ceead734-1ce0-4385-b65a-a9c853b7308e	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-MN-A4N4	de52e3b1-6631-4654-bc0a-236901063fff	35442	de52e3b1-6631-4654-bc0a-236901063fff
+ff9def3d-17e5-4ef6-b74e-933f11ed6f00	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7146	02869c61-8db6-4bf4-9125-3ea33cc26124	34318	02869c61-8db6-4bf4-9125-3ea33cc26124
+ffb0c0b7-165e-4439-b3e6-62431f40b7fe	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-44-3398	3e1196a4-8999-4378-874c-061cab9853e8	42934	3e1196a4-8999-4378-874c-061cab9853e8
+e254aaeb-012c-4d92-8a03-cce1f6a2bcd6	not hispanic or latino	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-55-8087	0c46fbb5-1f35-4581-bca8-5c6b0c868e25	35155	0c46fbb5-1f35-4581-bca8-5c6b0c868e25
+fd5c44ef-ea50-4fba-9e8d-e371cf34ebdb	not reported	female	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-78-7220	82cc079f-2e51-46b9-91c5-b2d48233160a	44528	82cc079f-2e51-46b9-91c5-b2d48233160a
+e379cf55-68ef-4fbc-af3e-0a5040c27f0f	not hispanic or latino	male	Lung Adenocarcinoma	Lung	TCGA-LUAD	TCGA-MP-A4T2	366826a3-b233-445f-9359-407e814eab74	36289	366826a3-b233-445f-9359-407e814eab74

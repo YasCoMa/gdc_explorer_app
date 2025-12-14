@@ -1,0 +1,505 @@
+cases.0.case_id	cases.0.demographic.ethnicity	cases.0.demographic.gender	cases.0.project.disease_type	cases.0.project.primary_site	cases.0.project.project_id	cases.0.submitter_id	file_id	file_size	id
+ce8612ab-3149-4a6a-b424-29c0c21c9b8b	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-43-3394	8e5569c7-67fc-4be8-8013-a5b7c9443ee8	80897	8e5569c7-67fc-4be8-8013-a5b7c9443ee8
+e5987342-bf04-457c-9785-74532ce26834	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-A4QQ	1d1a522c-4558-4d57-845a-eebf6c0d4d8b	42693	1d1a522c-4558-4d57-845a-eebf6c0d4d8b
+03fa3310-406d-4c12-a409-136fc47d996d	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-18-3419	e6665355-00e1-408b-b985-fa069a852b18	33694	e6665355-00e1-408b-b985-fa069a852b18
+8be10ce9-220d-4816-a575-8e8e7f041114	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-O2-A5IB	fe70d0ea-dde0-43d1-9903-65d72a09b7e2	26650	fe70d0ea-dde0-43d1-9903-65d72a09b7e2
+0366c911-3267-41a0-af4b-5e74577ae16a	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-NK-A7XE	fab103aa-0e3f-4f8d-ac95-3fe7db4b9e85	34533	fab103aa-0e3f-4f8d-ac95-3fe7db4b9e85
+19f0cb8c-2e57-4310-967f-a9890f1605db	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-18-4721	0fb9cbd5-b63e-4ef7-b082-86887d103901	33683	0fb9cbd5-b63e-4ef7-b082-86887d103901
+72c49014-f949-4d02-ae71-26a243e0b102	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-52-7809	673dadaa-6439-4803-8f85-29351b9bc1a6	34230	673dadaa-6439-4803-8f85-29351b9bc1a6
+f1b357e4-d67a-42c9-b0b7-12f69fa3da58	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2770	cd2e8c76-37bd-41d2-9e86-6c112c64bc66	25602	cd2e8c76-37bd-41d2-9e86-6c112c64bc66
+3d1f4059-2220-45b4-a4d2-b14f76cec96a	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-60-2726	ac5fad40-7a49-436b-a732-06420640fc44	34067	ac5fad40-7a49-436b-a732-06420640fc44
+4a81f496-bf8e-43e8-8332-9aaef09f485f	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-37-3792	e95503d0-c2a1-4ff4-a478-77bb6b0f8308	33953	e95503d0-c2a1-4ff4-a478-77bb6b0f8308
+cf3cdd9e-43fc-44c7-90c8-e4e13deed9c6	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-8355	b4e1c395-ef3e-49b5-bada-cab382972b56	34422	b4e1c395-ef3e-49b5-bada-cab382972b56
+d00d93d5-8d6b-4e5b-816c-f3d726d65d3d	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-37-A5EN	5a9f0242-6a1d-4924-8229-b9b8110a3737	34618	5a9f0242-6a1d-4924-8229-b9b8110a3737
+b913d254-8307-4b8a-8313-d978e32bb38f	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2766	e25a6a63-a119-465a-a3d3-8bad151ba1c5	25652	e25a6a63-a119-465a-a3d3-8bad151ba1c5
+5489b76d-68d9-48c3-8961-4a147bb23216	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-58-8388	0df7d563-781e-4939-90e6-c661e0e3fc45	35155	0df7d563-781e-4939-90e6-c661e0e3fc45
+68107725-a883-4b33-a366-d9b4adb18028	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-63-5131	d530085d-d073-497c-89a4-922f1ecacda1	34031	d530085d-d073-497c-89a4-922f1ecacda1
+2d25094f-dc1f-4013-bc6b-54c64a666faa	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-63-7020	30787f77-d9fb-49a5-b6d2-0713dbcc2795	42394	30787f77-d9fb-49a5-b6d2-0713dbcc2795
+d3e604d1-f8e3-47f7-86fb-104035590af8	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-98-A538	f53842b7-9406-4fb9-8f0e-38db94ad5539	35054	f53842b7-9406-4fb9-8f0e-38db94ad5539
+6467bc69-4e89-49f6-8912-fa86d513cf51	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-5898	4346e17e-f7e7-46fd-90dc-99089f164cfe	34206	4346e17e-f7e7-46fd-90dc-99089f164cfe
+b9fc1fcf-17dc-496c-a072-7664382bc9bb	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-33-AASL	2e9e2afe-ed81-4609-92d6-646b744bb0c4	26998	2e9e2afe-ed81-4609-92d6-646b744bb0c4
+8e6020a1-68df-4d57-ad4e-33acc0861fb3	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-8277	30746969-aac5-4ced-8306-9c0ed889db0c	34454	30746969-aac5-4ced-8306-9c0ed889db0c
+9ed5c6fe-24d2-4ee6-88ba-7319c9cfa05e	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-58-8391	da3125cc-d691-43ce-9527-cec269237374	51948	da3125cc-d691-43ce-9527-cec269237374
+211bb982-16f4-4f07-b24f-e633703f24c4	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-4591	f75d09d5-98bd-4d00-acab-ebb40ec96110	40518	f75d09d5-98bd-4d00-acab-ebb40ec96110
+96533d5b-6e44-4d8f-8fd7-270dd4f0362e	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-98-A53I	c78bfd5d-4b1e-4f0b-b682-0babe1288407	46592	c78bfd5d-4b1e-4f0b-b682-0babe1288407
+3a74420c-9ee6-4131-8aff-7265b047e6a8	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-39-5024	db5f1763-c48e-4b37-9792-1c39f00b6564	55105	db5f1763-c48e-4b37-9792-1c39f00b6564
+17104d99-8838-4e1c-bd6a-7f1ee7a94bd8	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-A5G6	80792243-d069-45a8-9250-98c1f0fbb369	26997	80792243-d069-45a8-9250-98c1f0fbb369
+0e2ee54a-51c9-4868-842d-a2a1c1cfb016	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-21-1082	d160402a-3111-48eb-9be2-adafab230a68	33692	d160402a-3111-48eb-9be2-adafab230a68
+08ce6fee-2e8b-4398-8c99-aa426d03f523	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-63-7021	b5c66762-b649-41ca-a89d-3ff55744b589	42594	b5c66762-b649-41ca-a89d-3ff55744b589
+15b0bfd4-2068-4ac8-aaa8-a2a6797253d8	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-70-6723	1a0082d5-7193-4832-ba45-53e15c143bb1	38982	1a0082d5-7193-4832-ba45-53e15c143bb1
+0d3c11b5-856e-4d41-b94a-b2e32f9c5792	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-33-4582	0e8420a9-e817-445c-bf34-14eba60a1e0f	34689	0e8420a9-e817-445c-bf34-14eba60a1e0f
+1a49a131-d714-40d7-85b6-c4822c0c6264	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-O2-A52W	ccc114f2-b615-4a4b-8148-184a13f277db	26558	ccc114f2-b615-4a4b-8148-184a13f277db
+23421041-fc75-4610-8a59-3246fb6df7e8	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-92-7341	99957ad9-97a8-4169-b1e2-b046c26636e9	34415	99957ad9-97a8-4169-b1e2-b046c26636e9
+3429df57-5aae-41aa-8247-6a2ea935a934	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-94-8035	050fab91-0c47-4c36-89c7-40c511ec45ff	48574	050fab91-0c47-4c36-89c7-40c511ec45ff
+3666bc65-8e40-409e-9a1f-41583dd6d978	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-68-7755	78f900b0-f926-482a-9e8d-a48231fcddd2	40162	78f900b0-f926-482a-9e8d-a48231fcddd2
+31798d61-fb34-49dc-a20e-091c1a20eb6a	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-34-5236	a7a59453-e971-4207-9961-d21e64771e9d	34334	a7a59453-e971-4207-9961-d21e64771e9d
+34ac236d-942b-4b82-885f-26f174dbc29e	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-63-A5MW	ccd6d2a1-6c55-485a-9de9-d364f860cb62	34975	ccd6d2a1-6c55-485a-9de9-d364f860cb62
+3a756d00-b24a-4646-ae1a-587bd141fc05	hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-52-7622	e30dcdec-449d-4219-8ce9-2462e19286f3	34826	e30dcdec-449d-4219-8ce9-2462e19286f3
+3d6a027b-dfda-42b3-9323-407e42cf6d10	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2737	acd46347-fc29-41b5-842c-d68fd99a7bc2	25652	acd46347-fc29-41b5-842c-d68fd99a7bc2
+3ebd3dcd-b4f1-449c-8b2f-86f90643676b	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-39-5036	7ef2e385-25ec-4a25-8c4f-851dc720cab7	42558	7ef2e385-25ec-4a25-8c4f-851dc720cab7
+45aa07c3-cea4-456e-8000-b4572a2163a8	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-58-8392	2bed08d6-8290-4e9e-8ae5-a23fe0049e8b	27045	2bed08d6-8290-4e9e-8ae5-a23fe0049e8b
+38007506-4865-41d4-83a9-1aa13648f459	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-7223	d2e8d0da-da86-40db-b628-89dafa934bd3	34408	d2e8d0da-da86-40db-b628-89dafa934bd3
+396932ab-c4b3-4526-9201-9222f5f062a5	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-5480	0308fb0c-0a21-4853-8859-f3d271ea613b	57999	0308fb0c-0a21-4853-8859-f3d271ea613b
+4cdac0cf-6598-4d33-92e6-730fbdc88a61	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-A4JC	c27a80b6-3c1f-416d-95b0-be45f590fdba	49277	c27a80b6-3c1f-416d-95b0-be45f590fdba
+5d3d3918-7da8-4147-90a3-dc015be1dfbe	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-37-4141	ecb705ba-7a34-4fe3-bc37-d351a61ceb6a	33959	ecb705ba-7a34-4fe3-bc37-d351a61ceb6a
+4cdeafe4-a6db-498f-a019-6e3a9dc35b2f	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-5491	2822e008-a221-4b79-8e11-e726973e3c51	33600	2822e008-a221-4b79-8e11-e726973e3c51
+4d687740-96ca-4d78-8c78-1a2024ce6b6c	hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-60-2707	2bb3666a-6acf-488b-8d52-dffe665affb1	40118	2bb3666a-6acf-488b-8d52-dffe665affb1
+5860a9f1-30e8-4833-99bb-a6863e78914b	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2727	a2f4e6f8-6748-45cc-b4b8-1d98bd20dbdc	25594	a2f4e6f8-6748-45cc-b4b8-1d98bd20dbdc
+5144fc75-b89e-47d8-96b4-aadd3f0da4e5	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-7141	aecf2cd2-68cb-4997-9e34-dd5647af038c	42041	aecf2cd2-68cb-4997-9e34-dd5647af038c
+6394fe4a-6034-4c79-b28f-aa43e3753730	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-21-1072	1baee66b-af7c-46f4-a0c9-f7e9499447b8	33477	1baee66b-af7c-46f4-a0c9-f7e9499447b8
+644f0c64-c710-4faa-ada5-cbb9a52acf93	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-94-A5I6	a95be273-12af-4837-b69e-3af6017b418f	47146	a95be273-12af-4837-b69e-3af6017b418f
+6b0b6fc0-d808-49c3-8f2a-e122bc3142f5	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-46-3767	5c7a5462-e65d-446e-b81e-016e6a44e4b9	33873	5c7a5462-e65d-446e-b81e-016e6a44e4b9
+64925b54-c354-4290-a5c4-117fcdbf1ebb	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-6842	6dbf9055-ced9-4672-886d-a45b196ffa5a	43941	6dbf9055-ced9-4672-886d-a45b196ffa5a
+67f40b3a-882c-4ac9-9038-0e7b10a5ccdc	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-8070	b73e4447-21a5-4849-b314-1d447a9ff9a0	43214	b73e4447-21a5-4849-b314-1d447a9ff9a0
+6d991de7-8bfb-40a6-9070-edea041bd782	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-A50M	c2f8cfe8-05e9-4de3-bde1-90bec80d55d2	42975	c2f8cfe8-05e9-4de3-bde1-90bec80d55d2
+76618cf5-f6e0-46ef-a1c0-acc0ad9fdccb	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-A62T	c064f5ce-8559-4577-b824-6facac388514	59763	c064f5ce-8559-4577-b824-6facac388514
+86b165c2-d0e6-4a4f-84ed-aa95e3133627	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-92-7340	900ea32a-90e6-48d0-84e3-02f6d17d822b	46912	900ea32a-90e6-48d0-84e3-02f6d17d822b
+9665b02f-970d-41fc-a07c-f01c8e3fe5a8	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-68-7757	7b25e294-6282-4352-8536-bb11993a9bd9	34859	7b25e294-6282-4352-8536-bb11993a9bd9
+9b4fa1c2-ac5a-4e23-8d25-28e1446e7d8f	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-21-5783	04e4d253-180d-4074-b951-2f911ba92967	34180	04e4d253-180d-4074-b951-2f911ba92967
+96e31ca7-b917-4d04-804f-489243f6ee2b	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-8156	f4f75143-9eff-4ef3-8291-0a4a611a6f0e	42643	f4f75143-9eff-4ef3-8291-0a4a611a6f0e
+9ea119ff-e5d9-49ec-b0a2-b21173c48044	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-8009	88d5c9bc-cf8c-42ea-add6-491d19151082	42691	88d5c9bc-cf8c-42ea-add6-491d19151082
+9a874b64-d0d6-416e-97bc-e9071ed0b16b	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-18-3415	0e15306b-e231-4685-adcc-de48bf089439	51187	0e15306b-e231-4685-adcc-de48bf089439
+a2d7c06b-efa9-4b7e-9ea6-b47c9ad6ef38	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-63-A5MR	6de1bd03-f630-48ac-9253-10a66ff1491b	35183	6de1bd03-f630-48ac-9253-10a66ff1491b
+a355bad1-bb49-4de5-892b-691ed0022d91	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2742	fd940216-2f0b-419c-935b-4e29fa32a714	33880	fd940216-2f0b-419c-935b-4e29fa32a714
+9af6ed4e-8cdc-4f49-84e9-ba1053b5b3ca	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2793	a1f9001e-91ed-4d8b-af7b-ac03bbd774c4	25645	a1f9001e-91ed-4d8b-af7b-ac03bbd774c4
+a57414a5-fcdb-47b5-b07e-edc7dc460783	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-33-AAS8	0a95fb56-8c3c-4ca3-858b-786b77d46cad	26595	0a95fb56-8c3c-4ca3-858b-786b77d46cad
+b0818bee-c32c-405c-ba09-956091fbe09b	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-43-6771	b50fb313-f284-4f07-b20e-becbfdcd0cd9	34447	b50fb313-f284-4f07-b20e-becbfdcd0cd9
+bcb6447f-3e4c-44fe-afc3-100d5dbe9ba2	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-A512	0bae7985-92b0-4395-b2c7-a44800abeb1f	46530	0bae7985-92b0-4395-b2c7-a44800abeb1f
+aef2cf2f-2067-4d77-9bbe-0f6801826c31	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-8276	c36c83b9-de6c-4020-bb04-8eedbbe2d6cf	52334	c36c83b9-de6c-4020-bb04-8eedbbe2d6cf
+b3a6edcd-6592-44fb-9ec1-037138bfbdaf	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-5897	d41903e8-9fdb-4dc5-ab06-563bf8eb3c4c	33916	d41903e8-9fdb-4dc5-ab06-563bf8eb3c4c
+be5dcf02-8097-4a97-af32-6a9b02c079d3	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-39-5034	4f1d4e0a-d68e-49e1-9918-c2e15dc233cd	34167	4f1d4e0a-d68e-49e1-9918-c2e15dc233cd
+bf57d48c-ed43-4c3d-a689-8f60ef023372	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-A510	1421007d-d54b-4c27-9b6d-287a326dbc63	35322	1421007d-d54b-4c27-9b6d-287a326dbc63
+ba42da22-44c2-488f-91f0-e274948b5cef	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-8143	840b4298-67c2-4f65-a67e-b563b318fd8f	34609	840b4298-67c2-4f65-a67e-b563b318fd8f
+c7b23a5a-c49a-4426-bd4e-b191f4227ac6	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-8007	5617a5cb-68fd-4df4-ab06-afa7c4f6e94f	34297	5617a5cb-68fd-4df4-ab06-afa7c4f6e94f
+c935a05d-0bd5-4fad-8e06-950afe022bca	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-8351	f0a3a9cb-4a92-4e1d-9c3c-2921f4d504dd	46435	f0a3a9cb-4a92-4e1d-9c3c-2921f4d504dd
+caa36b5c-852b-4259-8db9-1091b1f02edd	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-7697	9068c6db-56be-474c-93ea-05aac4bada75	46112	9068c6db-56be-474c-93ea-05aac4bada75
+d49b0369-905c-4608-96a9-cc854980fc4c	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2781	45b34e22-cb66-4866-8b2b-c71fbd6f8ec6	25651	45b34e22-cb66-4866-8b2b-c71fbd6f8ec6
+d9b6a10e-ab02-47d9-a6c2-bb0c80238d29	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-39-5028	e0fe0e8c-6d6e-4ac4-9e5a-f254a8bfd47a	33889	e0fe0e8c-6d6e-4ac4-9e5a-f254a8bfd47a
+d5e14ef5-1b78-4498-a2e2-77070c83eb7f	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2783	2b801ede-1b2a-4214-8765-e578196c867a	50194	2b801ede-1b2a-4214-8765-e578196c867a
+dc6ceece-efaa-4b9d-9e12-d35863d7a902	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-92-8064	c648e561-014e-4615-b64f-f239b4cfdbcb	46830	c648e561-014e-4615-b64f-f239b4cfdbcb
+e487c72f-2cb4-4a88-bd69-cd006d5b4c1a	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2788	622a5054-4089-47a2-be0a-152fc905d79d	33842	622a5054-4089-47a2-be0a-152fc905d79d
+dca4c540-897f-435b-9ee2-8f5b2e8734c6	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2758	95f6f974-46c2-4ec5-b84c-f5d98616eb6a	45546	95f6f974-46c2-4ec5-b84c-f5d98616eb6a
+e28cbc9a-aa60-4bfb-8d89-8c33ee97f560	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-18-3417	a0a8886a-2770-455f-8c3b-8767168771fb	45228	a0a8886a-2770-455f-8c3b-8767168771fb
+eca4bfa2-5ba5-4708-959a-d901c1b61edd	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-39-5040	477f967f-51e2-4c5b-8023-ebde40f24301	83529	477f967f-51e2-4c5b-8023-ebde40f24301
+e5e4ead7-f2d8-4d72-aedc-393ee002a081	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-4599	e366b58b-5f00-450d-9df3-574cf87dab41	33607	e366b58b-5f00-450d-9df3-574cf87dab41
+ee54896d-0895-47fe-b432-ef922deba5d8	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-7950	18e512c5-5389-4f90-9d26-74d0be7bb0e6	34503	18e512c5-5389-4f90-9d26-74d0be7bb0e6
+ee850103-6314-41a3-9734-8b520de95b40	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-7139	cca5b440-82ae-4fc1-8f57-264ccbedd7e7	47129	cca5b440-82ae-4fc1-8f57-264ccbedd7e7
+e8bc2eea-dc6e-420b-abe8-e36989e75df8	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-46-6026	41983fd2-1e48-4306-818b-a225c4192f5e	64341	41983fd2-1e48-4306-818b-a225c4192f5e
+f2e35ffc-c87a-4e42-9c8d-e7e5d8b49d87	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-NK-A5CT	5568fce2-dd74-4c77-bf7b-7ead2ea4d3b2	43480	5568fce2-dd74-4c77-bf7b-7ead2ea4d3b2
+23e65963-d9f3-4cec-953c-4dd06f7d8668	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2777	8382d0e4-09ec-43ae-a070-96fcdddbb89e	25651	8382d0e4-09ec-43ae-a070-96fcdddbb89e
+87ac0ad4-8c9d-409e-9a86-1d201d01769d	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2789	862932f0-05ee-46af-b677-a822e7a27307	25643	862932f0-05ee-46af-b677-a822e7a27307
+8a235eb8-d67d-49fe-a473-1777eb7e7c60	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-37-3783	c6336368-11cc-4e06-a847-4fb53173ae8e	33927	c6336368-11cc-4e06-a847-4fb53173ae8e
+aecd6689-f203-4519-afab-3f46ee9d3e2c	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-37-A5EL	f803d688-4350-453f-8877-bd5cec608304	45307	f803d688-4350-453f-8877-bd5cec608304
+d3f8c35d-5197-43fa-a243-2baf9c44cf74	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2768	39831a9a-ec57-42d7-94ca-bf8c5be27218	25538	39831a9a-ec57-42d7-94ca-bf8c5be27218
+169b32f1-4371-464c-ac94-22b7d7389403	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-NC-A5HR	1060e35d-5965-4bf4-9df4-2950766533ce	54893	1060e35d-5965-4bf4-9df4-2950766533ce
+18f18672-2a23-4e26-987b-38c454ff46c7	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-34-5927	c181362f-bd7d-4150-a94e-ed2dd3e09000	54025	c181362f-bd7d-4150-a94e-ed2dd3e09000
+3c56a43a-91f1-4a66-9cfe-d2e26b86a936	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-1005	f35931bf-6a67-4d29-8710-6c566576a342	33986	f35931bf-6a67-4d29-8710-6c566576a342
+b5e2cbda-bbfa-4ef8-a9c4-cb978bef9b23	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-7582	11540016-ed85-49da-b38f-750a902ea04b	34267	11540016-ed85-49da-b38f-750a902ea04b
+ad112acb-d241-48a0-8e48-d69cdc3feba8	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-43-2581	a9d7a5ca-a92f-4990-9ea6-684d411b05bf	55215	a9d7a5ca-a92f-4990-9ea6-684d411b05bf
+c9439a80-abf5-4ede-b552-7784bb14213a	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-A4ZJ	00e2e9f8-2330-4df7-af66-bec0ba85a123	34776	00e2e9f8-2330-4df7-af66-bec0ba85a123
+e7d1b042-5b1c-4c29-b501-a5ef4810ecd2	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-34-5240	214f8b43-4945-4c3e-a3f9-809e9e557984	54138	214f8b43-4945-4c3e-a3f9-809e9e557984
+d484c95f-5128-4239-a6e5-1496de39ba4b	hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-68-8251	d52f65d4-e501-4d5a-b597-4883599ecd59	46351	d52f65d4-e501-4d5a-b597-4883599ecd59
+8479ec58-f5e7-4d9d-a382-2688ed93ca8e	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-51-4080	6afaac8c-1536-4773-87cd-c5df477394a9	33630	6afaac8c-1536-4773-87cd-c5df477394a9
+a3e1ac67-a1f2-44fb-8343-a7e8239fc24a	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-60-2724	20a42e9a-f404-4b97-8658-144f7d6b2fbc	45979	20a42e9a-f404-4b97-8658-144f7d6b2fbc
+df7c9193-0bd2-4fd9-8ae1-1f9d341e92c5	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-0944	5edbd119-6a78-47e6-9fe6-ff081a9e476f	33755	5edbd119-6a78-47e6-9fe6-ff081a9e476f
+531d1248-76ae-46a1-8f65-cdecf9bcb0d8	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-63-A5MT	4b3a6aaa-55cf-4bca-999f-e6a5dba51a37	38707	4b3a6aaa-55cf-4bca-999f-e6a5dba51a37
+d4bc755a-2585-4529-ae36-7e1d88bdecfe	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-18-3408	44405b0e-766e-45b0-bc94-b3f8fbf99606	34125	44405b0e-766e-45b0-bc94-b3f8fbf99606
+921daff1-65e7-4182-9822-04f48f0a178d	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-8354	7b3c5efd-3030-4129-a837-760f91b11ddc	42818	7b3c5efd-3030-4129-a837-760f91b11ddc
+f03aacb8-5565-425f-a8d5-be1056f882e0	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-60-2725	5f71e7af-5676-4aca-88db-15a73aa0970e	34246	5f71e7af-5676-4aca-88db-15a73aa0970e
+7224cb42-6799-405f-819d-d45b1cef075e	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-A5C4	c309c062-dd30-4d5c-b88f-9bdccef9af5d	35246	c309c062-dd30-4d5c-b88f-9bdccef9af5d
+00fd9306-4a68-49ab-a768-e5fed126a765	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-NC-A5HJ	8781bb2f-e644-4ca5-82b9-d72d212c9041	38739	8781bb2f-e644-4ca5-82b9-d72d212c9041
+14b159f8-c31b-4e2a-a76d-fe32026e85bb	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-58-8393	d51bdb46-e03a-4be2-8085-14d0e8f66f43	35188	d51bdb46-e03a-4be2-8085-14d0e8f66f43
+0f8a76a1-4c3e-42e1-9df3-95aa3ae8e676	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-68-A59I	ec929fe2-05e2-430b-b41c-14222d56738d	71306	ec929fe2-05e2-430b-b41c-14222d56738d
+0c80ab20-7e33-4f1d-b136-07782b68e98b	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-4604	d627e6b5-079b-4921-9028-261bf68970bd	45314	d627e6b5-079b-4921-9028-261bf68970bd
+1cbf2cad-75c3-4615-9734-0fcdc00dcee5	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-37-A5EM	6b333cf3-92c4-4c20-8ea9-9ca7566433ca	34615	6b333cf3-92c4-4c20-8ea9-9ca7566433ca
+10c3acc1-5c0b-4312-9521-2e4104396c24	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-98-8021	f2fc7df7-4cea-4b7b-a641-6b24c88b7dc3	35423	f2fc7df7-4cea-4b7b-a641-6b24c88b7dc3
+0cca2b84-62bb-41c6-a65d-c27e4e98af78	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-96-A4JL	70c950dd-f47a-4370-8dcb-c5b7fbaaa964	54918	70c950dd-f47a-4370-8dcb-c5b7fbaaa964
+10d8e6ad-f7ef-4acf-a9c2-25834bea71c9	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-7844	cf84342c-1786-40d4-bca0-6cc3048b8159	34628	cf84342c-1786-40d4-bca0-6cc3048b8159
+174cdc32-e94a-4829-b6b7-df560de55be2	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2767	cbb00d66-33b4-4e54-8b13-7d5d10a54174	25652	cbb00d66-33b4-4e54-8b13-7d5d10a54174
+18058bfb-a008-410f-8e04-7c2b45a856b7	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-1011	dcfdd8cd-ce20-4065-abda-71aaf66f5104	33874	dcfdd8cd-ce20-4065-abda-71aaf66f5104
+0d6a7cdf-daf5-4181-864f-430952e6fdb3	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-60-2723	a7760371-aafd-4754-8ea0-35c3cdf641af	42167	a7760371-aafd-4754-8ea0-35c3cdf641af
+1f084d72-fbf9-4787-b107-815b481b1a6e	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-8629	999942ea-bed2-47a5-9f73-14b9756893d3	46725	999942ea-bed2-47a5-9f73-14b9756893d3
+1aeabf26-ac51-4173-ab8b-5d439ceca9f4	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-A49D	564d2f36-7fc0-445e-a578-cbeff6df31b6	34665	564d2f36-7fc0-445e-a578-cbeff6df31b6
+2e007464-f3f4-4eb2-bab8-91b8272c96d1	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-6175	3f9a3eed-4e47-4546-9a1d-f23e2c08d8d4	34281	3f9a3eed-4e47-4546-9a1d-f23e2c08d8d4
+234c7de4-ce5b-4a2f-ac46-9da61cff1680	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-8625	19ca2186-eb62-4b98-9373-6537c636e435	52581	19ca2186-eb62-4b98-9373-6537c636e435
+264b3066-b77b-4375-9847-adcf22dbc438	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-A4JB	6dc08b3f-35e1-4065-8a2e-bf24ad288c16	49122	6dc08b3f-35e1-4065-8a2e-bf24ad288c16
+2e7cd434-0440-47a2-bc59-8805b8324ec4	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-4607	3ed8bae4-ed27-429d-b989-b45604fae59c	33940	3ed8bae4-ed27-429d-b989-b45604fae59c
+337e77b3-7f58-4f92-96a4-c764b1ebfa56	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-60-2720	d0c6194e-fbf4-498a-a4fc-3a176d751878	46258	d0c6194e-fbf4-498a-a4fc-3a176d751878
+3602e21d-0c65-43a9-ab8d-95bbf20ceba7	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-96-8170	0fd80a27-2af3-4af9-bbb3-f42d3832487d	35043	0fd80a27-2af3-4af9-bbb3-f42d3832487d
+484c6114-ea0b-4c00-9f50-74fd413bd6dc	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-8287	35f8247c-2d39-4d23-a9fd-4e45ef109af4	34841	35f8247c-2d39-4d23-a9fd-4e45ef109af4
+463e921c-ec20-4263-ad24-bdc2d56edb56	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-8140	2549000a-b69d-4060-a595-c875b230a2d9	34619	2549000a-b69d-4060-a595-c875b230a2d9
+395babb3-3f5d-4e71-a675-af4443f23028	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-8052	3ff8842f-1fb5-4fa1-89be-e9cdb9894c64	34928	3ff8842f-1fb5-4fa1-89be-e9cdb9894c64
+4add88b7-169a-448f-b063-c7e6402628f1	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-21-5784	dd50eadd-f56d-4e24-b514-0f69327426f6	42466	dd50eadd-f56d-4e24-b514-0f69327426f6
+4718e180-c166-4826-b5a1-945f4a56eb16	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-60-2709	339b5658-fea2-47d1-9c80-c6f5cea8e53f	34166	339b5658-fea2-47d1-9c80-c6f5cea8e53f
+4c806d29-1674-4542-9f30-5c9a0fc184c4	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-18-4086	bed36791-75c5-4c20-835b-a6aa2e7c3a1d	25526	bed36791-75c5-4c20-835b-a6aa2e7c3a1d
+569691a3-15b4-4b1c-b8b7-b3ad17d0996e	Unknown	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-8154	e3c3ddbe-bf0c-483d-ab25-1a127f49376e	42946	e3c3ddbe-bf0c-483d-ab25-1a127f49376e
+761d1c28-d5f5-497c-b9a0-86263ec62979	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-90-7769	b4fb15fc-57ed-4b40-ab25-f3df71dbd42f	34754	b4fb15fc-57ed-4b40-ab25-f3df71dbd42f
+6eae9623-b4f2-440c-8283-46c7016f953a	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-37-5819	004b936a-98be-432b-925d-a25dcbc40f1b	34094	004b936a-98be-432b-925d-a25dcbc40f1b
+7b236171-2e7a-4018-b297-560ea8279ec0	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-7823	91adc3c8-edab-40a3-8d79-cebc85a9343c	46602	91adc3c8-edab-40a3-8d79-cebc85a9343c
+7ff92b3b-e810-42e2-9aa3-3e2335bb0f4a	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-8145	0dd20c58-c1e1-4a8b-89d3-34d2986aaafa	35223	0dd20c58-c1e1-4a8b-89d3-34d2986aaafa
+861d45aa-b15d-4e7e-b751-f55a64c4cac3	Unknown	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-8304	4c0a5cbd-7d04-4742-b425-797ffdafe087	34283	4c0a5cbd-7d04-4742-b425-797ffdafe087
+7d905f8f-3967-4ea8-96c8-17b1b03fbec3	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-43-5670	698db979-99ab-459e-9675-ac8a599cfb71	55439	698db979-99ab-459e-9675-ac8a599cfb71
+80242454-84b3-4fba-a64b-7d1714cdecde	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-90-A59Q	34a2977d-8bd6-4780-8627-01146723415d	45735	34a2977d-8bd6-4780-8627-01146723415d
+86be9147-65f6-43f4-a3e9-5e5f422bd0ff	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-8144	690e201e-57cf-4669-aa1f-c1b4b2059d39	42590	690e201e-57cf-4669-aa1f-c1b4b2059d39
+8d18e026-668b-4513-9c68-9e03b18592e3	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-63-A5MV	a1c2b3ce-403e-4dd6-ad59-cca8c2526b73	46972	a1c2b3ce-403e-4dd6-ad59-cca8c2526b73
+80b5ef6b-6b2d-4f87-b4a9-5c22f7bfda7c	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-58-8390	f5f7b226-fbb4-4c96-a4d4-2e2d443a60a3	35220	f5f7b226-fbb4-4c96-a4d4-2e2d443a60a3
+8a0f8d00-86a0-4c63-a8d5-43bd2e13bd96	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-A50Z	6d817261-7f81-4b93-ac74-517441391a91	46717	6d817261-7f81-4b93-ac74-517441391a91
+90648a49-997b-418c-9724-bd1d216eb861	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-8048	74abc8fe-9d31-498d-80d4-58b43c672cb9	34808	74abc8fe-9d31-498d-80d4-58b43c672cb9
+90b02be3-5496-40a2-8c6e-460d2898aadb	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2782	e43d1069-6817-4bae-8b2b-7cf3961d1a86	39644	e43d1069-6817-4bae-8b2b-7cf3961d1a86
+9d841e6a-b292-45be-8a7a-50d54606592b	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-21-5786	15f4e013-9373-4edf-a4f6-66718df97e0b	42710	15f4e013-9373-4edf-a4f6-66718df97e0b
+9f20b4bc-ee09-42ef-9392-68054a7a2cfe	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-39-5031	44628c78-bf76-41b6-9da1-fbe9038c82e2	42475	44628c78-bf76-41b6-9da1-fbe9038c82e2
+a3583ffc-adb9-40f5-8ec5-8a4f6f432220	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-43-6773	e81bc026-292a-4cf4-84d3-4fa1b462dc15	34044	e81bc026-292a-4cf4-84d3-4fa1b462dc15
+aabc43bb-485a-49bc-b48a-d4e4ecd46d33	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2778	2d20a794-f61e-4a71-9a8e-187029e7c2cb	50281	2d20a794-f61e-4a71-9a8e-187029e7c2cb
+a02932f3-5606-42a5-aee4-e5b9f5aa1aaa	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2757	186b5364-cbf8-4e5b-b038-d20b250d1a0b	56120	186b5364-cbf8-4e5b-b038-d20b250d1a0b
+ac274a44-de25-4bc6-8699-472576892c62	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-8503	c3e0b58d-d4d2-481e-a04e-5ea1bbc335d3	26285	c3e0b58d-d4d2-481e-a04e-5ea1bbc335d3
+af1d9d69-0a45-4ad3-9873-57fbe4a4b895	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-18-3414	e7a4fdb8-a7ec-4fc0-850b-7a6bf6eb612e	33881	e7a4fdb8-a7ec-4fc0-850b-7a6bf6eb612e
+ae343aae-7273-4c46-826d-01377bed5a75	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-98-7454	47d4ba0b-7963-40d6-85cf-b4954485b9c0	42407	47d4ba0b-7963-40d6-85cf-b4954485b9c0
+b206617b-90a7-4467-b2ba-2000b2c6992d	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-7335	0f5ee176-b037-4050-8333-71170b27a533	33891	0f5ee176-b037-4050-8333-71170b27a533
+af02050f-ebc4-4171-b63b-3b3faa279f2b	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-6545	dba316bd-b0ad-44f8-a71d-c1982b4a22f2	33959	dba316bd-b0ad-44f8-a71d-c1982b4a22f2
+becc8bb8-bdbf-426c-b9b6-a23558eb13c1	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-8133	bbc3bbf5-dffa-404d-98dd-09cf84345869	34625	bbc3bbf5-dffa-404d-98dd-09cf84345869
+c32e04c5-2760-4a11-a7a9-ded1f4eb3a8c	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-7731	9e4e9158-49c3-48d8-8627-03eda99b9f61	34371	9e4e9158-49c3-48d8-8627-03eda99b9f61
+b9a81947-0348-4fe6-a0ac-d674cd13aa99	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-21-1080	4e5adc53-5c04-4a1c-a238-b68a4669d4f5	33792	4e5adc53-5c04-4a1c-a238-b68a4669d4f5
+c0bb1051-09b2-46f3-a22b-fe313b1a6a4e	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-A4BY	321cbbce-92b9-42a5-9f8a-c4d956e5d0a0	39925	321cbbce-92b9-42a5-9f8a-c4d956e5d0a0
+c1cac0d3-8074-4636-a0b9-47eeede6503b	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-60-2706	90fabc0e-570b-4a66-9c7e-d83c761fdc05	42056	90fabc0e-570b-4a66-9c7e-d83c761fdc05
+ce94e544-8887-479f-83cd-27b1c740e4c2	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2785	848215d4-d562-4065-a45f-add38b429d75	25607	848215d4-d562-4065-a45f-add38b429d75
+d11c4976-ba19-4616-be79-d1e321c26d07	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-21-5787	f9b5eb0e-0252-42ab-80ab-3af0c7ca51ec	44012	f9b5eb0e-0252-42ab-80ab-3af0c7ca51ec
+d1cea7b9-9ba9-4461-ba9e-9b45b6f5af66	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-A5B5	d3616773-a3ac-43e6-9ef3-3629f2e5234e	34106	d3616773-a3ac-43e6-9ef3-3629f2e5234e
+d92cda30-29e0-452a-9de1-1c00758bbb8e	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-98-A53A	e10125e7-08ad-403b-b681-82d6f01b60b9	34873	e10125e7-08ad-403b-b681-82d6f01b60b9
+d539844b-d65d-41e6-a8f0-fa884df118bc	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2753	2d7bc74f-55e6-4179-9657-61ae3682fdea	25651	2d7bc74f-55e6-4179-9657-61ae3682fdea
+d598c429-6027-44a1-88a9-e0c396490942	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-96-8169	c1256da6-6e74-4945-beb8-6fc9f1cd4e3c	35093	c1256da6-6e74-4945-beb8-6fc9f1cd4e3c
+da61857a-b00e-4a19-ab02-8fbb2ee56bea	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-34-2600	0982e1c9-f015-44fa-af3a-7a07ff6f6906	33856	0982e1c9-f015-44fa-af3a-7a07ff6f6906
+dce87821-a5cd-4415-ab0c-ac5ed2459929	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-63-5128	4cb74081-73fd-4ecf-8735-5e42fe0d03e3	34022	4cb74081-73fd-4ecf-8735-5e42fe0d03e3
+ddac166a-425a-4fce-8df8-f945a2eaa198	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-XC-AA0X	bf2666e3-6b97-4944-bacd-3e77d4a4e667	26702	bf2666e3-6b97-4944-bacd-3e77d4a4e667
+ddf19eb8-c3fe-441e-b6cf-c4943b6789d9	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-63-A5ML	ffc9539d-44f8-4ad7-8b81-b78cde52a3db	46574	ffc9539d-44f8-4ad7-8b81-b78cde52a3db
+e2e9a34a-8838-4e08-bb80-83f357704328	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-NC-A5HN	ac0b3e0a-39a5-4bdd-8213-164a8029f2e0	43271	ac0b3e0a-39a5-4bdd-8213-164a8029f2e0
+e21964b8-47c7-4a5f-bfa7-7206222883d2	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-21-5782	9f409523-7aa7-4204-a2a6-d8bcaf2fc6b4	33733	9f409523-7aa7-4204-a2a6-d8bcaf2fc6b4
+e58e8850-154f-4695-bee0-005c76410327	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-60-2713	fdd4ae2d-4204-4e06-ac6d-d1127297629a	54892	fdd4ae2d-4204-4e06-ac6d-d1127297629a
+e731fed6-be23-4b19-8550-6e500613c468	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-8622	97569a11-7a69-43af-8f49-61d7a95341ab	26258	97569a11-7a69-43af-8f49-61d7a95341ab
+2c8877f9-ee7f-4216-97ad-d2939a13daa4	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-4613	ae84b4ef-f364-43a9-bcfb-f7d46c035df3	33736	ae84b4ef-f364-43a9-bcfb-f7d46c035df3
+a402e786-132c-4095-bb75-22be04b5d835	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-46-3768	878a5998-4db8-42e0-9cb5-14bbf345ee7b	53309	878a5998-4db8-42e0-9cb5-14bbf345ee7b
+b9817e22-ec5f-4a66-bf24-0f9fd9d3231e	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-8307	4ab6be25-291e-4845-b8b7-cd1554605885	34738	4ab6be25-291e-4845-b8b7-cd1554605885
+aa53c701-4b65-4c26-a6f0-02a4498717a8	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-4595	1c1dc032-e431-40b2-a39e-c0e051dae545	97011	1c1dc032-e431-40b2-a39e-c0e051dae545
+95c4c851-6ca3-4416-90ed-73f46f211583	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-37-4129	056a20b9-92a7-442b-ac35-e59ac6ee6795	34624	056a20b9-92a7-442b-ac35-e59ac6ee6795
+3b25aff2-9b5f-491a-8eff-d71a9cc8666b	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-63-A5MY	efe537fb-44f1-4005-8702-98f577a64544	34993	efe537fb-44f1-4005-8702-98f577a64544
+06b70dee-14d2-45c7-b6f0-4d1d29c575ea	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-A4QR	f32c7959-b6e8-4807-860f-6e2da3e7a38f	34778	f32c7959-b6e8-4807-860f-6e2da3e7a38f
+fc6fa488-f8e3-4336-97dc-bd8c087c70e6	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-6844	9b8bb8e7-bf4c-4d38-9386-540a299f0d9d	39240	9b8bb8e7-bf4c-4d38-9386-540a299f0d9d
+fad202a4-11f2-467c-8311-aca60cecf16b	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-33-4566	8335c497-348b-4f86-8b7a-f33813641c3c	33980	8335c497-348b-4f86-8b7a-f33813641c3c
+9eb9e06f-bdfd-47f0-b5be-472a1e276f2c	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-39-5022	c4b77a16-15ad-4b67-a659-b78e284014e0	34214	c4b77a16-15ad-4b67-a659-b78e284014e0
+4fbf2497-0774-4599-8c90-1961612b8e3a	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2800	a0b9c7f4-e8ab-4b56-aec2-fcd4e686daf7	33846	a0b9c7f4-e8ab-4b56-aec2-fcd4e686daf7
+12bd70f5-2542-48cb-b296-ae9241b38f7f	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2734	e791d407-e1b4-42a2-984d-2c7358d2f739	33845	e791d407-e1b4-42a2-984d-2c7358d2f739
+d76c589c-6fab-493e-9cb0-0d6d06a1047e	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-NC-A5HM	b8e2801d-82b1-459c-85a6-d756268a9468	34951	b8e2801d-82b1-459c-85a6-d756268a9468
+b80ced5e-36b1-48d0-a8a9-0245aeb5f368	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-A5G3	43c67b81-234f-4123-80b9-c9989c30959d	42789	43c67b81-234f-4123-80b9-c9989c30959d
+3f43c83e-c2a2-4224-9da0-0757b9c7d4ca	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-51-4081	949ddee4-07dd-474b-81ed-863f28a87313	54161	949ddee4-07dd-474b-81ed-863f28a87313
+fb2fc561-3870-439c-90e2-13ef9e47c013	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-92-8065	cf8b97bd-3236-4f57-8842-411f69d970f1	35311	cf8b97bd-3236-4f57-8842-411f69d970f1
+34193c52-837c-4cf8-850a-00ae55be28ec	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-37-4133	3601d2d7-34a6-4bc3-920c-a6733a415e0c	34213	3601d2d7-34a6-4bc3-920c-a6733a415e0c
+a77675bd-ed25-45f4-b418-cb8fc979c780	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-A4ZK	ad55c9e2-69d1-4932-927b-8e7cfecdc7c5	34799	ad55c9e2-69d1-4932-927b-8e7cfecdc7c5
+01417822-b608-4934-8fe0-594315212be5	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-7843	535145ac-32c5-47f6-b37f-45896c9acd27	34027	535145ac-32c5-47f6-b37f-45896c9acd27
+159b96ab-2eb9-4604-be8c-e38f6aae103f	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-8352	0ba9bc75-135d-4be4-8761-c684957c4073	34902	0ba9bc75-135d-4be4-8761-c684957c4073
+1e3eb77c-d85b-437e-8b8c-12e5bd0e93dc	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2763	f2b465dc-35ca-41d4-a34f-059fd34c8945	25652	f2b465dc-35ca-41d4-a34f-059fd34c8945
+14313474-376f-4606-9ed9-25ed2acff411	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-58-8386	5b9003f6-32ba-4be5-bd93-bac4b2041c66	26644	5b9003f6-32ba-4be5-bd93-bac4b2041c66
+1ee543d5-b8c0-4f79-8373-6bb6319f2ee2	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2744	f99c5b25-fd95-47f3-94fd-c1fdaf762c34	25651	f99c5b25-fd95-47f3-94fd-c1fdaf762c34
+1f6b2aca-7357-40d1-ba7a-99227d9900a2	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-37-4135	7a90df0c-0f5c-4c40-b94c-ee96a861e2a8	34196	7a90df0c-0f5c-4c40-b94c-ee96a861e2a8
+20765a71-fa13-4d5a-9e66-9ffe961f72ad	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-98-A53D	9229815e-fecd-4623-8793-6f68b7149839	35365	9229815e-fecd-4623-8793-6f68b7149839
+26b3a62a-132e-401f-bb7f-e9cb9eff71c4	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-NK-A5CR	9824e7f9-8171-4fad-84fe-828e7e7ebd98	34852	9824e7f9-8171-4fad-84fe-828e7e7ebd98
+3336ee77-a6f6-4d3a-93f9-585ebc48ffba	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-8153	05bda3e8-86bc-425a-96f4-4032fc31d1f9	35032	05bda3e8-86bc-425a-96f4-4032fc31d1f9
+2cc8743a-e759-4250-82be-893376933930	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-8624	59a9b017-4ab0-48d1-86a0-03e2729de4bc	46344	59a9b017-4ab0-48d1-86a0-03e2729de4bc
+2f4c473d-7a1a-4004-936c-8d4a7a24e212	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-7463	77365722-f0d8-43e3-ac14-bf67a3c4ad47	33884	77365722-f0d8-43e3-ac14-bf67a3c4ad47
+376dfd27-68e8-4a1a-9c4f-5064279b2a9e	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-33-4586	8fe34a6f-96c5-44be-9ca1-39795294812c	34691	8fe34a6f-96c5-44be-9ca1-39795294812c
+40dc2edc-4bde-441d-8fc5-8ce1bd42f267	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2792	bb55b6ee-7d1b-4366-ab34-2917d4c891d5	45550	bb55b6ee-7d1b-4366-ab34-2917d4c891d5
+40e928e8-bedd-4b86-81bc-b581bfc897d4	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-43-6647	5d290588-9af6-42fc-b747-6120e6ce5bd4	54327	5d290588-9af6-42fc-b747-6120e6ce5bd4
+469eba45-5046-4d8a-9f9a-dfbd1e7cf560	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-60-2704	b6a14540-8e8e-4c03-804c-b2bef452225b	76864	b6a14540-8e8e-4c03-804c-b2bef452225b
+4a95ce25-d06a-499d-b7ee-aff5ee94d4f1	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-NC-A5HP	bab4b579-4970-451f-9c37-9ebd36c9aa72	94189	bab4b579-4970-451f-9c37-9ebd36c9aa72
+46cc3a2b-91c9-4a74-8989-992585634b87	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-33-4587	a21c73cf-8b9a-4985-b367-428fe2331322	77958	a21c73cf-8b9a-4985-b367-428fe2331322
+418a004e-d5a9-461b-8764-4b581b6b8223	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-92-8063	a6ebebd2-7a98-4eec-9983-1db991ad7979	51907	a6ebebd2-7a98-4eec-9983-1db991ad7979
+42f86ec9-85a0-4015-990c-be445f532197	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-NC-A5HO	795690ef-c192-48e6-bfed-4ffd4982c6fe	54950	795690ef-c192-48e6-bfed-4ffd4982c6fe
+4b185183-7e94-4aab-b19d-6a2e48b85a5d	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-NC-A5HQ	d08b78c8-0633-498f-af6f-fba27dfe03f0	43100	d08b78c8-0633-498f-af6f-fba27dfe03f0
+52924e27-7b36-4e25-83b2-abc51dd72668	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-8584	70d6ac94-6e69-457f-9fba-4299c86d03ec	34648	70d6ac94-6e69-457f-9fba-4299c86d03ec
+636d0804-8a63-4bd0-86b4-dc1dc71da8b7	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-8146	05ea0424-1c27-46dc-bf23-29b56958c3b1	42711	05ea0424-1c27-46dc-bf23-29b56958c3b1
+5b3cb83b-cfde-42dc-a6ec-0127bd0e6685	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-NK-A5CX	e2e9c512-6b51-4a5a-b244-cb0e68eaa7c0	34642	e2e9c512-6b51-4a5a-b244-cb0e68eaa7c0
+637e900e-64ab-4bff-82b9-3ba6b5632f35	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2754	cd90620e-991a-4943-9644-205ff7224101	25652	cd90620e-991a-4943-9644-205ff7224101
+7d3e77cc-9603-4722-8e39-1912b678871b	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-34-2596	7af57f09-e656-4d89-b5df-9337d486d401	33865	7af57f09-e656-4d89-b5df-9337d486d401
+81b7cbc1-c037-426f-95b0-d729a30697da	hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-52-7812	327a2b7d-a270-4286-8560-34b6e8119c83	51266	327a2b7d-a270-4286-8560-34b6e8119c83
+7d8d5dff-bdc1-4000-bc52-1fc3be3f6da4	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-34-8456	2d6c1fda-5848-468a-bf9e-ef380dc99962	34536	2d6c1fda-5848-468a-bf9e-ef380dc99962
+8bb3ed57-6e48-4c90-bcf2-baf9a843398f	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-7730	b30232dc-9fa0-4227-84d9-62c2bdbbce4f	44904	b30232dc-9fa0-4227-84d9-62c2bdbbce4f
+947b20ae-f6e3-497d-96d6-db0b9cab3c5a	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-A5G7	6d38de84-d880-4824-b11d-de71c7fee303	26597	6d38de84-d880-4824-b11d-de71c7fee303
+8d20352a-6180-40d0-adc0-c87fef854dfa	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2794	3fca1278-a79d-4eb6-ab46-c8e61935c5c8	38489	3fca1278-a79d-4eb6-ab46-c8e61935c5c8
+94c795d3-e8f9-4d0f-8071-adc08a37f6fc	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-O2-A52Q	4493b043-2262-422e-ac24-06b8fb3429d1	26662	4493b043-2262-422e-ac24-06b8fb3429d1
+8d32bea5-51ef-4ab0-83ae-1de31e7d4b43	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-33-A5GW	bbfac3de-4da5-4a03-a8f7-988e7d79de95	34975	bbfac3de-4da5-4a03-a8f7-988e7d79de95
+8ba2cf7b-e474-4aba-8c6d-9fd36f5c6759	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-NC-A5HT	96a2bf96-b575-4e9a-afe6-f0b628e6a466	71796	96a2bf96-b575-4e9a-afe6-f0b628e6a466
+9293e197-e38a-4e19-a7d0-1b45d1ad48bd	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-43-3920	c38e9ad0-a2c7-4551-aa55-0164e2efcdd5	42461	c38e9ad0-a2c7-4551-aa55-0164e2efcdd5
+9b4c86f2-6811-4e11-8104-fc020edbe1e2	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-43-8116	572865f2-ecef-4601-aeb1-efedeb7482df	35005	572865f2-ecef-4601-aeb1-efedeb7482df
+b162b3bf-8097-4466-b08f-6434f541038f	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-5483	313b8c6f-c8a8-42c4-9146-cc16f3df344b	46651	313b8c6f-c8a8-42c4-9146-cc16f3df344b
+fe49127a-8402-4479-afff-801c6452de25	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-58-A46N	afe686bd-aa33-4566-8af0-aaffd64376eb	35422	afe686bd-aa33-4566-8af0-aaffd64376eb
+f728a4d9-53d4-43a5-abc1-4016d388efa8	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-33-4583	3e5a756d-cda1-43f6-a4da-f8251b98e535	34358	3e5a756d-cda1-43f6-a4da-f8251b98e535
+f1aa75c3-13f3-4bd9-9e51-923c2f62c2f7	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-7822	24620626-cbdc-44ea-827e-3a2baf53b066	45208	24620626-cbdc-44ea-827e-3a2baf53b066
+f878c2c3-bf50-423b-9703-973efbfc071c	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-NC-A5HD	c6cfad3c-b039-438e-85aa-99ec0cb2525f	26629	c6cfad3c-b039-438e-85aa-99ec0cb2525f
+f30d81c6-d8d3-4547-b056-3942e390b936	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-8664	a98eed64-215d-41c3-8034-5d26c4561f63	48956	a98eed64-215d-41c3-8034-5d26c4561f63
+f37f9827-9c3b-4aed-a2cb-5e905f1e2d2e	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-58-A46M	36759892-ed8a-420a-a48c-9859340a9bd3	35154	36759892-ed8a-420a-a48c-9859340a9bd3
+fadd20a1-90ca-4d99-a128-9730d02a7bd6	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-5479	64524f74-ce49-4701-b9c1-8f0078929802	54473	64524f74-ce49-4701-b9c1-8f0078929802
+fd881d58-c9c7-479b-b76b-1f3c2ab1b015	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-37-3789	a81665bd-ff07-4ea6-b7ef-8b205de3108a	33928	a81665bd-ff07-4ea6-b7ef-8b205de3108a
+f43b511b-93d1-4a6e-ab17-e84448a084b2	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-8049	58678ec0-3b4b-4df9-b2f2-058f5b56ed57	34846	58678ec0-3b4b-4df9-b2f2-058f5b56ed57
+fd8a7339-cf34-4b91-bfc4-53ce60ffd737	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-A4BX	460aa035-57e4-42a1-9b51-697c671d93e7	41083	460aa035-57e4-42a1-9b51-697c671d93e7
+fde60f9f-5cff-405e-b0f6-e193195ebd53	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-21-1075	dfb17baa-2d14-46c3-89d6-c5833be96560	33756	dfb17baa-2d14-46c3-89d6-c5833be96560
+b838706d-01e9-45aa-869d-a94168773bcd	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-A4BW	c43d812c-d3e3-46e5-8ad3-82f4a2da111c	46337	c43d812c-d3e3-46e5-8ad3-82f4a2da111c
+69e43922-e028-4090-8724-1fb2f018c7f2	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2769	09b4eef6-34fd-4666-afd6-2454dd1b61b7	25594	09b4eef6-34fd-4666-afd6-2454dd1b61b7
+af008b10-38c1-40f2-a924-66c554813c50	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-8128	2770ec56-c1a4-41e6-85a0-1cae28226730	34591	2770ec56-c1a4-41e6-85a0-1cae28226730
+186ca7d6-8354-43a2-b8a5-9ac79627331f	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-8288	75db5614-e932-4581-9aad-fe8cb292fa2b	34792	75db5614-e932-4581-9aad-fe8cb292fa2b
+ad98977b-e159-410a-b8c2-f4e8a07f9784	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-43-8118	ff5a5030-0500-414d-b447-70e101664421	46379	ff5a5030-0500-414d-b447-70e101664421
+ede3e359-bc49-4899-abe5-92dc65588286	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2790	5264ca31-1106-454a-bd6e-f228a6b5f02c	39726	5264ca31-1106-454a-bd6e-f228a6b5f02c
+a9d7adec-3849-40e2-a2a2-f43443ec43bb	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2786	f032adce-c0e0-4f6f-b106-dd1501375f08	33839	f032adce-c0e0-4f6f-b106-dd1501375f08
+188fe74b-a62b-47a0-9069-5c3a2837ee05	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-7465	d44fef9e-cc8f-4a93-9f50-7c584b71cd18	41990	d44fef9e-cc8f-4a93-9f50-7c584b71cd18
+6fd72426-f6c8-47ca-a500-d5d3600b9b15	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-60-2722	59aabe65-cbee-479f-b75d-df030b996067	51425	59aabe65-cbee-479f-b75d-df030b996067
+5845fe49-f2cc-436b-9ec8-65e775eae111	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-39-5011	bfad243e-a7fa-4b82-bbc1-4e6790c1b3ae	72182	bfad243e-a7fa-4b82-bbc1-4e6790c1b3ae
+c179d6b1-6182-48b8-a376-3133e0dec278	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-NC-A5HG	05df83d3-ba76-4f42-bf05-bcabb2d83d3c	59730	05df83d3-ba76-4f42-bf05-bcabb2d83d3c
+09d08a43-4dcb-46d6-b2bd-f6245a6fff21	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-37-4132	d9149f55-bef4-4f20-a03d-3d450a2af372	34343	d9149f55-bef4-4f20-a03d-3d450a2af372
+4631400b-1c96-4074-b779-7cbc77a49d99	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-34-5239	fb99833a-3828-4c4e-a20a-c96ce4330040	48361	fb99833a-3828-4c4e-a20a-c96ce4330040
+ca191cb3-1a0b-4192-860f-2fde7f9b2105	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-60-2703	ae1cc0a4-f572-4012-ab6b-514f59d12a63	34526	ae1cc0a4-f572-4012-ab6b-514f59d12a63
+3d5a904a-3834-45bf-9212-c06d46d917f9	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-8083	00adb9dc-a762-468c-b007-1d1d26105606	34335	00adb9dc-a762-468c-b007-1d1d26105606
+6013a4fd-89cf-48a7-a465-c7b644afb4a5	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-34-5241	49c7b1c2-6ece-4059-8b1b-c5d47a1dd9e0	34147	49c7b1c2-6ece-4059-8b1b-c5d47a1dd9e0
+d04bf59d-3429-4641-9f9e-81d8cde15295	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-34-5232	e1995f70-0899-424f-b8ed-b967d6195b61	42365	e1995f70-0899-424f-b8ed-b967d6195b61
+dd5e3a1e-2adf-4eee-ac6b-c6efad97724a	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-5482	c1fa88d2-8cfd-4cdd-a0c7-ae0525a89818	33945	c1fa88d2-8cfd-4cdd-a0c7-ae0525a89818
+87410c09-5b61-4f61-85a5-93c288aeca03	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-NC-A5HK	66beed3c-d904-4df0-93c8-b819200e4aea	46556	66beed3c-d904-4df0-93c8-b819200e4aea
+e88eb552-addc-4030-9c54-4bf7d381a703	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-98-A53B	18426c20-64ab-41c6-9336-48ce2c1097ed	26737	18426c20-64ab-41c6-9336-48ce2c1097ed
+44c56277-37e5-47a9-b476-d8475ef477ca	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-34-2608	ece68fc3-b525-4896-8d03-c40f8bd72590	33908	ece68fc3-b525-4896-8d03-c40f8bd72590
+0425cb44-66af-4e25-afcb-cacccc2f1179	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-LA-A7SW	ff8695c8-323d-4216-a0fb-67b6caa793a2	81331	ff8695c8-323d-4216-a0fb-67b6caa793a2
+0f5cebb3-a37b-471f-bbd3-b03ce171812a	hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-52-7811	03edfdfb-77d8-4865-a521-a6217e28b328	34957	03edfdfb-77d8-4865-a521-a6217e28b328
+220be009-8f1e-4a77-ab04-3220b5f87ea6	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-21-1076	9d1ff378-b7b1-4401-8af5-4ee46d491ede	33842	9d1ff378-b7b1-4401-8af5-4ee46d491ede
+20d3e9b8-c399-46d2-8367-c4e228cea17c	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-8628	381d2850-0bba-4198-b762-ab996a628c47	34715	381d2850-0bba-4198-b762-ab996a628c47
+2e1d5e59-357d-42f3-8898-cc03839cf958	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-94-A4VJ	abc2926d-334c-49a3-809e-d67ccda879b7	34754	abc2926d-334c-49a3-809e-d67ccda879b7
+2f39441b-e69f-488c-b5d0-cbd88447ad60	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-8201	3a86312d-8c97-4038-a6e9-ccddd21082a2	34354	3a86312d-8c97-4038-a6e9-ccddd21082a2
+2ca47049-bc12-4992-b9cf-1c01dda639be	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-60-2708	32bd4743-bd32-4432-8177-c52f0de70aa5	46367	32bd4743-bd32-4432-8177-c52f0de70aa5
+31d8591b-9d80-406c-b61a-7a6544c73466	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-63-7023	245c2448-55eb-4abd-8f64-b021af76ec99	59833	245c2448-55eb-4abd-8f64-b021af76ec99
+2f39e89c-a8f7-4df8-a0f5-ef9990c2133c	hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-39-5029	a9a45e9a-6843-450f-8e7a-5ef045855b85	114127	a9a45e9a-6843-450f-8e7a-5ef045855b85
+34f7b63b-7a49-4b29-ab72-d880d87fb7b3	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-8666	381f963c-e5ec-47cd-aed0-3fd9f51a9e18	42792	381f963c-e5ec-47cd-aed0-3fd9f51a9e18
+43ea8913-abfe-495d-a909-d57da13d1a27	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-8008	0069b5f9-7e40-4a05-9f8c-538273438193	34297	0069b5f9-7e40-4a05-9f8c-538273438193
+37a0ab12-44af-4815-b7cc-961d44851470	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-7142	5d492efe-a23f-4612-a397-df9e75c43878	42246	5d492efe-a23f-4612-a397-df9e75c43878
+44b1d457-3a50-404e-b54c-ca619262bc2f	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-33-4547	63955926-7260-4919-b7d8-dc48be52fe60	34482	63955926-7260-4919-b7d8-dc48be52fe60
+47cbb242-a356-43ba-95c3-0b0c9ef90fbf	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-4609	a598bd68-4345-4542-8dee-73aec18c354b	34302	a598bd68-4345-4542-8dee-73aec18c354b
+6205bb0d-f5ad-4181-a62b-5cb21415ff8e	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-8580	4b9b8cf1-44e6-4a78-a55c-e63f69ecebd1	51117	4b9b8cf1-44e6-4a78-a55c-e63f69ecebd1
+585e6487-b0a3-4828-8a06-46bee01dff74	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-60-2719	fbee20f2-1d60-44dc-8236-f9ced8500abc	42162	fbee20f2-1d60-44dc-8236-f9ced8500abc
+6acdb5e1-4f4d-4512-a41b-ceec94b82744	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-A4PA	5da114b6-8fba-4596-acb4-03fa86e5cbd3	34766	5da114b6-8fba-4596-acb4-03fa86e5cbd3
+5b6c3188-5d33-4473-bdd4-0cb9671e9047	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-NC-A5HF	ba988606-c9c3-4962-9484-6f04b9e6903f	31673	ba988606-c9c3-4962-9484-6f04b9e6903f
+67e92755-396e-4d9a-b737-979eadc743f9	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-A4CN	cbcc23d5-8015-4a9d-92e4-a8e738cc3b93	53766	cbcc23d5-8015-4a9d-92e4-a8e738cc3b93
+6d7803fd-cf8f-43dc-8b2d-fd129cdd2b3d	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-8131	69e3ff55-3771-40f8-99ec-d687a32b722e	34435	69e3ff55-3771-40f8-99ec-d687a32b722e
+7625a27d-a012-4f4d-b637-5f85d7cdae8c	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-63-A5MU	038b4e86-d872-4791-8315-c5791882b706	47455	038b4e86-d872-4791-8315-c5791882b706
+6ab57144-16ea-4844-b737-e726787d23b9	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-1012	1b9a167e-3127-4b53-9e1a-f159792f18aa	33755	1b9a167e-3127-4b53-9e1a-f159792f18aa
+6f068c19-62a6-46ef-8c54-701fd19a6416	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-A5G8	ef3a706b-9829-4c7c-b5f2-70bba58cd87e	50227	ef3a706b-9829-4c7c-b5f2-70bba58cd87e
+77bd82a6-a859-4b8e-accc-c343ce9f4d38	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-NC-A5HL	3a5f1ae9-3af1-4613-b852-b0c382079ddf	26598	3a5f1ae9-3af1-4613-b852-b0c382079ddf
+74c4b266-a08d-4882-b96e-28d2a4db0a9b	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-94-8490	eb71957d-2162-43b2-a309-31f5ac44e292	34358	eb71957d-2162-43b2-a309-31f5ac44e292
+7e691df8-8ea6-472c-86bf-504c7ba6983d	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-60-2716	fba89924-5d67-4505-9e61-b9b3e439174a	60599	fba89924-5d67-4505-9e61-b9b3e439174a
+7fa49ecb-74a2-42cb-9bc9-1cbbfdde0d28	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-33-A4WN	a86dfc19-e95d-4b33-bc45-af52c12ce892	34822	a86dfc19-e95d-4b33-bc45-af52c12ce892
+7fe0e47a-07e1-467b-b5dc-63e2a25ba6dd	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-8130	0acc4baf-5762-4773-8366-3650d417538b	42965	0acc4baf-5762-4773-8366-3650d417538b
+865a1b5a-6d94-4e06-b5a0-ac11e2221679	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-39-5030	c75e1a38-3ff6-44e9-a5bc-ecbfa9704bff	33951	c75e1a38-3ff6-44e9-a5bc-ecbfa9704bff
+806e9c81-a76f-42d1-bc4d-8687b950b980	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-8479	a4b0d0bb-137c-45bf-b68c-f812833e7c29	42069	a4b0d0bb-137c-45bf-b68c-f812833e7c29
+870fb708-7631-4578-a470-3c7bd5228e5a	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-6560	3cd471fd-741e-4288-ae06-459ee4d07a01	55341	3cd471fd-741e-4288-ae06-459ee4d07a01
+98b86f94-9ede-45ab-ba09-19a6ec6d9494	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-52-7810	0fe50f15-ce0f-4bb2-a2dc-06d628d61043	34500	0fe50f15-ce0f-4bb2-a2dc-06d628d61043
+9a13a742-ff9a-4432-a7ce-7fcbb753be01	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-7698	0377e102-703c-4d25-a1ec-99edf62aa85b	46364	0377e102-703c-4d25-a1ec-99edf62aa85b
+cf9d5813-da70-4d7f-8185-d29d1b86b578	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-7580	d930ce70-58b2-43c0-bb33-bb79c5dc3c5e	34208	d930ce70-58b2-43c0-bb33-bb79c5dc3c5e
+775808ab-4b30-4473-a9ee-4ed2c18cfc2b	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-A5FZ	58291d7f-f169-4af9-9783-d6da0da05d1c	26645	58291d7f-f169-4af9-9783-d6da0da05d1c
+17919a6e-3106-49fa-9fea-8f06c595d617	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-39-5016	e2f2c506-571b-49d8-ae9c-e7c956848772	42443	e2f2c506-571b-49d8-ae9c-e7c956848772
+abc753f0-5ae2-4bec-96b8-6a05d84bf1c1	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-63-A5MM	62b79c8f-446d-4950-9d2e-afc5cd35c7ca	47136	62b79c8f-446d-4950-9d2e-afc5cd35c7ca
+32c86f17-34c3-406b-85c5-4f5965619247	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2765	67f704e3-85e5-41a3-a613-a934f34af874	25651	67f704e3-85e5-41a3-a613-a934f34af874
+55bafaad-323b-4b92-813e-52d18d70fc3e	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-33-AASI	787109a2-224e-4791-a767-9f5ee0f9cb91	42877	787109a2-224e-4791-a767-9f5ee0f9cb91
+ba10f90b-66e1-44cd-b6c0-08c448a9d688	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-39-5035	f509d020-9e83-48bd-8ae8-ca2e2a04b644	42542	f509d020-9e83-48bd-8ae8-ca2e2a04b644
+46f35964-bd43-47e6-83fe-40da33828c94	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-6561	0001e8c8-d4aa-41d0-bf4d-fda8db5de4f9	72779	0001e8c8-d4aa-41d0-bf4d-fda8db5de4f9
+f1a1bbf9-4751-4fb4-8a2b-19f8d4ba57bd	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-18-3411	bbcf14e8-e5eb-42c6-96ad-47ffa1603253	33552	bbcf14e8-e5eb-42c6-96ad-47ffa1603253
+4db53b4c-2e5c-45ea-8577-4360c114e0c1	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-8353	356152ea-d3a3-41b9-81f8-b4539503f748	34700	356152ea-d3a3-41b9-81f8-b4539503f748
+02eb85cc-a597-4eaa-9614-c94c0f035929	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-39-5037	ac21df92-1e22-4e89-ba60-d4f556efbba1	55096	ac21df92-1e22-4e89-ba60-d4f556efbba1
+037c57d1-b4a5-45dc-bda4-0550461d321b	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-1016	e483826f-2fc7-450b-9343-db643baf9e65	33981	e483826f-2fc7-450b-9343-db643baf9e65
+bf6bab32-98bb-4e09-a7fe-c5c1779a5f60	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-A5G1	03035740-4e6d-42b0-9456-03f1cb0b6f99	34967	03035740-4e6d-42b0-9456-03f1cb0b6f99
+791f1b21-695e-4db1-b41d-80590c09d257	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2773	21f6bcfe-5fc6-43bc-88f1-7a58669902ac	25640	21f6bcfe-5fc6-43bc-88f1-7a58669902ac
+b5865f1e-604d-487d-8a19-dc0c887203ed	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-NC-A5HH	e9695582-025f-4c57-a7b6-abe0450779f2	34602	e9695582-025f-4c57-a7b6-abe0450779f2
+5f29578a-7606-4625-bd24-a194b3287024	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-63-A5MS	8a4ec382-e367-4268-83ed-3df4fe82e4cb	35110	8a4ec382-e367-4268-83ed-3df4fe82e4cb
+96006f5e-5922-4e55-afa5-5e43773d72f2	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-1002	9a4e2163-9977-425b-8fd6-dda327e3dc1a	33847	9a4e2163-9977-425b-8fd6-dda327e3dc1a
+553f810b-e917-4935-a875-dc9b902d0789	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-98-8023	95863908-1e83-40ec-a759-1d2af9a3957e	34999	95863908-1e83-40ec-a759-1d2af9a3957e
+05d4d9c7-fb6f-439a-bb97-f0e2737a7773	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-63-A5MG	a831f9fe-230c-4365-942f-0e253628443c	34815	a831f9fe-230c-4365-942f-0e253628443c
+03016c31-a2eb-4a04-9e98-f10e0c64fe9e	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-7338	cf1099f0-a894-49c3-9e99-97485e291986	33945	cf1099f0-a894-49c3-9e99-97485e291986
+c4ca7861-2fcc-4ed7-a240-bea9c43d5fb1	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-8136	a2e81e39-ef09-485d-b798-cc63da0110d1	34817	a2e81e39-ef09-485d-b798-cc63da0110d1
+305f72a8-069b-410b-bbe4-4ecb761c748d	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-5485	81afaba0-1bcc-4436-9882-4da555061e1d	34065	81afaba0-1bcc-4436-9882-4da555061e1d
+3768cf73-e389-449a-bde3-29eb20c9e249	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-7222	eec2fd32-5702-4cd0-9248-22f8a9201490	64057	eec2fd32-5702-4cd0-9248-22f8a9201490
+349e01b0-0c88-4321-839e-0a84edf11a73	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-34-5234	7614433d-4cff-4a41-ba39-c35b4fb17435	42599	7614433d-4cff-4a41-ba39-c35b4fb17435
+51f0b1cb-4315-4acd-a9c1-5353e0ff9d46	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-63-A5MH	3141c33d-bec4-4bca-81c7-cfc202ea91f2	34907	3141c33d-bec4-4bca-81c7-cfc202ea91f2
+9eb34055-0e33-4b3a-827b-d7108b5b0629	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-43-7656	f6aff9c1-3793-42d8-a626-38de39aad3ce	42734	f6aff9c1-3793-42d8-a626-38de39aad3ce
+9f55bb37-4211-4e91-88ea-7b1d4f286598	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-7710	02879e68-89b6-444c-bcf9-2a09065e52c1	34452	02879e68-89b6-444c-bcf9-2a09065e52c1
+aa02aa9b-5786-463f-9db4-a9c20d31dc73	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-90-A4EE	843df117-1d4a-4fe7-a0e9-7d96d439a49c	46612	843df117-1d4a-4fe7-a0e9-7d96d439a49c
+a4495428-39cc-49f6-bc41-1becdd94113f	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-8626	b4b06d2a-6780-4414-8256-9e22de28becd	34578	b4b06d2a-6780-4414-8256-9e22de28becd
+a2cd5b01-a1f6-46d0-9f05-9dc3df9019f7	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-A5GH	e4f9a08a-c541-4ab6-96bd-8cadb50a1b86	42814	e4f9a08a-c541-4ab6-96bd-8cadb50a1b86
+adc853b1-b8bf-488c-a1e2-e95603459b55	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-98-8022	18aa7c8f-d24a-40d5-806e-4b9772bbcb2b	34891	18aa7c8f-d24a-40d5-806e-4b9772bbcb2b
+a8764401-d2a5-45dd-941d-2ffb2e7a4664	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-43-6143	de71a262-7dca-4b36-b55f-66f6bbc20f96	49254	de71a262-7dca-4b36-b55f-66f6bbc20f96
+aa00283a-4a9e-4600-8046-43adc6833218	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-8350	3b92f9cb-9b53-4b9a-b739-2a8e3decdc84	34791	3b92f9cb-9b53-4b9a-b739-2a8e3decdc84
+aeb67cc2-1573-4782-a6f8-baef7c2c5c47	Unknown	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-94-8491	3d3e18e0-1457-4e2b-ad3e-4329acce24ed	41648	3d3e18e0-1457-4e2b-ad3e-4329acce24ed
+b4dc4f02-ef59-4c23-bfea-815255bb6427	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-8582	18033d98-cb25-40d3-a7da-daf9d5186803	51051	18033d98-cb25-40d3-a7da-daf9d5186803
+c652350b-9e6c-421d-8027-8b8819e4ac6c	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-8071	e1c54f1a-c385-4fca-825c-4858fb89fddb	43257	e1c54f1a-c385-4fca-825c-4858fb89fddb
+c6debfbb-de60-4d0d-aec2-d8d514c1f313	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-68-7756	6ee156fb-10c2-4e88-8784-52dd050d8247	45383	6ee156fb-10c2-4e88-8784-52dd050d8247
+bb2a7057-6df5-4eb9-ad0f-9ac47314889e	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-43-A56V	4a613c7a-1169-437e-9ccc-f6f6b805bf5c	47426	4a613c7a-1169-437e-9ccc-f6f6b805bf5c
+c8802713-b814-4b55-993f-3ffebf8c3ab8	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-18-3412	8da9f191-0cb4-460e-8867-a40942b14311	51711	8da9f191-0cb4-460e-8867-a40942b14311
+cdab8ae1-d0e5-4a85-901e-2b05c63fa2b9	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-7337	93206747-abcc-455c-b707-3674e025e96c	33936	93206747-abcc-455c-b707-3674e025e96c
+c2598334-f866-4cc3-93ec-2d2e8b85d319	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-6843	9eea9890-5670-4027-9925-c929de88aa21	33900	9eea9890-5670-4027-9925-c929de88aa21
+d856855f-3069-4169-a192-9113d8542cfb	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-L3-A4E7	b11eb1e0-6b30-43a2-acf7-fe54e51efa2d	35324	b11eb1e0-6b30-43a2-acf7-fe54e51efa2d
+cb6065de-0fc2-40e6-9609-179dfc54943f	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-33-6738	b97d5232-961a-47e6-82b9-79fb2e304021	54735	b97d5232-961a-47e6-82b9-79fb2e304021
+d5c24c76-2e98-41df-b17d-b53c0b5e7787	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-NC-A5HE	093b3f21-2df4-47d7-a16b-de53481a216e	55048	093b3f21-2df4-47d7-a16b-de53481a216e
+da93a143-5799-4856-a5f4-3ff3b9284311	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2795	7655612e-f1c0-448e-b009-62ed21e57b00	25653	7655612e-f1c0-448e-b009-62ed21e57b00
+dea2269f-7e15-4ea1-88a4-2314a819c731	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-7138	50dac121-a9f8-4b83-b2f7-95850b4d6a1e	33915	50dac121-a9f8-4b83-b2f7-95850b4d6a1e
+dff43217-7857-42ca-b87b-058c774a6aa7	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-58-A46J	39c4c1ae-edb2-454c-bdc5-f0a1d086de25	46714	39c4c1ae-edb2-454c-bdc5-f0a1d086de25
+e1a2cccc-f0ce-4d23-bd58-e098009ebdac	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2787	075e0ceb-a599-4bfd-9b8f-c573cad825bc	33795	075e0ceb-a599-4bfd-9b8f-c573cad825bc
+eea9575a-c842-4a95-9e47-3a3b12533f25	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-5473	78d1dc77-6932-4b5b-82c8-eb091b01e41d	40200	78d1dc77-6932-4b5b-82c8-eb091b01e41d
+f7287eb4-c77d-4c67-a768-87fcccd668f5	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-70-6722	60e86997-045e-4c5a-a4c8-231d4f80b9dd	39004	60e86997-045e-4c5a-a4c8-231d4f80b9dd
+ec10dc91-2743-4e0c-af77-2f0105bf6a9e	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-46-3765	762477ad-e04d-4d23-bbe3-de27adf8dbe4	41907	762477ad-e04d-4d23-bbe3-de27adf8dbe4
+ec260f86-7186-4bf2-9de9-320b4ca155a4	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-46-3766	835c1ebe-4a89-463c-aece-b151fcf4c100	41907	835c1ebe-4a89-463c-aece-b151fcf4c100
+f9fa6dfa-9dc5-4ba9-92cf-c821e423183a	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-63-A5M9	d37d0435-c42b-44a8-b4c5-0fb62fb8c919	33999	d37d0435-c42b-44a8-b4c5-0fb62fb8c919
+f355cd59-eaa9-46c7-ab07-b90a7afc875c	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-60-2712	ed508506-a14a-40f9-8695-0779bc3b7c7d	33971	ed508506-a14a-40f9-8695-0779bc3b7c7d
+1dba835e-cbe9-41e0-883d-50bf86bc7821	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-7221	67087802-3762-4a85-9661-b0316d9252d6	34158	67087802-3762-4a85-9661-b0316d9252d6
+a7cd7b0f-ab76-4f3f-a2d5-5ec04fe6c4f3	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-21-A5DI	6aa3f79f-c6f0-4493-bb2a-d2e3d44dad71	34330	6aa3f79f-c6f0-4493-bb2a-d2e3d44dad71
+283af87a-f962-47ab-8a7b-4fcd7e45cdf6	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-8138	f901d429-0528-4874-9440-e58113c82233	34960	f901d429-0528-4874-9440-e58113c82233
+acae4e48-57de-40c5-9ae5-4386144ebaea	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-60-2695	5bbe80db-cd91-4b0a-a0df-c3768ffd9380	33910	5bbe80db-cd91-4b0a-a0df-c3768ffd9380
+28f899c5-ea17-4df6-83e6-e744e04d0ea1	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-21-1070	a1499e08-4585-49bd-bed8-a0d1f9d9c65a	33816	a1499e08-4585-49bd-bed8-a0d1f9d9c65a
+3351b902-9b7e-4b90-bf6b-bcf74be00bc1	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-94-7033	0693aef9-0ee6-4053-8817-1c2c28bcfa90	54555	0693aef9-0ee6-4053-8817-1c2c28bcfa90
+80aa8e99-41d5-422f-a1bb-69599aa8236f	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-NK-A5D1	1e5ab466-fc03-4dba-b18b-6548234e0842	52538	1e5ab466-fc03-4dba-b18b-6548234e0842
+f5ad138c-1714-41e9-9c2d-c88050bec407	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-43-5668	4b0a71f2-0cdd-4749-ab85-2288a98eb2ca	60801	4b0a71f2-0cdd-4749-ab85-2288a98eb2ca
+9ee64a87-7224-461c-94da-29710d73164f	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-8504	9d232e45-bec2-4a63-bbd5-733af6439259	34974	9d232e45-bec2-4a63-bbd5-733af6439259
+ea741488-5475-4a3d-b9fe-81722f129974	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-94-7557	fc740207-f192-4501-979c-99be7c9313e4	34224	fc740207-f192-4501-979c-99be7c9313e4
+aecf85cc-058c-46f3-9cdc-3573ac3b8438	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-94-7943	f224a332-9d2e-4c62-a257-9d989c403c01	51444	f224a332-9d2e-4c62-a257-9d989c403c01
+99daa971-31d0-4c37-9c12-b0dc42ddd19b	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-J1-A4AH	066f8a23-b7f3-4914-ae48-d5b86e7d2584	46472	066f8a23-b7f3-4914-ae48-d5b86e7d2584
+a33f0741-2161-4818-89f2-ec8ccae57949	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-18-4083	0a4889a9-2e56-4bdb-b3ed-e4641e34fee2	45156	0a4889a9-2e56-4bdb-b3ed-e4641e34fee2
+0ab8d063-62b4-4d47-82aa-e3351a60029d	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-21-1078	f1fa94e1-bfa1-401b-bd53-bb067ecf1dad	33927	f1fa94e1-bfa1-401b-bd53-bb067ecf1dad
+3fdf941e-40ec-43b6-b6e3-31a0861bd5b8	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-90-7766	64113c5e-b86a-4e66-9f6f-f372c61bd3fb	34452	64113c5e-b86a-4e66-9f6f-f372c61bd3fb
+b4ff0f49-b787-48ec-91cc-ee26786ff1bf	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-33-4533	8ac42739-487b-4d46-acd3-9e535a84cae5	34597	8ac42739-487b-4d46-acd3-9e535a84cae5
+628b1bc3-825b-4d0e-a4cd-57eeaf98e798	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-18-5595	71c2ae7d-ed43-4165-aa64-12c3f13800bd	25411	71c2ae7d-ed43-4165-aa64-12c3f13800bd
+37f5457e-21d9-4b79-95d5-ded6f2e43087	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-43-2578	f28909f8-8310-44b2-9359-e90342d59500	42665	f28909f8-8310-44b2-9359-e90342d59500
+ae2c650c-600b-4c58-893b-7fd73d44af47	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-43-A474	bf12795c-731f-43ff-bbea-ba37c7c2115e	46839	bf12795c-731f-43ff-bbea-ba37c7c2115e
+6ee6ca0a-8702-480d-b2d1-9224e7dd9211	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-33-4532	bf517c8f-6796-4fdb-b471-e34052c76a46	42464	bf517c8f-6796-4fdb-b471-e34052c76a46
+bcd78677-98d5-4403-8313-e1fbd76e8ef7	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-60-2721	e35d88d7-90a3-490d-b034-837fa5041b1d	34121	e35d88d7-90a3-490d-b034-837fa5041b1d
+dbece124-c042-4adc-8136-90e7940ee6ad	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-43-7657	c8189bed-e1ec-4d5a-ad97-7f159ac5424c	34567	c8189bed-e1ec-4d5a-ad97-7f159ac5424c
+bd3bf142-7c14-4538-8a76-3c6e140fa01a	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-5472	70ee593d-5201-4cd6-988e-8bf92ca36471	97570	70ee593d-5201-4cd6-988e-8bf92ca36471
+cee6e9f6-6d7e-4096-a9bc-2cce004fb218	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-34-2604	1a034ac4-73a1-479b-ad71-c8bce3eb079c	33879	1a034ac4-73a1-479b-ad71-c8bce3eb079c
+25f64b80-0672-4980-9875-956b1699309b	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-1017	d13964d4-2c61-47fc-8ed8-3f3ff556363f	35399	d13964d4-2c61-47fc-8ed8-3f3ff556363f
+f3e67161-1532-4b50-a9b5-0da80410c4d7	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-60-2715	497fa4bc-e907-4f69-be7f-2e0d0cd6f461	83449	497fa4bc-e907-4f69-be7f-2e0d0cd6f461
+afedf3fb-fc77-45a7-bdcd-2c78706a0f8a	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-33-6737	a288ce03-8ee9-4239-9929-2064afffc7e3	46175	a288ce03-8ee9-4239-9929-2064afffc7e3
+513c5f34-dc6e-4caa-81cc-907fd6a825b1	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-8623	98d52e9f-97b9-4425-82b2-6518523baffd	34918	98d52e9f-97b9-4425-82b2-6518523baffd
+972476b7-d7f3-4865-b978-0c13f29457cb	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-1000	976cf9de-0a8e-4240-9e50-cbdfe9b84f62	39183	976cf9de-0a8e-4240-9e50-cbdfe9b84f62
+a6ec75d4-1c90-4527-bfae-aa91d2dae082	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-43-7658	b04eef0a-3fb5-4287-8744-c0cbd0fe054a	43511	b04eef0a-3fb5-4287-8744-c0cbd0fe054a
+0e515ab8-99f9-43d9-a621-8fe9ede828ec	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-90-6837	8258c0e2-95d8-4d76-b79e-02af60f327e9	57849	8258c0e2-95d8-4d76-b79e-02af60f327e9
+4ca13c92-84b4-4edf-842a-b20b7e713415	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-96-7545	118514d7-460f-4b23-bac3-5e5f382f2595	42628	118514d7-460f-4b23-bac3-5e5f382f2595
+6eb61cab-8e83-4c18-a59a-ae0985ec9d2e	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-18-3416	34a13dfb-b60d-4801-8974-537cf1c11bd4	33914	34a13dfb-b60d-4801-8974-537cf1c11bd4
+ffb83f21-06d9-4e52-a2d0-e85c13f4037f	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-39-5039	224ea5a0-1503-4486-8261-156510c22def	34171	224ea5a0-1503-4486-8261-156510c22def
+6e6b8596-76aa-49f5-a997-46ebc0e43934	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-90-7964	148a5c3e-e03c-40f4-9cb3-e19c5e255de4	34825	148a5c3e-e03c-40f4-9cb3-e19c5e255de4
+1f11de87-a5fe-49fd-80c1-e279b2bc69de	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-60-2711	c38b509c-5c0f-4661-acef-a708327ce20f	42168	c38b509c-5c0f-4661-acef-a708327ce20f
+fd9ee494-65fe-4de4-adff-7952a059b17f	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-60-2698	750c6d24-f3d2-47c9-af8e-272f2047b639	57056	750c6d24-f3d2-47c9-af8e-272f2047b639
+99599b60-4f5c-456b-8755-371b1aa7074e	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-18-3410	cea77015-b723-4854-96fd-92a0cec0392d	33768	cea77015-b723-4854-96fd-92a0cec0392d
+95b83006-02c9-4c4d-bf84-a45115f7d86d	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-18-3406	35a84185-0d06-45ab-9a2d-e363e5824492	34156	35a84185-0d06-45ab-9a2d-e363e5824492
+4e1ad82e-23c8-44bb-b74e-a3d0b1126b96	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-18-3407	7a7ba7cc-e8c3-4701-9e14-90bfa12654d1	33829	7a7ba7cc-e8c3-4701-9e14-90bfa12654d1
+0398eae1-7216-4595-80a5-6b117d96e070	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-21-1083	3c7f7d3d-cd31-45eb-9a52-1bbc06e888b0	33772	3c7f7d3d-cd31-45eb-9a52-1bbc06e888b0
+3c112114-6a8b-4aea-9349-6dffbaad078d	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-60-2697	240c9a63-316c-4bef-a8cb-bd62fc4b563e	88342	240c9a63-316c-4bef-a8cb-bd62fc4b563e
+b28e3be1-9843-4204-b999-b3e2a909c7bd	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-60-2710	f51600de-ed4e-4908-b5ce-fd271c7c235a	67666	f51600de-ed4e-4908-b5ce-fd271c7c235a
+49f975ea-a1cf-4a9b-bf13-030c68cc99e4	hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-33-4589	43fc0d20-7338-45f7-b7ae-e36ad4200a14	34212	43fc0d20-7338-45f7-b7ae-e36ad4200a14
+7b982d5e-3a7d-40ac-bd25-6044c62879b6	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-68-8250	db214c4f-fc91-4a27-94df-0cf26bb326a6	34651	db214c4f-fc91-4a27-94df-0cf26bb326a6
+bece6b8e-5d6c-4dd6-85a3-9b3a9c670aa7	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-5471	f48d3d6b-cfd4-4acd-b7dd-b163b0ba4605	47374	f48d3d6b-cfd4-4acd-b7dd-b163b0ba4605
+0806923c-2dee-403d-a2e9-771722873b0d	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-43-2576	a02bab95-afb4-45c8-a4d2-c0e06df85678	74424	a02bab95-afb4-45c8-a4d2-c0e06df85678
+ce137f49-d12b-4112-825a-e673545f54e5	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-A5GA	ad7b1ecc-c9fe-424b-81e4-331afd7364e9	34782	ad7b1ecc-c9fe-424b-81e4-331afd7364e9
+705a4688-f10f-4e6a-aed9-6efc3b3b9989	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-60-2714	8a6bf544-b63e-423c-8dfb-53c7b903c11d	61427	8a6bf544-b63e-423c-8dfb-53c7b903c11d
+ba7b9b84-c227-4ad0-9e71-88ee3309162c	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-43-A475	b9c58a51-c9df-4b23-b099-ed48b07e8b4f	51467	b9c58a51-c9df-4b23-b099-ed48b07e8b4f
+6020ec67-8f3b-409f-a0ed-2af849b4d76f	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-46-6025	67310acf-f16b-4f5f-94fe-cc4aecf74bed	46609	67310acf-f16b-4f5f-94fe-cc4aecf74bed
+f18c47e1-516f-43f7-8d31-4e5012bd22f0	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-63-A5MP	aff218e3-ef94-4627-94a6-195a015503cd	43841	aff218e3-ef94-4627-94a6-195a015503cd
+1ccd29c1-cf30-4701-9b50-5d34cae2f4b3	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-7579	d6c509e6-8e47-4fda-8ca0-f8e530034fdd	85524	d6c509e6-8e47-4fda-8ca0-f8e530034fdd
+c70a5975-c37b-47cc-9113-427a754807d8	hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-33-4538	c485fc26-bd0c-4313-8ab2-3b0d7efb63a3	34290	c485fc26-bd0c-4313-8ab2-3b0d7efb63a3
+3edf933a-be1a-46e8-bfb0-acdff30e64a0	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-1622	95a6c3ef-d7b2-4a21-a5ae-91f669c42e1e	33685	95a6c3ef-d7b2-4a21-a5ae-91f669c42e1e
+e29f886a-1690-438b-b287-bfe9e9737b29	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-8072	40c69b5c-736e-4357-af1f-38ff0c9ecfc1	43405	40c69b5c-736e-4357-af1f-38ff0c9ecfc1
+ea34663c-f40e-4a3e-9ac0-65d5e9eef12b	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-34-5929	1cec45d4-7221-4c41-b87f-08d5dad3d1e6	34114	1cec45d4-7221-4c41-b87f-08d5dad3d1e6
+f516991c-5139-4b3e-b605-5a3d90688209	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-21-1077	5ed8c1e2-0186-44bf-b8ce-587cd85a6461	33891	5ed8c1e2-0186-44bf-b8ce-587cd85a6461
+9101d953-1eb6-4808-aa44-a7b04e0ef412	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-5474	121da702-3aff-4092-a7cf-5121ddd8fecf	33945	121da702-3aff-4092-a7cf-5121ddd8fecf
+ef6116ce-ae38-488c-b3cc-0e88ba0f1876	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-33-AASD	6680378e-bd2e-4673-937d-b86cf1131c04	27054	6680378e-bd2e-4673-937d-b86cf1131c04
+e7020168-1afe-4361-800a-8979aafca12a	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-39-5021	109d571a-4d58-4daa-8aaa-d78854d9d580	46790	109d571a-4d58-4daa-8aaa-d78854d9d580
+2d2a3e24-8e1c-4409-a803-fe8d475f9248	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-8481	58dd88f5-7588-4453-a84f-70746097ced6	34695	58dd88f5-7588-4453-a84f-70746097ced6
+df6a7005-92ed-4701-bd59-7b5f09715f9d	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-5489	6ba667cf-7f3e-4b9b-b4af-a66a30097ffb	67326	6ba667cf-7f3e-4b9b-b4af-a66a30097ffb
+5d7a6807-e024-479d-a4df-1d44af41fa66	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-98-A53C	2e32de4f-699c-4423-b3c9-e6b25393bf8d	35105	2e32de4f-699c-4423-b3c9-e6b25393bf8d
+7ddd36fd-9e6a-4a46-a799-82998786cb36	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-0940	9100682b-c01f-4f61-a20a-1e2a5e8c8d91	38617	9100682b-c01f-4f61-a20a-1e2a5e8c8d91
+2afa2fd8-e4d9-4e7b-b387-7e2451764d5d	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-21-1081	e87e947e-0f49-426d-b191-099f89a7f011	33876	e87e947e-0f49-426d-b191-099f89a7f011
+b09e872a-e837-49ec-8a27-84dcdcabf347	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-18-3409	6286d36e-eb9f-4379-9a6e-b42e975ac8a3	42757	6286d36e-eb9f-4379-9a6e-b42e975ac8a3
+8b55baf0-2d34-4cae-896d-641b1dd40785	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-8148	cbabd2f9-ef40-49e6-b976-7d0762d6020b	42730	cbabd2f9-ef40-49e6-b976-7d0762d6020b
+7639fddb-86b5-45a1-bac3-ff6a575e0cf5	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-6A-AB49	39726ff7-a338-45b8-8d35-1383d43e057a	34893	39726ff7-a338-45b8-8d35-1383d43e057a
+edbff8e2-6e22-474c-a813-b3b258972a99	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-A5DS	e2e5c171-00b6-4046-83fe-8756789f031e	34602	e2e5c171-00b6-4046-83fe-8756789f031e
+d8d53df1-42d6-4d8b-ac4c-6f3993ac247d	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-58-A46K	51c5681c-a662-40a3-9b26-2443e3cb8d47	43763	51c5681c-a662-40a3-9b26-2443e3cb8d47
+34d5d8b7-9737-43fa-86fe-7c2885c787cf	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-18-3421	07932134-34b4-416c-ad51-84fe07d91dc1	33888	07932134-34b4-416c-ad51-84fe07d91dc1
+43abe847-4ba7-466e-8283-5d7b80b999a7	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2756	7c87adb7-919c-4c68-922b-a9e4ba56ae8c	25654	7c87adb7-919c-4c68-922b-a9e4ba56ae8c
+442c412d-6cc5-4ffd-810c-c94c8e643bd6	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-94-A5I4	bacad927-3e79-437a-9603-d19597dc8620	35723	bacad927-3e79-437a-9603-d19597dc8620
+7f8130d2-f169-451b-a263-547adc2fcb2c	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-A513	a353b774-e3f9-4f05-bf11-367f6515eb9c	42995	a353b774-e3f9-4f05-bf11-367f6515eb9c
+e80a4625-1b5a-4abc-8ab9-978d1488b961	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-O2-A52S	df636949-e204-4379-b158-d9f7f3f4fca7	35794	df636949-e204-4379-b158-d9f7f3f4fca7
+400c8d1e-c12b-4d3b-a8ea-85e6be1cec4f	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-98-A53J	ac64a0ef-1331-4910-9b51-ae068e13497b	35270	ac64a0ef-1331-4910-9b51-ae068e13497b
+399c936e-ba68-4040-98d4-917a87dad603	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-8308	b6ec8d29-f25f-4b97-a3e5-78318c25e411	51357	b6ec8d29-f25f-4b97-a3e5-78318c25e411
+63d2a48d-50ec-4e84-86e7-c4b74c49d08f	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-63-A5MJ	076a458d-eb22-45b7-bdda-c992c7f166b7	52446	076a458d-eb22-45b7-bdda-c992c7f166b7
+d566fa32-382b-499c-820a-c2bbb22501fb	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-6546	473e603c-925a-4aa6-ad9a-985d497e2098	34042	473e603c-925a-4aa6-ad9a-985d497e2098
+12b44011-90c0-4a70-8ea4-a216ec0c0860	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-LA-A446	76c76160-8d34-4f74-aab1-04ecaef3764f	35218	76c76160-8d34-4f74-aab1-04ecaef3764f
+185923c0-e642-41c4-a22e-0dae102b0a40	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-96-7544	7afb4c88-947f-4ba1-8974-a2addc5c4b11	42448	7afb4c88-947f-4ba1-8974-a2addc5c4b11
+3f1b4356-0b53-48cd-8938-96fc786c9b63	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-79-5596	446957f2-dcc3-4b82-a6b2-333738f61787	33627	446957f2-dcc3-4b82-a6b2-333738f61787
+8a933b93-87b3-4f1f-8ef1-1d095cea032e	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-A53L	41bf2614-bc47-4408-8c94-dce50b32e8b7	34857	41bf2614-bc47-4408-8c94-dce50b32e8b7
+ac89e063-a288-4516-9d9e-92cc0ed2bc24	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-37-4130	c0953158-3d1c-4bc9-8b30-58f13de37cd2	34200	c0953158-3d1c-4bc9-8b30-58f13de37cd2
+07083473-8835-4bf9-9f52-b15bba59d932	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-A5GB	d95b28ee-9f48-4966-9e21-94b64e16ca85	27109	d95b28ee-9f48-4966-9e21-94b64e16ca85
+613adbb3-c2d1-4992-9953-c4fadd249001	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-96-A4JK	dcb9c1b1-30e4-448a-895a-af7c5292813f	46840	dcb9c1b1-30e4-448a-895a-af7c5292813f
+a0b3fab8-7817-429b-aa34-7ef03e813313	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-21-1079	087879b6-ca7e-454c-b50f-e8377568448a	33888	087879b6-ca7e-454c-b50f-e8377568448a
+d81944a2-6cee-4773-912a-899fdf9eb1c4	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-63-A5MN	52149707-6760-420b-8ecc-99431b794c19	40135	52149707-6760-420b-8ecc-99431b794c19
+f400b427-954a-4f8a-a885-222e3e4c28ab	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-33-AASJ	f3437814-08c6-4af2-87c5-25217753e197	27045	f3437814-08c6-4af2-87c5-25217753e197
+2c89b366-c394-4067-bbb0-f24f5920ecaa	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-18-5592	49af26c0-c2ff-4341-b63f-1a0f0b964a86	33554	49af26c0-c2ff-4341-b63f-1a0f0b964a86
+d4608593-20cb-4b53-b037-39aa8ddd05b7	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-4596	a999fb78-3364-4b02-ac4b-616c6eeb1f81	33989	a999fb78-3364-4b02-ac4b-616c6eeb1f81
+9f247eef-9c0a-4e7a-a2e8-2a84225ba307	Unknown	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-MF-A522	3feae586-034f-42ca-944f-499456732f64	56886	3feae586-034f-42ca-944f-499456732f64
+7b599ce3-6aed-4333-8ba5-2b1bf7ec7aab	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-58-8387	047d264d-4d36-4079-8666-29bbf29f7846	38433	047d264d-4d36-4079-8666-29bbf29f7846
+86958f1d-f10b-403e-b204-061e1932a793	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-A4CL	90bf4555-d1fa-459a-ae70-e0fd55fbd244	42690	90bf4555-d1fa-459a-ae70-e0fd55fbd244
+9b07ef0c-1329-4341-a5a4-42abe7a6737c	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-63-A5MB	537b523b-9ce6-458c-b34e-20da4d618f0f	46573	537b523b-9ce6-458c-b34e-20da4d618f0f
+d87e30a3-1b5a-41cf-bafe-27914a01c8d9	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-21-1071	db7974f5-dac8-4075-b6b7-528d86fb825e	33810	db7974f5-dac8-4075-b6b7-528d86fb825e
+bf2f1b1b-9de9-41ba-8e0d-00e00e39e51d	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-98-A539	8a341c24-58eb-4591-8b3e-18eae4dceb37	35055	8a341c24-58eb-4591-8b3e-18eae4dceb37
+4eaf5d63-9b33-4c7f-871e-45daa735f972	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-34-A5IX	03e6d22f-5fb0-4b43-8fdc-65cd4f19bd80	34572	03e6d22f-5fb0-4b43-8fdc-65cd4f19bd80
+e171b02c-da2f-4452-a100-9ed989e73276	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-63-6202	2034613d-8d1f-4a62-8f97-f69958f481ed	42327	2034613d-8d1f-4a62-8f97-f69958f481ed
+1535c8ab-100d-4886-8598-12a94483d010	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2771	6dd4f3f2-0f45-4169-8b1a-c4121cf8d8c3	45550	6dd4f3f2-0f45-4169-8b1a-c4121cf8d8c3
+4d6b5b30-0dea-4745-bc46-34ebd98f7418	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-43-A56U	b107071c-e159-4ee5-847d-a7ec4610bd53	35053	b107071c-e159-4ee5-847d-a7ec4610bd53
+bd15f523-45c4-4d7c-a3cc-4fb56abb0e54	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-5477	d2e4c771-c91f-4287-9597-51191dd9c091	33961	d2e4c771-c91f-4287-9597-51191dd9c091
+d38dbe20-bd5a-45d5-8db3-d5f777b454b6	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-46-3769	1ab91f63-b101-47b3-8b79-dd1a4de8321a	44880	1ab91f63-b101-47b3-8b79-dd1a4de8321a
+df7cfd84-a36a-44a0-b39f-a9ea1e0fd500	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2755	56f396f3-4649-480c-a029-009d900f4e35	25650	56f396f3-4649-480c-a029-009d900f4e35
+f8733921-44bc-4c62-8b2d-33a9b82ef665	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-34-5231	091e1984-09d5-4549-a7d5-9bbb76b11fdf	34045	091e1984-09d5-4549-a7d5-9bbb76b11fdf
+9dff11cd-0784-4a60-9c77-43f8957d3dfa	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-90-7767	baddb250-3ef6-4ab5-a0a3-d9547efb197c	34164	baddb250-3ef6-4ab5-a0a3-d9547efb197c
+26556020-3daf-4b8b-a3de-c0532c96aca0	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-33-AASB	c630e6c6-6fa2-4785-8d57-90fce176d307	27032	c630e6c6-6fa2-4785-8d57-90fce176d307
+f74b6db3-62af-4158-9310-a29b1180e469	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-6845	80924d85-4ffc-41c1-8d8b-95b0d7715ebd	34136	80924d85-4ffc-41c1-8d8b-95b0d7715ebd
+59b006b0-4a81-41c8-9574-29a732428e29	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-6798	44df6696-e77e-43f0-ac99-2992135cf572	46212	44df6696-e77e-43f0-ac99-2992135cf572
+005669e5-1a31-45fb-ae97-9d450e74e7cb	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-A5GF	4ac726e7-f93d-4ae7-9080-eb0d4f535f5d	43107	4ac726e7-f93d-4ae7-9080-eb0d4f535f5d
+0df0d6b6-66aa-4e76-8675-aa93787b93e3	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-O2-A52N	e3d8273f-cb73-4572-85f3-e8d50de1599c	26489	e3d8273f-cb73-4572-85f3-e8d50de1599c
+059212b3-9e71-4d00-863f-3639c4e30ed1	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-34-8454	19da510c-9814-4b20-9b54-93bfbc4c6e14	54383	19da510c-9814-4b20-9b54-93bfbc4c6e14
+06f36fce-f20f-4e37-8222-81a642c7bba0	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-7699	a2ea5a0e-1997-4325-b50f-a12826d80468	57908	a2ea5a0e-1997-4325-b50f-a12826d80468
+1ba4e70c-692c-487a-abc5-36e5f0a03286	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-58-A46L	90357ed3-631e-4e88-a477-3de0069eff13	46781	90357ed3-631e-4e88-a477-3de0069eff13
+d40b3520-708d-430b-a302-d4dc6970adbf	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-A511	050ed562-9baa-438c-a84c-8d24165f688d	35127	050ed562-9baa-438c-a84c-8d24165f688d
+e6b72c24-1607-43b9-8b8a-7bf83eea5895	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2759	3fe73298-db0c-4593-be2f-f9a549e97dfa	50305	3fe73298-db0c-4593-be2f-f9a549e97dfa
+0e084325-ba97-4c0a-9d00-12d01b4bc0bb	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-43-8115	d349a01d-341c-43d3-b2cf-75ba7ebd3f59	46573	d349a01d-341c-43d3-b2cf-75ba7ebd3f59
+b80ea411-c8ca-4414-ad1b-82af11df11c2	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-5481	ae2de3d0-a4ff-4f0a-8235-a642a904b31c	34062	ae2de3d0-a4ff-4f0a-8235-a642a904b31c
+3374e5d9-b627-4d4c-b66b-422f9564695e	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-68-A59J	4c8232da-ecac-49c5-a41d-6e92605d8d9e	42747	4c8232da-ecac-49c5-a41d-6e92605d8d9e
+d5e94dcf-994f-48a0-b491-bbbf1c2a6783	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-8305	fcc5cfa6-0174-4a83-b369-aa18a0c37d23	26587	fcc5cfa6-0174-4a83-b369-aa18a0c37d23
+5f99343b-e8ea-4b41-b36d-cd5c8fd918d0	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-4601	d4c0ae88-3019-45c4-b768-fc1a68f85be1	33955	d4c0ae88-3019-45c4-b768-fc1a68f85be1
+107f6b9a-2883-4499-a40a-ec25bc834a06	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-7140	e58aefbd-46d5-4078-994d-e01363826bd9	39048	e58aefbd-46d5-4078-994d-e01363826bd9
+257650bd-2e2b-4680-b77b-f9268b3af4ee	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-34-2609	ebd9668d-7e8c-4649-8365-88e9d1e4d2d4	86300	ebd9668d-7e8c-4649-8365-88e9d1e4d2d4
+a296ca7c-eb11-4d8a-92a0-d549b5c0951a	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-63-7022	41f57b5e-8b92-4cfd-aea1-8c8d9b4d1f36	42364	41f57b5e-8b92-4cfd-aea1-8c8d9b4d1f36
+ff7099e1-8ff9-48e4-842d-46e98076e7e6	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-L3-A524	d468d18b-6dd5-476f-b9f3-19b7df023801	46635	d468d18b-6dd5-476f-b9f3-19b7df023801
+75ab9203-30fa-4f1a-b8f2-aa61e02111f5	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-90-A4ED	a02764f1-78fc-4d5a-b107-54d461e8ecdf	34992	a02764f1-78fc-4d5a-b107-54d461e8ecdf
+2a0b4559-5ece-4b79-9c89-2ebe7cf82905	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-A5DR	ae927e52-a46d-40fe-8603-48e0bff77ca8	34778	ae927e52-a46d-40fe-8603-48e0bff77ca8
+6a2ce004-8a2d-419f-9738-e352d298a315	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-O2-A52V	0f428ff2-dcbb-4a6c-b29b-fe69f3cdf580	31278	0f428ff2-dcbb-4a6c-b29b-fe69f3cdf580
+7ccce724-d401-487d-b444-6edbbd032303	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2780	1370d447-3047-4598-8165-5b09212250e4	25592	1370d447-3047-4598-8165-5b09212250e4
+7cc8892e-4ba5-4cf5-be76-9e5cb4891d25	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-8150	f09b3639-8eea-407a-b863-a768a7d14ce6	35391	f09b3639-8eea-407a-b863-a768a7d14ce6
+381edbe7-f391-4154-b16e-ac91d550582e	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-43-6770	58f68d5a-96cd-42a2-9be6-3206d64718ca	48692	58f68d5a-96cd-42a2-9be6-3206d64718ca
+4daf4a91-bc36-40c8-8fca-ea61b6706775	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-5478	e689919c-1482-499f-b81d-9c3108624f4d	33894	e689919c-1482-499f-b81d-9c3108624f4d
+1fdbeb6a-8c73-46db-9d21-c56a834064f6	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-77-8139	95c67355-a0ba-4fa2-9f52-96c9bdb1dbed	42872	95c67355-a0ba-4fa2-9f52-96c9bdb1dbed
+8fbe1f9e-f2a6-4550-aabf-b06607b821f0	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-4593	3fb8e9b8-1402-4c71-bbba-e226e7b2e6b3	34130	3fb8e9b8-1402-4c71-bbba-e226e7b2e6b3
+ffb53b81-c1ed-473c-bdcd-b325b02e22ae	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-98-8020	c4bc67e5-861e-45be-a356-7132a0182b6f	26972	c4bc67e5-861e-45be-a356-7132a0182b6f
+28346e70-c18b-4572-922f-c7b7fa8af40d	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-4605	b335d01c-1ff5-4066-97e6-1993e7741375	39280	b335d01c-1ff5-4066-97e6-1993e7741375
+fa019da0-068c-4d28-a8f6-28b8e79f3a5a	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-8309	155f6394-aa2d-4a47-a12f-a813a5198b54	34484	155f6394-aa2d-4a47-a12f-a813a5198b54
+9335e4df-9974-47ec-84c4-256cd33522f2	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-34-2605	95a1fdfb-b1fe-488f-8a72-fe17782098aa	59853	95a1fdfb-b1fe-488f-8a72-fe17782098aa
+7abb4883-60b7-4882-b946-1a4665889257	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-34-5928	b5d55e60-944c-4424-847a-7c63d41d194c	42406	b5d55e60-944c-4424-847a-7c63d41d194c
+bff77f70-973a-4b49-8fd9-4a767f5df2c0	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-60-2696	6d414525-0924-4f97-a05a-04a94bfd6587	33924	6d414525-0924-4f97-a05a-04a94bfd6587
+1a02b991-39f7-4c52-9f6e-bf0f7c7bde8d	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-63-A5MI	1273b18c-66c4-45b6-abc1-d372f71eb179	52483	1273b18c-66c4-45b6-abc1-d372f71eb179
+3b195845-0050-49cb-b639-1fe85a131ebe	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-51-6867	127a9969-8cd1-4e1c-b003-3da2ad9259bd	34266	127a9969-8cd1-4e1c-b003-3da2ad9259bd
+986ced10-52b9-43b4-84ad-96013a657f1b	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-4594	c60b7a91-9a63-4332-b1ad-007d093d2019	33636	c60b7a91-9a63-4332-b1ad-007d093d2019
+2f586b38-5be6-4ffa-8a0f-c870fdf3dad3	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-51-4079	4bf55a56-f9da-462d-a3cd-d1b73073cb38	33912	4bf55a56-f9da-462d-a3cd-d1b73073cb38
+a8e79b70-76c4-4d4f-8e1d-37daebf2a921	not reported	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-66-2791	19a96084-e52e-48de-b2ed-0313170556c1	25594	19a96084-e52e-48de-b2ed-0313170556c1
+02ba8600-9d3d-489d-9f0b-f1c59085ecd6	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-34-8455	bf27f2bf-1e00-4780-ae32-47b787d26acd	34627	bf27f2bf-1e00-4780-ae32-47b787d26acd
+422a46b2-a67c-4a7e-923f-9b651ced96f8	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-22-5492	4ba02bc1-9a34-4e41-87ce-4ff1bb02bd71	33690	4ba02bc1-9a34-4e41-87ce-4ff1bb02bd71
+14a4a93a-e24d-46f2-bee3-18bd792ef95a	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-39-5019	ea5adf9a-df7c-4e0e-bd07-9f382dd0c16c	47870	ea5adf9a-df7c-4e0e-bd07-9f382dd0c16c
+b89eaf49-b80b-4730-b928-3fbc4385b64c	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-85-7696	32e52a0e-b19e-41f9-850b-bd67b9bf1632	42813	32e52a0e-b19e-41f9-850b-bd67b9bf1632
+0e91d7b5-ce35-4671-ab9f-cfd5369b557c	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-56-8082	3a2f96e0-e0de-4a30-a69e-67b241f508dc	34504	3a2f96e0-e0de-4a30-a69e-67b241f508dc
+e6cf4b99-d0f9-432a-8977-3704fd38103c	not hispanic or latino	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-98-A53H	19bc1055-b9f5-4a3c-990a-2940045603af	35102	19bc1055-b9f5-4a3c-990a-2940045603af
+dd7eda40-9aae-46b2-914e-788b76b43087	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-39-5027	a6b172dc-1f7d-4f94-945b-755fbcaf7f1a	42953	a6b172dc-1f7d-4f94-945b-755fbcaf7f1a
+bef26f5e-a17e-49b7-8eb4-2bc079983764	not hispanic or latino	male	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-34-7107	887d98a3-8717-420b-9b83-c37240b29e1b	25545	887d98a3-8717-420b-9b83-c37240b29e1b
+ce7dcb92-13aa-4496-82d2-873b53647bfd	not reported	female	Lung Squamous Cell Carcinoma	Lung	TCGA-LUSC	TCGA-NC-A5HI	c6a76f71-2255-4877-9bc9-48c08bb04521	55081	c6a76f71-2255-4877-9bc9-48c08bb04521

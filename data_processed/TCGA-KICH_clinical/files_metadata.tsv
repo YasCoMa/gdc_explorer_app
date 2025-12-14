@@ -1,0 +1,114 @@
+cases.0.case_id	cases.0.demographic.ethnicity	cases.0.demographic.gender	cases.0.project.disease_type	cases.0.project.primary_site	cases.0.project.project_id	cases.0.submitter_id	file_id	file_size	id
+a122d361-835e-4cf2-850f-af7864aa112c	not reported	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KL-8346	8caad262-8d79-4282-9c64-dd2ebb9801e7	31120	8caad262-8d79-4282-9c64-dd2ebb9801e7
+e8c2a8c6-5c2b-460b-b536-60bc537e6be3	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KN-8433	3792210c-d9a0-4470-8855-4f12d8f7dbc4	31062	3792210c-d9a0-4470-8855-4f12d8f7dbc4
+c689ae1d-4a6b-45db-b4d1-6b34c5c61522	not reported	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KL-8342	7eb2ef01-b90c-4b72-852b-94510c71c1ae	31115	7eb2ef01-b90c-4b72-852b-94510c71c1ae
+ee8c1919-17a9-4df1-8aa5-79546621b23c	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KO-8411	54335449-c083-4580-9e3d-3983b1dceb3a	31363	54335449-c083-4580-9e3d-3983b1dceb3a
+c7679861-f8a5-4dc1-853c-943b912253f6	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-UW-A72L	6fd3ce31-ecdd-43f9-b387-ff53784cb87f	31314	6fd3ce31-ecdd-43f9-b387-ff53784cb87f
+1860ba2a-76a9-4ec3-a19f-a05f3f28505a	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-UW-A72P	006bc285-120c-41ca-8a72-b5b94d60c90b	31272	006bc285-120c-41ca-8a72-b5b94d60c90b
+e2c4e773-ed5e-4274-aca6-1e7168d593de	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-UW-A7GJ	7478b84f-24e2-4d90-9721-7ec0880aec08	31155	7478b84f-24e2-4d90-9721-7ec0880aec08
+8a1a9872-6b3e-4ad7-8ebe-85cba80f7c58	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KM-A7QG	df3fe39f-d0f2-44a5-b720-416255bbe80b	31648	df3fe39f-d0f2-44a5-b720-416255bbe80b
+f72cf636-3140-4d1a-bbe7-19a4bd9d51ae	not reported	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-UW-A7GL	055ab597-71b5-4d0d-8bc5-1f9d8b65e6b6	31005	055ab597-71b5-4d0d-8bc5-1f9d8b65e6b6
+03f3dd32-e1d1-485b-a968-3f55798f4d46	not reported	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KL-8326	242d964a-68b1-456a-9a9f-a3ff980b32c9	31143	242d964a-68b1-456a-9a9f-a3ff980b32c9
+d3210869-e2f3-4429-ba46-ceeaa21de943	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-UW-A72T	6dff29d8-f071-4a66-b9e3-a9f9d7664712	31139	6dff29d8-f071-4a66-b9e3-a9f9d7664712
+5f633c79-fcf8-47da-b349-ada3fb794819	not reported	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KL-8337	0fdc226b-57d6-4826-8a0f-11f1a4937dcc	31157	0fdc226b-57d6-4826-8a0f-11f1a4937dcc
+0cfbf4d0-3d17-4b6c-85a3-52a51ad5c32b	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-UW-A7GI	1f8fde66-6b14-4a51-a9f4-44ab993b67bf	31022	1f8fde66-6b14-4a51-a9f4-44ab993b67bf
+0f3c4f8f-0766-46b0-81b4-18ca4f6ea20a	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KL-8330	c34fab3e-5c5c-4c22-b6cb-78a23d39c1fb	31258	c34fab3e-5c5c-4c22-b6cb-78a23d39c1fb
+d22a7911-a917-470a-b19b-1f4960da66e7	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KM-A7QI	4928996f-9637-4c4f-8e3e-82b30bfc0e24	31489	4928996f-9637-4c4f-8e3e-82b30bfc0e24
+455fd7d4-5ff4-423f-83ce-4630aef89bb7	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KN-8428	ef158187-e224-427e-8ac2-1b67af781b3e	29709	ef158187-e224-427e-8ac2-1b67af781b3e
+2a05f855-83cc-4276-befd-5d6d4ec18f82	hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KO-8413	4ae09309-82a1-4493-9c12-08ac64d79141	31329	4ae09309-82a1-4493-9c12-08ac64d79141
+70e306ee-9584-49d6-81a1-a49d837ab6aa	not reported	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KL-8341	05e0762b-82f5-4149-8b9b-adeac728dd64	75719	05e0762b-82f5-4149-8b9b-adeac728dd64
+648fecca-4946-4880-8359-6801cbb4fc0d	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KO-8403	f066d0c5-aa37-4e38-8c0c-34216f10daa2	31192	f066d0c5-aa37-4e38-8c0c-34216f10daa2
+83b3060c-2449-4581-88ef-817d126e4525	not reported	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KL-8323	ea0da722-7977-40c6-98b6-10b675019f12	50562	ea0da722-7977-40c6-98b6-10b675019f12
+872092b3-d31e-44d7-bd03-e29f52f8ab5a	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KM-8440	8901b259-e8c1-42f1-85f0-d1a7ee3b2402	39247	8901b259-e8c1-42f1-85f0-d1a7ee3b2402
+a5af1391-89d3-4f41-930e-7e8272afec98	not reported	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KL-8344	6a74e049-1d96-4ada-9404-9d274b84deb4	31116	6a74e049-1d96-4ada-9404-9d274b84deb4
+b08dfba8-6afb-4217-9259-72be6f1f3363	not reported	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KN-8426	708a54e7-4dfb-4410-84ac-9ab248948488	42465	708a54e7-4dfb-4410-84ac-9ab248948488
+955d428c-8fe8-456b-b86d-65ea6c2a1b18	not reported	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KN-8427	2f86734a-d138-45c1-869f-b2252b2635b4	31019	2f86734a-d138-45c1-869f-b2252b2635b4
+baaf32ff-b31b-4c42-bbf6-8ff7ab569ab6	not reported	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KL-8335	073a77d5-6aa3-4af5-8cc7-82e0d6aff4df	31251	073a77d5-6aa3-4af5-8cc7-82e0d6aff4df
+d52c3cb6-921e-4f26-b49c-e6e4f11f9c06	hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KO-8405	34200185-d221-41a8-a1f9-803a0dcad313	31287	34200185-d221-41a8-a1f9-803a0dcad313
+dc04b82c-e1e8-4917-ba19-c2fea4a1b69a	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KN-8419	5b090fc7-f9f8-477b-9beb-0a39fc2a418e	30997	5b090fc7-f9f8-477b-9beb-0a39fc2a418e
+dc8dbf62-b687-4362-8839-2fac69703f64	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KO-8408	ea8118fd-afaa-4137-a143-5d9ea0e2a358	23714	ea8118fd-afaa-4137-a143-5d9ea0e2a358
+e1e15226-9f8e-4035-8f08-eb1fed57080e	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KN-8434	609a8da7-cc10-4476-bbc9-ff2026ed6462	31438	609a8da7-cc10-4476-bbc9-ff2026ed6462
+edcbbfd8-9fc9-4774-bfbd-d1a30dc2f46a	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KN-8436	894a3f2e-225e-4685-8e21-b7a9606b049e	31358	894a3f2e-225e-4685-8e21-b7a9606b049e
+f1c1502e-1bd6-425a-b651-454363809668	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KN-8437	4568f144-ca54-4cc3-9f60-73fbac101e09	31321	4568f144-ca54-4cc3-9f60-73fbac101e09
+2589e8b4-c76b-445f-80c4-60516c202c2d	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KM-A7QJ	7272fd47-3ba0-413f-8973-3795c2fbc788	31349	7272fd47-3ba0-413f-8973-3795c2fbc788
+8d002850-ddd4-442c-a5cd-81340cd4e88a	not reported	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-UW-A7GK	510fe6ab-e9e8-4828-9b8a-07b20bb98b5b	31064	510fe6ab-e9e8-4828-9b8a-07b20bb98b5b
+f744cc77-1db1-4e3f-a9d6-fb8d38f2f9c5	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-UW-A7GC	9f91022c-2b6b-4fe6-a7f3-ceee0b245a32	31169	9f91022c-2b6b-4fe6-a7f3-ceee0b245a32
+fb322d32-d753-41cc-a21e-e47bf063d5bb	hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KO-8415	66cea6aa-4172-474b-92a7-38b8a179e828	31099	66cea6aa-4172-474b-92a7-38b8a179e828
+f31ba8ec-a3dd-4dd8-8d15-f6c5975ebe44	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KM-8441	8f9dd272-4f07-42dd-aeb8-b3b18c4047e1	47167	8f9dd272-4f07-42dd-aeb8-b3b18c4047e1
+e0e38071-877f-4ebf-955f-483eb4865351	Unknown	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KL-8339	c0df351f-023f-4ba4-b031-c4883a118641	52673	c0df351f-023f-4ba4-b031-c4883a118641
+2ea84e23-6a0a-4c5d-9c70-d5355a85df35	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KM-8639	f265f6c5-76b5-4b04-9b37-a9472ce4b2d9	46243	f265f6c5-76b5-4b04-9b37-a9472ce4b2d9
+3fe1ed4f-583d-4033-916e-3f4e8b5df2da	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-UW-A72H	9b9bd5c4-04fb-47f2-b2d8-7aa9445beacf	31135	9b9bd5c4-04fb-47f2-b2d8-7aa9445beacf
+8ac7f218-bd7b-4dda-8879-2cec49748e42	not reported	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KL-8331	fc654278-48d0-401a-a058-24591681fd93	31116	fc654278-48d0-401a-a058-24591681fd93
+f2b58595-dec0-4194-ab33-7c7dc6c058a6	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KN-8435	29ee161c-9562-43a7-a469-fa0d9fa031b8	31401	29ee161c-9562-43a7-a469-fa0d9fa031b8
+c8890a69-cd2f-41d1-9280-769932228690	hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-NP-A5H1	51b3f878-38c4-4af0-bda9-5da5f2650d49	31238	51b3f878-38c4-4af0-bda9-5da5f2650d49
+cc316faf-dcb1-4dea-b8b0-a17d000ff40f	not reported	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KN-8425	d48766b8-6dcb-44b0-954f-ada7080a558b	31195	d48766b8-6dcb-44b0-954f-ada7080a558b
+e562c60c-8e6e-481f-ad4f-28b067437ece	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KO-8414	f6bbe877-9a51-4a0a-af8b-96d5e122fd32	31185	f6bbe877-9a51-4a0a-af8b-96d5e122fd32
+f300efc6-a125-468a-bb2f-fbaac71fcca0	not reported	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-UW-A7GU	959bec33-9521-4393-8af4-3f3a055b648f	31422	959bec33-9521-4393-8af4-3f3a055b648f
+a86c2490-37da-46a3-88e2-0b0ce21d067f	not reported	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-UW-A7GR	6029e8dc-9a1d-4eb2-b0c4-5e2519cfdf4d	42833	6029e8dc-9a1d-4eb2-b0c4-5e2519cfdf4d
+04e9a63a-d742-488c-8564-bf9d79aa2091	not reported	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KN-8431	9be715ac-b227-4e50-a395-bb363ba9949b	30832	9be715ac-b227-4e50-a395-bb363ba9949b
+b5f6a0e3-f9ac-475f-9a34-b8b8834f1779	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KO-8410	029d156c-0940-44fb-8b40-f875ea8805e4	31171	029d156c-0940-44fb-8b40-f875ea8805e4
+40f79cfe-a51f-497b-b06e-7a4f9004f092	hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KM-8442	61921d10-0e7e-4eba-8e9d-72f09d2dfb81	46976	61921d10-0e7e-4eba-8e9d-72f09d2dfb81
+0697436f-e487-45db-b0bc-ad9246f70196	not reported	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KL-8324	5681fdf9-5cc3-41a2-8616-a2d78fc522a4	31055	5681fdf9-5cc3-41a2-8616-a2d78fc522a4
+e1145eaa-6bea-4a82-af2a-7ad1dc8a262e	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-UW-A72J	79629df1-961c-4585-aeae-318a9422bed1	31431	79629df1-961c-4585-aeae-318a9422bed1
+452135f2-6de6-4593-a091-ddf6344ee431	Unknown	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KL-8328	13c1c17e-5edc-4bd6-85e4-a34cf288ff9a	31177	13c1c17e-5edc-4bd6-85e4-a34cf288ff9a
+08a96dec-e658-493a-9308-83f7ace3b3b6	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KO-8409	18edf543-8f5a-4508-8411-7f0a3709dee6	31334	18edf543-8f5a-4508-8411-7f0a3709dee6
+02979422-5149-4750-ad5f-483e0bec6ac5	not reported	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KL-8327	53c0134a-7a90-41e9-b804-bb003e83d210	31115	53c0134a-7a90-41e9-b804-bb003e83d210
+3ba28f6a-28eb-4f32-993d-1fd1bb9f884e	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-NP-A5H7	97ddc79a-9414-400c-b1f6-dc6cd66e9c27	23347	97ddc79a-9414-400c-b1f6-dc6cd66e9c27
+11a33d4a-4839-468f-9d61-5630586ed978	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KO-8404	96e26627-4ef7-4a27-aa93-ec7425be9d1d	29486	96e26627-4ef7-4a27-aa93-ec7425be9d1d
+151f07f5-1529-4fcd-912c-e55b2ff8abef	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KO-8407	0543e14a-999b-4526-ac83-3111d0ed3652	30628	0543e14a-999b-4526-ac83-3111d0ed3652
+2fc175d1-9d95-44fd-a53e-820f6f404551	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KN-8421	2167e201-921c-4ae5-873f-cbb94b7853dd	31012	2167e201-921c-4ae5-873f-cbb94b7853dd
+3ec3bcb3-492c-4942-be02-76a67f57e38f	not reported	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KL-8332	3a072eee-302a-4d13-9589-0fd46f26cc40	31114	3a072eee-302a-4d13-9589-0fd46f26cc40
+452e96b0-dd23-4f5a-bc05-625763b0ee12	not reported	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KL-8345	9564ca26-0645-4c03-a96c-d2148aaa12d2	31228	9564ca26-0645-4c03-a96c-d2148aaa12d2
+23656226-2d99-4548-959f-5c2eed803e33	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KM-8438	134506ef-3a5c-4cfc-95c8-8972d3e2f03f	64904	134506ef-3a5c-4cfc-95c8-8972d3e2f03f
+d542c363-fd6c-447d-b71a-0e94fec125e4	not reported	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KL-8329	0ab42454-13cc-4784-aece-85ad06b8126d	31114	0ab42454-13cc-4784-aece-85ad06b8126d
+07a3f9d8-b741-4f96-9e88-57030c3faabc	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KM-A7QK	3ce2ccb7-9b6a-4846-8475-e8be74b91de9	39403	3ce2ccb7-9b6a-4846-8475-e8be74b91de9
+dfbe9b61-1f13-4bd1-8f87-364b186c69b5	not reported	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-UW-A7GP	4ef0a48a-a13d-49c6-9340-412de9545f46	31026	4ef0a48a-a13d-49c6-9340-412de9545f46
+b947dcf8-c83a-4bb0-b517-6b5989421c61	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-NP-A5H5	4a0bdcf9-a0ed-4c78-8ec0-157bc0a4090f	23199	4a0bdcf9-a0ed-4c78-8ec0-157bc0a4090f
+b9356af2-c448-4809-ae29-e8b80f65fa73	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-UW-A72K	13fb119f-2de7-449e-ad02-42ed73ac99a0	30965	13fb119f-2de7-449e-ad02-42ed73ac99a0
+02ec7a3a-2812-4a65-93cd-07bf655cc91b	not reported	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KL-8333	241948f4-9cad-43fc-9cef-64751b85f734	31210	241948f4-9cad-43fc-9cef-64751b85f734
+2f1c4db6-88a7-4a5d-a5fe-94d85f569440	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KM-8443	7d0b1855-87d3-465f-8bdc-d018ee47b4bf	39344	7d0b1855-87d3-465f-8bdc-d018ee47b4bf
+222a2e5b-9d55-4477-8a54-7776bd44f8a7	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KN-8423	790e62ca-fee7-4c78-8895-283246cff5c5	31056	790e62ca-fee7-4c78-8895-283246cff5c5
+3129e869-bb2f-423a-bd20-d0daae33b11a	not reported	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KL-8340	91a4960f-8783-4313-83b9-aaae0b023b32	31120	91a4960f-8783-4313-83b9-aaae0b023b32
+366219b9-fde3-4d2d-82d3-15fe6245aa98	Unknown	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KN-8429	f02029e3-6215-4d7c-bdba-24ddad88988f	31794	f02029e3-6215-4d7c-bdba-24ddad88988f
+4a88bc85-4c6e-4fac-8dbb-d3fc5f36b35e	not reported	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KN-8422	d0b5d5b6-c6a5-4b99-8ef2-7f7910761ea0	31096	d0b5d5b6-c6a5-4b99-8ef2-7f7910761ea0
+4e4faf51-2cbf-4910-a093-186660e4a19b	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KM-8476	20e3578a-a82e-402b-a8b8-c741c8418dd8	46438	20e3578a-a82e-402b-a8b8-c741c8418dd8
+39034b58-1fe1-4cae-ad3e-3ee291f1b4d0	not reported	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KL-8338	4ce06174-095d-455c-a071-2c5089804da5	31114	4ce06174-095d-455c-a071-2c5089804da5
+6101ffe6-2ef6-4256-9d6b-a7c545836995	not reported	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KL-8325	9517b8e0-f2d3-4e64-90ff-daf0b32889ef	31025	9517b8e0-f2d3-4e64-90ff-daf0b32889ef
+9aabcbd7-a26a-49b1-abf1-02c0dc3adcf2	not reported	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KL-8334	284a5698-356f-4bed-9375-765e6fd0938a	31142	284a5698-356f-4bed-9375-765e6fd0938a
+8c9e1f60-1838-4aa4-a667-c1cef7dddbdf	not reported	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KN-8424	0937f4e0-bfee-45bd-bf2c-37eea104a366	30982	0937f4e0-bfee-45bd-bf2c-37eea104a366
+9aa02d46-294b-4e99-b9ee-56edcbfb5275	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KO-8406	b4bd2038-27c9-45e6-a86e-da7680cde920	31208	b4bd2038-27c9-45e6-a86e-da7680cde920
+b4a0bf74-1381-4c17-b97d-206810d9e59a	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KL-8343	95b480c9-aaf5-42ab-b6f1-a13d730f1888	31145	95b480c9-aaf5-42ab-b6f1-a13d730f1888
+33ee63ed-6ff7-4145-bcb9-391b1d8867db	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-UW-A72O	8c037c83-2a98-4792-8eb7-f343cd2049fb	31131	8c037c83-2a98-4792-8eb7-f343cd2049fb
+739deed4-d1dc-458f-bd0f-1e24d2bfd305	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KM-8439	5f236aa6-c040-4b81-98bb-98028c24af7c	39273	5f236aa6-c040-4b81-98bb-98028c24af7c
+c7921a85-329b-4b23-ad87-5a695a88611e	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-NP-A5GY	63210fa5-e483-482d-858b-6bd31fddf2ae	31073	63210fa5-e483-482d-858b-6bd31fddf2ae
+ec082842-b5e2-4673-b1d5-68ff36d3522b	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KM-A7QB	4b3de0b3-6668-466f-aa92-578357707ead	31455	4b3de0b3-6668-466f-aa92-578357707ead
+bce773e1-2a8d-4402-a662-88baf9f1b68b	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KM-A7Q6	6cdc4e16-f1fb-400c-a828-6a7818150b3b	31460	6cdc4e16-f1fb-400c-a828-6a7818150b3b
+9680b5ff-1882-434f-9981-e8ac33764b93	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KM-8477	43269fda-bf94-4eb4-af66-2c71c2d6901d	38516	43269fda-bf94-4eb4-af66-2c71c2d6901d
+14e2e718-40bd-411c-bffb-e0ba8e6f4a53	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-UW-A72M	fb12790b-d13c-4aaf-8f17-66b095ac8875	31346	fb12790b-d13c-4aaf-8f17-66b095ac8875
+e2ee1ddf-985e-491e-8e0c-39f9731fee7a	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-UW-A72Q	b3f91651-0f1e-4dd9-b806-6140fff97414	31020	b3f91651-0f1e-4dd9-b806-6140fff97414
+9c7404d6-6e97-4be2-93f6-901153869bbc	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-NP-A5B3	fd9e71ff-9a23-4870-8602-eb5fa0798d6a	31443	fd9e71ff-9a23-4870-8602-eb5fa0798d6a
+63643ba6-bed9-4c36-91dd-a18105fadc06	not reported	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KL-8336	8c58070a-ef8e-497c-a251-d7d253ebe9f8	71919	8c58070a-ef8e-497c-a251-d7d253ebe9f8
+bfa595a1-7db5-4cf7-ba76-5c4dba8651a2	not reported	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-UW-A7GG	a8fde99b-09b3-4e17-8b08-8465b7da115c	30862	a8fde99b-09b3-4e17-8b08-8465b7da115c
+7c191769-f139-4dda-b9ab-4e4d81064a02	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-UW-A72R	41faa775-501c-426e-9c3a-43c2c10aa49d	31237	41faa775-501c-426e-9c3a-43c2c10aa49d
+af1111af-9384-4e37-9b16-227d38007ebd	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KN-8432	65288b88-9995-4b24-87d0-6445269c9b17	31049	65288b88-9995-4b24-87d0-6445269c9b17
+863c9086-e8ce-4e92-a0c7-a913cf01aacb	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-UW-A72N	063b3751-1540-4e56-82d4-0812e4687b20	30886	063b3751-1540-4e56-82d4-0812e4687b20
+9f8aa332-e625-46f7-b77b-1fcb3ca99ee2	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KN-8430	ff5113f2-b885-41ea-aa7f-7fbc31a467ce	23412	ff5113f2-b885-41ea-aa7f-7fbc31a467ce
+528a4d08-68ed-4622-b8ff-425bc3b8edc3	hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-UW-A72S	2bea98b6-a248-4ce6-bc6c-2c804d7039fd	31220	2bea98b6-a248-4ce6-bc6c-2c804d7039fd
+5b658942-2174-461d-8ef9-0cd08952aed0	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-UW-A72I	4e38d254-8be4-4cac-a86e-3c8658e19291	31014	4e38d254-8be4-4cac-a86e-3c8658e19291
+c593c5c7-edcd-46fc-ae20-d32350a6adcf	not reported	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-NP-A5GZ	0f4605c6-d3f0-4c73-9ced-382c90cb1a27	31190	0f4605c6-d3f0-4c73-9ced-382c90cb1a27
+d0a8cfdc-c025-4de9-94ad-f5160809ff8f	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-UW-A7GX	6b510163-d8d1-46d6-bf0d-4edc70a009e9	31368	6b510163-d8d1-46d6-bf0d-4edc70a009e9
+84910fbb-e5fd-48e1-99ad-768fd66ea187	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KM-A7Q9	d79fdf65-9862-4d64-86ac-6dec79ba798e	31549	d79fdf65-9862-4d64-86ac-6dec79ba798e
+f828a188-7011-4483-b857-afe936d9ed9b	hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KM-A7QE	bfdcf9dc-f19a-4716-8798-2c79029560e6	31558	bfdcf9dc-f19a-4716-8798-2c79029560e6
+8ee83284-3cdd-44d9-a3e2-2a567f10b605	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-NP-A5H6	6554ee83-8c97-4aaf-a2e9-d4770e677747	31214	6554ee83-8c97-4aaf-a2e9-d4770e677747
+0bde80b1-02bf-443e-b386-b44d9d5e3dc2	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KM-A7QC	5f50b25d-9648-40b9-8183-02ad389ea61d	39132	5f50b25d-9648-40b9-8183-02ad389ea61d
+879c40d9-d21f-4d6d-abc1-c8ed9e4c0acf	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KM-A7QH	72da9b6b-1c45-4304-862d-2041ddada605	31734	72da9b6b-1c45-4304-862d-2041ddada605
+62ac3498-2538-47d1-bce4-dd6cdfb3ffbf	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KM-A7Q7	0011e62d-ed04-4146-a7b3-045b32c56392	31583	0011e62d-ed04-4146-a7b3-045b32c56392
+8d30c7be-73b6-4c4c-80c5-31152b2f7cb0	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KM-A7Q8	8f02de92-c1dc-4f1d-8242-dba6a65f027e	42220	8f02de92-c1dc-4f1d-8242-dba6a65f027e
+e00f9035-679f-4465-990c-93a75497f6c0	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KM-A7QD	99dcc1b7-a282-4ed7-a193-1d4fad9c367c	31554	99dcc1b7-a282-4ed7-a193-1d4fad9c367c
+e0901bb2-27ce-46a4-bd82-ee1a8ebbe48c	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-UW-A7GY	e3bbd15c-beb4-46b3-ab10-6ae5eecf35d8	31513	e3bbd15c-beb4-46b3-ab10-6ae5eecf35d8
+f3ba1cf8-ac67-4da8-96f3-8680dc55f247	not reported	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KN-8418	cc629c24-df77-4117-9bbc-d22fdffc8941	30990	cc629c24-df77-4117-9bbc-d22fdffc8941
+0ec3caa1-7c51-417b-a89c-18e9fceb80c4	not hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KO-8416	03bac044-f429-42e4-b92b-05bde3cff2f2	31246	03bac044-f429-42e4-b92b-05bde3cff2f2
+1c43c45d-e767-4805-9c5b-fa21392145fb	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KM-A7QL	59e5e302-4eaf-46f4-9230-2b5176755ce9	31230	59e5e302-4eaf-46f4-9230-2b5176755ce9
+8fa3a7e1-249c-4958-af0d-5a30e1353ab7	hispanic or latino	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KM-A7QA	14531de2-6f12-4405-b416-c41b3e781d4c	31673	14531de2-6f12-4405-b416-c41b3e781d4c
+99558a57-3692-439f-bd24-3f5b90411b60	not reported	male	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-UW-A7GN	a6116ae5-2d9a-4a1e-9936-8223d337cf98	31097	a6116ae5-2d9a-4a1e-9936-8223d337cf98
+0b77657a-0297-4cee-b9f2-5de72e182016	not hispanic or latino	female	Kidney Chromophobe	Kidney	TCGA-KICH	TCGA-KO-8417	ab782fd0-894b-40da-8874-6d8c04943bb5	31209	ab782fd0-894b-40da-8874-6d8c04943bb5

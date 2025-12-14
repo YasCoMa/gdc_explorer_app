@@ -1,0 +1,186 @@
+cases.0.case_id	cases.0.demographic.ethnicity	cases.0.demographic.gender	cases.0.project.disease_type	cases.0.project.primary_site	cases.0.project.project_id	cases.0.submitter_id	file_id	file_size	id
+705f9841-988a-488a-8cdd-3e00bc731e76	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-VR-A8EO	1b0b14a5-3b13-4144-b9d3-69f97c76a28e	56773	1b0b14a5-3b13-4144-b9d3-69f97c76a28e
+ef8bec6f-f594-4076-9f38-157165633ef1	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A7HZ	61ae5e79-c531-4f57-bd23-6aba6364ca7c	53886	61ae5e79-c531-4f57-bd23-6aba6364ca7c
+a4d36e09-5d8e-4006-855c-e466682b6813	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-IG-A5B8	4e4556a6-4bcd-4e0e-b145-52c22e03176e	30013	4e4556a6-4bcd-4e0e-b145-52c22e03176e
+ac437816-e057-4f2c-9443-6289199431ed	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-R6-A6DN	8912691e-ae21-45d5-820a-0e8c57867a54	37629	8912691e-ae21-45d5-820a-0e8c57867a54
+80bfe92b-fb00-48bb-b659-8f8ef103bc29	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A4OX	f5a46038-d573-4659-900a-b45d823e2f32	37238	f5a46038-d573-4659-900a-b45d823e2f32
+2659bb79-95f9-4476-a516-f3800536422d	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-Z6-AAPN	21433e36-9b0e-4aeb-8296-30313c572eaf	36762	21433e36-9b0e-4aeb-8296-30313c572eaf
+7cd5ace2-d340-487e-beb2-1b576f6d751d	Unknown	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-JY-A93D	645e2360-e18f-46fd-b12e-1fd8891c487b	48692	645e2360-e18f-46fd-b12e-1fd8891c487b
+41b6c417-1ec1-4db9-91a8-11aa4dbad05d	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-IG-A6QS	26a7692e-3363-4953-b1e2-29d4acc9c540	37133	26a7692e-3363-4953-b1e2-29d4acc9c540
+981066ec-eca6-4621-8979-e935279aa1ca	not hispanic or latino	female	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A9FP	37f43b5a-13f3-4de8-9d00-dc81ad491928	47962	37f43b5a-13f3-4de8-9d00-dc81ad491928
+4b0274a5-56bd-4e69-9616-f878392edb13	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A8NI	277a9db9-53a3-4f95-909c-65824f509233	30272	277a9db9-53a3-4f95-909c-65824f509233
+89aab5c2-9761-43bb-9053-eed42ee08969	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-V5-AASV	c800a6e2-f6e7-4444-b722-e83ecb872917	54794	c800a6e2-f6e7-4444-b722-e83ecb872917
+61df8a4b-95f8-40ab-a252-d00c4300c290	Unknown	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-2H-A9GK	c6848d3d-48a2-4091-bcb2-8a55e6336768	33050	c6848d3d-48a2-4091-bcb2-8a55e6336768
+bf3074e6-8780-490e-a8c3-4237c19ca877	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A88W	eb82e5f5-87f1-44d0-b0ca-0d35094512d9	52506	eb82e5f5-87f1-44d0-b0ca-0d35094512d9
+90940ff1-c270-44f5-9949-f726838aaa57	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A8NN	5d047774-3239-486f-b56f-a0a78b3d1f1a	36794	5d047774-3239-486f-b56f-a0a78b3d1f1a
+6a05288e-d051-40a5-9f4e-864ab806a5dc	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-IG-A3YC	83181afe-4e7c-4eaf-9ce8-bfe864abb1da	43504	83181afe-4e7c-4eaf-9ce8-bfe864abb1da
+c89f6ea5-786d-4d3c-aa93-681664a908f9	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-Q9-A6FW	08715c75-5369-40c4-abca-983823faee34	41826	08715c75-5369-40c4-abca-983823faee34
+d67330ee-1791-4f5a-8996-8687a2d5cccb	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A5U7	3314d26d-f73a-4e56-a482-d9d1962e4273	54882	3314d26d-f73a-4e56-a482-d9d1962e4273
+b2b8c6bc-509b-4c5b-b0fb-d07a5628fa80	hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-R6-A6Y2	15a7babc-bea1-4d3f-9c9f-fa3e468966c2	30295	15a7babc-bea1-4d3f-9c9f-fa3e468966c2
+54e45b43-363a-47a3-b43b-5e41ff589b47	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-VR-A8ER	5aba704a-cbe8-4c60-aab0-18af382854b9	47084	5aba704a-cbe8-4c60-aab0-18af382854b9
+bcab5381-c037-4723-904e-d01ea386b61e	Unknown	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-JY-A93C	2a56c11e-5f38-42b3-8824-0ccc0dbf1ad5	37873	2a56c11e-5f38-42b3-8824-0ccc0dbf1ad5
+a9904356-f050-4bd8-b48a-50b64f6dc3a1	not reported	female	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A8NM	4055467e-f224-4232-a614-979299309529	29815	4055467e-f224-4232-a614-979299309529
+484b7b36-15dc-43a9-801d-580216a8cfcb	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-VR-AA7D	71cd732b-ea69-4fcd-9631-3da4466c69f0	35422	71cd732b-ea69-4fcd-9631-3da4466c69f0
+a91c3f09-5f48-4b54-b669-c768f9fe9682	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A4A2	79888c0b-9ef7-4261-a0b5-8d20c5bb628d	53541	79888c0b-9ef7-4261-a0b5-8d20c5bb628d
+02d98b0a-8360-49b9-bbd6-b70c79cbd32d	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-VR-AA4D	fad8190e-ca35-470d-a024-1d2fef2e5df3	66800	fad8190e-ca35-470d-a024-1d2fef2e5df3
+19f61a54-2db5-4e2d-8572-f294d7a41486	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A8NQ	777e1639-4932-4dd8-890a-5b2e2ac24f3e	30246	777e1639-4932-4dd8-890a-5b2e2ac24f3e
+e9aa4430-0203-413c-a8fe-bb89e95cf6a3	Unknown	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-2H-A9GR	706b6aa2-6f1a-4fa0-b7c8-727cd27c1c53	29770	706b6aa2-6f1a-4fa0-b7c8-727cd27c1c53
+3df1b9db-d900-47d2-839d-3900829cb2a9	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A49O	21d1539e-a5a6-4098-ab4c-88023f9cd94d	48079	21d1539e-a5a6-4098-ab4c-88023f9cd94d
+1946f60d-51ca-48ba-8e94-79142594986e	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-R6-A8W5	829d46d0-bd97-4678-8078-198ca0cde159	42027	829d46d0-bd97-4678-8078-198ca0cde159
+33c0199a-be0c-46d1-bb1e-889bfaedf20b	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A4MQ	8f4a9e8d-b0dd-4287-a745-1ca67d3071c0	53726	8f4a9e8d-b0dd-4287-a745-1ca67d3071c0
+59dd907e-c674-46c2-bce7-63517d5ae7a7	hispanic or latino	female	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-XP-A8T7	f3434e88-9e4f-4ede-bd0a-17b553293fcf	37345	f3434e88-9e4f-4ede-bd0a-17b553293fcf
+3b076d77-6276-4233-867b-6a10d9e17343	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-V5-A7RE	b6ec20c0-e6c1-4aa5-b864-6ca6dde45d19	60831	b6ec20c0-e6c1-4aa5-b864-6ca6dde45d19
+0500f1a6-a528-43f3-b035-12d3b7c99c0f	Unknown	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-2H-A9GF	abc3f4e7-5611-427c-bc5d-01cfd2a8a36b	35829	abc3f4e7-5611-427c-bc5d-01cfd2a8a36b
+81be56da-bea2-426b-9576-950a909cc153	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A8NG	cbc9870b-6de4-4cdb-9fce-7aeee7283e36	36867	cbc9870b-6de4-4cdb-9fce-7aeee7283e36
+95858ea9-f71b-48d4-aa15-7dfdf21ca9e7	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A7HW	18806ab0-bc31-4b53-8648-26f9bf023769	42239	18806ab0-bc31-4b53-8648-26f9bf023769
+fd43a93a-a26d-427b-be04-466630f3d949	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A88Y	5ef92922-e4c2-4874-ab06-28d84b496842	36769	5ef92922-e4c2-4874-ab06-28d84b496842
+124c1d54-1836-4f8f-920f-14047376120f	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-M9-A5M8	833af860-653d-45c8-9523-9112de5c69f8	37278	833af860-653d-45c8-9523-9112de5c69f8
+29da08f4-c9e2-4e7a-9733-b4ec5b9c5f13	not reported	female	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A43M	b97931b4-d6f8-42db-9d55-8db5373f6fc4	36870	b97931b4-d6f8-42db-9d55-8db5373f6fc4
+50f15b12-4dc4-403f-94b0-9d121306ee30	Unknown	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-JY-A93E	1af3c318-c774-42c3-8494-49f03a23ae19	37339	1af3c318-c774-42c3-8494-49f03a23ae19
+83762308-4dba-4870-b90b-64331ebc9baa	not hispanic or latino	female	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A8I1	a42f162f-42fb-45fc-b0d3-161a4e3829bc	42225	a42f162f-42fb-45fc-b0d3-161a4e3829bc
+f8dbab24-b9f4-4b8a-bfea-57856ccf6364	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-IG-A51D	5543f815-6bb2-44e0-bd2f-2623a035c86f	37036	5543f815-6bb2-44e0-bd2f-2623a035c86f
+10724958-d007-44fc-ada2-d5874614ddba	not reported	female	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A4OW	4086f4f3-4ec6-4f7b-b494-9562bc070ddb	37048	4086f4f3-4ec6-4f7b-b494-9562bc070ddb
+0ac08ecf-4d70-48a4-9dfd-f44032551cb9	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-IG-A3QL	832ffe97-f87b-42ff-a9f7-033ff032f1d1	44479	832ffe97-f87b-42ff-a9f7-033ff032f1d1
+26e7f083-a91b-4c04-84fe-d43be9722b18	Unknown	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-JY-A6FE	3b3a32b9-7af1-43b0-849d-d9257e867ae3	30530	3b3a32b9-7af1-43b0-849d-d9257e867ae3
+ab2755d2-5bd9-4e2f-b255-e813afc8d268	Unknown	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-2H-A9GL	311d8562-7d09-4b4e-8a7a-535482bbc8e6	30015	311d8562-7d09-4b4e-8a7a-535482bbc8e6
+91f9ad2e-e32e-43bb-aef8-5845c398606a	not reported	female	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-VR-AA7B	580e238d-1d08-4731-8ac9-ad743da52b99	37197	580e238d-1d08-4731-8ac9-ad743da52b99
+7e53564c-4132-40bd-a4d5-1d35473f224f	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-R6-A6L6	5402a13c-e847-42fb-9ee6-822599e467c0	29974	5402a13c-e847-42fb-9ee6-822599e467c0
+06ca7fc4-4ae0-47d5-9e83-f92ba42a957b	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A43H	37d9acec-1160-4827-9793-ddfe096c8daa	37326	37d9acec-1160-4827-9793-ddfe096c8daa
+078dc5f1-d2dc-4408-b785-27703c7813f1	Unknown	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-2H-A9GN	a1e2685c-fc68-45fd-9200-0baac839b384	35802	a1e2685c-fc68-45fd-9200-0baac839b384
+0a466142-c513-4257-85d4-4bd7cfd0ef29	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A4OE	5767e247-0f50-4f33-8b68-a6aa94e4da28	36883	5767e247-0f50-4f33-8b68-a6aa94e4da28
+1a578ae7-5c0b-48ef-8baf-7189df703a93	not reported	female	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A4OM	b13cf641-ac04-40f6-abc4-bc98ca6d358d	37036	b13cf641-ac04-40f6-abc4-bc98ca6d358d
+209e2e16-cb88-4a8f-9cdb-10e152caa26c	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A43J	c2701188-c110-4c52-96c8-51dae206fab9	37890	c2701188-c110-4c52-96c8-51dae206fab9
+25eb6a8a-5bd9-480d-baab-6113e1b3be51	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A88S	3147df18-cd82-4a19-a756-eb7006dc3963	37351	3147df18-cd82-4a19-a756-eb7006dc3963
+3633aeab-a763-438f-ad03-1b4ac8b3a621	Unknown	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-JY-A6FA	644a82e0-bbe5-4830-b143-0441fc92c9e0	48002	644a82e0-bbe5-4830-b143-0441fc92c9e0
+2c792b77-1bf1-42f7-bd94-73c6474c6c7d	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A7HV	16393907-8d74-46b0-ac93-8729378f0550	47725	16393907-8d74-46b0-ac93-8729378f0550
+3c0bb5e2-ad33-4d91-a31e-2a18f1c94d2d	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A4A3	4fa5ad88-73ee-48fd-9eec-1c3d735db595	53640	4fa5ad88-73ee-48fd-9eec-1c3d735db595
+3fa7fc16-49da-4bf6-90c4-74df5cf68b65	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A4OH	925b8e6e-1957-4f29-8590-0ddc79c0969f	37157	925b8e6e-1957-4f29-8590-0ddc79c0969f
+5111b51d-0c7a-4b3a-847e-200b0b3ee2c4	not reported	female	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A8NK	eabba13d-9992-4f01-a736-d86001583aa9	37057	eabba13d-9992-4f01-a736-d86001583aa9
+517738f6-ba1c-43b0-8d68-81a7c34118ea	Unknown	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-JY-A6FG	539a18fd-e0ed-403a-b5ed-6934078bfb00	30118	539a18fd-e0ed-403a-b5ed-6934078bfb00
+5530590b-8b5e-43a4-b2ca-877bfc6107f3	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A4OQ	50a359d3-5e95-479c-a190-99fffdab80dc	30310	50a359d3-5e95-479c-a190-99fffdab80dc
+4d4e15d1-5d54-4ee3-808f-0b28dfc77871	not reported	female	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A88Z	1e0897d0-472e-4f73-9ab6-f26ac5a21ad2	37015	1e0897d0-472e-4f73-9ab6-f26ac5a21ad2
+8373bc4a-490d-4050-bbb1-48b6472eba34	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-R6-A6XQ	20703f19-cbf4-4f77-802a-a51b81f536b0	30068	20703f19-cbf4-4f77-802a-a51b81f536b0
+97394c78-2815-4348-b4c9-df0b3b3d6b5e	Unknown	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-JY-A938	25ac9d54-5284-405f-b2ed-fc6dcf56658b	50199	25ac9d54-5284-405f-b2ed-fc6dcf56658b
+8f641ac4-8c31-464f-8bd1-e0661408eecc	Unknown	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-JY-A6F8	5b0302ea-4e40-465f-887f-7436922a0155	37244	5b0302ea-4e40-465f-887f-7436922a0155
+931a50ff-3149-4c4a-9456-45ed3a9dd457	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A49U	7b65389a-6521-49d5-b8b8-8702c257cb1f	53643	7b65389a-6521-49d5-b8b8-8702c257cb1f
+9e54a27f-d0fa-4a5b-91bc-13e27fed2a3d	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-IG-A50L	d8a694e2-9dd3-49a9-b28e-4622cad7b902	33933	d8a694e2-9dd3-49a9-b28e-4622cad7b902
+a935daeb-1efd-4113-a614-a5e4d446c72b	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A43C	174af4cb-5853-4c60-b8b9-232d5e158d30	37234	174af4cb-5853-4c60-b8b9-232d5e158d30
+b782c157-6b33-4247-83df-a82dc5e5d432	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A8HZ	a55bf7e8-02ee-47f5-ac47-e4a755bb3cca	53613	a55bf7e8-02ee-47f5-ac47-e4a755bb3cca
+b05aefc4-2d61-44b6-9451-e660d10d8a79	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A49X	5093b0be-5bb4-47ae-8043-e11960b346c4	41747	5093b0be-5bb4-47ae-8043-e11960b346c4
+bd1c3d3b-d174-4186-bb35-364e167a1d18	Unknown	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-JY-A6FH	5afaa5e2-cf42-4be2-90ce-663225a4303a	56594	5afaa5e2-cf42-4be2-90ce-663225a4303a
+b5fa3ac1-0691-4b6a-b6e4-765311b419ed	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-VR-A8EU	cd38c02b-4a6b-443c-99c0-219513910fa7	35230	cd38c02b-4a6b-443c-99c0-219513910fa7
+c61536a4-761c-4ca2-a1cd-aad738dcd940	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A88V	efe6b061-789e-4a3f-9b56-2105de4a793d	37216	efe6b061-789e-4a3f-9b56-2105de4a793d
+caf9b681-af70-4a6d-a871-c45926220de5	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-X8-AAAR	22bbc742-37f0-42bb-8b34-f04775b9a25d	44157	22bbc742-37f0-42bb-8b34-f04775b9a25d
+cb419344-6148-43d4-b549-570bd09b3e05	not reported	female	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A4OJ	e010f6be-4de2-480c-a081-f7bf74a1e137	37227	e010f6be-4de2-480c-a081-f7bf74a1e137
+ca400ea1-3e4e-437e-a54c-446431b741da	Unknown	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-2H-A9GO	a1a83c61-c5d9-46f3-a2dc-1ed789201e28	38646	a1a83c61-c5d9-46f3-a2dc-1ed789201e28
+cc14603b-e32c-43f3-8218-b6ed7ee2ec18	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A4MR	43a92f43-ef28-4599-a399-260051b2cd1f	53703	43a92f43-ef28-4599-a399-260051b2cd1f
+caba34f2-3877-48ca-9fbc-665c3960f574	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A4ON	96036f07-f1be-4b98-9b75-5483928d8952	37092	96036f07-f1be-4b98-9b75-5483928d8952
+cad8bd3a-ffd8-4baf-9de6-3ac3a1eb19e1	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A9FO	595f1d3e-138f-4cd4-9a58-87fb51d793ea	29764	595f1d3e-138f-4cd4-9a58-87fb51d793ea
+cd2f37a3-1912-4e64-89c5-a92a070efd5b	hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-V5-A7RB	7792671e-6caa-4563-bb01-2108ef78b5d0	37720	7792671e-6caa-4563-bb01-2108ef78b5d0
+d30ab67a-a40c-49b4-8fbc-d7dd5442277d	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A8NW	ae17d6cd-3c41-4d94-bfec-eca03e947c8c	32967	ae17d6cd-3c41-4d94-bfec-eca03e947c8c
+ceaf98f8-517e-457a-bf29-acfe22893d49	Unknown	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-2H-A9GI	b14f047e-de25-4ed4-8a87-67dc421c8eb5	35651	b14f047e-de25-4ed4-8a87-67dc421c8eb5
+cf7b2de3-f4be-4d29-b537-499dd948c1b7	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A8NU	b6bb30a2-261f-49d7-a73b-b79c1f504882	29689	b6bb30a2-261f-49d7-a73b-b79c1f504882
+d86eab07-8cb2-49a8-b00f-2986efd7ea3b	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-VR-A8EP	921e5d01-a3a0-4f85-932a-bd121a45ff61	44825	921e5d01-a3a0-4f85-932a-bd121a45ff61
+41b3dd5a-6413-40f5-9721-78cb218567b7	not hispanic or latino	female	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-IG-A7DP	61a24d1d-576a-4e20-8718-e2cc7e047cb4	48860	61a24d1d-576a-4e20-8718-e2cc7e047cb4
+990c6412-6dc0-4dba-a7c1-5bcb3751b1cc	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-IG-A4QS	cb3a01b7-ccea-41c7-b6b3-35e8757dc041	36969	cb3a01b7-ccea-41c7-b6b3-35e8757dc041
+daf211f2-941e-4244-8cf5-d31492269443	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A49W	1743dcab-ab6b-4a23-bed5-719b1fd864b6	53568	1743dcab-ab6b-4a23-bed5-719b1fd864b6
+656e3c14-1fc6-473a-813e-719753e7b408	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A5U5	675a9d61-decd-4815-b561-fcc4d34c0630	37039	675a9d61-decd-4815-b561-fcc4d34c0630
+87faba0e-28e7-4a7e-a7e1-12582ec68fac	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A49Y	fa73f300-fca8-4a52-b519-0605f2217f2f	47966	fa73f300-fca8-4a52-b519-0605f2217f2f
+4e7f0fff-7b17-4da9-95ea-f68797c427f5	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A5U6	a4479ef3-4548-4e5b-bc5e-1bf4b7f4a4c4	47718	a4479ef3-4548-4e5b-bc5e-1bf4b7f4a4c4
+3f7b600b-282e-4f35-9fd8-567b3fca8273	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-IG-A4QT	3e910749-635e-473b-bd02-ed611866ae98	41951	3e910749-635e-473b-bd02-ed611866ae98
+ad29744c-a09d-463a-84b5-63cfeb7ff786	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A49L	87da0938-5e5d-4ff9-8cb1-0afe54c9377c	66228	87da0938-5e5d-4ff9-8cb1-0afe54c9377c
+59da377a-12a6-454a-be01-886eda894179	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A8I0	bda631e4-1114-49ea-a731-6079b2f30f35	42275	bda631e4-1114-49ea-a731-6079b2f30f35
+9dfddc49-1e66-4e26-9d71-40d748cca0a6	not hispanic or latino	female	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-IC-A6RF	c2785cd8-cec2-4c4c-b5db-f837d14f8e48	53948	c2785cd8-cec2-4c4c-b5db-f837d14f8e48
+9e02a368-8858-4ec5-8c27-9e0876d387a4	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A8NJ	f8bfd9fd-ee72-4452-ba67-e922256ca2ad	37004	f8bfd9fd-ee72-4452-ba67-e922256ca2ad
+ffcfa005-a04f-458e-9d1d-86143dd823e5	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A4A6	1d0a5106-f893-4ac1-b244-c2df7693f728	48048	1d0a5106-f893-4ac1-b244-c2df7693f728
+b997d486-8c71-4926-9df1-d2afdaf2785f	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-Z6-A8JD	71d67a62-6f92-44f1-a20c-728b9d2fc9a3	37377	71d67a62-6f92-44f1-a20c-728b9d2fc9a3
+48633bb8-c5f3-45aa-a406-e46c624391b4	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-S8-A6BV	2769db12-9f0f-4d73-beda-4e02b7327eb1	49258	2769db12-9f0f-4d73-beda-4e02b7327eb1
+0396743b-98a6-4ad5-aa13-1b9b23e5b9f9	Unknown	female	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-JY-A6FD	b6ca3edc-52f3-4cf1-beef-c2143462d044	37292	b6ca3edc-52f3-4cf1-beef-c2143462d044
+df0125b2-5278-4ded-b3b7-9fc829fe9f63	not hispanic or latino	female	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-IG-A5S3	ecdcae84-4644-4e17-ae4b-f575b87d1e97	37026	ecdcae84-4644-4e17-ae4b-f575b87d1e97
+37d13493-975c-432c-bd21-65f383fc66c9	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A9FQ	fc41cce2-1358-49d0-90d5-3b6d192c7ef7	42113	fc41cce2-1358-49d0-90d5-3b6d192c7ef7
+09eacbfd-3f4a-4d2b-b7a7-c021535e2981	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A4OR	84c71ae1-0ffc-4571-a54c-a8060ba276df	37167	84c71ae1-0ffc-4571-a54c-a8060ba276df
+0ab29de2-eb9e-4a25-99de-5f543cfbdb53	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A49V	07c42a58-337e-4de3-866d-a9e82e559258	53643	07c42a58-337e-4de3-866d-a9e82e559258
+1c2837d4-bd2c-46f7-9e22-683b82a16350	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-Z6-A9VB	3da3ed48-37f7-4fdc-8a40-58d710d2c4a9	36632	3da3ed48-37f7-4fdc-8a40-58d710d2c4a9
+0b831729-8c3f-472b-9d76-50bbb4aeab0e	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-VR-A8EX	1e505559-3c7b-498b-975d-36daa016f168	30300	1e505559-3c7b-498b-975d-36daa016f168
+22ee75e0-5d61-41f4-aacd-b4e09c70d2c3	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A43I	00e57618-9be5-4edd-95ee-16fe43f0f522	37226	00e57618-9be5-4edd-95ee-16fe43f0f522
+0ee03772-f38c-43c1-8484-3c4cb8459468	Unknown	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-JY-A939	81ea5418-ddcc-4a48-b511-1911993545b1	37327	81ea5418-ddcc-4a48-b511-1911993545b1
+1116ddae-76b0-48d6-869c-be65d8b09d35	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-Z6-A8JE	856c8729-0d70-493c-ac46-2d5cc597df6c	37276	856c8729-0d70-493c-ac46-2d5cc597df6c
+4c9fb311-0860-4a04-a2f6-79558ac1d98f	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A49R	c28336ed-3b4f-4f93-a5d5-46933a449920	53636	c28336ed-3b4f-4f93-a5d5-46933a449920
+70084008-697d-442d-8f74-c12f8f598570	Unknown	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-2H-A9GG	a8c51793-1647-4787-b717-4abeb57fb797	30204	a8c51793-1647-4787-b717-4abeb57fb797
+6594acd5-4d2a-4cc5-8cf8-4064e252c5f6	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-IG-A4P3	367e14f5-1f56-4f4f-b1cf-3ef0b425bef2	41581	367e14f5-1f56-4f4f-b1cf-3ef0b425bef2
+70c5ce85-4022-46c0-8bd0-f5e9009ddf41	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L7-A56G	f3b001cf-1e42-40de-8836-d110de6e0e64	53960	f3b001cf-1e42-40de-8836-d110de6e0e64
+65cee80a-4c0a-4594-afca-d7088f7e5857	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-S8-A6BW	038fffa2-c5ea-4140-bede-80348340de30	37355	038fffa2-c5ea-4140-bede-80348340de30
+66118386-6ffe-4375-97d3-01908814ae32	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A8NT	9b64fdf7-a19f-4f3d-97c4-91e7bf0806af	37085	9b64fdf7-a19f-4f3d-97c4-91e7bf0806af
+71f9f567-3687-4e3f-ad20-aed026a5b7e1	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-VR-A8EW	bdc88104-243c-497a-96ed-44db29379f20	30389	bdc88104-243c-497a-96ed-44db29379f20
+67fae19c-3ce9-4f91-b01e-4b130abf632e	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A8NE	9395d3c1-7594-4af7-a039-793e3303808c	36874	9395d3c1-7594-4af7-a039-793e3303808c
+77b3ec30-1e9f-466a-944b-6b187635edb7	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-R6-A6Y0	3c9c5118-7a27-4bbf-8af8-61b48872c739	37165	3c9c5118-7a27-4bbf-8af8-61b48872c739
+7a32847f-69bb-4592-8feb-cfd5d355ada9	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A7HY	fcc13df1-2c21-4ee4-a8aa-e702e3da99bb	53840	fcc13df1-2c21-4ee4-a8aa-e702e3da99bb
+8d3ccaf0-872a-4ee3-b4b7-847180fec3ab	hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-XP-A8T8	5ba6f2d6-578d-4914-9201-42324f468f18	37579	5ba6f2d6-578d-4914-9201-42324f468f18
+7aa71c68-4205-4745-838b-0d00bd49a501	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-IG-A97I	f089b551-b42e-4386-af4c-75a1b52dc5b3	41849	f089b551-b42e-4386-af4c-75a1b52dc5b3
+9a1c83cd-d746-4008-8ed3-22cd44951e29	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-R6-A8WC	5a05b723-8fbb-4ea6-a9ba-6b50bf8d9edb	37138	5a05b723-8fbb-4ea6-a9ba-6b50bf8d9edb
+7bf3f18b-a013-48d2-a743-26a57fdbe4c4	not hispanic or latino	female	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-IG-A3I8	070b0b6c-a8f6-438c-902b-10293e641ee9	55915	070b0b6c-a8f6-438c-902b-10293e641ee9
+9559f579-5d9a-4c96-9836-8a039d394795	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A4OT	9d1d7578-9bbb-4053-9132-cbcbec80fc43	37056	9d1d7578-9bbb-4053-9132-cbcbec80fc43
+a1a233ea-5dda-4eeb-bd92-6667e8b3ef57	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-IG-A3YB	a2b91d5f-e33c-493e-ad90-e5d84c991135	41779	a2b91d5f-e33c-493e-ad90-e5d84c991135
+ad2fe57c-2f44-4d57-83a9-349c8a25c414	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-V5-AASW	e2746178-9bcf-462c-ab25-1b7746b79650	44091	e2746178-9bcf-462c-ab25-1b7746b79650
+a6bbfc3c-bd42-47f8-af01-99fa821ea176	Unknown	female	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-JY-A93F	f05bae87-e608-4b16-9742-41b6e7c4c3ab	37307	f05bae87-e608-4b16-9742-41b6e7c4c3ab
+ae404398-6544-4f3a-8830-44a4a227f8d5	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A49N	183b072e-201b-4e78-8624-db7f6c3da11c	37122	183b072e-201b-4e78-8624-db7f6c3da11c
+d064c0bf-ecac-4069-aeae-4cc36bc87b38	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-VR-A8ET	a5b8e885-8fb1-436d-8e78-e6423d9d7d84	30038	a5b8e885-8fb1-436d-8e78-e6423d9d7d84
+d5ac647f-0c6d-40d7-87a8-faa1cc968c82	not reported	female	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A4OS	f274bce3-3b8c-4a5b-a021-4287b443582c	37046	f274bce3-3b8c-4a5b-a021-4287b443582c
+cfdc8f4d-a25b-4c63-9832-58444581a505	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A9FR	5ec1df48-2578-4d8f-9adb-a3c1d2a65134	47837	5ec1df48-2578-4d8f-9adb-a3c1d2a65134
+e89d7900-915d-4936-b1b2-cac3670ea2f4	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A4A4	fb497222-9c78-4bc1-b608-86904b5c47f9	41965	fb497222-9c78-4bc1-b608-86904b5c47f9
+fd62f7b4-a2da-4acd-8a85-8fa8f91521cb	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-VR-A8EZ	b0926ff0-0f74-4757-bd5b-03ea7c4b795b	30539	b0926ff0-0f74-4757-bd5b-03ea7c4b795b
+fdcdf592-66f1-4027-962f-a64d49be474f	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-ZR-A9CJ	b8f6ec14-4d09-439b-b852-2fdbdca0420c	40589	b8f6ec14-4d09-439b-b852-2fdbdca0420c
+ee47cd59-c8d8-4b1e-96db-91c679e4106f	Unknown	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-2H-A9GJ	006d03e5-e58a-4fbe-bb12-9a002013617b	33023	006d03e5-e58a-4fbe-bb12-9a002013617b
+ef573329-9659-4106-b391-9a33e1c732c4	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-KH-A6WC	38542cbb-2df0-4620-88c1-d89763f8d9b4	57638	38542cbb-2df0-4620-88c1-d89763f8d9b4
+f23794d7-35cc-4550-a03f-8e3cde1a2bcd	Unknown	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-2H-A9GQ	188b7b8f-4975-488f-a8a6-861c902990dc	32943	188b7b8f-4975-488f-a8a6-861c902990dc
+f28f37a0-8e24-4a36-90f0-83cf5a27be10	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A891	0093c5d4-f98e-42f5-9fd3-9c952563bf51	36907	0093c5d4-f98e-42f5-9fd3-9c952563bf51
+f4cb24e9-e7fd-4245-9c9b-7e0934038446	hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-XP-A8T6	33dce330-dc5d-4916-8dae-a3fab5875298	37290	33dce330-dc5d-4916-8dae-a3fab5875298
+fb777a96-2e24-4b60-9c7e-9d5dc3e7f35a	not reported	female	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A893	1f7eab55-2929-4a51-aada-50befd099578	37002	1f7eab55-2929-4a51-aada-50befd099578
+6c7d464e-09f1-4478-837d-bfbf6addf062	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-V5-AASX	bcb4a782-4e75-47f3-a0b7-46a894e65df0	37616	bcb4a782-4e75-47f3-a0b7-46a894e65df0
+7ab6de57-d659-47f1-a70f-1b67650e99d7	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-IG-A3YA	621de0bb-f61f-4fcc-886a-f886a76aaf05	37200	621de0bb-f61f-4fcc-886a-f886a76aaf05
+aa364b98-0097-43a4-976d-742faa0276df	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A4A8	58f9c518-5908-4aab-be6b-20943d800eaf	60671	58f9c518-5908-4aab-be6b-20943d800eaf
+0c78b1b5-f480-45ad-a253-19297bc886b4	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A4OF	0f1d87d8-6340-4a80-b281-169fdd42dd95	36840	0f1d87d8-6340-4a80-b281-169fdd42dd95
+dde17514-bd86-41e7-ae6d-88dda6d854bb	not hispanic or latino	female	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-R6-A6DQ	28eb4020-de87-4c1d-b61b-f18b6178b578	29745	28eb4020-de87-4c1d-b61b-f18b6178b578
+6826bcdd-24a4-4dd1-9fab-201cf774e166	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A88T	abaf30d9-f1fe-4829-9265-da87e7d20c74	37428	abaf30d9-f1fe-4829-9265-da87e7d20c74
+07b7dc7b-9407-4f11-9cd9-3b6df8d1cf6c	not hispanic or latino	female	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-Q9-A6FU	edaf353b-3038-48cb-8268-e9ffcf6d37bf	30601	edaf353b-3038-48cb-8268-e9ffcf6d37bf
+c17331fb-c47b-40b5-8d39-9803ee37a42a	Unknown	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-JY-A6FB	125b0538-d56e-46f1-9d9e-9f74a58920f7	37150	125b0538-d56e-46f1-9d9e-9f74a58920f7
+cb2af13b-cbed-4657-8fd4-fed8db375cba	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A4OI	a9ff011e-2de5-4da0-899f-252bba71a3c9	37627	a9ff011e-2de5-4da0-899f-252bba71a3c9
+df78950c-198d-4afc-a81e-8cfa4dea0abd	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A8NF	b2c498e7-ce6f-4d01-af80-fa3882ee02de	29971	b2c498e7-ce6f-4d01-af80-fa3882ee02de
+0f06153a-0f28-4a7e-9e81-1e0b3f4412ab	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A49K	01e029d5-8ccc-47c2-9e63-6d43054e7759	37077	01e029d5-8ccc-47c2-9e63-6d43054e7759
+2795badd-5c70-442d-8780-8f458539d506	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-VR-A8Q7	443c3c03-7720-4852-9457-f4a2d11e0e74	44665	443c3c03-7720-4852-9457-f4a2d11e0e74
+318e257e-7bff-4ca0-8f0e-acb02516437e	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A8NS	e4ec2bd4-5b0c-4495-8624-01391ec9886c	37287	e4ec2bd4-5b0c-4495-8624-01391ec9886c
+3c1f8b73-bad7-4649-b08e-c7afc647edf3	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A4A1	1244356a-bf25-4b9c-bf0c-de23f1748a26	53768	1244356a-bf25-4b9c-bf0c-de23f1748a26
+3df30783-c93d-4204-9703-c24c2349ba15	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-R6-A6XG	377aa1ee-b880-4292-bf2b-b65063d05d2e	41374	377aa1ee-b880-4292-bf2b-b65063d05d2e
+5080e9d1-d1e0-4ce7-a4ba-9935dd362263	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A4A5	93fdfbe5-d82f-4b5e-8bce-336620ad777d	37343	93fdfbe5-d82f-4b5e-8bce-336620ad777d
+49a3c7c6-81b0-4b14-8e13-03f6901171f8	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-VR-A8EQ	cde21192-98d4-4f3e-9970-737dce643b13	40743	cde21192-98d4-4f3e-9970-737dce643b13
+4b8809a6-4ab3-4567-8623-37ce3faa978c	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-IG-A3Y9	24f7d795-d236-4062-9e06-7708c35562f4	37350	24f7d795-d236-4062-9e06-7708c35562f4
+606dc5b8-7625-42a6-a936-504ef25623a4	Unknown	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-2H-A9GH	7c10b31a-16b9-4031-a972-64503b2183d9	35736	7c10b31a-16b9-4031-a972-64503b2183d9
+53990b20-16bd-4792-a4ca-4fd411c841f4	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A4OO	d6d6987a-736b-409d-866e-7a03dcfec840	36728	d6d6987a-736b-409d-866e-7a03dcfec840
+608ef42f-ccd7-4ae0-8156-8775a0f09bcf	hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-R6-A8WG	d787349d-2e93-4535-8a03-ef5ab6da64a2	30403	d787349d-2e93-4535-8a03-ef5ab6da64a2
+5af0e222-3dc8-400b-ba61-2225921f2fd3	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A8NH	9f4094fe-fed6-47b1-989c-577d5fe668ae	29871	9f4094fe-fed6-47b1-989c-577d5fe668ae
+64aa95b2-ccf7-4bfa-8d4f-98de09f03e71	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-IC-A6RE	5a5c25b0-8ca2-42fe-b11e-b890cc170757	54274	5a5c25b0-8ca2-42fe-b11e-b890cc170757
+5da26ba5-297a-4d04-883d-32719db3886a	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-IG-A625	118668d9-2683-434d-8408-b69ba7db121a	36943	118668d9-2683-434d-8408-b69ba7db121a
+6584fa8f-b4f4-4844-a71e-3bfb731ad445	Unknown	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-2H-A9GM	c584835e-ed03-4217-989c-bc9f695bd978	30154	c584835e-ed03-4217-989c-bc9f695bd978
+5e491131-b567-4e96-a2d3-69ce16caec50	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-IG-A97H	7f6f85e9-9c51-4bed-95b7-991550f1dad6	37073	7f6f85e9-9c51-4bed-95b7-991550f1dad6
+8c4f5492-3567-4e12-8607-2cd65fab9baa	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A7HX	c5f0dc55-6d32-4d93-91db-9c3009db2d51	47833	c5f0dc55-6d32-4d93-91db-9c3009db2d51
+6969fe5a-5993-48e5-95c5-c5c7d3d08205	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A43E	68913ee6-e609-4371-9dd8-12f2f503f51c	37793	68913ee6-e609-4371-9dd8-12f2f503f51c
+8d5788ca-9131-4604-870f-c7eea84c9ff6	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-R6-A6KZ	86110d03-3cb8-4c20-ab7f-aac02fa96b86	30049	86110d03-3cb8-4c20-ab7f-aac02fa96b86
+9112a681-e5a2-4dc8-b5af-0187d3bfc1d3	not hispanic or latino	female	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-RE-A7BO	2feb28f4-f833-408b-bdc0-a1afb3b3898b	30243	2feb28f4-f833-408b-bdc0-a1afb3b3898b
+9c32a8f1-49a4-4662-a5fb-b99f955c3b1a	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A8NL	618603ad-a673-475a-87c6-02aeeb594c6b	36790	618603ad-a673-475a-87c6-02aeeb594c6b
+aac385c1-42f9-4d9e-b9bf-94ca13ebc5ae	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-V5-A7RC	b2cc4c77-19f9-4465-ba02-aa16d2860bad	54351	b2cc4c77-19f9-4465-ba02-aa16d2860bad
+97031483-1185-41d6-9722-0a03b63caa19	not reported	female	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A4OP	a2af5746-fca5-48e1-ad45-a1758c95fef3	36747	a2af5746-fca5-48e1-ad45-a1758c95fef3
+a248bfe7-59af-43ec-8129-692f44b2b218	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-IG-A8O2	035ccb85-192e-4d42-b036-ea44b6b9d036	37223	035ccb85-192e-4d42-b036-ea44b6b9d036
+a34c2eda-3e24-4eb8-94cc-a5ccc819d771	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-VR-AA7I	6f4527be-00e7-4dc4-8ed4-f3fc1b96aa88	30354	6f4527be-00e7-4dc4-8ed4-f3fc1b96aa88
+ae6c307a-ca04-4618-b270-e8641afd1daa	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A4OU	635bd9d8-e30a-4ea4-9363-dc81d37d8f27	36822	635bd9d8-e30a-4ea4-9363-dc81d37d8f27
+b3e248b5-5d40-495c-bd10-90ecf0ed6a95	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A49M	14fee3a4-714a-42d8-9d0a-e6dbf2b152e4	47633	14fee3a4-714a-42d8-9d0a-e6dbf2b152e4
+c305aa0c-430c-4e3f-93ac-e611b32db30a	not reported	female	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-VR-A8EY	30f7884f-e960-4627-a06d-978310fb83f2	58803	30f7884f-e960-4627-a06d-978310fb83f2
+b64a5f5a-5913-432e-9d08-0ff67a8c6b64	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A49P	bd749576-e045-4072-a811-6d8b56d69fcf	42128	bd749576-e045-4072-a811-6d8b56d69fcf
+c6ae1d70-a6a2-4a46-b67a-d1bff73a1709	not reported	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A8NV	6027ea16-f9de-473f-9893-ccbc7785f07f	30010	6027ea16-f9de-473f-9893-ccbc7785f07f
+c965a778-8696-47db-a7c7-8b9f75417cbd	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A4A9	e7e0b996-69da-40ff-9714-2b59bab98e63	37450	e7e0b996-69da-40ff-9714-2b59bab98e63
+cccd0568-e267-44a2-8421-6471736bb45f	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-R6-A8W8	1e824d50-b3eb-4a39-9eba-efe4726c6d90	29865	1e824d50-b3eb-4a39-9eba-efe4726c6d90
+d125a297-88be-4500-8ef8-b8bb02362f2b	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-R6-A6L4	8b975113-a35c-43e9-97b7-c9ad6c4f5276	38003	8b975113-a35c-43e9-97b7-c9ad6c4f5276
+da33c637-e9db-4a67-9198-2eda750dead7	not reported	female	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A8NR	66875084-b54d-4955-891c-470710b6688b	37010	66875084-b54d-4955-891c-470710b6688b
+dc4062d7-1c81-4b19-aabd-8307a0df5029	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L7-A6VZ	6b156faa-6a0b-45a2-8818-0233b6e518b6	59775	6b156faa-6a0b-45a2-8818-0233b6e518b6
+e9f82800-647a-4d61-bd1f-2c17c4ccafba	not hispanic or latino	male	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-LN-A49S	033964bf-3de7-4b3c-b6d6-4c3b4b4c51bd	42128	033964bf-3de7-4b3c-b6d6-4c3b4b4c51bd
+eb4ad376-4cc1-4d2c-9b93-ad2b082c77c4	not reported	female	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-L5-A4OG	849aba63-ee5f-45fc-bf55-a96c34657ec8	36794	849aba63-ee5f-45fc-bf55-a96c34657ec8
+df5bd25c-d70b-4126-89cb-6c838044ae3b	not reported	female	Esophageal Carcinoma	Esophagus	TCGA-ESCA	TCGA-VR-AA4G	51f1742d-1c0e-4a5f-ae33-b2e8de8d45b0	51747	51f1742d-1c0e-4a5f-ae33-b2e8de8d45b0

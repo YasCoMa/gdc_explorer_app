@@ -222,6 +222,20 @@ class GdcExplorerLib {
         return lines;
         // values = dat.split('\n').map( e => { try{ return parseFloat( e.split('\t')[1] ) } catch { return 0 } } )
     }
+
+    async get_clinical_stratification_survival(project){
+        let url = `${location.href}/data_processed/${project}_clinical/data_cases.json`;
+        let r = await fetch( url );
+        let dat_cases = await r.json();
+
+        let url = `${location.href}/data_processed/${project}_clinical/survival_probs.json`;
+        let r = await fetch( url );
+        let dat_survival = await r.json();
+
+        let result = { "cases": dat_cases, "survival": dat_survival };
+
+        return result;
+    }
     
     async retrieve_process_methylation_files( uuids ){
         let that = this;

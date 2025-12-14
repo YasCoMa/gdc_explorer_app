@@ -1,0 +1,49 @@
+cases.0.case_id	cases.0.demographic.ethnicity	cases.0.demographic.gender	cases.0.project.disease_type	cases.0.project.primary_site	cases.0.project.project_id	cases.0.submitter_id	file_id	file_size	id
+b16e9c3f-c7df-46c2-bee3-ecaebbab025f	not hispanic or latino	female	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-ZH-A8Y1	7810ae44-10dc-4e06-bab7-6fb3cc1feece	31376	7810ae44-10dc-4e06-bab7-6fb3cc1feece
+e76cf9a0-061e-4a7d-ba28-5a40b8da54b8	not hispanic or latino	male	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-ZU-A8S4	6f34de63-f7b4-455b-a0ca-bd66b2aee9b8	35254	6f34de63-f7b4-455b-a0ca-bd66b2aee9b8
+32e9558c-946b-4288-91e1-504e47c308ac	not hispanic or latino	male	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-W5-AA39	228d29f2-fd4a-498c-8e1e-89d02fa7f2db	32480	228d29f2-fd4a-498c-8e1e-89d02fa7f2db
+bc15cec4-1f82-47fe-ae69-3853194fab7e	not hispanic or latino	female	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-W5-AA2H	ec7035cc-aeee-4479-be6e-9786d8b71a8d	45954	ec7035cc-aeee-4479-be6e-9786d8b71a8d
+ccb028ae-777c-4af6-b92e-40848f1cf774	not hispanic or latino	female	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-ZD-A8I3	2fdfcf93-a810-49bf-ab46-03a7fdb14a06	38418	2fdfcf93-a810-49bf-ab46-03a7fdb14a06
+fe57b639-db7a-460f-adfe-552f1e034e46	not hispanic or latino	female	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-3X-AAVA	718afd98-ad2c-429f-ab9e-233e6c870559	43864	718afd98-ad2c-429f-ab9e-233e6c870559
+3c8ca064-a4a7-416f-a069-4324d4a72038	not hispanic or latino	male	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-W5-AA2I	2b5aba8f-a60d-4616-a142-7c3e31bd29a3	32188	2b5aba8f-a60d-4616-a142-7c3e31bd29a3
+ff4131c9-537c-46cc-b495-9af60d431f5e	not hispanic or latino	female	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-3X-AAVC	ab13121b-4c89-44be-a2c8-e2bb6a98d72a	39091	ab13121b-4c89-44be-a2c8-e2bb6a98d72a
+37d60df9-2fa5-433b-9e54-dccb5ed5a638	Unknown	male	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-ZH-A8Y7	c5b7076d-25e0-42be-a138-2504dec0025a	32123	c5b7076d-25e0-42be-a138-2504dec0025a
+5fb3affa-3661-48e8-a1cc-b533c862e8c5	not hispanic or latino	male	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-W5-AA33	d8948aff-57e9-4bde-a5d6-00a1d8e7eb6a	40113	d8948aff-57e9-4bde-a5d6-00a1d8e7eb6a
+cb40327b-f3ac-4f0a-bb17-7db2a281e354	not hispanic or latino	female	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-W6-AA0T	7db05001-9c20-40a8-a07e-b02163002c8d	31683	7db05001-9c20-40a8-a07e-b02163002c8d
+d64d8a1b-b31f-4cbb-a586-5ec7f058f0de	not hispanic or latino	male	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-W7-A93N	c4da2bfc-ac82-4d00-99de-f91fb3696e12	30583	c4da2bfc-ac82-4d00-99de-f91fb3696e12
+859ed2d9-668d-440c-86ab-dcd0d9742973	not hispanic or latino	female	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-W5-AA2K	3a2b2ed7-54aa-455f-b52e-9951e7c81c78	31567	3a2b2ed7-54aa-455f-b52e-9951e7c81c78
+57500d4c-4bb3-4f32-ae3a-a0b78f18c526	not hispanic or latino	male	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-4G-AAZR	6a5288c8-c7cc-409f-90c0-c6cd10ca6d1e	31592	6a5288c8-c7cc-409f-90c0-c6cd10ca6d1e
+6e534dd3-81ac-4575-ab1e-02c21e10916d	not hispanic or latino	male	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-W5-AA2X	db33f30c-c2ac-46b1-a8f1-6c796d698226	31742	db33f30c-c2ac-46b1-a8f1-6c796d698226
+c60eb7be-c85c-4338-a20b-51948d43bf2a	not hispanic or latino	male	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-4G-AAZG	2fe8fdbc-c187-4373-917a-b5f5a3ed0ffc	31630	2fe8fdbc-c187-4373-917a-b5f5a3ed0ffc
+ae8d1ed6-2ddf-47b0-8099-bbc9230b499e	not hispanic or latino	female	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-W7-A93P	4cbfed10-6ebb-4a4c-9fe2-75ddcc7e5747	30921	4cbfed10-6ebb-4a4c-9fe2-75ddcc7e5747
+9d9109f5-5917-4126-8e34-8a7e4632e913	not hispanic or latino	male	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-ZH-A8Y5	33cbf058-2efe-4c0c-a4db-fa55208f69c2	58496	33cbf058-2efe-4c0c-a4db-fa55208f69c2
+aaacf22c-2362-4613-b024-88fb7dd1cca1	not hispanic or latino	female	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-W5-AA2U	69239c37-8e1b-428c-872b-1a48818496c0	31936	69239c37-8e1b-428c-872b-1a48818496c0
+adc9a685-5b4a-4c29-881a-da1895c47520	not hispanic or latino	female	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-W5-AA34	3daee57a-8367-4ee3-b0ef-9d7ea1521469	49673	3daee57a-8367-4ee3-b0ef-9d7ea1521469
+4290b3b3-94f6-43e4-8309-430dd973ae2d	hispanic or latino	female	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-WD-A7RX	663c1190-485c-467f-b4c5-ce0f89b913ad	32380	663c1190-485c-467f-b4c5-ce0f89b913ad
+dcc87c59-fd8c-4511-9983-96d5b9784cb0	not hispanic or latino	male	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-3X-AAVE	2a95897a-c3ba-42cb-aa0c-8740c90a82ad	46981	2a95897a-c3ba-42cb-aa0c-8740c90a82ad
+180a2b9c-9cac-4d96-86e8-cd6b3b9386b5	not hispanic or latino	male	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-W5-AA2O	142aea0e-7a7b-4ac4-9dbb-0f62e2379599	31872	142aea0e-7a7b-4ac4-9dbb-0f62e2379599
+47a9ef9b-04f0-4e8d-bfdb-0846ba30d08b	not hispanic or latino	female	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-ZH-A8Y2	d2e3bc6e-c84f-4f90-b1c5-9b76ac5c2d3c	32630	d2e3bc6e-c84f-4f90-b1c5-9b76ac5c2d3c
+8944fe2a-e32f-4898-a2c5-fb6751f602a4	not hispanic or latino	female	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-W5-AA2T	6ccd1da8-1344-4697-ab31-012161053d22	48947	6ccd1da8-1344-4697-ab31-012161053d22
+3f7e0cbf-e48c-410a-9138-be9b373fef73	not hispanic or latino	female	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-W5-AA2J	e24ee863-4f65-4e66-96ab-67f967f30741	31600	e24ee863-4f65-4e66-96ab-67f967f30741
+b4f7f9e4-5fc5-4461-8e0b-0b6c384863c6	not hispanic or latino	male	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-W5-AA30	d13bd622-d5e7-4d6b-905a-349d3ae545df	46810	d13bd622-d5e7-4d6b-905a-349d3ae545df
+41b97b11-acaa-4fbc-b3b0-0abc1bcac13b	not hispanic or latino	male	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-3X-AAV9	ee312b27-5294-48d0-85ba-22709307b0e4	47934	ee312b27-5294-48d0-85ba-22709307b0e4
+1932bc1e-2a15-4f74-978e-d49c366604a4	not hispanic or latino	female	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-4G-AAZF	8deb1950-c0c3-4c24-a8c7-8307a5493857	31582	8deb1950-c0c3-4c24-a8c7-8307a5493857
+15850852-5979-419d-ae38-76ffd0e9d7e8	not hispanic or latino	female	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-W7-A93O	d63d0393-f001-4a59-8771-42fe3826d0c3	31709	d63d0393-f001-4a59-8771-42fe3826d0c3
+bec2cf62-44a2-42e5-8e10-440aad69ed77	Unknown	male	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-W5-AA2M	ab3198f3-8078-4c1c-bfe2-ce26a7c7a40d	32116	ab3198f3-8078-4c1c-bfe2-ce26a7c7a40d
+2d6e20b2-82c7-4c12-92d0-93282b0a9031	not hispanic or latino	male	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-W5-AA31	9d951ff8-ce21-4c69-86f2-0d1eeb2e40e3	39947	9d951ff8-ce21-4c69-86f2-0d1eeb2e40e3
+3824cd6d-c85c-4b21-819a-932d1afef976	not hispanic or latino	female	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-3X-AAVB	c01d976d-4ed1-4ec0-9f68-085717268f36	38699	c01d976d-4ed1-4ec0-9f68-085717268f36
+1d136284-bdf5-498e-9506-4893801a337c	not hispanic or latino	female	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-W5-AA2W	b71add7e-f610-4181-a62e-c5ad6895ed29	31895	b71add7e-f610-4181-a62e-c5ad6895ed29
+20bf79af-3b0f-477d-b619-5597d42f5d5e	not hispanic or latino	female	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-W5-AA2R	ab00b534-7b37-4e82-9b3e-d9e5932153f4	48328	ab00b534-7b37-4e82-9b3e-d9e5932153f4
+48d17b17-348c-405a-ae92-f190372a3aac	not hispanic or latino	female	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-W5-AA38	3b81c33c-36cc-4777-abcf-07e92549fc7a	39799	3b81c33c-36cc-4777-abcf-07e92549fc7a
+5cf3911a-f3ea-4c0e-851d-5bb57ca7190f	not hispanic or latino	male	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-ZH-A8Y8	52cfb99f-6838-4937-b4c8-b33e08236e1d	47112	52cfb99f-6838-4937-b4c8-b33e08236e1d
+779ce92d-1abd-44fc-9021-eda4d7f08fff	not reported	male	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-YR-A95A	da6e5c05-8ffb-47c5-8b09-71ebed52b319	31832	da6e5c05-8ffb-47c5-8b09-71ebed52b319
+22bf93b3-c8dc-4669-862f-3e4ae478849b	not hispanic or latino	female	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-W5-AA2G	c97428aa-0640-437b-8e3f-39e5bfc1ec34	40895	c97428aa-0640-437b-8e3f-39e5bfc1ec34
+5166d82f-7b22-4101-bea9-6056e5a74c48	not hispanic or latino	female	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-ZH-A8Y6	9fe05cfa-7e19-4b69-8676-8ba590bb6b82	40397	9fe05cfa-7e19-4b69-8676-8ba590bb6b82
+20ec1cd9-7bdb-4eb9-9d20-65795580f1f5	not hispanic or latino	female	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-W5-AA2Z	7ed6b1fd-6775-47c3-bac2-c36477e93ee4	58460	7ed6b1fd-6775-47c3-bac2-c36477e93ee4
+95b69517-4971-450e-9ed0-43bc8b2c0534	not hispanic or latino	male	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-ZH-A8Y4	c4c962cc-d0f6-45e3-bac5-da8e0e66f452	37933	c4c962cc-d0f6-45e3-bac5-da8e0e66f452
+f2d42e03-ca8d-4b57-ae39-0cc8f37b1b67	not hispanic or latino	female	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-W5-AA36	c4157845-de7d-4a05-ae59-d28a9a20b57f	47287	c4157845-de7d-4a05-ae59-d28a9a20b57f
+7047dc12-e2ed-40b7-86fd-c5c53a2766fd	hispanic or latino	female	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-W6-AA0S	2646599b-4e66-4a07-8235-34c95975d601	58916	2646599b-4e66-4a07-8235-34c95975d601
+0775583e-c0a0-4f18-9ca2-8f89cedce3d6	not hispanic or latino	female	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-4G-AAZO	66e33592-2e6e-4e50-8a5b-8a3f902eb2b5	45351	66e33592-2e6e-4e50-8a5b-8a3f902eb2b5
+f47dbd99-920b-4b39-a1b0-6c152ad24884	not hispanic or latino	male	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-W5-AA2Q	0f133012-23ef-4237-acfd-47b132b99775	39388	0f133012-23ef-4237-acfd-47b132b99775
+1947a152-6339-4f66-b9a4-0229580f0287	not hispanic or latino	female	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-ZH-A8Y3	74b9c0d3-8354-4d28-ac8f-2d8338705ac9	31472	74b9c0d3-8354-4d28-ac8f-2d8338705ac9
+b10c64c2-7fd2-4210-b975-034affb14b57	not hispanic or latino	male	Cholangiocarcinoma	Bile Duct	TCGA-CHOL	TCGA-4G-AAZT	f9f8edc5-f085-485b-bed1-d143f000836c	39195	f9f8edc5-f085-485b-bed1-d143f000836c

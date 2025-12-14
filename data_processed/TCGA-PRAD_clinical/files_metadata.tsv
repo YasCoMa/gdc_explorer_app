@@ -1,0 +1,501 @@
+cases.0.case_id	cases.0.demographic.ethnicity	cases.0.demographic.gender	cases.0.project.disease_type	cases.0.project.primary_site	cases.0.project.project_id	cases.0.submitter_id	file_id	file_size	id
+9519be01-d78d-462c-8a95-34149538afeb	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7123	6bc21bf1-1f0d-4fb2-91a5-42f2e6eda24a	38922	6bc21bf1-1f0d-4fb2-91a5-42f2e6eda24a
+2b5ef82d-e137-43f6-bfef-b202f20ee187	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5790	24da89d7-21e3-4543-ae06-f300038630ec	30148	24da89d7-21e3-4543-ae06-f300038630ec
+93cf60a7-1d61-4c1c-8dce-221289800b0c	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-ZG-A9L6	f1820cb1-c522-4111-a6a2-d598a67e4b4f	33589	f1820cb1-c522-4111-a6a2-d598a67e4b4f
+b47791ba-85fd-41d0-ac1f-b6fa06f18e96	hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-XQ-A8TA	efa9c9e3-dbfb-42ec-9769-b7c69041c886	32984	efa9c9e3-dbfb-42ec-9769-b7c69041c886
+07ccb4e9-a2a9-4bfd-97bd-13873b01977a	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-8259	913a38ff-1c5f-4567-9917-16f1dbae6eab	30178	913a38ff-1c5f-4567-9917-16f1dbae6eab
+bea84d33-3286-44e2-9595-893c34a01f58	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A8WS	c7978d74-45a2-4a26-b02c-cc050365914b	32772	c7978d74-45a2-4a26-b02c-cc050365914b
+53c43d14-2310-41e9-ac43-3cc298404338	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-8213	37f38eeb-2e01-4f93-b5ea-0638b719cd41	29824	37f38eeb-2e01-4f93-b5ea-0638b719cd41
+e457eb5d-120e-41f4-8455-2ed8d534ff02	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-A632	ef295641-144a-4623-8de4-389d60b1bdd9	21641	ef295641-144a-4623-8de4-389d60b1bdd9
+256f5bcf-10a9-47be-b265-cfa707d24097	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J4-A83K	35a2b40a-f4fa-4848-850b-561302220a17	30726	35a2b40a-f4fa-4848-850b-561302220a17
+13a63fd0-6c8c-4707-9135-8052f454d1ac	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7749	f4ce64b3-1a37-49fb-a59d-68c2c99932d7	30306	f4ce64b3-1a37-49fb-a59d-68c2c99932d7
+2648c3c9-9884-4a0c-96aa-61130cd289ea	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-SU-A7E7	2fe6d48a-345c-411a-a735-579e71d8f16a	30606	2fe6d48a-345c-411a-a735-579e71d8f16a
+17916c4e-febe-48c6-b475-ad29397425e8	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A8IA	cb357cbf-5b46-465d-8940-844b3cf089d6	36480	cb357cbf-5b46-465d-8940-844b3cf089d6
+e377f873-c0d1-4810-9f3d-e551723858e1	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A6E6	4fc24d1b-114e-426d-b8a6-b85d28d1e65e	22411	4fc24d1b-114e-426d-b8a6-b85d28d1e65e
+69fc0351-6496-46b5-be22-25b80c1dc4cc	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A9OY	99fe5d49-ff85-4266-8413-005389de0db5	32629	99fe5d49-ff85-4266-8413-005389de0db5
+38a2b705-d8a4-45ca-8bcd-96dbf93d8e4d	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A6E3	b9926d8e-aee3-4312-8b23-0790bfc00ae5	22487	b9926d8e-aee3-4312-8b23-0790bfc00ae5
+24e5d323-f3d4-4add-9a29-79e77ced357c	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YL-A8SQ	641e2ba9-2026-4be6-8851-65380225091e	58605	641e2ba9-2026-4be6-8851-65380225091e
+0f01ec33-00a8-4188-a8f0-e90d46ad9bc7	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-7519	2c4af252-a133-4bfd-b3e8-56107bd179aa	30720	2c4af252-a133-4bfd-b3e8-56107bd179aa
+03c15d06-b81e-433c-9de4-906cba91539f	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-ZG-A9NI	36b2798e-43b7-4e44-a36e-6736be3a27e3	31090	36b2798e-43b7-4e44-a36e-6736be3a27e3
+03c66cf8-bc68-4ee1-a322-689a29b72262	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7230	b63f08ee-2833-4a24-bb75-20a4c3ff97ff	29926	b63f08ee-2833-4a24-bb75-20a4c3ff97ff
+1bc21d56-299d-40bc-b9c8-c74db990611e	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-XK-AAK1	31ba9318-c5f4-4d95-b360-5ef574c93a07	30936	31ba9318-c5f4-4d95-b360-5ef574c93a07
+0af98331-9305-41e9-af55-30390016d65e	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5748	f6a8a20a-b9b7-481c-a8e7-716970204375	21585	f6a8a20a-b9b7-481c-a8e7-716970204375
+00f7f9d3-7a34-4a5b-9d19-38810dcabbba	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J4-A67N	1df069b8-72ec-4e4d-8c24-bbbbfae11781	33425	1df069b8-72ec-4e4d-8c24-bbbbfae11781
+0afa0e02-daae-47e6-9ccb-9de8e4feb73c	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-A8D0	1d146965-2979-4610-b67e-68a99406444e	30831	1d146965-2979-4610-b67e-68a99406444e
+0885eb03-de9f-46ba-9c53-fb69c67ab9f0	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A9Z9	aca2f23d-b853-4aa9-a71a-098c90ae6b76	32813	aca2f23d-b853-4aa9-a71a-098c90ae6b76
+108dee1e-b27d-4056-a167-261725f548c1	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A8I7	b5f54cc3-9fb6-4e0a-b11f-469148943341	50164	b5f54cc3-9fb6-4e0a-b11f-469148943341
+13ce70a8-785c-4b59-b073-41922cb201f9	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5509	cb100ef0-04ee-4bc0-b5cd-5c005116eb34	38932	cb100ef0-04ee-4bc0-b5cd-5c005116eb34
+186d7f36-4e93-4ab2-bc23-95d5cd296656	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J9-A8CN	ba1c6723-d22a-40f5-952b-c5f31a6ac8e5	22185	ba1c6723-d22a-40f5-952b-c5f31a6ac8e5
+18b8ad7f-0f39-4853-ae13-5b13aa5e6f7d	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A9OT	ea26d180-aefe-4adb-8314-3a56d64ad4b4	32921	ea26d180-aefe-4adb-8314-3a56d64ad4b4
+1940166e-aedc-4dc5-90a5-609871f9f7da	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J9-A52C	b76abc93-3a76-48cc-bcaa-a75a7a5feec4	22515	b76abc93-3a76-48cc-bcaa-a75a7a5feec4
+1d2c5f72-cdca-4cc8-8a96-2abe10207356	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-ZG-A9LN	270eda55-14d9-473b-9a33-41c95bd2b23d	36994	270eda55-14d9-473b-9a33-41c95bd2b23d
+1cbaa137-c3b0-46a2-9b23-208682c2a438	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J4-A67Q	9c0e7094-0467-49ef-8d38-bb4d714ea3c3	30447	9c0e7094-0467-49ef-8d38-bb4d714ea3c3
+1fd06207-54e0-4aba-819c-c7f671871f39	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5516	fdc23e4a-a89a-4c36-9b76-987be9a21ebe	38490	fdc23e4a-a89a-4c36-9b76-987be9a21ebe
+208a75b3-407c-4c5a-8938-3691547b6887	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-FC-7708	c7f9d947-4bc1-4306-a3b1-892da19e62f4	30342	c7f9d947-4bc1-4306-a3b1-892da19e62f4
+23e56e08-e11d-4e83-88a8-1254675b3af8	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A8FU	4ec870cb-48fb-4574-98a4-8e34c403420f	30138	4ec870cb-48fb-4574-98a4-8e34c403420f
+23ebc73d-be3b-42f8-9390-bf18a21afc5c	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YL-A8SL	9f2da7af-48a4-454b-bed6-6a166c0c14d4	42739	9f2da7af-48a4-454b-bed6-6a166c0c14d4
+25c669b3-4d4a-4142-a403-677be8522875	hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A6E7	28052d34-5ed5-458f-b5c4-b0f59d0ee2ef	31262	28052d34-5ed5-458f-b5c4-b0f59d0ee2ef
+270447ca-19ee-45a2-982e-032325dab05f	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-8257	2438aee5-4ded-4740-ab33-684ac787d2d6	35962	2438aee5-4ded-4740-ab33-684ac787d2d6
+25d70934-01a5-45a2-9960-68d3058b6965	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HI-7168	ec7ee5cd-b04b-4bd2-b277-7ac4f70f1169	62058	ec7ee5cd-b04b-4bd2-b277-7ac4f70f1169
+28689d40-03e5-4e17-aba1-f2d571535eed	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7792	8c6c14c3-bb8c-4b5a-8939-55f0c9daaf10	38666	8c6c14c3-bb8c-4b5a-8939-55f0c9daaf10
+2c7ec330-261e-49c7-9424-6d83641dba6d	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7315	1c898482-dc41-4128-b4f5-da4995ec32e2	30676	1c898482-dc41-4128-b4f5-da4995ec32e2
+2919afa2-3fee-43bd-ae68-e70718e73608	hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YL-A8SA	21b3132f-6862-4447-9e98-bc802846bd5d	35410	21b3132f-6862-4447-9e98-bc802846bd5d
+29bd2c05-254b-4bb2-ae32-5b328f772441	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J4-A67L	2cfa08de-e13a-4820-82a3-e7ac9beab14d	30819	2cfa08de-e13a-4820-82a3-e7ac9beab14d
+2eccaabe-0783-4596-b674-d59846373a1d	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J9-A52B	2248994a-c37a-45ef-9b1d-63edf4ead9a1	35802	2248994a-c37a-45ef-9b1d-63edf4ead9a1
+301c4c32-bc66-4328-8dcf-fe3dd66fbde2	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A8MG	223d20ae-285c-4629-a17c-59fb0dee70df	30296	223d20ae-285c-4629-a17c-59fb0dee70df
+2a51e1c2-8a8f-4df3-bcc6-7df94a47d94d	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A8IL	e2a5e8c5-d79a-40a4-acd0-c5627d0d63a5	22453	e2a5e8c5-d79a-40a4-acd0-c5627d0d63a5
+338fe754-fc4a-4294-ba15-42d4c7c9ac10	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A9ZR	11325950-452b-4294-98d1-b1cd43d4b6ee	32869	11325950-452b-4294-98d1-b1cd43d4b6ee
+30aba886-5152-4e25-b36f-6ce7009d419e	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J9-A52E	e9a771ea-69f1-405c-871a-5ac446f2c24c	35726	e9a771ea-69f1-405c-871a-5ac446f2c24c
+341940fc-dd2a-485c-a359-d5e5edb22312	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-A8D1	de3d1694-a95f-4409-b7ae-184c03b33556	30280	de3d1694-a95f-4409-b7ae-184c03b33556
+30f623a3-dae7-41da-ab10-8786d094209e	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-FC-A4JI	f6a667ba-8328-49e6-a964-182b58480cb6	49721	f6a667ba-8328-49e6-a964-182b58480cb6
+351239db-52d3-4ab5-bd4f-8feaa6701ba1	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YL-A8HK	5fdd6f3a-e55d-44ef-8fd9-559507087f08	50050	5fdd6f3a-e55d-44ef-8fd9-559507087f08
+35243518-b086-4d76-a336-8c61a14f9ded	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-VN-A88M	ccc5ce4a-1a83-4f5a-b10d-267d131b8658	30102	ccc5ce4a-1a83-4f5a-b10d-267d131b8658
+3a6e0fd1-6e06-4002-9d1a-88edf7944567	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KC-A7F5	dea32c40-20a7-4f21-bda0-ea4448a741b7	22844	dea32c40-20a7-4f21-bda0-ea4448a741b7
+355e84e7-0d50-4bc2-a481-dfece2f8c687	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-ZG-A9L0	1f2091f8-4826-4eb0-840b-9d5973adcf49	30835	1f2091f8-4826-4eb0-840b-9d5973adcf49
+3acd8328-76f7-4f43-9660-394b95748c3d	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5771	34d8015f-c95c-48d6-a990-7cdca9d7cc2e	30404	34d8015f-c95c-48d6-a990-7cdca9d7cc2e
+36b87d12-9f96-460f-a3b5-a4c08cbf5b07	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6343	085725cd-ae6e-4c65-9db6-3b34c5147df1	38019	085725cd-ae6e-4c65-9db6-3b34c5147df1
+3d6abc44-d094-4250-8dfc-347ae9c741f2	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-A6HY	c35d4887-1214-4a4d-aa01-5c5d7bdf4328	21686	c35d4887-1214-4a4d-aa01-5c5d7bdf4328
+3d92b872-a76a-49cd-9fd5-7993e78d2fb0	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A9ZI	affd26a5-07dd-4a77-be49-dfae2257f708	33079	affd26a5-07dd-4a77-be49-dfae2257f708
+37ec45fd-1c85-49cb-835e-fa7b2b8ce16f	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A65E	3761ee6e-520e-4a58-b76f-5d7e3e7390bd	30253	3761ee6e-520e-4a58-b76f-5d7e3e7390bd
+39303e7c-5baf-479d-a112-d8f03a18c621	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A7AU	3a3a312f-549b-487c-9ed3-23d91281d243	55563	3a3a312f-549b-487c-9ed3-23d91281d243
+3f5270a2-3284-4523-bd81-54fc98c2b933	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A8IF	63d9123d-3331-4669-bbef-e9409bc6afc4	24853	63d9123d-3331-4669-bbef-e9409bc6afc4
+3fa3cffe-40f1-4853-9cbb-54a99ffd6108	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-M7-A722	02507635-0c4e-4763-8fc6-8c06585909b4	33057	02507635-0c4e-4763-8fc6-8c06585909b4
+3de1a86b-aaeb-4f0d-9f32-1fda924198d7	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-ZG-A9LY	08cafcb1-bf26-4496-9e01-a6395ff7455b	35827	08cafcb1-bf26-4496-9e01-a6395ff7455b
+3fae5b76-9e22-4eab-a7fc-13139b2b97c4	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-A6AN	3fcae117-495c-4e99-b443-08e256282436	21635	3fcae117-495c-4e99-b443-08e256282436
+3fc9e3b4-8bc5-4bf8-bff6-dd90346b83a1	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J4-A67O	a5ac9b63-0b2f-4c93-994a-91b65b699c62	30316	a5ac9b63-0b2f-4c93-994a-91b65b699c62
+42fa9774-9471-4707-8f6f-8041b34c49e4	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YL-A8SC	f647b1c9-f585-413c-844e-208f380c3efc	45178	f647b1c9-f585-413c-844e-208f380c3efc
+432f15ba-7401-4827-83a5-3eaafaaa4bea	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J4-A67T	42a0d8c5-d662-409c-ada3-f10d62563e8c	30355	42a0d8c5-d662-409c-ada3-f10d62563e8c
+4048c139-1329-4e6a-8d2f-c0aa104a68ee	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5524	4614ed1f-d601-4a6f-b653-9b50e5527ed7	43383	4614ed1f-d601-4a6f-b653-9b50e5527ed7
+48f36fbe-356a-40af-b81f-8ea0b1369bab	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-VP-A878	6e5f1abb-2020-40cd-8352-d686ab79c4a6	45192	6e5f1abb-2020-40cd-8352-d686ab79c4a6
+490e84ed-3c02-4593-990e-ade5c109df44	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-2A-AAYF	45577bc6-8a57-4a6e-9b80-bd2d31246c3e	30747	45577bc6-8a57-4a6e-9b80-bd2d31246c3e
+4bc71292-60bb-4b63-86c1-0fe021083804	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7784	1357f3de-386a-4d68-9d31-1f6c15e2b856	38612	1357f3de-386a-4d68-9d31-1f6c15e2b856
+45a04209-8fac-4181-bba3-1437c8fd7f09	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7325	5ea66780-d6c2-42fe-9a72-043f44d178d5	30290	5ea66780-d6c2-42fe-9a72-043f44d178d5
+49197847-cc83-4ce1-8397-d09cea4c4928	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-2A-A8VL	204a6a27-5fb5-4e4e-bc84-a382aa8ba43d	30486	204a6a27-5fb5-4e4e-bc84-a382aa8ba43d
+494a8495-8d10-4a8f-8664-f68ac339c889	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YL-A8S8	ddfea312-68ac-4827-8d95-8a1065a382a0	38489	ddfea312-68ac-4827-8d95-8a1065a382a0
+5313a055-c2d7-4cbd-a8c1-57ac85912d89	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5519	c37315d5-e51f-4cd7-9e60-5de4a22876ef	39109	c37315d5-e51f-4cd7-9e60-5de4a22876ef
+4f9f1fce-d96e-407b-a873-56129985aece	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5737	b2858fb4-90b9-4c4c-85e1-370d98169562	22027	b2858fb4-90b9-4c4c-85e1-370d98169562
+57284c88-b9aa-4455-a07f-7009e1732cfb	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-8212	96583aac-007e-4a0e-9173-bd08a3c6bcbb	30336	96583aac-007e-4a0e-9173-bd08a3c6bcbb
+56353d9c-9578-4d62-9dcd-92d800efdea0	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-X4-A8KQ	8b3ed853-5730-4100-bba5-64c45a1450a5	40960	8b3ed853-5730-4100-bba5-64c45a1450a5
+56829c8d-7bb7-4aac-999f-b1353db4915d	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-X4-A8KS	864b59fe-8057-40b0-a278-55aa589a9e26	30224	864b59fe-8057-40b0-a278-55aa589a9e26
+56df9de6-613d-44ce-8827-9213cc6c8b56	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A8MF	1092dc2a-5473-48f2-a5dc-8f3c8123c9af	32719	1092dc2a-5473-48f2-a5dc-8f3c8123c9af
+5dc7e186-7e01-4a54-8ae8-350dace2297b	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J4-A83I	82ffcbc2-b701-484c-a02c-7cdc45264fd9	30824	82ffcbc2-b701-484c-a02c-7cdc45264fd9
+5e15dcc7-932e-4d9a-a765-bd5ff1cd7aea	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-XA-A8JR	a781214a-4743-485f-8b45-2022a4497e70	30120	a781214a-4743-485f-8b45-2022a4497e70
+607200f5-df80-4f5d-90fb-fdc455a7415b	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5507	5d7a7b36-99a2-43b5-b860-b05a1c9c1b66	38916	5d7a7b36-99a2-43b5-b860-b05a1c9c1b66
+5b12458b-f5d7-41de-a4e1-26d39dca9b17	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J9-A8CP	e468c5ad-fcad-458b-b5a6-b16facc51445	22140	e468c5ad-fcad-458b-b5a6-b16facc51445
+5e3d0e50-afb4-4d2d-b4d9-5f320c573ba3	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YL-A8SO	874a62d9-75ab-4f9c-9783-37189573c6f4	41933	874a62d9-75ab-4f9c-9783-37189573c6f4
+618272c0-c2ed-4bfb-bb4b-404f0987f822	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5746	78b88b9a-20ac-4da0-901d-400f0fd3de3b	30368	78b88b9a-20ac-4da0-901d-400f0fd3de3b
+661dc657-d2b3-44fa-b859-2c4ee42b0046	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-VP-A87H	82ad535e-4969-4dd0-bf9b-2c609012f3ee	30731	82ad535e-4969-4dd0-bf9b-2c609012f3ee
+6641a298-1dbd-445d-a4ab-95ceb98e1427	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7745	4ad2fa45-003e-4ac2-8246-aee60b2a7342	30016	4ad2fa45-003e-4ac2-8246-aee60b2a7342
+6394e00a-1f6f-4ea2-b885-373bbb59def9	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HI-7170	fde48d4d-b926-4baa-94e2-cdfcb9628249	30528	fde48d4d-b926-4baa-94e2-cdfcb9628249
+666d8b0c-593f-4ec3-b16a-2dadbead8c32	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YL-A8HJ	b2018615-d912-4383-b2ec-8f9b728029cd	49762	b2018615-d912-4383-b2ec-8f9b728029cd
+6433f001-db5c-476b-83c7-23f4c5397ae9	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-M7-A721	e0e2987e-9f77-4f19-8bc1-0ed2a87457af	30740	e0e2987e-9f77-4f19-8bc1-0ed2a87457af
+69174712-af41-422d-952a-d8d0d16d7182	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A8ML	145928ef-54cd-44ee-808e-f87e389b84a8	32717	145928ef-54cd-44ee-808e-f87e389b84a8
+67cd72e2-a4cf-48e4-943e-406c252f056a	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J4-A67M	8055045b-029c-4676-96a7-30c039a1b5d0	30824	8055045b-029c-4676-96a7-30c039a1b5d0
+6a5af80e-07ad-4cd3-aaab-5db1090835d9	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7210	74336da2-5c30-44a4-9706-e4ec21566dc0	29971	74336da2-5c30-44a4-9706-e4ec21566dc0
+717c0fd3-527b-4d5e-a9ab-0f141fcc84e8	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A8ID	ca64b860-d8d8-4c93-b615-f69c2352e70c	36907	ca64b860-d8d8-4c93-b615-f69c2352e70c
+6ef0fc2d-f274-4253-bec5-6dbd55953d76	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A9OH	8ca8ef4c-0ead-42b0-ae7d-30ac63ce8e83	32478	8ca8ef4c-0ead-42b0-ae7d-30ac63ce8e83
+6f4c1006-519d-4b16-8c96-690c63bea0b6	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-TP-A8TV	36d76a28-1a58-4978-b5cf-ba4aa5494ed7	43767	36d76a28-1a58-4978-b5cf-ba4aa5494ed7
+79ec7468-9aaf-4bb0-94c7-72be4f497868	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5498	672c9591-4665-472a-8d0c-5b15ef5a33e0	38663	672c9591-4665-472a-8d0c-5b15ef5a33e0
+74de01bd-30d9-45fc-841d-ed1c0d7446ba	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YJ-A8SW	908f00d1-e45c-45b3-9d66-cb39a0e9bc90	21591	908f00d1-e45c-45b3-9d66-cb39a0e9bc90
+75a7afb5-66d5-47e3-8a8a-3e3a1e749a96	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-2A-A8VV	1e7d77de-7612-4e4e-ad0e-edb3a6a58217	30686	1e7d77de-7612-4e4e-ad0e-edb3a6a58217
+7d931c19-1fce-4409-8a9c-9c65631ccbac	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A7AZ	46b6406f-6df4-44f7-b7a0-b2d3d6bdd103	30253	46b6406f-6df4-44f7-b7a0-b2d3d6bdd103
+88705b03-aa27-45c5-bef0-bb697799f9df	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A8IB	938d9315-8730-4534-86ec-ffce20eb64cb	22102	938d9315-8730-4534-86ec-ffce20eb64cb
+8ad78c4f-c84c-4f9e-88c9-42a05eb65498	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6348	c349abc7-b5d2-4339-8d96-e4c83027fe50	30606	c349abc7-b5d2-4339-8d96-e4c83027fe50
+89a297be-ebb5-4b9f-8eda-0e548d14ad91	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-8256	f0a6d4d9-a58a-4f25-b05c-cee7c53291ea	30080	f0a6d4d9-a58a-4f25-b05c-cee7c53291ea
+931b549f-b9f2-4e8d-83ed-ff663671883c	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-2A-A8VT	e2e7b470-c21f-4f4b-bc6e-83526fbd478d	41502	e2e7b470-c21f-4f4b-bc6e-83526fbd478d
+91e249a6-b0b0-487e-9fad-0e9f5798dcae	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7740	f872a046-0e78-4b84-922f-a52cf7d5265f	30552	f872a046-0e78-4b84-922f-a52cf7d5265f
+9357e8eb-1ce5-4c0f-a668-e5e7f3031d6c	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-ZG-A9LM	ae85e6fa-87f6-47b6-9744-ce9b660b525c	30720	ae85e6fa-87f6-47b6-9744-ce9b660b525c
+969399cd-47b6-4c0f-8939-3860be3014f9	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A46G	97f594f5-54fa-4125-9289-dfe87ea07b70	30500	97f594f5-54fa-4125-9289-dfe87ea07b70
+93d10d8b-5f98-4d2c-8af3-11471385d4d4	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A46D	68384cbb-2efb-4adf-b0c1-24d95562fc5c	30358	68384cbb-2efb-4adf-b0c1-24d95562fc5c
+9b5d36b2-8b46-48a4-afa7-0e1936f2d315	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-ZG-A9M4	df56628d-e4c1-4d85-be54-facd1d9abe94	33478	df56628d-e4c1-4d85-be54-facd1d9abe94
+942f1788-d977-4ac0-a177-659f9d4cd077	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-2A-A8VX	d90c3dec-e4d4-41e1-8d06-505796344c4e	30510	d90c3dec-e4d4-41e1-8d06-505796344c4e
+9938c4ad-748c-4086-9081-fac0aefad440	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A8MK	fb8abb14-1f9e-4053-8966-0dc7c30653b8	32643	fb8abb14-1f9e-4053-8966-0dc7c30653b8
+9a05aa6d-6215-4584-90fc-09a0371a19ed	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KC-A4BO	e76d6bde-5da2-42dc-9fe0-48470c615dde	22595	e76d6bde-5da2-42dc-9fe0-48470c615dde
+9c8447ac-5b26-4558-8bfd-f0e7046c1fb9	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-MG-AAMC	e0209dae-b81c-4a33-b384-51b4c822bf7c	30054	e0209dae-b81c-4a33-b384-51b4c822bf7c
+a13a7252-de84-4950-9307-80fc8a6a668d	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-TP-A8TT	1de7a582-abe9-4ec1-adec-ce3e3f50b320	35582	1de7a582-abe9-4ec1-adec-ce3e3f50b320
+a3cd3599-7c18-491d-be09-6fc7e526c9b1	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7820	4be3336e-59ef-43a7-a367-817d1ede9f0b	29830	4be3336e-59ef-43a7-a367-817d1ede9f0b
+a186c956-6756-4339-9793-494fe9b80c94	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-VN-A88K	c9d41fac-97c6-44ca-9a92-b2a4946c645c	36790	c9d41fac-97c6-44ca-9a92-b2a4946c645c
+a1e64294-1264-498d-b18b-c9b4c729c2f2	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J4-8198	f62fc3d8-7870-4517-a9b3-ccb47a6c9f93	30577	f62fc3d8-7870-4517-a9b3-ccb47a6c9f93
+a5c77ab6-6e98-4a3d-81c8-f3d5fabd31d2	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5766	66e7adda-1525-4d4c-9b63-c59eeb09d1f0	21951	66e7adda-1525-4d4c-9b63-c59eeb09d1f0
+a80d3ee7-60dd-49bb-b049-9335afc035f5	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5794	3d66a356-6f0e-4f83-9f15-03272aec815d	30414	3d66a356-6f0e-4f83-9f15-03272aec815d
+a279d5aa-51f7-4e75-9e14-b206b97ec4bd	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6384	a9201fd8-48df-4985-b0b4-13f43ddb3c70	30394	a9201fd8-48df-4985-b0b4-13f43ddb3c70
+a8573f49-9fed-4c85-9e1d-40abab7f86ec	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-A9S4	be3f82da-e017-4a55-b27f-555fc849f523	39263	be3f82da-e017-4a55-b27f-555fc849f523
+a76bcd1f-e47f-4dc5-a97a-4c4f00032191	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A8MU	daef00fc-45fe-4b32-a6f6-f34a05cafa3e	38895	daef00fc-45fe-4b32-a6f6-f34a05cafa3e
+a8c954b7-3077-4ff1-b311-d4b4bfa49786	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KC-A4BV	2e532aac-3e81-4ede-9c77-167f52cfd853	25346	2e532aac-3e81-4ede-9c77-167f52cfd853
+aaeb1d59-d6ce-4422-9639-f1e83c002d84	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A7B3	8a98b264-d3a5-42a6-9ff6-e5787fd5ea0d	31194	8a98b264-d3a5-42a6-9ff6-e5787fd5ea0d
+aae0fca8-99e9-4fde-a2e9-b0ea500737f8	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A6RC	0fd85cd5-7d66-45c1-8571-d3a6877d9b8c	30305	0fd85cd5-7d66-45c1-8571-d3a6877d9b8c
+ae739a4a-e319-4d87-8330-14f2fbc8839d	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-ZG-A8QX	160def91-6aef-4754-a013-4e3a18305636	30050	160def91-6aef-4754-a013-4e3a18305636
+adbf5bda-e2dc-4b25-8fb9-96d89093f77d	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-ZG-A9KY	5e6288d3-0386-49b6-8329-9e652d568750	32999	5e6288d3-0386-49b6-8329-9e652d568750
+b5b3871c-078c-46a7-ac50-ef916d4a6781	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6363	44be2dcd-3d29-4cd1-8c26-5965c23c3c58	38606	44be2dcd-3d29-4cd1-8c26-5965c23c3c58
+b1bdaf2d-7d84-4409-9427-5390150bb96d	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A6DY	40327302-5b10-4884-8ee1-a71720ea3630	30597	40327302-5b10-4884-8ee1-a71720ea3630
+b2bcc97f-03a6-409a-8b91-78221cb10d7f	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YL-A9WK	d095dfa0-390f-41f4-ab91-21b84e14721a	65240	d095dfa0-390f-41f4-ab91-21b84e14721a
+bf428d43-2da6-43fc-bd62-7cbff84e95ec	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-XJ-A83G	fc64147f-9812-4550-a235-09d6bf9ecbee	30607	fc64147f-9812-4550-a235-09d6bf9ecbee
+c4ebb2eb-e1f0-4490-80f3-5cf0c40a3091	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-Y6-A9XI	8dc2caea-e640-46a9-813d-1ef9c4fb693e	30165	8dc2caea-e640-46a9-813d-1ef9c4fb693e
+c8fab4a7-fd7e-4d5e-a330-18c7e148b9d0	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A7NN	d198b3c5-6d3f-4ebe-a750-c5e9ef7e5f29	32635	d198b3c5-6d3f-4ebe-a750-c5e9ef7e5f29
+ca076cfd-c628-4af2-837c-37617429adb9	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-ZG-A9LZ	a6266af1-bec7-4dcc-8969-3205dc9bfb4f	38297	a6266af1-bec7-4dcc-8969-3205dc9bfb4f
+ce2b7e17-424e-4954-8a68-19d7f98d2e7e	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6496	764aaad9-9157-481b-88ce-f7904c6dcce2	30620	764aaad9-9157-481b-88ce-f7904c6dcce2
+ce3585d3-7388-4d05-84c8-64e0883003b3	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7232	e0cc9ce7-fa6e-432b-9322-b2e60f2a1347	34785	e0cc9ce7-fa6e-432b-9322-b2e60f2a1347
+d39d1a49-fcc0-4f2c-9338-df904e7f6a09	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6339	1647c57f-881a-4617-8c7e-5ed1c0c343b4	46435	1647c57f-881a-4617-8c7e-5ed1c0c343b4
+d17b1955-0565-46c1-a5a7-ecd41ac0286a	hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-XK-AAJA	7ce7b2da-1039-485c-8262-163734ed226c	22459	7ce7b2da-1039-485c-8262-163734ed226c
+d4ff9f1a-1d35-4ad6-9a36-059547081c7e	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A65M	07701d94-3416-49a5-b4cc-fcdc1c514095	30220	07701d94-3416-49a5-b4cc-fcdc1c514095
+d5c43a14-21ab-4178-ae33-2d8b7baa256f	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6371	749cfc81-165e-4a4d-86f9-bbd9d264e644	30296	749cfc81-165e-4a4d-86f9-bbd9d264e644
+dffc3917-bf06-4c3d-b03a-ca54fe5c2e79	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-QU-A6IL	006c94dc-232f-45b7-a853-895a459563fb	30525	006c94dc-232f-45b7-a853-895a459563fb
+71d14304-ccb0-4a4c-b935-8c014ca75fd0	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6361	d49d9cfd-ffb4-4ab7-898b-c0c0ce902d07	30621	d49d9cfd-ffb4-4ab7-898b-c0c0ce902d07
+aa8b99fd-973f-465d-ae24-3421fe784687	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A7NM	0e558ba9-2e6d-48ca-b715-9ad4600b1372	30253	0e558ba9-2e6d-48ca-b715-9ad4600b1372
+d4ffafdc-ee83-43df-aa3b-7326503c6438	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5762	49c4d445-d74c-4da1-be2b-804ca00fc05c	30345	49c4d445-d74c-4da1-be2b-804ca00fc05c
+000d566c-96c7-4f1c-b36e-fa2222467983	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A7B2	f0fb33fc-b2b0-4949-8356-7b7d93f3c1c2	31274	f0fb33fc-b2b0-4949-8356-7b7d93f3c1c2
+6b3f53ab-00f4-4c45-9bb5-5c8adbc66084	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-A6AS	43d007b2-3458-403c-b847-94df016b0f0a	21913	43d007b2-3458-403c-b847-94df016b0f0a
+007f9081-5093-4323-b4f8-cd510bf20705	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6377	80a56fa8-7a69-4a07-92df-ace9f794aed4	30613	80a56fa8-7a69-4a07-92df-ace9f794aed4
+3971a2f0-7263-4cda-aa01-9a2ebb2c2ff2	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-8260	0506979a-836b-4c69-9a4b-f784acecbc5b	30161	0506979a-836b-4c69-9a4b-f784acecbc5b
+0730216b-c201-443c-9092-81e23fd13c6c	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7742	eead0b43-f91c-4240-b773-9a2ce93bea43	36019	eead0b43-f91c-4240-b773-9a2ce93bea43
+083cc988-19a5-49b4-97c0-4e7bcc5d5c08	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-ZG-A9L1	02c8e3f3-bd60-43d8-9556-286924d3eb0b	37867	02c8e3f3-bd60-43d8-9556-286924d3eb0b
+10271d9c-9b9c-4b5f-a845-a0f1bd03af51	hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A9OQ	74ef68ec-c13a-46be-bcaf-b5dbbf98ffc7	32627	74ef68ec-c13a-46be-bcaf-b5dbbf98ffc7
+0b5ed938-6ab8-4e76-8558-1d86f3a90dfa	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YL-A9WJ	d65f3b79-7018-4f5f-b487-df897b8df2f6	38354	d65f3b79-7018-4f5f-b487-df897b8df2f6
+12f225d0-cbff-44eb-9183-bacc7f33b090	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6378	6ff0f9e8-0a08-4cfc-b71e-e7c1fdced44d	30543	6ff0f9e8-0a08-4cfc-b71e-e7c1fdced44d
+0fb599ce-5e10-4571-8160-4f5160791a3f	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A6E5	258ea268-84ff-4695-8afb-52eb59d96d30	31101	258ea268-84ff-4695-8afb-52eb59d96d30
+181c6d37-9d8d-4ffa-827b-e3785450ff88	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7783	b7cec519-5ec5-47ff-839f-a8f1770ec50e	38432	b7cec519-5ec5-47ff-839f-a8f1770ec50e
+cec1d2ff-36e6-497e-892c-b329724b4722	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A46H	d831109d-518a-45eb-8f57-ada184cc2a1c	30338	d831109d-518a-45eb-8f57-ada184cc2a1c
+231a45e7-ad33-4789-a9fc-74ce7a18fcc3	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7741	3f1bbcc8-2974-400a-81ae-15b484bb9416	31120	3f1bbcc8-2974-400a-81ae-15b484bb9416
+00dda860-53c3-4ab2-8294-73e291adf9d2	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7312	ddf28a7b-791d-420e-924f-829e5b1f3549	30290	ddf28a7b-791d-420e-924f-829e5b1f3549
+261c3d74-706e-4751-bd15-8f3c1a402ff0	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A8I9	464d9c18-a894-462c-83b4-f0bcd935d744	41910	464d9c18-a894-462c-83b4-f0bcd935d744
+2f231b79-84bc-4256-bf26-7ce64083d438	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A7AW	3d2458ba-40fe-493a-9d5c-5c4b1d2f2c39	24682	3d2458ba-40fe-493a-9d5c-5c4b1d2f2c39
+2def2a53-d2e8-46f0-8b07-f32dbf1833a4	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7785	d42fc69e-eba2-40b6-bbe4-d85c61c4bcec	38664	d42fc69e-eba2-40b6-bbe4-d85c61c4bcec
+305b0b57-5952-43c7-9063-7bcd954eb44d	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-ZG-A9N3	cc60cca0-ef09-42ff-a3ca-a9ce10aefc50	39311	cc60cca0-ef09-42ff-a3ca-a9ce10aefc50
+30fa311b-05a2-43e4-9edc-02b327898132	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A8I8	dd4ec5fb-53c2-4229-baf9-b4b94e2b02c8	35654	dd4ec5fb-53c2-4229-baf9-b4b94e2b02c8
+348c2bf3-2146-4990-9adf-fa6968b4f072	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-ZG-A9ND	363c656c-56fd-45be-a992-ac9a49c3f15a	30908	363c656c-56fd-45be-a992-ac9a49c3f15a
+33283111-9a2f-4d5e-92a5-3435846404f7	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7781	faa1df95-15fb-45ac-9a40-d807b4354a62	38391	faa1df95-15fb-45ac-9a40-d807b4354a62
+3da2e90e-6450-4286-8c74-08dbecbfd788	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7081	0e6e799b-3620-4bca-a169-52aebde28e8b	34451	0e6e799b-3620-4bca-a169-52aebde28e8b
+3fa83688-1724-42cb-a600-472e4c500e89	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-A6AQ	fb3a5490-d701-4432-b018-37b0ab6f9db3	21723	fb3a5490-d701-4432-b018-37b0ab6f9db3
+3e71fa1c-855c-475a-9dd0-a314a3ecd48d	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KC-A4BR	b47ab8a8-bf23-4ba8-aab0-2a57bc289cdc	35815	b47ab8a8-bf23-4ba8-aab0-2a57bc289cdc
+444e78f7-1221-4882-ade2-7e45d828ea2a	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-M7-A720	8744d2a7-c7d7-454f-87bd-1425c91e257a	30442	8744d2a7-c7d7-454f-87bd-1425c91e257a
+4c197d76-daf6-474d-b561-ded42905f52a	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A59Y	35e6f61a-3889-4ebf-9580-866758baad5b	43912	35e6f61a-3889-4ebf-9580-866758baad5b
+47abcd03-c6ff-4777-ac26-f880474092ff	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-4L-AA1F	aef0ce1b-ac36-4da2-a232-0ffd78c4b5d2	28120	aef0ce1b-ac36-4da2-a232-0ffd78c4b5d2
+4fdc9f5a-7ba1-4f80-b3db-2b7cbe505217	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-TK-A8OK	6ceaff83-aa00-47e9-affb-8253b866b110	29671	6ceaff83-aa00-47e9-affb-8253b866b110
+5277f041-f9fb-47c2-83f3-65ad230dd40a	hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-XQ-A8TB	fbf6f4df-5e6e-4914-8497-8686443552ad	30796	fbf6f4df-5e6e-4914-8497-8686443552ad
+5447a0e0-80ca-40fb-8233-504fde51f22c	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A7B4	9e99efb4-43e3-4a31-b393-b827c899b31b	45373	9e99efb4-43e3-4a31-b393-b827c899b31b
+4ef24cca-976b-4c2f-8810-4339967da570	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A6RA	40920bd6-861a-4c4e-8a1b-9ef89e869ff1	32634	40920bd6-861a-4c4e-8a1b-9ef89e869ff1
+570ddfb3-2721-42b6-9604-2de6b6090031	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-QU-A6IO	87feac5c-a2a9-4200-932b-be783d9b4f5e	30878	87feac5c-a2a9-4200-932b-be783d9b4f5e
+5828401b-0901-4a73-9d0c-1e85d3431475	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5738	308b03e6-575f-45b4-bef2-8f1b5b891b6f	30050	308b03e6-575f-45b4-bef2-8f1b5b891b6f
+5dd69c3e-9a3d-450c-9f10-10b4d6daeeba	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7075	f7dad983-a65d-4857-a5b8-d8e421a062f9	29918	f7dad983-a65d-4857-a5b8-d8e421a062f9
+5a790086-4887-4d2b-9c28-0fdd5dd1f1fb	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-2A-A8W3	e3ab3067-276d-491e-8e15-bfadd25f0c2f	33381	e3ab3067-276d-491e-8e15-bfadd25f0c2f
+5e2ff1e6-87bc-4b91-a959-f0f553af4e27	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7318	99084697-1ae6-466b-a1fc-603d65b18301	32645	99084697-1ae6-466b-a1fc-603d65b18301
+607fd22b-f281-431b-848e-ae01e69567e2	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A7NG	76fe3a50-9949-47c1-836e-07dfe017db7c	30212	76fe3a50-9949-47c1-836e-07dfe017db7c
+5e7a7629-800a-45c4-b4cb-314a853a1bec	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-ZG-A9L2	6ea334b3-ff07-4a9e-92d0-665365b82880	32901	6ea334b3-ff07-4a9e-92d0-665365b82880
+698ce9a9-6512-4fb8-a574-a26ee259414c	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7738	3020e596-330e-4b03-bc7b-2c0250bdf211	30260	3020e596-330e-4b03-bc7b-2c0250bdf211
+70c6c3a0-b422-4541-a60f-355356a9a340	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A8IC	88f730b0-755f-406f-b2c2-ce00d15bbd6a	50086	88f730b0-755f-406f-b2c2-ce00d15bbd6a
+6e3154d4-2ef6-403d-9de1-7b6233c4d505	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A8I6	7f0070d2-5c4a-427d-abb8-a956b042e88e	22764	7f0070d2-5c4a-427d-abb8-a956b042e88e
+6845076e-e940-4437-8618-81db4a447544	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6365	b7574d8a-19a3-4921-baab-b6fb7695e640	30371	b7574d8a-19a3-4921-baab-b6fb7695e640
+721e76d0-4b1d-4e78-adb8-1344b8030062	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5751	e098e5b6-f778-477d-957a-bd30384d3bf9	48161	e098e5b6-f778-477d-957a-bd30384d3bf9
+79601d90-b198-4b94-b60f-4cff329c7a10	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5739	7f12f89b-ad31-4fbf-bd6d-ec0a3d42f9b3	30181	7f12f89b-ad31-4fbf-bd6d-ec0a3d42f9b3
+74602e83-3ee3-4ee7-b05a-135fbdddcc5c	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-VN-A88L	97211313-f6b9-4b11-849a-1ab1fef6b194	30702	97211313-f6b9-4b11-849a-1ab1fef6b194
+7466d120-6a6e-40a0-96d3-4979816d6278	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-FC-A66V	dd208d59-7070-45fb-bead-4c10be9dfde3	30831	dd208d59-7070-45fb-bead-4c10be9dfde3
+7bc369b7-007b-4b10-bd92-5d326dabf675	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7330	6f13c424-a823-4769-9344-de659be27323	22261	6f13c424-a823-4769-9344-de659be27323
+7eea6fd7-733c-44eb-b4b7-50bb3a2628a0	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-FC-A8O0	335ce14b-7f48-40ca-a8ed-9c40bc7b3010	30866	335ce14b-7f48-40ca-a8ed-9c40bc7b3010
+7c398299-d789-4185-adfa-194817877947	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-VP-A87C	f2b3b08d-1428-40b9-8911-16cb22abeeb0	30851	f2b3b08d-1428-40b9-8911-16cb22abeeb0
+75d22d59-dec8-4f59-86c8-36b5e9f4fb0d	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-VP-A876	7f211a96-ea4c-46cb-9566-4a07f8c9a5fa	30807	7f211a96-ea4c-46cb-9566-4a07f8c9a5fa
+7c40c747-5000-4f66-aab5-c53fb96337cb	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KC-A7FE	47e4403b-e5d7-4241-82e0-65b72a971838	22546	47e4403b-e5d7-4241-82e0-65b72a971838
+7efc26b2-eff9-4f1e-9f4b-f26af072c84a	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-ZG-A9MC	9cc74d77-25de-4181-990a-c7935ba40e64	38209	9cc74d77-25de-4181-990a-c7935ba40e64
+7ce45134-5b1f-4ea7-ace9-7e463b034a43	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A8I5	411e484b-cd73-4c3f-9233-5e82a1ab96ca	30657	411e484b-cd73-4c3f-9233-5e82a1ab96ca
+7d0c6960-710f-42c7-889e-c3a7d4a30b3c	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-7509	e14495dd-aad8-41df-9a3d-2c719746fc5c	30807	e14495dd-aad8-41df-9a3d-2c719746fc5c
+8740555d-8bf0-40ba-b868-99eef27662a4	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-8264	34360dd1-fbef-434f-984f-c7b1a8e2d6cf	21588	34360dd1-fbef-434f-984f-c7b1a8e2d6cf
+86b82965-b19b-4285-b1a5-51a5d5267103	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A8X3	9e91086b-b308-488a-b2ad-1a43d6c06ee7	32628	9e91086b-b308-488a-b2ad-1a43d6c06ee7
+8a5f2d7f-835c-4726-b238-f82d6a7f25bd	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5792	fd63d3f5-e254-4fab-95b3-7c38e1740ccd	21785	fd63d3f5-e254-4fab-95b3-7c38e1740ccd
+8dc53431-44ab-485e-b4e6-c3d06509506d	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5767	d98eb69a-3873-476b-a169-3b9cc3cd792e	30188	d98eb69a-3873-476b-a169-3b9cc3cd792e
+8e1ff72b-f1db-4bf9-a8d3-f422e25a65e1	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A65D	ec5784d8-d65f-42a8-91d8-0a9c94f6f916	30234	ec5784d8-d65f-42a8-91d8-0a9c94f6f916
+8c0d361f-eaab-4768-90f2-b7a610e2bbb1	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-2A-AAYO	8751173c-0543-4111-aa40-076f7953c5d9	30479	8751173c-0543-4111-aa40-076f7953c5d9
+92f45022-ee76-418d-8f9e-c3509efda0c0	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-VN-A943	1513656d-df47-4b5f-a94e-755b4b6bf5d6	31009	1513656d-df47-4b5f-a94e-755b4b6bf5d6
+962dd3d5-8501-4658-8cb9-2424b476124c	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5495	e74e427b-4b66-4066-8c7e-9f7b883750f9	38763	e74e427b-4b66-4066-8c7e-9f7b883750f9
+922e5166-85f5-4365-9c09-f8bdc1722da6	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7736	3c1b590b-9021-4ed4-8e51-d3219bc61ab8	30482	3c1b590b-9021-4ed4-8e51-d3219bc61ab8
+98240f19-bca7-4001-8aa2-4d790c7c4c53	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J4-A83J	e49f9d76-fe3b-4230-bf56-9b5924540175	30770	e49f9d76-fe3b-4230-bf56-9b5924540175
+9f802576-1e98-496c-bda4-4b1dd2e411c8	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7078	840ba9d9-9e28-4ec5-b202-adb3f71aa09d	30237	840ba9d9-9e28-4ec5-b202-adb3f71aa09d
+9fe9cbae-37b9-4030-a204-4502760f5dab	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J4-A67S	cae60111-eee3-4a54-b053-33b3e3c4bef9	30971	cae60111-eee3-4a54-b053-33b3e3c4bef9
+9a8caef5-6543-4391-8a55-4999035693c5	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A8I4	13ec0782-1df2-465d-96b4-0ab269bad33a	45410	13ec0782-1df2-465d-96b4-0ab269bad33a
+a08fd0a6-a89a-4adb-b641-d4c1238abb71	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6329	43ad918b-8428-41ed-a363-8db9061ebad2	30250	43ad918b-8428-41ed-a363-8db9061ebad2
+9a8e27c9-614b-491f-913d-429dfc4e2c4d	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-QU-A6IP	32d620ee-a9a7-40c7-8cfc-f44c3ed26cc3	30423	32d620ee-a9a7-40c7-8cfc-f44c3ed26cc3
+9d499039-37ca-4300-ae95-04bbe007c0d2	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7786	4d31cb20-b6bf-4800-a099-5260d8659ace	38389	4d31cb20-b6bf-4800-a099-5260d8659ace
+9f751c9d-ad41-4f02-b7f8-12423857d418	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6367	def4d18a-99d1-411e-9850-f62f1cee1e4c	30602	def4d18a-99d1-411e-9850-f62f1cee1e4c
+a8396f6d-53e2-4664-a3e2-df061d022108	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A9OA	b7e1fde8-adf4-4f22-b91e-c8475d5167e3	32759	b7e1fde8-adf4-4f22-b91e-c8475d5167e3
+a8d81122-3f2a-43f4-bdc1-479cab37a19d	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-FC-7961	5074a50b-d209-4fdf-bec3-a1691cfc356e	30175	5074a50b-d209-4fdf-bec3-a1691cfc356e
+aa252f78-ebf3-42f9-86af-bb6e57345706	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5503	22e639a7-5766-404c-a37e-973853bfa369	38939	22e639a7-5766-404c-a37e-973853bfa369
+ab540819-9531-4e99-868a-751649f25e6a	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-VN-A88Q	e5ff6d1b-b47d-46fe-8a25-698e2c5fd6a1	30688	e5ff6d1b-b47d-46fe-8a25-698e2c5fd6a1
+aa405b5f-f75d-486a-96f3-1df7add18193	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-VP-A87D	f436b300-8d12-41f5-98d5-86a27cd832b8	50815	f436b300-8d12-41f5-98d5-86a27cd832b8
+adf3c2f7-d5f9-41c3-bd8c-7f9f1f22ff73	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5531	35cd005b-2e2f-4512-8317-dc45ec4da139	38916	35cd005b-2e2f-4512-8317-dc45ec4da139
+ac67d0df-7dc0-4a1a-8b47-beec9b94de86	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5745	c60c32a5-8e1e-4df9-8198-98fbd3e00c73	21805	c60c32a5-8e1e-4df9-8198-98fbd3e00c73
+ae3a0c92-148d-4f1c-8563-06ac1050f53e	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5532	597bf8d8-9187-4b76-90f8-4a1b52c8242b	38677	597bf8d8-9187-4b76-90f8-4a1b52c8242b
+aca312ab-6dbd-4183-8b22-8f37834f3426	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7125	120ed003-0eff-48ad-b7e2-27437e2f62b2	30523	120ed003-0eff-48ad-b7e2-27437e2f62b2
+b424b73a-2dfa-473f-ab56-ab382cd1cdef	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7331	7f2a9e31-c7ce-4db3-9839-1aac8fa4c26c	30463	7f2a9e31-c7ce-4db3-9839-1aac8fa4c26c
+b5268f49-2710-4d17-a78b-4a05412e8375	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6347	f6ce84b8-f5d2-4a66-9923-2b5c9f9aebe8	30487	f6ce84b8-f5d2-4a66-9923-2b5c9f9aebe8
+b182bda9-3d9f-4958-96eb-bd6cc441830c	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7231	68397a38-b982-4b5c-9c92-b000be6e1e9a	29841	68397a38-b982-4b5c-9c92-b000be6e1e9a
+b8fbfe87-e92c-4d54-a620-17b2dcde6d53	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6498	d6dcedf5-059a-425d-ab44-28bf2b6f945c	37555	d6dcedf5-059a-425d-ab44-28bf2b6f945c
+b6f54bdc-9b1b-4465-a6e3-f0524885e10e	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-A8CY	67575aa4-38c3-40c5-8447-bd79637e67d9	21962	67575aa4-38c3-40c5-8447-bd79637e67d9
+b7c8ca4c-8d9c-4c5b-99ee-2fcebe4f70e6	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YL-A8HO	244c1bb2-a606-428a-b484-759375b82ee5	46714	244c1bb2-a606-428a-b484-759375b82ee5
+bb8e6886-edc7-4127-a85b-c4f3769b6681	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-A4ZV	e1e9e47f-a933-47c1-b85c-da8231628e11	21662	e1e9e47f-a933-47c1-b85c-da8231628e11
+bcc94953-ce79-428e-99c1-632e42c1b9bc	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6353	f19f5f46-aa10-4a2a-a4de-c2de1796199e	30336	f19f5f46-aa10-4a2a-a4de-c2de1796199e
+bd18dd01-d894-4bdd-9ce2-e25705a52a57	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5508	9c61b131-9512-4e0e-bc9f-11d27a5ebb5e	38664	9c61b131-9512-4e0e-bc9f-11d27a5ebb5e
+bf462e14-f9e8-4531-905d-1fb59d9088cb	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A7AV	003d508e-ce9b-4ca7-800c-038cbba52b39	30973	003d508e-ce9b-4ca7-800c-038cbba52b39
+c4c1b5be-a0e7-4968-92de-7f34c71207fb	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J4-A67K	1abde88d-4c31-465f-b196-f21b853d5f56	30154	1abde88d-4c31-465f-b196-f21b853d5f56
+c506fae4-7c0a-4705-8e80-5bcc122a8a32	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YL-A8SP	a916077e-45b4-4bc9-97a3-12e1a4c31efc	64566	a916077e-45b4-4bc9-97a3-12e1a4c31efc
+c28f931f-5ab2-4899-9fe9-54024f082d92	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5512	2dde2334-cace-4e77-86b2-cc0843b3086b	38848	2dde2334-cace-4e77-86b2-cc0843b3086b
+c362f6f9-4ce6-4659-8c36-4cd45c72fb03	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A7NK	594d49f4-86f0-4ae1-b2b8-96fad4c19d38	30226	594d49f4-86f0-4ae1-b2b8-96fad4c19d38
+cccdd4a2-ebf0-482d-b71c-9fe44414eec6	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YL-A8SR	6f32aaf7-6ed3-4912-a930-66111235faf8	30795	6f32aaf7-6ed3-4912-a930-66111235faf8
+d1b31524-8034-4fce-b14e-1cef33c26ca5	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-QU-A6IM	713829cd-646f-48b0-8768-9de84872fe42	30712	713829cd-646f-48b0-8768-9de84872fe42
+d33074f0-5f88-4995-9439-76068a9f4836	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6379	b715257c-ccbc-4a6c-8c13-ab1cb9fcd894	38623	b715257c-ccbc-4a6c-8c13-ab1cb9fcd894
+d8f56d75-51ab-4a86-a502-c86e1dcd1eff	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5752	a91c5b6a-0c4d-4a03-9cae-2b1fe6b61f8d	36249	a91c5b6a-0c4d-4a03-9cae-2b1fe6b61f8d
+dc16f348-a49f-4958-a3ff-bc40e18df2bd	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A8WN	f3f55307-939b-42ec-ac59-8534a6bc27e2	32618	f3f55307-939b-42ec-ac59-8534a6bc27e2
+da07da37-bde6-480a-a302-98683ae3931a	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7793	3a545347-5e7c-492b-b8eb-f4a72e4104ad	38278	3a545347-5e7c-492b-b8eb-f4a72e4104ad
+d7763066-fb06-4519-9188-5de7dd12fdb7	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7218	6fd673c8-9a96-4d2d-b57f-996b224dbccf	30262	6fd673c8-9a96-4d2d-b57f-996b224dbccf
+df4a7caa-6289-4157-8cb4-6ce8784e7506	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-8469	889b5e02-779a-4f39-8683-a2859726e52e	33223	889b5e02-779a-4f39-8683-a2859726e52e
+dc40cf49-b208-4f59-b5f0-cfbdd02970b2	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5750	03f7e88c-f2f1-44e5-9ed6-e6310070b663	30414	03f7e88c-f2f1-44e5-9ed6-e6310070b663
+dcf383d5-b25a-4ea9-a3f4-4d7ea5ddd9ef	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A6E4	a4379cfe-77b7-4257-b6b8-c7f116a8cb14	30665	a4379cfe-77b7-4257-b6b8-c7f116a8cb14
+e90ab72a-4bbb-4c37-b48a-8a1a85d79d04	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7327	3c94d889-8a38-40b1-92fe-c9d63692aaf3	30676	3c94d889-8a38-40b1-92fe-c9d63692aaf3
+e9a4c770-665f-454b-81f7-b8ae3f1e154e	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-VN-A88N	9d37cf6a-6c59-4d5f-92aa-f22e4809764e	39367	9d37cf6a-6c59-4d5f-92aa-f22e4809764e
+ea770d22-2cba-465c-9555-e0877dcecb9f	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A8FN	d4c0cb05-3d24-4f9a-827b-cf1fe916e5dd	30214	d4c0cb05-3d24-4f9a-827b-cf1fe916e5dd
+ea953ce5-7082-41ff-8e38-760fe4100414	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-VP-AA1N	26ddcbc3-9edc-45c6-b64f-9eb0c9c09b3e	35496	26ddcbc3-9edc-45c6-b64f-9eb0c9c09b3e
+eb715348-7c5c-4e95-bac8-05604bdda2da	hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-VN-A88O	1e2ca3a5-9322-4ecd-b844-39b1c697ddee	30709	1e2ca3a5-9322-4ecd-b844-39b1c697ddee
+ebe711e4-45af-4082-bdf6-b0f7ac899b3e	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7818	15ec493f-5d13-439d-b348-b76ae080a39f	30554	15ec493f-5d13-439d-b348-b76ae080a39f
+f211f7a9-cf3b-432c-9ea0-1172cce14e9d	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-7510	1fdad588-3b7f-4739-b976-63f9d6fadb22	30623	1fdad588-3b7f-4739-b976-63f9d6fadb22
+f4e17ba1-f14f-480e-8fe3-415909fc320a	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-7525	5c932a90-fa99-4bdb-94ff-e6f475d7da56	30571	5c932a90-fa99-4bdb-94ff-e6f475d7da56
+f4e9a9f9-263c-4ced-a8fb-6cb0fb088983	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A7AP	266ee511-a33f-447d-a78a-30ca9583c516	22248	266ee511-a33f-447d-a78a-30ca9583c516
+f06c1ef4-bedd-4025-abf8-06f5e9c0821a	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-ZG-A8QW	663fad29-3580-4973-abfa-55c8e234c96a	30269	663fad29-3580-4973-abfa-55c8e234c96a
+f25bae1a-8627-46a8-87af-07f82773c68a	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7747	8c9da583-ed47-46b5-80fb-c06661995590	35544	8c9da583-ed47-46b5-80fb-c06661995590
+f6381367-142c-45d0-92b3-c1727d1813ce	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7744	2155d0e3-21e5-43db-9e73-a4ba0a7b8c09	35633	2155d0e3-21e5-43db-9e73-a4ba0a7b8c09
+f82d53b1-3df8-4249-a615-464c9f4e0a32	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5514	a7373641-dc51-4cac-9f75-436f8b5b2f08	38490	a7373641-dc51-4cac-9f75-436f8b5b2f08
+fadd80e3-8087-4494-a8f0-1caa92acbb67	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J4-AATV	189ca6e6-2407-46ac-97e0-4d28261af131	30158	189ca6e6-2407-46ac-97e0-4d28261af131
+fd1aa612-df86-4d48-892d-2acebd76ea96	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5499	965ceb6b-e52a-430f-9243-4457a0e10443	38899	965ceb6b-e52a-430f-9243-4457a0e10443
+fd50ff41-ec9d-4db1-a673-36ba0ca1eac8	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7080	28e8a6d9-cdf4-472f-a322-dc17aed489bf	30780	28e8a6d9-cdf4-472f-a322-dc17aed489bf
+f947b0bc-bdac-44e8-b5b9-ffae4147740a	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6370	7a93318e-fca2-40f3-a165-0632936354dc	30394	7a93318e-fca2-40f3-a165-0632936354dc
+f97fed28-fdf3-4c82-8b6d-1015848b80dc	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-FC-A6HD	dddc3b8e-6aaf-4f53-a4d5-0b39abfe16e2	40853	dddc3b8e-6aaf-4f53-a4d5-0b39abfe16e2
+fc823ab7-9390-4c57-9883-3e32ee17e794	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KC-A7F6	e694f72a-d2ca-4769-820f-69c85e54c83c	22549	e694f72a-d2ca-4769-820f-69c85e54c83c
+fca0331b-8096-40e8-b292-d438370c37c9	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-M7-A725	a32701bc-9278-4ee4-a88e-b37f54933577	30586	a32701bc-9278-4ee4-a88e-b37f54933577
+e0ff90e5-e6c3-4fb5-9512-6f09a891378b	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6369	b631af85-3418-4cc5-82c7-342082c8a76f	30366	b631af85-3418-4cc5-82c7-342082c8a76f
+e1c3d1bd-cf8f-4fa4-ac8e-bf9e54f7aad4	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5504	b696eaa9-f525-4d1b-a362-3138f6de2bf4	39451	b696eaa9-f525-4d1b-a362-3138f6de2bf4
+e27bc39b-54f1-47b5-ac8f-3245dce690f4	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-M7-A723	d20ed6f8-c17a-46f2-a411-4fe5c8c5d13d	47390	d20ed6f8-c17a-46f2-a411-4fe5c8c5d13d
+e27c50e2-2a41-4f8c-9ef8-2bc51fb0c23e	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5494	97ab456b-6670-4275-a414-cbda0ff5258d	38573	97ab456b-6670-4275-a414-cbda0ff5258d
+deb57bd8-545f-477a-9a86-6bc6db257270	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A6E1	38ed0bcd-afa2-4fc9-9b83-7c10afaeb2f2	41483	38ed0bcd-afa2-4fc9-9b83-7c10afaeb2f2
+dec99f86-622b-477f-a26a-98c954fb1f17	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A9ZG	6d52ca8d-3d83-49f2-85a5-9288ed45c5de	32754	6d52ca8d-3d83-49f2-85a5-9288ed45c5de
+deceb7df-6edc-41f0-99aa-c4ac7e764074	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J9-A8CM	789c2b3b-0f29-4f49-9494-076426e00f2c	25162	789c2b3b-0f29-4f49-9494-076426e00f2c
+df3362cb-0f6b-412e-8af4-c5606526be17	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A65B	602522e2-f62d-46ac-8241-acfe9ebd3984	30204	602522e2-f62d-46ac-8241-acfe9ebd3984
+ec3870c9-4930-4af7-b2eb-1e16c9ec9f14	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7211	3370cbb8-e41e-4c9d-b89e-b9cb11b87553	30863	3370cbb8-e41e-4c9d-b89e-b9cb11b87553
+ecade538-f882-4f29-a363-7acb89fd0576	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-H9-7775	84d4762d-63f2-40cd-9145-b3479fe69c73	29869	84d4762d-63f2-40cd-9145-b3479fe69c73
+eb80244a-5f20-49a8-8f73-e92c14395895	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J9-A8CK	e4f718a7-ddd2-4ee0-a435-36db165bfa65	22591	e4f718a7-ddd2-4ee0-a435-36db165bfa65
+ed7084f8-060c-4780-8b35-a03a5eab9684	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-XK-AAJU	deae359e-4554-4734-b48f-34d099b1efab	30908	deae359e-4554-4734-b48f-34d099b1efab
+daa9292e-8012-4aa2-8221-ad65fb1c7b78	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-ZG-A8QZ	77f91d3c-fdbe-4027-8f7d-aaa049b3b7d2	41059	77f91d3c-fdbe-4027-8f7d-aaa049b3b7d2
+db2779f6-8fe2-48c3-988b-81db1815a678	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J4-A67R	e11aa156-9043-46c1-a1a8-159e971407c3	30516	e11aa156-9043-46c1-a1a8-159e971407c3
+eec48399-5660-4b25-8d34-191b54315c72	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5526	2aad5cdb-62be-462b-86ef-208509856956	39275	2aad5cdb-62be-462b-86ef-208509856956
+f16ce517-d51d-499a-a4c4-a6844fefa52c	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-8261	82c0a696-56df-4779-92e3-b68803c69969	30054	82c0a696-56df-4779-92e3-b68803c69969
+eff14fed-8a21-41c5-8ed3-75346a06e44e	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YL-A8HM	2c40eaed-ea56-4b1a-a2cb-b98756fec2ab	47541	2c40eaed-ea56-4b1a-a2cb-b98756fec2ab
+f4aebd64-a356-4c05-b847-6dd28cf26339	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A7AY	c0335a95-a20b-4b69-ae3a-a1cec8d412f3	38071	c0335a95-a20b-4b69-ae3a-a1cec8d412f3
+f228ef91-ecfb-4d1e-8e6a-b43d2185270e	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6362	49a7dabb-a08f-498b-9e56-1650feee3759	38915	49a7dabb-a08f-498b-9e56-1650feee3759
+f7238e82-a394-4a7c-8514-6241d0aa17e3	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-FC-A5OB	6561ffa2-9e52-4182-9ae7-a9ca268cb4be	45650	6561ffa2-9e52-4182-9ae7-a9ca268cb4be
+f6935f67-5c62-4774-8346-711f36f3b547	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A9O9	8b5657cb-7537-4aba-80ff-b148fe06b5e3	32606	8b5657cb-7537-4aba-80ff-b148fe06b5e3
+f3e93819-a8f5-4d15-a416-3edd42aa52d1	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-A6HX	7a8aacec-15e4-4810-9f60-69eee73655ec	21639	7a8aacec-15e4-4810-9f60-69eee73655ec
+f7fc3f2e-c70e-460d-b34d-bb2ea423a0ae	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A8WL	cd426ad5-15a8-4937-a5c3-bbc9abd7a626	32720	cd426ad5-15a8-4937-a5c3-bbc9abd7a626
+f9f136a5-3ccb-42b3-ba60-c667fbb0846d	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J4-A6G1	2214a39a-ad50-4c26-bf2e-95c83940c27b	35037	2214a39a-ad50-4c26-bf2e-95c83940c27b
+fb447e0f-7cf0-49bf-8b15-aae932f8094d	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-8266	5ecf1152-89ea-4585-95e8-ed35bc35b520	29727	5ecf1152-89ea-4585-95e8-ed35bc35b520
+ff49e0f9-4007-4761-845e-b676b0fc9646	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-A48F	83302f78-c66c-4ba4-9f88-b4d84811a874	40900	83302f78-c66c-4ba4-9f88-b4d84811a874
+ff52fa2f-bd12-4de0-9f5c-cd330ffb5fb3	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YL-A8HL	ed8e3f1c-3597-4665-bcd4-f4ae226e0008	47336	ed8e3f1c-3597-4665-bcd4-f4ae226e0008
+e5e4d3b6-8e58-4dcf-8f67-a00e656a8e27	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5506	700a9074-f7f3-4d2e-9dc7-621e8672dd69	38915	700a9074-f7f3-4d2e-9dc7-621e8672dd69
+e6cbf99d-4a10-4c11-9ac2-eb26ef57331f	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-A6AL	985f3f7e-c754-40db-9217-428ab1f33a05	21819	985f3f7e-c754-40db-9217-428ab1f33a05
+e82a04cf-e81e-43c6-9cd9-0e29fa0f00ae	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6385	91760df2-7543-4f0f-a211-5c0149f18325	30140	91760df2-7543-4f0f-a211-5c0149f18325
+e833ad67-2cb3-414c-b15e-28f49479e2ef	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-VP-A875	9c59df09-4fbc-498b-b07d-39616f18140a	30790	9c59df09-4fbc-498b-b07d-39616f18140a
+e8f39c9e-0f1a-401c-9055-762b52bc77c7	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-ZG-A9L5	88345b7a-32e8-4240-8b72-3a6689c4bc8b	33187	88345b7a-32e8-4240-8b72-3a6689c4bc8b
+ed73f136-42e8-4100-b432-d10370d07e8b	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5764	6dac984b-7899-427b-baaa-ba5e24ac264a	21953	6dac984b-7899-427b-baaa-ba5e24ac264a
+1170f449-dfb5-417a-a89b-b2229a2785db	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A46B	62736b2b-c425-468c-a1c4-0a1f354bb812	30581	62736b2b-c425-468c-a1c4-0a1f354bb812
+929837f9-297a-47c0-ac9a-a142eef620d3	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7821	7813a005-3ab2-4b74-bace-1082b399ff5c	30704	7813a005-3ab2-4b74-bace-1082b399ff5c
+18e79a01-07a2-4cd5-b700-71d41724e041	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5763	eeb0a237-6ef7-4e1c-a4ae-4be701c42d99	30412	eeb0a237-6ef7-4e1c-a4ae-4be701c42d99
+5089a8d2-a353-4150-8a6b-6478c5bb29bb	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KC-A4BL	6dd3ad55-1f4f-4e5a-8759-c5fe0252f066	25046	6dd3ad55-1f4f-4e5a-8759-c5fe0252f066
+f5319fd5-beae-4ca8-8f42-45fca5e6a2d2	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-2A-A8W1	72e4ba8d-f44e-4134-87b5-f5352874e1e2	30315	72e4ba8d-f44e-4134-87b5-f5352874e1e2
+afa7d9a2-3998-4182-bf63-54895ed2de37	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-ZG-A9LS	cf42ad4e-060a-4015-a6cf-5b756a707949	35792	cf42ad4e-060a-4015-a6cf-5b756a707949
+ecf9f8be-7830-4626-8617-694c68ef4074	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5772	36f432fe-dc8e-4531-98ac-a7c2d27c309e	30509	36f432fe-dc8e-4531-98ac-a7c2d27c309e
+829bed0c-c40d-44fd-aee8-6c7589db60f9	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5791	ee78c08c-0328-4de9-ad47-9b94384fb3a4	38618	ee78c08c-0328-4de9-ad47-9b94384fb3a4
+554a7381-46fd-4301-b91b-5af7f173c350	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5525	4fb57dd0-c170-4ac1-a7f2-1b7ddd05d7fb	30888	4fb57dd0-c170-4ac1-a7f2-1b7ddd05d7fb
+e0dfc37a-4a2e-4353-9673-241b100b3467	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A9O5	8d2d6f6e-b2fb-443a-9ce0-3a05ad114edd	43855	8d2d6f6e-b2fb-443a-9ce0-3a05ad114edd
+df3abb97-c790-4ff6-a726-6645b3058d72	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6366	4014faff-822a-4c55-8883-f6fff436109d	37868	4014faff-822a-4c55-8883-f6fff436109d
+da5b0169-e4f4-4674-b348-220af03ff4b5	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-8258	389dd046-30a8-469a-b74c-d421c7e0a05c	30054	389dd046-30a8-469a-b74c-d421c7e0a05c
+d7e22af5-88aa-4a83-985c-1d346dff652d	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YL-A9WY	848a56bf-2f3c-40c0-abae-0f059b783aba	54012	848a56bf-2f3c-40c0-abae-0f059b783aba
+3e290dc6-aba3-4135-b844-3e8c4cc8a25f	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-8265	ac8b365e-fb36-4ce8-afdd-722721b4f9e1	34770	ac8b365e-fb36-4ce8-afdd-722721b4f9e1
+c024c4b6-0143-4071-9175-7435f1eaac58	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J4-A83N	c155a807-b43b-4999-b0bd-3d00f17a1705	43791	c155a807-b43b-4999-b0bd-3d00f17a1705
+74c7dd37-7ff5-47ac-aeb7-14202871b6f1	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-VN-A88P	d253853b-5e91-4bf0-97d9-21d263a84cd0	30722	d253853b-5e91-4bf0-97d9-21d263a84cd0
+d6974db6-2bd3-4082-b48e-9c60f7fe3a1f	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J4-A83M	cce74342-450e-433d-8301-102dc52d2d65	35431	cce74342-450e-433d-8301-102dc52d2d65
+dee02265-d8dd-4379-ae08-72d72b03a570	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5497	04ac79e0-3237-424d-b1a5-d492882f5412	38270	04ac79e0-3237-424d-b1a5-d492882f5412
+3ba3d23d-67e2-4f38-9951-f5cfa1131f9f	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-H9-A6BX	a18fb03d-688f-4911-a7e3-24bf7dccd694	30116	a18fb03d-688f-4911-a7e3-24bf7dccd694
+91c0d161-2b59-4b7a-8c19-6d26dea31849	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-2A-A8VO	47c63084-e726-4859-a2d8-160d7adc9fbf	30998	47c63084-e726-4859-a2d8-160d7adc9fbf
+40ebeb10-7390-44fc-9ef2-80d40d251018	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A9O7	85bc8c22-7400-4a55-86b8-50ebc2a57875	37795	85bc8c22-7400-4a55-86b8-50ebc2a57875
+00e41e6a-9fe7-44f9-978b-7b05b179506a	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6342	580a2cca-4246-4ce0-a977-6a8fa01a9db2	30551	580a2cca-4246-4ce0-a977-6a8fa01a9db2
+ead15a1b-726a-46aa-9005-a22f4b89d011	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-A6AP	f3593537-592e-4dce-834e-91375d8b9249	21716	f3593537-592e-4dce-834e-91375d8b9249
+00f0f7dd-71de-4e4f-b4b5-df860324f2e8	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A8FP	bf06cba3-1a32-4cb4-acc5-f8f263a32ab6	32737	bf06cba3-1a32-4cb4-acc5-f8f263a32ab6
+084ac674-f4cf-4a4a-a6a2-687c05c272ea	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-A9S0	f61edf3e-ef83-4fb7-a69b-2c90d55c1f1d	76555	f61edf3e-ef83-4fb7-a69b-2c90d55c1f1d
+0c459149-0dfe-4206-b50b-db79180ebb57	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6494	da714cb4-ab3a-4c9b-bfea-5eafc77f8667	30325	da714cb4-ab3a-4c9b-bfea-5eafc77f8667
+10fbe481-f111-4f88-ae45-4d67cb265567	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7079	fe06211e-9072-4dc5-b7da-704126a6c699	35590	fe06211e-9072-4dc5-b7da-704126a6c699
+1122fa92-0073-4f59-9880-3f1a34620758	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J9-A8CL	1ad7f23a-feba-4969-a477-2096141b73ae	24942	1ad7f23a-feba-4969-a477-2096141b73ae
+a608bf0e-a932-4541-8439-2ffb9f6294b0	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A46E	de5de260-c7d9-4add-9309-b79bd0362a6b	30404	de5de260-c7d9-4add-9309-b79bd0362a6b
+1426b4bf-f4a5-477c-bbbb-e0e656549764	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7782	c2403b16-de77-47e4-ab23-ddab80f1af36	38524	c2403b16-de77-47e4-ab23-ddab80f1af36
+5a92ec4c-36ee-4588-aca2-e3303f29c7ad	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5542	d51ddd0e-869d-4b8d-8b64-a9c29671cb49	39242	d51ddd0e-869d-4b8d-8b64-a9c29671cb49
+11fb5853-8eeb-4ad8-825d-3eaaf3fa08d6	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HI-7169	51a18ff8-df94-440b-880f-e23d7fb7442c	30284	51a18ff8-df94-440b-880f-e23d7fb7442c
+1583aea0-5d69-4165-9bef-d5bfdddf3a65	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-M7-A71Y	86840bca-a9fa-4b8a-a05e-360bfa987c77	30720	86840bca-a9fa-4b8a-a05e-360bfa987c77
+159b47b2-dc7d-4856-9a00-454e27301e23	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YL-A8SK	f6c887fa-54b3-4190-9f32-a2c7fbc1bcf2	43740	f6c887fa-54b3-4190-9f32-a2c7fbc1bcf2
+17c0ce0f-8227-4119-9b39-ea8db18f5f4b	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-VP-A87B	e40b1a21-b7d2-4f9a-9213-02c7356c3571	41638	e40b1a21-b7d2-4f9a-9213-02c7356c3571
+f8d8b417-5945-42a5-850a-fbc04b4f0e61	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6364	b1f9cd85-9425-4d6d-a0b1-a976a0a264fa	30108	b1f9cd85-9425-4d6d-a0b1-a976a0a264fa
+19cf56b2-a85b-43e7-971f-5680b9b1a67a	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5515	c4464f14-095e-416a-a36d-ffe132f9fd6b	39139	c4464f14-095e-416a-a36d-ffe132f9fd6b
+1a8a887e-b9f0-42f5-8dce-4e58cb13844b	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-8470	73cd8de4-ac49-45cc-8dd7-d63e7d8fbd73	30134	73cd8de4-ac49-45cc-8dd7-d63e7d8fbd73
+1bcb1132-a9fc-4f03-bbed-abaf80c7a24a	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YL-A9WH	287a1d6d-e095-4ca3-95ee-831205b12334	49515	287a1d6d-e095-4ca3-95ee-831205b12334
+1d7ffbe7-6139-412b-8739-8082a63a2b33	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6356	274de682-8bef-4e38-b326-6336469739b2	30647	274de682-8bef-4e38-b326-6336469739b2
+1e3c1d8f-b3c9-47be-89e4-22e6b16ed2ae	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A8IG	8cc73259-06a9-4f8b-9ac9-845599238363	30787	8cc73259-06a9-4f8b-9ac9-845599238363
+1ea3b879-5451-49fb-b930-16e9b5627f18	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5505	0fd8f75f-87d9-489d-b476-3a4c716e3d37	30898	0fd8f75f-87d9-489d-b476-3a4c716e3d37
+1f4ff2c7-3fbb-46a1-99cf-68d2c33c5175	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7789	1dfd6412-c8cf-4a86-b60e-cd7b0c01bc5a	38354	1dfd6412-c8cf-4a86-b60e-cd7b0c01bc5a
+214884ef-a932-4fc3-b6ff-16ce5164da3e	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5522	af88faf5-9e25-4b24-8921-0d698c47f149	38970	af88faf5-9e25-4b24-8921-0d698c47f149
+2270d09e-a8be-4b7d-9520-a4bb1cd053c0	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-XK-AAIW	f2760167-7934-4c32-beea-0961afd46937	33297	f2760167-7934-4c32-beea-0961afd46937
+24d7d4d8-f5c1-4d71-80e0-72a429fc9dbd	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-VP-A87K	67e62ae5-b021-4474-978b-a169053e1213	38437	67e62ae5-b021-4474-978b-a169053e1213
+26eefaa1-1666-4ce1-8cf4-f6fabff81fd2	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7213	0729a529-8b41-4d63-87a3-e3dcbabef9d4	31170	0729a529-8b41-4d63-87a3-e3dcbabef9d4
+27953774-e97b-48e7-b966-1ec1e9c830b4	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-A9S7	954d5a0a-1fba-4919-af42-0c301a7d8d83	35613	954d5a0a-1fba-4919-af42-0c301a7d8d83
+2c48b1bf-4e49-4869-874b-f08787fa04b5	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6338	8b5d903e-1839-4221-bfd8-794646ef8eda	38582	8b5d903e-1839-4221-bfd8-794646ef8eda
+2d350c73-2a0b-4a3c-8d30-c6fcf6c3ffba	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7750	a5f3f808-f6d2-411b-a8ba-ef89c671c94d	30450	a5f3f808-f6d2-411b-a8ba-ef89c671c94d
+2d70eacc-d0c3-4121-bd1a-a47d68ecede5	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YL-A9WI	3cffea21-782a-4375-83db-497a7da3288c	31010	3cffea21-782a-4375-83db-497a7da3288c
+2dee4bd8-b00e-4f8a-bfea-5d8d1a068202	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5743	febf4a4c-ac3e-4691-a661-759a7a3dee9e	38813	febf4a4c-ac3e-4691-a661-759a7a3dee9e
+2b35c119-cdc1-49e2-8229-ca5cde9e63d0	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5518	01b17d54-aed1-4e07-a038-fc01fd379b9d	38771	01b17d54-aed1-4e07-a038-fc01fd379b9d
+39a5aebe-acad-4141-aa5a-66228c4049f8	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-XJ-A9DI	308ae04a-d046-4d24-9bff-994b86c96cb6	52572	308ae04a-d046-4d24-9bff-994b86c96cb6
+3f3128c9-1072-443c-b6ae-8b63166fa9a4	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KC-A7FA	53f55383-f6bb-4899-8339-5f04f15e5684	22830	53f55383-f6bb-4899-8339-5f04f15e5684
+486d225f-eca6-499b-a142-dd86137b22e4	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-VP-A87J	a7d832f3-d219-4022-9c4b-f847d91451c4	30777	a7d832f3-d219-4022-9c4b-f847d91451c4
+4045f40b-d42a-4598-9ee2-0d371a776d3f	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-A6AO	4f9db3df-6e0f-435c-97b7-eaa1e8a661b8	30107	4f9db3df-6e0f-435c-97b7-eaa1e8a661b8
+48e83a4c-c602-494a-80cd-e2f4b4dd701e	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5502	ff2e2077-2a5b-4351-b0f0-0019ed6d3713	38877	ff2e2077-2a5b-4351-b0f0-0019ed6d3713
+433d1441-6d5b-4455-a731-65f172bb016d	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-A9TH	aa2a7d83-1ffc-4f07-8528-2296b5b1b172	37031	aa2a7d83-1ffc-4f07-8528-2296b5b1b172
+436b242c-ad5f-432e-a684-27bba4c1c8a2	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A5A1	29cff442-68a0-475a-b8b4-e9219f88e561	33270	29cff442-68a0-475a-b8b4-e9219f88e561
+42b7d14f-09e5-4d91-bb98-5fe35907a6a9	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7328	48b3f94a-54ad-4d1f-93dd-b505b398fd49	30347	48b3f94a-54ad-4d1f-93dd-b505b398fd49
+4d5d61c4-2e64-422e-aba6-ec098f40eeec	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-M7-A71Z	6a246f52-eeb1-4782-b402-29119dcd99ec	30602	6a246f52-eeb1-4782-b402-29119dcd99ec
+4db62b98-abd4-4a7c-9fce-8bbda2aec8a3	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A9Z7	c2ed3d2d-5f12-4caa-b3b5-66e3747c571d	32785	c2ed3d2d-5f12-4caa-b3b5-66e3747c571d
+4a3d9efe-f24e-4135-8a70-e202651e7a81	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5510	e1e30932-0b82-4168-b828-cfcb691ca108	38615	e1e30932-0b82-4168-b828-cfcb691ca108
+4e76de8e-cb0d-4b83-8ab4-53bc67a7a9d3	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5744	56ae8f3a-1905-4d83-965a-feb91e160782	21972	56ae8f3a-1905-4d83-965a-feb91e160782
+4b9aa301-d2e3-47f3-b724-a34f420b2b6b	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5517	28860ed4-f564-4d8a-a2ba-a4120c140734	38391	28860ed4-f564-4d8a-a2ba-a4120c140734
+582d1177-73b0-4a9c-8505-70d6b402bd01	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7209	111d0bf7-56f8-4666-8f0f-17cbf80394f4	30537	111d0bf7-56f8-4666-8f0f-17cbf80394f4
+56c88739-c076-42cc-a2cb-fd613ab567b5	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A6E2	f4f49e25-9b42-4823-838f-661a6c746d88	30632	f4f49e25-9b42-4823-838f-661a6c746d88
+58c27028-f37c-4cf1-b134-bd9aec9bf170	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-XJ-A83H	00bf35d1-26af-4da0-9ce5-a73195fced11	30179	00bf35d1-26af-4da0-9ce5-a73195fced11
+59207bcd-f127-481f-b576-8716da7d7d97	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6336	d6a66f70-f9f9-4092-812b-799f9f7b5abb	30595	d6a66f70-f9f9-4092-812b-799f9f7b5abb
+5a4d8694-947d-45e9-9a21-6de0f63837f0	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-XJ-A9DK	ea1c62d7-1205-4ec0-bd41-2f170b4c6e8d	29960	ea1c62d7-1205-4ec0-bd41-2f170b4c6e8d
+5d8c9b90-8d40-4cdd-900d-03681bc2d2a6	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-XJ-A9DQ	2527a536-e4cb-4299-a96b-14d3f7fe813e	30031	2527a536-e4cb-4299-a96b-14d3f7fe813e
+c75bee57-d6da-4083-9be8-17c970b77fc7	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-ZG-A9L4	549e6767-8095-4f30-ab55-90bb626911a5	33087	549e6767-8095-4f30-ab55-90bb626911a5
+cd113dc4-915a-47d2-bce0-9dba915a9d29	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5740	838107c0-dbd6-43ef-8305-14576f793717	21858	838107c0-dbd6-43ef-8305-14576f793717
+c7912ca7-11e1-4cb8-902a-9d6cb23fd344	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-ZG-A9L9	301a30ed-d96a-4d79-86eb-e573f6868295	38287	301a30ed-d96a-4d79-86eb-e573f6868295
+d44d4bcb-beb1-4464-acd2-9972751f5018	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5521	e83c8064-20a9-49fb-a5f1-8a55793e5377	38660	e83c8064-20a9-49fb-a5f1-8a55793e5377
+d112136d-34fa-426e-b432-4d1e4286adf8	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A6E0	218bbd12-acdc-4a81-828f-d3cf6cd3b26c	55466	218bbd12-acdc-4a81-828f-d3cf6cd3b26c
+cf70909e-5143-47ae-b8ca-c3ae6ace7be2	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-7521	26748c26-f932-4598-8648-d5a4f9641b42	48077	26748c26-f932-4598-8648-d5a4f9641b42
+d1fd7be0-6daa-4f1f-a198-3dca7a797e49	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7819	bd048e16-b740-4fd0-9fdc-93498c006733	30260	bd048e16-b740-4fd0-9fdc-93498c006733
+d57d3254-d8f3-4ca2-8b31-790d3ac9a63d	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-8474	aed85bee-6e6a-4b00-b782-a1086ca5c5e0	30476	aed85bee-6e6a-4b00-b782-a1086ca5c5e0
+dc20ecf0-2807-4675-a7fd-8ead1cee7ea0	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-VP-A87E	689a7e36-73be-4cd5-8b9c-66bd563f91e0	30852	689a7e36-73be-4cd5-8b9c-66bd563f91e0
+df7bbd9c-0b35-4855-acde-46f4956f4df1	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A59Z	e36e7c48-7280-491f-9911-20ffe8d1d729	30819	e36e7c48-7280-491f-9911-20ffe8d1d729
+e4a755e3-4938-4321-b5a9-27a445036791	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5530	1080af2b-27c5-4f8d-997b-d4af0c0fc451	30423	1080af2b-27c5-4f8d-997b-d4af0c0fc451
+928c48a0-68ee-4e28-ae83-9832e52850ca	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5753	a3e5ccd9-b8ff-4fc7-9562-f3afc6a24a91	21966	a3e5ccd9-b8ff-4fc7-9562-f3afc6a24a91
+4fe004e5-49f9-4336-a690-6ebad512c813	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7791	19ec4dc8-2482-4458-a960-fd995cbfc193	38665	19ec4dc8-2482-4458-a960-fd995cbfc193
+9b015929-99eb-4e74-8fbf-6b2e6d7f08e4	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J4-A6G3	ccf3b63d-6b5b-4c47-83cd-3bcfff473d26	41468	ccf3b63d-6b5b-4c47-83cd-3bcfff473d26
+5d66ac77-1543-488b-a68f-665811bec67a	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-XK-AAJT	2914d53f-84aa-4ca0-beee-a36a2ffbbb6b	30591	2914d53f-84aa-4ca0-beee-a36a2ffbbb6b
+4434864a-8a0d-488e-b9a7-6749719663e5	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A8IM	ce47140c-0873-437c-986f-44bdd15af92e	30815	ce47140c-0873-437c-986f-44bdd15af92e
+acd5ceef-c5cf-4e95-9394-c50fdbc70c8d	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6499	0397a6b5-3bdf-4e02-b717-11e1df02f0c1	30586	0397a6b5-3bdf-4e02-b717-11e1df02f0c1
+21a29827-7896-436d-ab52-e7edfc91e7d0	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YL-A8SB	e89be35e-3f64-4abd-9200-b25390421416	61497	e89be35e-3f64-4abd-9200-b25390421416
+8df0c1e8-966c-4f46-ad15-fae9e745a32e	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5501	13138c8e-3a6e-46ba-93fa-38845877ad91	38808	13138c8e-3a6e-46ba-93fa-38845877ad91
+f6743ff8-542e-4fde-8ff2-4878fcabffda	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A7NJ	96a9fc45-2f8d-4500-ad5c-d8df9f2cd47e	30212	96a9fc45-2f8d-4500-ad5c-d8df9f2cd47e
+804ee985-18dd-4f2d-a562-61b454601cdd	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7321	fe14d283-f639-4a02-a493-5a07e23492fb	30267	fe14d283-f639-4a02-a493-5a07e23492fb
+5a468990-d76d-4c67-8437-62689b593ae2	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KC-A4BN	4c046c3b-9744-4acb-9f0f-271068fcf889	22000	4c046c3b-9744-4acb-9f0f-271068fcf889
+897a2af4-55af-4245-8629-1a71b622c17e	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J4-8200	a6acf483-9536-47b5-96c4-57f6b39482d3	38780	a6acf483-9536-47b5-96c4-57f6b39482d3
+b751083d-be6d-45da-be97-a6d41d8ebe97	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A8FO	0e2ab2f8-6d65-419d-af75-bdc4ccd99c1c	30221	0e2ab2f8-6d65-419d-af75-bdc4ccd99c1c
+00b16434-0b3a-4194-8714-74dccbebe06c	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-8468	2524dfcb-fa88-4408-b2e1-885a4b5347dc	30406	2524dfcb-fa88-4408-b2e1-885a4b5347dc
+105e12bf-4f39-4d7a-870f-fbc329ee210a	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-A76X	92c9e2ea-e16b-4a78-badb-41d423972d34	22315	92c9e2ea-e16b-4a78-badb-41d423972d34
+08f11bdd-d665-45ab-b1a2-5485d91922c2	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A46F	e9ac234b-1c66-4782-8d5c-f12bffa19e5a	32901	e9ac234b-1c66-4782-8d5c-f12bffa19e5a
+0aad0abd-750a-400d-a34f-491da996d46c	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5754	54d80273-2706-4447-9242-75a629eba55c	21981	54d80273-2706-4447-9242-75a629eba55c
+0d498226-e22a-44a4-9ef8-1da8e83fa55b	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A7NH	28dc8e25-f86b-41a5-b5cc-6d4041e570fa	30173	28dc8e25-f86b-41a5-b5cc-6d4041e570fa
+0e747c7e-3621-4d88-847c-86811655d908	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-XK-AAIV	579aa0da-2dce-4f28-b5b6-cd88a248e0f7	47447	579aa0da-2dce-4f28-b5b6-cd88a248e0f7
+f6040682-4999-4d71-abc2-354b473c6980	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7748	7c0a9993-511d-4f4b-b27e-9156cde77b90	29972	7c0a9993-511d-4f4b-b27e-9156cde77b90
+11882dac-3ba3-40fa-8af4-174cba77881a	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-VP-A879	e9864423-b79b-44b6-9e90-5b56e25777b6	30713	e9864423-b79b-44b6-9e90-5b56e25777b6
+14c2819b-9afc-4c89-849f-530e289d55bf	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A9OX	6bfd66aa-e458-4f11-bea0-e01d05d23dab	32603	6bfd66aa-e458-4f11-bea0-e01d05d23dab
+12d2b93e-a033-4b36-ae81-c15879eb40bd	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-XK-AAIR	03339cd6-3bc8-4f2a-a2c9-fcf2a1f30b45	30513	03339cd6-3bc8-4f2a-a2c9-fcf2a1f30b45
+06c9eb11-6018-4015-9fbe-b46886b2c3e0	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-XK-AAJ3	5a6caf05-a243-41c2-a7e6-b53cbda1df48	30944	5a6caf05-a243-41c2-a7e6-b53cbda1df48
+610603d0-43fb-4a4e-b368-d143e6c61802	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-ZG-A9LU	72bc2574-1e8c-4bfe-8932-c739b9d7b4fd	35818	72bc2574-1e8c-4bfe-8932-c739b9d7b4fd
+64bf32c9-9466-404a-a147-e7a0b9e91e34	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6333	87e89435-f2df-465c-a01b-c5a5aebb0246	38868	87e89435-f2df-465c-a01b-c5a5aebb0246
+5f69ca7d-f8e0-4f5b-9987-1e5c234eb759	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-A76W	c5ce6170-1664-40e0-94f6-146262358441	22439	c5ce6170-1664-40e0-94f6-146262358441
+629855ea-551e-456c-b421-83b9a4eb3269	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A59X	a196fb09-0374-471a-8135-0b83b20d0d96	58982	a196fb09-0374-471a-8135-0b83b20d0d96
+68fc3693-0910-4ee8-8997-99c6333b65f4	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7317	54ebd7a2-c843-4052-9551-966ecfc75924	30355	54ebd7a2-c843-4052-9551-966ecfc75924
+6755c231-355f-4cc3-85f1-6306c7f5d44b	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5496	1571f94c-0938-4873-9b1d-a56ec99376e9	38986	1571f94c-0938-4873-9b1d-a56ec99376e9
+701991da-6deb-41df-b9cc-e5049a886b5b	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-H9-A6BY	0fdd8a9a-55bc-47af-9947-becda0651391	29687	0fdd8a9a-55bc-47af-9947-becda0651391
+6bbbe263-3632-4567-912c-95bc9940a1dd	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6354	3507ac10-e4a0-4f18-aa93-b51efbf61dfd	38743	3507ac10-e4a0-4f18-aa93-b51efbf61dfd
+716eb429-d7af-4d4f-bd8d-afcff1a323ee	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5765	96673e0d-0c92-468b-a849-e98f7f02ce05	30368	96673e0d-0c92-468b-a849-e98f7f02ce05
+720d77bc-58e3-42ee-aae7-5de586c2ac41	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-XK-AAJP	68579195-83c5-49ac-a73d-e97e0d541b41	30788	68579195-83c5-49ac-a73d-e97e0d541b41
+73d4e806-2c15-4c9e-a978-106fb9494e82	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A7B0	e046e5b7-8126-4000-95a5-bf85f55e2aa6	43846	e046e5b7-8126-4000-95a5-bf85f55e2aa6
+7315bb0a-96a1-45ab-a704-b084d237cf5c	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A7B1	69944b2f-d690-4b4f-9ba4-a20aabdcbff5	30676	69944b2f-d690-4b4f-9ba4-a20aabdcbff5
+73f875cb-bcfc-43ba-ab97-4e94caf836d4	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7737	23b1dde4-8e3a-4ebd-a8b8-ef54f469bb0c	30297	23b1dde4-8e3a-4ebd-a8b8-ef54f469bb0c
+73b7d4bc-6b56-4ae8-be7f-074745563bee	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J4-AATZ	35a2b5f7-49ac-4a7f-843c-0c72066bf9ce	35300	35a2b5f7-49ac-4a7f-843c-0c72066bf9ce
+743ffc51-d613-407f-b040-e99969c31802	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-AB20	c9b705f2-b0bc-41c1-a7bb-a7c73fe97276	30189	c9b705f2-b0bc-41c1-a7bb-a7c73fe97276
+7fc65e49-0401-4a36-8800-fd87b7927fc1	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-VP-A872	591287db-82a0-4977-a606-7f80beddaa7b	30842	591287db-82a0-4977-a606-7f80beddaa7b
+827caf2c-a94b-4eee-86b3-1155a16daf4a	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KC-A7F3	2fda7744-e810-48e2-93f5-1ee8f150b34b	22296	2fda7744-e810-48e2-93f5-1ee8f150b34b
+7dc62c0f-b82d-417f-89a7-4cb984a9d304	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A9ZK	4cdcd1b6-8d77-432f-acee-04ac716d3735	32709	4cdcd1b6-8d77-432f-acee-04ac716d3735
+84a5d5fc-7350-4846-a1bc-8bfadbcff8dc	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-XJ-A9DX	eb3f2e94-715a-4376-9e2d-327402587fa4	46701	eb3f2e94-715a-4376-9e2d-327402587fa4
+854a481b-71a2-4f23-80aa-e91e9f4069b1	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5761	d2324c3b-776c-42f4-ba3d-c82834aaacab	22017	d2324c3b-776c-42f4-ba3d-c82834aaacab
+87959988-bb25-47ee-afc1-9af92592bbe7	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-7522	1ef1e63e-8086-43ec-9b02-8a213e1a976e	38589	1ef1e63e-8086-43ec-9b02-8a213e1a976e
+8631bb5e-6d08-4c20-a85e-cb84f5dac290	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A65F	d1bd8d59-8a67-44c8-ac94-595982af018c	37430	d1bd8d59-8a67-44c8-ac94-595982af018c
+88658b66-f293-4aff-9e33-05abfafd3b43	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KC-A7FD	03961357-feee-4957-84e4-2f935199fc47	22707	03961357-feee-4957-84e4-2f935199fc47
+89afdebe-456e-4128-8902-1001876a2106	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-8216	5f359d23-dd1e-4216-87a1-1ba16cfc079d	30676	5f359d23-dd1e-4216-87a1-1ba16cfc079d
+89b995ba-d13a-461b-ade4-d791844c1a0c	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A8IH	863fb64b-47ed-419f-9380-ad2e48d3a9b7	30844	863fb64b-47ed-419f-9380-ad2e48d3a9b7
+88c87cce-4361-499c-9e3a-e9d9040af2db	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7314	8b63ce0a-9430-4667-b252-fe1623ce261d	30804	8b63ce0a-9430-4667-b252-fe1623ce261d
+89c150cf-f60c-4f11-8f3e-384b0e0902f9	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A65J	45ffd355-54e9-4fab-881a-ca0c6a30490b	30241	45ffd355-54e9-4fab-881a-ca0c6a30490b
+8990ce28-c671-4487-8dda-864f0675bbb3	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A6E8	a0c135bc-1655-4502-91cc-89fa53feddb2	22611	a0c135bc-1655-4502-91cc-89fa53feddb2
+8e5b1d47-7d92-4d28-8186-4176ada96672	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A8WV	32126122-1813-4ce2-8bb0-6456867efb47	38757	32126122-1813-4ce2-8bb0-6456867efb47
+8bfac5b9-fa2b-4b6e-9537-e9d8a2f0d1dc	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A65G	8b147942-f1e0-46b4-969f-c0e0cdde97e0	30226	8b147942-f1e0-46b4-969f-c0e0cdde97e0
+9044098b-415d-4893-a682-3636f6b2b2db	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A8FS	4395604b-ca87-421a-98ad-bc3b2b0cb8a3	32575	4395604b-ca87-421a-98ad-bc3b2b0cb8a3
+8cc7679d-b963-4b45-b3f8-dcf80ea6cc71	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J4-A83L	8877023e-5ef6-4fce-be00-36d160f76872	30821	8877023e-5ef6-4fce-be00-36d160f76872
+907b64d6-a26a-4092-a247-ac9af444d1c7	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7212	376b2426-b1c8-48a0-85f5-1794ce16599e	34715	376b2426-b1c8-48a0-85f5-1794ce16599e
+931feb14-3f69-41c1-8435-5fd4fb775bdf	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HI-7171	c40a0db3-d447-414c-bda0-f42f42c3e4a1	60657	c40a0db3-d447-414c-bda0-f42f42c3e4a1
+92252560-5984-41f6-a4b5-a3aa8654c0c8	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7077	197df899-e801-43e2-a58f-10329fd68c9e	30130	197df899-e801-43e2-a58f-10329fd68c9e
+9b59ed95-e97f-4356-b976-e3fa0e9eee02	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A46I	2776d74c-9f18-4715-8e2f-784b6decfd89	30132	2776d74c-9f18-4715-8e2f-784b6decfd89
+93e78f4c-e74b-4675-8d2c-d641fa25d8f2	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-7523	4292e5e0-75ca-468e-ab4d-e3711d6e07aa	30842	4292e5e0-75ca-468e-ab4d-e3711d6e07aa
+9b84601b-ee05-4c15-afe3-7bfa7ca5ffac	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7752	fc309e51-f4dc-47c4-9815-805acc8fa652	30016	fc309e51-f4dc-47c4-9815-805acc8fa652
+98a9ce0e-4f02-4819-bc0c-c1a8d34e3db6	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A8IJ	390e526e-b035-43a8-8630-ce2f557de8ee	25132	390e526e-b035-43a8-8630-ce2f557de8ee
+94d6675e-27ae-4f34-9d53-6e19238eb01d	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A8MM	599322b3-763b-499b-8b42-e00903712569	33131	599322b3-763b-499b-8b42-e00903712569
+9bf4e7bb-6aa9-4be8-a7c3-e630ecff4dce	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A9Z8	cec27b63-2136-4592-bc5a-a38e762ea263	32678	cec27b63-2136-4592-bc5a-a38e762ea263
+9e48644f-d498-42b0-871b-d11f676241e2	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A59V	2a2e3afc-bedb-4d00-8c7b-09cc56cd71c8	30628	2a2e3afc-bedb-4d00-8c7b-09cc56cd71c8
+a468353e-0a96-4a4d-8aef-5140bf1bf952	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YL-A9WX	9ee523f3-7a94-46a6-a112-dede0f2656dd	33199	9ee523f3-7a94-46a6-a112-dede0f2656dd
+a6d467cf-6783-4885-8de5-95d32e922500	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-ZG-A8QY	970978a8-6b07-4e32-b335-49c9a5af7655	30271	970978a8-6b07-4e32-b335-49c9a5af7655
+a3a4a518-2dac-4846-9476-1aa7e0c1fb5e	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-XK-AAJR	4ee0dbcb-a18c-4dde-baba-cd98e8d26736	33606	4ee0dbcb-a18c-4dde-baba-cd98e8d26736
+a7045324-cb44-4b37-bbaf-641642c1d903	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-Y6-A8TL	7ff4049c-236d-4dad-a272-567745e21ed8	30276	7ff4049c-236d-4dad-a272-567745e21ed8
+a7b76662-8380-4f35-9307-99c0acacb904	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5769	9359df27-30ab-4dfc-80af-3c0cff8abc43	21914	9359df27-30ab-4dfc-80af-3c0cff8abc43
+aa1a3a43-2f9c-456c-ba74-81c29b9801cb	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-2A-AAYU	e1fda7ec-18db-47a0-8599-1602062717e8	30747	e1fda7ec-18db-47a0-8599-1602062717e8
+ab378ad0-1881-403f-9e85-d6f97e7b7c81	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-8472	c682d5f4-ef37-4cfe-808b-92d16d4f08ef	32633	c682d5f4-ef37-4cfe-808b-92d16d4f08ef
+abeb0894-862f-4035-a6d9-fe0ba61630a9	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-WW-A8ZI	26efdb7b-e05d-421b-bb87-a4180a1fb7ff	30568	26efdb7b-e05d-421b-bb87-a4180a1fb7ff
+b3bf57d4-e31a-4740-b438-fa826fb79550	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5741	e2944b38-d5db-42aa-9920-f656b200d0bc	36269	e2944b38-d5db-42aa-9920-f656b200d0bc
+aeec3005-25d7-45fc-a9ff-014d57960216	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7794	295695ff-7f23-4486-afcc-94ee799d2d20	38616	295695ff-7f23-4486-afcc-94ee799d2d20
+b0669eec-6a1a-4618-ae23-ae0f9e9c266c	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YL-A8S9	18773cf1-ad9f-4c5d-9035-b372cb629fd7	37967	18773cf1-ad9f-4c5d-9035-b372cb629fd7
+ba0c9096-5f35-4f0a-ae98-ee1a695b55f0	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5527	793966c3-836c-4b52-918f-1d35dc0c4508	38664	793966c3-836c-4b52-918f-1d35dc0c4508
+b7b61392-c085-4e28-892f-e9b6fe6ece41	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-AB27	ea47b8c6-a207-4f41-9487-948160d4bfd5	30214	ea47b8c6-a207-4f41-9487-948160d4bfd5
+bdd4fefa-512a-4720-9f9e-11eb3892fe3c	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-XJ-A83F	da1be159-709f-4056-b6dc-b9d271f37570	30550	da1be159-709f-4056-b6dc-b9d271f37570
+bfb973eb-d42d-4900-a606-a381d2317555	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YL-A8SH	e92c1f5e-03b8-4ebf-a22f-e5bce861cb5a	22567	e92c1f5e-03b8-4ebf-a22f-e5bce861cb5a
+c46022f8-b122-4367-836b-ec1ae641a87d	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6332	e35c3c80-5fde-42ef-9cd6-0d4fa5f36c26	39215	e35c3c80-5fde-42ef-9cd6-0d4fa5f36c26
+be5411dc-3caa-4b25-9b94-ce463e8e52b4	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5789	d62bc319-eed4-4d50-a9d9-9304636c463b	30261	d62bc319-eed4-4d50-a9d9-9304636c463b
+c039014f-821c-43d6-9d3c-914f9c8d98fa	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5788	312aa872-c4e2-4acf-a558-fbae3300648e	42051	312aa872-c4e2-4acf-a558-fbae3300648e
+c03ae0f2-dde3-47e8-a046-ce85c86dd77d	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J9-A52D	4ff39dbc-9a47-4e24-97cd-6b8ab970e56e	22396	4ff39dbc-9a47-4e24-97cd-6b8ab970e56e
+c3a509c6-35a6-4d17-a9fd-0aa8884b33a0	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6373	7119224c-bbf0-46d6-ba13-f6bb33bea5fa	30316	7119224c-bbf0-46d6-ba13-f6bb33bea5fa
+c51ccff8-2502-40e1-b130-fe655c119169	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-A9TE	66da7c74-093b-4a71-9fa6-9ec393c5ae42	42111	66da7c74-093b-4a71-9fa6-9ec393c5ae42
+c5f8c89c-ef69-42f4-9b37-5b552fccdf4b	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YL-A8SI	bf6cbc76-f94d-4371-a5aa-da7eda4e81b0	44265	bf6cbc76-f94d-4371-a5aa-da7eda4e81b0
+c3fd52fe-bdc2-4cca-91c7-590a192f80ed	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-VN-A88I	2d662079-216d-4424-a589-d67452c98ab0	30821	2d662079-216d-4424-a589-d67452c98ab0
+cfcf057a-00fe-4603-a720-586712b75803	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YL-A9WL	e2506973-6214-4e34-95c0-7208ad858206	44265	e2506973-6214-4e34-95c0-7208ad858206
+d05681cc-dffa-44d0-b6a1-0a99a4ce3be5	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A8II	592756be-e4ff-4f13-b67b-08a18735fdb5	67790	592756be-e4ff-4f13-b67b-08a18735fdb5
+c606918f-e8c0-4019-ad6f-47d5cd7615c4	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7115	fa0ef50e-6ee9-44b3-aedd-7d540a9862cd	30375	fa0ef50e-6ee9-44b3-aedd-7d540a9862cd
+d07d20f4-dd65-4ffc-add4-01f350ca7b65	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-QU-A6IN	c5722c38-e015-4c96-b751-4c3946bcc5be	31022	c5722c38-e015-4c96-b751-4c3946bcc5be
+cecf4ee9-7610-4f47-a825-7fde8233b75d	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A7AQ	2ec4ee8d-488d-49da-982a-849defc2b46b	44736	2ec4ee8d-488d-49da-982a-849defc2b46b
+d4dc7c5c-45b3-4741-b0c1-fee477da2ef4	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A9OF	5873d366-8d30-44ab-a52c-2032cd382197	32601	5873d366-8d30-44ab-a52c-2032cd382197
+d843996c-0f17-4482-8466-9f6144981b8a	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A8WW	5e50bee9-d4f7-4f41-bf15-7e2152d45e1b	39028	5e50bee9-d4f7-4f41-bf15-7e2152d45e1b
+d4f4ddc1-cfd7-4c57-ade6-4f32cb7ffd85	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-KK-A8IK	3a878a0a-9dba-4ca9-8eab-0d757e9f4de7	30852	3a878a0a-9dba-4ca9-8eab-0d757e9f4de7
+e2b33861-2247-413f-b2e5-9be3b604666c	not reported	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7233	e1b4ca68-788d-45d4-8caf-d84df7056351	29884	e1b4ca68-788d-45d4-8caf-d84df7056351
+e35336e1-e358-493f-9beb-276b5fc6685a	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7788	12138d66-fffb-4959-80e2-a3af032e9009	38660	12138d66-fffb-4959-80e2-a3af032e9009
+db4793dc-cd45-4b81-93ce-8322031c2aa3	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-A631	8b1ea07d-0bb0-49be-8f6d-0349872ba841	21931	8b1ea07d-0bb0-49be-8f6d-0349872ba841
+ef974c39-8bac-486b-a395-9d1283e08028	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-ZG-A9LB	13ea70ee-08db-4037-b924-2290b44193e1	31063	13ea70ee-08db-4037-b924-2290b44193e1
+f4478172-7727-4680-9934-da755ab1825c	Unknown	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-A7NF	4f5af3e8-b2f8-405a-8039-eb9ab5e5df58	30226	4f5af3e8-b2f8-405a-8039-eb9ab5e5df58
+f00b4a22-c327-4fbb-a9a3-4418c13e2a48	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J4-A6M7	912eed67-b642-45d6-bfdc-3ac8e4286517	30472	912eed67-b642-45d6-bfdc-3ac8e4286517
+f0f637b5-de40-4853-b54b-08468d45b195	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-J4-AAU2	c928b034-35bd-4124-907e-7359bb4a33ee	30173	c928b034-35bd-4124-907e-7359bb4a33ee
+f4f81316-c99a-4a88-aa6c-e66fc5d60c53	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A8MJ	eebeac23-e568-423a-a9ef-c0cb33414ec2	32971	eebeac23-e568-423a-a9ef-c0cb33414ec2
+f3aa40b9-7b4d-465a-b7c9-591aebdb56c2	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-7817	59093006-fc4c-4581-b7fe-f434dd267ab2	35497	59093006-fc4c-4581-b7fe-f434dd267ab2
+f59b9c65-46e8-4cc3-aa71-8844f6c2273c	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-G9-6351	ab1d26c6-3840-4e5c-b086-5b22639d91a3	43231	ab1d26c6-3840-4e5c-b086-5b22639d91a3
+f6c61a22-a711-416d-9e65-6a1b957e5b2e	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-CH-5768	885c7877-959f-4f87-b131-b913ab0cb0f3	30455	885c7877-959f-4f87-b131-b913ab0cb0f3
+f3ec5bf3-97ae-4033-91a6-084a1aa152a4	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YL-A8SJ	cf90f492-aaa8-4273-92c0-803a530e2000	38029	cf90f492-aaa8-4273-92c0-803a530e2000
+fcbd7b29-12da-44c8-b241-1388d1b15684	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-V1-A9OL	bdd68bdd-7a82-4c5c-bf79-1e2c9be090d9	33265	bdd68bdd-7a82-4c5c-bf79-1e2c9be090d9
+f98366df-9616-41c0-a6b8-ec92dca7177a	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-7797	082c6a8d-dfc0-40b0-b355-48be6aae7d8b	38390	082c6a8d-dfc0-40b0-b355-48be6aae7d8b
+fcf64b55-5c4f-4d82-ac6a-4713d01143cb	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-VN-A88R	6289a0a5-ac05-4d04-a2fd-80c36b428ebb	42676	6289a0a5-ac05-4d04-a2fd-80c36b428ebb
+f8a42feb-fbc9-4a13-bad5-1dcefca2a9bf	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-EJ-5511	b9dca395-2e70-4019-a929-4fc7e005725a	39033	b9dca395-2e70-4019-a929-4fc7e005725a
+f8b98552-ae2a-4609-9929-7864485b3c51	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-M7-A724	fcf6127b-2443-4d4e-80cc-32b9cff05bc3	43575	fcf6127b-2443-4d4e-80cc-32b9cff05bc3
+fb7e9935-32a2-422b-8004-88b827a686c2	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-HC-8262	bcc81cd7-fd37-4ecd-b63b-7eee3dcd93d0	30060	bcc81cd7-fd37-4ecd-b63b-7eee3dcd93d0
+fe7b283c-9cf4-4be2-8a3a-251a81a8d78f	not hispanic or latino	male	Prostate Adenocarcinoma	Prostate	TCGA-PRAD	TCGA-YL-A8SF	3e867c0e-806f-49dd-b52b-975cc9ff93a8	30982	3e867c0e-806f-49dd-b52b-975cc9ff93a8

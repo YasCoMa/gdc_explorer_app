@@ -1,0 +1,600 @@
+cases.0.case_id	cases.0.demographic.ethnicity	cases.0.demographic.gender	cases.0.project.disease_type	cases.0.project.primary_site	cases.0.project.project_id	cases.0.submitter_id	file_id	file_size	id
+3caf009f-d9e0-4c57-b1d9-8eb59fc833bd	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0047	cb70db37-e4c6-4f6a-980c-2bbf661e685a	19157	cb70db37-e4c6-4f6a-980c-2bbf661e685a
+3ed101b5-0007-4957-a25d-4cf43bde08b6	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-6390	d9bd3bd7-723d-4975-b2d5-b6f9002ac0d2	34651	d9bd3bd7-723d-4975-b2d5-b6f9002ac0d2
+3f960d3b-a58c-43d0-a8a4-f3555b399c9d	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-5411	3e2a859b-dbed-462a-939c-771d6be99c12	41510	3e2a859b-dbed-462a-939c-771d6be99c12
+407849a8-8447-4ede-a9d1-c1dfb535222e	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-3648	f225e19b-5296-4c3f-ba25-18cbd605e83d	75410	f225e19b-5296-4c3f-ba25-18cbd605e83d
+41685c5a-a548-483a-8a20-305ad8d61771	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-A7TK	4aa405d2-e37d-415a-8a48-693424a1f6f1	51155	4aa405d2-e37d-415a-8a48-693424a1f6f1
+31b21dcf-7e13-4522-8b34-a5eb6c0e5d1d	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-0862	f5b8c005-40b1-4d14-9764-d70daa58541f	23448	f5b8c005-40b1-4d14-9764-d70daa58541f
+32afdc6c-e899-4795-9e90-c9a192bbc4c1	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0877	7f73b155-0dbc-4af9-8843-a33d96772649	27377	7f73b155-0dbc-4af9-8843-a33d96772649
+42e92d73-29eb-4508-a653-9b77f36021c0	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-5959	a4ff784e-5965-4f4e-9312-8dbed764078b	49227	a4ff784e-5965-4f4e-9312-8dbed764078b
+42fbe95f-9068-45a8-a8a2-c24db757eae6	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0281	d4d6bab4-c2fc-4fcc-a5c1-231588e4c910	17230	d4d6bab4-c2fc-4fcc-a5c1-231588e4c910
+43d89926-2378-4498-bfba-6d6624d951b4	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0026	1c685fbe-20f3-4851-bdcf-aed8221117dc	42178	1c685fbe-20f3-4851-bdcf-aed8221117dc
+44ef426e-b67d-4b49-80a3-86681b9abf1a	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0747	ac256683-9e1c-44cd-a811-b239dd1d7fd8	17473	ac256683-9e1c-44cd-a811-b239dd1d7fd8
+456bcab3-165d-456f-94e3-f34f81a61d2e	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-1787	2382c3ab-9cfe-4c60-9b36-c8526364bd36	48896	2382c3ab-9cfe-4c60-9b36-c8526364bd36
+4644a15f-3115-4f27-86b2-b092419431e1	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-5859	829c06bf-fe62-4682-8e04-3e006c884047	34653	829c06bf-fe62-4682-8e04-3e006c884047
+4d04939f-9509-4e9b-9406-16051afecf82	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0206	dfb5b94e-1563-479e-af81-364b6a69e7df	30221	dfb5b94e-1563-479e-af81-364b6a69e7df
+4776b959-d5f5-41ad-ab39-dba6031f6884	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-27-2521	b755292a-358b-4724-8504-37b32be6cbd5	45996	b755292a-358b-4724-8504-37b32be6cbd5
+50d1d4af-7d62-4c48-88c1-890bb2370353	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-RR-A6KC	c34e3732-e8a5-4b51-8e77-fadb355b1a5c	13844	c34e3732-e8a5-4b51-8e77-fadb355b1a5c
+38771a9a-f8b1-4867-b540-56c7d9f5820a	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0068	a571b531-2fbd-4de3-8aec-ba1613ec1e39	50144	a571b531-2fbd-4de3-8aec-ba1613ec1e39
+513925f1-c450-4ab8-a84b-9613614eaa84	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0326	cb1f1934-2c3e-4ded-85ea-4e0fa7cde3d3	19086	cb1f1934-2c3e-4ded-85ea-4e0fa7cde3d3
+50603cc6-42e6-412f-ab07-4805f728e6b6	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-32-2632	ce6261e1-8614-4749-9d31-1b0a925338d4	17298	ce6261e1-8614-4749-9d31-1b0a925338d4
+516194e7-2143-4049-be54-141f515bcee5	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-32-4211	366976b7-aa59-498c-b5d2-e041825c5a6b	40694	366976b7-aa59-498c-b5d2-e041825c5a6b
+38acdfc8-8abc-4d89-a68b-58c493650b48	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-4157	2824f5b6-b0a9-4531-81d6-31a1235dff58	42381	2824f5b6-b0a9-4531-81d6-31a1235dff58
+51c3409d-5df7-4720-83db-0e6de065f82c	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-5418	04eb4515-7cf5-4e22-b64c-82f21192cedc	17455	04eb4515-7cf5-4e22-b64c-82f21192cedc
+5327e899-a20d-4571-8236-98454bad574e	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-5299	4e92295f-59be-48f1-bb9a-d21245b7f100	34695	4e92295f-59be-48f1-bb9a-d21245b7f100
+521ea765-1bd1-423d-a75d-091243df37a9	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-2485	3ad2ea1d-3430-4c7a-ae6d-a259d7e0097e	36370	3ad2ea1d-3430-4c7a-ae6d-a259d7e0097e
+5234bf79-decc-45a1-8377-e6b09ceba82a	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-16-1056	0f31f92b-bf1c-4817-94d8-bb63aac42711	23977	0f31f92b-bf1c-4817-94d8-bb63aac42711
+543c0a7d-ccd7-4b8d-98fb-eabec806231d	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-16-0846	8367532f-3f04-4ede-a896-53c9a3f33e38	17257	8367532f-3f04-4ede-a896-53c9a3f33e38
+5252c0b7-be05-4c0c-a8ac-afe9ad459489	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-1390	2ff05ef1-8f6d-4ba1-b8ff-5a51864b7054	17361	2ff05ef1-8f6d-4ba1-b8ff-5a51864b7054
+55a063b0-98ad-4700-b3ce-61bfe364fec8	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-2567	3f75e162-9a63-497f-aa3f-591461eec0f0	28248	3f75e162-9a63-497f-aa3f-591461eec0f0
+580cf1c8-1558-413c-a039-458de59a1709	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-1757	163cc05b-def3-45cd-90e0-72f3fdbfd8c5	11961	163cc05b-def3-45cd-90e0-72f3fdbfd8c5
+5a86d9f1-d38d-4b78-9a23-c7855a20ca2d	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-0817	7e789f3c-a1de-4e83-990f-37a5046f34f6	23363	7e789f3c-a1de-4e83-990f-37a5046f34f6
+5b8f05fa-0145-4142-8d41-5980e4d36d81	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0046	553382db-0cd2-435e-948b-7ebea3aec5f2	19069	553382db-0cd2-435e-948b-7ebea3aec5f2
+352768f9-3ce1-419c-beef-6515c78f5d7a	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-2620	21d8bdab-cdbc-45bc-83b8-d163f38545b3	28556	21d8bdab-cdbc-45bc-83b8-d163f38545b3
+5ef9486a-aeff-421d-b620-03ef119d85a5	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-3650	e09a708b-2dd1-4c3c-933a-c25eccfcc5f5	98097	e09a708b-2dd1-4c3c-933a-c25eccfcc5f5
+6630e547-2596-4fb7-a657-c19497ff13b2	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0025	451fe1e8-9327-4a4c-9110-1e986eb56eab	44012	451fe1e8-9327-4a4c-9110-1e986eb56eab
+6633f338-34a9-44f6-8039-0b9408d6213d	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-1791	c964fc91-c245-4458-bca9-d7b1e9f7e332	17207	c964fc91-c245-4458-bca9-d7b1e9f7e332
+68f6976e-d3f2-432d-a121-274e228735b0	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-1752	6c2fa917-7f7c-4db0-8532-076c217bd16e	52993	6c2fa917-7f7c-4db0-8532-076c217bd16e
+69d56f2d-6924-409b-9d1e-c8d69b400270	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-26-5135	7768d53d-61db-440b-8834-3119e2758f39	17136	7768d53d-61db-440b-8834-3119e2758f39
+66f3c936-272e-4a1e-8567-f609af411329	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0649	7c16424e-48b1-47ae-82d1-c07f499a0aec	17380	7c16424e-48b1-47ae-82d1-c07f499a0aec
+6d6dae20-431d-4fbe-ba47-e7ed8d73b4d8	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0360	3a632819-6217-4c0b-881c-b58e031d69c1	32180	3a632819-6217-4c0b-881c-b58e031d69c1
+686ac6b5-fdb2-417e-9e32-cbad7214e677	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0060	12d458d6-8c39-42d0-830b-c328966aeb1a	36412	12d458d6-8c39-42d0-830b-c328966aeb1a
+68720179-d07f-44d8-8771-edcee5fecfea	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0173	80fd6457-4ab4-402a-9f40-fe404270b4b5	17257	80fd6457-4ab4-402a-9f40-fe404270b4b5
+6cba1dae-0c3f-4f65-8aea-53ac84aad549	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0201	c74d5b56-fd61-47d1-998d-c1849ee366e6	17257	c74d5b56-fd61-47d1-998d-c1849ee366e6
+6fac5bce-2bc0-4234-9e3e-11891c2fe00e	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-41-3393	0b39d410-1c0d-4657-9620-beb5372bbce5	28774	0b39d410-1c0d-4657-9620-beb5372bbce5
+74b42897-e88c-45da-a3e4-3b7d22481995	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0430	250ac2e0-b848-45fd-a2c3-daf9d1a1632e	19193	250ac2e0-b848-45fd-a2c3-daf9d1a1632e
+70c887ce-43e1-4093-9a2f-a9d3dc62da78	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-0740	c0f2f73e-0ccb-4c73-a46d-24efb2a1fc04	28322	c0f2f73e-0ccb-4c73-a46d-24efb2a1fc04
+74ce7e7f-e214-4b6e-8551-114a153ab7fb	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-5417	8a812396-a23f-426c-8b8b-62c23f268fed	28475	8a812396-a23f-426c-8b8b-62c23f268fed
+7529980c-839d-4887-b5d7-09a3e7159427	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0142	9dce7079-a445-4767-8811-ca5f77e35100	12063	9dce7079-a445-4767-8811-ca5f77e35100
+7340f325-579f-4b90-96aa-3a7b362129ca	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-27-1834	657a771a-4959-44e9-af63-5cd46460e065	61038	657a771a-4959-44e9-af63-5cd46460e065
+71bb1ef7-2bda-4478-b5b8-318f2e1bf5ac	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-32-4719	0e0501bb-40a2-4367-8b2d-5407e659c586	34534	0e0501bb-40a2-4367-8b2d-5407e659c586
+752a6e21-9a91-417f-beba-bfdf331d5cac	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-76-4931	5806336a-eeab-4158-8162-8b9f43df96e2	31989	5806336a-eeab-4158-8162-8b9f43df96e2
+770aa1ee-aed9-4219-900e-63523cdf312f	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-76-6656	53ee575e-a330-47ed-b68c-fe9a5314af6d	28440	53ee575e-a330-47ed-b68c-fe9a5314af6d
+7a8d2e13-315e-4512-85ce-b018d11c3bd3	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-4W-AA9S	0a5593bc-7377-4328-9787-1068214f5b4f	28210	0a5593bc-7377-4328-9787-1068214f5b4f
+74139255-a635-4c87-814d-3dd04ed630a8	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0190	b573dce3-84d9-4ee9-9582-d6b24d3e14c8	21070	b573dce3-84d9-4ee9-9582-d6b24d3e14c8
+7e70a318-3acc-42f3-8287-158a2199f0bc	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-5956	0df79698-2294-401f-8d21-1045beb28b77	49077	0df79698-2294-401f-8d21-1045beb28b77
+820aea32-8f1c-478b-ab56-8171425cd76b	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-A6S0	2699dcaf-02d7-4d3d-8ec6-f3a0455422ba	16954	2699dcaf-02d7-4d3d-8ec6-f3a0455422ba
+863d58e7-91c2-4602-98ed-c6c6e0859566	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-6694	bc81706e-0fcd-460c-b2f2-536d21ec3c15	17200	bc81706e-0fcd-460c-b2f2-536d21ec3c15
+82a3f532-ae59-4d06-9bfc-e5e7519c0a33	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-1095	f860da3e-e150-4be5-aca3-b0f8ada302d3	60837	f860da3e-e150-4be5-aca3-b0f8ada302d3
+878584ad-e6b6-493a-9f7f-3e284f5d9f68	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0645	b76153bc-9095-4436-9538-c630bdab85d8	17362	b76153bc-9095-4436-9538-c630bdab85d8
+83264f30-94be-4573-b519-fb0b0fce36c3	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0014	2e8edb78-23c7-4cfb-a2c3-ec4e8433de02	36083	2e8edb78-23c7-4cfb-a2c3-ec4e8433de02
+8d0d7a7e-8fae-437d-9b39-f2f17d0f5e4f	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-74-6573	3fdb57c9-1916-488d-bcf2-f5417c4931f3	34046	3fdb57c9-1916-488d-bcf2-f5417c4931f3
+884f867b-4a8b-4b67-8fe4-ab3f068be84e	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-5410	c027c68e-dc0e-4d5f-a38b-706b212b7e08	17444	c027c68e-dc0e-4d5f-a38b-706b212b7e08
+8d2e88d9-d8d0-4c42-8aa2-205a788dea58	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-5413	3b113b1b-ea15-4d1b-a6ad-8fd7074c2c21	36459	3b113b1b-ea15-4d1b-a6ad-8fd7074c2c21
+88fcfd59-294a-4166-b703-e698a72b1a53	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0165	0ce41e74-20a8-42e8-92a3-2906402335c7	39834	0ce41e74-20a8-42e8-92a3-2906402335c7
+8a83ea25-d02e-4af8-9167-b29d3ef393cc	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-16-0861	05600959-4bf8-4f28-a781-77958b94ee19	23735	05600959-4bf8-4f28-a781-77958b94ee19
+8e3fbea7-d22e-40fc-8031-58fe6fe091bb	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0086	2fa523a7-360e-4cc5-bea3-2f96352dd0b0	53957	2fa523a7-360e-4cc5-bea3-2f96352dd0b0
+9773acd0-e8bf-4991-8913-53f0d2adfc72	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0517	5daedd8c-941e-4a8f-8bb4-91e6d2da7fe0	38300	5daedd8c-941e-4a8f-8bb4-91e6d2da7fe0
+93ed7a2b-b0cb-4a84-871f-5c34a0b6a640	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-5960	03e12ee3-f5c1-4f10-bf95-515f9ead180b	49333	03e12ee3-f5c1-4f10-bf95-515f9ead180b
+96fa386d-f930-45da-96ba-e7ca3f9de5b2	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0289	3b4c04ff-6590-4882-b1f4-5eea92995c10	44313	3b4c04ff-6590-4882-b1f4-5eea92995c10
+98e2f2ec-bdcd-490a-bf45-600e3b6c7491	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0878	4944dab1-ca78-4edc-8bb5-c42956be9473	42383	4944dab1-ca78-4edc-8bb5-c42956be9473
+9a41f05b-19b1-4269-9997-4b59e378280c	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-1788	9281607c-f0cd-461a-8ad6-0b100862406a	28354	9281607c-f0cd-461a-8ad6-0b100862406a
+98714d95-b62e-4f34-9cd1-91542da463eb	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0006	9df93378-21c1-4ed1-9ebc-7b6db6cc9d26	43975	9df93378-21c1-4ed1-9ebc-7b6db6cc9d26
+9888bf87-d0d1-474b-960d-d76b13352e7c	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-74-6577	4731acf2-2403-4bf6-ae62-b67f15c3b247	48791	4731acf2-2403-4bf6-ae62-b67f15c3b247
+a262928c-e20a-4c02-8114-1227e05c43e1	hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-4065	10c6e233-e035-4995-8ebb-367bf499cae0	50569	10c6e233-e035-4995-8ebb-367bf499cae0
+a98afa02-6821-47db-8074-68ecc14b62a6	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0446	e84b683f-0615-4ae4-87f0-0cfaa09733cc	19077	e84b683f-0615-4ae4-87f0-0cfaa09733cc
+a9b5ef55-9987-4842-b4f3-d029265ef17f	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0160	53c1df8e-4b03-4e9e-862d-705bd004a6c2	33976	53c1df8e-4b03-4e9e-862d-705bd004a6c2
+a6312802-12ad-4545-8109-178a7ebd618f	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-26-1439	afabd0a7-76bd-41af-b22b-7a16fea3e551	30061	afabd0a7-76bd-41af-b22b-7a16fea3e551
+aa15f655-c1e9-4f4a-acee-2fb76ec82858	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-76-6193	0c6a82e9-f239-45cc-8909-b1447cda8f6d	29926	0c6a82e9-f239-45cc-8909-b1447cda8f6d
+aaa7d45b-ce3c-4099-ab4a-377e3aee9f96	hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0529	5761ecd9-5deb-41b0-9532-c791a3c443d2	44399	5761ecd9-5deb-41b0-9532-c791a3c443d2
+aad2c954-39a4-4ef3-9940-e754619007a4	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-1396	a4e32acd-69de-411c-ad3d-df187e8d9a65	23366	a4e32acd-69de-411c-ad3d-df187e8d9a65
+b02aa13e-7fd9-40ba-9083-cbf7d4bfc948	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-1096	d3bd0617-2bc9-4fd8-9118-d5b604344166	48603	d3bd0617-2bc9-4fd8-9118-d5b604344166
+4294ae28-445b-4f4f-823a-dac4cecfaaf0	hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-32-1977	37a2b703-43e9-4034-9ad6-f09599a015bb	17213	37a2b703-43e9-4034-9ad6-f09599a015bb
+43d98306-8b1f-4840-a1a0-146ba0c36400	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-41-3915	6859317f-0d10-46d2-ba5e-c9e8f351e083	43088	6859317f-0d10-46d2-ba5e-c9e8f351e083
+4a85a43b-4dbc-4081-b552-df06eef1ad80	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0166	4067616d-2d51-4d31-9014-122955c2298c	30174	4067616d-2d51-4d31-9014-122955c2298c
+4b43da9d-60ee-4269-b44d-d92c034b844c	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0141	acce5f54-f3c1-47b0-9a5e-db20358ed981	42738	acce5f54-f3c1-47b0-9a5e-db20358ed981
+46bfebf4-0ef6-4348-81dc-d7d3cb52c08f	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-5208	2215d8ae-e103-4370-b5ef-1f40c398cdec	102748	2215d8ae-e103-4370-b5ef-1f40c398cdec
+4c070166-025e-49b7-b4d0-fe25c8a355b1	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-1092	06c2f2fe-258e-4c57-abb2-77050b68721c	79201	06c2f2fe-258e-4c57-abb2-77050b68721c
+47679648-1e09-46c8-be46-35fdde5be9f7	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0285	e85f1b05-cf4f-45b5-bb0e-1f42ae087585	17230	e85f1b05-cf4f-45b5-bb0e-1f42ae087585
+47fd9c51-298c-41ad-9996-135c8a03d691	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-76-6660	366ae3b2-cc06-4e57-85ea-225d83658c49	17338	366ae3b2-cc06-4e57-85ea-225d83658c49
+4d18f820-6396-46ae-b5d6-4ba446279be8	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-27-1836	9611d7d9-569e-46cb-8d4a-a64c627fdf89	82158	9611d7d9-569e-46cb-8d4a-a64c627fdf89
+4dc1ec79-1d64-45db-b357-903445c838e6	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0422	9a13d4f3-99b0-4c56-a065-8139a5587e8e	19122	9a13d4f3-99b0-4c56-a065-8139a5587e8e
+4dee170b-175c-4e08-83f4-af1317b07209	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-74-6578	52aa47bf-a789-4682-b2d8-416615d7a857	50156	52aa47bf-a789-4682-b2d8-416615d7a857
+510f1760-932d-48a3-955b-8dd9c70800b3	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0410	aa527649-6fe0-4896-a301-fa55222efb3f	17260	aa527649-6fe0-4896-a301-fa55222efb3f
+389d5472-9e4a-47b3-bd6c-994eb0fafea2	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-16-0850	12320864-d16f-4259-983f-b1beb5b1776e	28875	12320864-d16f-4259-983f-b1beb5b1776e
+502f47db-7d3d-4081-ab15-1c38e7e78652	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0440	8d2c3361-bd4f-4dba-a2ba-7db4bb292927	30187	8d2c3361-bd4f-4dba-a2ba-7db4bb292927
+6176621d-8534-4fba-a0e7-74a5a78245a9	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-1401	901e2468-80d6-4265-89dc-e24510f601c6	23367	901e2468-80d6-4265-89dc-e24510f601c6
+3763b815-308f-4b64-a3a7-56822079765f	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-76-6657	13f2ad8a-09bf-4aaf-93a3-8db634c6596f	30344	13f2ad8a-09bf-4aaf-93a3-8db634c6596f
+6d4ab866-ca0b-4455-898e-df8a6ac3e924	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0241	5a9e0bd9-2306-4df8-b18c-dd1ded6797e9	86614	5a9e0bd9-2306-4df8-b18c-dd1ded6797e9
+6a9d719d-249a-4756-adc8-e92fa60da229	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-1037	4681b814-6eed-4667-939f-405f4b437be2	54418	4681b814-6eed-4667-939f-405f4b437be2
+6db66d6e-b44e-41fa-b904-aa61af0acf1c	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0409	609afc66-8b5a-4667-9053-a47b4880c2eb	86464	609afc66-8b5a-4667-9053-a47b4880c2eb
+67e2af1c-3478-4652-8759-b9d5c5b6a3e0	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0195	6fa7e929-fc0d-4af1-b5d6-f0e508e5d076	54666	6fa7e929-fc0d-4af1-b5d6-f0e508e5d076
+6c5154d2-af36-492f-b520-d925528824e4	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-32-1970	39d26191-1e2c-45e8-8246-7cf49382cbf9	36395	39d26191-1e2c-45e8-8246-7cf49382cbf9
+6ccc0eda-96f8-475c-9d8c-016b26fdd81d	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-76-6280	c7e3bb8b-8e91-46b3-b583-9fdf4920112a	37202	c7e3bb8b-8e91-46b3-b583-9fdf4920112a
+6fc40b53-5db2-4319-a039-b023e1bb1d64	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0380	046cd63a-cdfc-42ec-b2ae-8938b6c16886	54418	046cd63a-cdfc-42ec-b2ae-8938b6c16886
+746aa9fb-0af2-4719-9d48-56e9bf21260c	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-0964	60a5b97a-55a0-4b83-8bf7-c8e1e24eb9e9	28462	60a5b97a-55a0-4b83-8bf7-c8e1e24eb9e9
+74860388-fcc1-4356-84a5-ee88af9324d3	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0051	141ad126-de03-4bae-8097-c2690d499f88	21070	141ad126-de03-4bae-8097-c2690d499f88
+74a70685-d95e-45a5-b8a9-80106c8b1bd7	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0290	611d56f5-886e-430f-b3ea-cdad7bd7953e	44043	611d56f5-886e-430f-b3ea-cdad7bd7953e
+72f88d18-03be-4b51-9f4a-1151521b7292	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-0871	0b09371f-3f38-4005-8b06-6cc165ffc26a	28307	0b09371f-3f38-4005-8b06-6cc165ffc26a
+70fc222d-7423-4921-9007-cdf27c7f1ff7	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0258	577438d4-3fb6-4b3a-b7ca-062a3e325e42	19002	577438d4-3fb6-4b3a-b7ca-062a3e325e42
+713190ed-c6c1-4695-814b-85ca9b95e6a0	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-5415	45e58ce1-afa9-48bf-a0ba-4cb459b66b15	28472	45e58ce1-afa9-48bf-a0ba-4cb459b66b15
+7338e476-10ff-444a-a16f-429d28355f65	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-5213	a927406b-0612-41b8-9385-5ac109c70937	60418	a927406b-0612-41b8-9385-5ac109c70937
+7a650a2c-bc3f-4e0c-820e-4f492977107b	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-5414	91b15999-a9e8-46ac-a265-070e7afbb990	38412	91b15999-a9e8-46ac-a265-070e7afbb990
+7ac80045-7c05-4e8f-8217-a380544a6125	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-32-1986	040eae7f-6db9-4542-9c48-1ae58ca3da6e	30377	040eae7f-6db9-4542-9c48-1ae58ca3da6e
+799bfae2-b189-43bc-a3bc-d425cd4fe556	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0330	f00b5337-e56c-4456-b04e-866997537084	54350	f00b5337-e56c-4456-b04e-866997537084
+7c95ec5e-a078-481f-b1fc-3a3a001de7ec	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0237	893511a1-6de8-4b71-a344-bff86816ed4b	17263	893511a1-6de8-4b71-a344-bff86816ed4b
+7eb1d526-923d-4b31-b8be-27d83b3dd025	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-6388	704d48b4-001d-4ee8-a204-619ace65773b	48863	704d48b4-001d-4ee8-a204-619ace65773b
+7cbabf1d-ec38-4048-ae1c-7d0f3001691b	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-0789	4cf3bf84-f523-427b-b4c8-f683618a0580	50353	4cf3bf84-f523-427b-b4c8-f683618a0580
+81622677-9742-40ea-ad60-5f9b2a624ea7	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-5958	371a2a70-f910-4609-8511-08d6080c0fa9	50395	371a2a70-f910-4609-8511-08d6080c0fa9
+81648978-a543-4eae-8848-98ddf1cb832b	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-A5U1	cc513d1c-eecf-4452-9f61-9857b42eaca3	12220	cc513d1c-eecf-4452-9f61-9857b42eaca3
+863c285c-5b87-42b9-b8b3-1ae832a6ded3	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0070	01da843d-2942-4fcd-adce-722b5798bd46	30162	01da843d-2942-4fcd-adce-722b5798bd46
+7db115ea-082b-45bb-97d2-4254270b8bb6	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-1795	ce09f0d6-c282-49cc-bc38-780e9f2b6335	29532	ce09f0d6-c282-49cc-bc38-780e9f2b6335
+82ecf2ce-0782-4238-be0a-668a2b22c57c	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-6450	f3e254f2-d786-4279-a17b-2d590682b025	44824	f3e254f2-d786-4279-a17b-2d590682b025
+85a1ec02-14ee-4eef-aedc-f2f6fc031a24	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-16-1055	e493773f-a8e9-4846-9334-293fbc2c81f2	23977	e493773f-a8e9-4846-9334-293fbc2c81f2
+8820ca5f-4f6b-4389-ba86-9015d0bcec1d	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-76-4935	2f5d4c8e-cf89-49ab-95e9-d5427257c81b	41253	2f5d4c8e-cf89-49ab-95e9-d5427257c81b
+8db520cf-79b3-4a1b-872e-8f5f76117405	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-2502	16f3d144-66f0-4a56-af39-3d11f711106a	22216	16f3d144-66f0-4a56-af39-3d11f711106a
+8ff9f921-f9e9-41c1-a5d4-891fd4cfe979	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-2564	eb41dc18-d249-41fe-844e-a9ad591ed921	28172	eb41dc18-d249-41fe-844e-a9ad591ed921
+933b9daf-a5bf-46cf-92b6-5ddd8279919c	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-76-6663	8d0bc15e-61cf-4492-a28b-10d59e5c2417	39719	8d0bc15e-61cf-4492-a28b-10d59e5c2417
+8ac5b22f-3925-47a9-8d09-d819c2e191e5	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-1602	4c6bd9f6-da20-4581-b42f-e2c5b1d358da	36459	4c6bd9f6-da20-4581-b42f-e2c5b1d358da
+93737759-b088-4d64-adfe-c2d5ec715341	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-3649	6a0b644f-89e0-43b2-9763-1faa01b63a33	68288	6a0b644f-89e0-43b2-9763-1faa01b63a33
+97b4eeec-7230-446b-b376-6742fae6f6ab	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-76-6664	e011d63c-7a57-4892-837d-df8122bc3c5a	34900	e011d63c-7a57-4892-837d-df8122bc3c5a
+9848f14b-8eab-4ac9-89b0-99a5ebf14696	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-6699	521ef427-36d1-46bf-9ff1-01d9bc313f63	28212	521ef427-36d1-46bf-9ff1-01d9bc313f63
+8f3acbbd-b2ca-4e66-8fe5-dbb49277f35b	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0185	ffad60b1-e26b-47d9-9cd6-6960346d9c20	88681	ffad60b1-e26b-47d9-9cd6-6960346d9c20
+97094aed-69f7-4f4e-a87e-533979e11514	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0829	9a6f0c31-e66a-489a-8108-e421461ef4aa	68836	9a6f0c31-e66a-489a-8108-e421461ef4aa
+97279d35-8db4-49a9-8b63-468443a9b959	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0707	336289e7-5d39-4bc7-bc46-b75299add3fd	11846	336289e7-5d39-4bc7-bc46-b75299add3fd
+9a4b35cb-99dc-4343-a08e-25c3c8693243	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0087	83da823e-60e4-4023-a4d7-9d4dad4f6ab0	18937	83da823e-60e4-4023-a4d7-9d4dad4f6ab0
+9b775a6a-242a-4bfa-818d-d2d2f5bac5bf	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-26-1440	cc547db8-817d-4e9a-9e02-3a19d1ce5c4a	36451	cc547db8-817d-4e9a-9e02-3a19d1ce5c4a
+9733968f-262f-4e97-9194-240cda8caf65	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0197	8f33cab9-79c2-4c10-b0c8-b770ee306fb4	25258	8f33cab9-79c2-4c10-b0c8-b770ee306fb4
+9b9654c9-5a64-4a8e-b1f0-987437e6012e	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-0781	d2dd9249-a6b0-4013-b100-b040350db48c	23324	d2dd9249-a6b0-4013-b100-b040350db48c
+987cb702-057b-4198-8ef3-9cf6a9c51989	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-27-1835	82e537a5-9c85-4a98-bcda-fd35b1bbf41d	67418	82e537a5-9c85-4a98-bcda-fd35b1bbf41d
+98e0344d-71c6-477c-a990-0bd0277606af	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0875	791cde77-3851-424a-9579-6518381b6747	41369	791cde77-3851-424a-9579-6518381b6747
+a23511df-ed31-4f3f-9fe5-87a3621c0de9	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0354	7ac48793-2513-4ed8-957b-df693dc585a7	54777	7ac48793-2513-4ed8-957b-df693dc585a7
+a597bfa8-8c4d-4f8e-9d85-8a9fdc2c56ff	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-27-2524	2aaa6afa-c5f0-4957-b03b-3b730d72cb44	51990	2aaa6afa-c5f0-4957-b03b-3b730d72cb44
+aa7ad106-eadc-489e-83b2-5698652434ea	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-2509	0e413118-a654-4e56-b71e-22399d775a49	39353	0e413118-a654-4e56-b71e-22399d775a49
+ac72738c-8b33-4f03-917c-86b114a2b9bd	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-1088	92d19001-c56b-4afe-8f69-750c870806f0	34548	92d19001-c56b-4afe-8f69-750c870806f0
+c2651206-36c5-4f3c-a0d6-3ffc07b27a93	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0124	d1c1c34a-9f05-4ae5-8cb1-ec1f2553f25d	23271	d1c1c34a-9f05-4ae5-8cb1-ec1f2553f25d
+bde84ea9-55c9-4d6d-be86-58fd9222c1d6	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0129	3f0b8856-bd88-4a78-9555-44e96236f6f6	38365	3f0b8856-bd88-4a78-9555-44e96236f6f6
+872511fb-98cd-4fba-82f6-4c3689c75ae2	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-3476	0e52548c-2ac3-471f-83be-bb6b3cc2c162	25127	0e52548c-2ac3-471f-83be-bb6b3cc2c162
+7a4c0a14-ac97-4c2b-a9cc-68cb561b2494	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-6391	0be008f5-011e-4e0f-ab8d-3131a1da7309	17409	0be008f5-011e-4e0f-ab8d-3131a1da7309
+141a1ef1-9be6-46d1-b445-305b222727d2	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0615	d023cb51-3084-45d4-ac87-48334db51eeb	60788	d023cb51-3084-45d4-ac87-48334db51eeb
+7cada85b-00b1-41e5-9924-e09eb077ad56	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0130	702f4297-0fe9-4d08-8d93-fc889f5ae44a	32156	702f4297-0fe9-4d08-8d93-fc889f5ae44a
+562d2831-ea9e-4ee1-bcee-77138e0a7d9d	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0147	6b692df6-5611-4cb8-acb4-f2c4def56687	53617	6b692df6-5611-4cb8-acb4-f2c4def56687
+8da3103e-3e6c-4176-a583-d5fe5e60601e	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0125	7f76f109-ef99-4776-aeab-51b5c346038a	54328	7f76f109-ef99-4776-aeab-51b5c346038a
+69d0a566-5fbf-45f6-a240-649b06868e27	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-27-2526	96670269-e352-4a34-b9b0-2fab07abea12	23688	96670269-e352-4a34-b9b0-2fab07abea12
+e7d728e5-1a9f-4f27-9604-272e1235e08a	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-32-2495	249a9c76-1d6e-40c1-b4e3-938d5c55a47b	61465	249a9c76-1d6e-40c1-b4e3-938d5c55a47b
+5c984433-33cf-42fc-b3ba-511efcdcab19	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0211	5f7ea4ba-14d1-4536-9a87-f30619127146	44577	5f7ea4ba-14d1-4536-9a87-f30619127146
+9ad6c241-ccc5-4532-a6ac-098271b13b5f	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0132	a18bd02d-a2a3-40ba-b44c-3ca441ac1791	19116	a18bd02d-a2a3-40ba-b44c-3ca441ac1791
+8e8688f7-bf69-432b-a5ac-4f5f4d5c10ba	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-16-1047	6a0aa64d-a03e-409e-a23b-d604582b3eca	19059	6a0aa64d-a03e-409e-a23b-d604582b3eca
+6c28f086-6a25-40b6-93eb-bba0014acda6	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-2557	8607f250-609b-452b-aabb-d7e3ab9d47b4	17457	8607f250-609b-452b-aabb-d7e3ab9d47b4
+5f8f66a0-4068-4e9d-82fc-4fe1fc3f63aa	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0159	e7efc7f0-5aac-46ed-b481-627473fe0356	22593	e7efc7f0-5aac-46ed-b481-627473fe0356
+a515cf2d-e918-4958-9bf6-e611b425a97e	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-1823	7cc785f3-49b1-423e-bf68-1653ee94ea19	60447	7cc785f3-49b1-423e-bf68-1653ee94ea19
+a9597785-a1d3-4788-a431-d25d69025690	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-1453	11698b96-d071-4da4-a88a-b551a44a9644	23338	11698b96-d071-4da4-a88a-b551a44a9644
+37a47ea2-1daa-44a4-ade5-84d383c2b13c	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-0960	b9024bf7-e171-4425-9896-3379c00bda8a	28323	b9024bf7-e171-4425-9896-3379c00bda8a
+e117fe84-f003-40a4-96b5-8e26d0513151	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0116	83d01b67-56be-4dd0-b516-bf6a1e6bd145	42163	83d01b67-56be-4dd0-b516-bf6a1e6bd145
+3b92627e-831f-4f10-b065-a25a215e0a81	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-32-1978	c067c84a-8d14-42ad-a15d-bc1e4431459e	17199	c067c84a-8d14-42ad-a15d-bc1e4431459e
+de0cb811-bae0-407e-b8b3-97d1512bfa80	hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0043	5ecf926b-aa17-4498-95c4-ccaf84ba21d4	53992	5ecf926b-aa17-4498-95c4-ccaf84ba21d4
+7638e294-2dcf-4c03-b238-24e40491c2ad	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-A6J5	39661ce6-c487-4abd-957f-443afc56afed	47678	39661ce6-c487-4abd-957f-443afc56afed
+025a7401-a65d-4ea0-8b4e-0ba775b0322a	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0819	fe09f10e-a578-4231-8677-e869a07bdfb0	67014	fe09f10e-a578-4231-8677-e869a07bdfb0
+0fc32169-8eb9-405f-becc-ed38d7064a58	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-OX-A56R	7ff9e300-1157-49a8-a1eb-898c34ead4fe	12166	7ff9e300-1157-49a8-a1eb-898c34ead4fe
+6f1b1011-d7a4-4a05-b6ff-288183e7254b	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-RR-A6KB	afc396f5-8179-4595-a132-2033ccc62ba5	17307	afc396f5-8179-4595-a132-2033ccc62ba5
+73655446-bbf3-4cc9-a032-2c95051bc3e7	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-32-1991	b9ef6482-ba32-4308-956c-e79071970287	62885	b9ef6482-ba32-4308-956c-e79071970287
+04b4ebb4-6780-42d8-a980-711cd10cfe14	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-1455	115efbab-6e49-40e7-a82a-6d3957fd2e65	29332	115efbab-6e49-40e7-a82a-6d3957fd2e65
+0aa5b68f-2b99-44d2-b17f-f4eb17fe891e	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0359	5c200eae-fd69-485b-8222-e6e468c2f5d8	17259	5c200eae-fd69-485b-8222-e6e468c2f5d8
+1030a6b9-0df8-4d60-b69f-2a36e630a6ad	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-32-2634	73e12b6e-0276-464a-96d5-24d1a95b2113	46067	73e12b6e-0276-464a-96d5-24d1a95b2113
+120e257d-1cf1-421f-9a6b-6a5681eaea2e	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0780	6744ac4a-829b-4537-a6b4-59553d20fe6c	66826	6744ac4a-829b-4537-a6b4-59553d20fe6c
+12824b2b-9c0a-4dcf-8941-34593a4e93da	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-0786	e4892140-c662-425c-a85b-37592797bcf6	103069	e4892140-c662-425c-a85b-37592797bcf6
+107335ed-03d3-47ab-b70d-df40e66102ac	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0333	ba8a1558-cf49-46c2-98f4-2f93e6d84448	19012	ba8a1558-cf49-46c2-98f4-2f93e6d84448
+13480f06-32ee-48b5-a729-a963a7979b90	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0511	d1b85f60-18dc-4cee-90c8-718c0f9d4573	28341	d1b85f60-18dc-4cee-90c8-718c0f9d4573
+153c2442-ea61-4b5e-8c5c-c71d287c6055	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-5209	3387da02-4092-420b-b837-745dc62eba04	43811	3387da02-4092-420b-b837-745dc62eba04
+20bad0d5-3135-49a4-a119-fa7a1e56fd1b	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-26-5134	253109e8-3948-4297-809c-eedd4334857f	22401	253109e8-3948-4297-809c-eedd4334857f
+2188c194-dfe4-4471-9b8b-050db1a1062c	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0882	ea23f615-d34a-4255-aaa9-c7476311f48b	85945	ea23f615-d34a-4255-aaa9-c7476311f48b
+21a4a053-64bc-405c-85c8-d11c55106e83	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0182	6cf8ab88-4fd2-4a70-9484-d301e0d2f56a	17440	6cf8ab88-4fd2-4a70-9484-d301e0d2f56a
+22297a8b-4761-4f5c-b080-60a39c3a0670	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0175	ca3ea301-1af2-4708-96ac-acb90b665167	30282	ca3ea301-1af2-4708-96ac-acb90b665167
+28629bf9-f447-4650-8fc2-53f1e938ab71	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-74-6581	0b774101-e5ee-4717-ae25-940f6402edd9	40290	0b774101-e5ee-4717-ae25-940f6402edd9
+28bf7388-f041-4ff6-ba70-4dcfa05805a3	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0397	3f4e30b9-7fa5-4b7d-b3ab-2c8f93ad966d	42657	3f4e30b9-7fa5-4b7d-b3ab-2c8f93ad966d
+28df4629-204f-4352-a19f-303a2e067633	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-1751	a0dce149-d989-4c31-a3a4-2d7b0b220ace	48618	a0dce149-d989-4c31-a3a4-2d7b0b220ace
+2b2002aa-8ac9-404b-ad08-b6c60658e976	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0385	6be41a30-b8c9-4351-9b15-9c94ff9cbbe0	17375	6be41a30-b8c9-4351-9b15-9c94ff9cbbe0
+2b82e941-1b16-444e-af41-24dbc0a7e8b5	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-1597	07943c98-08ba-47db-8c5f-57d9c96a633a	61251	07943c98-08ba-47db-8c5f-57d9c96a633a
+2b90648c-c99e-4d4d-8d9b-67ff2c4e6115	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-1598	b96974b8-cef4-433a-8e8d-107f2d44dda8	34437	b96974b8-cef4-433a-8e8d-107f2d44dda8
+2c922593-d94d-4e8f-b68b-b4b8cfcbf3e4	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-41-2575	5aeca719-9e82-4281-b957-3e1bfcef54ca	41409	5aeca719-9e82-4281-b957-3e1bfcef54ca
+2deec528-4550-47b2-9a0d-cac7eeb24f3e	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0085	085982d8-55ce-4a2d-bf7d-c3808a918a85	30232	085982d8-55ce-4a2d-bf7d-c3808a918a85
+2f4a127f-101a-4192-b3e8-f9be2c8648bc	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-2624	c07b95e1-bf50-4cc0-8b44-d30b94574c70	17249	c07b95e1-bf50-4cc0-8b44-d30b94574c70
+2f8b698a-cbd0-4cab-a814-dc683e0e9305	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-1387	90dffd80-3435-4baf-930a-ababb5c3950e	30391	90dffd80-3435-4baf-930a-ababb5c3950e
+3003cbfa-98d5-464d-90a5-b1bef32bcef1	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0146	440adfc1-ef69-4081-b983-581e382a8341	38298	440adfc1-ef69-4081-b983-581e382a8341
+30256f61-7be9-4d47-8afd-afafa7a079c0	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-2513	6058b4fc-6d38-4909-8914-ae40a0bc312f	47506	6058b4fc-6d38-4909-8914-ae40a0bc312f
+309005a2-93a8-4566-b8d3-6b9310144266	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-1389	2527905e-fdb6-4438-942d-566f575134db	44478	2527905e-fdb6-4438-942d-566f575134db
+314d9188-c8fd-43fc-905d-b6889de542c8	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0386	20d3be49-8fa4-4dfb-88f1-34369ff85001	56489	20d3be49-8fa4-4dfb-88f1-34369ff85001
+3324be1b-e9b2-4c1a-96d8-84d054c0d1c3	hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0260	99e59e20-47ac-43c1-9664-1698ffb32d64	19095	99e59e20-47ac-43c1-9664-1698ffb32d64
+5bbeb8a7-3ac2-4ef1-bd48-6f83bc994a75	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0139	3bd1d6c3-6ee8-44a3-8e88-6168129abd0a	31470	3bd1d6c3-6ee8-44a3-8e88-6168129abd0a
+0d5e5a6b-5113-43f2-836c-776207b21b56	not reported	not reported	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-32-2498	2c39a12a-475e-455d-b814-dc0f99b82743	11445	2c39a12a-475e-455d-b814-dc0f99b82743
+a7b55dae-c9b8-45c6-986f-fb1055f1c67b	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0653	5c3bf419-dc0b-4b80-89aa-58bdaac9cc27	64416	5c3bf419-dc0b-4b80-89aa-58bdaac9cc27
+5613f5f6-086d-470b-8f77-6dcb7f8625b7	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0744	3e0dc6ef-557a-4dcf-9834-b1d4533838d4	42179	3e0dc6ef-557a-4dcf-9834-b1d4533838d4
+a795a841-9fd6-4eac-b871-a8c70248700f	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0209	52dcad1e-7ba9-4331-9e25-b1a64911f416	22168	52dcad1e-7ba9-4331-9e25-b1a64911f416
+15e058e8-2f33-4fb4-92af-3d9dea1fa906	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0156	c7d022a2-ca98-4aac-9ed5-c88e1fa5ee59	28329	c7d022a2-ca98-4aac-9ed5-c88e1fa5ee59
+53abce1d-7e33-4ebd-832f-f3789f67377f	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0178	988e9df9-691a-40fc-b665-0f1e5140785c	56413	988e9df9-691a-40fc-b665-0f1e5140785c
+2c5fa2d4-8e35-42e4-8bca-9fb3371a19c8	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-26-5132	f72f7aea-e831-4ad6-a42a-e1e983758fa8	34790	f72f7aea-e831-4ad6-a42a-e1e983758fa8
+0ce23e2c-8e64-4391-8148-de823bce0d5f	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0375	bb5c27e6-73d5-412b-9cca-6adb5bdc4792	29018	bb5c27e6-73d5-412b-9cca-6adb5bdc4792
+fb75eb9d-05be-4e6b-a515-f39efb15e66c	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0007	7e31ed56-0607-4ca8-871f-0867cac1b8ba	36352	7e31ed56-0607-4ca8-871f-0867cac1b8ba
+149be735-d5db-43b6-80b7-d40e3a84500b	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0187	f44db622-f293-448c-9c51-23b34de9c716	19255	f44db622-f293-448c-9c51-23b34de9c716
+0456a66b-c9b3-4eb1-9872-424a7ea712a2	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0750	5fcd18ca-b155-4148-a20f-991df154b94a	17436	5fcd18ca-b155-4148-a20f-991df154b94a
+e57b296a-80e9-4446-a3d1-3dbfeaf04f5e	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0818	acf87dec-3b0a-4286-94b5-c5d7e495cf73	60704	acf87dec-3b0a-4286-94b5-c5d7e495cf73
+b363b624-a5b0-46e4-b671-8813cc12eaf4	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0113	7d08fc95-6581-4640-a56a-8b6187634ba1	30106	7d08fc95-6581-4640-a56a-8b6187634ba1
+225f3689-221d-4296-8472-d8c21eedaf8d	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-RR-A6KA	c6cc0d86-ef75-40ed-bd68-69e13143c0d9	12224	c6cc0d86-ef75-40ed-bd68-69e13143c0d9
+6ff96a7e-1b96-4530-b8a8-7f2e9e541955	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-27-2519	5fa853ae-658e-4fdb-bb78-644d674c911d	62078	5fa853ae-658e-4fdb-bb78-644d674c911d
+47a4161c-9c61-48f5-b9bc-a6d1acad4e5a	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-1829	0123811c-1688-436e-addd-fbf896ff5ef4	34361	0123811c-1688-436e-addd-fbf896ff5ef4
+0078b0c4-68a9-483b-9aab-61156d263213	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-1034	6a2af770-7a6e-4571-a1e4-6b4af792ab79	44110	6a2af770-7a6e-4571-a1e4-6b4af792ab79
+035b09b7-add1-456d-ae80-20e8a03f6d7b	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-2621	f809f2cf-803a-4a34-bf59-fb09753fd0ac	17155	f809f2cf-803a-4a34-bf59-fb09753fd0ac
+0a211ae1-a48c-4989-9379-04d59500d94d	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-76-6286	5088cea4-caa2-4b32-997c-123b7b5eea37	43374	5088cea4-caa2-4b32-997c-123b7b5eea37
+05944575-8473-4ed0-9de8-8091018001c2	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-81-5911	2f71701f-c0cb-475d-aa3e-a9ebc85ce2d0	49608	2f71701f-c0cb-475d-aa3e-a9ebc85ce2d0
+0383769b-f54d-4293-a9dc-88b830d775dc	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0194	36c6c556-04ad-494b-a605-53d8dc3e1c05	21097	36c6c556-04ad-494b-a605-53d8dc3e1c05
+0ca72ebd-ff33-45b8-a97c-3f1435603d71	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-A7TL	9147993d-8f0b-4ea8-9aec-b9b2134f6451	55273	9147993d-8f0b-4ea8-9aec-b9b2134f6451
+0389b35b-651b-4776-b12a-d315a100f47c	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0619	97512809-0332-4f62-9e7f-cfe74c587449	67200	97512809-0332-4f62-9e7f-cfe74c587449
+0fe6684a-5ab2-4999-b69d-d99aa5679c97	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-1456	86cf271e-378c-4a40-89c0-86f51d9ff736	60583	86cf271e-378c-4a40-89c0-86f51d9ff736
+0798dbe2-1914-427c-a2fe-2a865d0d6eda	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-1459	85afb1d9-0401-48ef-8dee-e2b785554ae0	44052	85afb1d9-0401-48ef-8dee-e2b785554ae0
+12084e89-dbc2-43b3-a6d0-0e71e53d0eac	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-41-2573	942220df-980c-467c-8870-91c87c8a6569	48673	942220df-980c-467c-8870-91c87c8a6569
+12b67dc2-5e4c-48eb-92ba-8d91d2eadfe2	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-1600	f5cf1057-ffc6-408c-b1c4-abac00f73489	36459	f5cf1057-ffc6-408c-b1c4-abac00f73489
+13429a31-a193-4180-a8b2-cceaa21ecbfd	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-6701	0805dbc1-b513-40ce-9fc4-afab9ae6e5b8	28318	0805dbc1-b513-40ce-9fc4-afab9ae6e5b8
+151ca826-a4d7-42eb-8684-f9fe7b93543f	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0822	d68d0607-48e1-4813-a53d-7086532f6d8b	75012	d68d0607-48e1-4813-a53d-7086532f6d8b
+165b8f99-f7ba-4553-96ed-235e3f77e19c	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-1599	b8ec4a48-ca99-423d-a996-a4913c7c055e	103356	b8ec4a48-ca99-423d-a996-a4913c7c055e
+166e76db-ccd8-4760-a517-d2bc8937ea29	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-1388	e4c4ad3f-4d96-49b9-a621-059e89a3fc7d	48840	e4c4ad3f-4d96-49b9-a621-059e89a3fc7d
+17dffffc-65d6-4209-9075-18a441001f0f	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-26-1438	5f9b8e30-c65d-45cf-b498-06bc7aa7597f	50815	5f9b8e30-c65d-45cf-b498-06bc7aa7597f
+18e04edc-04a3-4d1c-b536-3797e1924f48	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-5954	c2d3fad2-071e-4b38-be2a-88fbf96a5c9d	39908	c2d3fad2-071e-4b38-be2a-88fbf96a5c9d
+1974470e-ec23-4dfc-8907-2e4052c2a0fc	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-32-1979	424b5f0d-7919-436c-a3ff-d43407aafe45	20791	424b5f0d-7919-436c-a3ff-d43407aafe45
+1b25795e-69ad-47fd-bb2f-94ff0910fae1	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-32-2638	54c3d4bc-9ee2-4d47-bc68-7a7b254af0b0	56723	54c3d4bc-9ee2-4d47-bc68-7a7b254af0b0
+e3711a9b-6d4c-44df-bbab-0a675046a5df	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0208	01b38027-17ba-4582-bf28-764d32ffefe1	36414	01b38027-17ba-4582-bf28-764d32ffefe1
+cc1459be-de8f-482e-9efe-65937db9dc45	not reported	not reported	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-1601	ec635f99-f0cd-4813-b0b5-240f0e4e9771	11445	ec635f99-f0cd-4813-b0b5-240f0e4e9771
+883dc176-925a-44f7-9ec8-e0cce33c2a54	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0099	68a1648a-8f83-47a0-8de7-92fddffdca02	34386	68a1648a-8f83-47a0-8de7-92fddffdca02
+e948d951-9299-4dec-9772-60b4ac3569cb	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-2470	3e584195-a7f1-4ae0-87dd-c2d22896998c	38420	3e584195-a7f1-4ae0-87dd-c2d22896998c
+1dbfbff7-d048-4770-ae02-e6a287256210	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0620	35b1d7a1-7b59-4e73-bd02-5f1259f3e3d0	34637	35b1d7a1-7b59-4e73-bd02-5f1259f3e3d0
+1e2108e8-b620-4865-a8d8-77f9a0fe28a2	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-1745	f137d095-fb75-485a-9160-34fba6f9936b	47543	f137d095-fb75-485a-9160-34fba6f9936b
+0553e60e-3510-417d-af8a-75947ebe8ab6	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0024	ac34f184-bde5-420e-83a9-3bf8273a6b60	30119	ac34f184-bde5-420e-83a9-3bf8273a6b60
+24ae6f30-eec8-49a7-abde-246b3873679e	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0154	e53196ef-c933-4e53-b354-ee0bbe33e606	55645	e53196ef-c933-4e53-b354-ee0bbe33e606
+1f48f010-98fe-4b5a-b96a-14fb25eff23f	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0184	e8fd51eb-71d5-4b7c-b887-2d7fa10f2dd1	53407	e8fd51eb-71d5-4b7c-b887-2d7fa10f2dd1
+7391f99d-9528-46a1-9799-c5f0a7bfc63e	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0176	92bfdc17-acf4-4a46-be45-4e80080f1764	43957	92bfdc17-acf4-4a46-be45-4e80080f1764
+224235c1-5b6e-48d5-a5d1-777dfede0f1e	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0168	c5ce6c77-c44e-4d4a-bed5-fff2f8c54687	47656	c5ce6c77-c44e-4d4a-bed5-fff2f8c54687
+5438322c-9db0-4974-ba01-801020559f97	hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-32-4209	28c9c771-f113-44a6-99d5-be73e2f4cfb5	79297	28c9c771-f113-44a6-99d5-be73e2f4cfb5
+3dddfc44-7bb1-4974-8a65-a84fd4bac484	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-6700	7d922c2c-25df-4cc7-b6d0-355ff527f69e	40798	7d922c2c-25df-4cc7-b6d0-355ff527f69e
+d88b35a3-a291-457a-b15b-a314859b25c5	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-2499	39d661ff-4fe9-4095-bd46-70b703b86de4	11693	39d661ff-4fe9-4095-bd46-70b703b86de4
+bb0aca6b-55ab-4b24-8e64-29e0c96a9862	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0691	5fa7a6a4-532d-4901-be77-ee879f2ca38e	38383	5fa7a6a4-532d-4901-be77-ee879f2ca38e
+60e69f41-571e-4a1b-ae75-9d49eed620ca	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-26-6173	cfc164e7-c321-4851-ab41-5700acae15ab	47124	cfc164e7-c321-4851-ab41-5700acae15ab
+f3e57166-c428-4a44-9396-679e3a2b16a2	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0102	d182a65c-03e9-41c0-84d7-a1939a42ff43	44335	d182a65c-03e9-41c0-84d7-a1939a42ff43
+d0de6676-6ba1-4d79-a9b0-ec3f1e8a8775	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0137	69651dff-8080-4dad-8e4d-bc428c86a807	27084	69651dff-8080-4dad-8e4d-bc428c86a807
+5da36fd2-0cea-41b8-90dc-b94c3c28cbd9	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0080	8f190695-d699-4dfe-929b-b5b6a90766ec	36216	8f190695-d699-4dfe-929b-b5b6a90766ec
+52408d9f-2637-4952-9b90-cb607a860f23	hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-32-2616	0e30bf64-7563-48fd-a990-32f4f103f687	53794	0e30bf64-7563-48fd-a990-32f4f103f687
+998c8517-89c1-43b2-84e4-b60905787bf6	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-4W-AA9T	b436e084-d459-40a9-a91d-70371e0986c6	30040	b436e084-d459-40a9-a91d-70371e0986c6
+1101faa1-a713-489b-8593-960a9d6bda42	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-16-1060	7eb0c4e6-ea0f-4aa3-8552-d5c4efe3e678	23990	7eb0c4e6-ea0f-4aa3-8552-d5c4efe3e678
+9348e446-0e43-4210-b07e-c534980cbf62	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-1804	d31bdb80-250f-4245-a980-bebdb04f05b3	17260	d31bdb80-250f-4245-a980-bebdb04f05b3
+c57d6674-08d1-4eda-9ec1-ae439923d7cf	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0151	e659bace-f8a6-4001-83f9-a045fa1a4d29	38593	e659bace-f8a6-4001-83f9-a045fa1a4d29
+1e80ccf6-ef81-4662-bf5e-392f092c1e67	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-41-2572	fcbdc671-aef3-4766-9ec4-9d35c70327ca	41598	fcbdc671-aef3-4766-9ec4-9d35c70327ca
+5aa15b7f-35c7-4022-b1b2-74a4f6d3ea85	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-2555	fdae9fcd-b96f-4cc9-80b6-28a23f5ca15c	34404	fdae9fcd-b96f-4cc9-80b6-28a23f5ca15c
+9ad6535c-da13-4f16-9df9-2b5df9aafe8c	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0164	d24b23dd-d429-4b94-a9b6-fdea0e6766da	21181	d24b23dd-d429-4b94-a9b6-fdea0e6766da
+35a7e49e-747b-45ce-9a07-3a5faba0ca94	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-1747	e59ea9f6-9e46-4a28-994b-c71e89e39c8f	28254	e59ea9f6-9e46-4a28-994b-c71e89e39c8f
+09ddf661-25fd-4baa-a1e8-bf90b2bb1d31	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0111	e76ead6e-e9d2-4183-a921-ee6a30d0a3a4	30179	e76ead6e-e9d2-4183-a921-ee6a30d0a3a4
+01a92062-967a-4900-8dc7-a5ecd3b3f8e2	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0171	ef2b79e8-8362-4840-8607-71c30338dbad	38516	ef2b79e8-8362-4840-8607-71c30338dbad
+05875fe7-ad0e-45e1-a880-9aece4fea3b9	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0321	ef85fa21-268f-40e3-b360-597484e3f172	20959	ef85fa21-268f-40e3-b360-597484e3f172
+0a85c7b4-f07d-4727-b9d2-7b14c52edabb	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0703	53775bcb-38c2-4be9-b132-d90a260371c3	54676	53775bcb-38c2-4be9-b132-d90a260371c3
+0c0333c9-60dc-4487-baa2-7ec27acced27	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-1756	1fe1a148-5671-49e4-8269-97dfdf610176	33380	1fe1a148-5671-49e4-8269-97dfdf610176
+05d5da50-52fe-4342-9c15-9ee4c1d6662e	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-15-1446	089f879e-1f0f-4201-bf2d-a086794d27c3	32163	089f879e-1f0f-4201-bf2d-a086794d27c3
+0628cb4a-c480-4b2f-bd2e-bb33e6994302	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-6695	e8d0780f-d63f-4519-84ff-aeb9fe8fe689	36522	e8d0780f-d63f-4519-84ff-aeb9fe8fe689
+0cf6c734-74c3-4fb5-ac4b-72967edd6ee7	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0373	a96dec05-76cb-4ee2-9104-f7ec11d85baa	11835	a96dec05-76cb-4ee2-9104-f7ec11d85baa
+08505b91-58b8-4121-a8ea-b9832331c24a	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0071	071c0225-8ddd-4a6f-a9fc-f4469a62a365	19088	071c0225-8ddd-4a6f-a9fc-f4469a62a365
+108a8d8e-1ddb-4c0d-a05b-71573b33b9aa	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0390	7de29aa4-17ef-40a6-9db2-bcda159fc94d	46659	7de29aa4-17ef-40a6-9db2-bcda159fc94d
+13d12179-3182-4f41-85a2-90fd50e51480	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-1802	81916571-d55d-4e39-a027-6f7da595a6d1	50272	81916571-d55d-4e39-a027-6f7da595a6d1
+159e0318-6173-440f-be07-8d956086e99d	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-3652	dfc46812-7ad9-4b2f-8715-7fca01301186	85832	dfc46812-7ad9-4b2f-8715-7fca01301186
+163e93a7-4d8d-4f28-a9f6-4d0ed16630cd	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-0963	af9ddf59-f721-4860-b6fa-c7dea78feb4a	38250	af9ddf59-f721-4860-b6fa-c7dea78feb4a
+19146c75-8f41-44f3-8423-7db4d0d0efe1	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0337	b7301bc4-2c64-46cc-b486-6d7fbdb3088c	42481	b7301bc4-2c64-46cc-b486-6d7fbdb3088c
+196ce35a-2d36-479e-aab9-91d2082d7e7c	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0213	95a2e4b4-30f7-4f57-829e-cd707a6ec8d7	17255	95a2e4b4-30f7-4f57-829e-cd707a6ec8d7
+19dd2c8f-05ca-44e8-8c19-bac0327f2ea9	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-76-6661	2f8527aa-d8c0-4a82-a216-86cadb225b20	33591	2f8527aa-d8c0-4a82-a216-86cadb225b20
+1af5c959-0f36-4a14-8383-ebc0543db3bb	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0244	820c6f61-4231-4f93-b6e7-d88eda8f3e6f	38038	820c6f61-4231-4f93-b6e7-d88eda8f3e6f
+1b042663-dcb1-4fc9-b813-7b90cc2eb392	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0525	a06e845e-8405-4672-baa3-74f8f6d69aa7	44153	a06e845e-8405-4672-baa3-74f8f6d69aa7
+1b415f4a-b103-450d-8917-e682cdf34149	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0439	8757744e-148f-4271-92b8-b7623acba53e	19273	8757744e-148f-4271-92b8-b7623acba53e
+1b6c184a-5868-4a51-8a82-aa16a7e65126	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0881	0d5c3baf-8919-4545-ad04-21ad5d00b27b	54665	0d5c3baf-8919-4545-ad04-21ad5d00b27b
+d75996d6-9f02-4478-a4a1-dfa7ab41de77	not reported	not reported	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0131	db7da4df-4366-445f-9fa6-0f7c4f24bc22	11444	db7da4df-4366-445f-9fa6-0f7c4f24bc22
+1e63e985-fbb7-4e43-93a5-e718d0b4ad09	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0432	e6852c5f-af6f-43c2-b756-55874a4c9b4f	30167	e6852c5f-af6f-43c2-b756-55874a4c9b4f
+1edfe67c-1142-4498-927c-9b7b426af7a3	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0339	4fec50a8-521d-4d83-b2cb-168c6619b77c	19090	4fec50a8-521d-4d83-b2cb-168c6619b77c
+20a83eb1-466d-4f85-921a-cb8beea8eabe	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-0962	0edd8235-4f70-4e48-b09b-3412ccd7ccb3	17355	0edd8235-4f70-4e48-b09b-3412ccd7ccb3
+6fc6b9ca-84d8-4647-bbc8-c5ab472b1c02	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-27-1838	ce8bdabf-294f-48b5-8ae6-0efb1108c8c9	48915	ce8bdabf-294f-48b5-8ae6-0efb1108c8c9
+22b5cbba-cc78-4377-a08c-a9413294c3bf	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-74-6584	c0248a4f-603c-4512-b197-1267de36a039	55065	c0248a4f-603c-4512-b197-1267de36a039
+22e0c3ea-9f6d-4d73-9282-17ee4553f436	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-32-4213	0a581030-09c1-453a-9197-36ad6859f87c	62576	0a581030-09c1-453a-9197-36ad6859f87c
+24164e89-16ae-48c1-a464-9be94141deef	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0692	5ac58d3d-bfe2-4fe0-8f2b-be7349ed658a	25430	5ac58d3d-bfe2-4fe0-8f2b-be7349ed658a
+24eaab84-5d9c-4c12-af8b-32f4c6d8f81e	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0048	c64e7dc3-0a87-43a0-9af2-33f04e280a06	18757	c64e7dc3-0a87-43a0-9af2-33f04e280a06
+25f41de3-9d70-45df-913f-4fb3e5f0f7d6	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0219	6892af8c-8137-474b-b0e8-0e673bdb91a0	17253	6892af8c-8137-474b-b0e8-0e673bdb91a0
+27c8c458-eb2f-43e4-a06b-6cd61a9a3a28	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-0783	25b7e4e6-df72-4583-9369-b5bd25eb8b53	34433	25b7e4e6-df72-4583-9369-b5bd25eb8b53
+281e1a57-9a8c-4fa0-ac5e-e5e1df7ef8e2	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0074	147d118b-0e50-4bec-b6c4-59a130dd0b32	38271	147d118b-0e50-4bec-b6c4-59a130dd0b32
+28da11ec-f46a-4abc-b4c8-bbb784419c71	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-5204	2fed891c-f08d-41e4-9e2d-7d25ce3ead07	45012	2fed891c-f08d-41e4-9e2d-7d25ce3ead07
+2f61ea6b-a3f2-477f-ab98-47ed07b3b2cd	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-3653	82805728-00e4-4bba-87a1-8e76fc65bdd0	63073	82805728-00e4-4bba-87a1-8e76fc65bdd0
+30011f30-2926-47f2-a8f3-4f1b58ffa227	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-32-2615	b8c732d3-e962-4e46-86d1-7297cfa8cc68	75827	b8c732d3-e962-4e46-86d1-7297cfa8cc68
+de7b7cac-f094-4d59-8651-e991e34ea093	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0210	52639573-0436-49d8-b4e0-23c9c8e8a924	25982	52639573-0436-49d8-b4e0-23c9c8e8a924
+31e6e6c8-9197-4927-bfe4-8f6836f963da	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0128	f3f8134f-4a30-4ae9-870f-68ee66f2489f	61502	f3f8134f-4a30-4ae9-870f-68ee66f2489f
+0133e584-111e-450a-b451-77a2799ef529	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0133	9127a6ff-70d8-4376-a94a-214c7fd7a24d	48609	9127a6ff-70d8-4376-a94a-214c7fd7a24d
+06c427a1-8c2d-4003-b744-139114a04440	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-1451	858a2a4e-8c4c-433c-8079-0c0f63105eff	86929	858a2a4e-8c4c-433c-8079-0c0f63105eff
+7ef0564e-d95d-4df5-969b-b204c207daea	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0028	bd32d4e5-6a24-4c98-bda0-66e1c9468ab5	48099	bd32d4e5-6a24-4c98-bda0-66e1c9468ab5
+f66d92ff-85ad-4c83-b127-ce34c8488040	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0127	adada823-910e-485d-9b84-7f60e3a8849d	30356	adada823-910e-485d-9b84-7f60e3a8849d
+2749c671-dee1-4d91-b3fa-4b50accf7a11	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-15-1449	5f0bcd66-51d2-4465-a22b-c39479bcc5f1	30306	5f0bcd66-51d2-4465-a22b-c39479bcc5f1
+d88bbd87-e876-4a44-96f5-c28ceac661b8	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0126	68b82ba9-ef02-46a0-bd4b-23b378178fea	17200	68b82ba9-ef02-46a0-bd4b-23b378178fea
+e1481049-c04e-48fe-8110-ac1d0ee86e75	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0189	f1e843a1-f979-4e66-bcc1-5a38a4fc2e9c	17261	f1e843a1-f979-4e66-bcc1-5a38a4fc2e9c
+07a2c1da-040e-44ea-9a56-751a06761894	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0148	7e77ecac-8a5f-4a46-a31c-4018eb233f99	24009	7e77ecac-8a5f-4a46-a31c-4018eb233f99
+9734478b-05a2-4b5c-b8aa-9e6b0b0db02d	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0058	f8259ceb-6075-42b7-ac33-276c1d434abb	30212	f8259ceb-6075-42b7-ac33-276c1d434abb
+c2399f5d-dc29-42e9-81f1-1d164d4cc55d	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-1454	2411aa2d-39de-4383-b2ec-d4c91350bd12	60557	2411aa2d-39de-4383-b2ec-d4c91350bd12
+4ca9c0f2-1be9-4376-aa27-d9db948d3f68	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-2512	a50a281f-8033-469f-8d8e-32b2a9e664e0	36332	a50a281f-8033-469f-8d8e-32b2a9e664e0
+45a58ede-e7a4-424d-851e-e6a4062e46e4	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0010	47b814bb-6b9e-46fc-a380-4e3a7685e564	42066	47b814bb-6b9e-46fc-a380-4e3a7685e564
+7ee03602-bfec-413d-a05b-609cf60c6481	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0057	541b4bcc-68ec-4165-9193-2a469355d235	36112	541b4bcc-68ec-4165-9193-2a469355d235
+b72fab50-aed2-48e7-b6ad-2a5bc7157cfd	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0083	5573f50b-c296-4ae6-9a94-3de935a86510	30124	5573f50b-c296-4ae6-9a94-3de935a86510
+a3cc2845-8a44-4b50-8a3e-17a3c2c3e077	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0662	6e1ec2a9-3e35-4f89-92a9-e5c35a56487b	129541	6e1ec2a9-3e35-4f89-92a9-e5c35a56487b
+aa703529-7153-4f74-8577-2601876e3374	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-5953	62bb6f78-3bb8-4084-990b-d3a3633832cc	19019	62bb6f78-3bb8-4084-990b-d3a3633832cc
+30a1fe5e-5b12-472c-aa86-c2db8167ab23	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0001	156dede1-a383-49d0-9391-3b660cf998d6	48223	156dede1-a383-49d0-9391-3b660cf998d6
+66bd4c9e-2ebd-4092-a2b0-69027e8af5b8	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0138	2f8df0e5-401b-48ef-8436-d36ab3dd891d	21176	2f8df0e5-401b-48ef-8436-d36ab3dd891d
+4c42dc4e-66b7-40bf-9fbe-b92543248198	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-15-1444	c7844ea8-a0d3-40b2-949a-3963a6d68156	31881	c7844ea8-a0d3-40b2-949a-3963a6d68156
+91063e7e-60db-47a5-aeca-af7c37b1074e	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0351	502b9533-0bfa-4b71-a0b2-a04036f1201f	50295	502b9533-0bfa-4b71-a0b2-a04036f1201f
+4b606edf-07fc-4665-a7cd-a794004e5aca	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-26-6174	e2c45fe8-aeb2-4e50-880e-d0828c4ba6b7	28538	e2c45fe8-aeb2-4e50-880e-d0828c4ba6b7
+872abc8a-6c1f-4114-b993-7d0327fb38bd	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-76-4925	cf83d875-8bc8-4e20-8c4a-a8bc7b8a4e17	30206	cf83d875-8bc8-4e20-8c4a-a8bc7b8a4e17
+0987f48e-9d58-47b5-a1a6-de704caf4ed5	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-16-1062	80ea6f7b-68ab-40dc-bb02-25c08ec71487	23991	80ea6f7b-68ab-40dc-bb02-25c08ec71487
+054f472f-98cb-4559-b2e2-b5f800fc8eef	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0221	1fcf31f4-fd24-408e-8d66-62ceebd2fbda	75188	1fcf31f4-fd24-408e-8d66-62ceebd2fbda
+01c878a3-7c3d-457f-99fa-df255960a122	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0402	7c5af21b-bf8c-48fb-8ee2-03f723c6924c	17356	7c5af21b-bf8c-48fb-8ee2-03f723c6924c
+03e9a354-7c95-4484-9ead-ed04acce7cb6	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-15-1447	a40526d7-d605-454f-b78c-486d6d1b6302	44451	a40526d7-d605-454f-b78c-486d6d1b6302
+0645038d-8abe-4a79-8695-bf8824d33f67	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0349	37dd87f8-3207-4bf5-8fee-b12301a11a48	48383	37dd87f8-3207-4bf5-8fee-b12301a11a48
+0d04d215-b709-40dd-9d18-d470cfb5bafd	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-1099	cef8c282-e770-4a8c-baf1-8b49a51771b4	36425	cef8c282-e770-4a8c-baf1-8b49a51771b4
+10efeb3c-ef55-4227-91b9-8c2bb4ff43d5	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-5301	9a62d08c-3a0b-47f3-836a-8323e5475636	28558	9a62d08c-3a0b-47f3-836a-8323e5475636
+06e32525-6043-45a1-9fef-fa24ab219a1f	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0510	e580820c-28ab-4a82-8cce-d26f85ca3130	36341	e580820c-28ab-4a82-8cce-d26f85ca3130
+074fa012-a61e-4646-bb3c-34d16782a2ea	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0352	82c26d71-c11a-4046-bbf6-60202ade3a15	17254	82c26d71-c11a-4046-bbf6-60202ade3a15
+cd73f38a-f6ff-4e7b-bd43-ec7b82dbe7df	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-16-1045	5f93a196-3c08-4851-8353-eb5408a9ee64	28917	5f93a196-3c08-4851-8353-eb5408a9ee64
+3258cb3b-f63b-463c-b2e4-d638149157c5	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0145	a0d2a37d-394e-4579-8abe-1047ff62cf89	23457	a0d2a37d-394e-4579-8abe-1047ff62cf89
+658c8e31-2c60-40f0-ab25-d0d0168647db	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0114	481b500e-fa2c-4809-9d88-e739e42fd5d7	56245	481b500e-fa2c-4809-9d88-e739e42fd5d7
+dfaae397-52c3-4d29-b665-971969e23432	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0089	f6682817-fd6e-4fa3-8ee9-f09a19de946a	30208	f6682817-fd6e-4fa3-8ee9-f09a19de946a
+d85fa9be-f7fb-407b-af46-31f495b210d6	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0021	9b02f27a-5de9-434d-9f78-0f8919438095	54010	9b02f27a-5de9-434d-9f78-0f8919438095
+2cb9975f-2d1e-4c74-867f-8b151c22b246	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0119	2b22eb67-f872-44c1-b7fc-3ff7e327c634	23205	2b22eb67-f872-44c1-b7fc-3ff7e327c634
+372a4cc6-8fc9-4157-9cdc-fe020b176249	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0107	7a08e37f-55e1-4181-ba50-6e08848e59df	30142	7a08e37f-55e1-4181-ba50-6e08848e59df
+c45e9e8b-35ab-4477-acdc-b18be0b3497d	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0023	98ac13e9-789b-4990-9221-4cf932d590cc	38056	98ac13e9-789b-4990-9221-4cf932d590cc
+f2de4316-026c-4c2d-b091-47bc0ec8612a	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-2619	ec252ed1-c4dc-4da2-bc21-c7990cb7e9c5	47603	ec252ed1-c4dc-4da2-bc21-c7990cb7e9c5
+29b34909-9cdc-4a52-b0ab-fa99f3ab17bb	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0769	67b136f1-7392-4d45-a62f-20d2b6446aba	48651	67b136f1-7392-4d45-a62f-20d2b6446aba
+827453a9-7388-4336-9ac5-4defcb904607	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-16-1460	bc42345b-db99-4d94-882a-b0f18ecdda3e	17116	bc42345b-db99-4d94-882a-b0f18ecdda3e
+c29d73c0-c885-4105-bf74-38e9178e71c9	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-26-1442	f37cb842-0a90-4e71-809d-69a6850300fe	40961	f37cb842-0a90-4e71-809d-69a6850300fe
+0164acd3-34db-4d35-b96c-936daad0ff22	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0140	2da5e7d2-8528-46ce-91de-7abf985a431c	12154	2da5e7d2-8528-46ce-91de-7abf985a431c
+737b35e1-d668-4fce-9b6e-76946c7952b6	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-27-2523	7375974b-bbb5-4043-b96f-647ba997a453	66134	7375974b-bbb5-4043-b96f-647ba997a453
+13b4d676-ee9b-499b-94bb-2365830fb37e	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-5947	6cc5a361-60b7-4f40-9da7-b40a3b9e7ab7	24207	6cc5a361-60b7-4f40-9da7-b40a3b9e7ab7
+da5f6940-e8ee-4fd1-a8da-4cd68e02e59c	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0055	b7671ef7-506f-4710-9ddf-35200e31d3c3	36329	b7671ef7-506f-4710-9ddf-35200e31d3c3
+a8033f85-ac9b-41f3-b775-a1aee3f21b8f	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0216	f764bd8f-f6b6-43ff-baab-b06121c81ed3	49451	f764bd8f-f6b6-43ff-baab-b06121c81ed3
+a0339182-2fd6-459d-9703-422474222e76	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-1806	9c65354a-0c6c-4b28-95a1-4e006d15fb4c	45644	9c65354a-0c6c-4b28-95a1-4e006d15fb4c
+a9601d20-d51d-4db3-9e82-7171f5f7e034	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0414	f8ae4d54-7038-4fd8-bef4-932bbf59851e	37946	f8ae4d54-7038-4fd8-bef4-932bbf59851e
+a5d3714d-1b1b-480e-8ec6-f01317cdbf14	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0451	938394f1-df5b-403e-a0f6-c612af48f932	20951	938394f1-df5b-403e-a0f6-c612af48f932
+a63ce9ac-24a4-484e-8bcc-717cd7aa92df	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-81-5910	0bb1dfe7-ffb7-47cc-9e55-c5f7744c6970	17430	0bb1dfe7-ffb7-47cc-9e55-c5f7744c6970
+a28b256e-e085-467d-bdba-5c39718012d7	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-26-5133	75f3a96f-a009-4eb1-a9fb-de3bc29f1b4e	44585	75f3a96f-a009-4eb1-a9fb-de3bc29f1b4e
+a6cda2a0-21d9-4b72-a4c5-de1142d7ddb8	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-1043	3ce3af11-38c7-41f0-a1ce-3989ac00c375	28386	3ce3af11-38c7-41f0-a1ce-3989ac00c375
+ad7a6a27-c517-49ef-a9f9-518dccda23b4	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-5955	959a7b14-0adb-4ea9-b919-ec9889ca4b67	17154	959a7b14-0adb-4ea9-b919-ec9889ca4b67
+ac3582a9-46b1-4322-95fa-9e8b149b8044	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-1084	a6cf6609-75d4-4b76-8bb6-9e9cb558de0b	73654	a6cf6609-75d4-4b76-8bb6-9e9cb558de0b
+f6d64459-e639-4557-bf10-a9148263ee26	hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-32-1973	7af21e42-6a8f-43bb-820b-dd94ebf4d3a6	67163	7af21e42-6a8f-43bb-820b-dd94ebf4d3a6
+f7106bb6-332a-4542-bc08-59bba48f4b04	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-1097	7cd74c96-f69c-4bfb-95f6-3fc098374e93	54792	7cd74c96-f69c-4bfb-95f6-3fc098374e93
+c01ae0ee-fa58-45d2-ac33-d7f64d053bbb	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-2623	fe475053-99fd-4006-a011-68e4286b2e24	40840	fe475053-99fd-4006-a011-68e4286b2e24
+c04657d2-b71b-4402-82fa-02747cce331d	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-76-4929	50411d13-7445-4130-aaef-142902142a71	17275	50411d13-7445-4130-aaef-142902142a71
+f82bfa67-4e72-4a09-8022-a2fe0050090f	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-1452	a0a8e445-c017-4072-92c8-05064ff92a8e	48454	a0a8e445-c017-4072-92c8-05064ff92a8e
+c129c34a-8d40-4d98-b9ad-a10d3f7b3ee0	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-6698	794f46df-ee17-4dc6-920b-7dc7dd713bad	34288	794f46df-ee17-4dc6-920b-7dc7dd713bad
+ea82c1da-eada-4108-80ec-77ce891d82a7	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0646	31ad2809-8007-488b-bab8-10bef856e2b6	21170	31ad2809-8007-488b-bab8-10bef856e2b6
+b584d0a2-d3d2-44b8-85dc-1b3065b499eb	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0039	03d41c99-9236-4966-8883-236f4a57e870	19122	03d41c99-9236-4966-8883-236f4a57e870
+f2ec3b94-cb92-4335-bdf9-02c046130bab	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-1450	4c18f144-eb16-4f54-8a96-3bedd16a7eb2	54691	4c18f144-eb16-4f54-8a96-3bedd16a7eb2
+f45f4a30-6b4c-4f15-9140-959d6a25a45f	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-27-1831	0fbb2265-e107-4792-9925-6de587447a9d	48911	0fbb2265-e107-4792-9925-6de587447a9d
+be3a7ef3-34ed-40e1-9d9c-187940596b26	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-27-2528	d4c83bb4-5b36-43f2-bbfe-e080eff93db2	55079	d4c83bb4-5b36-43f2-bbfe-e080eff93db2
+bef21d11-f743-4d9d-8cba-fb5cd24b6927	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0344	6d7a9ffa-c82c-49ed-8f99-13c5febb0a06	41856	6d7a9ffa-c82c-49ed-8f99-13c5febb0a06
+facdfdaa-cd26-47f0-97f4-51731bdb5566	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0059	cd13ebce-4a29-4b8c-a825-5c6d749a4fbf	19079	cd13ebce-4a29-4b8c-a825-5c6d749a4fbf
+fb86044c-161e-41d7-a49e-3d5ec18294ef	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-1386	ad43052c-9ac0-4bf9-904b-8b2f0d885ce2	56730	ad43052c-9ac0-4bf9-904b-8b2f0d885ce2
+fc5ad666-d67a-4a5c-8e4e-1c8d099e9f85	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0033	9fa60aaf-e0d0-4976-b67d-541ee59d1ee4	19046	9fa60aaf-e0d0-4976-b67d-541ee59d1ee4
+ff61d536-b505-47e7-9d3c-a7252e9037a1	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-26-1799	0b6d5880-d2c3-46dc-a4d1-9ee18a1f7972	30398	0b6d5880-d2c3-46dc-a4d1-9ee18a1f7972
+f3158197-173b-4917-ac3b-ed3ba04a5c42	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0179	f574512a-8936-41ad-824b-292a1dc44d70	19267	f574512a-8936-41ad-824b-292a1dc44d70
+bcc72cf4-90ce-466e-a683-bb0ebfb3cf82	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0169	1b949d43-c8cf-4a7f-9bb9-96074280f8e6	30356	1b949d43-c8cf-4a7f-9bb9-96074280f8e6
+bd114e05-5a97-41e2-a0d5-5d39a1e9d461	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0514	5fe2fdc9-3557-41a9-a94b-bef258158f86	22357	5fe2fdc9-3557-41a9-a94b-bef258158f86
+f08280d6-2c80-4dd7-93d3-a0c55f7da5b3	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0192	8ebdea05-b470-4d0d-8ae2-e67022209518	78690	8ebdea05-b470-4d0d-8ae2-e67022209518
+f473a0d0-72b6-465e-93f7-122224960e80	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-0955	e04560e1-25ca-4834-b91f-2da0361d7a7d	33165	e04560e1-25ca-4834-b91f-2da0361d7a7d
+f6b2f52b-284d-4bde-9a3d-a0f458d07f08	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-2625	7c8303be-0a49-4724-8811-cef78880906a	17259	7c8303be-0a49-4724-8811-cef78880906a
+be8fa1fb-5696-4719-af16-2059f6b9d270	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0149	f80a26c9-da98-43df-b54d-4f9a08440383	19265	f80a26c9-da98-43df-b54d-4f9a08440383
+5f9baf9b-6d2d-495a-83a1-77f7e4cb9ccd	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-26-A7UX	1c969739-c647-4a27-a2cb-7afc2964459d	43648	1c969739-c647-4a27-a2cb-7afc2964459d
+69205453-c504-4684-8d32-57c82efc679d	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0034	1edc2a22-4082-4974-95e4-b4a57ac63a3b	30224	1edc2a22-4082-4974-95e4-b4a57ac63a3b
+66afd908-0c76-469e-abc3-89563de338c6	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-41-4097	efd085ac-5874-4b22-808d-6f2fc34b2e36	17255	efd085ac-5874-4b22-808d-6f2fc34b2e36
+652a39f0-c539-4303-bedc-f0d7f4669d9f	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0644	499da6d6-98e5-4bd4-ac6c-f6df59ce7eb7	61543	499da6d6-98e5-4bd4-ac6c-f6df59ce7eb7
+66d2e309-eaa1-4225-a34d-4565b4ef8019	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0246	5f4c9a36-afc1-4a1f-bd4d-a65c5d621daa	30168	5f4c9a36-afc1-4a1f-bd4d-a65c5d621daa
+6d4c3876-4453-4414-83c4-39dbc711012b	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-1392	1a5f08a8-7185-4df0-8170-8edce56c5088	17359	1a5f08a8-7185-4df0-8170-8edce56c5088
+6e6962d8-34b8-431c-8220-42b0b92a410b	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-16-1063	644dfad0-27a0-4780-a74d-edc21c78d848	23989	644dfad0-27a0-4780-a74d-edc21c78d848
+6e72d2e2-96fe-4fbb-9fe6-39ec28753eb6	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-27-1830	fecccfe0-f36e-4940-ac55-80822a93816c	47482	fecccfe0-f36e-4940-ac55-80822a93816c
+722f462d-f939-4bc1-aae4-8f78b1335a87	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-41-2571	8f89dc5b-d0c0-45e5-b551-7f1b3ad60cc7	25467	8f89dc5b-d0c0-45e5-b551-7f1b3ad60cc7
+73b1136f-c4b6-472a-b21d-2c789bd53d26	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0069	ca987bc5-e559-4785-a128-bbdb404019f5	36374	ca987bc5-e559-4785-a128-bbdb404019f5
+7751fc13-ec33-4057-965d-3b2ac6183344	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0775	8a5e570a-c11a-4df9-aa9f-9d5a0a7f78f9	36418	8a5e570a-c11a-4df9-aa9f-9d5a0a7f78f9
+7772b164-bd95-4dcd-981b-26158a31d67c	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0512	e17b73b2-0b8a-43c1-983e-8a37931652f2	24176	e17b73b2-0b8a-43c1-983e-8a37931652f2
+77d4d3ef-3fe0-4f93-a863-b5840926576c	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-1093	8c1610fd-f16a-48d7-b739-99b4cafc3773	56563	8c1610fd-f16a-48d7-b739-99b4cafc3773
+74331114-65b1-4697-abc4-4769ff377528	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-1395	b15443b7-f511-42fc-ab94-e1adf8ae5432	29530	b15443b7-f511-42fc-ab94-e1adf8ae5432
+79a68b32-29a3-47bf-9b2b-643ec7323d73	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-2486	60ff9172-b6bc-43b6-b86a-7d4f2ceb8df6	46159	60ff9172-b6bc-43b6-b86a-7d4f2ceb8df6
+7fe37feb-e205-4524-8c98-1f9ac5fe0700	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-0790	0c67110c-18e0-4e0e-9481-a498f73ef49e	40653	0c67110c-18e0-4e0e-9481-a498f73ef49e
+7ffeaa19-61c5-4af1-aafd-36ec65cf4768	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0394	677a666e-960e-4587-b09b-2114c9e13681	48770	677a666e-960e-4587-b09b-2114c9e13681
+7d5c3699-ce28-4129-8391-736f670e8beb	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-0865	c38aa628-c5c6-49a7-9846-3e4eeceeed23	49074	c38aa628-c5c6-49a7-9846-3e4eeceeed23
+872cb8e8-cd79-4c0b-9b54-5553b07a6ca6	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0353	1de94661-6810-4060-ad90-60b1e0e7361a	41266	1de94661-6810-4060-ad90-60b1e0e7361a
+92f323c8-dae4-4fdc-a108-148ddc238d1a	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-76-6662	6d2c3aa1-3033-4bee-98a0-0f774578a437	43563	6d2c3aa1-3033-4bee-98a0-0f774578a437
+8df94420-c736-4a36-b001-5dbe3dff17f0	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-76-4926	c8a3b875-0555-4e42-944c-a697f7c5fdda	29974	c8a3b875-0555-4e42-944c-a697f7c5fdda
+94d1e2d5-319a-44a4-849d-9434432339ed	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0338	ba8bc0c7-26f7-4f8e-9ac8-4764234a5f23	19090	ba8bc0c7-26f7-4f8e-9ac8-4764234a5f23
+97686ab2-3b7e-4b21-9bf3-9a5a01709e04	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-1086	36ae8984-669b-4a5e-854f-f20036aca163	28520	36ae8984-669b-4a5e-854f-f20036aca163
+a1eca6d7-09ba-418a-a787-77be67e672dd	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0027	2ad416c6-ddd8-43c8-82a1-9dec6044f869	54008	2ad416c6-ddd8-43c8-82a1-9dec6044f869
+9d1d9ae5-4640-4060-a207-c9c5b0e905e1	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-76-4927	48207a14-eb18-416a-8533-987a011ad53b	20823	48207a14-eb18-416a-8533-987a011ad53b
+a210407e-b7de-4e27-84b2-9dcc5f9e6e63	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-16-0849	4afc956c-3cb0-4c96-a183-010c623313d9	22022	4afc956c-3cb0-4c96-a183-010c623313d9
+9e2efb07-826f-4efc-8c69-8625cbc708a6	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-76-6285	252d4814-d854-4651-98bb-269b6a3f2f12	23511	252d4814-d854-4651-98bb-269b6a3f2f12
+98dd5ea6-8d40-4963-bbae-2d37001d71c8	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-1087	ff9ca5ad-8457-4bd0-b698-ddead72f1c81	30305	ff9ca5ad-8457-4bd0-b698-ddead72f1c81
+9f004b8a-f202-419d-a4d8-01f9430eaca5	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-1805	27f146d4-4e30-4aa7-ad8c-388261b48cd9	50390	27f146d4-4e30-4aa7-ad8c-388261b48cd9
+a2338b30-f511-4163-af3b-1e4a40ff00e1	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-0787	a40b23c8-3215-47c3-8b70-c2ed107abb80	29338	a40b23c8-3215-47c3-8b70-c2ed107abb80
+a8d708ab-6388-4d42-bc6e-05a8a718ecff	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-41-6646	96be6b68-26b8-4453-9194-872ae1745d5c	41802	96be6b68-26b8-4453-9194-872ae1745d5c
+a9a0bad8-6074-4a7c-9f9e-7dbc1de01def	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0657	0bb6d899-dbbc-4598-bb17-dfec4ed5952e	17252	0bb6d899-dbbc-4598-bb17-dfec4ed5952e
+a61e88cd-5121-4e6e-9319-2978071547c3	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-27-2527	c8158832-7a43-4358-a0da-534bef1a9f49	39600	c8158832-7a43-4358-a0da-534bef1a9f49
+ace727ec-036b-4ddc-9af8-eecf70ec6b46	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-32-2491	6e7c3ddd-d07a-4802-87c6-1e363a6b2e26	36335	6e7c3ddd-d07a-4802-87c6-1e363a6b2e26
+a79b97df-d7f7-4df4-861b-936f94a1ab30	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-1385	dee3f789-1eee-4697-b163-8c6af7c05287	38418	dee3f789-1eee-4697-b163-8c6af7c05287
+ab327397-a510-4b39-a12e-185c726650ff	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-2631	76035747-609f-4a2d-95d7-eefa335e258b	22423	76035747-609f-4a2d-95d7-eefa335e258b
+a2ac9937-f351-4d78-9261-264bf6c21e0c	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-2483	199c1104-8ba7-4ef2-ac3f-a0b1ba97e2e9	34651	199c1104-8ba7-4ef2-ac3f-a0b1ba97e2e9
+ada9c707-d49c-43d5-bee6-3e00732755ea	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0122	e9c1e9f8-0c03-4153-8c32-9261565b4799	17098	e9c1e9f8-0c03-4153-8c32-9261565b4799
+b0406065-73bd-4370-8133-7a1c7c11eac6	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-A6J4	c329b41c-76b0-4dba-bbaf-4be812fc436d	12123	c329b41c-76b0-4dba-bbaf-4be812fc436d
+b0ac53e0-dcec-4626-b67c-6e027485d27d	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0413	8d6da2e1-1fcc-42a5-a787-6da8c205c063	17358	8d6da2e1-1fcc-42a5-a787-6da8c205c063
+b0ebaa85-476c-4f44-8b23-5bab107454a9	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0516	661c6329-7f2f-4875-8319-594f056f1a39	30568	661c6329-7f2f-4875-8319-594f056f1a39
+b196f82b-ef3f-4e05-99f7-da5df65e691e	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0075	ec16c9c5-12fc-4891-a4fd-42565ead8a4b	30214	ec16c9c5-12fc-4891-a4fd-42565ead8a4b
+b1c4579c-72fa-4974-830c-b6a81ace45f4	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-2554	2fba9ea2-0880-496b-ab59-a5d78e740751	30277	2fba9ea2-0880-496b-ab59-a5d78e740751
+c1a00516-091c-480b-991e-7db4e0a30aea	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0776	b835382a-4f86-44f5-a5a5-cbe290fff9ce	48660	b835382a-4f86-44f5-a5a5-cbe290fff9ce
+c1f590eb-21ed-4939-adc5-0f7e6f485b56	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0009	60abea71-cafc-400c-ad4a-84898e96d8a6	20963	60abea71-cafc-400c-ad4a-84898e96d8a6
+b28b3575-8097-4a97-b32a-5f0eeff64863	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-6697	e1fc083f-7f65-4c16-b839-8bbe30c18cab	48839	e1fc083f-7f65-4c16-b839-8bbe30c18cab
+b2a01580-d18f-40b5-875b-93e9c000b0e1	hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0521	7d097fb7-51aa-4b33-bb7d-74cd73341ff0	40271	7d097fb7-51aa-4b33-bb7d-74cd73341ff0
+b37d944c-c65c-46d6-bb8b-3eb37cb85b68	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-2570	bd954a27-2c4a-4b63-b109-6e3f9386e227	40239	bd954a27-2c4a-4b63-b109-6e3f9386e227
+c5718c27-cef6-4612-a7cc-42d0e0c51a1a	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-1746	b4682ebb-60a5-4e21-a0c6-5b716284c491	17393	b4682ebb-60a5-4e21-a0c6-5b716284c491
+c46d44e2-182a-4692-a8a8-0a95112c2c64	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0509	c9c4be81-6615-4000-acc1-076b0db16896	12014	c9c4be81-6615-4000-acc1-076b0db16896
+ca893d12-3d6c-4e6f-b0e7-7f4eb8bb724b	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-2559	a48fdc30-d277-4230-a33a-9557fbf7883b	28543	a48fdc30-d277-4230-a33a-9557fbf7883b
+cb4f4617-8260-475d-a650-2f049474b001	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-5214	eec132ce-4b21-4fc1-9c6c-d913b3c92654	100243	eec132ce-4b21-4fc1-9c6c-d913b3c92654
+c970240f-03e2-4395-85be-5eb81a69b710	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-5295	3776fe70-aed7-46b5-ba93-fcdaf8501cae	48833	3776fe70-aed7-46b5-ba93-fcdaf8501cae
+c9b25b65-ef41-4ffb-8b1c-a9e3a3c5cd8c	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0115	f73d4cb6-6911-48fb-ad11-6f06ff3b0a88	37956	f73d4cb6-6911-48fb-ad11-6f06ff3b0a88
+cf286533-5c8a-40f3-9c69-f46264c7893b	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-2558	0f10f81c-4f96-450d-b49d-57c4c7d5fbae	22220	0f10f81c-4f96-450d-b49d-57c4c7d5fbae
+d3d27286-73e1-4cdd-914a-34c210fd6398	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-27-2518	b370fd21-7854-4d84-957a-7d0d370ac926	63180	b370fd21-7854-4d84-957a-7d0d370ac926
+dcc5e92a-8dd4-4909-8f37-98bed374d722	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-41-3392	353d1cc9-a47f-4bcb-9599-68afc0d6df7c	17251	353d1cc9-a47f-4bcb-9599-68afc0d6df7c
+af055b98-be6a-4012-ac64-f1b6539b23d0	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-5408	44fb7a3b-ceb1-4285-baa0-adda16150b42	42722	44fb7a3b-ceb1-4285-baa0-adda16150b42
+d9fcf27f-48e3-43fd-a8cf-3db246cf4221	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-5207	64211996-6fb9-4c25-923d-c03d656c90cf	54959	64211996-6fb9-4c25-923d-c03d656c90cf
+de73fd2a-1337-42e6-b2bc-728e63f2f8be	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0392	6159657e-74f4-4815-88ef-191b91de9d7d	17254	6159657e-74f4-4815-88ef-191b91de9d7d
+e0e1b5b3-6e3c-4b79-aa2a-32b320c3e45a	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-1825	8bd595d5-825e-4ae5-9437-ba9746ce9314	36187	8bd595d5-825e-4ae5-9437-ba9746ce9314
+df3c1d61-79c1-43e9-971a-8029497ffeab	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0003	c3858a17-5a2d-4c4c-9384-86817e308eda	30168	c3858a17-5a2d-4c4c-9384-86817e308eda
+db38e6b7-102f-4670-875f-b327790c70e4	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0104	a43488c4-d8c5-4bb9-9109-5dd1c5b1c4a6	38208	a43488c4-d8c5-4bb9-9109-5dd1c5b1c4a6
+df4168bd-9f94-4323-9c33-a446a9fae999	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0773	fca44e95-c7ea-4529-a312-484f088bd78e	123790	fca44e95-c7ea-4529-a312-484f088bd78e
+ec1791b3-0192-45da-89c1-f942a6736704	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-2506	90d0acd1-2bf0-4462-b3e8-0a4ac6b47532	44452	90d0acd1-2bf0-4462-b3e8-0a4ac6b47532
+ec56b685-022b-44b4-8051-d8bbbcc17ee0	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-5950	b43da449-2191-47d3-90c3-d43f8faef77c	57504	b43da449-2191-47d3-90c3-d43f8faef77c
+e4aafd82-fd32-4a52-96fe-21a21297849f	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-26-1443	d9e05c9f-3a9e-4f37-86ef-c0994c883a0d	36672	d9e05c9f-3a9e-4f37-86ef-c0994c883a0d
+e5c9b14e-3bc7-4892-bd51-4cd1599819ec	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-76-6283	bba4504e-3d56-4925-9bab-e32a8513eaf9	17422	bba4504e-3d56-4925-9bab-e32a8513eaf9
+e67edc2e-5de7-4d3c-ba47-e8558a0b9f5a	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0654	b115bcbd-71ca-4736-84fe-090c78d5fbe7	36134	b115bcbd-71ca-4736-84fe-090c78d5fbe7
+b92047e1-8a76-46dd-baa7-6e629cfaebdb	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-1749	949014b7-581a-4ff1-b78a-5aa0198612b2	42627	949014b7-581a-4ff1-b78a-5aa0198612b2
+b98184b9-6190-4e95-a1cf-8cffb44b9963	hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-1753	8f1baa0c-8495-404c-a130-26329b40ac9a	22294	8f1baa0c-8495-404c-a130-26329b40ac9a
+4df7d5e4-f762-4e80-b9d1-96ec21fb43ca	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0054	86e26a1b-c9ac-41ec-808b-8bd484a404ed	54018	86e26a1b-c9ac-41ec-808b-8bd484a404ed
+386b629e-fab1-4033-b088-45d6eeb4a13e	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0745	7a41a316-a803-4876-b815-989d6c3def22	19262	7a41a316-a803-4876-b815-989d6c3def22
+4f50397e-c4bd-4408-b6e9-776b8a14c8a9	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-1089	27fb73b3-99f2-4872-8595-d51b8dd08ef1	28310	27fb73b3-99f2-4872-8595-d51b8dd08ef1
+51e5a60f-e7b1-4b8b-b0b1-447c28940fe6	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0522	b685b110-bff6-4b41-885f-a8e8ea9eda5b	56425	b685b110-bff6-4b41-885f-a8e8ea9eda5b
+38dd826d-06dc-4a73-b852-c3d78c9c3ff4	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-1821	e63e1246-c138-4bc0-932d-0ec292bc5f73	42208	e63e1246-c138-4bc0-932d-0ec292bc5f73
+397ddfb9-288b-48ce-be18-853409d8ae51	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-32-1976	d7df6775-b415-490c-8bfb-b840d6e31945	17353	d7df6775-b415-490c-8bfb-b840d6e31945
+522808a2-f19d-4fab-b67e-0c31ec54b757	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0650	99a06d8d-7a05-4774-a868-3e9c36dd7915	85437	99a06d8d-7a05-4774-a868-3e9c36dd7915
+535efef2-f2db-4888-9a8d-13caa8e1e6ef	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-16-0848	cae63804-4251-499d-b155-f6180c6b5d61	25887	cae63804-4251-499d-b155-f6180c6b5d61
+3a3fc890-1985-4353-861b-dc3abfb364b1	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-5416	8b2f7237-2dc8-43a6-9344-6042e4496780	28485	8b2f7237-2dc8-43a6-9344-6042e4496780
+3a56ef5c-9259-4cdc-905e-5fcf21dac09b	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-1789	16584103-f7f4-4116-8c9c-67793cab1d04	28413	16584103-f7f4-4116-8c9c-67793cab1d04
+3ac8f759-2df0-4ef5-913f-ce05b8dd8937	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0004	b5141018-d3e2-4f92-a9c1-d9b2cb7dc2af	36346	b5141018-d3e2-4f92-a9c1-d9b2cb7dc2af
+548c3d4c-7993-40dc-bd02-5bb304188d28	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0357	87654485-a0ba-43db-bb13-b993037de7d8	117226	87654485-a0ba-43db-bb13-b993037de7d8
+3c5e7a3f-29b3-4af4-9023-dc7b151f0445	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-1755	bd7f8288-5e66-4449-95c5-158bbc1e8cf7	28559	bd7f8288-5e66-4449-95c5-158bbc1e8cf7
+54b4c27e-aaa6-4a79-b289-0ba251a5460e	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0332	aea0ac7e-2aa7-4411-a8a9-40f35e62e613	42376	aea0ac7e-2aa7-4411-a8a9-40f35e62e613
+54ee59ef-faa5-4ba8-957c-968bac78426a	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0324	cb1bad7f-bc4e-4064-93ba-d46dc3666eeb	19073	cb1bad7f-bc4e-4064-93ba-d46dc3666eeb
+5536201c-e739-46e6-8200-0bdcc28ae9ef	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0346	45439a59-99b4-4d21-8a58-0b90f5aa7be8	32131	45439a59-99b4-4d21-8a58-0b90f5aa7be8
+581e04f9-4d0b-4ed2-97f5-2f97ace24928	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-32-4208	4c15b967-46ae-4c62-bdb3-5dac4af26ec0	45883	4c15b967-46ae-4c62-bdb3-5dac4af26ec0
+582f0912-20e9-4790-afd9-1e858728223e	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-32-1987	5b42ed49-e3a3-40ed-8f99-65e928ff183e	50494	5b42ed49-e3a3-40ed-8f99-65e928ff183e
+5a448bf3-8e87-4791-91f2-908307a32ed1	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0052	05e50f02-507f-48a7-a868-bbfc569332de	30224	05e50f02-507f-48a7-a868-bbfc569332de
+567a8bf1-3793-46bc-9943-16302df056ce	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-5219	d9d9d247-a5b3-400e-9617-19a119f38cae	53095	d9d9d247-a5b3-400e-9617-19a119f38cae
+57b703b7-1b83-4c43-bbf6-0eea624c2137	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0345	6bd0e316-520d-4119-9519-6f96eb0c0d73	22291	6bd0e316-520d-4119-9519-6f96eb0c0d73
+33ae5566-3c72-4cae-b516-1708db090e32	hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0011	7d1c6597-a438-449e-b690-a97386e53383	48299	7d1c6597-a438-449e-b690-a97386e53383
+34f216fb-09dc-48af-9e09-7d12cc07c1f7	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-26-5136	3393d0f8-28e6-4353-8d47-d7ab406bdfa4	17142	3393d0f8-28e6-4353-8d47-d7ab406bdfa4
+5a9f6f8d-44c0-4cc7-891c-db0f8758f236	hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0084	5d8589b3-0b56-4492-92b7-b76c77f99e8f	17172	5d8589b3-0b56-4492-92b7-b76c77f99e8f
+350232cb-b9ba-465b-be9a-81afbc6a92e9	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-2514	be40e1a5-0f6c-4f3e-8b36-82e7bcbe51f6	28367	be40e1a5-0f6c-4f3e-8b36-82e7bcbe51f6
+5c890137-e03c-4897-8af4-02aafa2fdb70	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-0867	db88fdf8-4264-492f-91a1-ae17cc4c268f	23364	db88fdf8-4264-492f-91a1-ae17cc4c268f
+603d2b61-b636-4054-ac95-ab66dabb3b48	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-A5U0	3a7c52e7-3b08-4465-b433-7675bbd59021	48894	3a7c52e7-3b08-4465-b433-7675bbd59021
+5d2487b9-e0cd-40fc-a158-7b1803c8dc88	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-1458	da7051c8-73af-4170-88ec-0b7038f19179	54317	da7051c8-73af-4170-88ec-0b7038f19179
+60e47b7d-c664-46c0-ac13-db688d4b8a58	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-3477	9aa5e36e-685a-4e4a-a5f8-ab6b27024544	40635	9aa5e36e-685a-4e4a-a5f8-ab6b27024544
+357e2b63-6876-4c69-9728-c52fada81970	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0143	726c0ff1-4536-4222-812b-623153dcca64	21057	726c0ff1-4536-4222-812b-623153dcca64
+3726b315-6cf8-49a3-a581-b7f3f4ca6e16	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0772	ba841049-6725-45dc-b08b-edb38f809322	116254	ba841049-6725-45dc-b08b-edb38f809322
+61e00782-b709-43b1-a164-ee7f89c867e4	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-5951	a0d7c743-e8b9-4e2e-8073-addc0856f402	28580	a0d7c743-e8b9-4e2e-8073-addc0856f402
+6573378a-ad14-4654-8810-9f3bd3597bc2	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0188	fe7d139a-508a-4ac5-91ff-fc64b7510fd7	79795	fe7d139a-508a-4ac5-91ff-fc64b7510fd7
+61ed8fbd-b753-451e-9683-edd4b266b0f3	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-1827	183a483b-0858-4f13-b1d1-80eabad88541	35430	183a483b-0858-4f13-b1d1-80eabad88541
+65a48904-9532-4dfb-8e84-4deef1881197	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0688	db3e4a49-c666-4d1d-bb4d-73637150ed7f	66979	db3e4a49-c666-4d1d-bb4d-73637150ed7f
+620282f9-f932-4335-9c7d-ece53dcaf7a1	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-2569	a0684622-5c5e-4e90-97ee-22f03dbcf4bb	17352	a0684622-5c5e-4e90-97ee-22f03dbcf4bb
+68749001-c4c2-415d-830c-07e39c3a504a	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-76-6192	27ea0b76-7605-4def-9d89-33f63d5690c8	30331	27ea0b76-7605-4def-9d89-33f63d5690c8
+64d871cf-9205-4835-baf3-988899e56cbd	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0271	be7a846b-6456-4141-af23-0c7ab20150ad	17009	be7a846b-6456-4141-af23-0c7ab20150ad
+64fa7f09-724a-45ee-a802-09e4affe077e	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0518	8b9e72ec-1d04-4cae-a1d5-0832a2692cdd	24157	8b9e72ec-1d04-4cae-a1d5-0832a2692cdd
+6879e9da-dacf-48b3-8e95-760796f96a1b	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0317	ca3b2977-3abb-407d-aa79-f39d38790bd5	29915	ca3b2977-3abb-407d-aa79-f39d38790bd5
+66a03e91-77c7-4aef-a825-6deef805640c	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-74-6575	56780918-f492-485f-b355-3a80a0d90666	63645	56780918-f492-485f-b355-3a80a0d90666
+697afd24-9632-4244-a455-f95b1fa4f0bf	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0015	94f18c1f-23bc-4d45-8390-c018ce4bd2ba	37955	94f18c1f-23bc-4d45-8390-c018ce4bd2ba
+8e6b9705-e9d2-4fbc-ac03-35c1a5115eef	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-5220	9dc74866-947d-4d79-a077-f049dbf934cb	63336	9dc74866-947d-4d79-a077-f049dbf934cb
+8c3b2851-fced-473c-9c11-731eb66d8f3e	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-76-6191	f3c4b89b-bd65-43f2-9b0a-840e10a36424	46329	f3c4b89b-bd65-43f2-9b0a-840e10a36424
+9853c6bb-a42c-4698-abe5-f3c897ebc8f6	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0214	c21a76de-a185-414e-a70a-14db69d47fea	42693	c21a76de-a185-414e-a70a-14db69d47fea
+a05c4aca-5b7c-452a-a92c-f252539f9e9a	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-1098	09c1f6a7-0c2b-4db3-bfe6-4412d026c5de	30318	09c1f6a7-0c2b-4db3-bfe6-4412d026c5de
+a0700d6d-df7b-4327-8738-97b8ad08fd4c	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0240	03ee086c-a93f-4afe-ac72-a7838c484837	61688	03ee086c-a93f-4afe-ac72-a7838c484837
+98d3ae4b-1f14-4067-ac60-7eaace5007f2	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0412	71c190ff-f3af-448d-b29a-6ef6f7f69e90	42399	71c190ff-f3af-448d-b29a-6ef6f7f69e90
+a589e2dc-7649-492c-9569-592698acaa6f	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-0957	d5b65891-aee5-43b5-9166-0a6b2a7eb212	75243	d5b65891-aee5-43b5-9166-0a6b2a7eb212
+c184c3ca-7ad3-4202-b108-cb9fd5f5d947	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-41-5651	2be096ff-2e4f-4c42-b857-c95a26cb691a	69022	2be096ff-2e4f-4c42-b857-c95a26cb691a
+b1ce95bf-7441-4aac-8131-19a177d2b8ac	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-1800	f709f0e6-c9d4-449d-ac90-a2fab0ddf618	32212	f709f0e6-c9d4-449d-ac90-a2fab0ddf618
+c2f7f72f-13ae-4efc-9cda-69ca037b4498	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-5216	6ddfcede-377c-448c-8b11-9afc6674014d	55493	6ddfcede-377c-448c-8b11-9afc6674014d
+c3432b21-d2e9-4caf-9c8e-c6a8d92b195d	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-0866	110e01b7-6f8f-4d2c-9615-54be525c57bb	38176	110e01b7-6f8f-4d2c-9615-54be525c57bb
+c34760a2-f70e-48c4-a7c2-eb359f8aeb71	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-32-1982	f0d013b5-4a22-42d8-ae7b-62536ba21e43	23528	f0d013b5-4a22-42d8-ae7b-62536ba21e43
+c7b317a4-f5ba-4bd5-bbde-fd09418d3dee	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0531	21f25d93-fdba-4a5a-a29a-117ee6491cb7	34628	21f25d93-fdba-4a5a-a29a-117ee6491cb7
+c472482e-225d-4ab0-8ba5-b659e7ff3e89	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-76-6282	e92a41c4-3c52-4c58-9ae2-fc1b9e5791c1	38523	e92a41c4-3c52-4c58-9ae2-fc1b9e5791c1
+c7b4fd72-b45d-4524-8424-983120abfec0	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-2565	1e1b12bb-811b-4ee4-a62b-6b7a7333866f	88173	1e1b12bb-811b-4ee4-a62b-6b7a7333866f
+c4ff28e5-9de7-43df-89a2-6832b8a0c00b	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0656	1e151e34-944e-4042-a408-a46ea8d2650d	81155	1e151e34-944e-4042-a408-a46ea8d2650d
+ca9ad9d3-0ac6-403a-98a2-f679d0ee009e	hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0266	6698c033-b2af-4308-ac3a-02c4640ace1d	20859	6698c033-b2af-4308-ac3a-02c4640ace1d
+c931f3bd-74c5-4ebd-bc0f-c7c6becd25ab	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0686	3e3c90a0-d757-4596-8b86-b7036ff9fa07	81695	3e3c90a0-d757-4596-8b86-b7036ff9fa07
+cf6689b9-d0fa-4461-a6b7-db477629e258	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-5211	0259f964-0da3-4307-8576-b8652d8fd7f2	73240	0259f964-0da3-4307-8576-b8652d8fd7f2
+cb9f842c-9bf5-48c3-8d3e-b344b1b6c190	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0939	5824541a-62c2-4a27-bd5f-3fdacee3ddfe	39012	5824541a-62c2-4a27-bd5f-3fdacee3ddfe
+cfc44ad0-c915-43f6-ab03-e0e67b735185	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0269	c5ad24bc-f81f-4eba-833a-52318969d570	19011	c5ad24bc-f81f-4eba-833a-52318969d570
+d0b7d446-5488-41a2-a22a-c1e00a009482	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0106	9da5473c-c344-4af2-93f8-140207d073cd	42311	9da5473c-c344-4af2-93f8-140207d073cd
+d0fe540c-8e4b-4d97-8966-5899dea8555e	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0064	432d4bf9-5725-469c-acbf-1f9d0f640490	44019	432d4bf9-5725-469c-acbf-1f9d0f640490
+d1547b99-3c96-4c62-8261-5111bcf860a9	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-5858	a18dad74-a763-440e-9d3a-dccf1b8838c5	48859	a18dad74-a763-440e-9d3a-dccf1b8838c5
+cdfcf14d-ed6c-419f-88f5-e7dee96fcaf6	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-0736	9ba4f981-7c29-4b79-b4e3-e80e26d733e1	50280	9ba4f981-7c29-4b79-b4e3-e80e26d733e1
+d6a48eb1-7c20-4ae3-ae35-b6b641238ef1	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-2561	274f3d56-47eb-44db-a429-e55a541bafcb	88134	274f3d56-47eb-44db-a429-e55a541bafcb
+adc0c9c3-002a-4fab-b148-e162020ad051	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0016	75f46d3a-70bd-41d9-b367-1301e34cee15	35509	75f46d3a-70bd-41d9-b367-1301e34cee15
+d73ca945-b60b-4b5c-ac53-7ef2602a4951	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-26-5139	65646e28-7648-40ad-8cfc-b85add6a5765	17491	65646e28-7648-40ad-8cfc-b85add6a5765
+ae5b2e48-d186-4e77-a797-dcc3b3ca4847	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-2566	23275eb9-a5a2-4be7-8d5e-a53354368b72	34703	23275eb9-a5a2-4be7-8d5e-a53354368b72
+dc624b20-2854-4235-ae7e-672156ee30e3	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0350	e9427d97-7b64-4dbf-b09b-089ce5496929	41217	e9427d97-7b64-4dbf-b09b-089ce5496929
+aef8439b-2797-4c3a-b822-fcf640d200f6	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-1090	b9fc4990-11bd-4743-90ab-817bf2c8467d	40801	b9fc4990-11bd-4743-90ab-817bf2c8467d
+dd76930a-1678-4b70-9864-730534174d41	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-27-1832	b33857f5-6900-489e-82bc-58f3eefb203f	42501	b33857f5-6900-489e-82bc-58f3eefb203f
+dae7e5c3-0b17-419c-a5fc-3bb271222bce	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0828	a2234e30-a238-42b0-a557-c07f6605b93a	32250	a2234e30-a238-42b0-a557-c07f6605b93a
+e6e2d4c3-d37c-4de3-ac68-b301800770f0	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-5412	24851f84-c986-46ee-9bfa-90bf848e1793	36500	24851f84-c986-46ee-9bfa-90bf848e1793
+e710230d-16c7-4789-8ef0-dbdf56bb36d7	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-32-4210	1db94b8c-8c90-4382-88a9-763c1fb5da1f	17199	1db94b8c-8c90-4382-88a9-763c1fb5da1f
+e711a200-cdd5-459e-8dc0-1480bd9bc5df	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0079	1718a5e5-2aae-412a-84df-7a43ad37439a	19090	1718a5e5-2aae-412a-84df-7a43ad37439a
+dfc9b5e8-0beb-4118-8990-cf999127cdb7	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0456	acd752f5-e680-44f0-8b07-baf85fe6b933	19079	acd752f5-e680-44f0-8b07-baf85fe6b933
+eb9c8e66-6710-4141-ae28-1e5c88eaee47	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-1794	307ddefb-2ff1-4b2a-9394-4e63de8a6325	28086	307ddefb-2ff1-4b2a-9394-4e63de8a6325
+e3251837-f6f3-4dad-856f-108e20d03dad	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-2562	d785fcc6-d266-4799-933e-3dc98216487a	35760	d785fcc6-d266-4799-933e-3dc98216487a
+ef646014-78a9-43af-b6fa-85fa288cd51b	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-4068	2ed53d9e-8053-4e1f-b3de-6a63b38af0b5	39471	2ed53d9e-8053-4e1f-b3de-6a63b38af0b5
+ea8b757b-3d33-47e1-8657-503cf69939bb	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0524	850bd4b0-9fbd-4d0e-a393-be2d4e3b779e	54394	850bd4b0-9fbd-4d0e-a393-be2d4e3b779e
+f5bc5d97-e054-4e53-992d-71b896bd97d5	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0152	e68949bf-61e8-4d22-b835-bed2567ea7be	50663	e68949bf-61e8-4d22-b835-bed2567ea7be
+f19850cb-50c4-4f3a-ba80-b1464958ffa8	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-15-0742	5b9115a9-0ec1-4e79-9b67-723d5d531049	36241	5b9115a9-0ec1-4e79-9b67-723d5d531049
+d27a7f17-fdc9-4325-b98b-ad6839cc88f5	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-6693	af7483e3-1a7a-41d8-8773-e6356b0f9dfd	17260	af7483e3-1a7a-41d8-8773-e6356b0f9dfd
+dbb601ed-e39c-48a6-aa00-645f740fc6e2	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0347	0d7f5313-5e5e-4398-8ee7-e741d535379d	60196	0d7f5313-5e5e-4398-8ee7-e741d535379d
+dca3a016-5e89-4850-80bf-e78dc19a2453	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-1094	3fc15db5-0a78-4ed0-ac59-a022b7138584	62707	3fc15db5-0a78-4ed0-ac59-a022b7138584
+d8628d35-c4c6-443f-9da2-8517a157f137	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-A60I	4167d4bb-5145-419c-ba98-e0a58d4bf6a9	34109	4167d4bb-5145-419c-ba98-e0a58d4bf6a9
+d59ffef5-f39b-4627-a7c7-6920b99c2408	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-32-1980	71b96491-9d33-4fa4-bc8f-1eea62a39cd9	17254	71b96491-9d33-4fa4-bc8f-1eea62a39cd9
+d6830f6f-7bd5-4d43-81bd-42c64a73dd8b	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-1786	b081dd83-1519-4572-82c7-a5949730aed7	22198	b081dd83-1519-4572-82c7-a5949730aed7
+e17a6048-7a72-42c0-ad3f-97cbff02bc9f	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-2629	7af76f18-a236-4c13-a52b-8c6783c131ba	42638	7af76f18-a236-4c13-a52b-8c6783c131ba
+dfa3ef71-7006-4c6d-81c4-e0c0c7b75c26	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-76-4928	132182a2-af0c-476a-8144-8a30b053eb10	28159	132182a2-af0c-476a-8144-8a30b053eb10
+e1aabb11-f499-445e-a6fd-59a32b3c3531	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0348	a4c2cdc8-c498-4644-84a4-cd51710358c0	53294	a4c2cdc8-c498-4644-84a4-cd51710358c0
+e2e83064-7d1c-4dd5-993f-cc7a5ee228ed	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0743	7728972c-ac85-414c-b78f-4e43d0c42cdf	62950	7728972c-ac85-414c-b78f-4e43d0c42cdf
+e8e43a65-4ec8-4e07-a884-a6989eec28cc	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-3646	d26ea526-8787-421f-b0c5-be7b2ecfd013	75494	d26ea526-8787-421f-b0c5-be7b2ecfd013
+e924d7c6-c98f-4469-8089-70e4ac3ca306	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0520	05803cef-bb87-47c9-997d-3020779fdb8e	34960	05803cef-bb87-47c9-997d-3020779fdb8e
+ed879063-e603-4151-bf5e-22a4ee210281	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-87-5896	3ea7d69e-8a79-4cdc-b5a7-e951b579fe7d	28017	3ea7d69e-8a79-4cdc-b5a7-e951b579fe7d
+ef6f6553-2575-457e-bc07-401215e54759	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0648	d3bfd1ea-7522-4fd3-a2bc-82ef74e714cf	19264	d3bfd1ea-7522-4fd3-a2bc-82ef74e714cf
+b75845ed-a19a-4caa-b362-e62b1e538152	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0827	5f2102dd-11b1-4660-9ceb-7a966f435e4e	79265	5f2102dd-11b1-4660-9ceb-7a966f435e4e
+ea980264-d64d-410a-86dd-c129d7d8d1ee	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0389	8fa3187d-f732-411a-a812-eb1ee6c4a177	34251	8fa3187d-f732-411a-a812-eb1ee6c4a177
+c5e08764-822b-4214-9ce6-f3ec2756190e	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0876	4fe64e21-865e-4527-ac77-0f1749e67942	63699	4fe64e21-865e-4527-ac77-0f1749e67942
+c4171de5-8dac-44bd-a6eb-174f9451dbb7	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-2466	79de16ae-b38d-43d3-9b0f-885b0050eb6a	38419	79de16ae-b38d-43d3-9b0f-885b0050eb6a
+cb58b5fe-ee0d-46f1-8502-1c8bcf729f3b	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-0813	d7da0175-b624-456b-a29c-b1cbeebc0bc5	23364	d7da0175-b624-456b-a29c-b1cbeebc0bc5
+c50998f6-369c-48fe-a8e7-a4c5a4cef0e6	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-32-2494	cc2b004b-fc01-429e-906f-710877918fca	76854	cc2b004b-fc01-429e-906f-710877918fca
+c9e4f0bf-48fc-4600-9e03-314bc575273f	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-5215	e117b7fd-d14c-4cb7-a38c-4c030e4e4b14	60053	e117b7fd-d14c-4cb7-a38c-4c030e4e4b14
+d16ef9d7-9e9f-4dbb-9fb4-f8ceaf699e22	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0037	a05e1c0b-b7fa-4e9e-a95c-f3bbc479680b	19159	a05e1c0b-b7fa-4e9e-a95c-f3bbc479680b
+d1fcd53b-6c55-42b0-9b24-492f8286f5bc	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-76-4934	e7fe06a6-67b0-4c04-b437-657ef31d43f4	17290	e7fe06a6-67b0-4c04-b437-657ef31d43f4
+ca261ec9-888b-47c8-8e71-5a22545d7161	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0820	71c0c022-9ae0-4828-8579-6a635a363feb	79190	71c0c022-9ae0-4828-8579-6a635a363feb
+d6de8d1c-e5ff-45cd-b53e-f943d2578713	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-76-4932	c1a412a7-f7af-4b6e-a751-bc37afdcd5b2	28242	c1a412a7-f7af-4b6e-a751-bc37afdcd5b2
+db5ea0e6-4cac-4f18-8643-32afb1e0287d	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0778	073e82d1-b4ff-429a-a224-66582ff1092f	99963	073e82d1-b4ff-429a-a224-66582ff1092f
+aeeaf19a-3b0d-4c79-a029-44642581f4d8	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-1790	e09e8c50-6e46-4d21-a9c4-76efc2727981	30384	e09e8c50-6e46-4d21-a9c4-76efc2727981
+d540d6d2-266c-48f9-8e73-304389b2060b	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-3651	0cc0eac7-3288-4ed4-a3af-c9f68ff5226f	61183	0cc0eac7-3288-4ed4-a3af-c9f68ff5226f
+d9cae674-1100-44a4-8c61-2f15ea1b6214	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-6389	a7a989d5-7492-4b5f-a6b8-b15912795cbb	34676	a7a989d5-7492-4b5f-a6b8-b15912795cbb
+d558203d-3f70-42d4-accb-008ace280f48	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-5218	e0dd8752-7cb7-4543-876d-f673eade6a8d	44580	e0dd8752-7cb7-4543-876d-f673eade6a8d
+afd3a4dc-a2e5-4545-92b8-a18e72fc9e94	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0167	9946cd4d-b7fc-4bc0-bf4f-65b7f6e38b53	34106	9946cd4d-b7fc-4bc0-bf4f-65b7f6e38b53
+da89dcc7-7453-44a7-b43d-5b3478c5d9a7	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0162	bbf0f347-7d7d-431b-8cce-55965dbf199e	28422	bbf0f347-7d7d-431b-8cce-55965dbf199e
+e876dd29-68b0-4bf1-83d1-488c40068a35	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-32-5222	2ba2ca8f-e3cb-4f68-8f5f-b8c68250cc5f	49346	2ba2ca8f-e3cb-4f68-8f5f-b8c68250cc5f
+eae44c1c-1628-4b58-8b90-d3372e3577d5	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0821	76c8e9ae-e98d-4595-a588-99cafcf70d87	42582	76c8e9ae-e98d-4595-a588-99cafcf70d87
+ec504558-e96a-44e9-835a-7b12680681ed	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0358	cccc6472-c5d3-4e28-8ec3-a0a1c883b38f	68583	cccc6472-c5d3-4e28-8ec3-a0a1c883b38f
+ef36cbd1-5d7d-4756-a628-b5339d41e228	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-19-5952	d2750bac-657c-4476-bcba-5fec6de30ea2	22211	d2750bac-657c-4476-bcba-5fec6de30ea2
+e3953994-0299-4e04-9423-6153b142fb8e	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-A6S1	b8e11f25-01bb-47ab-ace1-8e5ce08bf709	24679	b8e11f25-01bb-47ab-ace1-8e5ce08bf709
+e921772f-f81a-49bc-b35e-3354c94447c0	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0749	c6a27bd1-904e-4caa-9b7f-5e5aeaaa6801	17274	c6a27bd1-904e-4caa-9b7f-5e5aeaaa6801
+ea3b5da2-6a12-400c-bf0f-e442f5ec1132	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0157	a42f8804-3076-4101-907e-ac303922960d	22350	a42f8804-3076-4101-907e-ac303922960d
+e6dee2d7-ca05-44e2-bf25-1068a416bd14	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0245	4552640c-a012-4c00-8199-b918f94523a6	58285	4552640c-a012-4c00-8199-b918f94523a6
+edcfac32-adb4-4fe7-86a0-309d3c6430e5	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0616	e8dcf2ae-6cd8-4a0e-9914-3175bcc86c57	73029	e8dcf2ae-6cd8-4a0e-9914-3175bcc86c57
+eff7f13b-ed32-4e85-a8d0-831b655d773f	not reported	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-0812	67c4e27e-9721-4c52-8af0-e7a08a34ef40	29506	67c4e27e-9721-4c52-8af0-e7a08a34ef40
+f077df02-5056-402f-8522-7198c42bcc98	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-1750	ba63c9fc-56b2-43f0-bd8c-f0a6b32549ca	47514	ba63c9fc-56b2-43f0-bd8c-f0a6b32549ca
+eddbca7a-d668-4c5d-9843-340d7f18e30e	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0238	ea962df2-f4da-4e90-8109-bd1292b553c0	19265	ea962df2-f4da-4e90-8109-bd1292b553c0
+bdb95e64-da10-4f2a-bac9-9a534cf5646a	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0177	db99f164-2257-4f41-bc74-80f2fc6b440f	17440	db99f164-2257-4f41-bc74-80f2fc6b440f
+bdc75722-1076-49f3-8dc7-f2b91e5a15eb	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-1801	eb871047-9394-4857-8b25-2582a20c3f78	50139	eb871047-9394-4857-8b25-2582a20c3f78
+f40e45c8-2042-4844-99b5-b629f20afd58	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-27-1833	eedcad6f-b847-4f19-b173-5b1201f73a01	54911	eedcad6f-b847-4f19-b173-5b1201f73a01
+b7b86c1f-9688-4129-891c-843e3a37b3e5	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-28-1760	d8237936-d593-4d5d-83c3-555efe8bcf13	42106	d8237936-d593-4d5d-83c3-555efe8bcf13
+ee3fc631-1e88-4f70-ab31-335851b38640	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0174	29d25533-117c-4312-b9f7-777f376ec8fc	30433	29d25533-117c-4312-b9f7-777f376ec8fc
+f49b3e5a-6d40-4018-86ae-8396455d8878	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0325	f3175b8d-df05-4594-988d-a7de9d37084b	48358	f3175b8d-df05-4594-988d-a7de9d37084b
+f4fe7c02-be19-4929-8638-960e5776494c	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-5856	a5fe65c0-39ee-4d93-a19c-b66eccef7c2a	17256	a5fe65c0-39ee-4d93-a19c-b66eccef7c2a
+f55a023c-84b8-4f7d-87db-7a9939733c59	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-4W-AA9R	eda3313d-c626-4287-a65d-340af38df2f2	22155	eda3313d-c626-4287-a65d-340af38df2f2
+fcce7f31-a392-4177-8dca-cfbe6e73fc2e	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-02-0038	aa05504f-24b3-4eec-80cc-1e4cb4ed4123	30206	aa05504f-24b3-4eec-80cc-1e4cb4ed4123
+fef02e2e-d4e6-4b56-b8ef-c367b0c920cd	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0826	b5b3edf8-7f93-4bfb-bff2-67a804c375e4	17133	b5b3edf8-7f93-4bfb-bff2-67a804c375e4
+ba383ea6-c885-49f0-bddc-e00be0230a6b	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-2563	cf888ed8-18c3-451c-96e1-5865401d13e2	53235	cf888ed8-18c3-451c-96e1-5865401d13e2
+bb8230b5-f984-4d28-9f10-b3c89bab1c28	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0355	7d8c6244-171b-467c-bb18-a37b5ae8a229	68546	7d8c6244-171b-467c-bb18-a37b5ae8a229
+bc316a17-9d73-4ef3-97e9-c4ac5516b75a	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0158	2dd1635f-0730-48df-acc1-d267415a6952	30330	2dd1635f-0730-48df-acc1-d267415a6952
+bc7a0c8f-c1c1-447c-8019-389e52525081	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-27-1837	4e0ce5b3-27e7-4658-b8a7-003af90fa221	53831	4e0ce5b3-27e7-4658-b8a7-003af90fa221
+f2cef0e2-fece-4499-9f99-c5719aff8b5a	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0150	f36bda90-5cd1-4ae6-88f0-10a7dc10bd8b	38426	f36bda90-5cd1-4ae6-88f0-10a7dc10bd8b
+f6c6e2c9-a3d6-4b81-a421-04ffef6b8744	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-3644	fccf56aa-e168-46a1-b3a4-8dbfb5e19dee	203522	fccf56aa-e168-46a1-b3a4-8dbfb5e19dee
+f7532982-524f-4ed5-9e0d-50d3a7d72c3c	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-08-0356	8504bc5f-590e-4c23-8154-dc7e2b12f680	36449	8504bc5f-590e-4c23-8154-dc7e2b12f680
+bf339349-062f-4ea9-a0b2-d87d3a21099e	not reported	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-14-1402	a0cdcf40-f421-4f4e-8525-4fd1508c3891	74578	a0cdcf40-f421-4f4e-8525-4fd1508c3891
+f7ba48c8-46cf-40a9-8826-7e1f67d57171	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0618	317e73c0-5a9d-4e21-970a-3116718d4a87	34481	317e73c0-5a9d-4e21-970a-3116718d4a87
+f7dd387f-eca9-4028-b296-2ca6d56d3bde	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-0670	cf70808b-ee42-4745-8ae7-9fa6315fcaab	154002	cf70808b-ee42-4745-8ae7-9fa6315fcaab
+f8a5b835-b00b-421e-bdf5-9adb4ee84730	not hispanic or latino	female	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-12-1091	a94583e3-a753-4f41-ad65-4dc5e493bc7a	111426	a94583e3-a753-4f41-ad65-4dc5e493bc7a
+f9ce2045-2821-4843-b5e9-cf7cc7e783d4	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0879	cfa3a710-490b-4fcc-be8c-387d5586db23	108014	cfa3a710-490b-4fcc-be8c-387d5586db23
+fa1f1cfc-9da0-488b-93fe-60aaff99c171	not hispanic or latino	male	Glioblastoma Multiforme	Brain	TCGA-GBM	TCGA-06-0155	66f915f1-1044-414d-97e9-5adcacdc882b	50640	66f915f1-1044-414d-97e9-5adcacdc882b

@@ -1,0 +1,172 @@
+cases.0.case_id	cases.0.demographic.ethnicity	cases.0.demographic.gender	cases.0.project.disease_type	cases.0.project.primary_site	cases.0.project.project_id	cases.0.submitter_id	file_id	file_size	id
+03a9dd9d-62ae-4acd-9272-389274858f3d	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AF-3913	52e34de2-0386-4244-a707-8f3a02db2ac1	41444	52e34de2-0386-4244-a707-8f3a02db2ac1
+bd818ae4-b31a-4616-9303-b8aee56a848f	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AF-A56K	3bde38bc-b0e4-483c-9ce5-3463f35200d7	32218	3bde38bc-b0e4-483c-9ce5-3463f35200d7
+d63a90d4-730f-4916-af02-d06854221d7a	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-4009	16ced49e-1ffb-4f64-9eaf-921259028483	29083	16ced49e-1ffb-4f64-9eaf-921259028483
+a744d4a3-f99a-46ce-9b3f-8ee8835e67ec	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3605	aa155ba3-0ee1-49a1-b9c2-69ec9d61c4d9	24279	aa155ba3-0ee1-49a1-b9c2-69ec9d61c4d9
+71a32fca-d48f-4ea3-8df7-69f9dda8fa91	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AF-2692	bc0bfa6d-310c-4539-b5e6-6d621f81844f	47862	bc0bfa6d-310c-4539-b5e6-6d621f81844f
+51c37449-6a2e-4c3d-a7cc-06f901e1224f	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-A014	64a2450f-516b-492a-a24b-f5cda949817e	24221	64a2450f-516b-492a-a24b-f5cda949817e
+d8bfcc67-f5c3-42cd-9fc4-bd483f896da1	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-EI-6508	0e7d8ef0-731d-4784-a11b-4fb1b0d4ddb0	35460	0e7d8ef0-731d-4784-a11b-4fb1b0d4ddb0
+fb632146-92c7-40d9-acc3-6dc4a2d499be	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3611	1b46f329-1c4e-492c-a6c7-1c09920a563e	40915	1b46f329-1c4e-492c-a6c7-1c09920a563e
+594a52b0-c929-4e50-ae27-7542e32667ae	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3580	1057d17e-7fec-47c1-87b0-fd593aedeff9	29133	1057d17e-7fec-47c1-87b0-fd593aedeff9
+c69dec57-7a84-481b-bcfe-61a771d0a9d1	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3602	2bb970fe-0a48-423e-8f70-82d2a4086c1d	24327	2bb970fe-0a48-423e-8f70-82d2a4086c1d
+0a2cb2f9-972c-450c-8b7a-115a4cb93658	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-G5-6641	af29008b-f76c-4b27-9ccb-4c4cb2504b67	48091	af29008b-f76c-4b27-9ccb-4c4cb2504b67
+b26143d3-d458-4d5c-8446-fd2f05707352	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-CI-6620	71e30862-ee7c-4ac1-a3be-91a26ec52af4	48659	71e30862-ee7c-4ac1-a3be-91a26ec52af4
+a8a5553c-bfe1-4d5f-aacc-5549ded3f91f	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-EI-6513	041475e3-6722-465e-90c7-bb8d67b62514	29362	041475e3-6722-465e-90c7-bb8d67b62514
+6bc056f2-f06e-428f-aebc-85b780d880ed	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3598	af566575-3776-424f-963f-e48c2623e590	29135	af566575-3776-424f-963f-e48c2623e590
+81dac02c-6e5f-4afe-9c90-12b5a4f26594	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3609	aa36885b-5628-4def-a668-df723542e9f4	46627	aa36885b-5628-4def-a668-df723542e9f4
+3124e819-292b-48e7-baac-8c5c4a86dc20	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3581	280895a5-2c5b-4b70-9268-d81637e3e8fe	29132	280895a5-2c5b-4b70-9268-d81637e3e8fe
+c9632a8b-dcfe-4480-a8ad-482f55b8cfa2	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3587	a95e6d4b-b2c8-4a7b-b475-571543cecfad	36110	a95e6d4b-b2c8-4a7b-b475-571543cecfad
+16a9e1c5-85c2-4930-a16c-af59114bac9a	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-DC-6683	dcd03bcc-f663-4281-9ad1-d28f4fd2ad8c	65147	dcd03bcc-f663-4281-9ad1-d28f4fd2ad8c
+1543c1da-bde4-41c1-a510-56b62db8cca8	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3612	3bcecebd-dcdf-40d6-9f66-2bd75f47bf38	46780	3bcecebd-dcdf-40d6-9f66-2bd75f47bf38
+9f4574ec-a58a-4410-8735-c5e5bc4ca7e0	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-A00H	c23b3d22-3ef8-4eac-acc6-e5ae5d42a39f	42278	c23b3d22-3ef8-4eac-acc6-e5ae5d42a39f
+ba902e78-752f-4248-9a59-ea08475c961b	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3601	ffc0a402-4412-4a35-9942-d058ffe0a336	24277	ffc0a402-4412-4a35-9942-d058ffe0a336
+1388bba1-02ba-40df-93e5-c3d58b7bbae0	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-4015	6b7b0a6f-4caf-43fe-aedd-dba9fa08bdec	24225	6b7b0a6f-4caf-43fe-aedd-dba9fa08bdec
+856a490c-c6da-48fe-88b5-9fde0f481365	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3728	722d4422-ecac-43ac-990e-63f77abdf1ad	46669	722d4422-ecac-43ac-990e-63f77abdf1ad
+1118490d-75aa-43cc-b2a2-c2af61829ffc	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-A01N	3ae903dd-0f1c-4f0a-94ef-2b3639d17fec	46637	3ae903dd-0f1c-4f0a-94ef-2b3639d17fec
+0011a67b-1ba9-4a32-a6b8-7850759a38cf	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-DC-6158	ae418439-fb8b-461a-a002-c24a4ed72a14	34013	ae418439-fb8b-461a-a002-c24a4ed72a14
+093ca3a7-f545-468a-85ed-a35c3da03628	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-EI-6510	915156c8-f65e-4e87-94db-3851becb80b5	29169	915156c8-f65e-4e87-94db-3851becb80b5
+0b6b1937-4024-4f2c-aeca-46387277755f	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-EF-5830	34642475-5e26-4b62-b004-0f6b738f4572	29215	34642475-5e26-4b62-b004-0f6b738f4572
+065b26fc-6827-44d5-83d8-1100c63fcda6	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3894	8386f10b-7822-4907-ac7a-320d0e379653	39719	8386f10b-7822-4907-ac7a-320d0e379653
+0cb21fb0-520f-4105-99ec-697a335115b5	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-EI-6917	394e3184-14a0-4582-9255-4a68e609cb9c	35565	394e3184-14a0-4582-9255-4a68e609cb9c
+182fe81e-9c96-4824-8a8a-28f7c498020f	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AH-6897	28c4a9ae-1bcb-41f1-b816-c1cb7ed6d8c2	29477	28c4a9ae-1bcb-41f1-b816-c1cb7ed6d8c2
+261925e3-96e4-440c-8e95-c003d44ab2f2	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-DC-6156	31747faa-a34a-4298-9d19-35b1426d9067	105951	31747faa-a34a-4298-9d19-35b1426d9067
+2a7903cc-345d-48f7-9fec-b4a5f09f8002	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3599	463db5ce-12b3-4438-8e0f-9ca331359331	29090	463db5ce-12b3-4438-8e0f-9ca331359331
+2b1783da-9ede-4590-b96a-6b0eabc8777f	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-EI-7002	8b82b312-807c-4d85-aeed-1b639c3cbe57	35563	8b82b312-807c-4d85-aeed-1b639c3cbe57
+3165bf70-df19-4043-bcfc-9ae92197ef72	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-EI-6885	29d6bda5-ea1c-4a12-89fc-d8d02f5b83aa	38183	29d6bda5-ea1c-4a12-89fc-d8d02f5b83aa
+398da5c2-d9f2-4eb4-9813-21009d3ad048	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-CI-6624	48f2ad54-c97b-4f7a-a722-19183df2ed0f	28508	48f2ad54-c97b-4f7a-a722-19183df2ed0f
+3aecf83e-c614-4ffa-8c82-1b5dadf6509e	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-EI-6881	399be6df-1688-4218-9a72-367665ca291c	35610	399be6df-1688-4218-9a72-367665ca291c
+3b55aa84-9fdc-4125-8d39-d8949de2a1b3	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-CI-6619	c3525e4c-4441-4f20-8172-1a16524478d1	28361	c3525e4c-4441-4f20-8172-1a16524478d1
+33e91116-8844-4861-843d-784c70b4a6fc	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-DC-6154	0a0e9121-0ef4-4844-9a2f-3f8ec32fd868	58884	0a0e9121-0ef4-4844-9a2f-3f8ec32fd868
+3be106bc-ba42-4c70-9b50-697d89db617d	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-A011	65692e3f-4b7f-4f1e-881e-0e0ec668f7bc	29130	65692e3f-4b7f-4f1e-881e-0e0ec668f7bc
+3546a93b-b279-4615-9d5f-5baa787e487e	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-F5-6864	3db1e5cf-9f7b-4209-908e-2441e5d8b134	45150	3db1e5cf-9f7b-4209-908e-2441e5d8b134
+3f10de1e-c8ce-415e-b4e1-e50901686a2f	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-DT-5265	d87c2e34-670a-4cb6-8c98-4f7653eff294	33412	d87c2e34-670a-4cb6-8c98-4f7653eff294
+40974ab3-e532-4d6e-9c98-ee640f3976d6	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-EI-6514	dc70009d-9443-47a5-a8e2-06c7458eac44	35399	dc70009d-9443-47a5-a8e2-06c7458eac44
+5af7b4eb-8314-41ce-ab2b-f98054a78a8b	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3583	e647f302-249d-4ad9-80bc-912f12f4dbff	28962	e647f302-249d-4ad9-80bc-912f12f4dbff
+5bc1db25-3e25-44d7-99cb-e31f00cf1d58	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AF-6136	09196c4d-874e-4da9-8d9a-2f24982df9bc	74306	09196c4d-874e-4da9-8d9a-2f24982df9bc
+6221496d-40cc-4071-969f-6fbcba4f573c	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AF-6672	39025548-d9b8-46c1-aa57-dd3780f2241e	69367	39025548-d9b8-46c1-aa57-dd3780f2241e
+634d542b-a72f-408b-9fef-65ef6c45f882	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-DC-6157	ee0cd5f1-b8ef-4207-8009-a33e4a160529	38775	ee0cd5f1-b8ef-4207-8009-a33e4a160529
+60778da8-d99e-4e51-96a2-3e900b3978d9	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3999	07edc9af-8ff5-4cc4-a511-2cad1f712d06	37418	07edc9af-8ff5-4cc4-a511-2cad1f712d06
+644571e9-b8e6-42f3-a2e4-33bad0fac661	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-DC-4745	ecda788c-a0dc-4e25-a822-d6dacaf57d3a	66802	ecda788c-a0dc-4e25-a822-d6dacaf57d3a
+652e503a-1be8-445b-96d6-ff114f911e76	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-EI-6509	40705c61-7ad7-40d0-99e7-e29b9a30d895	38236	40705c61-7ad7-40d0-99e7-e29b9a30d895
+6dafce6c-b2a9-4b23-b9f8-b71e01616389	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-4021	9b675d0d-22d8-47f5-b89e-757c4c9e8ec0	31558	9b675d0d-22d8-47f5-b89e-757c4c9e8ec0
+72756208-a5ed-47d2-8c4c-19a8d39f7b9d	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3731	08f5524f-ac4e-45f0-aa8e-1d0d533b468b	52637	08f5524f-ac4e-45f0-aa8e-1d0d533b468b
+769880ae-34d9-405e-8ea7-33ba47cf2dd2	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3909	847c4421-f543-48a2-8f25-7309c45a942a	46780	847c4421-f543-48a2-8f25-7309c45a942a
+7a285463-76f4-447d-bb04-336bb5ec1009	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-CL-5917	3774de6c-c200-4b87-9f75-39361afd1ddb	29088	3774de6c-c200-4b87-9f75-39361afd1ddb
+830fd359-abd4-4c99-89e4-2d6bb9ce5637	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AF-2691	3d53e078-7a5e-44f1-9570-e53c15128793	33849	3d53e078-7a5e-44f1-9570-e53c15128793
+8b4383b1-a684-41ea-bfb0-c84e6f5b287d	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-F5-6464	786cd7a7-bde2-4b3a-9e72-5c1c99d1e787	29116	786cd7a7-bde2-4b3a-9e72-5c1c99d1e787
+8e00e7e7-ffaf-44f0-91a7-172671f18e08	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-4007	6d9794a9-39de-41fa-9800-e12925e0d248	24325	6d9794a9-39de-41fa-9800-e12925e0d248
+848a5838-8a06-45a9-a3d6-e4ed47b824ab	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-A01L	79aa073c-852f-40da-922d-27901e37daf5	34758	79aa073c-852f-40da-922d-27901e37daf5
+866de12b-e4df-4f19-b62e-e3fd85d4ec08	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-4005	17400a6b-a9ca-4b35-b3e9-3b6f426b263b	46843	17400a6b-a9ca-4b35-b3e9-3b6f426b263b
+9d7e0672-0a9e-4dbf-a583-80f4eb086ec6	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-A025	c8aff7c0-4c39-47bb-82ff-e2b700a8445f	24220	c8aff7c0-4c39-47bb-82ff-e2b700a8445f
+9084b672-8e65-4b7f-a256-32fd35aa8ab5	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-4022	e80598a8-21b1-4556-ba53-5594b151aa93	39825	e80598a8-21b1-4556-ba53-5594b151aa93
+a91f7a8c-e0fe-403a-9ef0-f7679b2761cc	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-A01Y	b9f7e58f-a536-467e-b267-9ff9401c59aa	34853	b9f7e58f-a536-467e-b267-9ff9401c59aa
+a8b974f4-aabf-484d-bfa2-a286b39681e0	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3586	f1f3c406-dc58-4b0b-a244-193430fe9e92	24235	f1f3c406-dc58-4b0b-a244-193430fe9e92
+bd6877a8-06b4-4b95-bed2-15c524068f21	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-CI-6622	6756813a-7c12-4d8f-9fbc-668a207e1604	56342	6756813a-7c12-4d8f-9fbc-668a207e1604
+bf65c2cd-8348-488f-8485-9196ba42d17e	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-DC-4749	10c514a3-c4ec-4226-b1e8-e649767cac28	34028	10c514a3-c4ec-4226-b1e8-e649767cac28
+b6e6e715-ccc5-474f-860a-a10bf1962936	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3883	3aafbaa6-e916-4a7b-acb7-0fea0a3264ff	24275	3aafbaa6-e916-4a7b-acb7-0fea0a3264ff
+d7cb062c-898d-4452-8e87-57262162bafa	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-F5-6465	ae31eee7-a47c-454f-a050-abcc8704955c	38756	ae31eee7-a47c-454f-a050-abcc8704955c
+cbcb2141-b415-4410-8dd7-2a3cd3980a19	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AF-3400	03811a6f-b85f-4964-aa34-d0108b62b9bf	70150	03811a6f-b85f-4964-aa34-d0108b62b9bf
+f9204a59-6877-4d06-a20e-fd7ab0859ed5	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AF-2687	e66b8d4c-308f-4c3c-ad78-db42946cf76f	76928	e66b8d4c-308f-4c3c-ad78-db42946cf76f
+fbcd7e69-533f-4b6c-9868-162139135b58	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3742	75f91ba6-f939-46d4-a2f5-9d73d1ab4dd3	24222	75f91ba6-f939-46d4-a2f5-9d73d1ab4dd3
+ded3feb2-1079-4520-a7ca-f5b5fc73d7c5	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3892	9a023aca-8068-4312-bc64-894b717c0a2e	29092	9a023aca-8068-4312-bc64-894b717c0a2e
+e6827400-0d95-46b0-8874-6ce9e9d5011b	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3727	c349d0f2-eef2-420d-91ed-17ec660f396d	24277	c349d0f2-eef2-420d-91ed-17ec660f396d
+e3a80e41-2e46-4b04-86c6-fd444d616ab5	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-EI-6882	12e31796-1180-4f0d-8a5c-3a60dbc7a2bb	29415	12e31796-1180-4f0d-8a5c-3a60dbc7a2bb
+d461e83a-7f09-4e4c-ac49-f05766a6051a	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3891	9c3ef5f8-3ef2-493c-8be3-250e93b87800	29056	9c3ef5f8-3ef2-493c-8be3-250e93b87800
+ff427104-0727-483c-8513-243dec80db9d	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-G5-6233	3f670903-0b66-494b-abcf-f7b6754ee048	50323	3f670903-0b66-494b-abcf-f7b6754ee048
+2faf928d-453a-4d07-b058-b5d4e1d13845	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AF-2693	62154563-d641-4878-8442-b7071cd0f498	33813	62154563-d641-4878-8442-b7071cd0f498
+a4faf514-50af-43ed-b294-350ee0756250	not reported	not reported	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AF-3912	cc37c311-b1c2-44fb-a9ae-c8ff4fb9256b	22913	cc37c311-b1c2-44fb-a9ae-c8ff4fb9256b
+ec2abe34-6566-4c2f-8d06-ade2e858b301	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3906	1cce7a04-5855-4212-abbc-64ff54aacca4	29133	1cce7a04-5855-4212-abbc-64ff54aacca4
+3bc6e336-f58e-4dc4-8414-7318e55016ed	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-A023	ccc752f6-4cbf-4efc-805d-1f34b8f16b69	31513	ccc752f6-4cbf-4efc-805d-1f34b8f16b69
+e2d395f8-bf13-4fe4-8031-683b0eedd875	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3890	783245ea-2925-4526-8aa2-889b58fdca2c	29082	783245ea-2925-4526-8aa2-889b58fdca2c
+c2ea7b58-cabd-407e-98ce-6cbf9e4d93e1	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-G5-6235	ad2e0efb-6651-4c8b-a2cf-14507b04cfcd	50603	ad2e0efb-6651-4c8b-a2cf-14507b04cfcd
+09daff79-6493-45c1-8cba-9381259e2bea	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-A015	b7604555-0598-4ee4-ae92-f001deb3d2b4	31474	b7604555-0598-4ee4-ae92-f001deb3d2b4
+a46be4e1-260c-4ce9-8b0f-1326d90c697f	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-BM-6198	4df060b5-ae68-4d7f-b480-b0a014d04481	44992	4df060b5-ae68-4d7f-b480-b0a014d04481
+cb005c69-7301-41ce-b534-c9751f1436c5	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-A002	52b53dbe-e48d-47ee-93bf-d3952241bc50	29086	52b53dbe-e48d-47ee-93bf-d3952241bc50
+26964b56-583f-46cc-ab2e-a948bf3e5432	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-DC-6682	cfd1242e-634c-45b0-bd2c-9e89df38f6e9	38698	cfd1242e-634c-45b0-bd2c-9e89df38f6e9
+f2a8deb2-0e2c-4bbd-8fa1-99b7abb2f3aa	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-A036	d8d1c99e-ebaa-435c-9780-2f7a6f73eee6	39782	d8d1c99e-ebaa-435c-9780-2f7a6f73eee6
+a2b6246d-2b80-49c5-968b-694b4e8171dc	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3591	4252c20d-e69e-4a7e-b36c-9a61b90dd6f6	39799	4252c20d-e69e-4a7e-b36c-9a61b90dd6f6
+bcb21cdd-2f57-4df0-bbbe-a74fa5a654d6	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-EI-6506	46c750f3-9678-4539-8740-7f5ebb58da8d	29247	46c750f3-9678-4539-8740-7f5ebb58da8d
+cc2a014b-fb3c-4839-a5fb-6c40e745df1b	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-F5-6811	60c25d61-635d-4bbc-97f4-ef4b7cda608d	29200	60c25d61-635d-4bbc-97f4-ef4b7cda608d
+a424bfe7-5518-4c80-83c8-709a34320bc7	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-A02X	baaffe01-715d-4d1d-9756-2d004f96347a	24273	baaffe01-715d-4d1d-9756-2d004f96347a
+19e46a3d-18c5-4927-8501-2265e2d617b8	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-A020	4d8a4dff-0496-4825-8a3a-d97758a373fa	41839	4d8a4dff-0496-4825-8a3a-d97758a373fa
+2cf90e4e-b952-4a77-aaa9-39e4e2e5c4b3	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-G5-6572	f395ffb1-6a31-421f-ba2d-2278319d65c2	29131	f395ffb1-6a31-421f-ba2d-2278319d65c2
+78499f63-fe28-4b99-9f0e-6002203c4596	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-F5-6861	3ed1ee37-5e5c-4ce3-93f3-5a611530c0db	34058	3ed1ee37-5e5c-4ce3-93f3-5a611530c0db
+17a8d208-fcf6-4480-945c-848d4234aafd	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3600	7c70497e-bd44-44d1-91e8-93382c980742	39822	7c70497e-bd44-44d1-91e8-93382c980742
+db1e3104-8bfd-4353-854a-c478ba1f7d07	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3582	dc16f15d-c0dc-49b3-8b0a-bbc2de25e290	28955	dc16f15d-c0dc-49b3-8b0a-bbc2de25e290
+1586cb0a-081a-4364-9470-46f9d0f0167d	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3901	181a9ffc-ef5a-4601-adbe-75310b385e54	28995	181a9ffc-ef5a-4601-adbe-75310b385e54
+85947797-54b8-44fb-910b-5cd689542994	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-F5-6571	921e8227-29f4-49d2-b474-44b7f6c30d4e	110923	921e8227-29f4-49d2-b474-44b7f6c30d4e
+5d4b9087-fa7b-47b8-9b12-adc0dd1cf17c	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AF-5654	c1cdc955-f7fe-460c-87dd-4b91c1494046	34940	c1cdc955-f7fe-460c-87dd-4b91c1494046
+016c9c14-4c88-49f5-a11a-dd4bc282f11e	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-DC-5337	93a52a51-4f08-40dd-912e-3f42200643ed	38511	93a52a51-4f08-40dd-912e-3f42200643ed
+04178a4f-14b0-45ba-aa3e-f21638e23765	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3578	37134f13-5ad0-4c18-b8a9-8f9ff31494e6	29146	37134f13-5ad0-4c18-b8a9-8f9ff31494e6
+0bb786ee-07cf-4853-9b49-ec95cd14e282	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-A032	800b15b6-d6cb-4bd0-856e-44c26a7b6c47	42153	800b15b6-d6cb-4bd0-856e-44c26a7b6c47
+12f1d449-4da3-460d-b4f3-9e1232440a8b	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3592	9eaecae8-cc7f-47ee-a2ef-35efb2ae3094	29138	9eaecae8-cc7f-47ee-a2ef-35efb2ae3094
+156cb6c6-b5d4-4ea9-9495-fc972cf9c84a	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-CI-6621	6e0dc321-f6a7-4f50-b01a-94648bd646af	28516	6e0dc321-f6a7-4f50-b01a-94648bd646af
+17878cb0-a8f9-43a4-911c-0f94c2a5e3df	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-A02G	0cd62287-0695-4c57-9c4d-6b26e4ac45c1	60896	0cd62287-0695-4c57-9c4d-6b26e4ac45c1
+0eda7373-8335-455f-b90a-8c3540f28088	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3574	c86b0377-8cd6-4ebe-b5b2-be8e8fa09a5e	29004	c86b0377-8cd6-4ebe-b5b2-be8e8fa09a5e
+10290e91-9784-4f94-8daa-b5d9a8b0efb9	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3593	89b039d1-515a-4f18-89fa-db4e8c4d8ce6	39819	89b039d1-515a-4f18-89fa-db4e8c4d8ce6
+17e286b7-7793-446d-b556-1108addb5ba2	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AF-3911	03f0fc1b-632e-4972-99c7-cd4e2e1ce12f	79998	03f0fc1b-632e-4972-99c7-cd4e2e1ce12f
+107cb92b-6231-4e7a-af05-1f5de5981947	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AH-6549	1f79fc17-26ff-42d4-a407-6d4719131c0e	28916	1f79fc17-26ff-42d4-a407-6d4719131c0e
+1e89c189-7c8a-44c9-9b0f-2f625a285003	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AH-6903	fb8a81ba-b410-4c17-baa2-a4c8c57ac83c	47007	fb8a81ba-b410-4c17-baa2-a4c8c57ac83c
+205f30ff-fb10-44a8-a1c6-c538de100db5	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-DY-A1DC	5d80552b-d376-4a98-b848-920969b5246a	42130	5d80552b-d376-4a98-b848-920969b5246a
+21e8c2b7-3a80-4b7e-acec-6ff863f15324	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3726	c30c4ae1-6f98-4107-b5c3-aab7cd43dd3c	29095	c30c4ae1-6f98-4107-b5c3-aab7cd43dd3c
+25b43e40-e1f9-42a0-8052-5138f381eed9	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-EI-6512	32c23e5a-fb78-480b-b65f-a709a17f8719	35532	32c23e5a-fb78-480b-b65f-a709a17f8719
+335d0351-3740-4847-9ff4-be2f078c70f7	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AF-2689	87cc3e96-342e-4c80-8e0d-e59342a21cd3	142038	87cc3e96-342e-4c80-8e0d-e59342a21cd3
+3e97286f-8aa8-4b6a-b339-d7a8e30f60c2	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-DC-6681	a6775e7a-b304-4adc-a042-a9d8004fa6f9	63968	a6775e7a-b304-4adc-a042-a9d8004fa6f9
+468c2ecb-a21f-49a7-91f3-63d3ef266cf8	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-EI-6883	621c616f-3759-40b2-8f49-e8c4c4ec297c	35656	621c616f-3759-40b2-8f49-e8c4c4ec297c
+8c7ccdb0-7653-4a8d-86b6-de39afc40765	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3887	0668873c-6d34-4b73-ac1e-9286d7c287c4	53423	0668873c-6d34-4b73-ac1e-9286d7c287c4
+9c7b5e85-5579-4d0f-a7ea-b9d081ac0037	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-A016	017eaa9b-e539-4c08-b34b-36e8ebe4e08f	46770	017eaa9b-e539-4c08-b34b-36e8ebe4e08f
+a18acb1d-403a-4802-8efb-9085e006f4c5	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-A01J	791abd78-6dee-4fef-a2ff-b1472f05965c	24271	791abd78-6dee-4fef-a2ff-b1472f05965c
+add567b7-29ef-4122-8a54-57d36f735e78	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3893	0014e70b-8ef7-4a46-ae9a-23062efbdf1b	40860	0014e70b-8ef7-4a46-ae9a-23062efbdf1b
+b2c48624-a483-4b1d-9155-c0c80ed2f7a0	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3584	804ea440-013f-41ac-8164-6603a5c96dc7	82051	804ea440-013f-41ac-8164-6603a5c96dc7
+b2db7f47-540f-4bd3-81bb-d686b0225201	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-EI-7004	836aefbe-e228-4e90-a62e-801c37ec6b94	35565	836aefbe-e228-4e90-a62e-801c37ec6b94
+cd05d121-f107-4c8e-95a8-153a84f5134a	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-DC-5869	7e4b20aa-537d-4741-a2ca-0e0627059daa	38773	7e4b20aa-537d-4741-a2ca-0e0627059daa
+c3760fb2-3b8a-4251-a189-21d56fba5017	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3608	367e1ef5-451b-41a8-bdf9-b727515637ec	29131	367e1ef5-451b-41a8-bdf9-b727515637ec
+c3f0608b-d493-4c74-930a-d7998a48a659	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-EI-6507	12781a76-78dc-4f57-8eb1-db3ac6ca9950	29346	12781a76-78dc-4f57-8eb1-db3ac6ca9950
+ce2e0f1c-60ff-4f93-8bba-4f4d3ccac37c	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AF-6655	93e6e234-406c-4fa8-8b3d-7da92c8a824a	35486	93e6e234-406c-4fa8-8b3d-7da92c8a824a
+c8fd1040-82a2-4cda-ac49-c2f82b20cbab	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AF-A56L	132d55d6-89b6-427e-9e99-c7a9f77b972e	54164	132d55d6-89b6-427e-9e99-c7a9f77b972e
+d004a083-6dc6-4db6-96d0-88a8ca3b1b93	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-EI-6511	ac70db2f-e7de-4e58-a13c-058f57354646	35365	ac70db2f-e7de-4e58-a13c-058f57354646
+ca8374a4-ce94-4091-aa9e-44339a7c4b22	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3594	8059e441-c8a2-4838-94e8-2acb9fb43905	29008	8059e441-c8a2-4838-94e8-2acb9fb43905
+e5d7bbd4-4f38-4a5a-9966-f44f8a15a10e	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-F5-6812	28893481-220d-4ea6-ba63-2ae5e124120e	39022	28893481-220d-4ea6-ba63-2ae5e124120e
+d9121e5a-88f2-47a6-a0b1-25735c209e54	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AH-6644	aa49ad71-97cb-441c-8d37-a8cedeb3a329	29040	aa49ad71-97cb-441c-8d37-a8cedeb3a329
+e5e4aa9f-6015-4d62-a088-69920d7f2500	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3885	25f13809-3db7-42bd-badf-7c9b9b03313e	45495	25f13809-3db7-42bd-badf-7c9b9b03313e
+fd798ddf-7273-49b8-b13c-d9909c8c87ff	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3725	bab25dae-ed10-46a9-93f9-db19a5016eac	29277	bab25dae-ed10-46a9-93f9-db19a5016eac
+e7503a51-6647-4cc2-80dd-645d0df4db43	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-A008	4f666660-72d9-40d5-ba55-38e8a233465e	29159	4f666660-72d9-40d5-ba55-38e8a233465e
+ff004403-8cc5-43e6-bd1c-dde4eb1e6193	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-A00C	ec94eabc-1cfd-46f4-823d-7ca2ddf902ca	51457	ec94eabc-1cfd-46f4-823d-7ca2ddf902ca
+eb75ca70-e60f-453f-820c-485390abad88	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-DC-6155	9363621d-0a57-4925-8db1-123054411ec3	59170	9363621d-0a57-4925-8db1-123054411ec3
+f1ce4b5f-55d0-4989-a5f3-6b6e591538b2	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-F5-6702	a5e4db04-7757-47bc-956a-7bcd70d2fe54	56293	a5e4db04-7757-47bc-956a-7bcd70d2fe54
+f49a8e1e-d247-4c76-ac3b-ad8e5d6b8d18	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-CL-5918	29131c3b-eb2a-4786-9d47-944238853ab3	29168	29131c3b-eb2a-4786-9d47-944238853ab3
+3f2ca278-c74a-4aa7-b029-189d9d0b510c	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AF-3914	3398b978-eced-41c0-8dc0-8b411846e5cd	109233	3398b978-eced-41c0-8dc0-8b411846e5cd
+368fd5c9-cd4b-4326-a47b-4d72938cfb8f	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AF-2690	f693de8c-e0c3-4d98-8dc6-4646c8b7d6c0	33408	f693de8c-e0c3-4d98-8dc6-4646c8b7d6c0
+72802851-9340-4c5f-a90b-23b7afd7577a	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-4008	2da1a287-f3dc-4a98-ad9d-c4193bf818c5	40888	2da1a287-f3dc-4a98-ad9d-c4193bf818c5
+31bd8589-378c-40e5-8b7f-3b4c81f304be	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-A026	2357292f-39a0-459e-bb35-39a0bd35196f	24266	2357292f-39a0-459e-bb35-39a0bd35196f
+fdeeff8e-1328-42a4-aca0-a03b97421f1e	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3878	b37c3679-b824-491f-8534-49fbfff57e0d	24274	b37c3679-b824-491f-8534-49fbfff57e0d
+c7162d11-4bdc-41cd-a964-46fc416829db	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AH-6547	7483ef3a-093d-4334-ac2b-1e4f87708d33	29190	7483ef3a-093d-4334-ac2b-1e4f87708d33
+d846228f-67af-4b3b-9796-dbc263c2054c	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-4001	d7ca70d8-c22d-4a0b-a97a-23d9528e36c9	29085	d7ca70d8-c22d-4a0b-a97a-23d9528e36c9
+2bd23664-453b-4fbf-823e-6dbcde0c4a2a	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-DC-6160	6df0e11b-a46f-46ac-8d81-c5a60e44ae53	38768	6df0e11b-a46f-46ac-8d81-c5a60e44ae53
+bcfe4fe9-d090-49f9-85a7-2b472e0f7453	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3902	386f8a56-32b2-4902-b0d3-45aae6ddaa8c	29135	386f8a56-32b2-4902-b0d3-45aae6ddaa8c
+5555fbdd-962f-4d79-b36c-ae3c3cc4aff4	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-DY-A1DE	eb8fcd61-1326-4f7a-adbc-9a9074249157	47934	eb8fcd61-1326-4f7a-adbc-9a9074249157
+b6ba7313-8e91-4c39-8629-db3e96f4c556	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3881	76749ff2-29dd-4f71-817a-c6e69580de10	29069	76749ff2-29dd-4f71-817a-c6e69580de10
+4d5437b3-b6a0-4d17-a7aa-4f2b790e4532	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-EF-5831	b3efe2a3-9a2c-4077-a3b4-5d79f84824ff	28820	b3efe2a3-9a2c-4077-a3b4-5d79f84824ff
+5a7d19f9-6be2-45ac-9ffc-11e28594eeee	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3898	27ff5ab3-d6af-4b07-8abb-4fa8de385f68	29136	27ff5ab3-d6af-4b07-8abb-4fa8de385f68
+5daa9f6b-eeba-466f-992b-2bd29fa60e93	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3575	b0954874-d70d-450f-a5cf-113e5ba1c1bd	29146	b0954874-d70d-450f-a5cf-113e5ba1c1bd
+5f10f8e4-a6f9-4643-b210-390bc8fd32bd	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AF-4110	26745e4f-bf39-4272-8517-acc1789c9f94	59247	26745e4f-bf39-4272-8517-acc1789c9f94
+72e640f2-869f-4aef-8ebe-b127f3e7048a	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-F5-6863	29d7baa2-4df2-4b02-ac2a-c96b9c2dc16c	55009	29d7baa2-4df2-4b02-ac2a-c96b9c2dc16c
+74543fa4-ce73-46e4-9c59-224e8242b4a2	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-A01W	e247c814-3e37-490e-af0d-69797a89a4b3	34880	e247c814-3e37-490e-af0d-69797a89a4b3
+811f3feb-a5a9-48b1-acda-fbb23fcbcf16	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AF-A56N	a083cd10-b252-432e-9e45-4da75d717e78	47327	a083cd10-b252-432e-9e45-4da75d717e78
+89e4905e-31bb-4125-9262-93f600aed7e5	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-DY-A1DG	4af8afca-5bb4-46c6-a557-658e1e6ce18c	31298	4af8afca-5bb4-46c6-a557-658e1e6ce18c
+8ad1c98b-5395-477e-87a8-19dff3a59c26	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-A02N	7d8b07f6-55f7-4778-ab96-8acb27fd9976	34812	7d8b07f6-55f7-4778-ab96-8acb27fd9976
+813bb368-9389-4528-9b18-387374bc912f	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-DY-A1DD	603acd8a-770b-4c55-a941-ce381a6a3fc4	28947	603acd8a-770b-4c55-a941-ce381a6a3fc4
+99d2c035-06a2-4bc3-8ff9-db875d232c93	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-F5-6813	388bc388-0c87-4000-817e-50bebc536696	38885	388bc388-0c87-4000-817e-50bebc536696
+835cbd02-4dbb-4273-9704-4b5d272493d7	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AH-6544	5810db33-2076-46a0-8bb8-f892bdfa6fc0	58423	5810db33-2076-46a0-8bb8-f892bdfa6fc0
+9af35239-ffb9-4d4f-889e-f743da271eef	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3896	cc9ac6f9-d3d5-4d7a-9f13-9c1483927fec	24181	cc9ac6f9-d3d5-4d7a-9f13-9c1483927fec
+8feb0e8f-d09b-437d-8651-0cdecfe776bf	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-F5-6814	6bf3b997-aa8d-41b8-9659-1f953b8591a0	34061	6bf3b997-aa8d-41b8-9659-1f953b8591a0
+9df9af6b-00b0-47af-aac7-b52dac399ba5	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-DY-A0XA	18e60353-2957-4950-9596-503a281a200a	39752	18e60353-2957-4950-9596-503a281a200a
+92c65e5a-3f07-49d9-ab69-46a0eb86ae88	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3882	047a7340-3c17-4592-888e-f4c8d9862504	29137	047a7340-3c17-4592-888e-f4c8d9862504
+acccb105-6439-4b30-a0b9-bb94c7873d4a	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-CI-6623	ddc05f00-d308-4283-a13b-e41fa1bcd1ec	28541	ddc05f00-d308-4283-a13b-e41fa1bcd1ec
+a2e47568-eb43-4c89-ad7c-dfbaa2ba7e27	hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-CL-4957	34186ad6-0d57-412b-8af0-553858f64e2a	57613	34186ad6-0d57-412b-8af0-553858f64e2a
+a83923fd-276c-4526-9922-5ef741f551fd	not reported	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-3732	c9976871-c9c0-4288-b542-cf43362eb613	40786	c9976871-c9c0-4288-b542-cf43362eb613
+b1a787b6-8e94-4b1b-b063-3338c80eef78	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-DY-A1DF	3c2ebf08-41c9-42a3-87ef-9160d90fb8be	24295	3c2ebf08-41c9-42a3-87ef-9160d90fb8be
+b2b125c7-8993-4424-b390-048ccccc9d08	not hispanic or latino	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-EI-6884	2b74252b-9f10-43aa-8bcf-92b8a55a0679	35568	2b74252b-9f10-43aa-8bcf-92b8a55a0679
+c2395f04-e248-4091-855d-802b1b871f29	not hispanic or latino	female	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-DY-A1H8	e75f8472-fc02-42b6-930f-390288ca81b6	28873	e75f8472-fc02-42b6-930f-390288ca81b6
+bd0ddc1e-ba3b-4719-a2fa-776f0475dd8a	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AH-6643	84c1c7d1-eb9c-4b75-8614-98a334de110b	49335	84c1c7d1-eb9c-4b75-8614-98a334de110b
+c7e09161-60d6-4dff-a840-7cec3bb7a30a	not reported	male	Rectum Adenocarcinoma	Colorectal	TCGA-READ	TCGA-AG-A00Y	c509c413-dfba-40ba-9d91-b4c40f21fff1	31595	c509c413-dfba-40ba-9d91-b4c40f21fff1

@@ -1,0 +1,262 @@
+cases.0.case_id	cases.0.demographic.ethnicity	cases.0.demographic.gender	cases.0.project.disease_type	cases.0.project.primary_site	cases.0.project.project_id	cases.0.submitter_id	file_id	file_size	id
+f6509c51-3bdc-45cc-81fe-5e775236305a	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-3B-A9HO	0f1697e4-6979-4ea8-8b7f-e69479804a1a	38527	0f1697e4-6979-4ea8-8b7f-e69479804a1a
+a692aa06-e081-4b62-bc01-a5b0a296290d	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-PC-A5DM	c8503fb5-94f8-4db0-9233-5bb19bdb53ee	29336	c8503fb5-94f8-4db0-9233-5bb19bdb53ee
+f0cbc2a4-c1f7-4b32-bce1-57eb59d351cc	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-PC-A5DP	1632f46b-95b8-47aa-90bb-2e3a8540ebcb	24512	1632f46b-95b8-47aa-90bb-2e3a8540ebcb
+8488bb97-bf11-45cc-b1bd-52969598448d	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-IF-A3RQ	d139530c-9087-4e53-bda1-b90dee8c53a1	39177	d139530c-9087-4e53-bda1-b90dee8c53a1
+9393e4f1-6a1b-4181-b928-72b6f335bec2	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-IF-A4AK	beb275ca-7a01-48d0-9fd3-3ce77274843b	51190	beb275ca-7a01-48d0-9fd3-3ce77274843b
+27a6bd26-4b57-4eee-be02-6b20f5b69e1e	not reported	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-AB2L	61b3f455-5599-4def-9b97-5bc618199a87	41458	61b3f455-5599-4def-9b97-5bc618199a87
+eaadfe2a-23fb-400b-86b3-4fba6d968aa3	not reported	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-IS-A3K6	3ce56ea3-6810-427f-b3ab-9dfc0a769b0d	32402	3ce56ea3-6810-427f-b3ab-9dfc0a769b0d
+27818e2c-aa23-4be3-a1d6-d6a7aa88795d	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-K1-A3PO	03001ca4-32d3-4435-b6ae-d2b6366c2132	39131	03001ca4-32d3-4435-b6ae-d2b6366c2132
+e9e4731a-a7ca-455c-868c-a6d53d0aa749	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-AB35	4d6857c2-ca75-464d-96eb-1be673a6a12c	34024	4d6857c2-ca75-464d-96eb-1be673a6a12c
+9ff814f6-4a05-4471-8492-41574fa3eeeb	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-3B-A9HX	f262d62d-3eeb-4fa3-8159-9a6498f481dc	33719	f262d62d-3eeb-4fa3-8159-9a6498f481dc
+0020317d-d10e-4e75-8fa6-7c1bdcdee471	not reported	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-HS-A5NA	c2247950-5c07-472e-8f9f-ea4763e5c3f0	30214	c2247950-5c07-472e-8f9f-ea4763e5c3f0
+37a3b7c7-971a-4c96-8c77-14bb0b7741a3	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-QQ-A8VG	b32eddb2-3895-48dc-bc36-7eb543ce668b	41887	b32eddb2-3895-48dc-bc36-7eb543ce668b
+1610d467-e83f-490f-a971-7b099f3b46f8	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A8BO	2c143408-e990-4582-ab51-91032f6621f0	53823	2c143408-e990-4582-ab51-91032f6621f0
+8372e154-c9c1-4382-8120-7e14dd426367	not reported	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-X2-A95T	c6367436-ac2e-409e-9407-b3381d9eb7fe	53750	c6367436-ac2e-409e-9407-b3381d9eb7fe
+e2272de4-02b8-4a94-b8ee-c7454996a2da	hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-AB2Q	d11d9aef-0ab5-4aa7-b12f-4018f1b76b05	53944	d11d9aef-0ab5-4aa7-b12f-4018f1b76b05
+04d45a95-4282-42e7-8e2f-2b7a5082e1b5	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-WK-A8XX	77a67b56-f404-4f55-aa3e-4f45c1b42584	42896	77a67b56-f404-4f55-aa3e-4f45c1b42584
+051a8605-e674-4b66-a142-11ec36a96454	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-AB2P	e69dc1de-2e5b-4355-ab84-81ca1313251f	34224	e69dc1de-2e5b-4355-ab84-81ca1313251f
+2e3665ef-d572-478f-9415-db61c3753613	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-MB-A5YA	9852aa51-2197-4686-81b9-d57f63e29835	33397	9852aa51-2197-4686-81b9-d57f63e29835
+2560fb5b-5f49-4d38-8f61-1ab911aed3eb	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-SI-A71P	2a9431d1-f698-4321-8bce-6a07c6ab57c4	52205	2a9431d1-f698-4321-8bce-6a07c6ab57c4
+2ebfbd8e-7db2-4cd7-bf1c-a0c27fcf07e7	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-QC-A7B5	0dbc3f5e-0178-4eb8-a15c-34a840ba7134	33744	0dbc3f5e-0178-4eb8-a15c-34a840ba7134
+2ff01040-5270-4895-bbfa-5819b46ef444	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A1KZ	64e44073-cd4b-4747-ad46-07bbf8d2d3d6	40697	64e44073-cd4b-4747-ad46-07bbf8d2d3d6
+32377dd2-c2a2-44ff-8938-b8cfb35db79c	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-3B-A9HZ	fdccb8ea-edf2-4391-920d-b3e8c4b74198	84871	fdccb8ea-edf2-4391-920d-b3e8c4b74198
+306c53fb-640d-42ad-889a-abc5fd3ad778	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-K1-A6RU	a177a86e-8bf5-4e15-9698-c1e385773075	43825	a177a86e-8bf5-4e15-9698-c1e385773075
+30cade9c-a0e0-4be6-9dab-1c495630fd1a	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-FX-A8OO	4bd099d9-4c74-467f-9ddc-25a158fc1568	39295	4bd099d9-4c74-467f-9ddc-25a158fc1568
+31397970-59d8-4ee8-83cf-901cd8ba17b3	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A8BG	f858de7d-1f0e-4e5c-9786-a56b5b85bff0	38795	f858de7d-1f0e-4e5c-9786-a56b5b85bff0
+3239cd26-98ef-4470-9e2e-c43f03d9ab0d	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-X6-A8C5	c3f969e8-025f-4a98-8a55-6e74fc9a356a	41941	c3f969e8-025f-4a98-8a55-6e74fc9a356a
+3505f91d-bc66-4732-84b6-18c5b32ca6b8	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A3LY	f82b66a8-2870-4f31-ae18-b93d64678707	41268	f82b66a8-2870-4f31-ae18-b93d64678707
+3a473f10-a5e0-4cfa-87dd-f032d74dfa9e	hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A8BX	c4a96b94-b711-444e-a821-49c821731669	29480	c4a96b94-b711-444e-a821-49c821731669
+3608bfbb-2a92-4ec2-a330-bf4790a8b65c	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A240	b04cf021-d4cc-4596-916a-dd7af504b9ab	32373	b04cf021-d4cc-4596-916a-dd7af504b9ab
+47f18eee-3e56-4388-aac3-9ac141bcb414	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A8BN	c91c0529-e056-43b0-9ab6-9a65b11c6ff9	38101	c91c0529-e056-43b0-9ab6-9a65b11c6ff9
+3ed1862b-c6ef-4744-9123-bb1ee557f068	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A7EN	c466378b-93f7-4cf2-9d05-b9f7163a66bb	59401	c466378b-93f7-4cf2-9d05-b9f7163a66bb
+4482da24-bd16-4826-a9ea-1078bcb12411	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-LI-A67I	0f938e92-e27e-476d-9ce9-d8ae06f467ea	60741	0f938e92-e27e-476d-9ce9-d8ae06f467ea
+47fb776c-7839-4590-8f2d-6d149a0f1782	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-3B-A9HV	ecb792d3-7cbe-4746-a977-c0b99d099bd8	63479	ecb792d3-7cbe-4746-a977-c0b99d099bd8
+49fd3506-eb64-4ecd-a367-303b1d7a7fc9	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-MB-A5Y8	3fbee974-5114-453d-8305-e5c5614849df	49376	3fbee974-5114-453d-8305-e5c5614849df
+4d016bd8-006c-4a90-ace7-28f151624112	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-QQ-A8VF	47b170d3-2520-4ae2-9044-cf1569595ace	41857	47b170d3-2520-4ae2-9044-cf1569595ace
+4fed8f7a-7ff9-4566-8094-27bdb6ee6b12	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A8BZ	1b78de3a-ce4a-490e-a81d-4d61847a59fd	25502	1b78de3a-ce4a-490e-a81d-4d61847a59fd
+5452ffd8-0408-4a78-b2fd-f1e0b0d05276	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A8BR	52adbbdb-79f4-4395-a08b-ea7b02fb4156	46335	52adbbdb-79f4-4395-a08b-ea7b02fb4156
+5b9d27a3-7483-4118-a719-a164800ba957	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A3UF	2580df23-8274-4c2f-9759-cce4090f732a	87418	2580df23-8274-4c2f-9759-cce4090f732a
+6037a772-38a4-4f44-95a5-681f90b81684	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A6YQ	6cc666a6-912d-4270-a854-e1698770470e	25021	6cc666a6-912d-4270-a854-e1698770470e
+6ac81dec-4802-440b-a5f0-e6eb81a0b22b	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-Z4-AAPG	ffb6176a-3810-4800-9ba6-5c973e701a67	33244	ffb6176a-3810-4800-9ba6-5c973e701a67
+60d8a41f-46ae-4ebb-9fac-ab73f1411e55	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-AB2H	952e5610-d2c2-4673-ab23-0a0eb40004ec	49973	952e5610-d2c2-4673-ab23-0a0eb40004ec
+52c1d341-94cb-4cb8-948f-bf802fef8bd0	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-AATS	8de5471a-12fe-4753-a496-8e30c1d2dcf2	25018	8de5471a-12fe-4753-a496-8e30c1d2dcf2
+6be3885c-219b-44f4-92bc-c055dc843a87	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A6YV	34318b81-c180-4b59-9727-1b4bbea50841	41622	34318b81-c180-4b59-9727-1b4bbea50841
+685be6b4-1d9c-4539-ae4b-ca658fc83fbc	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A48J	213f5ba9-e1dc-4d5b-bb28-799d7b4b6a1a	41724	213f5ba9-e1dc-4d5b-bb28-799d7b4b6a1a
+7c82e2d6-a768-4078-9084-4b47e8a2ce95	Unknown	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A3UB	7216b08a-b76a-431a-be39-b7f3104dc426	49559	7216b08a-b76a-431a-be39-b7f3104dc426
+6e9f74a4-2f41-4b2f-b0e1-39c4d779bd40	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-QQ-A8VD	896b67e6-84cc-473a-86fe-02ea4acb3c1f	89267	896b67e6-84cc-473a-86fe-02ea4acb3c1f
+719fa3f6-0194-423d-8a96-3709e8180565	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-X6-A8C6	311fffc0-b1b3-4210-a3f3-627341278241	103539	311fffc0-b1b3-4210-a3f3-627341278241
+7f9031da-124a-4a38-83e6-878a50e58c24	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-FX-A3RE	8dd7fe6e-122d-49cc-b0bd-f1ec4258f2ce	42477	8dd7fe6e-122d-49cc-b0bd-f1ec4258f2ce
+8c279bc5-117e-440b-b118-af01fc6c11a2	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-MB-A8JK	adad683a-feab-43f9-b5b1-cc0bdcaa2b95	38403	adad683a-feab-43f9-b5b1-cc0bdcaa2b95
+8194aa20-bdb7-4928-8992-438d9f2631d4	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A48V	b13ffcb1-6eab-4523-b8c5-d91d80e60890	52151	b13ffcb1-6eab-4523-b8c5-d91d80e60890
+872244e2-d1ed-4a1d-9162-365f45e7f1a0	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-AB30	92dfcc12-d578-47f7-9a6a-d4d78e84273d	32039	92dfcc12-d578-47f7-9a6a-d4d78e84273d
+8d8921ac-ca12-4e17-bd5e-982ff0d699a1	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A23U	26d70ad2-b7b7-4e64-a92f-82aa2fc229c0	34191	26d70ad2-b7b7-4e64-a92f-82aa2fc229c0
+89a3ccb1-252a-46f9-97c7-3e44b34d7967	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-X6-A7WB	9ec6dad6-d635-4f3c-a58a-c5a8219ffe0c	32221	9ec6dad6-d635-4f3c-a58a-c5a8219ffe0c
+89ea0e21-c5af-42b4-9f64-5ba4874ab76e	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A7EF	a1f8309c-3f81-4272-bacf-d7ed6b2f9787	44948	a1f8309c-3f81-4272-bacf-d7ed6b2f9787
+8f4293b0-bafc-4348-a203-9516d6f2dc48	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-UE-A6QT	cff95180-c045-4b02-aabd-19fe224e3657	33957	cff95180-c045-4b02-aabd-19fe224e3657
+90db503c-f9c8-4d31-bed4-e3383b69c89b	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-X9-A973	2e265bfc-d328-4776-9667-057a8abcfe10	51097	2e265bfc-d328-4776-9667-057a8abcfe10
+9111759f-a0b7-452d-a0de-838fe010245e	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-LI-A9QH	dd44b106-a7d8-473e-b369-8d46502c59c8	46456	dd44b106-a7d8-473e-b369-8d46502c59c8
+8f4c042c-fbe3-4d0c-b2bd-695bc37483f5	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-N1-A6IA	738ff144-9450-4e1c-ad60-0e486ca0ccf5	42433	738ff144-9450-4e1c-ad60-0e486ca0ccf5
+8fc1fade-42aa-45d9-8ed3-2f7e73cb0936	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A48N	0ca7d8b5-1f8d-40c7-8eed-f975b91b436c	51355	0ca7d8b5-1f8d-40c7-8eed-f975b91b436c
+9517413b-b5b8-4130-8ba1-d86d44abe2ec	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A1L3	4b0dfae4-e7da-4040-9bcb-2980a7e6f673	36634	4b0dfae4-e7da-4040-9bcb-2980a7e6f673
+92da1d84-03a1-4fe9-bc0d-7fe61dfbe904	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-PC-A5DL	fcbcfc57-5677-4f44-9fdc-450873d5efb0	24547	fcbcfc57-5677-4f44-9fdc-450873d5efb0
+a1f0e5db-5c73-4b83-8cc4-6208941806de	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A7ES	0540c940-6ae8-4a36-ba3a-7ef01f19476b	43525	0540c940-6ae8-4a36-ba3a-7ef01f19476b
+a4f68239-5b9f-40d7-9e52-b68efa170c1c	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-3B-A9I1	d1ca6e15-83c4-43d9-9c55-e5089f441b32	69892	d1ca6e15-83c4-43d9-9c55-e5089f441b32
+a7613c60-93a1-4a4c-9b12-dfd2103b0168	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-QC-AA9N	692eea6f-e7ef-4424-aff1-fa3615ea23e3	41848	692eea6f-e7ef-4424-aff1-fa3615ea23e3
+b9a01a64-3c9d-44b3-8ee1-a880b7816fee	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A7EM	de05122e-f18a-47a1-a672-fef0586df721	41712	de05122e-f18a-47a1-a672-fef0586df721
+a93fd240-59c1-4527-854e-dfd042222fcf	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-3B-A9I3	5943a8d6-6d64-4f26-93c3-8e7e82486e2b	38770	5943a8d6-6d64-4f26-93c3-8e7e82486e2b
+ac1eb376-ff96-4ed9-929a-03975f72ac15	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A3UA	520c6959-2616-4cf1-bc1f-485c29d571b3	33002	520c6959-2616-4cf1-bc1f-485c29d571b3
+c1bab0e5-4cb2-4d9a-ae92-673fe7967fde	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-PC-A5DK	b7d3e1b5-7688-4237-a928-3f47c4fe4118	41211	b7d3e1b5-7688-4237-a928-3f47c4fe4118
+e786de34-4c21-460f-89ab-008de4347049	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A3LU	f70969d1-ec51-472d-993d-b50156c40d63	75890	f70969d1-ec51-472d-993d-b50156c40d63
+d7d9204b-b85e-4260-8a54-c39e7847e982	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-SG-A849	e45eb480-9b7e-45b2-966b-51be0b50d39f	38151	e45eb480-9b7e-45b2-966b-51be0b50d39f
+ff4b354c-1e9a-4724-91cb-9b33d1b3050e	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A23T	8c603a47-a1ae-4210-8b55-0267e51d205f	32486	8c603a47-a1ae-4210-8b55-0267e51d205f
+eea7d707-aeb9-4d00-ab5e-c1ea608517e9	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A8BT	3777c74f-dd1a-4eb1-aa1a-eacd7ee916c2	72125	3777c74f-dd1a-4eb1-aa1a-eacd7ee916c2
+f75d2589-fd7b-49a1-a1c8-0b4726b81f3c	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A2J4	5ef0b4da-09cb-45a2-a43e-eb01ddccc27f	40472	5ef0b4da-09cb-45a2-a43e-eb01ddccc27f
+a8ce2be1-1f15-4e02-9161-5f161447a541	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-3B-A9I0	7d084f12-7ffe-468f-bef2-64b3cb5d1cc3	56145	7d084f12-7ffe-468f-bef2-64b3cb5d1cc3
+b2ee912a-0a57-4d46-bc25-3594028fe387	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-X6-A8C4	0495e3d2-c9d1-4df2-a15f-4c8eb2bf1223	93037	0495e3d2-c9d1-4df2-a15f-4c8eb2bf1223
+c25a0746-d2cf-47cc-82fc-8547cd9f89b0	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-WK-A8XS	7efaac08-6dd2-4ea5-92ea-756f5486e881	41928	7efaac08-6dd2-4ea5-92ea-756f5486e881
+b5f27002-4277-418d-90b0-cc5a2742692e	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A23R	b9d1e649-e4a5-42cd-90cc-12eebcfd3429	32357	b9d1e649-e4a5-42cd-90cc-12eebcfd3429
+c5e23947-253b-40d2-916a-277b2a580be2	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-IE-A4EI	2f8d33ce-4c06-4094-b223-14ab28198b07	33296	2f8d33ce-4c06-4094-b223-14ab28198b07
+b61e39f5-f0dd-485e-8e22-d4fdea751f55	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-SI-A71Q	cf6e5367-8130-4b5b-a255-de229a94479e	56059	cf6e5367-8130-4b5b-a255-de229a94479e
+dc18ccea-b332-4fac-b49b-1e0217ad025b	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-PC-A5DN	13bdf949-fa3a-4139-a9ca-23b25ceac702	24551	13bdf949-fa3a-4139-a9ca-23b25ceac702
+de0cfb5d-0db6-4bf9-8a92-c5de4208bb04	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-Z4-A8JB	ff0f33ec-1a4b-4012-ab80-8bc2a9c15820	33191	ff0f33ec-1a4b-4012-ab80-8bc2a9c15820
+d51b9939-aef7-426b-a57f-01c3684e2dc2	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-RN-A68Q	a2c477cf-ef46-4628-b660-5f9cc1d541e2	36920	a2c477cf-ef46-4628-b660-5f9cc1d541e2
+c20682a1-f340-430d-99f9-077fe093ed19	not reported	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-IW-A3M5	2b977597-ab19-4c1f-8501-feb4603a5bdd	47522	2b977597-ab19-4c1f-8501-feb4603a5bdd
+de277edb-4543-4bd7-8f86-206c18b54d8d	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A48P	38ca1994-3599-4d88-a28a-fdeadfdf9ed6	49653	38ca1994-3599-4d88-a28a-fdeadfdf9ed6
+cc9eb46b-47a6-44b2-97c1-3ee866bbfc3d	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-AB2E	b18e9b2f-0de0-4ca8-8023-390901c15c3a	81855	b18e9b2f-0de0-4ca8-8023-390901c15c3a
+f2fcb8c3-4679-4753-8887-bf4c2781df3a	Unknown	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A48U	8f834b10-7184-4051-b0cc-d1cd14246ea5	49600	8f834b10-7184-4051-b0cc-d1cd14246ea5
+f94615ea-551c-4f63-af0d-5e49c87fc66e	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-3B-A9HP	eb0fdde4-75ba-4d11-9b45-f87d6d3ba39a	50300	eb0fdde4-75ba-4d11-9b45-f87d6d3ba39a
+f39cf57e-e8e6-428b-b1ce-3ecc52eecf92	not reported	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-3R-A8YX	828cfbc0-f3c5-448f-83a4-4e486032bfb8	25001	828cfbc0-f3c5-448f-83a4-4e486032bfb8
+e7a72f7e-77b1-4d95-8f37-39a6cffc35dc	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A3LT	91c0126a-bffe-488c-8773-a2142c10f3a2	63024	91c0126a-bffe-488c-8773-a2142c10f3a2
+ea3a524b-6ee3-4904-8924-29fcaa20985c	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A3U7	3231d1dd-1684-437a-a2b2-5d849ed2c572	145238	3231d1dd-1684-437a-a2b2-5d849ed2c572
+2905cbd1-719b-46d9-b8af-8fe4927bc473	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-FX-A2QS	46201fa7-bc53-436d-9d51-33815eb7ca94	40897	46201fa7-bc53-436d-9d51-33815eb7ca94
+1c851f7b-a206-45db-ad52-338aa57c2ac1	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-AB2T	ff20eda3-29f5-49bc-ac94-3e9da040866b	38087	ff20eda3-29f5-49bc-ac94-3e9da040866b
+0a4af73d-3c12-4740-bf92-c0eedd3dd135	Unknown	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-WK-A8XZ	75d3b62e-195b-43b9-b939-0e6b13128f4c	51271	75d3b62e-195b-43b9-b939-0e6b13128f4c
+9f7b8012-3dee-44b2-8159-f96a6eb5036a	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A6BE	e066eb73-7303-448c-9ef5-bb21d38e2111	33501	e066eb73-7303-448c-9ef5-bb21d38e2111
+c054c61b-0783-46f9-9c5c-8589ea47f43d	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-3B-A9HJ	e0146566-3ea4-491f-93fe-ede8d4bee6a7	38075	e0146566-3ea4-491f-93fe-ede8d4bee6a7
+00eaaf62-c43e-4555-9134-1e5593386fdb	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-3B-A9HS	857c8d79-3e3d-4f50-950f-bbfe29e0e07b	97245	857c8d79-3e3d-4f50-950f-bbfe29e0e07b
+01c5f902-ec3c-4eb7-9e38-1d29ae6ab959	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-WK-A8XY	c4810a8f-daed-465b-84e8-3df3dc0c2ea3	38756	c4810a8f-daed-465b-84e8-3df3dc0c2ea3
+02b7b0c5-dad6-4270-b56b-3d04285e8147	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-KD-A5QU	2c9c3642-5da9-409c-abed-1a9519657a30	45289	2c9c3642-5da9-409c-abed-1a9519657a30
+0494a8ea-ecf3-4f3e-8b3c-26a9254b6755	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-QQ-A5VC	8b10c719-6a24-465c-ab62-288079906240	33559	8b10c719-6a24-465c-ab62-288079906240
+4c323272-2e94-4910-a894-7836570852cd	not reported	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-QQ-A8VB	98b71a8d-c06e-4908-9945-6a1c0dd8ab28	35844	98b71a8d-c06e-4908-9945-6a1c0dd8ab28
+059f7eb8-6e42-4f57-8248-ff82896aab54	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A3UE	f049480e-cc9c-4f4a-baa4-c70b534181b4	38130	f049480e-cc9c-4f4a-baa4-c70b534181b4
+dcd4d76e-4e41-4a84-b87c-6c94586e73f4	not reported	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-IS-A3K8	164eee95-4410-4891-8c57-d7f3e904d1a3	40643	164eee95-4410-4891-8c57-d7f3e904d1a3
+05d4099f-521a-4df6-abac-f86f84b3af7f	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-WP-A9GB	52526323-c698-40a6-9a66-72bed9f470e3	42977	52526323-c698-40a6-9a66-72bed9f470e3
+a34cfb9c-44dd-4617-bbd1-28edc8d527c4	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-MO-A47P	944b694e-37a0-4358-8f76-53686de57958	46875	944b694e-37a0-4358-8f76-53686de57958
+0b6418fc-c775-4baa-8776-74ffcc492e9a	Unknown	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A7EQ	186fc125-eb08-4196-b99b-0bdabf9c5c48	69061	186fc125-eb08-4196-b99b-0bdabf9c5c48
+0da5ee6c-d012-4a57-9992-9d74937aaa5f	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-IW-A3M4	b6096372-16d4-4341-b1c3-74285c3850e6	52902	b6096372-16d4-4341-b1c3-74285c3850e6
+32344f23-524b-4182-ae75-6ad6128eeba0	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-IE-A4EH	239148ed-d694-430c-8bb0-5e944b332037	53138	239148ed-d694-430c-8bb0-5e944b332037
+12b45061-9ed6-46cd-971a-b81d79bc88ec	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A6YU	cb7a319b-1629-443a-9c27-a2a6585e1f70	41499	cb7a319b-1629-443a-9c27-a2a6585e1f70
+16a4412f-0256-498d-b77b-4aecfed34091	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-FX-A3TO	28581d19-b07d-4325-aec6-39f2608344b2	32837	28581d19-b07d-4325-aec6-39f2608344b2
+17cecba9-37ed-4967-8756-e0f7c20c8209	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-MJ-A850	7e94600c-aaa0-4ab6-be83-fb5f45f4752c	38340	7e94600c-aaa0-4ab6-be83-fb5f45f4752c
+1c89da99-9e89-4726-b196-97eeab46d504	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-X6-A7WC	f48c787a-47fb-4bc4-bf31-a06a3138f877	78346	f48c787a-47fb-4bc4-bf31-a06a3138f877
+1a319d92-d5d4-41f7-8a10-2afb52513d83	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A3U9	74e62b7d-4253-408c-ba41-018680926215	41919	74e62b7d-4253-408c-ba41-018680926215
+1cbcfbb0-fcad-4ccd-8e83-120faa3e0df3	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-UE-A6QU	9123866a-ab80-4277-a235-85bfddeae869	33698	9123866a-ab80-4277-a235-85bfddeae869
+1ad65834-8bac-4b80-8b2e-2588548ea003	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A6Z2	8ab618e8-1d86-423d-8ed1-79d8ebeafed1	44190	8ab618e8-1d86-423d-8ed1-79d8ebeafed1
+23409c1c-9fc2-4c54-8c94-e1aabe05c301	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A2J1	aa9f5129-4ceb-4992-b39e-41896822020c	48930	aa9f5129-4ceb-4992-b39e-41896822020c
+2892ee84-ac7c-4e0e-8311-ce721d6afc32	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-SG-A6Z7	a4367c0c-f9a8-4347-8867-70ccc7c31ec8	25669	a4367c0c-f9a8-4347-8867-70ccc7c31ec8
+28c50a5c-e0ea-4f93-b34c-b0a651264539	not reported	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-HS-A5N7	a03b37da-60d6-4da5-a6b3-73bb3a2f8664	38675	a03b37da-60d6-4da5-a6b3-73bb3a2f8664
+2c9f737b-0d37-4931-aff5-4562a0057bae	not reported	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A7EI	e98941c2-8696-4486-874f-f376cca32739	34942	e98941c2-8696-4486-874f-f376cca32739
+2e3b8aa0-80db-4cb5-b706-328d1401a65b	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A48K	3e55b3dc-376c-4047-8cd1-dc1cfe249a68	49690	3e55b3dc-376c-4047-8cd1-dc1cfe249a68
+2cacd9d0-8414-4f17-8259-c9d838597f39	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A3LW	f01d0adc-f91e-49d5-9458-22b55c5070e3	56871	f01d0adc-f91e-49d5-9458-22b55c5070e3
+2d468c02-45f7-4b4b-920a-557ae6c91a43	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-AB2W	61b404cb-ec4e-4c82-810c-31472c779433	38120	61b404cb-ec4e-4c82-810c-31472c779433
+2ff6aede-7bcd-440b-99ab-7a023faf658e	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A2J0	1a842e72-ccf9-4dae-b051-394fe4acb7d5	32454	1a842e72-ccf9-4dae-b051-394fe4acb7d5
+319243bf-d96f-454f-b007-3468d76869df	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A23Y	3ecc613a-b06e-420e-be4b-56c219cb7ad1	35975	3ecc613a-b06e-420e-be4b-56c219cb7ad1
+30274b4f-13d5-40ac-8929-a986860f38db	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A8BS	ab83096c-e960-4ace-a88f-13c3e0011770	29771	ab83096c-e960-4ace-a88f-13c3e0011770
+34a1c0a8-3af7-48a7-b9dd-91c551ac5ce7	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-AB2G	dd13d7a8-1713-4ec6-9009-382a9dba0bf1	50000	dd13d7a8-1713-4ec6-9009-382a9dba0bf1
+39e24241-cb1f-445e-b167-82ee44bfc14e	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-X6-A8C3	6cc274e0-4f40-419a-9b58-b0341a69bf6f	46505	6cc274e0-4f40-419a-9b58-b0341a69bf6f
+34c39a6b-db6a-47e5-b0d4-5fa990ef7eb8	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-3B-A9HI	08a5bb68-92f5-4887-a148-3c859928a31a	107860	08a5bb68-92f5-4887-a148-3c859928a31a
+39f68467-3d37-4b19-aa43-ed7b120c619d	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A3LS	73019b80-ad16-4b82-a132-24c2ee8c8b17	38724	73019b80-ad16-4b82-a132-24c2ee8c8b17
+3a835214-6fc7-4921-b014-f91decfc25f4	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A23Z	bbcd9fc5-af5e-4301-a4d5-238298ace62d	32314	bbcd9fc5-af5e-4301-a4d5-238298ace62d
+3b1666cf-879d-4910-a0af-e5c9acbcc109	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A6BB	52edff3b-d8a9-42cc-ac38-42a6504397d8	41848	52edff3b-d8a9-42cc-ac38-42a6504397d8
+47a0e4a8-140f-475c-878d-8e03df3f82de	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A7ET	70f90421-1fe6-471b-a3d6-6537cbf9449a	41672	70f90421-1fe6-471b-a3d6-6537cbf9449a
+4d67b910-6681-45a4-9dac-6a12d67287a8	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-VT-AB3D	334138d7-e523-4af1-9418-56fc9fa93180	38322	334138d7-e523-4af1-9418-56fc9fa93180
+4996e458-db04-4c6d-9ae6-66316240a8ed	not reported	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A8BU	817d1f52-0f80-4d9f-bd96-f6de9c3c5b04	82187	817d1f52-0f80-4d9f-bd96-f6de9c3c5b04
+4dc28966-d2c4-4661-b71f-d7f85e536cb6	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A6BA	a53de03e-5a01-42ee-8351-0ca110981480	106287	a53de03e-5a01-42ee-8351-0ca110981480
+4b3c152f-a9ea-48cc-9189-f09078a92c48	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-3B-A9HT	0cbfe7e6-e926-43ce-a99e-e30e8d0ed381	48741	0cbfe7e6-e926-43ce-a99e-e30e8d0ed381
+52ef31c5-35d8-41cf-8694-4ab4a5debc56	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-SI-AA8B	c9090bd3-7a19-4593-baf6-bfcd576a34e1	41737	c9090bd3-7a19-4593-baf6-bfcd576a34e1
+4e8c570c-3cbe-4878-8b2c-b966868dd60d	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-IF-A4AJ	81d85c1d-5d23-4a7d-ae7a-7d1284133688	35416	81d85c1d-5d23-4a7d-ae7a-7d1284133688
+5a2b2e1b-b631-40ae-ba41-d8022cddb550	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-QQ-A8VH	ce0a2a00-2292-438a-b913-f2cd483e8ca0	36614	ce0a2a00-2292-438a-b913-f2cd483e8ca0
+5370ed4a-eb6b-4eb4-8c71-f5b5d75cfa2d	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-VT-A80J	442d7e01-d511-496c-bb40-d0dd17697880	36262	442d7e01-d511-496c-bb40-d0dd17697880
+73d2e8ef-4e10-416a-845b-f48374e48ecb	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A1L2	dc96604b-d137-4075-bae2-d4446c742b4b	40538	dc96604b-d137-4075-bae2-d4446c742b4b
+68c229a9-4c98-495a-b75a-f6f2172b075b	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-QQ-A5VA	174fa7a3-8de8-4a17-a75c-0d6858f252bb	24986	174fa7a3-8de8-4a17-a75c-0d6858f252bb
+7bab6742-4e3d-4fcf-9b90-d3e0218b4d79	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-FX-A3NJ	abdefe6f-d66d-4d4b-be2c-2119ae9f2961	32645	abdefe6f-d66d-4d4b-be2c-2119ae9f2961
+8c66f5f5-3e37-4353-b0f8-64b92a733da8	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A1L4	0ba6a5b3-f638-48e0-9c70-297566a0b60b	40642	0ba6a5b3-f638-48e0-9c70-297566a0b60b
+885b1b65-4280-4aab-a7f0-434b0317d86f	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-IE-A6BZ	e55c48ca-8f75-40d1-9e7f-10ff3ef84a41	50801	e55c48ca-8f75-40d1-9e7f-10ff3ef84a41
+8f3f6f7c-4b50-467e-a6e8-d836735913f6	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A3U5	42dbd35b-6dfa-45f2-a42b-c1ffb6a87418	41268	42dbd35b-6dfa-45f2-a42b-c1ffb6a87418
+90bc0f31-0ec2-4ceb-ad99-6be8f8b19180	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-X6-A8C2	886a7ac5-fec7-4008-aafd-3202884a5c3b	70840	886a7ac5-fec7-4008-aafd-3202884a5c3b
+a857d684-7195-44f9-ba21-b88020bd9633	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-SI-A71O	44649d87-4267-4468-bede-7b8b506ccd39	71501	44649d87-4267-4468-bede-7b8b506ccd39
+ac9c3d6a-2df7-472a-b9d7-0a5583463750	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-X6-A8C7	b7317336-85c2-4f0d-b727-bf86d316304f	46505	b7317336-85c2-4f0d-b727-bf86d316304f
+b8dd67ae-5808-45fc-9a1f-47f18a2f827d	Unknown	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A6YS	3cc07d25-168d-45b4-b6da-16e2e4bed10d	46228	3cc07d25-168d-45b4-b6da-16e2e4bed10d
+b0c194ce-8f60-423f-afca-7f577813421c	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-X9-A971	9accb15d-48ce-4964-8b76-7d8157f304e0	62539	9accb15d-48ce-4964-8b76-7d8157f304e0
+b1a92728-e119-4f5f-a303-2ebb8ea3db88	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-PC-A5DO	c66f6c11-d517-407b-8655-f2bf368d1fde	24572	c66f6c11-d517-407b-8655-f2bf368d1fde
+bc282a61-9e8b-4330-9177-fc515293f051	hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-AB2S	35015eff-44ef-477e-966c-d18753a5e8e6	38053	35015eff-44ef-477e-966c-d18753a5e8e6
+aaf93a92-2f93-477d-9ea4-d18ab7d4f258	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-3B-A9HL	c142830f-dff5-40ca-a671-0cd4852129c2	69363	c142830f-dff5-40ca-a671-0cd4852129c2
+bfaafe2d-0e83-43aa-9f81-b34b62a46d38	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A1KY	db37d6ab-172a-4862-882a-bfd44ec44b4d	32436	db37d6ab-172a-4862-882a-bfd44ec44b4d
+ab706ea0-d642-4f58-ba8d-f5d930b91286	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-WK-A8Y0	9fe3c3bb-bb30-4cda-8e21-29c6965de2dd	38695	9fe3c3bb-bb30-4cda-8e21-29c6965de2dd
+c030f196-9591-4b0e-ad72-2320f277773b	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-QQ-A5V2	c87f8670-43a4-42bc-952f-370be446aa57	40991	c87f8670-43a4-42bc-952f-370be446aa57
+d680595d-2956-4780-8ea4-e815edb0706d	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A7EU	c96af5dc-425a-4567-9b19-5302aabd7dcd	45240	c96af5dc-425a-4567-9b19-5302aabd7dcd
+cc891960-42a2-4d76-b93b-c2914c929154	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A6B9	d092ca34-046f-4ef8-b56d-5c6f2dc4a7bc	41826	d092ca34-046f-4ef8-b56d-5c6f2dc4a7bc
+e0b298e0-0d11-4cc8-a9fa-7f2cc9f1d6e9	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-Z4-AAPF	c4d126b5-ee4c-4a52-bbca-3c20c7c0bf86	33231	c4d126b5-ee4c-4a52-bbca-3c20c7c0bf86
+e119dc43-9ba7-43ad-add0-1ce8a01e3b06	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-JV-A5VE	1d26e47a-0ff1-4fe2-baa2-ad32e3b4c701	45488	1d26e47a-0ff1-4fe2-baa2-ad32e3b4c701
+f9ceee8b-aa08-4123-ba70-76b3cbfc50e6	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A6YT	480b84f0-42e4-4862-8110-4e26872d5930	33293	480b84f0-42e4-4862-8110-4e26872d5930
+e4fb6a08-9d3f-4e62-85ce-7ba0dc03c8e2	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-QQ-A5VD	8e05a26e-2754-4e7b-a41a-83beab4c2a5f	41771	8e05a26e-2754-4e7b-a41a-83beab4c2a5f
+e5608743-59c4-4846-96b5-b3d36efbed85	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-MB-A5Y9	a67bb392-2c69-4815-829a-cbe9d5c657b4	33265	a67bb392-2c69-4815-829a-cbe9d5c657b4
+9c9b53e5-cdbe-4510-a839-4a3b5039681b	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-HB-A43Z	b81ba67f-ab22-4b06-a420-a6d5815f41f9	63640	b81ba67f-ab22-4b06-a420-a6d5815f41f9
+6de12993-cfbf-443b-8220-73d8180d68f1	Unknown	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A6BK	cda7acd0-b6db-46cd-8e82-974cfda0f003	25078	cda7acd0-b6db-46cd-8e82-974cfda0f003
+a46c2122-9eb3-429c-aaf7-24fcb1f7a6a1	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-FX-A3NK	44e8a96f-2387-4e20-b2a8-da4c9b0f5d97	34259	44e8a96f-2387-4e20-b2a8-da4c9b0f5d97
+cd73a55f-03c1-4da0-9fa7-1ae4a263664e	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A1KW	759f0f67-f321-493e-9b2c-e3d4515074a4	32185	759f0f67-f321-493e-9b2c-e3d4515074a4
+5d9608fd-e3eb-4bf9-911f-7656d6814b98	not reported	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-AB2J	df35a15b-929c-49e9-a764-e7060a14f781	24977	df35a15b-929c-49e9-a764-e7060a14f781
+07778870-d400-4495-b786-c63ff33fc29d	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-AB2V	1d811c73-91f9-40b9-9505-091acfaf6996	38078	1d811c73-91f9-40b9-9505-091acfaf6996
+ca0f032b-a34c-4a92-a403-bc7dc6eca8e9	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-KF-A41W	f11fdb90-262f-483d-ad9e-32bd936195e2	38948	f11fdb90-262f-483d-ad9e-32bd936195e2
+07a6bbce-012b-48fe-8c62-e79a1b200eb6	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A8BV	c2496267-5d81-4d32-9d4f-341a7cc801fb	57563	c2496267-5d81-4d32-9d4f-341a7cc801fb
+0ac700f3-c9cf-4ed7-a8bd-975527750024	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A6B7	91e329d4-cf33-493b-ba75-d7fc56f86bb8	53440	91e329d4-cf33-493b-ba75-d7fc56f86bb8
+3ea1cbd8-f74a-4b14-aa49-23d5a47716ba	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-IW-A3M6	3ea89744-4ac1-4390-ad94-ee68c3a30d08	52383	3ea89744-4ac1-4390-ad94-ee68c3a30d08
+2948d657-e5dd-4d6e-91b5-88c54f73ac31	not reported	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-HS-A5N9	3eb903a9-49b7-47b8-a9ce-3a3826faedd6	45497	3eb903a9-49b7-47b8-a9ce-3a3826faedd6
+0f94362d-368f-4570-b8c1-70fc4b1f5e35	Unknown	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-QQ-A5VB	7269c836-fd52-4e98-aae4-7ae2299d7047	52847	7269c836-fd52-4e98-aae4-7ae2299d7047
+10a6de43-a681-4cbc-821d-08335ed65320	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-MJ-A68J	a440c903-d5f9-45f3-a016-707b06d15757	38132	a440c903-d5f9-45f3-a016-707b06d15757
+1007195a-7b6a-4575-b6d1-075d76a997ff	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A6YR	6316fa99-c30e-4f57-a7b2-78b6a6e4e3b3	46254	6316fa99-c30e-4f57-a7b2-78b6a6e4e3b3
+109df703-2865-4b4c-8e4b-badff8eb3f22	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-HB-A3YV	96b5915b-7593-4438-adee-5eaa365ac22c	29484	96b5915b-7593-4438-adee-5eaa365ac22c
+12bfd446-2ee5-4664-a492-c023d134f60f	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-FX-A48G	6a14a62e-553f-457c-bd36-c97110aa540d	64568	6a14a62e-553f-457c-bd36-c97110aa540d
+1d03c1e5-8ab1-46b7-a46c-3738d463fd1c	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-AB37	c63ad269-823c-4102-a96d-1baadf5006ef	25088	c63ad269-823c-4102-a96d-1baadf5006ef
+1db4962a-3cf7-4f36-bd60-46a1b63b6c20	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-SG-A6Z4	871b3457-3aa7-47f4-8fed-5619354a9b18	44660	871b3457-3aa7-47f4-8fed-5619354a9b18
+212c9acc-d5ad-4b31-91bc-7ab72233aec6	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A23V	271202de-6d72-4485-ab21-5b80cdb6d04d	34147	271202de-6d72-4485-ab21-5b80cdb6d04d
+257dc623-41e1-4fa3-859c-c787db10bd60	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-IS-A3KA	30155dc4-97ef-4282-a8d4-6bf2fd4f9a35	44586	30155dc4-97ef-4282-a8d4-6bf2fd4f9a35
+239505ce-f2f1-477e-8ae2-b7065989ba79	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-K1-A6RT	f384c7eb-379e-4530-a836-142b0c7e5625	44282	f384c7eb-379e-4530-a836-142b0c7e5625
+24d08a93-d078-407b-8d93-5f7a099821eb	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-IE-A3OV	48f2bb1a-b050-4fe0-9073-c1618353476e	127939	48f2bb1a-b050-4fe0-9073-c1618353476e
+2a2f2663-d813-41ff-a4e2-dfe0f16d236d	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-3B-A9HY	2606e378-d6b4-418d-93e9-b4b105a92de3	33598	2606e378-d6b4-418d-93e9-b4b105a92de3
+37ecc5e1-2b04-498e-af2d-6cf54e33ba49	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A6BH	8e8d6352-89d4-4360-a574-623718d491e9	41856	8e8d6352-89d4-4360-a574-623718d491e9
+479d7a5a-63dc-412b-9075-920525334fe7	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-WK-A8XT	cdb69501-8ad6-412e-a696-af4056e74ea1	38151	cdb69501-8ad6-412e-a696-af4056e74ea1
+3a96e833-996a-4319-83f1-326b96f4ee80	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-FX-A76Y	1e7f4391-1b90-438c-b78f-f319b980eee5	33588	1e7f4391-1b90-438c-b78f-f319b980eee5
+5dbd1eed-523e-48cc-b69b-ac905a1116eb	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-PT-A8TR	a1307cc5-13a5-4dbb-b2ec-21e02f952041	61769	a1307cc5-13a5-4dbb-b2ec-21e02f952041
+6a25aeca-126b-408b-ae13-e7df29f552b4	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-AB36	beab9be3-13c7-49f9-9890-6a188ca36be3	25096	beab9be3-13c7-49f9-9890-6a188ca36be3
+590fdb76-20ef-4f95-9783-7d80e7a25e5a	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-IE-A4EK	62422540-1835-4a38-9763-596003783914	33065	62422540-1835-4a38-9763-596003783914
+85a7da1e-a8d0-4366-890a-79c0461967c6	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-X6-A7WA	7b18ccb0-19e0-4ba3-82d3-e7e433659af4	42042	7b18ccb0-19e0-4ba3-82d3-e7e433659af4
+788dbebb-3d1b-4f6d-8a40-869157d25025	Unknown	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-WK-A8XQ	4a6ada43-97aa-4f55-ba15-e735bb594954	30201	4a6ada43-97aa-4f55-ba15-e735bb594954
+851f8905-778c-4016-85e5-bc22817a6a28	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-3B-A9HQ	fec6658e-04a9-4c86-82a2-7d2e2162d2bd	33313	fec6658e-04a9-4c86-82a2-7d2e2162d2bd
+914df75d-25f5-4b2f-96c7-95861d7dfa30	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A8BM	8a5ec579-6e9a-4a75-84c4-35aafd3619a9	46366	8a5ec579-6e9a-4a75-84c4-35aafd3619a9
+91d9a1b9-ae23-4eae-9354-8b3a29e3d1e6	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-AB2Z	47e3e0a9-b178-4616-982b-4f66aaba63c2	33401	47e3e0a9-b178-4616-982b-4f66aaba63c2
+9dcdbd1b-2e03-4314-aef2-1f6b6fe18523	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-AB2X	e077614d-936f-4fb5-b38d-737aa2ec70f2	31634	e077614d-936f-4fb5-b38d-737aa2ec70f2
+9ebda267-a475-408a-a512-cd3761de83b4	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-QC-A6FX	f9107611-3d30-4e7f-a719-a7ee316b00a5	38355	f9107611-3d30-4e7f-a719-a7ee316b00a5
+98b4dd76-e6c4-4125-ba9e-9dc318ffb61c	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-AB2F	2f7b4a53-034b-4a9a-910e-6f917f7da965	41675	2f7b4a53-034b-4a9a-910e-6f917f7da965
+c5b0e6be-48b5-40e5-9d90-f9112050aa88	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-HB-A5W3	4224f8e0-44ed-40dc-92f4-de2c8a2618b1	25084	4224f8e0-44ed-40dc-92f4-de2c8a2618b1
+cd8637c0-1651-4e8a-9a88-7fb06dc36ff8	hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-JV-A75J	ad8c567d-4c5f-4498-a293-a9dd6ac2cfca	37058	ad8c567d-4c5f-4498-a293-a9dd6ac2cfca
+bfb21f9b-31af-4ecc-a4f4-d7d3f5728e01	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-3B-A9HR	767e0672-12b7-4c40-ad16-eccc06c4223f	114641	767e0672-12b7-4c40-ad16-eccc06c4223f
+d0d989cb-a50f-4ed9-8478-ae300ebc0970	not reported	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-AB32	cd8ecdbe-67cc-4b70-b583-77281a440a91	38013	cd8ecdbe-67cc-4b70-b583-77281a440a91
+ac2eeb9d-b5eb-465c-8271-c89bdb1ba136	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A8BQ	528933b4-dbd3-4bcb-a323-c4091a5977b5	46377	528933b4-dbd3-4bcb-a323-c4091a5977b5
+b85e2156-d5ac-486c-93e1-86525ea41a64	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A3M1	468c58c9-3745-488a-ad91-74be81ad90fd	42282	468c58c9-3745-488a-ad91-74be81ad90fd
+c849127a-2f15-4fab-8815-db09b017f48c	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-X6-A7W8	88e63263-2c8c-4f36-b50d-42c3671e7dae	30293	88e63263-2c8c-4f36-b50d-42c3671e7dae
+c9a5b051-0503-4aae-8bc6-270af3033326	not reported	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A6Z0	e5126381-11eb-48d3-b7ff-e27a0e003fe6	29636	e5126381-11eb-48d3-b7ff-e27a0e003fe6
+cabd63ee-d833-47b0-9a0b-8a046d260af1	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-AB3A	f02352a0-1dde-43fb-8f4a-cf282713507a	40035	f02352a0-1dde-43fb-8f4a-cf282713507a
+de509aa1-6f20-480f-bf9d-d6bc04a7f72c	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-RN-AAAQ	efa2acba-cf51-41b6-9bb3-ec609b107a2c	74848	efa2acba-cf51-41b6-9bb3-ec609b107a2c
+d7dc8efc-30d9-4d86-84a2-f39f4e1ea50e	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A48L	18301e40-4b8a-43a2-a4ce-ce542462ce44	46498	18301e40-4b8a-43a2-a4ce-ce542462ce44
+df4954d3-8334-4b0b-a781-43c12d03d604	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-X6-A7WD	0c5f6bcf-36d6-4fb5-8e10-03cafeb7c42a	42234	0c5f6bcf-36d6-4fb5-8e10-03cafeb7c42a
+5a64f7e9-3833-4a3c-962b-13eb3e305c69	not reported	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-IS-A3K7	e7b1594a-cf91-45fd-920a-6ba96c668999	46855	e7b1594a-cf91-45fd-920a-6ba96c668999
+505dc15c-4f74-43de-8eaf-32b7d7515edb	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A8BH	a93a2e11-af00-4382-9779-cd53ddbdd947	39564	a93a2e11-af00-4382-9779-cd53ddbdd947
+506c7c3d-c414-4fc7-963d-e77106b501fb	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-IE-A4EJ	ac7599a3-bd57-47f9-a7c7-c8f3c0f0b1e4	32888	ac7599a3-bd57-47f9-a7c7-c8f3c0f0b1e4
+5467fb35-7cb4-4d13-a0bb-fe727d5b7bb1	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A1L1	9e515abe-48bd-45cc-ba97-5552ae81e9ed	38443	9e515abe-48bd-45cc-ba97-5552ae81e9ed
+56fdf145-26c2-44d2-bf0e-67d8c8999a6e	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A6YZ	f9c45175-11da-49be-9ce6-a550ef027bc8	46260	f9c45175-11da-49be-9ce6-a550ef027bc8
+5190d965-0d48-4058-83e6-ec5879266be1	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-Z4-A9VC	e13f6cb0-2d36-4c8c-b4c2-d28ffbf0444a	33207	e13f6cb0-2d36-4c8c-b4c2-d28ffbf0444a
+520088b0-ffc0-4ecd-b1ed-2339811d7ad2	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-HB-A3L4	f8527e12-c34e-4401-a5e2-2d4c79d2b5b0	107290	f8527e12-c34e-4401-a5e2-2d4c79d2b5b0
+6b189eff-b919-49d6-8775-dbf32c9ccbba	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A2IZ	e200a08d-65b9-42b9-87ab-f8b195472468	40740	e200a08d-65b9-42b9-87ab-f8b195472468
+6201394f-b70e-4f14-9519-ff9d5f06eb09	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A3U6	8de3978f-f292-4862-a462-61503fa3814a	63859	8de3978f-f292-4862-a462-61503fa3814a
+6e82bcfc-a61d-441b-a1ed-cb46dc88a860	hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A7EO	9f229874-4f0c-4b31-822b-8321c1db83b6	46245	9f229874-4f0c-4b31-822b-8321c1db83b6
+76e3ec27-2c64-4e38-96f1-30307893b825	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-HB-A2OT	ae039b58-7581-412a-9734-2f051196221a	56005	ae039b58-7581-412a-9734-2f051196221a
+771b35b6-e0a9-427e-8c67-e934f5e0d9bd	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A1KX	b89673a9-bd7b-4199-b7fc-1fb8d23cdfce	40488	b89673a9-bd7b-4199-b7fc-1fb8d23cdfce
+7cbfe175-9329-496e-adc7-6b8ed2bdd113	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A3UD	5f9a1025-fc53-4d2b-8a85-9615ec27f43b	52676	5f9a1025-fc53-4d2b-8a85-9615ec27f43b
+854e42bc-95b2-4b77-a4b2-ffbd6c28b281	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A1L0	9219e20c-281b-4b67-b607-ea427d33a2c6	32441	9219e20c-281b-4b67-b607-ea427d33a2c6
+778dc00a-0b94-45a8-ae13-9c80f0c1dfd6	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A3UC	351f548a-c0ca-40ba-96c6-c66a3888f16f	114278	351f548a-c0ca-40ba-96c6-c66a3888f16f
+724edf28-c9b2-4b11-ae30-70a137f821b8	not reported	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-HS-A5N8	2e295300-3410-45da-9f00-e1aa42f2c380	33309	2e295300-3410-45da-9f00-e1aa42f2c380
+7fb69277-2aff-45e0-8f44-d2794f831a2a	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-MJ-A68H	5f05aa11-f638-46de-8d3d-1a35c92ff81b	33756	5f05aa11-f638-46de-8d3d-1a35c92ff81b
+78c0d30c-0905-49de-be7f-afc1337f59b7	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-K1-A6RV	ec2ed585-dd10-433d-a99a-2ffcff996ff2	38114	ec2ed585-dd10-433d-a99a-2ffcff996ff2
+8654c2b5-27d7-43c5-9a39-7fdefd7a0324	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-MO-A47R	39a10572-0573-4779-acea-dd62ebb822cc	33124	39a10572-0573-4779-acea-dd62ebb822cc
+7b5a66c5-17d2-487e-8ea3-81a00c836738	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A8BP	f001e2bf-fefd-4b5f-afba-e165b4ccde4f	33396	f001e2bf-fefd-4b5f-afba-e165b4ccde4f
+83488a9c-6b28-4a48-850a-2a2fa47ce25e	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A8BK	7551d11a-7905-426c-9690-c3683c832efd	46252	7551d11a-7905-426c-9690-c3683c832efd
+83a93378-0978-4102-9e4b-09b547b75687	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-K1-A42W	271656c7-4441-46b9-81fc-4e9a599df6fe	33540	271656c7-4441-46b9-81fc-4e9a599df6fe
+8b20dd03-46da-4d6b-95b4-f329fdc486cf	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-VT-A80G	9237a261-b974-4ded-9535-20bf3ed3b563	42583	9237a261-b974-4ded-9535-20bf3ed3b563
+93dfe3c6-445d-4976-93c0-9a826730fd58	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-QQ-A5V9	d7a1c814-cf01-4445-aa87-e41dcdc21d20	25225	d7a1c814-cf01-4445-aa87-e41dcdc21d20
+8fabdaf2-00b1-4d41-a27b-f4aa13f7b451	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A3M2	34db4b28-cc22-43d0-97ed-0b107d7aee68	33119	34db4b28-cc22-43d0-97ed-0b107d7aee68
+94359edf-7208-4b4c-ad7c-4064974de818	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-AB3C	d310fd5f-8dc7-4aa2-adb8-aabf66577fd1	62706	d310fd5f-8dc7-4aa2-adb8-aabf66577fd1
+91f6eb4c-0143-47b9-bcbd-5332d913a039	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-AB3B	3516890f-6fac-4f21-bcd9-a8d564d9a6a9	44983	3516890f-6fac-4f21-bcd9-a8d564d9a6a9
+9c58e3b2-1dee-4375-8239-ce69a725e3de	Unknown	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A6B8	4c3e21a9-f4b8-4710-b9e0-b90b838565a8	35860	4c3e21a9-f4b8-4710-b9e0-b90b838565a8
+926176c2-0a8f-414a-a7b1-91734bdce6ae	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A8BJ	1e11e830-e5db-427c-a954-e6bb49aa983b	29688	1e11e830-e5db-427c-a954-e6bb49aa983b
+969954a8-7f15-4052-9e6a-c5956115f3ad	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A6BG	be27e66e-627d-496c-9497-affbebd6b47b	68105	be27e66e-627d-496c-9497-affbebd6b47b
+a7c45269-b693-45c4-81fd-6dd3379877e8	not reported	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A7ER	c1a655c3-0ca5-4189-a2d7-520d98cc612f	24942	c1a655c3-0ca5-4189-a2d7-520d98cc612f
+9ef5cdda-8aba-4027-8cf0-e53b2f54704a	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-3B-A9HU	c2dc1dbc-e032-42c9-9ba3-85f19af81f0c	44332	c2dc1dbc-e032-42c9-9ba3-85f19af81f0c
+9b781072-66d8-49f2-80f7-7b020746b6e9	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-SI-AA8C	e29f86e5-a213-4063-a9d2-4cd8d4740429	40629	e29f86e5-a213-4063-a9d2-4cd8d4740429
+9bdc3867-2115-4351-af5f-a52a2c20ae5d	Unknown	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-K1-A42X	32e1ce39-a8a7-4889-9394-42e980574907	45497	32e1ce39-a8a7-4889-9394-42e980574907
+a37238f3-55b5-43df-a0c5-3d22ee5156f3	Unknown	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A48R	e21d8c9a-e20d-4503-8367-bf16dd5f6f8a	59714	e21d8c9a-e20d-4503-8367-bf16dd5f6f8a
+9bf78d02-f5e5-4cee-8d4d-57cc567cb510	Unknown	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-MB-A8JL	be532383-f858-4fe9-9bc5-3bd68624ac0c	33508	be532383-f858-4fe9-9bc5-3bd68624ac0c
+cedf4099-076d-4ea7-9a86-76fe9530b88c	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-JV-A5VF	af750ade-d99f-45da-b2e9-8c4c10f3f9d0	25663	af750ade-d99f-45da-b2e9-8c4c10f3f9d0
+c05498e7-5b93-4acb-9d91-3a505116558d	not reported	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-KD-A5QT	e31afd0e-2ec7-441d-99fb-d7f056789b9c	32974	e31afd0e-2ec7-441d-99fb-d7f056789b9c
+d40c99d0-79f6-499d-b7f1-5fc4237cfc57	Unknown	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A3U8	2ee304a3-bc1c-4449-a439-8e265a516634	35171	2ee304a3-bc1c-4449-a439-8e265a516634
+f4852819-6c2d-45f7-8479-5e79f143c7b5	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-KD-A5QS	da1dc2a4-a361-4411-92bd-0f185c009f5b	65116	da1dc2a4-a361-4411-92bd-0f185c009f5b
+fbc32608-52ae-48ca-bb4a-ec29c1d82b8b	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-WK-A8XO	58d0f61a-6c97-42ea-90e3-02ac11114d54	30395	58d0f61a-6c97-42ea-90e3-02ac11114d54
+e987c47d-6ecb-41bb-a66f-a0489e56449f	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A8BL	15e488c4-690c-4639-8409-da3239a4a732	41630	15e488c4-690c-4639-8409-da3239a4a732
+ea0e5ae7-1f15-4504-aea3-efd1f6733304	not hispanic or latino	male	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A1KU	0570843a-0b4d-4d11-b91d-f483b5b0bfa5	36126	0570843a-0b4d-4d11-b91d-f483b5b0bfa5
+fd93cabe-fb8d-4a46-97ee-60051110237a	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A48O	f225c39a-7a62-4eb4-b905-44257f6c39b2	49679	f225c39a-7a62-4eb4-b905-44257f6c39b2
+f519be07-434e-4eb2-acf9-318565b83d50	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-K1-A3PN	b936a68a-8a68-41be-a2c0-b329f0d82482	60311	b936a68a-8a68-41be-a2c0-b329f0d82482
+f6534e53-ea96-4e51-b93f-8aa045f6775d	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-AB2O	66bf0af0-e222-4d9f-ad0b-ff13d5a1a136	33381	66bf0af0-e222-4d9f-ad0b-ff13d5a1a136
+ecc74d54-d929-4dd0-b9ec-e03163343f9a	not reported	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A6YX	237c7af7-72b6-4880-844d-02c7e694d53e	60626	237c7af7-72b6-4880-844d-02c7e694d53e
+f693eec9-cd6e-4696-882f-a6dffe481df9	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A6BF	b782df24-ed41-46b6-92d6-a1e504285a93	53762	b782df24-ed41-46b6-92d6-a1e504285a93
+ef273fe6-aab0-41eb-94f7-cca980bf789e	not hispanic or latino	female	Sarcoma	Soft Tissue	TCGA-SARC	TCGA-DX-A7EL	bdae2fdf-f80d-4dfb-8d82-37f16b7e6f31	34568	bdae2fdf-f80d-4dfb-8d82-37f16b7e6f31
