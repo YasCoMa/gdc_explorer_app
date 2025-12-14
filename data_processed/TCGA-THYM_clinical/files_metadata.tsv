@@ -1,0 +1,125 @@
+cases.0.case_id	cases.0.demographic.ethnicity	cases.0.demographic.gender	cases.0.project.disease_type	cases.0.project.primary_site	cases.0.project.project_id	cases.0.submitter_id	file_id	file_size	id
+3eab80e6-21bc-45dd-a7b5-411a5dad4e9a	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-ZB-A96M	a09b8b1b-6488-42ec-a7c3-e48dd77d4542	25543	a09b8b1b-6488-42ec-a7c3-e48dd77d4542
+15a2baae-d15e-4349-9358-74356a2d2ad0	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-X7-A8DE	5d61da0d-bd60-4107-b9d9-c050481d9b01	25465	5d61da0d-bd60-4107-b9d9-c050481d9b01
+0be4fa90-0122-4b26-b35f-7b1a4a16e63b	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-4V-A9QM	c8cd8bb5-5a2e-47f9-ba13-31ffbd63e37a	31320	c8cd8bb5-5a2e-47f9-ba13-31ffbd63e37a
+57000a6a-b132-4c02-807f-5505ad3e1fdd	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-XU-AAXZ	c9fa6e84-d853-4ee8-a815-7ddea0d488e8	30190	c9fa6e84-d853-4ee8-a815-7ddea0d488e8
+7fc85735-1bf2-4414-973c-e18f030e5ac0	not reported	male	Thymoma	Thymus	TCGA-THYM	TCGA-XM-A8RI	2aef6e1d-b932-4334-bb6b-15903e988d85	31286	2aef6e1d-b932-4334-bb6b-15903e988d85
+67ff3aa1-9d52-4dc8-8501-ecd0d37a8735	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-3G-AB0Q	9f18e2bc-9634-46d0-9859-378ee5e521d2	30214	9f18e2bc-9634-46d0-9859-378ee5e521d2
+0a312064-878f-4b69-8bb7-e7f14e6cd7fe	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-4X-A9FD	ed98782e-1158-4699-9eaa-9910dd7176f6	37161	ed98782e-1158-4699-9eaa-9910dd7176f6
+d3189c8e-ffe0-41ff-9c7b-64da4c83b991	not reported	male	Thymoma	Thymus	TCGA-THYM	TCGA-YT-A95E	6b4838a1-5532-49a2-b187-d0645e323577	28848	6b4838a1-5532-49a2-b187-d0645e323577
+23cc4cd3-87dc-4342-9072-be3695e393fa	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-X7-A8M4	9318b92d-d18e-48c8-9054-751e70bb1a74	30151	9318b92d-d18e-48c8-9054-751e70bb1a74
+0477055e-a57e-4bdb-89ab-2999881bdd6c	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-X7-A8M5	6f259b1d-392e-4f15-8342-0d5d14a12b3e	42876	6f259b1d-392e-4f15-8342-0d5d14a12b3e
+173b805f-3088-43f6-a159-95fff3581fd5	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-ZB-A96F	8ae593f3-15fc-4343-b75f-420b10998142	25521	8ae593f3-15fc-4343-b75f-420b10998142
+4db60b44-21b5-433c-9689-f6aa79b819b8	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-XU-AAXW	6d6e1650-fb48-4029-bf84-ceb7dff65c30	30191	6d6e1650-fb48-4029-bf84-ceb7dff65c30
+4c0cf497-abea-4ea5-a207-e26f85f3bd18	not reported	male	Thymoma	Thymus	TCGA-THYM	TCGA-YT-A95H	c13702ca-0fbd-4350-97d8-7e95691743ab	42839	c13702ca-0fbd-4350-97d8-7e95691743ab
+3afa9201-61ad-4958-925f-b93912d2841a	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-XM-A8R8	dd2bd20d-7be4-4acd-be2f-20e8c7455199	25829	dd2bd20d-7be4-4acd-be2f-20e8c7455199
+50612721-2e12-4dc3-8e1e-87624cf9333b	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-4V-A9QJ	a477a585-0e81-4e98-b6af-6a0ff4f83e22	36355	a477a585-0e81-4e98-b6af-6a0ff4f83e22
+4fc4cba2-7212-4755-b53d-111878b2ff90	hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-3S-AAYX	73272d1c-3cde-4b8b-bdec-5364d170a259	30180	73272d1c-3cde-4b8b-bdec-5364d170a259
+55536b55-0e84-49a2-b5df-b88431965b3e	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-XU-A92V	14ce7808-3fad-4885-98a6-adc773ae2620	19563	14ce7808-3fad-4885-98a6-adc773ae2620
+5b7b3e7c-3230-4675-8fdf-3e5119b02ce1	not reported	female	Thymoma	Thymus	TCGA-THYM	TCGA-XU-AAXX	fcb66ab8-6fcb-4adc-9db0-65bbcd6cb148	40642	fcb66ab8-6fcb-4adc-9db0-65bbcd6cb148
+748fc94f-d496-46b1-a5f4-42aa53de0f31	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-XU-AAY0	83a67c4b-a80b-4be8-b0d3-e10ae758bc9a	25547	83a67c4b-a80b-4be8-b0d3-e10ae758bc9a
+67ff20ba-1b56-45ae-9310-19dd74401e67	hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-ZC-AAAA	92d319f5-2d8a-4e39-9dfa-d67f146849fe	36223	92d319f5-2d8a-4e39-9dfa-d67f146849fe
+6e98a600-252d-442f-9372-ddc7c5338ae7	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-3G-AB14	e5aeef79-32f9-4c1e-889c-995fc79ef5cd	25457	e5aeef79-32f9-4c1e-889c-995fc79ef5cd
+85d1afdf-6164-49e1-b599-71512c5acd99	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-4V-A9QR	8811bc4c-34a7-48a6-8b84-e10b581f0443	36109	8811bc4c-34a7-48a6-8b84-e10b581f0443
+8889f7a6-3f3d-417b-bf3e-9a2155c4786c	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-ZB-A96I	8f96fbd5-9567-44dc-a1d6-f1790c26bc64	25562	8f96fbd5-9567-44dc-a1d6-f1790c26bc64
+7aef4dcf-0a4b-4848-beab-377394456bee	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-ZB-A96R	e3061f3c-96c6-4b83-82cf-48638fb93e5c	30562	e3061f3c-96c6-4b83-82cf-48638fb93e5c
+88c0af76-b1ba-478f-a42b-8a50c0568d5e	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-4V-A9QS	9361876b-4514-4bc2-ad91-5277e8501dd4	36437	9361876b-4514-4bc2-ad91-5277e8501dd4
+96e5c81e-8edb-4e6c-84fc-f127142f2835	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-4X-A9FA	09f29066-7d8c-4985-8cb2-49d86bc13b0b	31327	09f29066-7d8c-4985-8cb2-49d86bc13b0b
+80606b1c-e8c8-4c3d-8475-3d846a84ca98	hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-XU-AAXV	5bab1394-bff1-4ef9-be57-cda43d5fd55a	30152	5bab1394-bff1-4ef9-be57-cda43d5fd55a
+9bbd057c-5a3b-4e04-8df7-c2f0c1823084	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-XH-A853	10a7bc43-7676-4e4c-981b-88197a27025b	25766	10a7bc43-7676-4e4c-981b-88197a27025b
+9084a558-11ea-448c-9f9d-0f90a94a29af	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-XM-AAZ1	b4ad8022-426e-4a00-b04d-1c5d8fe099e4	36418	b4ad8022-426e-4a00-b04d-1c5d8fe099e4
+aea15ea1-38c2-4d0e-824d-e3495271b05d	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-XM-A8RF	7d2c24e6-b154-42d1-abed-bef8e8fab9f7	25540	7d2c24e6-b154-42d1-abed-bef8e8fab9f7
+bb9bb553-f304-4d14-a655-5c3bf4720a9b	hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-5U-AB0F	ce3fa14d-16a5-4798-baae-5cba5242aba9	25474	ce3fa14d-16a5-4798-baae-5cba5242aba9
+d9816402-1073-4b19-ba16-1c7e7c00fbb3	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-ZT-A8OM	365f2020-a44d-45dd-9576-757409785203	25337	365f2020-a44d-45dd-9576-757409785203
+dd240b82-b1d6-4c0f-aa3e-6fcfe1364ec1	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-XM-A8RL	590c5cbf-5418-4daf-857b-39c0989a1430	25464	590c5cbf-5418-4daf-857b-39c0989a1430
+d8e19e8a-7442-4b6b-8f4a-d02dca5c9894	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-4V-A9QW	96efcbe0-1bd4-4bea-a648-30999287e6ef	31359	96efcbe0-1bd4-4bea-a648-30999287e6ef
+e0df61c1-c93a-419a-b99c-1e97e0cabed1	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-ZB-A961	1bbbf647-94cc-4b6d-b199-e5e5fcc3ddd7	25511	1bbbf647-94cc-4b6d-b199-e5e5fcc3ddd7
+f4ee567b-ea34-4bd0-96c9-398e2045d5fd	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-4V-A9QL	ed252aa1-c984-45cd-827d-bd82a1082ce1	31322	ed252aa1-c984-45cd-827d-bd82a1082ce1
+f6051ac0-3d70-4cbb-8c1c-99c9efeacb0f	hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-5U-AB0D	7c32f234-8f0c-4752-b030-e5ad691858d3	37155	7c32f234-8f0c-4752-b030-e5ad691858d3
+faa4ad8d-97c1-41b3-bb5f-534e8f6d6aef	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-ZB-A96A	5c2412ff-88a9-414c-b91d-82cd366ddc74	25794	5c2412ff-88a9-414c-b91d-82cd366ddc74
+eeaa0fa3-408c-4e0f-a18a-095514173ff1	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-4V-A9QI	bde88043-8977-415d-8411-d272ae887980	36110	bde88043-8977-415d-8411-d272ae887980
+fc9b7bf7-e649-4163-ad5a-b741785d3b79	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-XM-A8RG	7a02d8a0-1dfc-4575-b94b-4f2e9a256376	31343	7a02d8a0-1dfc-4575-b94b-4f2e9a256376
+440421ad-5f1f-4345-86a2-fc25cb7cd453	hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-3S-A8YW	38063d86-8950-4ed7-a83e-97ce4406fa06	30556	38063d86-8950-4ed7-a83e-97ce4406fa06
+2c2e169e-9f93-41a7-bfc4-ade18bb5d7ae	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-4X-A9FB	ebb9560a-b871-4143-8196-6f3e8ca10d74	25553	ebb9560a-b871-4143-8196-6f3e8ca10d74
+5f539ac1-c4c8-46cc-98d7-8951a6ed680a	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-5G-A9ZZ	9b7ee7ab-efc0-4a9c-b2d9-6aa22f465a17	25511	9b7ee7ab-efc0-4a9c-b2d9-6aa22f465a17
+acaaed1a-2667-4c56-919b-daf5574371bb	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-3G-AB0T	f96b853b-30c5-4437-b06b-85476f38567b	24513	f96b853b-30c5-4437-b06b-85476f38567b
+91f67f4e-b8b1-4455-83a6-4d96d04e8ca9	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-ZB-A96G	f40ae906-68b5-45dc-9a3c-224b9a08fcea	30233	f40ae906-68b5-45dc-9a3c-224b9a08fcea
+2fdb7682-1dce-40bf-8180-d3a5a084ecb1	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-XM-AAZ3	1d44b4c8-c3f9-43fc-a66f-472922aa71e6	25463	1d44b4c8-c3f9-43fc-a66f-472922aa71e6
+29e038ba-b042-473e-a526-96d41b2830e1	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-XU-A936	3220869c-bece-47ed-84c0-694f374c20dc	34881	3220869c-bece-47ed-84c0-694f374c20dc
+2a654463-1d68-4c82-9549-4526aad41870	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-XU-A930	582841e0-0888-44dd-9ac0-797413af94e6	30189	582841e0-0888-44dd-9ac0-797413af94e6
+18c3debb-08ea-4ca1-ade4-d577bcee4fa2	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-X7-A8M1	1db64711-8bad-4e6f-b53f-e9799ce88f78	25470	1db64711-8bad-4e6f-b53f-e9799ce88f78
+335535a1-e3d4-41a1-bbdb-1d5afd5acfd3	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-XM-A8RB	5087812e-4d4c-45a7-bab6-ebb9b812f26a	25522	5087812e-4d4c-45a7-bab6-ebb9b812f26a
+38668ba7-213e-4f2c-85d1-c0e2a8ed0ea1	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-ZB-A964	1290d653-4d94-4593-ac3e-ba1c0aea47bf	25465	1290d653-4d94-4593-ac3e-ba1c0aea47bf
+50072717-861c-4b60-b595-d8ea23bb1c67	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-ZB-A96V	1e5db8eb-8160-4d75-b914-dbeff4d1b8a3	30248	1e5db8eb-8160-4d75-b914-dbeff4d1b8a3
+3cc2d49b-a3a6-4f55-a355-68cbe84f4056	not reported	male	Thymoma	Thymus	TCGA-THYM	TCGA-ZC-AAAH	6541b942-21ff-4c6b-a54c-1205853d684f	31613	6541b942-21ff-4c6b-a54c-1205853d684f
+51abe033-5fb4-49b5-89ef-c44d0bb1ab00	hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-4V-A9QN	c480ccd8-b385-4787-8e8d-d5ad3450d167	36387	c480ccd8-b385-4787-8e8d-d5ad3450d167
+51feca45-114e-4817-99d6-1c9842cd679a	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-ZB-A965	6d3317e5-5475-4726-8024-6aed2e688e0c	30542	6d3317e5-5475-4726-8024-6aed2e688e0c
+5324c178-1b4b-42f8-ac9e-17c5f349a289	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-ZB-A96B	a3566975-2424-4d5a-bf44-d92003042ee8	25674	a3566975-2424-4d5a-bf44-d92003042ee8
+5f18924a-bcd6-4462-9c99-e634bddaf18e	Unknown	female	Thymoma	Thymus	TCGA-THYM	TCGA-XU-A931	5d6eeaa6-4c39-4dde-a967-9192c510cf97	24468	5d6eeaa6-4c39-4dde-a967-9192c510cf97
+56c4f5e8-4e89-4ba0-984d-e17f11a401f5	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-X7-A8M7	6238c2e2-af97-4643-808e-54da3515a041	25478	6238c2e2-af97-4643-808e-54da3515a041
+628ecfe9-9e29-4b51-a11e-96d4e9181d86	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-ZB-A96E	91565a3d-10d8-42cc-b33e-6c3e57509ea4	25814	91565a3d-10d8-42cc-b33e-6c3e57509ea4
+7459bec0-1b54-4fd7-90db-8375168e6b1a	not reported	female	Thymoma	Thymus	TCGA-THYM	TCGA-YT-A95G	ae4dc44c-aace-4d26-810e-8b18bc7afa61	25505	ae4dc44c-aace-4d26-810e-8b18bc7afa61
+66c564ba-b42d-4be9-9e5f-bf93984569eb	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-X7-A8D6	18680704-3321-4cfb-90e2-26d3841ee0a1	30456	18680704-3321-4cfb-90e2-26d3841ee0a1
+756dd9bf-bf40-4ad2-a78e-9430c2c8ea6e	not reported	female	Thymoma	Thymus	TCGA-THYM	TCGA-YT-A95F	8cb8685f-c532-4a3b-94e7-8687ffa61d89	37124	8cb8685f-c532-4a3b-94e7-8687ffa61d89
+7933b320-ae8c-4d3d-9468-8abb135e93d5	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-XU-AAXY	744fc868-9456-4f16-98de-8747e69b7f7b	30189	744fc868-9456-4f16-98de-8747e69b7f7b
+68d2ab61-50fc-41e8-b3ee-75c70f0f4369	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-XM-A8RD	63f4a43c-79d6-45c7-afec-54e53c3035e4	25528	63f4a43c-79d6-45c7-afec-54e53c3035e4
+7a99a808-5ac7-49b3-87f6-106663eb323f	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-4V-A9QQ	d3e30701-a633-4947-af9f-13ffc2bbdc96	50648	d3e30701-a633-4947-af9f-13ffc2bbdc96
+81186204-5cc8-48e3-994b-4d3cb1f59c65	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-X7-A8DC	db98f4b6-957b-47e0-af76-69af907a8f8e	25522	db98f4b6-957b-47e0-af76-69af907a8f8e
+81fdc97f-8bad-4286-9d36-9a887c6b59a1	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-3G-AB19	214cf9fa-7af6-4a65-afa1-cc4bada84e56	30780	214cf9fa-7af6-4a65-afa1-cc4bada84e56
+8cc1e08d-75b6-48da-90df-e6af23cb4c35	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-X7-A8D7	c394bfcc-f1d1-4f2a-82fa-865562efacc1	30224	c394bfcc-f1d1-4f2a-82fa-865562efacc1
+82505b35-d771-4fb4-8ec4-54a2e5a8ad79	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-X7-A8D9	c4faadf0-6a11-43ae-92ea-1cf66b9b469e	25253	c4faadf0-6a11-43ae-92ea-1cf66b9b469e
+a653b0bb-aacf-4b11-bb11-42e043e49bf6	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-X7-A8DG	0ea4b44e-ad12-4130-8b25-b2b15a3c5db4	25520	0ea4b44e-ad12-4130-8b25-b2b15a3c5db4
+acfba23a-06eb-4ff1-be60-0452a13a4978	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-ZB-A96O	0821b645-0c81-4435-b704-e54cce2288d4	30250	0821b645-0c81-4435-b704-e54cce2288d4
+add338c1-8b31-4378-9a44-19bf646c972b	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-4V-A9QU	db38f49e-e2f1-4169-9465-0df12eb3940b	31321	db38f49e-e2f1-4169-9465-0df12eb3940b
+abdbdba3-807e-4192-88a6-41dd6d9309ab	hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-5K-AAAP	2e91ac24-cd86-4ea5-9f4d-f90998c8d5f8	25453	2e91ac24-cd86-4ea5-9f4d-f90998c8d5f8
+9cabde13-0cbb-4502-9dc1-4c9bd8a68313	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-XU-A92Z	b692e2fc-e8ff-40ab-b6f5-b02aa13d814d	30201	b692e2fc-e8ff-40ab-b6f5-b02aa13d814d
+262b4693-961b-4006-be4e-e6f38a1cce4a	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-X7-A8M0	2e5cfd00-5777-4aee-bcf5-b530c584b508	25759	2e5cfd00-5777-4aee-bcf5-b530c584b508
+09f8acfc-4d80-4005-9f40-7485309997f5	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-XU-AAY1	4ebb8a0b-3fbe-4aaa-9ba3-ab7f4e6cd0a2	25503	4ebb8a0b-3fbe-4aaa-9ba3-ab7f4e6cd0a2
+fbc5debd-f117-4ade-81b0-45d49fdd50a1	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-3Q-A9WF	1e783fda-3557-4f3c-9202-9c3834603ff0	25321	1e783fda-3557-4f3c-9202-9c3834603ff0
+0050d8be-1db6-4c17-8bef-3ae2eaaa63ce	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-4V-A9QX	6d714971-49a3-4b5c-ae8d-bb1f1877cfa3	36060	6d714971-49a3-4b5c-ae8d-bb1f1877cfa3
+1248516e-7552-4a33-a1ab-2884d551ef32	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-X7-A8M3	25bd6d2c-478a-4bf0-a568-8682242117e8	25481	25bd6d2c-478a-4bf0-a568-8682242117e8
+afc984dc-588c-4277-88aa-5d82dd8bd40c	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-ZB-A96D	6c79c5da-6368-4f47-9d59-7313c9f62629	30238	6c79c5da-6368-4f47-9d59-7313c9f62629
+bfe41ba3-2bcf-4760-ae65-cd417e22393f	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-5V-A9RR	7bdf9dff-8ee5-43d4-88e1-2958c32c39be	25498	7bdf9dff-8ee5-43d4-88e1-2958c32c39be
+b1fa64a6-f86b-43b6-a488-54fe6fe85e9c	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-X7-A8M8	73e85c9d-0f24-4a34-a91a-b5740da4ba6c	25482	73e85c9d-0f24-4a34-a91a-b5740da4ba6c
+154c7698-c0fe-40da-b0fc-47b6385fcee1	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-XM-A8RH	20dac01f-6b16-48c9-b52e-08a43edd36ee	25525	20dac01f-6b16-48c9-b52e-08a43edd36ee
+3f19d238-1b55-4530-a9e2-8fda644d45a6	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-3G-AB0O	143c61f6-8a9c-4373-b598-3e0d621a7092	31323	143c61f6-8a9c-4373-b598-3e0d621a7092
+a6885883-f1a2-48dd-8d72-0038319069a1	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-X7-A8M6	1e1d4da1-aec8-4188-bd02-9a91165c151b	55952	1e1d4da1-aec8-4188-bd02-9a91165c151b
+9291a2cb-98e6-43b9-8cbf-889e6da9bffa	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-X7-A8D8	63087c75-b28f-4d70-a04f-75638803f30d	25472	63087c75-b28f-4d70-a04f-75638803f30d
+b9d753e0-6caf-4569-88d1-af4b76b255a9	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-X7-A8DD	e399c211-595a-4be0-b03f-0f243e415906	25466	e399c211-595a-4be0-b03f-0f243e415906
+a8117654-b223-4301-9c4d-530fbc55ea72	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-X7-A8DI	1d1e4d68-743c-4cca-bbae-336ce3b3b891	25462	1d1e4d68-743c-4cca-bbae-336ce3b3b891
+bab3ce0b-d318-4791-aa17-d815ea23b62d	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-ZB-A96H	f3ac59e4-efe7-41ae-bc32-6f7e06ddb922	30247	f3ac59e4-efe7-41ae-bc32-6f7e06ddb922
+b1774c5c-7a6f-4bf6-8539-15a35f1457e6	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-XU-A92O	4ce79790-d1ea-4e00-97a7-c4b5f58414b2	25510	4ce79790-d1ea-4e00-97a7-c4b5f58414b2
+b2cab6ab-3b4a-408c-a331-9353dbc4fc0d	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-ZB-A96P	ad404490-0d6f-4e94-80e4-08fad61db838	25500	ad404490-0d6f-4e94-80e4-08fad61db838
+bd06627d-1e86-4212-b53b-082686abee7e	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-ZC-AAA7	72c6b3cb-4bf1-4714-bb60-37c39996a631	25480	72c6b3cb-4bf1-4714-bb60-37c39996a631
+cffd89d3-0d36-4b30-a676-e9d66e2c764b	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-ZB-A96L	cedbd4e3-bbd9-41ca-90fb-0c437123548c	25501	cedbd4e3-bbd9-41ca-90fb-0c437123548c
+c7ff8f16-9b89-4efb-8c06-b866a8b26d7a	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-XU-A92R	ed11bc79-491e-48d2-828a-4b4177520441	25546	ed11bc79-491e-48d2-828a-4b4177520441
+d2385e2f-82e3-4ac3-bde2-0bf2daa46860	hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-X7-A8DJ	a60afa29-3efb-45e9-87c0-641c1f5cf896	25469	a60afa29-3efb-45e9-87c0-641c1f5cf896
+cd458290-f27b-479c-9b78-0af23e7f63d9	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-ZC-AAAF	014afcf0-da24-4c9b-9017-c745f04059ae	31342	014afcf0-da24-4c9b-9017-c745f04059ae
+d3bf7bb0-086b-4aab-8048-abc0d91948ad	not reported	female	Thymoma	Thymus	TCGA-THYM	TCGA-YT-A95D	228db498-4583-4dbf-8c9f-55da0490137b	31628	228db498-4583-4dbf-8c9f-55da0490137b
+d542aa45-86cf-462e-abbe-76a3354e707e	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-4X-A9F9	e938d53b-a292-4290-b0c9-d1236354b8ae	41889	e938d53b-a292-4290-b0c9-d1236354b8ae
+d6b1516a-8271-4071-8c56-d4538de63892	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-ZB-A963	01b2b23c-365a-4944-a368-bdf6be03156d	30250	01b2b23c-365a-4944-a368-bdf6be03156d
+e464f16e-151c-4754-a8ff-e35b31d4c76f	not reported	female	Thymoma	Thymus	TCGA-THYM	TCGA-XU-A92T	aa4b7398-3ac3-4f31-a39e-b113c2d27577	25464	aa4b7398-3ac3-4f31-a39e-b113c2d27577
+e687f26d-f092-4116-9f9f-a2a2b9fc9b0d	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-4X-A9FC	da48c51a-698e-48f5-9d35-09627a5152e6	31327	da48c51a-698e-48f5-9d35-09627a5152e6
+eddb3067-a0e5-461f-a8b8-95081ec67de0	Unknown	female	Thymoma	Thymus	TCGA-THYM	TCGA-3T-AA9L	de2a7759-27de-425d-b647-b4f9d7e0dd20	32959	de2a7759-27de-425d-b647-b4f9d7e0dd20
+fac44b50-aa8c-498e-88af-4eb5c2f5f67a	Unknown	male	Thymoma	Thymus	TCGA-THYM	TCGA-XU-A92U	fd1cf095-ad40-428a-bc78-dda8d849af75	30117	fd1cf095-ad40-428a-bc78-dda8d849af75
+fd15ff57-f121-40ea-a3b9-b66cbf34c1e0	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-XU-A92Y	cf43df99-e6d8-4d37-8ca1-06e6c1b83c88	24755	cf43df99-e6d8-4d37-8ca1-06e6c1b83c88
+ff0e9d4a-2b62-4a15-b71a-2887d8747ae6	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-XU-A933	6533b2da-d237-4f59-af7c-36d3243aab20	41754	6533b2da-d237-4f59-af7c-36d3243aab20
+056386db-d338-4fc8-8bb1-249be72fd6cb	hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-5U-AB0E	d1a20cc1-aeaf-4744-ab9f-51379e1bffad	30183	d1a20cc1-aeaf-4744-ab9f-51379e1bffad
+17e2bf75-4ce6-4cd7-94a1-434c5aa36549	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-XM-AAZ2	20d1a3d9-3dda-44bd-a726-a30c269007b1	25481	20d1a3d9-3dda-44bd-a726-a30c269007b1
+2b794eae-814c-4b5c-b276-be9096b94f94	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-ZB-A966	b15da603-14b2-452f-b0e3-17fdf1c81d49	38322	b15da603-14b2-452f-b0e3-17fdf1c81d49
+3f691bf4-9558-4454-889e-cfa7d0de96cc	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-4V-A9QT	d42311e7-aec1-441a-96cb-27ff189df1a2	31321	d42311e7-aec1-441a-96cb-27ff189df1a2
+2f6f86f3-6d31-4a8c-b70d-2759b44bac6c	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-ZB-A962	72866156-0c60-412e-9463-c04b73394e9f	32838	72866156-0c60-412e-9463-c04b73394e9f
+4165391b-6122-4e87-ba91-ce935e0b3cf4	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-X7-A8DB	313bef50-42b2-48d2-b1ff-44899b030138	25485	313bef50-42b2-48d2-b1ff-44899b030138
+49d8939c-7c23-4a6c-b71a-0c39c262c346	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-XM-A8R9	3a835868-86ad-47dd-acf6-d785b4d5433b	25517	3a835868-86ad-47dd-acf6-d785b4d5433b
+4a2f3f77-7eea-4bb1-92bd-2d595e23ab88	Unknown	male	Thymoma	Thymus	TCGA-THYM	TCGA-ZL-A9V6	7528d4fd-417f-4967-a6ec-bed959c03e17	25453	7528d4fd-417f-4967-a6ec-bed959c03e17
+4d6f70aa-ef52-4f98-a929-5d511601abed	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-XU-A932	9aa4c442-66b0-46d4-8f4b-cc839f5e76ad	25504	9aa4c442-66b0-46d4-8f4b-cc839f5e76ad
+71020ee6-3b76-4e31-b3ce-7e54ce706134	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-X7-A8DF	084ebe28-0472-43b7-acdc-21ade6371280	25398	084ebe28-0472-43b7-acdc-21ade6371280
+9b116a89-ba1a-4b7f-bcc6-2dcd950269ec	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-ZB-A96C	39d4a15c-88cb-439a-a567-492b8661fc50	25503	39d4a15c-88cb-439a-a567-492b8661fc50
+a4f4c331-97a3-48c4-aa3e-27304c1eb611	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-XM-A8RE	bd1c7e12-e4f1-423e-900f-78129c35a0d1	31289	bd1c7e12-e4f1-423e-900f-78129c35a0d1
+b8348adb-17dd-4849-bd4f-c2e7e15db1f4	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-XM-A8RC	dcd70b28-1897-4924-ac8d-be5a9074f1c9	25520	dcd70b28-1897-4924-ac8d-be5a9074f1c9
+9627ff18-f5ee-4b34-a823-35ebe3c00a3f	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-ZB-A96K	380b4e24-59ba-4bc5-aad5-a597386fce12	25500	380b4e24-59ba-4bc5-aad5-a597386fce12
+ce6eee0d-6f27-4516-95a4-b1b604de9776	not hispanic or latino	female	Thymoma	Thymus	TCGA-THYM	TCGA-ZB-A969	32200100-423c-444e-be80-2fbf59a67ad7	25517	32200100-423c-444e-be80-2fbf59a67ad7
+b39f3099-62b0-41c1-85a2-61989cee0b60	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-ZB-A96Q	0a488140-499d-47eb-8151-7c7dea519fa4	30272	0a488140-499d-47eb-8151-7c7dea519fa4
+d04d927b-bb66-435f-bb8f-dd71145c5eec	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-XU-A92X	8680ca1c-24c0-4b47-a1a4-c745d20fec2f	25501	8680ca1c-24c0-4b47-a1a4-c745d20fec2f
+c1f7e0cd-24b0-4c45-8e60-1ff669a692ab	not reported	male	Thymoma	Thymus	TCGA-THYM	TCGA-XU-A92W	1f8b881a-7623-4ba2-9144-64172aa54447	30148	1f8b881a-7623-4ba2-9144-64172aa54447
+b7e1a4f5-9173-41c2-8079-c5ce59c8d190	not hispanic or latino	male	Thymoma	Thymus	TCGA-THYM	TCGA-XU-A92Q	324be386-3771-4975-8a00-a3155f3426e7	25445	324be386-3771-4975-8a00-a3155f3426e7

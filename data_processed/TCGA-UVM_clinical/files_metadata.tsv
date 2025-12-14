@@ -1,0 +1,81 @@
+cases.0.case_id	cases.0.demographic.ethnicity	cases.0.demographic.gender	cases.0.project.disease_type	cases.0.project.primary_site	cases.0.project.project_id	cases.0.submitter_id	file_id	file_size	id
+bcb87378-9f43-45e4-bdf2-f6dfa6ac5b8c	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9EO	329c080c-1122-46eb-825c-0d1fc1cf2441	41476	329c080c-1122-46eb-825c-0d1fc1cf2441
+fa9089fa-9af9-4932-8ab7-0e7f2fd6b121	not reported	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-VD-A8K9	f1751763-3ede-4fba-aba0-39f9796bd95a	36768	f1751763-3ede-4fba-aba0-39f9796bd95a
+8e6d3005-445a-4b7f-95ec-a988a121c628	not reported	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-VD-A8KK	cca5dfed-49a7-49af-a82e-e0922d31a0db	33351	cca5dfed-49a7-49af-a82e-e0922d31a0db
+af04ca52-8b71-497e-8135-6ddfca9ab221	not reported	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-VD-A8KA	ceac64ec-f542-4e99-9567-30dd25d008fa	44346	ceac64ec-f542-4e99-9567-30dd25d008fa
+5383fb57-69c2-4b34-af7f-c67208efb2b5	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9ET	bff68550-d1da-4e96-b192-2d92d2fde968	46891	bff68550-d1da-4e96-b192-2d92d2fde968
+418152bd-7d33-4f0a-b890-2356b30d6f44	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9E9	cdd7114a-80b3-4ea4-b1fc-69a8096f1064	39808	cdd7114a-80b3-4ea4-b1fc-69a8096f1064
+1dbd7b0e-9234-47d9-bdca-5b17f5af619b	not reported	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-VD-AA8N	ef529557-7693-43e6-8027-49f1e39d02aa	34036	ef529557-7693-43e6-8027-49f1e39d02aa
+3eb7aded-8887-4c27-a464-1b50ec090133	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-WC-A87T	305df8b5-d3e4-4908-b88a-ecf149aea396	40956	305df8b5-d3e4-4908-b88a-ecf149aea396
+743fc661-9ba2-4fa8-966e-508fb4b965e0	not hispanic or latino	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-YZ-A984	72826794-a2d9-4c63-b508-3847d97c659e	43764	72826794-a2d9-4c63-b508-3847d97c659e
+2bf47a88-df0a-4102-af2e-998c3d252b9c	Unknown	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-RZ-AB0B	09ed9197-ef9c-4933-9749-126381d67c42	25969	09ed9197-ef9c-4933-9749-126381d67c42
+411ddf79-fe92-44ad-8d10-eeb703f11be7	not hispanic or latino	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9F2	bdb2076a-c253-49c8-8173-16bd6e607e2b	40157	bdb2076a-c253-49c8-8173-16bd6e607e2b
+367869f9-bbe7-4e57-a16f-f2b63f2de697	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9ED	dba03ed3-0e75-445d-bcb7-ced814e39ef1	40436	dba03ed3-0e75-445d-bcb7-ced814e39ef1
+4498044c-1607-403e-867e-befd7fad275a	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-WC-A87U	b03dbb83-699b-4593-bb5a-11bd85d42299	26390	b03dbb83-699b-4593-bb5a-11bd85d42299
+39e494bc-7710-4f9f-98b0-0f509f7aef1a	not hispanic or latino	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9EZ	414552b1-a957-4262-b3ff-0bc41e33adfe	33636	414552b1-a957-4262-b3ff-0bc41e33adfe
+4b9fd822-17aa-4a22-8e17-175a72931d5d	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9F4	8927add3-5f76-4ac1-80ba-d674c6bd16f0	40838	8927add3-5f76-4ac1-80ba-d674c6bd16f0
+6103e640-8b62-4e39-908b-b62a0debeb0e	not reported	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-VD-A8K7	aae8495e-1b0c-4a08-8302-fe6eaa6a9f71	36862	aae8495e-1b0c-4a08-8302-fe6eaa6a9f71
+64bd88bd-1d5a-4569-9f46-f668d448c336	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9F8	e68c3043-387e-4556-9ca8-eac9271df71d	34014	e68c3043-387e-4556-9ca8-eac9271df71d
+9b1ecfb2-9dfb-4e71-b51a-d2a0c5a7940e	not reported	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-VD-A8K8	e8c71969-e473-434f-8edc-e298c1283af0	40984	e8c71969-e473-434f-8edc-e298c1283af0
+94f3d9b0-0ee4-4f6a-a8ff-ce7a4d8fab76	not hispanic or latino	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9F1	ac2dffb6-c226-4419-9a0d-c47ed8021718	45909	ac2dffb6-c226-4419-9a0d-c47ed8021718
+b26cb5f2-4ff0-4476-8d02-7256ace7d8a3	not reported	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-VD-A8KN	4d1ce0ed-9970-4c0a-b823-d4bfcbb4ba75	34034	4d1ce0ed-9970-4c0a-b823-d4bfcbb4ba75
+a9f956a0-660f-4185-a843-d9911d2484de	not reported	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-VD-A8KL	fb9d1558-3f24-49a1-884a-58c0619f8f5d	34270	fb9d1558-3f24-49a1-884a-58c0619f8f5d
+64422cc5-5e5b-4ef9-a9e2-214cebf8dfbc	not hispanic or latino	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9F7	02cbfd0b-bd38-4449-93b0-32cd6ac31539	40540	02cbfd0b-bd38-4449-93b0-32cd6ac31539
+e00ce846-9a0e-48b5-be9f-84d443a0f78a	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-YZ-A980	059cb9d4-915a-46e0-bf83-e75c30587b44	41067	059cb9d4-915a-46e0-bf83-e75c30587b44
+6be5176c-4980-4663-adff-d04f05737da0	not hispanic or latino	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9EW	de599e59-b84a-4891-9bbd-021cd87140c2	40991	de599e59-b84a-4891-9bbd-021cd87140c2
+9f57834a-4dc4-45ed-97de-ed4da9d0598d	not reported	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-VD-A8KG	8f7c9ddb-59cb-46f2-ba86-c7c20559832e	33264	8f7c9ddb-59cb-46f2-ba86-c7c20559832e
+9e35ef82-55b0-460b-8ab9-8cd708efa3b1	not reported	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-VD-AA8T	8d495613-a494-48fa-b388-9ff3417aa216	40524	8d495613-a494-48fa-b388-9ff3417aa216
+1d00217f-28df-4d91-aeb9-0d9a83a907e6	not reported	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-VD-AA8Q	5d9f4943-bdad-4bdf-8a8e-d0a1384162e4	39873	5d9f4943-bdad-4bdf-8a8e-d0a1384162e4
+014d4b17-d683-438b-9287-33fcec82bf5a	not reported	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-VD-A8KO	bb7b2af2-0278-4e8f-a03d-f76f990115dd	32979	bb7b2af2-0278-4e8f-a03d-f76f990115dd
+01b18f83-da8a-4d3f-b722-f00fe7559c60	not hispanic or latino	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-WC-AA9A	75b1b57a-3918-4917-aef2-7b655410c746	26217	75b1b57a-3918-4917-aef2-7b655410c746
+029cc59c-60df-4411-a044-3a2eeee7b110	not hispanic or latino	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9E5	ca45c2f1-115f-4e82-88ca-c046e24231b9	40059	ca45c2f1-115f-4e82-88ca-c046e24231b9
+3a161c85-2544-4283-a10d-e332c9dd1692	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-WC-A87Y	e4c66bef-930c-4b0d-8b23-bf4f739eeedb	45211	e4c66bef-930c-4b0d-8b23-bf4f739eeedb
+339490ef-6cf5-4d05-81b1-5e339e95f678	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-WC-A888	9311ded1-c963-4517-aa6b-4800eb740d3f	47330	9311ded1-c963-4517-aa6b-4800eb740d3f
+4464418c-ec35-4826-b3d5-152ac2a27a04	not hispanic or latino	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9EK	a8bbc792-85d7-4c6c-9e5a-c4c79c17348e	40457	a8bbc792-85d7-4c6c-9e5a-c4c79c17348e
+73b3e4dd-c53d-4fe3-8607-ee462c9cbbd1	not reported	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-VD-A8KD	5f6bccee-a2e5-4ab7-bf08-b8e6e3736dec	27247	5f6bccee-a2e5-4ab7-bf08-b8e6e3736dec
+9dc5cc23-c903-4fe2-8354-64f8316ff0d4	not reported	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-VD-AA8M	cd16275e-36be-40ba-a891-165c105461f5	33655	cd16275e-36be-40ba-a891-165c105461f5
+a18d3ba3-e2f4-4144-9c25-2019cad193f4	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9EF	43e17900-545e-4901-8140-0b95357d7a3d	40459	43e17900-545e-4901-8140-0b95357d7a3d
+995fcbf5-90aa-4d4a-b57b-46a7129209e0	not reported	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-VD-AA8R	ec42c2a3-3e38-4e62-b42d-1c9095ebc672	32932	ec42c2a3-3e38-4e62-b42d-1c9095ebc672
+da6f0ed2-a6d5-4d87-823e-122ebd59aaba	not hispanic or latino	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9EV	158388d2-0373-4b05-8dfa-cfe4a3eab5de	40910	158388d2-0373-4b05-8dfa-cfe4a3eab5de
+2112a42a-9b85-475a-a31b-4ce7751cdeb9	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V3-A9ZY	4a29cfc5-42d5-4b5e-a15c-a1a5dee803e7	32888	4a29cfc5-42d5-4b5e-a15c-a1a5dee803e7
+df291bbf-fc62-4c40-9582-289ac78225fd	not hispanic or latino	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-YZ-A983	795fc4d1-4e02-4363-8022-c28ae707232f	40076	795fc4d1-4e02-4363-8022-c28ae707232f
+39af6e0f-908c-4b2b-97b8-a4d1966e47e1	not reported	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-VD-A8KH	25e299e1-08f9-4390-959d-c2af984c0b23	41167	25e299e1-08f9-4390-959d-c2af984c0b23
+9752c320-79eb-49ea-aa1f-d7a79bead901	not reported	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-VD-AA8S	fb1a3423-1a65-44c9-8f19-327cc0baa7b9	32983	fb1a3423-1a65-44c9-8f19-327cc0baa7b9
+4480d290-5e8a-4289-8e3c-de087e0de412	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-WC-AA9E	c34fc7b1-955f-4489-9db3-4204fea89421	44537	c34fc7b1-955f-4489-9db3-4204fea89421
+d8e15178-d8c5-4e4e-895c-57ffe5bc80c2	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-WC-A880	ec475d6d-f1dc-47c6-a6c6-d50cb62b8dcf	40515	ec475d6d-f1dc-47c6-a6c6-d50cb62b8dcf
+b224e42d-8b6d-4578-963c-bf528b954900	not reported	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-VD-AA8P	ea8b45a9-f874-4296-96b8-59855b57b622	33594	ea8b45a9-f874-4296-96b8-59855b57b622
+56ed4ea2-18ce-48d4-bf72-9ffabe576ca9	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-WC-A881	35781b6a-24b4-42f1-9091-c713b2783897	39832	35781b6a-24b4-42f1-9091-c713b2783897
+d9ccba9b-6bf0-44d9-8097-a97ab747f0bd	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9EJ	11a1f943-f001-40a4-b52a-ee628b8eea73	39717	11a1f943-f001-40a4-b52a-ee628b8eea73
+5e54122f-1c4d-45cc-8842-cd1c1df0eed8	hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9EH	841d69da-894c-4289-bfcb-7042cbe1ad16	32969	841d69da-894c-4289-bfcb-7042cbe1ad16
+15d19ccc-52b8-41f6-b1c1-2cc55691aed5	not hispanic or latino	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9EY	702d21ee-71ae-4521-b3a5-6d62269e2ea9	39815	702d21ee-71ae-4521-b3a5-6d62269e2ea9
+1a2ce30c-5891-4bf6-8c97-6d1f34d4fe48	not reported	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-VD-A8KM	994c277f-ea65-47cb-af8e-d2d0636dabd2	33636	994c277f-ea65-47cb-af8e-d2d0636dabd2
+22e7816d-4be9-4f84-b487-baa6ca35452d	not reported	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-VD-A8KI	6191294f-51d7-4b45-b0ef-fa9d487aec32	41263	6191294f-51d7-4b45-b0ef-fa9d487aec32
+31771082-c094-4749-a9c7-80b67762f4d1	not reported	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-VD-A8KB	ee47b79c-a18a-4127-bb1c-1f14d9111ee3	40809	ee47b79c-a18a-4127-bb1c-1f14d9111ee3
+60d7b6cf-d605-4837-9061-612f6bbb7393	not hispanic or latino	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-WC-A87W	3439472a-28a8-4ff5-b092-8de138b44ce6	40514	3439472a-28a8-4ff5-b092-8de138b44ce6
+4e531546-56f1-4165-94a2-ee45abd5e0f7	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-WC-A88A	ec7e1698-a6f4-44af-aed2-69500b731275	26702	ec7e1698-a6f4-44af-aed2-69500b731275
+5019e7f1-db46-4a07-9e7b-b6e5d1481b84	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V3-A9ZX	9d239db6-ac77-4896-b957-fd04b22a6203	34549	9d239db6-ac77-4896-b957-fd04b22a6203
+711eb720-4cb7-48de-9350-5c729bf9f0da	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9EM	de51cd4c-8cc3-4b96-a327-eb31dd042e26	45904	de51cd4c-8cc3-4b96-a327-eb31dd042e26
+7f1e74d4-8789-4954-8a63-b0ca5f0373c3	not hispanic or latino	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-WC-A882	1a793ab9-01f0-4577-85a8-770603513af5	40083	1a793ab9-01f0-4577-85a8-770603513af5
+892e7630-b11e-47bd-987c-327d33258e11	not hispanic or latino	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9EX	8ad3939f-182a-49b0-ae02-7526ed1fffc6	26589	8ad3939f-182a-49b0-ae02-7526ed1fffc6
+7289bc25-2551-4c6d-b2fa-c7e13859b9b3	not reported	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-VD-A8KJ	03b290d5-3a87-4f99-a822-bbe47ad4f549	40492	03b290d5-3a87-4f99-a822-bbe47ad4f549
+8de236f1-c029-44df-a2a9-319145488baa	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9EL	6853874a-91c3-4845-8bf5-9675d47be572	40857	6853874a-91c3-4845-8bf5-9675d47be572
+78039723-94a9-4903-8bb4-c00852e8e889	not reported	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-VD-A8KF	64c70e0d-b0c5-430f-9110-59d8f44bccc9	26711	64c70e0d-b0c5-430f-9110-59d8f44bccc9
+92fca97d-6123-46a7-9c34-7a6f877fe612	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9F0	e33dc47f-89cf-4dae-9539-92cbf5ddca22	41633	e33dc47f-89cf-4dae-9539-92cbf5ddca22
+a9fe64a9-6d22-4e9f-96f3-f16af7d298f8	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9EA	8bd3de76-f7e6-4535-bdd5-c3d3956fafbc	40193	8bd3de76-f7e6-4535-bdd5-c3d3956fafbc
+a08e4c1d-5d92-43ec-b0b9-87b2286d685e	not hispanic or latino	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-WC-A883	7656f643-cf3a-4caf-ac74-1de91cb99c4a	26697	7656f643-cf3a-4caf-ac74-1de91cb99c4a
+b533e555-90cf-4657-80c6-15b67da8ad26	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9EI	43a2242f-3358-433f-891e-5be83a684636	33472	43a2242f-3358-433f-891e-5be83a684636
+99d1bfcc-1989-4dd2-a5e9-78e08f6ce7cf	not reported	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-VD-AA8O	808e6415-86db-43e6-93cd-12b775217987	34096	808e6415-86db-43e6-93cd-12b775217987
+bbf07e1f-8c17-4c2e-89ed-38332d82e455	not hispanic or latino	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9F5	a9a6bc21-ab6a-4304-8dbb-bb9f7aeca296	34855	a9a6bc21-ab6a-4304-8dbb-bb9f7aeca296
+df685f8c-645a-47ae-a471-63bf1973a0ae	not hispanic or latino	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9EU	42535e3c-b2e1-4069-8371-aa41c0ec2632	34049	42535e3c-b2e1-4069-8371-aa41c0ec2632
+c510a423-6ab1-431e-9248-d2ac91fdedba	not hispanic or latino	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9ES	af5d6e48-833c-4ea7-952b-a143c709bf4d	41293	af5d6e48-833c-4ea7-952b-a143c709bf4d
+a6ff0b7a-1d04-4a64-af43-5011a4487cb2	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9EQ	cc8bfc5b-4044-43e1-b6b1-dc1a34716499	27890	cc8bfc5b-4044-43e1-b6b1-dc1a34716499
+a83802da-0219-4cf1-9560-16295363491d	not hispanic or latino	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-WC-A884	99213523-227a-4c15-a209-421bb2dab07f	41064	99213523-227a-4c15-a209-421bb2dab07f
+b5c516ba-4785-41dc-bd07-b129d47808dd	Unknown	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9E7	7648e776-2a36-4bf8-bccf-d05e8dc72d4e	27294	7648e776-2a36-4bf8-bccf-d05e8dc72d4e
+df941bc1-6356-4f2e-a3f5-ae190266b441	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9E8	2981e90e-15c7-41ba-886b-a9d7971c604f	27692	2981e90e-15c7-41ba-886b-a9d7971c604f
+c9bfc2a7-0914-4080-a0a3-1c6a4e58e1ab	not reported	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-VD-A8KE	27b3534c-078b-4adb-9f69-2706deb1a3e7	33616	27b3534c-078b-4adb-9f69-2706deb1a3e7
+cba920f4-c57f-47bc-958d-9b7872df01c8	not hispanic or latino	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-YZ-A982	072849e4-9bf7-49e5-8862-fdad288769e2	33252	072849e4-9bf7-49e5-8862-fdad288769e2
+e21d8018-8fe9-4c92-8b36-28d7d3f7df2b	not hispanic or latino	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9F3	d50ddd8e-1049-4f56-ba63-5b1378a21319	49945	d50ddd8e-1049-4f56-ba63-5b1378a21319
+ebdabfcb-1c68-4ca1-8b7f-3ea9cdac3a6a	not hispanic or latino	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-YZ-A985	0ec3a351-0a19-486a-97c9-4ab26163ba02	46665	0ec3a351-0a19-486a-97c9-4ab26163ba02
+edbf6720-467e-4928-b1cb-0e7336358d18	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9EE	da4e1d18-bc5f-469b-add4-4be5149840e6	26108	da4e1d18-bc5f-469b-add4-4be5149840e6
+eeab0529-31e6-4edb-bd2c-a21f2a169381	not hispanic or latino	female	Uveal Melanoma	Eye	TCGA-UVM	TCGA-V4-A9EC	1b01e9f2-0aec-49a2-983e-eb58d589ca8e	32931	1b01e9f2-0aec-49a2-983e-eb58d589ca8e
+f78d8541-b317-4c8a-aa66-f172a8eaf14f	not hispanic or latino	male	Uveal Melanoma	Eye	TCGA-UVM	TCGA-WC-A885	696ecd9b-4747-49a8-ad21-b769318adc13	46700	696ecd9b-4747-49a8-ad21-b769318adc13

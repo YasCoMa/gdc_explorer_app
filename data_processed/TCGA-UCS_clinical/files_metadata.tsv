@@ -1,0 +1,58 @@
+cases.0.case_id	cases.0.demographic.ethnicity	cases.0.demographic.gender	cases.0.project.disease_type	cases.0.project.primary_site	cases.0.project.project_id	cases.0.submitter_id	file_id	file_size	id
+4a31c620-5c6e-44ae-b7f0-0553c4b7eb33	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-NA-A4QW	b5575eda-39bf-4f7e-84f3-75d51d277998	46846	b5575eda-39bf-4f7e-84f3-75d51d277998
+605e9e51-270c-48fb-b198-46b5512b29da	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-ND-A4W6	6b2bb1cf-fdfc-463f-bf04-e0253f84fd8f	36386	6b2bb1cf-fdfc-463f-bf04-e0253f84fd8f
+4f0124a6-4a5b-4e42-b9ff-d7de51d2148c	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N6-A4VE	f45f0972-1b4a-4213-b00c-aae9c240367d	47532	f45f0972-1b4a-4213-b00c-aae9c240367d
+64d00705-5070-4338-9433-ba74424528b3	Unknown	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-NF-A4WX	bde98fea-3559-4b47-935f-ba3445982229	38060	bde98fea-3559-4b47-935f-ba3445982229
+4f4906dc-7ebd-47f1-a8f5-b35d3950e740	not reported	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N5-A4RO	3f860fda-920c-4fa3-8d7b-2231e972adaf	48982	3f860fda-920c-4fa3-8d7b-2231e972adaf
+79823022-7feb-49de-8de7-607721b595d2	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-NA-A4QX	e81854c3-ebb1-45d4-9e71-61c871a64343	30873	e81854c3-ebb1-45d4-9e71-61c871a64343
+82c37e7c-0899-497e-9753-84da21f8e0fe	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-NG-A4VW	94b86709-443b-4a00-ad0b-e7fe1f2594d2	49025	94b86709-443b-4a00-ad0b-e7fe1f2594d2
+1d2937e8-6104-4330-b7dc-7bcd79dac927	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N5-A4RN	f9859ce3-9819-44d5-85c1-e6a2280610b0	47906	f9859ce3-9819-44d5-85c1-e6a2280610b0
+200f77a5-803c-4891-980b-5c3b08c91254	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N7-A59B	fb585cb2-6bed-4a1e-9f21-bffcbe509513	58101	fb585cb2-6bed-4a1e-9f21-bffcbe509513
+37c77a51-efce-46bd-ab8c-93e17c04c6ac	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N5-A4RU	1f01386a-88db-4e38-94be-82efb9e04e44	41881	1f01386a-88db-4e38-94be-82efb9e04e44
+2aad74b4-8d66-4563-8958-88d83f86556d	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N8-A4PO	bc5f0d51-743f-491f-b1c0-0874a2af010b	51179	bc5f0d51-743f-491f-b1c0-0874a2af010b
+2aa77a19-efde-478a-a113-c0af75708b31	hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N5-A4RA	4675abcf-c773-487d-b9ad-b7f923b700cf	37995	4675abcf-c773-487d-b9ad-b7f923b700cf
+6717b82e-889d-45a4-9638-4d0e023399cc	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-ND-A4WF	846178ed-24c3-4014-9916-9bcfc6d4e265	41133	846178ed-24c3-4014-9916-9bcfc6d4e265
+14213209-2217-4812-9a19-d9b2b6718467	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N6-A4VD	153745a4-0f19-4278-baad-eaf623f449cf	26218	153745a4-0f19-4278-baad-eaf623f449cf
+51f6692d-a05b-474b-ba99-637c8bc49b30	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N8-A4PQ	ee0beece-0365-48e3-8c46-5b01bcd768ac	47473	ee0beece-0365-48e3-8c46-5b01bcd768ac
+6db758a1-dd0f-4abb-a0ca-80c4b135e8a5	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-NG-A4VU	b5791676-c872-43dc-9d99-74990c2da21c	61459	b5791676-c872-43dc-9d99-74990c2da21c
+83059a0f-4de9-454c-8e51-9265ab5f3558	not reported	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N9-A4Q3	70d07991-e882-48a8-9431-f958ca6f6522	68963	70d07991-e882-48a8-9431-f958ca6f6522
+8481dc3d-109a-4f2d-a0ad-8f0fd2a61a53	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N8-A4PL	9fcd4b87-7f16-4e1c-bdd5-be7b8b37117c	30144	9fcd4b87-7f16-4e1c-bdd5-be7b8b37117c
+8def73e4-83a5-4998-8f6e-f71f21c946ac	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-QN-A5NN	b026f21b-abd1-42a2-8c0c-3d141467bb6d	26430	b026f21b-abd1-42a2-8c0c-3d141467bb6d
+b0770eff-dff2-4e10-8fc9-c07a81efcc5e	Unknown	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N7-A4Y0	1fac356c-73a0-41bc-b51c-5dd9318a48d7	65088	1fac356c-73a0-41bc-b51c-5dd9318a48d7
+cdde118f-4673-4e7e-b965-1f9fe007050d	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-NA-A4QV	5f1bdfdc-a770-49c4-8bac-23bd478fe0b6	36241	5f1bdfdc-a770-49c4-8bac-23bd478fe0b6
+9205fbf2-f4ba-475c-8351-1aae5ff3b8bf	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N5-A59E	befcafd9-e482-4710-bfb1-2c09c9071b1a	45420	befcafd9-e482-4710-bfb1-2c09c9071b1a
+98315e03-ffe8-449c-8f92-7fd2c0f20b79	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-NA-A4R1	8860f16e-5dda-45fd-b0c6-39e41169731a	30645	8860f16e-5dda-45fd-b0c6-39e41169731a
+f2cc142b-9fc0-44d9-9ae3-558b4eace375	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-NF-A4WU	f0b06986-a7ee-4c1d-9eab-74d6e9e0a365	26536	f0b06986-a7ee-4c1d-9eab-74d6e9e0a365
+ce2b2c41-7d28-4d8b-a037-af842a8fe20f	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-NA-A4QY	b0b7fcce-d650-40ad-b6c1-8808af359731	25884	b0b7fcce-d650-40ad-b6c1-8808af359731
+f98c183e-aaa1-40c4-83e7-c248cc3adb55	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N6-A4VC	9d5ec8e0-6d84-4231-a812-01713fa86582	32334	9d5ec8e0-6d84-4231-a812-01713fa86582
+ddfdd05e-058c-4877-b389-724a6c101353	Unknown	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-NF-A5CP	1d184745-730d-419a-890f-4761af74ba94	26760	1d184745-730d-419a-890f-4761af74ba94
+ebb834c6-374e-4077-a4ce-c74a850be358	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N8-A4PP	e2eaa4d0-320b-4dda-8c69-e3b0d8c0ec13	45581	e2eaa4d0-320b-4dda-8c69-e3b0d8c0ec13
+ee6083aa-9453-44ff-8cc5-79b71fea289d	not reported	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N5-A4RF	7741327b-4cfa-4e32-8893-2b13cca28f47	52377	7741327b-4cfa-4e32-8893-2b13cca28f47
+eec002c4-7602-4179-8eb3-2b0508d5ee1c	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N8-A4PM	6fc6aafb-d460-44e2-a47f-e4cf824fcf5e	47808	6fc6aafb-d460-44e2-a47f-e4cf824fcf5e
+254f6921-82ac-4fe1-b1b4-ace94c420d05	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N5-A4RM	9496e3ae-24ed-4669-a5cb-a35fb3f8bc53	45504	9496e3ae-24ed-4669-a5cb-a35fb3f8bc53
+1791e250-70ac-439c-828b-15ba811935cc	not reported	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N5-A4RT	4b507682-4280-4476-aad2-f2b6b6e76b4f	58163	4b507682-4280-4476-aad2-f2b6b6e76b4f
+485b221f-f40f-46a0-a9cf-023f807e6146	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-QM-A5NM	8e91a11d-e515-4c39-a8f0-1896dbb57d75	47516	8e91a11d-e515-4c39-a8f0-1896dbb57d75
+33ad8d6e-10f4-4965-9721-1a9984f9e87d	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N8-A56S	229e4b90-2d19-4757-a5e9-af1ff9dda172	60201	229e4b90-2d19-4757-a5e9-af1ff9dda172
+9f15bf13-11d2-400f-b6f9-c8be0a57c763	not reported	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N9-A4Q7	ef6b0dc8-2f5c-4fcf-b0fa-ad7e3ff6eae8	48881	ef6b0dc8-2f5c-4fcf-b0fa-ad7e3ff6eae8
+6385194a-d75b-4bd3-9e70-9aa36250d5b9	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-ND-A4WC	4527ff96-75aa-41db-a4d2-547ff0669e13	66226	4527ff96-75aa-41db-a4d2-547ff0669e13
+76b0106c-a4d2-4b29-bef4-fe03a25b5d21	not reported	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N9-A4PZ	3435341c-4678-4cd3-80b9-5bd59eaa9fbf	60879	3435341c-4678-4cd3-80b9-5bd59eaa9fbf
+3428aa0a-127d-492a-bf4a-ee82563d3701	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-NA-A5I1	4baec3fc-bcd1-4953-91a6-fdcb046a4056	45926	4baec3fc-bcd1-4953-91a6-fdcb046a4056
+76e4538f-3383-46b0-884d-978d031ee182	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-ND-A4WA	d79944c4-27c1-4377-b4b4-00ae1c3113f3	36176	d79944c4-27c1-4377-b4b4-00ae1c3113f3
+6dfe9121-29a0-4593-984f-1644166e1d39	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N6-A4VF	214b3375-4c76-42b5-9738-0853aff93374	43759	214b3375-4c76-42b5-9738-0853aff93374
+8b7c42cd-fc2a-4023-843e-a411821f94ff	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N8-A4PN	cad87fe3-5f01-4ee5-b8d1-e38f36004584	52276	cad87fe3-5f01-4ee5-b8d1-e38f36004584
+8c113bc1-101b-405f-9eb1-8c9e8ebbe185	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N5-A4R8	c8254ac6-f2d1-4752-be2a-6b049f994590	43017	c8254ac6-f2d1-4752-be2a-6b049f994590
+75a43851-8fa0-4259-b843-88dc6fbce270	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N6-A4V9	497ed05a-4d5a-4dff-89df-79f558cecdff	56851	497ed05a-4d5a-4dff-89df-79f558cecdff
+8703c5c3-d519-4d78-a5f6-2ef53fca277a	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N7-A4Y8	9f656a3a-925e-45de-81af-12669775d11f	38407	9f656a3a-925e-45de-81af-12669775d11f
+8c8d4495-1a1d-4942-b0f0-1445fd05dfce	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N8-A4PI	a2461a84-1f62-4902-968f-8693f1547fe9	48706	a2461a84-1f62-4902-968f-8693f1547fe9
+89d0b316-65de-4f4c-988a-3c3861a68090	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-NA-A4R0	5ee43cc7-feaf-4e67-b55e-af3ad30b5db7	32075	5ee43cc7-feaf-4e67-b55e-af3ad30b5db7
+245e4254-dbc1-45bd-b5df-504d8c3822de	Unknown	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N7-A4Y5	92b53eda-d151-4199-9132-195d7f262c48	26096	92b53eda-d151-4199-9132-195d7f262c48
+276dd6d1-a5ad-4b64-8536-916584805091	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-NF-A4X2	494ddb8f-e701-42ec-8474-0f9d85eaf8d5	26404	494ddb8f-e701-42ec-8474-0f9d85eaf8d5
+3af5b391-e72f-463d-a086-a86c6c30a51a	not reported	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N5-A4RV	7550f2dd-44e9-459d-8be4-9bc9b5700474	52218	7550f2dd-44e9-459d-8be4-9bc9b5700474
+4daeefc3-0e2e-4537-8e13-af9717b3ce29	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N5-A4RS	c4757192-c7c3-4c21-a538-c68979257f11	50274	c4757192-c7c3-4c21-a538-c68979257f11
+108d4b89-d1d5-4528-a040-c7e5696c8417	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N5-A4RJ	9ecc410f-7894-4144-b615-495dbe72cb3b	38606	9ecc410f-7894-4144-b615-495dbe72cb3b
+158fd4c2-68dc-4ca4-8130-d5589c80d825	not reported	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N5-A59F	c4a63ec3-a5ca-4e1e-8442-4323238571eb	46801	c4a63ec3-a5ca-4e1e-8442-4323238571eb
+6e22b287-5b45-4f5f-a825-b200aa6943e6	not reported	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N9-A4Q8	aeddace9-8248-43f7-89db-47e214bcbde9	51634	aeddace9-8248-43f7-89db-47e214bcbde9
+a1206473-cf9d-4bca-97c9-67f35817b806	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N9-A4Q1	dc466d06-a7cb-4adc-8ce2-afd09d35f82d	68831	dc466d06-a7cb-4adc-8ce2-afd09d35f82d
+d9952e44-b573-4854-893e-b3bbc5287f2f	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N5-A4RD	c95ee5a9-b8e5-4516-8557-80fbfb050694	26824	c95ee5a9-b8e5-4516-8557-80fbfb050694
+ffedc8be-1056-4205-b9d9-99b5bdb872db	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N9-A4Q4	7522e115-b95a-4ead-9cfe-c749caaab9c8	26586	7522e115-b95a-4ead-9cfe-c749caaab9c8
+ae10b73d-e7f4-4334-8452-167b60d71cb5	not hispanic or latino	female	Uterine Carcinosarcoma	Uterus	TCGA-UCS	TCGA-N6-A4VG	daf716f0-a6fc-4a6c-bb13-134031986e24	64252	daf716f0-a6fc-4a6c-bb13-134031986e24

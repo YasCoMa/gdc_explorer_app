@@ -1,0 +1,444 @@
+cases.0.case_id	cases.0.demographic.ethnicity	cases.0.demographic.gender	cases.0.project.disease_type	cases.0.project.primary_site	cases.0.project.project_id	cases.0.submitter_id	file_id	file_size	id
+106f3344-f699-4b2c-8f62-4ac6c948dde4	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-F1-6874	41d26bc0-ba20-4e20-85fa-0fd0a1f0f3dd	33519	41d26bc0-ba20-4e20-85fa-0fd0a1f0f3dd
+1142251c-28eb-48bf-9c54-7126d4557605	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-6820	b47cd58c-d26f-41ae-a7be-b7d934cb13c2	33602	b47cd58c-d26f-41ae-a7be-b7d934cb13c2
+13e5a0ad-6d0c-4fb4-bf62-325f5c8ed329	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-A4GC	71a15fb5-0662-4b3a-a282-dc08290e3211	33939	71a15fb5-0662-4b3a-a282-dc08290e3211
+158b6bd2-1e7d-4c7e-9d8a-42467342c9c2	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-RD-A8N2	a1a6a41b-0901-4686-a4d1-faa4691422fa	34031	a1a6a41b-0901-4686-a4d1-faa4691422fa
+0a11e958-7ec0-493c-bd7a-eb17536facd7	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-8530	8e860302-7287-496e-bd2e-113feabbac76	56022	8e860302-7287-496e-bd2e-113feabbac76
+17722000-ab3c-4b58-979f-edaa3ca46e3c	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-R5-A804	97d65e42-dd7d-41e9-b935-6e6ef2012fa5	25312	97d65e42-dd7d-41e9-b935-6e6ef2012fa5
+1a4313e7-a770-4a0e-93f1-c10562f521e3	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-FP-8631	d69fa233-627a-4911-ad39-e0f255a4e5ac	25202	d69fa233-627a-4911-ad39-e0f255a4e5ac
+17638f77-3d0a-4b7f-8801-d807aad6bbd4	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-RD-A8MV	adc19b67-928b-48ad-8ef8-f581e2dd8bfb	55982	adc19b67-928b-48ad-8ef8-f581e2dd8bfb
+1b641270-18f8-4257-821b-d26179e08e28	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-7196	b51f0b82-46c8-44f7-9c51-8be5003c1d60	76703	b51f0b82-46c8-44f7-9c51-8be5003c1d60
+1a1d4702-254b-4fff-9609-182442edb83e	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-A453	e724efef-ac4b-429d-b68a-d5c75ae89e67	33741	e724efef-ac4b-429d-b68a-d5c75ae89e67
+1ca3c5e0-32b0-4467-8ec0-ca212e35d2b3	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-6456	cf29db35-28d6-4120-8c85-b6c82913fec8	41822	cf29db35-28d6-4120-8c85-b6c82913fec8
+1dbe1e26-3bcd-45cf-990e-ad7c8754f4d4	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HF-7134	9b166299-77f8-4a49-8734-9f6657531e2d	41843	9b166299-77f8-4a49-8734-9f6657531e2d
+49587564-e30f-4f1c-b7b3-fc0989bb1a0a	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-5716	b649a01f-4a06-452d-9ac7-ea78c39ecb3a	24509	b649a01f-4a06-452d-9ac7-ea78c39ecb3a
+263b18e1-5722-4650-b16b-dac1961a3af8	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-A6EZ	aef824a1-e505-42d2-a64c-a5fe74ad2c4a	42737	aef824a1-e505-42d2-a64c-a5fe74ad2c4a
+23451ab5-a32b-4eec-9b8b-fd282282a0d4	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-A4MH	a80a7bb9-ebcc-411e-9063-f8873321fd8d	56028	a80a7bb9-ebcc-411e-9063-f8873321fd8d
+283776cd-32e8-4a79-bed1-1411c9d3a9e0	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-F1-6875	f1480fcd-2a39-4700-987e-b58a0f9ebf86	33310	f1480fcd-2a39-4700-987e-b58a0f9ebf86
+264b781d-122b-433d-80d4-59fbec262f22	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8291	b1dcd999-111c-4db3-8667-3c0cf4543dc2	59787	b1dcd999-111c-4db3-8667-3c0cf4543dc2
+2a665611-2464-4fef-8ce8-17c966fc74a5	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-IN-A6RJ	08ee31f5-3877-4473-aeee-78e972de7dd6	34194	08ee31f5-3877-4473-aeee-78e972de7dd6
+287059fb-4e69-4d6d-99d5-91ec92d35bde	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-A4MJ	dc3f9002-1ca3-4dfe-9fe1-997f941b8d3e	56232	dc3f9002-1ca3-4dfe-9fe1-997f941b8d3e
+26a5e389-8ec2-4316-beea-f9a63d455b73	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-IN-A7NU	662e376d-d0d2-4bdf-9797-185826cf8ddb	45437	662e376d-d0d2-4bdf-9797-185826cf8ddb
+2943375e-3de8-4d42-959a-62f4192067ae	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-7703	a42649b4-33e9-4dd2-ba55-58c57a4d80d8	50393	a42649b4-33e9-4dd2-ba55-58c57a4d80d8
+2ae1706b-c0f7-40e3-afe5-cb75d1584b96	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-IN-A6RO	bdff71ba-d5fa-4863-880f-d1367852c0be	50300	bdff71ba-d5fa-4863-880f-d1367852c0be
+2b4f014f-74e9-4dda-a1ad-abcbd124fc44	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-A4YX	f9a717f9-db77-4a0e-bfbd-d3225a21f7e0	42624	f9a717f9-db77-4a0e-bfbd-d3225a21f7e0
+2d291fa3-f0fd-4bc1-91a6-783863714190	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-EQ-5647	b9dae68d-d6be-4285-8e42-2ef30afc02c0	33437	b9dae68d-d6be-4285-8e42-2ef30afc02c0
+315b8de8-9842-4738-b23b-1d61722f9583	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-8524	2cdcae9c-c85b-41ad-82b9-793811da9aa6	56275	2cdcae9c-c85b-41ad-82b9-793811da9aa6
+32b1f9ff-dbad-47f5-9580-13f4120f5891	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8PE	9cb1a646-acb9-406c-86e3-bd007c133e21	34419	9cb1a646-acb9-406c-86e3-bd007c133e21
+2f90209b-7464-4d7e-83d1-67850c263ded	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-6803	fbb0fd7a-6b1c-4727-a7a3-af7264a1a4f0	41879	fbb0fd7a-6b1c-4727-a7a3-af7264a1a4f0
+35496e4e-598f-4ffc-b11e-8edaeb676079	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-6528	89d9a687-f6e0-411f-8a2b-538915d4b138	33397	89d9a687-f6e0-411f-8a2b-538915d4b138
+337819d2-5281-4b41-9583-a476924bc837	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8690	b5c22fb9-e543-4b15-92e8-574b0f5be86b	57140	b5c22fb9-e543-4b15-92e8-574b0f5be86b
+36e36773-1d03-4ed0-ae31-1c0ca55577a4	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-A4HB	f61733cf-f675-469b-aee8-5e50e812d927	39970	f61733cf-f675-469b-aee8-5e50e812d927
+394f390a-563c-447c-8cae-cd7d0d7e689f	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-A4J7	5e58de83-343a-4c79-8469-9a05af6a0798	42369	5e58de83-343a-4c79-8469-9a05af6a0798
+39acb803-f282-422e-ac56-a3a50693d203	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-8525	f853d24a-ef59-495e-b404-ce34e7d95214	56123	f853d24a-ef59-495e-b404-ce34e7d95214
+37e22429-efd7-4d6a-b79a-9d8c7be2170c	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-4441	70c21bb8-a236-432c-a656-9d57721abad1	24601	70c21bb8-a236-432c-a656-9d57721abad1
+3ff9b46b-325f-4655-ab40-953154753dae	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-AA68	2230b790-f535-4f69-96ec-aa47db24b6fb	53205	2230b790-f535-4f69-96ec-aa47db24b6fb
+37f93d19-c78f-4fbc-affb-5a2ccc84be1b	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-A747	4b8edddb-1bda-4014-82d0-b7500e139e6a	51456	4b8edddb-1bda-4014-82d0-b7500e139e6a
+39fa91bd-dffd-4b2c-af7d-7fd914730b08	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-A4H3	33ceac92-aff5-4f07-9c51-bd19f5099da4	57158	33ceac92-aff5-4f07-9c51-bd19f5099da4
+40e507fb-e285-424b-a98b-362e47a53e4a	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-6518	1a53ff48-4432-4d59-97ad-cd35fa53c46e	33479	1a53ff48-4432-4d59-97ad-cd35fa53c46e
+44799c67-61cd-4f3e-bdbc-423e2e0fd2e8	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-6852	92cf30ef-b009-4829-b1e4-4e7e47e1ca73	50487	92cf30ef-b009-4829-b1e4-4e7e47e1ca73
+45aacbb4-0fd8-431c-a57b-279ea57a19fc	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-FP-7829	5466eeea-0b60-4ddd-9cb7-2a3cc2738161	43919	5466eeea-0b60-4ddd-9cb7-2a3cc2738161
+4bae9c20-74a4-4ad3-8cf3-76e41217f389	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A923	47be5ce1-dd8d-442d-85a1-b71d33bc592e	25568	47be5ce1-dd8d-442d-85a1-b71d33bc592e
+47fd3741-28ea-427b-9c2a-8cb39153c8ab	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-A4YV	0d8ff4b5-799a-4873-8558-23d54aad452f	34116	0d8ff4b5-799a-4873-8558-23d54aad452f
+5034cc97-9eec-42fe-acf9-cdc5a10e6547	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-A4J9	659f488e-ef2f-4bbc-9f53-f40e45b2e90c	33897	659f488e-ef2f-4bbc-9f53-f40e45b2e90c
+4ec9dbb4-358d-4c59-8039-552c7006c2bf	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8PO	ef52f3e2-5406-49cd-98d7-1564f659da0f	25687	ef52f3e2-5406-49cd-98d7-1564f659da0f
+5624beab-545a-4a5b-960e-c33429572272	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-B7-A5TJ	03dfaf98-3c11-4108-9a94-efead33f0a98	34191	03dfaf98-3c11-4108-9a94-efead33f0a98
+5779f7a7-05d7-4972-bd4f-aacb32420510	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-AA6D	448bdaef-df7d-4298-83f2-ed83faa04e8c	44707	448bdaef-df7d-4298-83f2-ed83faa04e8c
+588abaea-ab16-42f4-9457-5901ee791b5f	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-5721	b9576dd8-66e9-4693-b008-ae6c733b3ab1	33529	b9576dd8-66e9-4693-b008-ae6c733b3ab1
+5c68e3e4-58f7-4699-989d-80d2e4996794	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8P3	ed36199b-8019-46a4-9916-9c9176fa38c0	53068	ed36199b-8019-46a4-9916-9c9176fa38c0
+621411ee-c1f2-4da4-b1c0-cbe0936060f6	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8687	76885bc4-4a19-46f6-87ca-177e1afa799a	33909	76885bc4-4a19-46f6-87ca-177e1afa799a
+5c76cb89-b1b1-4910-b811-e44d3b277430	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-F1-A72C	dda4177d-1ff0-446e-b000-28ef73c59f5d	40177	dda4177d-1ff0-446e-b000-28ef73c59f5d
+6244e506-d163-4d34-8fec-6158191679cb	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-4437	ac6aaec5-6a93-4e9c-b731-2a7118a99e46	33298	ac6aaec5-6a93-4e9c-b731-2a7118a99e46
+65ef7ccc-93e9-487a-9d4c-70ee7b9ddb17	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8363	4efe6f49-8a00-49a1-97f3-34814ad126cc	34077	4efe6f49-8a00-49a1-97f3-34814ad126cc
+632f51b3-8ef4-4b6e-a992-c81e554507ed	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8364	58c1a67a-62c6-4596-ad2d-043b4a44efd4	33773	58c1a67a-62c6-4596-ad2d-043b4a44efd4
+6d5df29c-f2cc-43ce-8d2f-df1da313ad52	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-A4YT	d849ee89-528a-4fe7-ab04-f41aac23dc68	34098	d849ee89-528a-4fe7-ab04-f41aac23dc68
+66c04b8f-42fd-44c5-945b-ee149bcf5dad	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8366	a75cef46-9ecf-4a38-bc4b-370a9b19873d	33658	a75cef46-9ecf-4a38-bc4b-370a9b19873d
+698a89d8-b4bc-48a8-80af-8414dbacf327	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8384	411ca0f5-b36b-42a2-81d3-d27b3660c1f0	33973	411ca0f5-b36b-42a2-81d3-d27b3660c1f0
+6c3687fd-0761-477d-95ab-73e11d66dbd6	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HF-7132	572b2226-a3aa-4dd4-9d6e-809046fe5b9b	69696	572b2226-a3aa-4dd4-9d6e-809046fe5b9b
+73bd696b-0f35-4f70-8888-8153b1ba9ee4	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-A6EY	21ad8f71-9a6e-4031-af60-0169dce00fef	34164	21ad8f71-9a6e-4031-af60-0169dce00fef
+77535af0-def4-439c-b50d-8720712235dd	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-B7-A5TN	ea4b9995-c23c-4811-814b-d7c09e1cce13	40067	ea4b9995-c23c-4811-814b-d7c09e1cce13
+7da1a098-73f7-40c1-8c9d-e0423c15009c	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8E7	8ad857d4-42a3-4fa6-8299-4185366b6a55	51303	8ad857d4-42a3-4fa6-8299-4185366b6a55
+7c831a1d-3253-4af4-a0ff-7fe9ff9af1ce	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-6802	2244cc1d-a1ee-4792-9f54-8966c656968c	59803	2244cc1d-a1ee-4792-9f54-8966c656968c
+7ef3f065-1928-4a58-b5a6-76dddb8488cf	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-6524	34525600-bae3-46fd-8f42-b849ed155939	33695	34525600-bae3-46fd-8f42-b849ed155939
+807bea1d-975a-4d01-98c5-2748d832235b	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A91Y	faa65348-60ca-4714-afab-68bfea9b47d9	31624	faa65348-60ca-4714-afab-68bfea9b47d9
+863ad936-e2a0-471c-8d95-3a548bb94afa	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-5726	52466fdc-a9f6-40b9-be3c-fdc2e3373fef	24847	52466fdc-a9f6-40b9-be3c-fdc2e3373fef
+8ce63594-bf4a-4b8d-9a48-49cb92b98ea9	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-RD-A8N9	a618ccda-3d62-407c-a593-b637521c4a24	55961	a618ccda-3d62-407c-a593-b637521c4a24
+8bd783a3-d6c9-4c87-a2a1-09f903b9c7ca	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A922	69bdc25c-4fa6-4a3c-a939-167f545d7bef	31573	69bdc25c-4fa6-4a3c-a939-167f545d7bef
+8ca597db-ac21-43d1-9329-586b2eaf6982	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-4440	de811860-eceb-4c9d-80b4-e5f31e68e6c1	24565	de811860-eceb-4c9d-80b4-e5f31e68e6c1
+8e0f35e8-cd02-4d8b-9145-597cc65eac13	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-8532	e144add6-8bf1-4f27-9ee6-a6b43aa47f89	34128	e144add6-8bf1-4f27-9ee6-a6b43aa47f89
+95edfabe-0b35-4cdd-aed4-e2234d806f35	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A94R	7ce5fb8a-9336-43ae-b04c-6641116e811c	36471	7ce5fb8a-9336-43ae-b04c-6641116e811c
+9745f1ca-d663-458a-86dd-024ebbf6a863	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-R5-A7ZF	996b4b24-adf7-4b29-b67f-88a3f1e5a409	25367	996b4b24-adf7-4b29-b67f-88a3f1e5a409
+94037c4f-7acc-436b-8433-7213a385539a	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8PF	ffe3e833-21bd-458c-a7c9-606e848d66e7	25416	ffe3e833-21bd-458c-a7c9-606e848d66e7
+9f4e471e-2397-4604-b0b9-c7e0c45a5d69	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8285	0e153802-4d36-4c3d-8c70-c7e72e8d537b	34025	0e153802-4d36-4c3d-8c70-c7e72e8d537b
+9b5e5122-8ea0-432c-bc64-932bf376fffd	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-7901	fbbce2f0-d795-467c-8450-b9cf5699bf60	33607	fbbce2f0-d795-467c-8450-b9cf5699bf60
+9fa752b7-9873-4bad-9eba-8cc113705fed	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-5804	b31e1768-ba51-4392-998b-86118f22f03e	50891	b31e1768-ba51-4392-998b-86118f22f03e
+a28e57e2-9071-4558-856a-162f7a837380	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-6526	b945ab97-e273-44b5-932d-68bfe71badc8	56833	b945ab97-e273-44b5-932d-68bfe71badc8
+9d7305be-60a3-4ecf-856a-bd5321166590	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-6563	1ceee599-97b6-4ab6-a583-7200d36215c6	65445	1ceee599-97b6-4ab6-a583-7200d36215c6
+9db0da77-797d-45d2-abdc-a586dea94ed8	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8360	eb758066-2cdf-4bcb-8f89-2fa31a620d5b	33797	eb758066-2cdf-4bcb-8f89-2fa31a620d5b
+a89e46f4-4808-41e5-a047-acebf8744eb7	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8284	5c577e10-0498-43cc-9cc9-196bb2e2a3de	33990	5c577e10-0498-43cc-9cc9-196bb2e2a3de
+a8a9b061-b33c-4c69-bd4c-7f430474cdfd	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8DZ	92e0fab8-c605-44db-ac24-273a2d6839ce	31331	92e0fab8-c605-44db-ac24-273a2d6839ce
+a3f03a0a-f251-4588-97bc-3403597a35ad	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-AA6G	5f53c93c-18d2-4cf4-acd4-ce8f3ef08521	31640	5f53c93c-18d2-4cf4-acd4-ce8f3ef08521
+aa88ce53-8439-40bd-8d93-e1d903d1c7fb	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-A4GD	a5ce70f3-8413-49ee-9d6d-1aaedfd88d58	63492	a5ce70f3-8413-49ee-9d6d-1aaedfd88d58
+ad73529b-92d7-412f-b001-920a61cec313	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8588	d2a12e3a-b15b-4d66-8280-9e6c32579920	33783	d2a12e3a-b15b-4d66-8280-9e6c32579920
+b54fe07a-f63d-4861-878a-8e8322e32fed	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-RD-A7BW	babb79c5-d3d4-4d40-a7d2-b70bcae62bb7	51752	babb79c5-d3d4-4d40-a7d2-b70bcae62bb7
+baf9a42a-e39e-4aac-b7b5-1b63b7fa1435	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-IN-A6RS	90b98291-81e4-41f5-a0c1-0c5d46ccf73f	33947	90b98291-81e4-41f5-a0c1-0c5d46ccf73f
+bec83dff-2bba-4467-92aa-5dc3db9e0eaf	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-4357	ac15465f-96c5-492a-978a-9455c652fa1e	32150	ac15465f-96c5-492a-978a-9455c652fa1e
+bf0f1735-f94d-4b82-8f91-2fd2bac80e32	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-A748	77f1dca1-ee7a-4b17-ab62-6b8f046c1477	62971	77f1dca1-ee7a-4b17-ab62-6b8f046c1477
+bd2a14e7-bb30-48d0-a585-7fbab767d4cf	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8487	c9342386-69fd-4ef4-a33d-f0c885547cc6	33861	c9342386-69fd-4ef4-a33d-f0c885547cc6
+c46ff2bb-bdd0-48cd-b2ae-7ef421b4b91a	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-A4GP	7ca2f823-bfba-48ff-a75a-4521bebe2468	45497	7ca2f823-bfba-48ff-a75a-4521bebe2468
+c1cf00be-1a34-49aa-b1ab-6b2e26832c19	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-8533	3d744aa9-7246-4da4-af7d-f8e58303a332	40051	3d744aa9-7246-4da4-af7d-f8e58303a332
+cbe05333-3185-4878-b6e6-977a0e1400e4	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A91N	51483bd1-9f9b-4a04-863f-71ad02ad3121	31516	51483bd1-9f9b-4a04-863f-71ad02ad3121
+10a83fcb-ad7e-48a4-a35b-6a2cbd250707	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-A4CQ	a2a7d19c-46e1-4fee-b32f-44ffa2349da0	42686	a2a7d19c-46e1-4fee-b32f-44ffa2349da0
+0dfa566e-8fb2-4288-81ce-b4bcce674b06	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-7957	fc46d6ed-1182-4e63-943f-4440d82c5cfd	33375	fc46d6ed-1182-4e63-943f-4440d82c5cfd
+129d95ca-71ef-44aa-a93d-f87803c37c9a	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-5725	1a5fc381-06c7-43fe-99ff-251b97bd9e7d	62361	1a5fc381-06c7-43fe-99ff-251b97bd9e7d
+1770adbd-b424-4a88-95f0-768e5f168cee	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8678	d1c458e8-3966-4e52-9002-f793c5385ef8	42353	d1c458e8-3966-4e52-9002-f793c5385ef8
+12f63577-7fae-4fc8-9106-39729669fdfe	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-A4J2	7e5c1483-6dd6-497e-a24e-c4d895fc87d8	62987	7e5c1483-6dd6-497e-a24e-c4d895fc87d8
+17f63789-2ee3-4cd9-9273-5fa73662db39	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-A4YY	7226edfc-6ee2-4675-8178-623a79f4e5c4	44587	7226edfc-6ee2-4675-8178-623a79f4e5c4
+1654c42b-664b-407e-8ca7-d4cd908b709a	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8P5	dcc27e7d-8b94-486b-8cfb-603a76725102	35908	dcc27e7d-8b94-486b-8cfb-603a76725102
+1a3e7ec6-c9be-4174-8799-72267eb8a7bf	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8485	5a233995-5539-4fff-8d73-cd1cf7cbc525	33790	5a233995-5539-4fff-8d73-cd1cf7cbc525
+1e1cdf72-820f-48a4-8fb6-89575d07cde9	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-8570	74515941-ee4b-43bc-8282-a46ffa58af25	40015	74515941-ee4b-43bc-8282-a46ffa58af25
+1f505ffa-b551-44a5-8813-c44c2bfcb4d5	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8PS	015a247e-0ff0-4261-84a2-59dc75184386	25860	015a247e-0ff0-4261-84a2-59dc75184386
+1fb6c06e-ecf4-4b4c-bb15-df8c0a9fad8f	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-7958	f0400e67-1cfd-4893-acb0-8f8e1471eb09	41894	f0400e67-1cfd-4893-acb0-8f8e1471eb09
+26f3ee89-7f74-4c4e-ad6f-fab29a5460f9	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8PC	f414a33c-6a19-4264-b51b-e5669e0d3322	25677	f414a33c-6a19-4264-b51b-e5669e0d3322
+fe1ad544-3189-4495-86be-0c68f3234238	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-EQ-A4SO	ec3fd545-9393-4ede-a3c3-b12c449bd4e6	61022	ec3fd545-9393-4ede-a3c3-b12c449bd4e6
+2688d563-b052-440b-a810-873b1cd3666d	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8296	30861c7e-2545-40ed-8bd5-18a2c6005a9f	51704	30861c7e-2545-40ed-8bd5-18a2c6005a9f
+2a227292-c73d-45fc-ab68-cdfaf7aef9e7	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-5734	9da3fcc6-a066-4cbf-987d-88b1e17cfbdf	24673	9da3fcc6-a066-4cbf-987d-88b1e17cfbdf
+2a790f24-3563-4a7e-b445-56b71c70e685	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-A4CS	d2880358-d01e-447a-a696-6b1b86115d0a	33897	d2880358-d01e-447a-a696-6b1b86115d0a
+26bbeafa-6923-4c23-8d5f-aa33fba92e82	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-RD-A8N4	24dfd207-0749-4151-ab5b-f700acbe7b51	55945	24dfd207-0749-4151-ab5b-f700acbe7b51
+2e04b48c-0805-4965-8afa-c5fcd32993c5	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A91E	24e29974-c2e9-44a9-bd10-007b21c94d26	82046	24e29974-c2e9-44a9-bd10-007b21c94d26
+32b44138-64e2-4bbf-aa2f-93a3b07ec670	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-A4YU	db9b400d-dbfe-43d4-bcc8-735d75d32ef7	45610	db9b400d-dbfe-43d4-bcc8-735d75d32ef7
+30425882-20d7-47ed-9630-60977ba62c72	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-A4IV	e5f044c4-b2f2-4360-af78-13201ca96dda	66010	e5f044c4-b2f2-4360-af78-13201ca96dda
+304aab66-4a2a-4b9f-af87-4a591d518ca1	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8297	f68151c0-df98-4538-9373-785ca5f9263f	51286	f68151c0-df98-4538-9373-785ca5f9263f
+30a82e9f-2a2d-4a66-bdb1-26b881c21d01	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-A4G6	bd25b678-a81d-42fc-aa21-e19f461f896d	34043	bd25b678-a81d-42fc-aa21-e19f461f896d
+41327aac-1228-435a-8de5-b26886bdbce0	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-A4GY	657932af-5473-4427-9031-e0b4b27a4c90	33732	657932af-5473-4427-9031-e0b4b27a4c90
+3bfa8069-6ca3-4405-9e32-11aa16b010ac	hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-R5-A7O7	4d9f997c-1f00-4d79-8b92-0baf19f336e8	34026	4d9f997c-1f00-4d79-8b92-0baf19f336e8
+4b56b93e-934c-45ff-9d24-b4b6812a790b	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A91X	dcba4de4-0fb3-47b4-ad62-52d18cc6e620	25513	dcba4de4-0fb3-47b4-ad62-52d18cc6e620
+4ed55013-3853-48ea-909f-7d26d5055637	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-B7-A5TK	2e900b68-3bb5-48f9-85d5-5a793be73050	40003	2e900b68-3bb5-48f9-85d5-5a793be73050
+50279b37-828d-4e18-b41f-f793c3923e75	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-8578	ce084962-0b03-4e32-b9e1-1a0c0a402b6d	35422	ce084962-0b03-4e32-b9e1-1a0c0a402b6d
+5956529e-f359-47c9-8222-0bd7f68c1e65	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-FP-8099	ada5bb35-3a4d-4415-8c9e-a1ea0317e4d5	33776	ada5bb35-3a4d-4415-8c9e-a1ea0317e4d5
+60879669-96c2-4710-82e0-0ae9d0e5b242	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8373	1dc0e4bc-ec7d-4dcd-a2a7-2b6a03fd9591	51256	1dc0e4bc-ec7d-4dcd-a2a7-2b6a03fd9591
+66bca2f8-f269-454d-abe2-ce51a0704645	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-4363	47899131-663f-45fb-8481-2bde94a50bcc	32152	47899131-663f-45fb-8481-2bde94a50bcc
+69704642-ba65-4a45-8f13-95d847185045	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-7715	501deecf-5bc6-4cd0-abc3-b6fd2ad3e4c9	41857	501deecf-5bc6-4cd0-abc3-b6fd2ad3e4c9
+65232ec1-4614-49bd-a3cf-d901d4f9556a	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-8534	995dfae2-6600-4fac-a749-07641ba76746	34121	995dfae2-6600-4fac-a749-07641ba76746
+6e03b415-84a1-4b91-8717-1a41edd4a255	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-B7-5818	edc2dd3b-ddc2-4db3-9867-3730399ea443	32953	edc2dd3b-ddc2-4db3-9867-3730399ea443
+6ffefb3f-3919-4fef-ab15-5d32d8f51d57	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-6817	078b255a-c855-4c16-b965-642ce8e6d3e5	44653	078b255a-c855-4c16-b965-642ce8e6d3e5
+6eeee564-1057-42e4-bfce-b6fe17d58d10	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-A4G3	75b3cd65-00a3-4010-8925-cea9fe6fa644	51365	75b3cd65-00a3-4010-8925-cea9fe6fa644
+7059ea66-93d7-4941-a35c-8a324d1ab94a	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-R5-A805	c5475cf2-9bb4-492d-bb99-2b83df905157	25183	c5475cf2-9bb4-492d-bb99-2b83df905157
+722a3067-2b68-442f-a333-540ab085af32	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-A452	91b1b60e-f13e-429b-a871-ae938f5d1668	33788	91b1b60e-f13e-429b-a871-ae938f5d1668
+72b0e541-a287-45f9-883b-caa5e4f6bae6	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8DL	d3fe7715-7d86-43f1-95cf-ba93a3a4392c	25438	d3fe7715-7d86-43f1-95cf-ba93a3a4392c
+76c666e8-75c0-4e82-978c-1e346435b0fa	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-SW-A7EA	193b3aa0-7ca9-4a14-a253-38acdecca680	34048	193b3aa0-7ca9-4a14-a253-38acdecca680
+7861dca2-badc-4575-a388-621d3614a8e4	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A91W	8e75b0ad-19cd-4097-87d9-672269a110ed	52065	8e75b0ad-19cd-4097-87d9-672269a110ed
+7938ca55-766e-4277-9e7e-603ffa02e570	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-4436	8f252f3b-60f9-4ea8-89cb-f9545d582c1a	33224	8f252f3b-60f9-4ea8-89cb-f9545d582c1a
+7739f659-0e25-4404-ad25-ee52fbbcfd44	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-A4GQ	66038bec-2f5a-4665-9a37-aa205ca2717f	33899	66038bec-2f5a-4665-9a37-aa205ca2717f
+7997f3d8-bff6-4808-8df0-d88d344d7c9e	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-A4GT	9cbb1c99-e16c-44d1-8218-176feb0a7fce	45502	9cbb1c99-e16c-44d1-8218-176feb0a7fce
+77a8eab6-f6a1-4739-9031-75ead40d68cb	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-8243	e34ac8d3-2908-4468-b9ed-9bbfbb00a85e	40149	e34ac8d3-2908-4468-b9ed-9bbfbb00a85e
+7c9ea4fa-4cbc-4941-945a-e531e1d48304	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-5720	8339a0f2-ea11-4777-9bfa-0bbc1c0a6c5b	24749	8339a0f2-ea11-4777-9bfa-0bbc1c0a6c5b
+7ab5a708-803f-4d8c-9b25-645f06851a26	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-IN-A6RR	dc9eb9bd-3020-4620-aa74-47c2c9ee5e1a	30944	dc9eb9bd-3020-4620-aa74-47c2c9ee5e1a
+81a7f6a2-e44c-43d6-b687-01158eaf44ee	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-8579	daf52918-95f8-47c3-b7d4-81b005732725	44714	daf52918-95f8-47c3-b7d4-81b005732725
+8027adc9-4918-45f0-a7da-5767da0b999e	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8DT	9f23d836-c12e-4467-b238-54a72a782df8	44943	9f23d836-c12e-4467-b238-54a72a782df8
+82f9a197-040d-4c5e-89d9-d87a7aa0168d	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-6525	4533746f-2b6a-4d9d-b693-2168c98619cb	39824	4533746f-2b6a-4d9d-b693-2168c98619cb
+85c11b74-9e50-4da1-8c0b-d5677cc801b1	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-3M-AB47	eec90ca6-fbf6-4359-a963-358b522ed2fb	68304	eec90ca6-fbf6-4359-a963-358b522ed2fb
+8097fddc-c7b9-4192-89d7-6bcceb7465b5	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-8572	995b6235-23e5-48d4-9e36-2f0b26d231b9	34063	995b6235-23e5-48d4-9e36-2f0b26d231b9
+86cbca52-29bd-4b88-a203-e8b9a072bd4b	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8361	13e5651a-f773-4c8a-9e63-c4406ff4435c	42320	13e5651a-f773-4c8a-9e63-c4406ff4435c
+84d32a4c-023b-4563-9eb5-e2f47818142a	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8683	a822d9e3-6613-468b-8ec1-fbef567e7da2	33855	a822d9e3-6613-468b-8ec1-fbef567e7da2
+8bb3facb-1933-4350-9f78-74537559e000	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-6522	1489526f-25fc-42c6-83e9-5a7701e6ae37	33440	1489526f-25fc-42c6-83e9-5a7701e6ae37
+8a173d98-20a1-4c84-86c1-97818e1c665a	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-4455	16bddef3-b23e-4ccc-b16e-8a3cbd81072b	33247	16bddef3-b23e-4ccc-b16e-8a3cbd81072b
+8d3e3d09-bc61-4d5e-b8d6-5aee6cb488ae	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-7722	e921e1b3-cf1a-4be5-8584-db0b03be4075	33377	e921e1b3-cf1a-4be5-8584-db0b03be4075
+8f9be4e3-a1e5-4fa3-8d31-a53de781ed97	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-IN-7808	d6ce5451-6403-47ef-9e92-2515c4dfa585	33443	d6ce5451-6403-47ef-9e92-2515c4dfa585
+93a337ae-2bd3-4464-b38f-93dff92d3fde	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-7717	5cba5b3b-6d91-4943-a52a-d95bc326eaf8	33366	5cba5b3b-6d91-4943-a52a-d95bc326eaf8
+93aebbd4-19cf-495a-b8ce-3c4a3feba152	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-6706	56782943-b22d-4ba3-8991-7747d64e702c	83038	56782943-b22d-4ba3-8991-7747d64e702c
+9ebc8b58-363b-4638-8365-cfbde31a71ae	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8380	123c6899-84e0-40d1-b247-fb9a406c9cc3	51422	123c6899-84e0-40d1-b247-fb9a406c9cc3
+98bf4652-0088-4ecc-9dfa-376438cb063c	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-A44T	f05eb280-e7cf-4803-82b7-e4825cc8c098	80264	f05eb280-e7cf-4803-82b7-e4825cc8c098
+9ef7582b-d4c1-4036-a1ed-ef65aa46fc60	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-7704	527a4186-97c6-4812-a380-b7a5a5436c35	41953	527a4186-97c6-4812-a380-b7a5a5436c35
+956017ba-5e4b-42c7-b93d-42316874ba93	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-4255	8bddb9c9-fe3c-42b7-88df-507413611fef	33136	8bddb9c9-fe3c-42b7-88df-507413611fef
+a267ddb4-b2d9-4292-b120-6e13e70d01f8	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-AA6J	fe09ba8e-7d16-4405-ba79-8d828dcd84fe	42697	fe09ba8e-7d16-4405-ba79-8d828dcd84fe
+a0402de7-08ae-4528-9e77-289295ad8ef8	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A94U	9176e8d4-7f9d-496c-9e60-e74a5cd7bacf	42639	9176e8d4-7f9d-496c-9e60-e74a5cd7bacf
+a2a71cb0-9dbd-45cc-8867-da84500515e7	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-4370	1da5581c-e5f4-417f-be01-c6f74ba7413b	32154	1da5581c-e5f4-417f-be01-c6f74ba7413b
+a1867d3e-a006-4e04-8118-478792bdca4b	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8589	e8534e97-f3d3-478b-97f9-af724fc9ce4c	42274	e8534e97-f3d3-478b-97f9-af724fc9ce4c
+a3c1f9a2-9174-48cf-81dc-2afcfdc4ba9c	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-5578	9c156974-475f-4c9c-bc0e-13d430c4e94a	33346	9c156974-475f-4c9c-bc0e-13d430c4e94a
+aba9439a-ea8d-404f-9faf-eb71a306684d	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A92D	d58731c5-202c-4011-b337-8bc3f87cc0fd	51149	d58731c5-202c-4011-b337-8bc3f87cc0fd
+aa2934f9-8783-428e-88a6-1d04b93fa1fd	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-6818	a6c0d65b-01d7-4ce7-9c7e-241fce71b458	59599	a6c0d65b-01d7-4ce7-9c7e-241fce71b458
+ac2cbce4-4ba8-42c9-ac61-70f42995588e	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-6454	b360e90f-3021-4a01-aaea-e478b01424c7	24684	b360e90f-3021-4a01-aaea-e478b01424c7
+a6635058-4498-463c-9bbc-1009dda3308c	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-A48A	be7769d6-ff3d-491b-9425-80900c782109	44428	be7769d6-ff3d-491b-9425-80900c782109
+ac359b60-1977-4aa9-99d3-8d17d7d66e11	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8PY	d10b5e34-852a-4000-8e31-fdff7cf68814	36061	d10b5e34-852a-4000-8e31-fdff7cf68814
+ab76544e-df6a-4b05-9317-054812474d4c	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8680	54c9c565-37e7-4668-a3bf-cbdb38352c77	65764	54c9c565-37e7-4668-a3bf-cbdb38352c77
+ae633e83-303f-4a90-ac3b-34458fd9beef	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-6453	8c05fa55-9bee-4d98-9fee-f3761a013a8c	33364	8c05fa55-9bee-4d98-9fee-f3761a013a8c
+b14f2fcb-e869-475e-bc7c-adaf6e7e636f	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-6705	e050aa87-b39a-4c79-99c1-3de47bb891bb	41962	e050aa87-b39a-4c79-99c1-3de47bb891bb
+b16167d0-d7d7-408e-bd0e-ce429b7f828c	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-7959	cdc2e2d0-1e5e-4961-b7af-588693384f64	47728	cdc2e2d0-1e5e-4961-b7af-588693384f64
+bab53c56-82f1-4d63-98f5-4608ea7b5f4e	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8PM	6985bf6d-418b-47d7-a377-dd1de1997957	25435	6985bf6d-418b-47d7-a377-dd1de1997957
+be6531b2-d1f3-44ab-9c02-1ceae51ef2bb	hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-3M-AB46	b3f5e269-e65f-4b64-ad16-f9a816a62947	50491	b3f5e269-e65f-4b64-ad16-f9a816a62947
+b604b620-cd32-4c87-ace3-00a68ab16973	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8676	0c15cb62-f4fe-457e-a289-2f897c591cc5	33690	0c15cb62-f4fe-457e-a289-2f897c591cc5
+c2f90f1a-a81b-465e-8e6b-5f02a21b27dd	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-4371	2fb62805-23f2-41fc-8975-6ba9a4057db3	24413	2fb62805-23f2-41fc-8975-6ba9a4057db3
+bb3729fe-2fa2-47fc-afde-c14036cb84f5	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-7723	af816bbf-2159-42d1-acb5-976ef22015b8	59692	af816bbf-2159-42d1-acb5-976ef22015b8
+cb622cd6-776d-4681-8a67-4addd61c66b8	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-6527	434a7a56-a711-4772-b63b-6911a06b1ca1	50609	434a7a56-a711-4772-b63b-6911a06b1ca1
+c63ae423-c90a-4cf4-aa42-653bb8fa3e69	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-A486	46e67aff-ca87-4d09-a3f6-a5257eaa3b54	60252	46e67aff-ca87-4d09-a3f6-a5257eaa3b54
+c656375b-6b63-4728-a126-dbd746a1f437	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A924	af447460-52c8-401d-aa3d-9b89c366a27e	25961	af447460-52c8-401d-aa3d-9b89c366a27e
+0f00ad32-e4be-49d4-a02a-d233bfc913c5	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-5723	6f53e54d-2b36-4c0f-a0ba-da487f3265cd	33111	6f53e54d-2b36-4c0f-a0ba-da487f3265cd
+0f344863-11cc-4fae-8386-8247dff59de4	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-A4J6	d4f16b5f-f88e-4a7d-ac9a-45db7bdcaa3a	33901	d4f16b5f-f88e-4a7d-ac9a-45db7bdcaa3a
+c3cba26e-38c2-4569-afd6-6b045e604808	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-F1-6177	aef041e7-9d46-4deb-a069-b196255729ce	33560	aef041e7-9d46-4deb-a069-b196255729ce
+0f3e2f16-1c06-4128-af45-ee73de19ea69	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8591	0a5c77c8-7f48-41ec-8bd2-a3a89c50ffa6	42321	0a5c77c8-7f48-41ec-8bd2-a3a89c50ffa6
+0d0f0200-25b8-483b-b04a-82a7833b4d30	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-4267	233a418c-f2af-43b1-9dc1-4894f3775101	33114	233a418c-f2af-43b1-9dc1-4894f3775101
+10b5774d-7079-4b4b-b824-f4745f5598c7	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-4449	424c09f1-fef1-4b13-920b-1913012a856e	33282	424c09f1-fef1-4b13-920b-1913012a856e
+12071070-d06b-4c7b-a7b1-77c84963abe6	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-4187	8ff0ef7f-0d4e-49d2-b0f9-0f3662bbe1cc	32991	8ff0ef7f-0d4e-49d2-b0f9-0f3662bbe1cc
+0ae2b51d-aade-4d24-8d0b-6990123d9074	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-FP-A4BF	100d78b3-1a90-4c6a-af09-fad6159d096d	34142	100d78b3-1a90-4c6a-af09-fad6159d096d
+16286ebd-6811-4e53-b4d5-82e1e825bc7a	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-A4G8	fc0c92f6-b83e-4e4b-a289-027ba2dc3248	48176	fc0c92f6-b83e-4e4b-a289-027ba2dc3248
+0aecac64-5982-4d76-8f31-958f6a00951d	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-5802	7b119dd8-12f7-481e-99c9-5654db2a10be	55392	7b119dd8-12f7-481e-99c9-5654db2a10be
+1a1f2197-e303-46e4-8871-53f2eb2e599a	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-8528	7fe21c58-8e7c-4315-95c0-c0b888dda7f1	56049	7fe21c58-8e7c-4315-95c0-c0b888dda7f1
+306f0222-8734-44ca-9a31-86e4e62b0a1b	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-4472	4c2cedd1-8167-457b-b8e3-618f6b92a16f	56326	4c2cedd1-8167-457b-b8e3-618f6b92a16f
+1d43af3c-4279-4aed-9ced-ce3896a48ae0	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-FP-7735	6e4f6876-7aee-4bf0-966c-be0f64ddfece	33522	6e4f6876-7aee-4bf0-966c-be0f64ddfece
+1eb2038d-3b4f-4da2-964b-e629ea068215	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-A4J8	ad4500f6-4fe2-40ee-86be-76fcfc9887c3	47425	ad4500f6-4fe2-40ee-86be-76fcfc9887c3
+23ef21a0-3695-4ca2-99e2-274805f11892	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8060	61433811-d16c-4dca-aa53-37a2329b4aba	33367	61433811-d16c-4dca-aa53-37a2329b4aba
+25c4448f-f3c5-41bf-854e-1aeb60696c78	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-A6ET	ec418d09-9e68-4089-895c-ff96d8016577	51423	ec418d09-9e68-4089-895c-ff96d8016577
+2f1b96b2-7031-4f7d-9490-14728d320f3e	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-4466	4a76aa3f-527a-43a7-9e56-e0349a369782	33265	4a76aa3f-527a-43a7-9e56-e0349a369782
+2dc154aa-c478-404b-a92e-86abcc8dbdb7	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-5577	d17c128a-86f5-464b-9998-d996cfc91b1f	66528	d17c128a-86f5-464b-9998-d996cfc91b1f
+36abeaf9-cc0f-43dd-9c55-b9347d826529	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-FP-A9TM	12eefdea-cfe5-4f60-8f61-0a6ca34978aa	50542	12eefdea-cfe5-4f60-8f61-0a6ca34978aa
+33503349-ba7a-43f4-bcb2-ac8d16808432	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-4183	e8fb7284-30b8-4644-88f8-4cd05ba69eff	33204	e8fb7284-30b8-4644-88f8-4cd05ba69eff
+411257a4-a148-4606-8c8b-f9f1240e40ed	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-4253	aea0325d-89cc-4713-9f45-04bb80cfd35a	33200	aea0325d-89cc-4713-9f45-04bb80cfd35a
+3b17c66a-34ae-4b10-b907-4464d6d58383	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-A4G2	cad0dbf0-b874-4bd3-a4e4-fb8323345efe	39727	cad0dbf0-b874-4bd3-a4e4-fb8323345efe
+4020b1b1-576d-4869-9ff5-552e3afb3ab5	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8371	ab70f806-2074-4232-9831-7ea57f79aee7	69136	ab70f806-2074-4232-9831-7ea57f79aee7
+40cb6f49-3d68-45dc-9bfa-b4d724de7dfe	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-AA6B	90cc3ac5-8113-45ba-8e7d-9af45ec3ed20	53268	90cc3ac5-8113-45ba-8e7d-9af45ec3ed20
+3ccbe7c7-c779-4a98-b495-ff020d3e9e55	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-AA6I	f213e89c-7dff-484c-97d0-8de05c0cb484	31672	f213e89c-7dff-484c-97d0-8de05c0cb484
+43945bf6-6e64-4f13-9822-baf30dcd726c	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-8604	ec52b5f8-1dab-47fd-93a9-b19b0a7a588c	39790	ec52b5f8-1dab-47fd-93a9-b19b0a7a588c
+55a2c884-49a7-4d1a-9e0e-42f6a8b720fa	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8365	e7d62426-4c3c-432d-b1de-a09f46c22b44	33793	e7d62426-4c3c-432d-b1de-a09f46c22b44
+4e921bc8-df5d-4f54-93d1-d5a433f91bdb	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-EQ-8122	c4322b67-9e15-4df1-95a8-917b761c5608	49697	c4322b67-9e15-4df1-95a8-917b761c5608
+4e9d13da-438d-4b5e-8e86-67432b5e9471	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-8245	6e6b32cd-7b02-4972-abab-3d23748f08b3	33958	6e6b32cd-7b02-4972-abab-3d23748f08b3
+525a6978-2d7b-4f3a-ac68-13fe8cbbbdcc	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-4366	088435a1-07a4-4b88-acbe-9435449fbac7	32152	088435a1-07a4-4b88-acbe-9435449fbac7
+569dd23a-d0d7-409c-bc83-7340512f4195	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-8535	758214ba-aba9-4134-919c-30dd1726acee	51431	758214ba-aba9-4134-919c-30dd1726acee
+56bcb686-5010-439f-819f-95dda9885ca5	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8PK	1b01906d-8128-4fe7-a349-c87a70c730b9	26164	1b01906d-8128-4fe7-a349-c87a70c730b9
+5b7e557a-6aee-4077-b3cd-c96179e643ae	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-8529	17534c83-c595-42a5-a45f-7b080240b272	56070	17534c83-c595-42a5-a45f-7b080240b272
+53108d62-6b7c-429f-9fec-474781174968	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-IN-A7NT	fe6eb729-742c-4b7f-bb0e-3c11fceaee01	51375	fe6eb729-742c-4b7f-bb0e-3c11fceaee01
+5a12857b-4132-4089-a7b7-e706366102db	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-A4J5	7ef89fab-6b7b-46ea-b821-d575deb877c2	42381	7ef89fab-6b7b-46ea-b821-d575deb877c2
+5d33895e-a959-4d5e-8850-c49c7fa49a22	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HF-7133	768b5645-7cd6-4ccf-882e-5d65ffd902ee	87648	768b5645-7cd6-4ccf-882e-5d65ffd902ee
+62d32d19-ec93-4359-ab17-dc32e599b29a	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8295	8d7d500b-d6a8-493c-8b5d-30e166f1a0e0	33810	8d7d500b-d6a8-493c-8b5d-30e166f1a0e0
+647dc54f-a51b-40ea-9d97-c93598c2af71	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HF-7136	b281a4f5-6579-46fe-9607-34ccc800d6e4	82501	b281a4f5-6579-46fe-9607-34ccc800d6e4
+6de6b8e2-03eb-4f32-b5a3-bea73fc632b4	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-6521	fa0a3bbe-de1a-4162-86ff-32c7d3c83191	39882	fa0a3bbe-de1a-4162-86ff-32c7d3c83191
+76df6303-a635-410b-a4d9-db5dce72fcbc	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8PD	d31ce6b5-219d-4529-8bc8-ff6c04536134	31631	d31ce6b5-219d-4529-8bc8-ff6c04536134
+7c7cef85-024c-48c0-8644-92c034432e8f	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8686	0321602e-59b7-4d87-9988-25780b1d4674	42440	0321602e-59b7-4d87-9988-25780b1d4674
+79dbe26f-930b-420a-9a2e-483e3318ca10	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-7197	40375394-7cd4-4b5a-b729-54b79829c2c3	33363	40375394-7cd4-4b5a-b729-54b79829c2c3
+7e13fe2a-3d6e-487f-900d-f5891d986aa2	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-4301	01d69813-e894-4483-bfba-0fcca072550e	24615	01d69813-e894-4483-bfba-0fcca072550e
+84d2d341-9e52-49ab-8c51-417208834c5d	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-7707	e1bb694e-d19f-4ec6-b53d-f6aeb5f5a6ed	50471	e1bb694e-d19f-4ec6-b53d-f6aeb5f5a6ed
+8a9afa5e-63ce-41eb-aafb-b0b03653da5a	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-5733	e35606d4-17f5-4a80-96c3-bde07384f271	33413	e35606d4-17f5-4a80-96c3-bde07384f271
+8b5746f9-dbee-40bd-9141-1081960cf286	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-5579	79558cc7-8f7a-4551-8c86-931d76824482	59685	79558cc7-8f7a-4551-8c86-931d76824482
+87c217d4-66f4-46ca-8244-7856ce658fd3	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-IN-7806	49db7dcf-7725-4423-a215-d29d0803dece	59533	49db7dcf-7725-4423-a215-d29d0803dece
+8520654b-2192-46cf-9d72-1ddb885a7c55	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-4201	b34af4f8-ed50-479a-a798-2de0887d53e2	45029	b34af4f8-ed50-479a-a798-2de0887d53e2
+889cb779-36a5-4ac6-b2cf-ea7be0cc387d	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8289	b8160737-e06d-49e4-812a-45e7950057bf	33824	b8160737-e06d-49e4-812a-45e7950057bf
+8bb9cfd8-7012-41b1-8aa1-b6592b0c0d43	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-A4QI	ddf691cf-8fb5-4ce5-b00a-d1ebbcc5178d	86623	ddf691cf-8fb5-4ce5-b00a-d1ebbcc5178d
+8e005891-d6fe-4fee-a699-971fee4e70f1	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-4304	79d4f601-8b7e-4228-b8ec-66e01fc2b547	24461	79d4f601-8b7e-4228-b8ec-66e01fc2b547
+8a24f1a3-4bab-4591-9676-7bee01d096c1	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-A4J4	5b4461cd-f122-48dd-9434-2313ebc63494	33064	5b4461cd-f122-48dd-9434-2313ebc63494
+91c94a0d-f088-40e6-a4b1-d2a72ad35077	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8PZ	f03224a4-10e6-441f-82fe-6988d80af049	53008	f03224a4-10e6-441f-82fe-6988d80af049
+92654ad8-156c-4dd1-862e-dc339240d721	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-FP-8210	b57cac12-4560-43fe-9643-931bf8977d23	56387	b57cac12-4560-43fe-9643-931bf8977d23
+8fccff71-3710-4cb9-b8af-61707aebe5d8	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-4442	8663a937-588c-4625-bd84-62da75d5a07c	24621	8663a937-588c-4625-bd84-62da75d5a07c
+98760b3e-3075-4444-9a01-8f11935069d4	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-A4H8	2c2fb6dd-514b-4d94-ba73-951ec1ee06d6	39964	2c2fb6dd-514b-4d94-ba73-951ec1ee06d6
+98c56f92-547b-473d-9fe0-2135dd5a96a8	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-A4IY	810b1430-3f6c-4ee1-a09b-b89f056b2e2f	64780	810b1430-3f6c-4ee1-a09b-b89f056b2e2f
+a0d35a25-3500-46f3-874f-1a0820200473	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8P2	ec8cdb62-fff1-4d0c-93e2-3ecbd7b1885c	52816	ec8cdb62-fff1-4d0c-93e2-3ecbd7b1885c
+ac77e22d-42c0-4e06-b904-0dd5b31eb0d8	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-8238	e83cb5c8-01b0-429f-9d09-47e9ae602393	45439	e83cb5c8-01b0-429f-9d09-47e9ae602393
+b1f261e9-c896-46d2-93c7-0290970196f8	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-4362	ee3efbab-1a19-4178-813b-7dd870bd8be4	32291	ee3efbab-1a19-4178-813b-7dd870bd8be4
+b1fee7af-8030-4d93-94ac-6294683d4298	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-A6F0	3fb10a68-40b8-4757-8a42-097932385dc2	42662	3fb10a68-40b8-4757-8a42-097932385dc2
+b2f6d8f3-3182-4e5e-be20-8470cfb832c5	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-8536	501173d3-1e76-4b0f-84fe-3c5f88ad932e	51342	501173d3-1e76-4b0f-84fe-3c5f88ad932e
+b8a1c8c7-3945-4d84-8f58-3a1a1eb10730	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8486	add8daf6-b78b-489b-9f6a-ef0718388260	33877	add8daf6-b78b-489b-9f6a-ef0718388260
+ba3911e6-2208-4a04-8891-b5cba9fda6bf	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-IN-8462	45bacc19-7a98-4a98-ad0b-778c93d3670d	62492	45bacc19-7a98-4a98-ad0b-778c93d3670d
+b7d2401e-7d64-4c89-a74c-16d634cafe7f	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-A487	f839909d-dba2-4f6d-9826-ecab33a96a96	60010	f839909d-dba2-4f6d-9826-ecab33a96a96
+bfdcc333-1b9d-44d2-90a4-c1720ba712e9	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-SW-A7EB	d8c0a686-9689-4897-bfa3-68061583b8d7	103791	d8c0a686-9689-4897-bfa3-68061583b8d7
+c6316fb5-99a7-4adf-832f-dce44ddcd3aa	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-8608	f98991bf-e30b-44f2-8dcb-9108f3fcfa69	40791	f98991bf-e30b-44f2-8dcb-9108f3fcfa69
+c9ab5bf4-092a-420f-9b90-87deea58104c	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-4465	3e29ed08-9210-4fac-8cdf-8d7698c24f33	41853	3e29ed08-9210-4fac-8cdf-8d7698c24f33
+c16eed96-8da8-4d01-b87d-660f46172777	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8E2	df5dc03f-7b87-44c6-b6e9-30c1a1ad583c	61729	df5dc03f-7b87-44c6-b6e9-30c1a1ad583c
+18d0aae7-9694-4252-b8fe-16e62dadab07	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-4477	45250e07-eec0-4ef1-882e-f26b3b3f9d07	49681	45250e07-eec0-4ef1-882e-f26b3b3f9d07
+1b391187-1d9a-4428-ba9a-ef1800f17d3e	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-A6EX	1d2d0ecd-39f9-4aec-bfc7-dbff3f1ff02a	42388	1d2d0ecd-39f9-4aec-bfc7-dbff3f1ff02a
+197d01a5-321c-461e-9b45-b359288b959a	Unknown	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-KB-A6F7	6388cb3d-4d82-4507-848a-3005b0edc037	53078	6388cb3d-4d82-4507-848a-3005b0edc037
+1b98b2da-c5bf-422f-bb73-1190841fbec4	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-8527	a3799201-1452-4c82-b999-c6c359404506	60364	a3799201-1452-4c82-b999-c6c359404506
+cad2adc1-0f41-4651-9c80-ae9961e2dc8d	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-4475	0935b49e-25d0-4f8b-9cf1-85192a3e1c5e	33170	0935b49e-25d0-4f8b-9cf1-85192a3e1c5e
+1e5a3796-6249-4a91-9fc8-0c273e337f29	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-IN-AB1X	27cb2c40-c4b7-45c6-a4af-7ee4a5429f48	51233	27cb2c40-c4b7-45c6-a4af-7ee4a5429f48
+5c087d33-0bd3-407d-8350-fabba6aec597	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-4444	a72bcb79-2017-44c9-9523-331a9e6cb790	43803	a72bcb79-2017-44c9-9523-331a9e6cb790
+416fd59b-a4f8-4610-9f8b-473cb5c04a4a	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-A4H6	d4b54d94-73a8-4d2d-92b9-d2ebab4f21f5	48101	d4b54d94-73a8-4d2d-92b9-d2ebab4f21f5
+27988b3e-cde1-4f4b-82a1-6d8ad08db8e9	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-6452	6af35028-5aeb-41d2-95b4-27cd95088b5f	40998	6af35028-5aeb-41d2-95b4-27cd95088b5f
+2360c1e2-90f5-4737-9486-3f4590c37322	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-RD-A8N0	93ec8b8c-7087-490d-b3bb-d4bd91e9503e	55924	93ec8b8c-7087-490d-b3bb-d4bd91e9503e
+2983f08c-3b32-4fb3-9d7e-5b34f9c2f741	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A91K	e68e7240-06ea-4c8a-bec3-8915e25aa901	44681	e68e7240-06ea-4c8a-bec3-8915e25aa901
+2ac986f6-cd6f-4ca5-90cc-7a105cfe85ea	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-4469	13b7095c-efea-4a53-a1b1-e4b67b2a8b2a	41882	13b7095c-efea-4a53-a1b1-e4b67b2a8b2a
+33901c6f-9180-4a19-866c-f4ac6bec76da	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-5803	3e357b01-7661-4836-bdc8-608663a7db3b	33471	3e357b01-7661-4836-bdc8-608663a7db3b
+37b64809-c4fd-412d-9a7f-fad6bf036aaf	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A91U	d12119b3-2cc8-431e-94c5-c84116afb811	25281	d12119b3-2cc8-431e-94c5-c84116afb811
+39dd61a8-cd17-4df3-ae17-61e239eb00bd	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-4474	2264fd19-1c2f-4210-90c2-75a5fbef2681	24592	2264fd19-1c2f-4210-90c2-75a5fbef2681
+33a9f48e-75e5-4ec5-8e4a-7c6d91a98656	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A91D	1079a3fa-ffbb-4c27-b7cb-adce260fb171	31594	1079a3fa-ffbb-4c27-b7cb-adce260fb171
+3ed0d746-ab57-4097-94d5-5e89985b8f31	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A91A	c560bdc1-76ad-49cc-b061-b3bb814bb525	51102	c560bdc1-76ad-49cc-b061-b3bb814bb525
+40837a4d-7931-497c-a6bf-6a661813c443	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-A74A	18101fd4-9e0f-43ee-b8b0-45a7d6289f11	42650	18101fd4-9e0f-43ee-b8b0-45a7d6289f11
+4310a287-5f01-4e0d-94e3-96c5379c3245	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-B7-A5TI	ba071305-902d-4745-b96e-7ea0753393a0	40134	ba071305-902d-4745-b96e-7ea0753393a0
+3c573af6-6298-49de-8de0-6a7f9ce9b000	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-6520	8ff622f8-c33f-43e0-9a5f-502ef4d1272a	74824	8ff622f8-c33f-43e0-9a5f-502ef4d1272a
+43b7a790-35a2-4786-b375-c3847d2aec62	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A928	32cdc8f6-2be2-47b2-b3ad-2d97d9566ffd	31666	32cdc8f6-2be2-47b2-b3ad-2d97d9566ffd
+449bf2be-b20e-4ad0-9ffb-910d83114018	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-4368	18b5b3f6-6c24-4535-b465-1eab8f9b7d3e	32327	18b5b3f6-6c24-4535-b465-1eab8f9b7d3e
+48abe0ef-dfd5-4e36-a319-c4ec3165cba1	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-FP-A4BE	d321622a-b96c-476f-9002-7a594df6e0e3	44576	d321622a-b96c-476f-9002-7a594df6e0e3
+43e3fbf3-7812-45fb-bf4c-ce22a2aa1eee	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-MX-A5UJ	feca11f8-754f-4792-ad40-d6e1450a0433	42697	feca11f8-754f-4792-ad40-d6e1450a0433
+4a00ca75-d23a-4642-bee8-db4182517724	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A91V	163e399e-c2d9-4af4-933a-04e1ad44a3ea	68186	163e399e-c2d9-4af4-933a-04e1ad44a3ea
+4685dc14-1809-47ea-aba9-9bde72f6661b	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8058	139e13ea-c7d2-428c-af6e-c18500ba25d6	42232	139e13ea-c7d2-428c-af6e-c18500ba25d6
+43f0421c-6578-4d77-9314-ef0305c7efbd	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-6566	dd11cb4c-fac8-4053-90c4-ecede8aae5a1	41913	dd11cb4c-fac8-4053-90c4-ecede8aae5a1
+46874009-4b32-43ff-a36a-236a3ca28fef	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-AA69	b00ea9ba-eaea-4f34-9af0-1cd2279e6c41	34115	b00ea9ba-eaea-4f34-9af0-1cd2279e6c41
+46d7489a-cfe6-440e-9d50-919d0ead8018	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-RD-A8N1	7c87c519-e48d-4359-bc3a-d816a32caa67	44431	7c87c519-e48d-4359-bc3a-d816a32caa67
+52849c60-7e30-4ba4-9dae-be4adf031120	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8PH	1278ab4e-0b20-4ba3-88f0-da6324ecaa0b	25623	1278ab4e-0b20-4ba3-88f0-da6324ecaa0b
+5b52f882-df12-42ec-a000-ff3b428ba05b	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8372	dd6eef93-9202-4a47-a202-65691a507f6a	59780	dd6eef93-9202-4a47-a202-65691a507f6a
+53086e20-a727-40d6-b42d-8030109b5130	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-6815	e6046839-82e4-4a27-b234-04709b0bdd18	33579	e6046839-82e4-4a27-b234-04709b0bdd18
+5c1afb64-da74-4d2c-8be3-e6c21d2952a9	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8PT	e203523e-dbb2-4516-9dea-bfe5f7d4a3db	54278	e203523e-dbb2-4516-9dea-bfe5f7d4a3db
+5f263b2c-3385-4d07-99c2-d7b613c4a470	Unknown	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-KB-A93J	9820f8e9-c96a-4ee9-95fc-94a2930f26f7	35970	9820f8e9-c96a-4ee9-95fc-94a2930f26f7
+6e2ecc9d-dc68-4922-a36e-e8bbaf9eafb3	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-RD-A8N5	4841e056-6120-4b82-a366-631a3dae62e7	36106	4841e056-6120-4b82-a366-631a3dae62e7
+6a9b3d65-ae15-4e3c-84ed-468e2196372b	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-8526	bf0c4aba-85a0-45bb-965f-c25e9202be72	51403	bf0c4aba-85a0-45bb-965f-c25e9202be72
+6f70e9f0-580b-4199-934b-dacd29fb28a0	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-6709	a622156c-b075-4259-9858-2562d9f40a88	56754	a622156c-b075-4259-9858-2562d9f40a88
+75915370-0895-4933-8875-8a31c65c3d50	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-A4GX	ece4886a-c0b3-4ce1-9143-bf4fc9db1095	45555	ece4886a-c0b3-4ce1-9143-bf4fc9db1095
+6fa6ace1-4b39-44db-9413-73eb21588aa1	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8DU	22cf8b6e-de6c-47c7-a4dc-85721b5327eb	31623	22cf8b6e-de6c-47c7-a4dc-85721b5327eb
+75a29059-4705-4a55-bc3d-f5923b24b358	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-6455	36d14ba6-6ccf-450b-8ad6-e5943eb986da	61372	36d14ba6-6ccf-450b-8ad6-e5943eb986da
+76a4e24e-e645-47c5-836a-6a029e97a4c8	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A927	59789a35-521a-40b8-905c-86346437fbab	25412	59789a35-521a-40b8-905c-86346437fbab
+73d177f7-8c0a-42f6-a73d-8073c0e6142b	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-4306	992ea10e-0956-42a8-94f2-647a70c4d1a9	24476	992ea10e-0956-42a8-94f2-647a70c4d1a9
+7840d10b-4927-4731-8dda-5f288da21bef	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-A44U	b50a03d6-2373-4c8f-b6b2-e94ebb293cf2	33992	b50a03d6-2373-4c8f-b6b2-e94ebb293cf2
+74f859cf-6df5-4e96-ae6b-cfaab691d5fd	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-4191	d4c6f475-2d89-477d-b69e-885a760ca1c3	50881	d4c6f475-2d89-477d-b69e-885a760ca1c3
+7b0d69ca-13a6-46e0-839c-e433bbede3ad	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-4256	155326fe-a53b-4608-8968-be64c1043d9f	33128	155326fe-a53b-4608-8968-be64c1043d9f
+7b594344-573d-46a0-b735-6727f6f15585	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-A4H2	bc73bb9f-1f45-4d42-ba75-cd84c0608ede	34132	bc73bb9f-1f45-4d42-ba75-cd84c0608ede
+7bef9122-0fb4-4f2e-bb6e-67eddc3ea9af	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-R5-A7ZE	fc50cdcb-0505-435d-b43a-f967437420d3	25319	fc50cdcb-0505-435d-b43a-f967437420d3
+794fbad5-93ce-4f9a-aee4-37a89a6719ec	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-A4CR	e28c9112-8711-4b6d-9b76-28b4eeceed1a	33802	e28c9112-8711-4b6d-9b76-28b4eeceed1a
+8114d553-4025-4c8f-ae02-5ed01720723a	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-A4G9	b25ae72d-dafb-4b0e-803c-3cab9674861b	33949	b25ae72d-dafb-4b0e-803c-3cab9674861b
+7d915d11-729c-4577-a948-9824a8b033ce	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8286	2bc69681-4ac7-4e6e-8cd9-dcabbac0f6b6	42309	2bc69681-4ac7-4e6e-8cd9-dcabbac0f6b6
+7f056fc5-3848-4884-9644-95b8b6ed9642	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-A489	b7b52909-2af7-4fff-934d-68965b3c3e85	34084	b7b52909-2af7-4fff-934d-68965b3c3e85
+83a0f9ef-4bf0-4efe-8713-f8b6ab4f5773	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-AA6K	92ab687b-e46f-4c01-809a-12145142fb20	36332	92ab687b-e46f-4c01-809a-12145142fb20
+83d681f4-6c0e-45cc-a31d-0b1b31c8e073	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HJ-7597	b2945541-0676-429d-bfa0-2397ba44a693	57330	b2945541-0676-429d-bfa0-2397ba44a693
+9130c730-b0bc-4d3a-9ee1-09bf43d9bd67	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-ZA-A8F6	c160b553-3a40-487c-967d-70753a5f3e71	33999	c160b553-3a40-487c-967d-70753a5f3e71
+8cb0144b-be6b-40a1-86a2-708f96d9b615	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-4443	18413124-6e91-4c02-a3d2-34ec0737feea	24493	18413124-6e91-4c02-a3d2-34ec0737feea
+8ed901f6-d1bc-48b1-8514-6e8c066dc160	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-4300	6544c055-6f33-4d8a-ae39-b6122dcba361	24417	6544c055-6f33-4d8a-ae39-b6122dcba361
+a873475c-b2c7-4c84-bd89-5b9ee6060ce1	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-8574	334ae513-dd1f-4847-a59f-93ff6620c656	38900	334ae513-dd1f-4847-a59f-93ff6620c656
+a205522f-2df0-4829-b86f-fa43c76c39cc	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A94P	80ff4572-66d6-48e8-b526-dc79f32f54b0	25279	80ff4572-66d6-48e8-b526-dc79f32f54b0
+a58b6cd2-48f8-47d0-b97a-02a376f83e5c	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HF-A5NB	a51ce8e6-f77a-46b8-9a93-4ac5d7094e4f	44737	a51ce8e6-f77a-46b8-9a93-4ac5d7094e4f
+aa2c5d29-2764-4804-9181-5870c0956904	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-A4QL	042a70d6-cb6d-4fb1-be8f-c812f4f45875	71755	042a70d6-cb6d-4fb1-be8f-c812f4f45875
+aa3d2d17-19e3-4b76-8235-98550f49dc91	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-RD-A7BS	1ec5dde7-81e0-44a2-b320-4695c2372e7e	36365	1ec5dde7-81e0-44a2-b320-4695c2372e7e
+aef8d98f-7a1c-47f3-b5a7-a3cb299c70de	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8381	2957ffcc-f166-40a0-8903-baa9ce7349fd	51276	2957ffcc-f166-40a0-8903-baa9ce7349fd
+acab1362-c8a0-448b-8533-0cd84d97959c	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-4294	f452d2d4-6b65-470d-9bcd-90e51ae1ea31	24492	f452d2d4-6b65-470d-9bcd-90e51ae1ea31
+af1086cc-b330-4ad6-ae1c-3b5c7259949a	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-6564	796c822c-3c5e-4c0b-8881-2d85862c72ff	33442	796c822c-3c5e-4c0b-8881-2d85862c72ff
+b2e2d35c-7a79-4165-97a5-82d5c37d94f2	hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-FP-7998	faf7670b-1a4e-4efe-9545-ca03bee03dd7	45407	faf7670b-1a4e-4efe-9545-ca03bee03dd7
+af59b21e-2805-4c0b-8aad-c99b26c79ee1	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-A4IU	decee01e-a94b-43b8-81da-5daaf77775c8	59904	decee01e-a94b-43b8-81da-5daaf77775c8
+b4376da2-05ca-448f-a4bb-e7b62695491a	hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-R5-A7ZI	bb141045-1b54-4258-a5db-27b4a8860394	34169	bb141045-1b54-4258-a5db-27b4a8860394
+b12d9857-9ae1-445b-a963-b630b27b254e	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8367	6903df8a-ac82-4504-bd43-d9e6dc9761de	77643	6903df8a-ac82-4504-bd43-d9e6dc9761de
+b93221ba-2076-4dd4-9931-179571b7e16c	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-A4GU	47bfb537-e8dc-4a09-9fc0-3e25447d3f70	33898	47bfb537-e8dc-4a09-9fc0-3e25447d3f70
+bdfd84fa-a8b9-46cd-b618-1267590da864	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8362	69ca9419-dc35-4266-aacd-39493f16874d	69086	69ca9419-dc35-4266-aacd-39493f16874d
+c60e89a7-a8ba-458e-8f10-785c3f562fd6	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A91Q	c5db0892-becd-4158-85d9-5fc6214f6dbf	36295	c5db0892-becd-4158-85d9-5fc6214f6dbf
+c993a68d-0342-4df4-a082-72094f061c86	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-RD-A7C1	66310a09-94cd-4d7f-ba97-834123d82c90	34736	66310a09-94cd-4d7f-ba97-834123d82c90
+ca21c55f-45a7-42af-be07-430990d5445b	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-7716	ec20b82e-492c-4078-ae2b-bf83ae57066b	50398	ec20b82e-492c-4078-ae2b-bf83ae57066b
+06fd3086-0801-4d74-bced-4916efc544d2	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HF-7131	ec3643b4-15c5-4a3b-b205-8899acb8d7fb	50428	ec3643b4-15c5-4a3b-b205-8899acb8d7fb
+7136d33f-6109-4d86-ad76-a02ef5c3808a	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8PQ	7463b8e8-75d1-4530-bc5a-7d0d3aabf97e	25735	7463b8e8-75d1-4530-bc5a-7d0d3aabf97e
+b75eb694-8e9d-4dbb-b536-7d278c728cbb	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-5727	482fe52a-776e-4214-8e11-03b88642e22c	33405	482fe52a-776e-4214-8e11-03b88642e22c
+233cb00f-b470-47fb-ad93-2a1597655ed6	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-FP-8209	ba0efe54-aa28-49cd-9e7e-d2e9ed6855c8	51307	ba0efe54-aa28-49cd-9e7e-d2e9ed6855c8
+09587f1c-5c99-4102-bc49-84d50fa8d0ce	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-5730	2b633f39-1de3-4cd5-b0c4-05e414c2f231	24869	2b633f39-1de3-4cd5-b0c4-05e414c2f231
+a4cd4ff1-0c0e-488d-91d9-0ac8ef3e7bfd	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8592	361ec85e-eca6-40f6-b6ac-24eba63d1ca9	51217	361ec85e-eca6-40f6-b6ac-24eba63d1ca9
+152b9d8a-19fd-4665-b9e4-4fedfb1608cd	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-5813	c3b7a8bc-1aef-4498-9540-fa566b61a422	33471	c3b7a8bc-1aef-4498-9540-fa566b61a422
+72b10481-7b16-469f-b133-464609569adf	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-A6EV	55255dff-6cc9-4cd5-93cc-76fe9a22d74b	25489	55255dff-6cc9-4cd5-93cc-76fe9a22d74b
+703d3e86-32f4-44ae-bd88-c02378fc2269	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-4292	c460df34-2696-4db1-82a6-8626e410554e	24499	c460df34-2696-4db1-82a6-8626e410554e
+00781a96-4068-427c-a9c5-584d167c3dea	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8368	b5d8e42c-7126-4998-b8b9-f62f1814fd1e	33782	b5d8e42c-7126-4998-b8b9-f62f1814fd1e
+bdc3899e-15ae-421f-829b-0e07fbd27c60	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-5717	b1fddaf3-531c-4faf-a5a4-fa6b058d43b4	50941	b1fddaf3-531c-4faf-a5a4-fa6b058d43b4
+012921da-962c-462c-9c36-d0f21b23c028	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A925	92b42225-389c-42d1-8d90-50015da5eb3d	25472	92b42225-389c-42d1-8d90-50015da5eb3d
+012e99fe-e3e8-4bb0-bb74-5b0c9992187c	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-6710	b96753e6-024c-4d08-9619-f1e3a2f5eac3	52803	b96753e6-024c-4d08-9619-f1e3a2f5eac3
+0246823f-99f4-4a46-b2b1-27f81179584c	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-4438	2ebb3989-cf11-4802-8e72-73c786c8b97f	24509	2ebb3989-cf11-4802-8e72-73c786c8b97f
+028632ed-d75a-49bb-b579-41962ba502fe	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-A4MG	a087b6fa-10af-4f3e-9aef-3dbad957de54	34054	a087b6fa-10af-4f3e-9aef-3dbad957de54
+03e3082e-9f8b-4689-9013-0a9954146dfa	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8679	ab6cae45-110e-4c84-b129-16b539fd290c	33892	ab6cae45-110e-4c84-b129-16b539fd290c
+0b4e8d73-459d-4930-9d1a-abb8d53e1844	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-5724	ce238c6c-a9fe-4498-8462-42a7247b4977	39225	ce238c6c-a9fe-4498-8462-42a7247b4977
+0b787bdb-949d-499c-aece-7a3977fcd198	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-RD-A8MW	67d221f7-0ad0-44a6-8929-925366218635	45355	67d221f7-0ad0-44a6-8929-925366218635
+0cd4b4a2-d3ce-4fc4-b899-bbcecb2b3d55	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8PJ	b8f3182e-2441-47f1-8db8-737defe561d2	25443	b8f3182e-2441-47f1-8db8-737defe561d2
+0f6b5086-4bc0-4ce3-84e7-ef8ea0356d1c	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-A4PF	2be94a95-5b7e-4414-befe-5349465d35bf	33783	2be94a95-5b7e-4414-befe-5349465d35bf
+0d4d23ba-066b-4244-a3a5-922cdcaaa28f	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-4184	12026885-b374-4cc1-b7a2-3f365f43e652	33200	12026885-b374-4cc1-b7a2-3f365f43e652
+0e99c305-c69f-4fb4-84d6-29cac1cc9d39	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-A4QM	c65a3ca3-3fe4-4e65-a2cd-ab37b7dc9fa5	51877	c65a3ca3-3fe4-4e65-a2cd-ab37b7dc9fa5
+117eb38b-0c62-4336-a866-fa5bd013256a	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-4279	fbfaf919-9352-4a26-a86d-75290a822fd0	58202	fbfaf919-9352-4a26-a86d-75290a822fd0
+131fb0f0-e0af-431c-8462-f1925a5f4c72	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-8610	4736718a-0699-451f-822e-d86b5641fc56	33886	4736718a-0699-451f-822e-d86b5641fc56
+1286ac33-a466-4f58-900e-f6b13fe9c25a	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-5728	8f541571-6c68-474d-9d8e-48425c7978d1	24882	8f541571-6c68-474d-9d8e-48425c7978d1
+151257d7-ba5b-49a0-94f5-50e28f9f46f1	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-4188	51bbde08-3297-43bf-bec0-e8df3250cc10	33132	51bbde08-3297-43bf-bec0-e8df3250cc10
+3c3d4ef0-019a-423e-89b2-4ac5a7b567ab	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-4460	2251ab2c-cb58-4a27-bbc4-2aca24c0554b	62378	2251ab2c-cb58-4a27-bbc4-2aca24c0554b
+442d7415-d095-4962-8296-a14390bad40a	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-4476	50e2e668-afb4-4767-8367-58392d332879	24597	50e2e668-afb4-4767-8367-58392d332879
+bae3c762-d894-4742-860c-43d18659b4bc	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8059	e13f647e-4ac0-452c-8923-98688adfa9a7	33773	e13f647e-4ac0-452c-8923-98688adfa9a7
+1d3a03a5-b757-4617-b65a-50f429a0e026	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8081	b6d0c681-9045-412d-b92d-cc8e308366bd	41897	b6d0c681-9045-412d-b92d-cc8e308366bd
+0b1663fc-6a7e-4698-951d-a8c90fdf2411	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-FP-8211	bfaac466-573f-4ca6-8610-2f7f722fa743	50194	bfaac466-573f-4ca6-8610-2f7f722fa743
+00ee3098-1b32-4e7a-81ea-993773587c41	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-8575	ab3d6588-2eb3-459f-a90f-a63249015f72	34455	ab3d6588-2eb3-459f-a90f-a63249015f72
+00fdf96d-c48a-47e0-b91d-576c52e6819c	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-A4H4	4bf66084-0e1c-4eec-8db4-0048ee8fcbe0	39815	4bf66084-0e1c-4eec-8db4-0048ee8fcbe0
+018f93ad-92ef-4bbb-a0fb-dc407a289daa	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-RD-A7BT	7557d97f-2994-49ad-92e5-24b92beade13	34997	7557d97f-2994-49ad-92e5-24b92beade13
+05ce16d4-a999-491a-91ad-9449a57228ff	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-6457	eaeb0a24-3cd9-450e-9749-a4159057e365	53523	eaeb0a24-3cd9-450e-9749-a4159057e365
+29ed984c-74b5-4016-a649-c32e5d1d9869	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-4361	50257eba-3c9b-416d-8204-82c21c1113bf	24586	50257eba-3c9b-416d-8204-82c21c1113bf
+24fed326-bdcf-4c20-a06e-7c1c3d6c9cc5	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-6801	13bdfbd2-efbc-4f20-87c2-09482aeac9c0	41896	13bdfbd2-efbc-4f20-87c2-09482aeac9c0
+263f67e0-0a28-42e6-b3f3-1ddd0d397220	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-5719	ddefe73b-e9d5-4c56-a70c-1d3321f143e4	24864	ddefe73b-e9d5-4c56-a70c-1d3321f143e4
+05c4d180-a571-4abb-bbdc-7363269dc0a6	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-A4GJ	6be6153c-723b-43da-9146-a80c380b3fc8	52016	6be6153c-723b-43da-9146-a80c380b3fc8
+02661985-d13f-4007-9a42-5e08d1a6ca10	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8PB	4d647763-325a-430e-b3b5-82ab73a69295	44713	4d647763-325a-430e-b3b5-82ab73a69295
+08c73b36-ede5-4136-b73b-0e964d432f89	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-7851	6d01ddd6-5e19-4aea-abcb-4dd091299f28	41965	6d01ddd6-5e19-4aea-abcb-4dd091299f28
+0403e788-27f1-4205-9e73-ade13b8df1e0	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8P8	75a044f4-9224-4ff0-a849-8f619fbc3a29	42472	75a044f4-9224-4ff0-a849-8f619fbc3a29
+dbc29b1b-42b8-4249-a1d1-3ba117efea43	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-IN-A6RP	2e74ba5a-faea-4c46-bd4f-b36035e25184	41962	2e74ba5a-faea-4c46-bd4f-b36035e25184
+d22de643-5f93-42d0-9199-1f55405241d6	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A91S	1d5b50e1-c92a-43b5-8dbe-0d93a1b73a34	53209	1d5b50e1-c92a-43b5-8dbe-0d93a1b73a34
+dce21359-004f-4e8b-89e4-9e1a30faffdf	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-A4Z0	734fc159-fc2f-4ec2-824e-ed3a9086de1f	44497	734fc159-fc2f-4ec2-824e-ed3a9086de1f
+de865002-4938-4120-aa15-254fd40f2039	Unknown	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-KB-A93H	90612b60-08cf-411a-992e-cde667b046bd	34048	90612b60-08cf-411a-992e-cde667b046bd
+e17cf9e9-0902-44e0-962b-af5492876f7d	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8483	50d8a3a8-86fe-4a76-ad18-9bb876b9d122	45238	50d8a3a8-86fe-4a76-ad18-9bb876b9d122
+e181474c-1585-4aed-ba90-bae5324569d5	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8PP	2f00fbe3-ac91-44dd-9bd0-c89c65cdb1af	31552	2f00fbe3-ac91-44dd-9bd0-c89c65cdb1af
+e2aaabd9-f4ba-4763-a28a-c14d46a4bc5d	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-6822	d2379a8a-66d7-4aaf-bc1f-e23ebf61f4b1	33532	d2379a8a-66d7-4aaf-bc1f-e23ebf61f4b1
+e9d0aa8b-9ef4-40f7-8254-38fdce349bee	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-MX-A663	835da8e5-df44-4ae7-89eb-42463e938165	34655	835da8e5-df44-4ae7-89eb-42463e938165
+e4344668-5a50-4dde-8eec-f4d7f01f99fd	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-8573	52e21745-fe36-4b0b-9d65-a3a6ba9a6a36	34159	52e21745-fe36-4b0b-9d65-a3a6ba9a6a36
+e6634a0a-9ab0-441e-a667-2f7f6c7368cc	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8PX	e6ee7974-167d-43e2-b836-0374d7d3d2ec	34140	e6ee7974-167d-43e2-b836-0374d7d3d2ec
+e6daa4fa-dcf7-4698-b13f-fdfa4eda6943	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A94T	5a8c3769-db5c-4f37-bd88-a9608229f942	25656	5a8c3769-db5c-4f37-bd88-a9608229f942
+eb7e9aad-95d3-4efc-a706-e2c986d17055	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-AA6A	e0160fa6-b4dd-4bb9-b02d-0749b9d4c00e	42651	e0160fa6-b4dd-4bb9-b02d-0749b9d4c00e
+e7a3574b-1fcf-4366-adf8-f4330d9be6f8	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8677	7ae8ef3e-eb7e-44a3-92be-90a8aecc0dba	42393	7ae8ef3e-eb7e-44a3-92be-90a8aecc0dba
+ec8268c7-943d-451a-9036-f0196078b6c5	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-8576	e3d3fec8-a88f-40c4-a7d6-9dd58afe6900	39538	e3d3fec8-a88f-40c4-a7d6-9dd58afe6900
+ec178822-d719-4e98-b864-16ec5aa005a4	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-IN-A6RI	55a78301-0047-4d74-9271-692b25eb6263	34030	55a78301-0047-4d74-9271-692b25eb6263
+e9b3822b-699d-412f-abd2-df399efcce8c	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8E3	e529e9ee-f167-400e-a201-002826d9e65e	25579	e529e9ee-f167-400e-a201-002826d9e65e
+edce7aac-1d8b-41cb-88e2-f50b8eeca4d8	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-8602	61978508-0174-492d-9563-96c31d25582f	39874	61978508-0174-492d-9563-96c31d25582f
+eeb114ea-ecee-49ee-a162-b3b7bc0a60cd	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-5800	9645f8e4-6c97-41f7-970d-c41846b5865e	33086	9645f8e4-6c97-41f7-970d-c41846b5865e
+fa00a6a7-d5b0-40b9-8360-d56f7db64d34	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8484	a8f60959-9c5f-4705-b3d7-4e15ac8c35f3	33940	a8f60959-9c5f-4705-b3d7-4e15ac8c35f3
+efe8b105-b170-4679-8b97-c1142fefe069	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-8531	96ee663e-eac5-4b76-8d9c-728a939d7adc	56045	96ee663e-eac5-4b76-8d9c-728a939d7adc
+faf5f1e3-9f7d-4a9d-a005-6cad5e4becf7	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-IP-7968	ee461fc8-9370-4e4b-a323-408fb45dc18a	33210	ee461fc8-9370-4e4b-a323-408fb45dc18a
+fb143117-c3ad-4f4b-8f39-7586279e8eaa	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-AA64	0297370b-22b0-4b04-a7fe-1412a718e286	35996	0297370b-22b0-4b04-a7fe-1412a718e286
+fce4e670-84be-4592-ae6c-2b7a59218110	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-A4PE	1c83deb3-84e6-4770-b102-8f7b90ecf903	33934	1c83deb3-84e6-4770-b102-8f7b90ecf903
+f07070c0-fd0a-4c19-ba1e-5f06b933cd7c	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-B7-5816	48aae3ac-9da3-40ef-82ad-5fe29e15174b	33362	48aae3ac-9da3-40ef-82ad-5fe29e15174b
+fdb40436-a545-40da-8c6b-2f8aff359ff6	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-RD-A8NB	b8360aa6-835a-4ba3-83de-5e0a611a3d2f	25952	b8360aa6-835a-4ba3-83de-5e0a611a3d2f
+f89ac782-e0b2-4e62-844d-2e00d10a1c65	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8369	c11e2e40-fc49-4894-9b65-131bdce1576e	38728	c11e2e40-fc49-4894-9b65-131bdce1576e
+fe45eaee-ff0c-4d52-b18c-04dc2d64d3b4	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-A4H0	b14e04e9-5fd3-482c-9416-59e2d1dad08e	33988	b14e04e9-5fd3-482c-9416-59e2d1dad08e
+feb5ccf3-395f-415a-85d3-db637fcd514f	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-FP-A8CX	c7e13f07-5571-4902-ad4e-8268125146af	25420	c7e13f07-5571-4902-ad4e-8268125146af
+c991697f-77f9-412a-9bd1-0e47f7387cb2	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-5799	695c0e20-a800-411d-b592-c2b6d9145fcf	41582	695c0e20-a800-411d-b592-c2b6d9145fcf
+cadc555e-e350-40cf-8674-3536942f3e02	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-A4IZ	6fd0ce8c-b18f-4e73-b647-2b637f6b71e5	33788	6fd0ce8c-b18f-4e73-b647-2b637f6b71e5
+cae32f61-6b84-4122-af33-d8cbf410d4c8	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8370	69d3bfb5-5d75-416a-8703-9588ef4107df	51235	69d3bfb5-5d75-416a-8703-9588ef4107df
+cafbae18-12a5-40fb-9dbe-c1d0598b9091	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A91Z	15fbf6de-ee93-4483-9087-00dd7c6f9481	62766	15fbf6de-ee93-4483-9087-00dd7c6f9481
+cb4394ec-1991-460d-b823-b74e005e3da7	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8PU	7588bb18-ffda-4267-87d7-9bdea2140e18	53207	7588bb18-ffda-4267-87d7-9bdea2140e18
+cca74404-cd91-4a69-ae09-bfb5d9142d3d	hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-F1-A448	ce870e97-bc11-49df-8c72-1688c1778a8a	64854	ce870e97-bc11-49df-8c72-1688c1778a8a
+cda6d95c-be6a-485e-ba9a-c57f3eb3f99a	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-A4MI	3e16d829-53f6-445c-850d-5d5e44b4a407	34071	3e16d829-53f6-445c-850d-5d5e44b4a407
+d04e2e8c-9d58-4514-8ab7-3642289d4de0	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-MX-A666	360617eb-ae17-4d21-b7fd-8d5d5189a18f	63190	360617eb-ae17-4d21-b7fd-8d5d5189a18f
+d0b78f02-2315-4c12-8b2a-ac1a110f882d	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8080	7db7f46a-06c0-4041-be21-f62aae3bfcb1	33413	7db7f46a-06c0-4041-be21-f62aae3bfcb1
+d139bd0c-2eeb-44ec-856b-e77cb03d294e	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-4367	505e891a-2c71-4237-bfe8-22e3852b445c	32289	505e891a-2c71-4237-bfe8-22e3852b445c
+d7fe7004-6268-4dac-b145-ff76e678e77e	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8DV	f35bbeaf-1093-4317-9af6-2438a4842e6b	26280	f35bbeaf-1093-4317-9af6-2438a4842e6b
+d807a1c0-f586-4f13-b8ef-3f79ab3d4b70	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-A4HD	535965e6-f792-4806-acd5-b2633856615d	33891	535965e6-f792-4806-acd5-b2633856615d
+d8daf273-5334-4be0-b9e0-cc0004552544	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-IN-A6RL	ccb6de81-19fd-48db-8b3d-f5f3d7883d59	33930	ccb6de81-19fd-48db-8b3d-f5f3d7883d59
+d9424178-9cb4-4bfb-9814-ba1afe7ad954	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-A4GH	2b163705-9c4e-4a0c-8fa0-4a3473b24696	33912	2b163705-9c4e-4a0c-8fa0-4a3473b24696
+daecea36-b379-46ce-8ae9-a38d22556ce2	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-6565	f0f41656-043e-419e-a228-4636676b88ae	33315	f0f41656-043e-419e-a228-4636676b88ae
+da112431-5579-4fd1-a230-9144b359b0e9	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-4257	eb56b359-6d0d-47a9-acdb-68374929544a	32993	eb56b359-6d0d-47a9-acdb-68374929544a
+d262fdf0-30bf-4618-9342-de5a2a053828	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-A4H5	d72fdedb-6c16-42a0-bfa5-53ca9120ca85	39738	d72fdedb-6c16-42a0-bfa5-53ca9120ca85
+d384dd0c-1947-4ffc-bee9-de38311d8249	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-FP-7916	9fb3c2c8-8be3-4df2-8fad-79d11e25cd2b	39164	9fb3c2c8-8be3-4df2-8fad-79d11e25cd2b
+df822ea3-e0e6-4ad3-a228-e20e3a737dac	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-5801	6ea3e295-ce53-4805-8261-bcbe8ae662e2	33212	6ea3e295-ce53-4805-8261-bcbe8ae662e2
+df89b0be-fbe1-4ca7-bea7-ae057c3f6461	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-A4GF	4b0a8726-2404-4a62-8c7b-0d763c803647	33830	4b0a8726-2404-4a62-8c7b-0d763c803647
+d5550422-dc4b-4ebf-acb5-aa5243fff49f	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-IN-8663	d529fa42-063d-4092-b3de-c54a27c8159d	25298	d529fa42-063d-4092-b3de-c54a27c8159d
+e0e35051-fbb4-4389-aedb-87bde84d21ad	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-4305	fe4a1809-47eb-4797-ae96-21d1b5c02a84	50622	fe4a1809-47eb-4797-ae96-21d1b5c02a84
+df3df249-86c2-43d4-abe1-796cd7df653f	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-6707	3bc2c99b-7238-4277-9673-6e6f6f4031ad	60011	3bc2c99b-7238-4277-9673-6e6f6f4031ad
+e52396d1-acd6-44f4-99c5-1a367128008d	Unknown	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-KB-A93G	eb9d5d9c-00b4-4cd0-bb8e-a31268cd681b	34155	eb9d5d9c-00b4-4cd0-bb8e-a31268cd681b
+e62d5f3c-0a99-4932-a589-bff4fa02b1d3	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-5732	a30e566e-2fa3-42bd-8fde-55224217422c	62621	a30e566e-2fa3-42bd-8fde-55224217422c
+e42f45c6-fd00-44cf-a210-c8803da326a1	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-5798	0eb2a278-528a-43c5-8a3f-cdee33fa3ed8	41648	0eb2a278-528a-43c5-8a3f-cdee33fa3ed8
+e9ea3687-0db3-47f3-8099-b4fc054397f1	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-4462	cf7be463-2cbd-4a9a-9a24-ca94718f84b9	24547	cf7be463-2cbd-4a9a-9a24-ca94718f84b9
+e44b2ffd-7e1e-4c89-805f-f68e67c3dc9b	Unknown	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-KB-A6F5	645fe1ef-6d86-4afb-9e56-1acbd17d21f9	33686	645fe1ef-6d86-4afb-9e56-1acbd17d21f9
+ea600f9e-cda8-4a56-b8bd-e4c01ab724ba	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8078	951f76bb-3f3e-4b66-869e-971d6fbac02e	41897	951f76bb-3f3e-4b66-869e-971d6fbac02e
+e516880b-c4e5-43cd-a358-be0db88564d7	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-6458	5d50d853-3f42-4c9a-bff1-2e4db6ba2e0a	77425	5d50d853-3f42-4c9a-bff1-2e4db6ba2e0a
+eb9a558c-39ef-42c0-8dfc-64d01b729426	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A8E0	7a84f4d3-edb8-48df-86aa-17eff2d6210b	36394	7a84f4d3-edb8-48df-86aa-17eff2d6210b
+e9a98a44-83f2-490c-b053-1e953ebd4e7e	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-A4J1	617a4d18-c0cf-49a7-8689-2a1380bdc948	25223	617a4d18-c0cf-49a7-8689-2a1380bdc948
+f72a26e8-7f96-4d86-b37b-7dc35f681133	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-MX-A5UG	08b0d985-bd59-41ff-8445-c733a2bff957	25502	08b0d985-bd59-41ff-8445-c733a2bff957
+f74df45f-8cfd-4da8-bf84-7b1c80dc57eb	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-IN-A7NR	ebc8d4cc-7248-42bc-8b9e-acab1fc5f344	45421	ebc8d4cc-7248-42bc-8b9e-acab1fc5f344
+f76122f7-343a-4345-9fb6-e46ad0b75cb0	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-ZQ-A9CR	f026daca-8a52-4338-8a48-cc11e267a5ce	25431	f026daca-8a52-4338-8a48-cc11e267a5ce
+f8557247-91fa-4772-ae14-958d709d9815	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-RD-A8N6	b7c55172-8af0-4a81-82f3-83292a157f5d	25952	b7c55172-8af0-4a81-82f3-83292a157f5d
+fe9a5fcf-ff99-4dd1-8cc7-ed9f4b9d952b	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-4369	7db85457-79a1-49ec-9e14-b3a7141f2b7a	32154	7db85457-79a1-49ec-9e14-b3a7141f2b7a
+da2e8310-f54a-477e-a1fb-3f5542452780	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-A4PD	3cc23ffd-d720-4b42-b58c-1c55021bac9b	33889	3cc23ffd-d720-4b42-b58c-1c55021bac9b
+d2e49fe3-fc7c-47c5-aa1f-b6b06d10951a	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-IN-A6RN	677e725b-3384-4068-bcd7-40c65d6cf347	34033	677e725b-3384-4068-bcd7-40c65d6cf347
+dccd3854-8865-4452-9f1c-97283509b553	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-AA6F	cfae1d73-743f-498d-b80d-b5af66c42624	45436	cfae1d73-743f-498d-b80d-b5af66c42624
+e04a05ee-f0d8-4691-84bb-d1a61e1bd77b	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-R5-A7ZR	020f5874-fcf1-46df-a1eb-752a0bbc3744	25259	020f5874-fcf1-46df-a1eb-752a0bbc3744
+d59824bd-816e-4ffc-8aae-1c3eff1f800e	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8590	ddfd7db6-02ed-44d1-8eb3-53447f387b8f	51571	ddfd7db6-02ed-44d1-8eb3-53447f387b8f
+ddcc73bf-b10f-4fab-96d4-3077947fcd2d	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-IN-AB1V	8bc3e2a5-359a-4770-9f9a-baa305d1ede0	34025	8bc3e2a5-359a-4770-9f9a-baa305d1ede0
+e0916597-e489-45ef-a8f7-653a3c6591ef	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-4280	bc461734-8c12-4a27-b264-43a46201f4fa	33152	bc461734-8c12-4a27-b264-43a46201f4fa
+d5c58161-05ed-4472-81ed-176216f49929	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-5718	1e7a58b1-e4d7-4144-8f92-cdade8a20d56	33180	1e7a58b1-e4d7-4144-8f92-cdade8a20d56
+d5efcde2-21e6-4071-9aa4-3c5688a45b3f	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8682	f0173e91-b449-409e-864e-171de9386ad2	65812	f0173e91-b449-409e-864e-171de9386ad2
+e12d142e-7339-48fc-b17a-9e311b65327f	not reported	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-VQ-A94O	ecd0a1c6-40f0-4ca6-bd63-278adc63353d	31662	ecd0a1c6-40f0-4ca6-bd63-278adc63353d
+e302f643-eed3-4f07-a7fb-c32ee2031a1c	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-8249	4abfd53c-25e4-40f6-9113-39f40e2e63fa	39837	4abfd53c-25e4-40f6-9113-39f40e2e63fa
+e37cae9e-0656-4b89-b326-739a5cc859e0	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-6519	a308ab3e-40c0-49a7-9ff1-f35ab4608ee3	51315	a308ab3e-40c0-49a7-9ff1-f35ab4608ee3
+e617b5c5-55ca-47a7-8497-854ab2844818	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8382	127bee5c-d2cb-46d8-9719-88bb099925cb	42474	127bee5c-d2cb-46d8-9719-88bb099925cb
+ed3bf1dd-50e4-4abf-8e04-bc1a97c493b3	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-A74B	3d4f5ec3-eb22-4a7b-98a0-ca078098cd80	35316	3d4f5ec3-eb22-4a7b-98a0-ca078098cd80
+ec02b33c-8094-45e8-b679-b14dbe75d66f	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CD-A48C	b438c102-0b62-43ed-a17d-fb6c24d6f34c	34103	b438c102-0b62-43ed-a17d-fb6c24d6f34c
+f4b1e633-38e6-4cc6-a0c6-911582d4066b	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-D7-A6F2	d3b76f43-2704-4124-b49f-c9eba6ac6471	34028	d3b76f43-2704-4124-b49f-c9eba6ac6471
+faed873e-a019-49c0-95a9-e9880fc23093	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-BR-8077	5d04e8d6-f768-4ea1-a6a7-f5fe71581df9	33306	5d04e8d6-f768-4ea1-a6a7-f5fe71581df9
+f0b6e8f8-995c-47c1-bbec-d1d51dc97828	not hispanic or latino	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-8244	8f4ba433-0343-4cc8-9dc2-5dd0a72a59ca	34008	8f4ba433-0343-4cc8-9dc2-5dd0a72a59ca
+f35e8fef-f61d-4614-b73f-f7e1d0f21f52	not reported	female	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-CG-5722	63134726-6f76-446e-9702-fea8af7a5c4f	24865	63134726-6f76-446e-9702-fea8af7a5c4f
+f8a32cb0-8c3d-4bc2-8e53-561b89000be7	not hispanic or latino	male	Stomach Adenocarcinoma	Stomach	TCGA-STAD	TCGA-HU-A4GN	b78b924b-4e02-4f19-b1b9-6e4a3cf5090c	51706	b78b924b-4e02-4f19-b1b9-6e4a3cf5090c

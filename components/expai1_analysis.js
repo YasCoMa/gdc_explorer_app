@@ -7,9 +7,9 @@ class ExpAiDisparitySummary extends HTMLElement {
     this.innerHTML = `
       <p id = "notice_ai1" > Loading... </p>
 
-      <section id="coverage_analysis" class="mt-3">
+      <section id="expai_analysis" class="mt-3">
             <p>
-                Exploratory data analysis and feature extraction with group stratification, acccording to a project and a target data category
+                Exploratory clinical data analysis and feature extraction with group stratification, acccording to a project and a target demographic variable
             </p>
             
             <div id="project_filter_ai1" style="display: none;" > 
@@ -174,6 +174,8 @@ function render_clinical_filter_projs_area_ai1(){
     selected = options[0];
     onchange = ""
     fill_select( label, options, domid_target, domid_container, selected, onchange);
+
+    project_filter_ai1.style.display = '';
 }
 
 function _render_pie_hist_stage(dat_cases){
@@ -203,12 +205,9 @@ function _render_pie_hist_stage(dat_cases){
     }
 
     let keys = Object.keys(tmp);
-    let div_ids = [];
     let htmls = "";
     keys.forEach( (it) => {
         let _id = it.replaceAll(' ','_');
-
-        div_ids.push(`sec1_plot_${_id}_ai1`);
         htmls += `
             <div  id = "pie_${_id}_ai1" class="col-4" >
 
@@ -227,6 +226,7 @@ function _render_pie_hist_stage(dat_cases){
         let pldata = [{ "values": values, "labels": labels, "type": "pie" }];
         Plotly.newPlot( `pie_${_id}_ai1`, pldata, itlay, config);
     });
+    document.getElementById("cases_stage_ai1").style.display = '';
 
 }
 
@@ -254,6 +254,33 @@ function _render_prescribed_drugs(dat_cases){
             tmp['all'][t] += 1
         }
     }
+
+    let layout = { title: { text: "Prescribed drugs for treatment - Subgroup __grp__" }, xaxis: { title: { text: 'Drugs' } }, yaxis: { title: { text: 'Number of cases' } } };
+    let keys = Object.keys(tmp);
+    let htmls = "";
+    keys.forEach( (it) => {
+        let _id = it.replaceAll(' ','_');
+        htmls += `
+            <div  id = "bar_most_used_drug_${_id}_ai1" class="col-4" >
+
+            </div>
+        `;
+    });
+    document.getElementById(container).innerHTML = htmls;
+
+    keys.forEach( (it) => {
+        let _id = it.replaceAll(' ','_');
+
+        let itlay = layout;
+        itlay["title"] = { "text": itlay.title.text.replaceAll('__grp__', it) };
+        let stmp = Object.fromEntries( Object.entries( tmp[it] ).sort(([,a],[,b]) => b-a ) );
+        let labels = Object.keys( stmp[it] ).slice(0,10);
+        let values = Object.values( stmp[it] ).slice(0,10);
+        let pldata = [{ "name": it, "x": values, "y": labels, "type": "bar" }];
+        Plotly.newPlot( `pie_${_id}_ai1`, pldata, itlay, config);
+    });
+
+    document.getElementById("cases_most_used_drugs_ai1").style.display = '';
 }
 
 function _render_distribution_plots(dat_cases){
@@ -304,11 +331,66 @@ function _render_distribution_plots(dat_cases){
             }
         }
     }
+
+    let layout = { title: { text: "Distribution of treatment variables" }, xaxis: { title: { text: 'Treatment variables' } }, yaxis: { title: { text: 'Values' }, zeroline: false }, violinmode: 'group' };
+    let htmls = "";
+    htmls += `
+        <div  id = "bar_most_used_drug_ai1" class="col-12" >
+
+        </div>
+    `;
+    document.getElementById(container).innerHTML = htmls;
+    let pldata = [];
+    let keys = Object.keys(tmp);
+    keys.forEach( (it) => {
+        let x = [];
+        let y = [];
+        for(let dtvar of Object.keys(tmp[it]) ){
+            let vs = tmp[it][dtvar];
+            for(let yv of vs){
+                x.push(dtvar);
+                y.push(yv);
+            }
+        }
+
+        let obj = { type: 'violin', x: x, y: y, legendgroup: it, scalegroup: it, name: it, box: { visible: true }, meanline: { visible: true } };
+        pldata.push(obj)
+    });
+
+    Plotly.newPlot('bar_most_used_drug_ai1', pldata, layout, config);
+
+    document.getElementById("cases_dist_ai1").style.display = '';
 }
 
 function _render_km_survival_plots(dat_surv){
     let sel_var = select_dimension_ai1.value;
     let container = "plot_cases_survival_ai1";
+
+    let tmp = dat_surv[sel_var];
+    let layout = { title: { text: "Kaplan Meier - Subgroup __grp__" }, xaxis: { title: { text: 'Drugs' } }, yaxis: { title: { text: 'Survival probability' } } };
+    let keys = Object.keys(tmp);
+    let htmls = "";
+    keys.forEach( (it) => {
+        let _id = it.replaceAll(' ','_');
+        htmls += `
+            <div  id = "km_${_id}_ai1" class="col-4" >
+
+            </div>
+        `;
+    });
+    document.getElementById(container).innerHTML = htmls;
+
+     keys.forEach( (it) => {
+        let _id = it.replaceAll(' ','_');
+
+        let itlay = layout;
+        itlay["title"] = { "text": itlay.title.text.replaceAll('__grp__', it) };
+        
+        let pldata = [ { x: tmp.x, y: tmp.y, error_y: { type: 'data', symmetric: false, array: tmp.ciu, arrayminus: tmp.cil }, type: 'scatter' } ];
+        Plotly.newPlot( `km_${_id}_ai1`, pldata, itlay, config);
+    });
+
+    document.getElementById("cases_survival_ai1").style.display = '';
 
 }
 
@@ -340,37 +422,10 @@ function perform_render_stratification_analysis(){
         }
         samples_info_ai1.innerHTML = info.join(' | ')
 
-        /*
-        let keys = Object.keys(dat);
-        let div_ids = [];
-        let htmls = "";
-        keys.forEach( (it) => {
-            let _id = it.split('.')[1];
-
-            div_ids.push(`pie_${_id}`);
-            htmls += `
-                <div  id = "pie_${_id}" class="col-4" >
-
-                </div>
-            `;
-        });
-        document.getElementById("plot_cases_demography").innerHTML = htmls;
-
-        keys.forEach( (it) => {
-            let _id = it.split('.')[1];
-
-            let itlay = pie_layout;
-            itlay["title"] = { "text": `By ${ _id }` };
-            let labels = dat[it].buckets.map( e => e.key );
-            let values = dat[it].buckets.map( e => e.doc_count );
-            let pldata = [{ "values": values, "labels": labels, "type": "pie" }];
-            Plotly.newPlot( `pie_${_id}`, pldata, itlay, config);
-        });
-    
-        if( keys.length > 0 ){
-            document.getElementById("cases_demography").style.display = '';
-        }
-        */
+         _render_pie_hist_stage(dat.cases);
+         _render_prescribed_drugs(dat.cases);
+         _render_distribution_plots(dat.cases);
+         _render_km_survival_plots(dat_survival);
     } );
 }
 

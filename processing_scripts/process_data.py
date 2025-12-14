@@ -416,54 +416,29 @@ class DataWrangler:
         ojson = os.path.join(odir, 'survival_probs.json')
         json.dump(valids_by, open(ojson, 'w') )
 
-    def get_vital_status_files(self, project):
+    def _compress_files(self, project, datcat, remove=False):
+        basename = "%s_%s" %(project, datcat.replace(" ", "-"))
+        odir = os.path.join(self.out, "%s" %(basename) )
 
-        fields = [
-            "submitter_id",
-            "annotations.case_id",
-            "cases.annotations.status",
-            "cases.diagnoses.age_at_diagnosis",
-            "cases.diagnoses.days_to_death",
-            "cases.diagnoses.days_to_last_follow_up",
-            "cases.demographic.gender",
-            "files.cases.diagnoses.vital_status",
-            "cases.project.primary_site",
-            "cases.project.disease_type"
-            ]
+        cwd = os.getcwd()
+        fsodir = os.path.join(self.out, "%s" %(basename), "files" )
+        if( os.path.exists(fsodir) ):
+            os.chdir(odir)
+            os.system("tar -zcf files.tar.gz files")
+            os.chdir(cwd)
 
+            if(remove):
+                shutil.rmtree(fsodir)
 
-        fields = ",".join(fields)
+    def _decompress_files(self, project, datcat):
+        basename = "%s_%s" %(project, datcat.replace(" ", "-"))
+        odir = os.path.join(self.out, "%s" %(basename) )
 
-
-        cases_endpt = "https://api.gdc.cancer.gov/v0/cases"
-        cases_endpt = "https://api.gdc.cancer.gov/files"
-
-
-        filters = {
-            "op": "in",
-            "content":{
-                "field": "cases.project.project_id",
-                "value": [project]
-                }
-            }
-
-
-        # With a GET request, the filters parameter needs to be converted
-        # from a dictionary to JSON-formatted string
-
-
-        params = {
-            "filters": json.dumps(filters),
-            "fields": fields,
-            "format": "TSV",
-            "size": "1000"
-            }
-
-        response = requests.get(cases_endpt, params = params)
-        f=open(project+'_clinical.tsv','w')
-        f.write(response.text)
-        f.close()
-
+        cwd = os.getwd()
+        fsodir = os.path.join(self.out, "%s" %(basename), "files" )
+        os.chdir(odir)
+        os.system("tar -zxf files.tar.gz")
+        os.chdir(cwd)
 
     def run(self):
         '''
@@ -482,9 +457,9 @@ class DataWrangler:
         
         projects = [ "TCGA-ACC",  "TCGA-BLCA",  "TCGA-BRCA",  "TCGA-CESC",  "TCGA-CHOL",  "TCGA-COAD",  "TCGA-DLBC",  "TCGA-ESCA",  "TCGA-GBM",  "TCGA-HNSC",  "TCGA-KICH",  "TCGA-KIRC",  "TCGA-KIRP",  "TCGA-LAML",  "TCGA-LGG",  "TCGA-LIHC",  "TCGA-LUAD",  "TCGA-LUSC",  "TCGA-MESO",  "TCGA-OV",  "TCGA-PAAD",  "TCGA-PCPG",  "TCGA-PRAD",  "TCGA-READ",  "TCGA-SARC",  "TCGA-SKCM",  "TCGA-STAD",  "TCGA-TGCT",  "TCGA-THCA",  "TCGA-THYM",  "TCGA-UCEC",  "TCGA-UCS",  "TCGA-UVM" ]
         for p in tqdm(projects):
-        
-            self.parse_clinical_data(p)
-            self.test_survival_km(p, dc)
+            #self.parse_clinical_data(p)
+            #self.test_survival_km(p, dc)
+            self._compress_files(p, dc, remove=True)
 
 if( __name__ == "__main__" ):
     o = DataWrangler()

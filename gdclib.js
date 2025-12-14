@@ -228,8 +228,8 @@ class GdcExplorerLib {
         let r = await fetch( url );
         let dat_cases = await r.json();
 
-        let url = `${location.href}/data_processed/${project}_clinical/survival_probs.json`;
-        let r = await fetch( url );
+        url = `${location.href}/data_processed/${project}_clinical/survival_probs.json`;
+        r = await fetch( url );
         let dat_survival = await r.json();
 
         let result = { "cases": dat_cases, "survival": dat_survival };

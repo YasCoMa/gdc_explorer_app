@@ -1,0 +1,508 @@
+cases.0.case_id	cases.0.demographic.ethnicity	cases.0.demographic.gender	cases.0.project.disease_type	cases.0.project.primary_site	cases.0.project.project_id	cases.0.submitter_id	file_id	file_size	id
+af546062-0960-41f0-9ed1-6acecbad99f3	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A2Q6	8226835d-d7da-48a9-939f-c0743285cd25	58466	8226835d-d7da-48a9-939f-c0743285cd25
+afb00cd4-e5da-4251-86fb-532c3f65324c	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FK-A3SE	c419d4ee-35b4-415f-a06c-864f0eff93a4	52434	c419d4ee-35b4-415f-a06c-864f0eff93a4
+b07435d4-1341-4b41-9b11-d13a4f1ca0ad	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A2QA	ba70b673-abed-4e6b-a78c-53da709b8af5	53614	ba70b673-abed-4e6b-a78c-53da709b8af5
+b0cb6ed7-3d9f-4d5e-8df5-edcc921c43b4	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FY-A2QD	9fad5ddd-0744-4e9a-b122-fbd89ec92291	26915	9fad5ddd-0744-4e9a-b122-fbd89ec92291
+b107b012-335a-4282-a7aa-273b740831f1	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3GR	546e72ad-b753-463a-bbe8-716695893710	51856	546e72ad-b753-463a-bbe8-716695893710
+b1640709-8b2f-4cca-a2c0-55a1b4a1884b	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3T7	fa1b6b38-8609-449f-9513-90efee3da244	46602	fa1b6b38-8609-449f-9513-90efee3da244
+b1d71782-2443-43f3-bd0e-8b7220515cb6	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FE-A230	f19c0cce-8eef-457d-8450-6e6ba9b694eb	52115	f19c0cce-8eef-457d-8450-6e6ba9b694eb
+b2e6933f-50e1-48e3-ae1f-173e1bc889ff	not reported	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3FO	12a807bf-ccd0-4c7c-a445-313f748e54b1	40455	12a807bf-ccd0-4c7c-a445-313f748e54b1
+b305b716-5ae5-421b-b3c9-0824d37b08a8	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3VB	c10f7a8a-a7d8-4e43-8ae1-0bbe275bc261	52889	c10f7a8a-a7d8-4e43-8ae1-0bbe275bc261
+b30f5b13-8cc9-48a0-93ea-3d49ce8a7d0d	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A28X	2fbb34ba-088b-4f70-9474-5efb1a42989c	52494	2fbb34ba-088b-4f70-9474-5efb1a42989c
+b597023c-ff84-44cc-bfcc-8bee64ca4cff	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A2QB	d69b294b-43a4-497e-9196-3a0ba3b2083c	58442	d69b294b-43a4-497e-9196-3a0ba3b2083c
+b78c953f-f1bb-4295-85f1-23c4000ce9d3	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A4V4	bc79c1e4-8cd7-4ca8-817f-74f6f55160af	47541	bc79c1e4-8cd7-4ca8-817f-74f6f55160af
+b46d88e9-8477-4900-8da9-5e7dbded0653	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A3DV	525c0077-74a5-403d-ac5d-d2b8a5fa3261	71276	525c0077-74a5-403d-ac5d-d2b8a5fa3261
+b4a60a32-2c1b-44fb-92f4-b30f985dc424	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A4KD	22ee8e36-5c08-4a14-86da-5d3db486364e	51852	22ee8e36-5c08-4a14-86da-5d3db486364e
+b7bafe7f-295c-4598-9cc8-49d785bd2218	Unknown	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A4FF	9a0ca0c0-a2ed-4b48-aab3-d6caf671754e	58752	9a0ca0c0-a2ed-4b48-aab3-d6caf671754e
+b55375c3-9ef2-4d2f-9c29-224e746931c4	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A192	68440d00-8a5a-4de2-aab4-62b1fdd851ad	40161	68440d00-8a5a-4de2-aab4-62b1fdd851ad
+b82e08e3-ae79-404a-a501-0d501df84b8b	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3V0	604cab68-e13a-4079-b527-cad35f4283ee	52994	604cab68-e13a-4079-b527-cad35f4283ee
+b9e6a966-da7c-46f3-825f-8e19c06518c3	not reported	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A2P2	a8c4732d-f010-4f1f-bba2-b3c16d89ddf4	45252	a8c4732d-f010-4f1f-bba2-b3c16d89ddf4
+bcd63672-8a22-4a30-9045-a43def5b4d6f	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3D1	5f233f13-9d8f-47cb-b509-9ec28277380b	51723	5f233f13-9d8f-47cb-b509-9ec28277380b
+bed1fb3c-4459-460e-8190-29211857fa73	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A28V	c90bf287-3ea5-4144-a990-46c667091101	39542	c90bf287-3ea5-4144-a990-46c667091101
+b983a678-b0ae-42c2-8f37-d6ecaf07413b	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FY-A3R7	a9a90952-6815-43a1-b994-13f33e6b6512	46786	a9a90952-6815-43a1-b994-13f33e6b6512
+c30eb9bd-d705-4464-9014-e0aa7cda53c7	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A25O	e3710d0f-cda0-48ac-9e5c-eab52b653440	58179	e3710d0f-cda0-48ac-9e5c-eab52b653440
+c63936dd-39fd-41fa-a9f6-18b18303ef05	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A22N	aec6302e-c595-4bbd-ba41-c6f3da2b64d9	40319	aec6302e-c595-4bbd-ba41-c6f3da2b64d9
+c77976b6-35ea-4623-a92a-6d9440a978e6	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FY-A3R8	0b28f14d-c705-4150-8a81-661297e8e9e0	62611	0b28f14d-c705-4150-8a81-661297e8e9e0
+c53167d4-14da-40cc-b30a-35eb3967b8df	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A22J	e2006898-468f-42ba-929e-ecf66bda2259	45020	e2006898-468f-42ba-929e-ecf66bda2259
+c53c4bfe-d9d2-4882-a46b-fa487d95b8ba	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A4UR	84210d67-6993-4f69-a88f-353d8cd1ef6f	66946	84210d67-6993-4f69-a88f-353d8cd1ef6f
+c8703a65-816b-4f6e-bb15-53dcb3288f66	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A2CT	61182d5b-6830-4605-b619-123cd91cfb9b	53467	61182d5b-6830-4605-b619-123cd91cfb9b
+c9c00e4f-4092-400e-aebb-3d9961be0f0e	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3FJ	7a8f7f58-800d-4b3e-a730-cd036422f574	40450	7a8f7f58-800d-4b3e-a730-cd036422f574
+c9dc11ad-d3f5-4cdf-9c26-7139580b59af	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A2P3	07c29160-e8e9-4d64-add2-fa6621efdab2	40263	07c29160-e8e9-4d64-add2-fa6621efdab2
+cb29e795-7618-4882-a7e0-69d39787b80c	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A1QG	f183a7f1-3e32-4a95-b258-6ed5d9ab9977	53722	f183a7f1-3e32-4a95-b258-6ed5d9ab9977
+ca625067-1c6d-45c7-b752-af40c8327ea5	Unknown	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A4G1	d2a74de7-d516-4855-9dbf-4fd14b0d3e6a	47252	d2a74de7-d516-4855-9dbf-4fd14b0d3e6a
+cc84500c-0196-450d-87a1-ca394cc227b5	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A4O9	c49127e3-5aac-4aa3-a9e7-829adb1e6fc7	46905	c49127e3-5aac-4aa3-a9e7-829adb1e6fc7
+cd0c33c3-4427-471d-979e-79dc43f3a018	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DE-A4MD	14b8d4b3-a2fe-48fc-82c4-94b5a107a5ed	62298	14b8d4b3-a2fe-48fc-82c4-94b5a107a5ed
+d3d9ccdd-4789-43b0-8e73-b2c42cb7d83d	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-KS-A4IB	2aef3bbb-6334-47e3-9e6d-f262c17b678a	63380	2aef3bbb-6334-47e3-9e6d-f262c17b678a
+d3e75fb4-fb7c-4ebf-9c75-2be9ffd9f52d	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A2OY	00443bd9-9fef-4296-abc4-fd4188ba1086	58367	00443bd9-9fef-4296-abc4-fd4188ba1086
+d5ea6520-e446-43d2-9883-441f70d80359	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-E8-A413	54931524-aac7-41fd-8403-5a0ed63703af	60063	54931524-aac7-41fd-8403-5a0ed63703af
+d92902ff-8023-411c-a7ca-1afcbb64937e	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FY-A3R9	984e107d-da8c-46fa-81c8-0e1cdc6c6476	52663	984e107d-da8c-46fa-81c8-0e1cdc6c6476
+d684399e-46c4-4bad-92e9-3de17c9f9a5f	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-L6-A4EQ	de02534d-178d-46ec-8bf3-5afaea43f0a4	52205	de02534d-178d-46ec-8bf3-5afaea43f0a4
+da201150-748e-4b74-bb35-10c995e26079	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A1QD	2178a867-6113-4da0-b698-cb82db464924	53582	2178a867-6113-4da0-b698-cb82db464924
+d84312e8-999d-49ad-b0aa-e48e87efc462	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A3BT	d299212f-04fd-4473-a371-a0e35330f1e1	59143	d299212f-04fd-4473-a371-a0e35330f1e1
+dc659941-8d12-4095-8d8a-1769878c363c	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3VD	da7f5f20-9ff2-4a11-9ad5-d92f992a1b00	65691	da7f5f20-9ff2-4a11-9ad5-d92f992a1b00
+dc392a57-2028-4eca-8bf3-760ec99703ee	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A4K7	0bca687f-38a5-4b20-8e55-3309e7185fc8	47024	0bca687f-38a5-4b20-8e55-3309e7185fc8
+dc5c1a76-30de-4b30-b397-3ad691c92a86	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A4KG	ff748591-c48a-441b-970e-98aa34b238ca	47120	ff748591-c48a-441b-970e-98aa34b238ca
+dfe086e6-71a5-4131-9602-f20977bf7454	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A39S	f4c479eb-fa41-4e40-9e2d-def31c2c3c89	39920	f4c479eb-fa41-4e40-9e2d-def31c2c3c89
+dde7ade8-de24-467f-855d-a422bbede407	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3GU	994e384f-0100-4383-8f66-e4d141d4d1b5	52625	994e384f-0100-4383-8f66-e4d141d4d1b5
+dffc4f7a-c67a-4ac5-a338-717dffde686d	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FE-A238	8d520bf3-1b64-4d04-92ee-0bf13e0fa3c6	63859	8d520bf3-1b64-4d04-92ee-0bf13e0fa3c6
+e0174496-d774-4417-81d1-cb16771760ad	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-KS-A4I7	f4e428d3-c170-4811-b145-ec1eaa96b4b2	57837	f4e428d3-c170-4811-b145-ec1eaa96b4b2
+e0ab95ef-5c96-4d00-8950-04e26e3b4672	Unknown	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A4FO	975ec11f-aad1-4850-93fd-36b224b31034	52263	975ec11f-aad1-4850-93fd-36b224b31034
+e28e35b1-eb58-45bb-b19a-958187227500	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-IM-A420	93936ac7-1607-4067-a422-92fcb0f7a97f	47372	93936ac7-1607-4067-a422-92fcb0f7a97f
+e48a8fa7-4e2b-44a0-95f5-e2925c60bad3	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FK-A3SH	73e4ae50-fa51-4542-91cf-b481120d98c9	52322	73e4ae50-fa51-4542-91cf-b481120d98c9
+e4c85bdd-7b7c-414f-9503-647d9b825915	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FE-A234	5cc07c93-9b5f-473f-9274-2d919ad2f7f9	59160	5cc07c93-9b5f-473f-9274-2d919ad2f7f9
+e61fb24b-613a-4b6d-bb2b-00ccedbd3dbc	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-H2-A26U	bae565c7-5830-4e5a-b209-279a584cc9a3	58106	bae565c7-5830-4e5a-b209-279a584cc9a3
+e8d74dbb-410c-4f8f-8e1f-2b2dd7634160	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A2P4	a1426663-9353-4870-a659-056c980d59a9	39960	a1426663-9353-4870-a659-056c980d59a9
+e62a728d-390f-428a-bea1-fc8c9814fb11	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-CE-A484	1bca780d-f9b9-45a4-90fa-a9240a1c4690	46948	1bca780d-f9b9-45a4-90fa-a9240a1c4690
+e95c7f24-89ab-4d56-aae6-d2268888c549	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3GV	96bec39a-8f41-4e8a-8405-7cff8d3b2fd4	51946	96bec39a-8f41-4e8a-8405-7cff8d3b2fd4
+e9949320-ad37-4542-98c1-b72df60b1668	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A39M	52880440-48f1-4ea8-a53b-6629d6a54de6	44873	52880440-48f1-4ea8-a53b-6629d6a54de6
+ea2c873a-ea52-4920-8d20-554d5fa8ddc1	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3MX	e54f60e6-bd70-421c-bbe0-b5b5297977b0	73026	e54f60e6-bd70-421c-bbe0-b5b5297977b0
+e7cf1cca-384e-4a00-bb30-bed154ec15c0	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A45D	001aeaa8-de9a-4cec-a1c0-fa83a3b0f237	46862	001aeaa8-de9a-4cec-a1c0-fa83a3b0f237
+ea859a83-00c3-40b2-97c1-fb24ad027ea6	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3ZP	626a6af6-7520-472f-b268-076f1cad63e1	65202	626a6af6-7520-472f-b268-076f1cad63e1
+eb15422b-cafd-4af2-973e-8c997a911170	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A2MY	03af4996-a0db-4324-81d1-b13458c726d5	57974	03af4996-a0db-4324-81d1-b13458c726d5
+f00fd40a-1254-4300-baf9-88528c453a2e	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A2Q4	a773f2c5-eb93-4c97-bf8a-28dd64f0c234	53978	a773f2c5-eb93-4c97-bf8a-28dd64f0c234
+f0bc4f65-211b-4ae1-8e68-aaef3f3c6db8	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-MK-A4N7	30f24eea-ba70-40f7-9f2e-dee00db3418a	57876	30f24eea-ba70-40f7-9f2e-dee00db3418a
+ebccfb5f-c0a8-4263-aaff-b5dd83585191	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A25N	20790415-71f4-4fda-a087-2ec0a9fd1703	58065	20790415-71f4-4fda-a087-2ec0a9fd1703
+f12fa57b-3427-45fe-994b-602f498b68da	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-E8-A438	25992e18-9ed8-495b-860c-feb91f5c6535	60177	25992e18-9ed8-495b-860c-feb91f5c6535
+ef3dd880-7be4-46a8-93c2-7cba1a9cd24d	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3MW	483e6c30-0f99-4f6c-a383-c52e64c9cbf1	51847	483e6c30-0f99-4f6c-a383-c52e64c9cbf1
+efbdedaa-4b02-40ac-b93c-9670c018cf7f	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-E3-A3E2	b6f52e56-3b6e-4b0e-9637-6842f3a1f29f	61499	b6f52e56-3b6e-4b0e-9637-6842f3a1f29f
+efc46db7-f9df-494e-acca-357cb64c019a	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-E8-A434	098a16fd-b0cf-45fa-916a-5259d9461ff7	60148	098a16fd-b0cf-45fa-916a-5259d9461ff7
+f69ff5fb-7e0b-4b16-9fc9-498379b11562	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-E8-A2JQ	39500eb8-4049-47e3-8dc4-737dc2e030b4	50713	39500eb8-4049-47e3-8dc4-737dc2e030b4
+f7f6e9f4-1aa8-48a0-bea9-efaa9379f6f6	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FY-A3NM	6410f11f-5ccd-4245-803c-974f67692c86	40153	6410f11f-5ccd-4245-803c-974f67692c86
+f82f9ae8-e106-4c61-941c-3614d51b0f41	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3MZ	61d44561-1ee2-4b1b-85ea-f08d203eba7b	38816	61d44561-1ee2-4b1b-85ea-f08d203eba7b
+f9217c58-11ef-4c4b-99cf-0e134a718552	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A3DQ	5edcbc26-2f9e-4024-ad26-1118ac2d0f25	66752	5edcbc26-2f9e-4024-ad26-1118ac2d0f25
+fb39f29a-5d1e-4f96-8adb-e18cc87fad2e	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A2PN	d96541dc-0860-4754-9bfb-7e898456c238	40239	d96541dc-0860-4754-9bfb-7e898456c238
+f9ceffc0-d544-418d-b4a9-bd3c84e37026	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A0Z2	0cb5df2d-223e-4507-bc92-17c8083a9ba1	53508	0cb5df2d-223e-4507-bc92-17c8083a9ba1
+fb83f7d7-2182-4fb7-8e3e-8ad7f1feac72	hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3CV	5ecb4388-9701-4510-af01-73ee19bec5a6	51500	5ecb4388-9701-4510-af01-73ee19bec5a6
+f9cf605f-f287-4eba-8e8f-8ba47e14ecc4	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A2Q8	da718c26-d89d-479f-b319-68595af3c337	53594	da718c26-d89d-479f-b319-68595af3c337
+fca0c7d9-5e6f-4aa7-ba04-5df2eb8ba398	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A1QF	f63ea2bf-1d9d-4399-82e0-2c1ff2b01b95	40446	f63ea2bf-1d9d-4399-82e0-2c1ff2b01b95
+f9deeda6-8f81-441a-9c47-24c2eefd049a	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3H8	91620976-af46-4417-b0e0-e222c545e1bf	59893	91620976-af46-4417-b0e0-e222c545e1bf
+fd25e4e6-f017-4c07-b109-d8a5eea8763c	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A2PY	60e020c9-9466-44eb-86a6-5258e0dd06fb	45988	60e020c9-9466-44eb-86a6-5258e0dd06fb
+fd8c4ff3-e759-495f-96e7-1f406bb70190	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FE-A23A	af8e23ec-849f-4ce7-81cb-52bcc5ce0293	58351	af8e23ec-849f-4ce7-81cb-52bcc5ce0293
+a6d37f61-beca-46ea-a59a-62257475ac77	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A28W	3e2170a4-d93b-456c-8533-00eb04fb3469	39923	3e2170a4-d93b-456c-8533-00eb04fb3469
+a5406575-c840-475a-ab1b-e1a159413fbd	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-CE-A482	4604062d-5403-4891-81ff-c76060bf9f14	52889	4604062d-5403-4891-81ff-c76060bf9f14
+f9db9757-04d8-40bd-a58d-605f4255b0e6	not reported	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-KS-A4I3	96a3b07f-8ea6-4602-aa66-d62dd94b6bac	76838	96a3b07f-8ea6-4602-aa66-d62dd94b6bac
+fd661b1b-fe0b-4ab0-ae82-76324e2f6a81	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3CO	4c4f3bbe-11c8-4e4e-93ad-6297ba3c662e	38679	4c4f3bbe-11c8-4e4e-93ad-6297ba3c662e
+aa528913-cbbc-4e1d-b6d0-87f6a46bcbc9	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3GO	0c388de1-27ea-425f-8802-b09ac3c23498	47477	0c388de1-27ea-425f-8802-b09ac3c23498
+fe28f76e-7ead-4d29-8c53-a576ae6021f7	Unknown	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3SU	93700cd7-d4f7-4a8b-829f-c5305ba20617	78699	93700cd7-d4f7-4a8b-829f-c5305ba20617
+aa3ce865-4bc1-4cca-9ba8-35ff4c5e165e	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-E8-A432	36d9c4c0-bc1e-46b4-adfa-b856352a10f4	60544	36d9c4c0-bc1e-46b4-adfa-b856352a10f4
+a4a217c1-66e8-4cc5-805a-1172ce5da721	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DE-A4M8	449c8d58-c92c-48c8-a67c-e9ffccfd9b1a	52145	449c8d58-c92c-48c8-a67c-e9ffccfd9b1a
+a86ac3b5-b5e9-4420-8de0-a358fcad85b6	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FE-A3PC	7942e7b9-de7a-44b2-9e01-774e8847aaea	45918	7942e7b9-de7a-44b2-9e01-774e8847aaea
+a9d8f797-8a53-4be5-b957-0f1f6d080390	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A28T	34d50258-a4bc-43be-a85b-2aa2c5b246b6	39878	34d50258-a4bc-43be-a85b-2aa2c5b246b6
+ab8c9101-adeb-4c43-a8bb-b089ebd711f6	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A0ZE	40a311f2-c689-4768-bf9f-c775fe70e913	40874	40a311f2-c689-4768-bf9f-c775fe70e913
+acb3b9db-16e9-40f5-87a9-9df9d4ceee54	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A18Y	b1e295ee-6630-4dae-abb5-f13730192b2f	58236	b1e295ee-6630-4dae-abb5-f13730192b2f
+acb80b76-2394-4250-8687-60e40e16e83b	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A4UT	799270c1-338c-4efb-9958-34efaa0bbd5c	60639	799270c1-338c-4efb-9958-34efaa0bbd5c
+acba8d76-999a-4f6d-b3a4-8d7dd0f2bb52	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A2Q3	1ac5769f-8720-4388-b406-6ca3896e9036	60545	1ac5769f-8720-4388-b406-6ca3896e9036
+2513ab46-646c-4750-ab42-de3940890553	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A40R	4811242d-bbce-49ab-bf66-5dad9970baaa	52119	4811242d-bbce-49ab-bf66-5dad9970baaa
+290be61a-84ef-4bed-8e37-b432cba6c88e	not reported	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A1CT	01cb3651-801f-4d37-be86-4acee2475b72	40064	01cb3651-801f-4d37-be86-4acee2475b72
+2ae6a00c-bc6e-42fe-a0cb-40339d5fdc73	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-J8-A4HY	86aa71ac-7670-4154-a201-a22795262f36	34793	86aa71ac-7670-4154-a201-a22795262f36
+274225cf-a0f4-4635-848b-819f479001de	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A4UQ	7e3597c6-0a39-4d00-a7b4-f189eb325b91	65736	7e3597c6-0a39-4d00-a7b4-f189eb325b91
+2cae34a6-73a0-4a67-8dcc-051468c41389	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A40T	569a9535-2d0a-47c7-b487-b002622173a5	47062	569a9535-2d0a-47c7-b487-b002622173a5
+2f59f12d-ca0c-4ac6-9718-98a6d455af46	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A2CP	9f46e28d-11d5-4b44-95ed-ad5d71b338d7	39960	9f46e28d-11d5-4b44-95ed-ad5d71b338d7
+2f9ed09d-2626-4c23-ba47-1850d36f812a	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A25K	e9cbac74-5109-460d-bf4f-a8c6ded8a974	58143	e9cbac74-5109-460d-bf4f-a8c6ded8a974
+2d633ced-ae85-462c-90e7-c1b109e084cf	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-E8-A44M	7e252dc2-e2fe-4405-8553-c4ef823b3b6a	64821	7e252dc2-e2fe-4405-8553-c4ef823b3b6a
+34d4cc10-b868-4e85-96a5-8680fc729e34	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3N2	85718d5e-aa33-43fa-916b-16d9882b6588	51737	85718d5e-aa33-43fa-916b-16d9882b6588
+315cbbe8-62c8-488b-92c5-e2046321efb7	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3ZQ	e48a4548-a647-4c52-8823-0d7c54e4f156	51939	e48a4548-a647-4c52-8823-0d7c54e4f156
+39d45532-d2f4-49f1-b1c6-880ff0ebe0ed	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3H3	6a0b69d2-7411-4280-b81a-1b071ce69c06	51595	6a0b69d2-7411-4280-b81a-1b071ce69c06
+38d03e42-db98-43bc-bb3d-2580cf55a681	hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-IM-A4EB	b8967cac-c820-4bed-b409-0b827f8c5325	52155	b8967cac-c820-4bed-b409-0b827f8c5325
+63b01b43-a68a-4046-89b0-736ba4d08504	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FK-A3SD	708b1b6b-bf67-45eb-ac42-2b8b9ec10d7f	47148	708b1b6b-bf67-45eb-ac42-2b8b9ec10d7f
+3b088cb4-6fd4-45ac-a708-dffd873546dc	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A45E	b51b3569-0233-4f3b-833b-fdd321a4bfa5	47178	b51b3569-0233-4f3b-833b-fdd321a4bfa5
+90750006-fb25-4ccd-90df-9f300cd26a5b	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-E3-A3E5	83b05313-139a-42d3-88e2-8fddb10be78a	69927	83b05313-139a-42d3-88e2-8fddb10be78a
+5cdaa0c8-27b8-4552-9dcd-20d67b1eb70f	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A3DS	e90650e5-c149-44ae-8ffa-88f18b72d903	53948	e90650e5-c149-44ae-8ffa-88f18b72d903
+5d0cc336-26f2-4cb0-aa9e-58491dda102f	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3D4	ec8ec173-0cec-4da0-a7c1-0fe7c7c767cf	64632	ec8ec173-0cec-4da0-a7c1-0fe7c7c767cf
+64131b0b-9f36-44be-8bec-92c71ec36343	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A4KH	dc3c06a4-f923-4222-83d2-9f6bedee8a1d	51627	dc3c06a4-f923-4222-83d2-9f6bedee8a1d
+58ff4366-20a3-40a2-a87a-551e17cdb5d3	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FY-A3RA	d1fa51f5-e10d-4aa1-a53b-fe72e677e32b	52175	d1fa51f5-e10d-4aa1-a53b-fe72e677e32b
+5be6c0d9-6ad7-482f-bd00-0432702df495	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-E3-A3E0	daa7564f-94e6-480d-a192-9e8523e01613	46222	daa7564f-94e6-480d-a192-9e8523e01613
+5eb0d577-223b-4409-89d1-5c5d196affc3	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FE-A232	bf622556-56d4-4c5f-a7ad-d68f8373604d	58929	bf622556-56d4-4c5f-a7ad-d68f8373604d
+6491d025-c061-4180-bfd4-d7c6e6e55f66	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3AN	89b6b735-c2c9-4a62-857b-2fdea2b87b68	58121	89b6b735-c2c9-4a62-857b-2fdea2b87b68
+63c20d30-3bc9-4dca-8a8d-09fdea41f288	not reported	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-J8-A42S	a1f2f531-ea94-4e52-9ae7-0c41f5d98259	34238	a1f2f531-ea94-4e52-9ae7-0c41f5d98259
+63e8c48e-f01b-4a7f-87e2-30607a2c8f6c	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-E3-A3E3	f8e92b58-9932-4603-b5af-b5fc42a9cd7b	70516	f8e92b58-9932-4603-b5af-b5fc42a9cd7b
+6a87bbc4-6161-4fc6-b4df-518d7831f4d2	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3AI	5ad5dcdb-bfe3-4c78-a58f-86c0eb0ba684	40463	5ad5dcdb-bfe3-4c78-a58f-86c0eb0ba684
+6675c581-297d-44cd-b80f-ae7e53d48228	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A0ZC	80e6956c-c5a7-4f2d-b40a-2f5c86a2be47	40700	80e6956c-c5a7-4f2d-b40a-2f5c86a2be47
+6abc861a-376d-446b-acee-fb0f03a82c09	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A22O	f6cc6410-5a78-4e32-bd5d-c014b7ae4019	63226	f6cc6410-5a78-4e32-bd5d-c014b7ae4019
+6ad260ad-769a-4f3c-bd07-927adf6b2338	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DE-A0Y2	e19699a5-2d4b-4aca-a383-68ef1de5c7c2	58363	e19699a5-2d4b-4aca-a383-68ef1de5c7c2
+6befdc6a-27fc-4cde-979b-ffe05cd8603f	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A40Q	765c35f7-c00e-4c94-806a-c8648692b3e7	53238	765c35f7-c00e-4c94-806a-c8648692b3e7
+6f77fc81-1bf4-47c8-b1d8-78bb17cb13f8	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A4JV	84ad24b9-612c-40bf-a34e-37619efa08b8	51847	84ad24b9-612c-40bf-a34e-37619efa08b8
+754866ea-d5ca-451a-98e4-6e0c430d3652	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-KS-A41I	80c78f06-9f54-4f69-bbd6-61485a581762	44428	80c78f06-9f54-4f69-bbd6-61485a581762
+7cec93da-42c9-495d-8110-9fb43763041b	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FK-A4UB	05500da5-6828-447e-8298-51eec6cbfe4d	52975	05500da5-6828-447e-8298-51eec6cbfe4d
+7ef22138-ac76-4846-b3bb-ddf1efb96531	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FY-A3W9	7e9ce7cb-ea9d-4b58-a618-fa946130e37e	57665	7e9ce7cb-ea9d-4b58-a618-fa946130e37e
+7a45cbc2-9fbe-49f9-9d70-f8dc82829769	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A39T	b873b5c6-809b-4df1-af60-8d8931f94c4f	53177	b873b5c6-809b-4df1-af60-8d8931f94c4f
+7f9fad75-ac3e-4580-b949-80eed07a3230	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DE-A69K	1d452be1-d9d5-476e-8273-486264b65aff	52665	1d452be1-d9d5-476e-8273-486264b65aff
+80420c04-709b-4ab2-a88c-1e22b3a09b9c	not reported	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A2P0	c1d571ba-8a3e-445b-a623-649e6c062411	45335	c1d571ba-8a3e-445b-a623-649e6c062411
+856893d6-0ed7-422b-ac19-1a5871088805	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3GX	ef094d82-fa4a-4f3a-9a62-53a7e1fdd585	52987	ef094d82-fa4a-4f3a-9a62-53a7e1fdd585
+85def63a-39ab-4c83-ab8c-02c6f702f05d	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DE-A4MC	5c7107f8-4e69-4a67-bc70-0961072002fd	53473	5c7107f8-4e69-4a67-bc70-0961072002fd
+82dd133b-691b-4bbf-b948-6270869d9b69	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DO-A2HM	8bbcaa54-47a7-43e6-84ae-4a867bc580d9	46500	8bbcaa54-47a7-43e6-84ae-4a867bc580d9
+861f94ce-45ff-4588-addb-e1ea48878c2e	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3T0	b57dd1ee-9da3-41cf-974c-e4707298b5b5	51989	b57dd1ee-9da3-41cf-974c-e4707298b5b5
+86d5865e-6a1c-467c-97c9-47460b77f5a4	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A4V5	6ee33a4a-4da8-48a2-bd18-3af6840d417e	65706	6ee33a4a-4da8-48a2-bd18-3af6840d417e
+8392edea-82b3-4610-87a0-f545f673e922	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-IM-A3U2	ba682a64-7cf1-4788-87bf-a8c78b661cbc	53030	ba682a64-7cf1-4788-87bf-a8c78b661cbc
+86657a3c-10cf-48b7-9fda-f2df5e2afad5	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DE-A4M9	a3d94567-7c67-4d55-8185-05d65947ac2a	51972	a3d94567-7c67-4d55-8185-05d65947ac2a
+86f9eca0-d1ea-4375-a6bc-055e44b3198a	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A0Z9	37bc2492-53f0-44b4-b417-a7706052f309	53001	37bc2492-53f0-44b4-b417-a7706052f309
+89f4a6a5-bf9b-4a0e-bacf-8cd715c2ca93	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A4K9	5f9e7198-06cf-4424-8b31-3d7d8a85dc86	51582	5f9e7198-06cf-4424-8b31-3d7d8a85dc86
+8a02f305-6fd8-4908-bc19-06babf028b5b	hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A3BX	a71a55d4-19e3-478a-86ce-fe01d6335631	53147	a71a55d4-19e3-478a-86ce-fe01d6335631
+8a233b01-2959-467f-8950-02be16309156	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3T9	50d42257-fe12-4d57-a09a-1e6294371bf8	33860	50d42257-fe12-4d57-a09a-1e6294371bf8
+8877b479-b62a-4794-b71e-418de96dff23	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A0ZJ	ba38b5af-3b56-4973-a4fa-e7b1c28fc40d	53683	ba38b5af-3b56-4973-a4fa-e7b1c28fc40d
+8a3659a8-2a85-4bab-8bf3-55795922474c	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A1YD	9205a05b-156e-426c-84df-d01db3b76c4c	40195	9205a05b-156e-426c-84df-d01db3b76c4c
+8a476795-0e05-4da6-bbe1-ff7304da1b39	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3T2	15498712-faec-4708-972b-418e9180eeec	52590	15498712-faec-4708-972b-418e9180eeec
+899ed323-4fd1-4d8d-9c2f-c63d9b44e875	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-KS-A4ID	65b41ef3-ede4-4e32-aef3-5558bb4c3db8	58793	65b41ef3-ede4-4e32-aef3-5558bb4c3db8
+89c72f0e-e724-4826-bb9c-d7524d1b1258	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DE-A4MA	ec459bca-3c60-4bff-baed-cfe67b890af6	52477	ec459bca-3c60-4bff-baed-cfe67b890af6
+8cfb88f6-7b37-4f1e-882b-3a368b604167	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A45K	81a0e618-0e52-4166-976f-65516334edfc	47054	81a0e618-0e52-4166-976f-65516334edfc
+9382942c-40dc-404a-ad8a-697612cdb575	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A3BP	0178e5b6-cdad-4df9-b8d2-106fbf8dc74b	58288	0178e5b6-cdad-4df9-b8d2-106fbf8dc74b
+98a08015-9040-4e0b-bcfa-2c6db7d0f888	not reported	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A2OX	7d7c2be2-7e99-454b-86ab-fb7d2542e984	45329	7d7c2be2-7e99-454b-86ab-fb7d2542e984
+93691bae-f1bd-437e-ae72-b50736d1e29a	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-E8-A417	8a8ea57d-8182-4214-a553-4cab3505affd	60122	8a8ea57d-8182-4214-a553-4cab3505affd
+97b5017c-2066-4472-ab3f-31cfe64a6762	Unknown	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3O8	3dfc6289-fd40-4eee-bbcf-c528552f7338	59793	3dfc6289-fd40-4eee-bbcf-c528552f7338
+9b6acc25-447d-4144-b4c0-ef52b8850d96	not reported	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A2P1	bec3a792-096c-41fc-a403-4e5c841be3af	45406	bec3a792-096c-41fc-a403-4e5c841be3af
+9c6c44b3-a2ca-456e-a8d1-d375309c1751	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-L6-A4EP	54f8d8e8-45b8-40d4-b93e-a53e8bea1e72	52170	54f8d8e8-45b8-40d4-b93e-a53e8bea1e72
+a00da907-e527-45f9-9afb-2fad2c7b0940	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A2Q2	92d43dbd-4368-445a-a782-4009d1fd30af	53714	92d43dbd-4368-445a-a782-4009d1fd30af
+9a19f08b-386a-40b1-b694-78e8556a6caa	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A39R	0e9f7588-26fd-4e8b-bd01-b1a60885922b	53308	0e9f7588-26fd-4e8b-bd01-b1a60885922b
+9aa61ab5-f675-43dd-8a99-077164b41f30	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-J8-A3YG	c4c9b8a0-53f4-4a45-a4d1-41431463afdf	39601	c4c9b8a0-53f4-4a45-a4d1-41431463afdf
+a09d0be0-fd41-4b30-b488-9a9f2abef8e7	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3TB	8a9eb62d-19a8-4a2a-aec9-88847442c999	51794	8a9eb62d-19a8-4a2a-aec9-88847442c999
+9ff3f335-69d1-4caa-a5c5-ee66f4f92d17	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A3DT	75e0d087-c0e0-4bbb-91a8-0777633331c8	79603	75e0d087-c0e0-4bbb-91a8-0777633331c8
+a552e8ab-9dec-44ea-9f02-7ca704ee8467	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-E8-A44K	2ab8f9ff-ec00-48d0-bc24-01f4c070b92a	60212	2ab8f9ff-ec00-48d0-bc24-01f4c070b92a
+a1227ffa-2733-4a43-ba82-834755453870	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-CE-A13K	ef7fd18f-cebb-4e51-8cdc-0d258d0fd03f	39887	ef7fd18f-cebb-4e51-8cdc-0d258d0fd03f
+a175a9a5-ab86-4c68-9814-c30cfcc52662	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A2PX	83384e37-28d6-4270-99fe-bdca9d31702b	53967	83384e37-28d6-4270-99fe-bdca9d31702b
+a3f87411-0a7b-4415-ba17-8edcc2639f6c	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A4K2	9b272054-0911-4238-809c-28a90cf88bca	47111	9b272054-0911-4238-809c-28a90cf88bca
+00a02e62-e1ab-467a-91b3-5f526dd2251a	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3N3	e12cae90-c8ec-4cc5-b365-fb8160db3a43	51812	e12cae90-c8ec-4cc5-b365-fb8160db3a43
+00d588e3-3db6-4cf3-9def-34d941e8cdb0	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-J8-A3YF	20904989-9dc9-4154-a983-3d039974be38	39805	20904989-9dc9-4154-a983-3d039974be38
+f3c73dc9-6280-4619-a629-b575fdbdb0ca	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A1QH	6349b265-d89b-4f29-8130-a83636963220	58607	6349b265-d89b-4f29-8130-a83636963220
+04dc8ee3-ec93-4b56-a546-f96746f8122f	Unknown	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3ZM	52788636-13f3-4eda-8efe-c7e09efb9a64	69908	52788636-13f3-4eda-8efe-c7e09efb9a64
+08293bf4-727d-45c2-abbf-1aec3ba1c8a4	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A4K0	d138e895-f3a6-4383-afbc-4e4110125182	47223	d138e895-f3a6-4383-afbc-4e4110125182
+097b9cf1-ec0c-487c-9ade-2bdab12eb4ca	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A25R	f48b7d85-c81d-48ad-97af-a8bd66396a38	53588	f48b7d85-c81d-48ad-97af-a8bd66396a38
+0c50a2c2-1d4c-45ca-9127-f96d4db18daf	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3AL	75386fb8-60bf-49b4-8fa2-7e3cab5eaa32	40313	75386fb8-60bf-49b4-8fa2-7e3cab5eaa32
+0ad2a2b3-c1bb-4597-b28e-a6385f93d09c	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A1YC	d689c65e-a070-46ab-958a-29606bef4adb	58547	d689c65e-a070-46ab-958a-29606bef4adb
+104b6629-aff4-411b-9704-547c47ada5a1	Unknown	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3SZ	8e87e3b4-4a3b-4b0e-bb26-f76103856c6d	47337	8e87e3b4-4a3b-4b0e-bb26-f76103856c6d
+14591ce2-ed02-440d-8004-7ca0ad94d0a7	Unknown	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3SX	b1b8daa4-328e-4de5-a11d-9c4ebf63df8a	60205	b1b8daa4-328e-4de5-a11d-9c4ebf63df8a
+13577a2b-ee68-45e5-96a8-b1fd71fc62da	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A2PU	769c8967-7b2f-45fc-b49e-ac5bbae44dcd	53591	769c8967-7b2f-45fc-b49e-ac5bbae44dcd
+169f045f-1739-4b0b-9bdc-028aaca420f8	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DO-A1JZ	f3395afe-070c-41cf-8078-e623b248a8f8	51696	f3395afe-070c-41cf-8078-e623b248a8f8
+19378727-e0a6-4898-b2d0-f12241616870	not reported	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3AO	fc4dec38-452b-4b65-b6d9-2618a70bda1b	53506	fc4dec38-452b-4b65-b6d9-2618a70bda1b
+1f094db9-f8cc-4066-adff-609682936172	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A2QC	b8601631-e9d6-45bf-b755-b34d570da7ef	53489	b8601631-e9d6-45bf-b755-b34d570da7ef
+1da4ab7d-4353-4565-a522-d2fecadd4a85	Unknown	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-E8-A437	b5df30c9-a193-47da-8915-d2c93e36dca6	60007	b5df30c9-a193-47da-8915-d2c93e36dca6
+23ad7900-4e99-4abf-82ff-71edeaa8a51c	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-KS-A41J	0008f666-d8e8-4310-8ca3-0da4e06db601	50122	0008f666-d8e8-4310-8ca3-0da4e06db601
+2c9e8686-9757-4e05-8d0e-efeaa3045d66	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-CE-A481	94b87eff-7839-4ee3-ba98-2cff8711fd2e	52668	94b87eff-7839-4ee3-ba98-2cff8711fd2e
+2acb6f29-06d3-48d4-8553-a9f5839afe22	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A2CM	a8b0e32e-9540-4d58-959d-1848535fdb52	53635	a8b0e32e-9540-4d58-959d-1848535fdb52
+2ce580e9-4d75-464c-b403-c9f4626d7aa4	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A2PR	f959aa67-e475-4b7c-8f62-4e780636385b	53981	f959aa67-e475-4b7c-8f62-4e780636385b
+2fa2dd09-593a-4cde-97c7-61cdb8ba2bfe	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3GZ	fd6cf7e4-ad3e-426c-98a0-89865d532472	51954	fd6cf7e4-ad3e-426c-98a0-89865d532472
+300720c8-68e5-4a3b-a873-3ad36ad0f953	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FE-A236	760ed8c8-1245-4a0b-aeea-38279d22c3e5	58233	760ed8c8-1245-4a0b-aeea-38279d22c3e5
+3585ddab-fe5e-4a5a-92c7-3cbaff52af57	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3CP	f7895015-9a4a-4755-b75e-0c6cedeb288d	51919	f7895015-9a4a-4755-b75e-0c6cedeb288d
+331cae6e-2868-4c58-9302-709a9ff7d025	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A0Z3	c888d1dc-f864-473e-80d5-0ccde9079a36	40425	c888d1dc-f864-473e-80d5-0ccde9079a36
+3597af5e-65ff-40a7-95fc-dacc26cbca14	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A1QM	e8ee54c8-c41e-48ae-8b4f-b0eef9607dc0	40423	e8ee54c8-c41e-48ae-8b4f-b0eef9607dc0
+398d5c2e-f877-4bbf-a10c-486b8523c9ce	Unknown	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3O6	5f2040a4-04e2-44e5-aafe-724652801802	51934	5f2040a4-04e2-44e5-aafe-724652801802
+39d90499-8549-4da5-b391-c421f18facf1	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FE-A3PD	13b280e5-5b03-4107-b441-afe43c0c532d	45087	13b280e5-5b03-4107-b441-afe43c0c532d
+8b1987f7-75fd-4e24-be77-891bbd2d40a1	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3CS	578d21d5-cab1-40fa-9262-6cbf474d3bb8	39408	578d21d5-cab1-40fa-9262-6cbf474d3bb8
+8beee000-ecab-4a49-9c9d-bb8e677ae199	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A0ZF	ebc37a3b-ab25-4517-92f2-bb702de0c88a	53751	ebc37a3b-ab25-4517-92f2-bb702de0c88a
+3a7c35e0-9ed1-4098-8585-52f5991b2534	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-IM-A3EB	563a18e8-f79d-4fd0-b2b0-367d91689a12	45081	563a18e8-f79d-4fd0-b2b0-367d91689a12
+3bfa52af-cb40-45d8-9bdc-591985aae7fb	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3ZO	b230f58d-2ea1-4b6f-8e1b-0c8746264c3f	51883	b230f58d-2ea1-4b6f-8e1b-0c8746264c3f
+3fc062bc-1b0b-4c8f-b79c-770bcaa1ec6e	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FY-A40L	ab61e350-5da0-41af-94a6-df11539f138a	58067	ab61e350-5da0-41af-94a6-df11539f138a
+424de829-9efd-4689-ac5d-24485a5d5ecf	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A3DW	cc1a247d-b7e3-44bc-b8ad-b81ae63f2fa4	44873	cc1a247d-b7e3-44bc-b8ad-b81ae63f2fa4
+44465a32-8ee9-4575-94b8-0200ba7c5bd4	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A39P	594397f2-2748-4ac3-be5a-3bcb783fd718	58400	594397f2-2748-4ac3-be5a-3bcb783fd718
+4481d84d-109e-44a0-bcb4-e6e61bdce796	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A25L	eaa0955f-2d39-4194-bd9e-ceb0492b2454	58095	eaa0955f-2d39-4194-bd9e-ceb0492b2454
+4e959d61-4f7f-4933-bada-d33a621d9c03	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3GQ	026e3c8d-ea62-4674-b317-174f97189c6e	47333	026e3c8d-ea62-4674-b317-174f97189c6e
+4c513413-263e-4c7b-b997-7b688c47b698	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A0ZA	1a3bb117-79c2-41c0-ac0f-303d2c008531	40881	1a3bb117-79c2-41c0-ac0f-303d2c008531
+4d9de9a1-7df1-412e-9f16-15dd51b4c5f5	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-E8-A242	ed512661-04ff-44b2-bce5-57e99ddee30f	51514	ed512661-04ff-44b2-bce5-57e99ddee30f
+4e227a7a-b885-4e9b-a4c2-aad9e6c154e5	Unknown	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-J8-A3YD	700ea912-0cd8-41a1-9a26-5e8f95701033	39235	700ea912-0cd8-41a1-9a26-5e8f95701033
+50ec4170-29ea-4ee9-8ce7-67ec78d1dc76	Unknown	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A4FU	17720e95-7981-4310-b57d-2164d0497bd7	57412	17720e95-7981-4310-b57d-2164d0497bd7
+53ba15c0-780e-4153-a612-046f1b24b4b3	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FY-A3TY	cbeadb17-fdb2-4e24-919e-952922a53a5a	46840	cbeadb17-fdb2-4e24-919e-952922a53a5a
+59221e3a-2927-40bf-a38d-4a5843ea179b	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FY-A3WA	86102bc7-ef9f-42b9-b5a3-571a21d0aace	47013	86102bc7-ef9f-42b9-b5a3-571a21d0aace
+59e47734-96de-4328-aca7-e9423dda9c52	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-E3-A3DZ	8a343b7a-f390-46f4-8eb4-1408fd52221d	75722	8a343b7a-f390-46f4-8eb4-1408fd52221d
+59e91fe5-c80f-4915-be0f-1a7cd3f31f3e	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A28S	ef6807b7-6931-4f98-8180-9a4950fddf14	39845	ef6807b7-6931-4f98-8180-9a4950fddf14
+5a6b9340-acde-4d97-8836-20ae29732851	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A3BQ	d2d6934e-d400-4084-9c03-3ca3c30131eb	53053	d2d6934e-d400-4084-9c03-3ca3c30131eb
+5dcbdfcf-8a4d-4da5-9049-f2b970fe8ca8	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A2PZ	e288a114-eb01-4bc2-9cb8-ad74db1943a1	40401	e288a114-eb01-4bc2-9cb8-ad74db1943a1
+646d1585-2d12-483c-8425-77d5451b2869	Unknown	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A4FV	5ec1476b-12db-4c45-8fff-3c97aab08b2b	47410	5ec1476b-12db-4c45-8fff-3c97aab08b2b
+63076bda-61a1-4403-a270-4130b5d003ee	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A2PV	512a1900-6984-49ba-b7ff-9990138f6df9	53683	512a1900-6984-49ba-b7ff-9990138f6df9
+8bea483b-ac43-4265-b2c4-0f031e539008	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A2Q0	d889d579-677b-4d5e-97b8-6f1b0854012b	53596	d889d579-677b-4d5e-97b8-6f1b0854012b
+8d54a2ed-03f1-4a23-bdd2-f3395f5d3716	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3H1	311e4cd2-6ae9-4aee-8e72-c6f642705291	38615	311e4cd2-6ae9-4aee-8e72-c6f642705291
+90507baa-b716-4bcf-a18e-9d8ae97d809a	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3T6	cee2a4d9-49e7-4df5-9bb5-8ae053f5a63d	51426	cee2a4d9-49e7-4df5-9bb5-8ae053f5a63d
+905469d2-4c97-4293-a20c-1b1f0462a25d	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FY-A3R6	007db498-d9b5-4c67-8150-77f599f57fb6	46819	007db498-d9b5-4c67-8150-77f599f57fb6
+94443df0-7f16-4178-9e66-bee82f6ca33a	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3VK	97f66904-493e-4c69-b725-781d56d8c84b	52353	97f66904-493e-4c69-b725-781d56d8c84b
+980d1c65-b675-4568-9ce8-c0278686ae8d	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-E8-A2EA	28d87103-8bf3-4d1b-bd51-a6a2e79047bf	52915	28d87103-8bf3-4d1b-bd51-a6a2e79047bf
+8e274b77-c05e-4a8c-a106-c552df1f2d11	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-KS-A41F	3e6bdfd1-def7-4db0-8510-9b16dfa1f22e	57567	3e6bdfd1-def7-4db0-8510-9b16dfa1f22e
+96b95a2c-fb4f-4cba-89e7-a7f0e90db146	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3ZR	55049cee-3ed6-494b-a7c7-4ae44eddf938	51907	55049cee-3ed6-494b-a7c7-4ae44eddf938
+9348c35a-58ba-4db5-bc4a-e9fc8e07cdf3	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-IM-A41Z	8a088502-0402-470a-ad91-df42f31e0766	58172	8a088502-0402-470a-ad91-df42f31e0766
+97384352-0e80-42c2-8a8b-7bdbda2b58ee	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A4UW	ade66387-8cd6-4274-8439-b8fc62bb1145	65681	ade66387-8cd6-4274-8439-b8fc62bb1145
+934a58af-0ffc-487e-9e95-fa7643b7d5cb	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3CX	06df14ce-4f07-4549-abf9-e5c52a44cab8	60025	06df14ce-4f07-4549-abf9-e5c52a44cab8
+a061976d-ba2c-4a18-a51e-952f198eb4d5	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A3DR	b1401a44-c09f-49b7-83a0-bee1f8284d1a	53305	b1401a44-c09f-49b7-83a0-bee1f8284d1a
+9dcaa676-10ca-48cb-b245-7cc4bd1fe9bb	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A2N3	264501a6-40f8-4a3d-8866-ec0470d04a50	64924	264501a6-40f8-4a3d-8866-ec0470d04a50
+9efd27c7-9893-49fd-886e-e85057dd5d2e	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DE-A69J	b6d9e1ec-bf6a-4027-8090-0e1ff5ba8650	52030	b6d9e1ec-bf6a-4027-8090-0e1ff5ba8650
+9f31deb9-b9f4-439b-aea4-f87c71406c79	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A2PS	a2bbd7a0-8776-483d-b838-b6e64c45dfe2	58470	a2bbd7a0-8776-483d-b838-b6e64c45dfe2
+b555b7a4-6324-4d3e-9eed-b140af6c768a	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-L6-A4EU	babe91e6-a9e8-4551-ae92-6963b74319fd	52268	babe91e6-a9e8-4551-ae92-6963b74319fd
+b3b7d701-ec84-4018-a3ce-f59198b35767	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FY-A3NN	c1eb0517-f8f3-479a-b3be-63cbadc7be30	26974	c1eb0517-f8f3-479a-b3be-63cbadc7be30
+b43a4f92-7a13-4558-a97e-7b3feb2d70c9	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A1YB	65f7bafb-7405-4043-8bc9-e0f4d4928772	44971	65f7bafb-7405-4043-8bc9-e0f4d4928772
+b7a01148-5bab-4268-986a-a9cf7bca967f	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DO-A1K0	28302516-be45-422b-b956-f3a9d0483894	57480	28302516-be45-422b-b956-f3a9d0483894
+ba9dec81-ffc0-453a-9621-94beba45fab1	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A13M	0469cb53-abd2-4cdc-9a22-4d8c83ce018c	53793	0469cb53-abd2-4cdc-9a22-4d8c83ce018c
+b8cb385a-4e5f-4932-944d-04d6ea1bba5a	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A45G	bd8d8531-ef3f-4118-85fa-2f89389828eb	51833	bd8d8531-ef3f-4118-85fa-2f89389828eb
+befa0ef5-d621-4866-904d-13341ea54aa1	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A3EZ	bd0e9b96-d825-451e-be78-537d9ccf1688	40172	bd0e9b96-d825-451e-be78-537d9ccf1688
+bf193c4f-fbac-41bc-b1af-19b6ce856f0f	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-H2-A3RI	3b078aaa-b1bb-465e-8ac1-fb9e34de089e	50290	3b078aaa-b1bb-465e-8ac1-fb9e34de089e
+c042a639-63c6-471b-a7c5-3fb4e12c4d12	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3VG	493f9c3d-4297-49af-9638-925ea700a1c7	47551	493f9c3d-4297-49af-9638-925ea700a1c7
+c2291b36-7b7f-4c07-a164-6600d9e7929f	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3FP	cdf555f8-5639-49ef-adbe-00a7cd180453	41237	cdf555f8-5639-49ef-adbe-00a7cd180453
+c047e741-2b29-45df-a577-351bddc50eb8	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A3DU	e43c6f24-d6b1-4681-a0d5-501573db3105	58262	e43c6f24-d6b1-4681-a0d5-501573db3105
+c5fd200b-ce02-4d7d-a240-78f147e483be	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3UR	2328e023-14ae-4150-853a-5aa9c8b8ac37	47637	2328e023-14ae-4150-853a-5aa9c8b8ac37
+c31b3adf-3fc6-4a72-83b0-bbc0f295b5e7	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DE-A0Y3	4f72b20d-8ebd-4d7b-8dcd-32b257f949d8	58965	4f72b20d-8ebd-4d7b-8dcd-32b257f949d8
+c6f08366-f30d-45bd-b949-b59d2493995d	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FY-A3BL	38834e8e-05b1-49b2-9605-4d44ea27b199	39995	38834e8e-05b1-49b2-9605-4d44ea27b199
+c35e4390-2809-4d88-86f3-208de05b338a	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-QD-A8IV	3fe4d42f-9a4d-4928-895b-4674d4aba96e	47862	3fe4d42f-9a4d-4928-895b-4674d4aba96e
+c438c562-a2b6-4ceb-b91a-7e77eb2ec962	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-E8-A415	32331cb3-090b-4e5d-995d-8957104440da	60138	32331cb3-090b-4e5d-995d-8957104440da
+c781b49e-d08f-49e6-b774-7cfe4100e92d	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FE-A235	e020de3e-a027-46b3-9673-b6d483f3a625	58683	e020de3e-a027-46b3-9673-b6d483f3a625
+c7a2f394-3e3f-4c90-9f1e-f2be3e5b0d6b	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A13L	f7012bc7-0326-441d-a8ca-9b35756e0892	34324	f7012bc7-0326-441d-a8ca-9b35756e0892
+c5d08be7-b94c-423a-aea8-bbc635787c63	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A45I	22492d10-c7b3-4f12-a428-0860ee49b0d3	51922	22492d10-c7b3-4f12-a428-0860ee49b0d3
+c8d62754-1601-40c0-98ef-e5bb94306b92	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A40S	565ae517-6902-4780-9016-0f2050cc0ed3	47405	565ae517-6902-4780-9016-0f2050cc0ed3
+c83fb5e6-8af3-47e4-ae48-cee92dff9db7	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A3BS	f41b5f03-c06e-425a-a541-b56c737a5fc0	45157	f41b5f03-c06e-425a-a541-b56c737a5fc0
+c93c47f4-88f3-405a-85f4-ba9450b74522	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-J8-A3YE	3198da0d-6a0b-43fe-8b01-496182baf02c	39110	3198da0d-6a0b-43fe-8b01-496182baf02c
+c951b786-7de3-4195-85b9-c4c19e95f546	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3CZ	c7ba4493-24bf-49df-8704-aea17a126bfd	65032	c7ba4493-24bf-49df-8704-aea17a126bfd
+cac8246a-a806-4945-898a-105cd88b2752	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3VL	f17399e0-3be0-4534-b654-b41c624bd747	48164	f17399e0-3be0-4534-b654-b41c624bd747
+cbab7a72-11f7-4dfe-80f8-1b1ef1cf0055	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A2N7	b6d6c647-efac-48ac-a7bf-a51f4dd67553	57444	b6d6c647-efac-48ac-a7bf-a51f4dd67553
+ca65a38e-8b49-4b50-908a-478b95b95c02	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3GW	5e2e15c0-8686-4e01-a0f1-9d1adf83e065	51903	5e2e15c0-8686-4e01-a0f1-9d1adf83e065
+ca95a11c-b54c-409e-b9a0-da850945033d	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A13P	2dfa3b82-bad6-4aab-98f4-0b34cdf58d5c	53407	2dfa3b82-bad6-4aab-98f4-0b34cdf58d5c
+cfdd2155-57a9-499c-92e1-fb82b577b050	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3FL	9df574d0-a3d6-46d4-adc5-b3bbe9636f63	53945	9df574d0-a3d6-46d4-adc5-b3bbe9636f63
+d2512fd6-9042-4a62-8b49-d483cb84b89d	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A39O	f2e996e2-72ff-45d8-8fec-dd6d0b0d282e	53037	f2e996e2-72ff-45d8-8fec-dd6d0b0d282e
+cd1656d8-55a5-4248-b81d-fed9d5992cbe	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FY-A3I4	bfad25c0-38bc-44bd-bc88-6c8cc8138420	45085	bfad25c0-38bc-44bd-bc88-6c8cc8138420
+d2a8035c-a8d3-4038-8a9d-854f2208bc45	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-IM-A3ED	5a1e9ac8-4cf4-4b70-b674-ea66dc87ea29	46025	5a1e9ac8-4cf4-4b70-b674-ea66dc87ea29
+cd73c807-a74e-46a8-9855-92de33da9b0d	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A39L	13ba0c63-b55d-4ab5-aeee-6952d2ca2e62	57253	13ba0c63-b55d-4ab5-aeee-6952d2ca2e62
+d2cc4d31-38fa-4232-895e-767260f607e9	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FY-A3YR	ec3d9b73-e4e4-4887-804a-a22d36ef6b22	58054	ec3d9b73-e4e4-4887-804a-a22d36ef6b22
+d579370b-8aa7-4472-9e28-43c761be3eda	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3UM	8ac90bec-85f4-4a33-a826-8dccaca772bf	47527	8ac90bec-85f4-4a33-a826-8dccaca772bf
+d5932dd7-b777-427f-8b55-3ec369fd76a3	Unknown	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3ST	9214a9d3-077a-4dcb-8f2f-0665e5f93a14	65611	9214a9d3-077a-4dcb-8f2f-0665e5f93a14
+d4355111-3abb-40f0-bdb7-b9eaa39dc771	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3TA	aa00b490-541f-448c-9304-0059e3059be0	51717	aa00b490-541f-448c-9304-0059e3059be0
+d60f6620-575d-47fe-83e8-80a6ad838bed	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A2PO	9af91972-9101-4ca0-9a38-391c3a12e8ff	40405	9af91972-9101-4ca0-9a38-391c3a12e8ff
+d487536f-0521-4d42-9150-6a806ae00241	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A2PW	0af135b8-7403-4e10-9993-231521df4a71	58451	0af135b8-7403-4e10-9993-231521df4a71
+d8d54c81-7ef5-4b0f-b35b-28fbf8c5198e	not reported	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3AJ	c4273c2d-467e-4553-81fd-42ad721d6ea0	58064	c4273c2d-467e-4553-81fd-42ad721d6ea0
+d61ca744-adc4-44d5-ad15-cc17399e8083	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3UK	146ba78a-1015-4993-8d1c-6a2b6db72e0c	60717	146ba78a-1015-4993-8d1c-6a2b6db72e0c
+d78012b6-24f9-48f5-9409-9845d0be2b3c	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3UO	32fb1356-1e41-4efd-9383-18ad616851e8	52784	32fb1356-1e41-4efd-9383-18ad616851e8
+da575651-8a69-4d08-aa0f-4a1891b0b44f	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A4V2	6f0277f2-2fe8-4c3b-925d-cf6cd5e817fc	40036	6f0277f2-2fe8-4c3b-925d-cf6cd5e817fc
+dc2bece1-1fcd-467a-8476-da171d56488c	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A2CJ	7901f34b-61bc-4736-adde-931639d0e172	53267	7901f34b-61bc-4736-adde-931639d0e172
+dccba97d-4e81-42fb-93b3-90be68a034fb	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A1QE	46fe518c-8ffb-4154-8f96-792d142a14bc	53513	46fe518c-8ffb-4154-8f96-792d142a14bc
+dd1058c5-da32-4f60-9275-5e1a8049d9c5	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-IM-A3U3	aaaea87c-ac5f-4d5b-82ce-ad884856e56f	40423	aaaea87c-ac5f-4d5b-82ce-ad884856e56f
+dc4d8468-6f34-40cb-a826-8d582cd86fde	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A0ZB	1cd75ac5-0e6f-4fd4-9c90-85325046d227	40508	1cd75ac5-0e6f-4fd4-9c90-85325046d227
+dd305533-e48c-4fed-9283-5082703c23ff	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A45F	3ea4e753-a6dc-4795-b770-69c6e5b535c0	51662	3ea4e753-a6dc-4795-b770-69c6e5b535c0
+dd478399-d2ec-4ae4-a82a-b0258d24d088	hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-MK-A4N6	f417406f-ea54-4bb4-8893-33c5d3e6744c	62520	f417406f-ea54-4bb4-8893-33c5d3e6744c
+dd981e11-4b49-447e-8ebc-d9db4b55ce9b	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3GP	60da17b6-ca69-43ec-9580-ea83b93c0849	59773	60da17b6-ca69-43ec-9580-ea83b93c0849
+dff3c4f1-9009-4111-9fc2-3834f8f7dbdd	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-E8-A436	6d67d2e1-4c81-4134-9b65-c0ae359e572c	52493	6d67d2e1-4c81-4134-9b65-c0ae359e572c
+de9315b3-b3df-45f0-adc2-69aa6b8ff717	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A22K	5a8c11bd-0524-4fe1-a88f-c8d78097668f	45094	5a8c11bd-0524-4fe1-a88f-c8d78097668f
+dffef9e8-5b69-43d9-a95b-0744daa38d1d	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-E3-A3DY	cd6898cd-d9a5-4696-b5e6-3a3e7fb25055	76373	cd6898cd-d9a5-4696-b5e6-3a3e7fb25055
+dec7a0a2-c26e-4a89-a4d5-74bd1409ff91	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-CE-A3ME	3f8c43ab-0882-4aef-873c-1e86d4b35f50	39863	3f8c43ab-0882-4aef-873c-1e86d4b35f50
+e1c8af06-9ea4-4062-9264-aa916e0025d1	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-4C-A93U	10180e88-c892-4615-9182-fc589b3308bd	47070	10180e88-c892-4615-9182-fc589b3308bd
+e23cd75a-06ad-4da0-b19b-b812b0f6c1b9	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A25G	c7da6681-a13a-4841-a547-69f1f4389089	58201	c7da6681-a13a-4841-a547-69f1f4389089
+e2475d48-628b-4095-b101-865d79a4b0ed	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3ZL	73c5084e-8150-47a9-8567-1afa6d9049cd	51873	73c5084e-8150-47a9-8567-1afa6d9049cd
+e069dcad-2fd1-464e-a5e9-fe36f05a0446	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3H4	9e60fc1b-deae-4620-b3e3-60cd90a7ba3d	52044	9e60fc1b-deae-4620-b3e3-60cd90a7ba3d
+e071c940-60fa-4c73-bb65-1ad670021854	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3VE	9732c025-83d7-4abf-bddd-753dd21d5c69	47901	9732c025-83d7-4abf-bddd-753dd21d5c69
+e35b2928-8784-45d0-a71a-a2df161542fa	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A2Q1	37fd6ee9-2c4b-411c-90ce-fb88f392a8dd	58464	37fd6ee9-2c4b-411c-90ce-fb88f392a8dd
+e4b08e66-0772-4956-8670-e5c6553eecbe	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A1QL	6f020182-6c3f-4ce2-ab32-4b18d4d738b8	53622	6f020182-6c3f-4ce2-ab32-4b18d4d738b8
+e92bdb0d-969a-4d98-ada8-5dfec68119b5	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A1CS	f36fd098-b2cb-46b3-9eba-a5619e453a51	40516	f36fd098-b2cb-46b3-9eba-a5619e453a51
+e62adac4-803a-4d94-9ae0-7b1a49041799	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3VJ	e149b44b-f7bf-483a-9743-e062fa8389ae	65646	e149b44b-f7bf-483a-9743-e062fa8389ae
+e632b443-cf6a-4592-96c6-c3493ec86fea	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A1YE	4d12140c-d1b4-4db9-b42e-237e7203abee	40400	4d12140c-d1b4-4db9-b42e-237e7203abee
+e94dfd42-4fe4-48e9-aa62-422ae071413f	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-KS-A4I5	f836b4f3-7dcc-450c-b1b4-60eab7163122	57623	f836b4f3-7dcc-450c-b1b4-60eab7163122
+e70feafd-1390-4f4c-a635-da65c1a7daeb	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FE-A233	8190612d-ce99-49a5-a09d-ec26c3176b15	59064	8190612d-ce99-49a5-a09d-ec26c3176b15
+e74b8474-f74a-498d-8848-6aa97d38d2d8	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A2N1	03f504e1-2757-408e-a630-b6f50d9b289c	71657	03f504e1-2757-408e-a630-b6f50d9b289c
+ebbd54ad-7b97-4081-ad11-7f7f3ce74eef	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-E8-A418	d82fff4c-64d9-4b19-bd12-e1cec890fda9	46800	d82fff4c-64d9-4b19-bd12-e1cec890fda9
+edb90376-0ef9-47dd-be6f-a6e8a0380a9c	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A2PQ	28eaeadb-5231-46ee-b651-e40fc372010a	58429	28eaeadb-5231-46ee-b651-e40fc372010a
+ef306507-f426-499e-8a1f-3401a522fb6b	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A22I	37163498-b085-4f8e-80a5-03c68910a22c	45085	37163498-b085-4f8e-80a5-03c68910a22c
+f2ad720e-579f-4e2c-a3f0-17877ca91067	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A1QO	c54350fc-d9cf-4aec-8f41-31ccd11fc97b	59926	c54350fc-d9cf-4aec-8f41-31ccd11fc97b
+f3665b89-957b-4d7b-b67f-39615c47d28b	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-E8-A3X7	67fcaee6-c2d4-4ca2-8790-60d9d20c1065	64402	67fcaee6-c2d4-4ca2-8790-60d9d20c1065
+f3ee888e-5116-4313-a2f6-3b1dcc3e4bc1	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A0YZ	d61fba13-58b0-4aa5-b1bb-07aaeb9d6bfb	40045	d61fba13-58b0-4aa5-b1bb-07aaeb9d6bfb
+f854ce67-c586-4424-a674-2dd67ad0ed7f	Unknown	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A4FN	30a324c5-ed9a-4e69-8120-25661a04b923	52307	30a324c5-ed9a-4e69-8120-25661a04b923
+faa51172-60ec-48d8-9224-36bfda1d27e0	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3H7	3da3be1a-f2f4-48aa-8e0f-89fff7301779	47021	3da3be1a-f2f4-48aa-8e0f-89fff7301779
+fb14bd0d-b356-42a4-a0e9-2fcdada8f76b	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-J8-A3O1	5fb236be-3b81-44ac-878c-e1ad0c89f53b	45228	5fb236be-3b81-44ac-878c-e1ad0c89f53b
+fc70a652-7925-4759-8e1f-05fd56829df4	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FE-A239	c55b4d9d-eb07-4843-89ab-b36e377fe42d	46164	c55b4d9d-eb07-4843-89ab-b36e377fe42d
+fd036ec5-3ffb-40b1-8002-943be0e2532e	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A3PR	523dc28b-72b1-499d-a788-45b0445a76c1	60295	523dc28b-72b1-499d-a788-45b0445a76c1
+f9d35f8e-ada4-4cc6-8227-28565ee531d2	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A2NA	3406d9be-47d8-4357-99db-df661ea943fe	40357	3406d9be-47d8-4357-99db-df661ea943fe
+aa6e3437-ea1c-4bed-ab7d-8f3f89f8ceeb	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A4K1	6e97e643-39c4-4920-8914-b17505cb1003	47114	6e97e643-39c4-4920-8914-b17505cb1003
+a7030d2b-2cc0-46be-9721-dc210954bee0	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3VF	e580012c-b3e1-4ae2-aec9-6cdeb249916d	52548	e580012c-b3e1-4ae2-aec9-6cdeb249916d
+aabc7724-71c8-4c1b-a54b-22e88dde148f	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A22L	13870524-1c99-419e-af13-b325e24df544	40133	13870524-1c99-419e-af13-b325e24df544
+ab0a98ae-98f1-425e-9418-550df6ac24cd	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3UZ	cca590af-26dd-43ff-afcd-a37daf32a59e	60781	cca590af-26dd-43ff-afcd-a37daf32a59e
+fef9c64f-5959-4da0-aaa2-66b56fc7b4c3	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3FQ	ecae6b93-0e47-48a9-8d5d-4c0d7e32a922	45107	ecae6b93-0e47-48a9-8d5d-4c0d7e32a922
+fffdb1d9-58d1-425c-ac12-1e1e5f443bf7	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A4V0	6056f2a0-5cff-453f-9a7f-3d7ac6d5371c	60651	6056f2a0-5cff-453f-9a7f-3d7ac6d5371c
+029da211-9b52-45ad-b0dc-2322da783c9c	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FY-A3NP	a19f3ec4-ebbd-456c-88f9-8c70aee0b29d	45042	a19f3ec4-ebbd-456c-88f9-8c70aee0b29d
+05a8268a-6b33-429b-8638-8c9bb366ef28	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FE-A3PB	b12ddf97-b6a7-41e4-8a7b-f537de44210e	45049	b12ddf97-b6a7-41e4-8a7b-f537de44210e
+085ffcdc-8600-42e2-852a-506465f716a2	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DE-A3KN	6cd34dee-39ff-45ea-9cec-bbff89d4ac33	58025	6cd34dee-39ff-45ea-9cec-bbff89d4ac33
+f2bbb5fa-9997-45de-88d4-8f1e94c18f0d	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3UV	153147a3-b880-449f-aa1e-c15ea89ee2f1	60677	153147a3-b880-449f-aa1e-c15ea89ee2f1
+1009a500-2a37-4aee-b7c3-049b5ce961a4	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A4O8	cc315b69-d40a-4966-81c7-9a1de51df849	51702	cc315b69-d40a-4966-81c7-9a1de51df849
+0cafefef-911b-46e8-9e6c-19a0e7d555aa	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A3DO	ebaa9c60-232d-4032-8c0c-e0ec0fd4f194	72828	ebaa9c60-232d-4032-8c0c-e0ec0fd4f194
+0d497faf-2c1c-4173-a5fe-770cca73323c	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A18Z	2bae5f0d-9c29-4713-bc0c-e53fdcd8eb85	57940	2bae5f0d-9c29-4713-bc0c-e53fdcd8eb85
+105210cc-6fe3-4615-a582-475553e14272	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3AP	3de4d387-71dd-41d9-8ea7-c367d694e600	52753	3de4d387-71dd-41d9-8ea7-c367d694e600
+10bdafbb-831d-48b5-b9a3-ad374fc50235	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FE-A3PA	518b4875-aae5-45a9-a76f-aa202dba716c	49883	518b4875-aae5-45a9-a76f-aa202dba716c
+0f9b78c8-ee9d-4e60-939c-bdbe040c212d	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3FK	c6131824-5aa6-458a-8623-18ae86268d0e	40359	c6131824-5aa6-458a-8623-18ae86268d0e
+0fe3b19a-f5e4-497e-92da-32ff6c77b066	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A0Z5	089acfca-77d1-4e25-bed7-49ae693965ac	40303	089acfca-77d1-4e25-bed7-49ae693965ac
+154b4e7f-06f9-4813-beab-232227229f8b	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3GY	19b5d296-5c2a-49e6-a074-b78d1e797df8	51646	19b5d296-5c2a-49e6-a074-b78d1e797df8
+12f90efb-c45b-4372-8197-2dfd9ca247ea	Unknown	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A4FM	29f9edb4-08b8-4086-b75d-efb0537af638	57252	29f9edb4-08b8-4086-b75d-efb0537af638
+16505d78-90d9-47d0-9b86-c6ef91d23aac	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-CE-A3MD	62b91933-d601-4a36-986f-439332b57958	39890	62b91933-d601-4a36-986f-439332b57958
+18a58e3e-f18e-45cf-86bc-1851abb9b3de	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A3DP	757e3c7c-2c2a-404b-b7db-981a6d8316a5	66507	757e3c7c-2c2a-404b-b7db-981a6d8316a5
+2012869d-c169-4cea-aa09-c892fb79bbaa	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A1QN	de7ef4f4-e7f8-493d-985d-9e22d910eac4	53602	de7ef4f4-e7f8-493d-985d-9e22d910eac4
+2106f0cd-cb3c-4568-bdc5-197ee11f2337	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3D6	dd8da4a2-bb51-42a5-956f-f159971e6115	51419	dd8da4a2-bb51-42a5-956f-f159971e6115
+1ebd5834-56b8-498a-8f34-c0031fcfd856	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3VM	14e3086f-463c-4700-9276-1537e5cbe8a5	52546	14e3086f-463c-4700-9276-1537e5cbe8a5
+212aa9c4-610d-4286-9ca2-ae6c87b9bc0e	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A2N0	93ce5164-6642-44fc-b13a-743f949132ea	58093	93ce5164-6642-44fc-b13a-743f949132ea
+24a968aa-8169-44cb-a8ac-72d7efa1fa7b	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3GS	5ff3c423-8d2d-414b-a6b9-b958da2d48ab	51934	5ff3c423-8d2d-414b-a6b9-b958da2d48ab
+227dac7d-6bc3-4d8b-ac9c-ea4cab9a602c	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-MK-A84Z	68fce08b-715f-46b3-bf17-0fdbac2aba2f	51473	68fce08b-715f-46b3-bf17-0fdbac2aba2f
+258dccee-a3ce-4d4b-a60c-64f45ebfb7ad	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3CR	669c702a-9c20-4a87-9bcc-6d8d29419fd5	34345	669c702a-9c20-4a87-9bcc-6d8d29419fd5
+25d8a79e-15fd-4c8a-a7f6-05d78973b757	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-H2-A2K9	8a1330d9-36f3-4d03-8a7d-f5de709a9639	57815	8a1330d9-36f3-4d03-8a7d-f5de709a9639
+2dcdf9a1-9437-4515-88c1-1c17d6b6418c	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3V9	4c178425-4111-4c7b-9a4f-d62a403bbaa6	52468	4c178425-4111-4c7b-9a4f-d62a403bbaa6
+34b8d361-9c95-4f28-8e45-669defc5c3a7	Unknown	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3O9	8e7194b1-331c-45d0-96e1-c984a2465f89	51916	8e7194b1-331c-45d0-96e1-c984a2465f89
+368689a0-f782-4826-9f08-cf0e0055162e	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3UQ	d7cb3b35-d48f-4cf6-820f-f150c8ac7019	52541	d7cb3b35-d48f-4cf6-820f-f150c8ac7019
+39e68907-3ffb-4ca1-a955-db5fa2f0deb1	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A2PT	0661131d-48b6-4f90-9326-15d247f8ba1a	58945	0661131d-48b6-4f90-9326-15d247f8ba1a
+369a07a5-f835-4886-a204-d5584c67f253	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A39I	b56ef15c-d662-41f9-9445-149c65bd2109	40035	b56ef15c-d662-41f9-9445-149c65bd2109
+3b3c99ab-5336-4433-b682-e1a590221611	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A13X	fb8dd901-f801-4fb8-9a84-6b76ba94b075	40517	fb8dd901-f801-4fb8-9a84-6b76ba94b075
+3b48cc5e-3396-4dd5-893d-54b75b98b016	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A13W	9702b7f5-6ec4-4cc4-a68f-3702f7d10dc5	53626	9702b7f5-6ec4-4cc4-a68f-3702f7d10dc5
+3e787a0e-b5d2-401e-b1e5-077376090b3a	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A13R	74cbc030-ce68-4a11-bc17-5a4890ea03e8	58793	74cbc030-ce68-4a11-bc17-5a4890ea03e8
+3b1e2bd6-3d32-40f7-9b32-0df32dfcbc72	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A1QI	047bb96c-e4ca-4172-9c95-04b217d73cfc	40430	047bb96c-e4ca-4172-9c95-04b217d73cfc
+40a9c1d3-6629-4e22-a783-12e0d48349d1	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3H5	6ef8e933-b9eb-411f-907c-f364b2c31e19	51884	6ef8e933-b9eb-411f-907c-f364b2c31e19
+3d8b7654-b403-4360-80dc-8273ca90c2dc	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3ZK	f12f0c1c-9f60-458f-ac03-a9d2f8b20d04	65064	f12f0c1c-9f60-458f-ac03-a9d2f8b20d04
+e1ff7694-64e1-47ed-b0d8-34acfb4ffef1	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-L6-A4ET	85cf208b-d790-4f0c-aac1-f08b5a08ffb7	52254	85cf208b-d790-4f0c-aac1-f08b5a08ffb7
+63986dd0-63ba-4ee5-aa25-8ff2cbb762d3	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3D0	f1c9c3db-1365-41b6-b3be-dec364a77d6f	56364	f1c9c3db-1365-41b6-b3be-dec364a77d6f
+4fc8e011-4433-4537-b03f-457a3a70240f	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A4K6	a4b780b6-ea20-450d-af07-581f6047c294	52368	a4b780b6-ea20-450d-af07-581f6047c294
+29afb71c-c2ca-499e-b1c7-12758c9b03d6	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A4K4	da60debe-c9b4-4de7-adbd-378982b43181	51667	da60debe-c9b4-4de7-adbd-378982b43181
+45eefba8-9f7c-49e9-a3f5-d13cfa264ff6	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3UU	2434405e-cbc5-4f0a-9573-167ed66145e7	57203	2434405e-cbc5-4f0a-9573-167ed66145e7
+02a8e937-c747-4ba1-911c-0860e62b8f83	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3UY	b0bc3e0e-848c-4a96-8904-968549ff63cd	60636	b0bc3e0e-848c-4a96-8904-968549ff63cd
+c14a0460-30b0-453b-ab81-da03ad4ad02e	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A3BV	93fdea23-4557-4549-bbe5-50926bd4b362	59367	93fdea23-4557-4549-bbe5-50926bd4b362
+011ae7b8-5003-4fcd-9f20-906a723f2c66	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3CW	ba54e848-caf0-4aef-a9a2-ae3646299fd4	33900	ba54e848-caf0-4aef-a9a2-ae3646299fd4
+05350770-2b5b-4c58-84ce-0917665ccb90	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A2PP	66155e82-96e4-4f39-8227-ba6c649b6182	53606	66155e82-96e4-4f39-8227-ba6c649b6182
+061fab24-727a-4551-a205-89eeb9f530ea	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A2Q9	52970fae-3ead-4fd0-94aa-1711bbbd42f2	58862	52970fae-3ead-4fd0-94aa-1711bbbd42f2
+04fff86a-b6f5-4900-9e37-c1f0b881b160	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A190	4f4e7dd7-d78a-461d-8d71-11d1e26e7b5f	45423	4f4e7dd7-d78a-461d-8d71-11d1e26e7b5f
+0b170ed4-d919-466b-b765-47878b865aed	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A13T	89c422e2-5e0c-452b-a442-585c48501149	53526	89c422e2-5e0c-452b-a442-585c48501149
+12ecc0e5-8cb8-406e-ac9f-4f8c22b64fc1	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A25P	488a49cd-c8e6-4688-84a9-faff4e6b4088	40274	488a49cd-c8e6-4688-84a9-faff4e6b4088
+149b46a3-75de-44e1-ba73-bdc4ff379c7f	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3ZH	70a5cbf9-d5de-4658-b780-c0c14edc1e16	65000	70a5cbf9-d5de-4658-b780-c0c14edc1e16
+1f6be7ca-76fd-4509-99a6-dfa59b0ac51f	not reported	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A2OZ	494a4d33-a75b-4e5e-acea-391dfdb1c499	53372	494a4d33-a75b-4e5e-acea-391dfdb1c499
+2378935d-aebd-4f6f-b31b-53bc6bd59bf9	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DE-A7U5	c0244665-0615-4393-bd56-72bd4726d3cf	46882	c0244665-0615-4393-bd56-72bd4726d3cf
+256976a4-41ab-445e-ae26-c594ba1fa324	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A4UP	b3fb1466-a4ff-4f70-a0e6-2ffc69e94b17	65713	b3fb1466-a4ff-4f70-a0e6-2ffc69e94b17
+23f47401-1bab-4395-970f-4e388aab2542	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-E8-A414	f4f50d76-c3cd-4fda-b25b-ff949c63785e	60144	f4f50d76-c3cd-4fda-b25b-ff949c63785e
+229004af-14eb-442e-905e-61c842b3efa0	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3CM	f87eecdb-cf90-44a2-8bc7-711bd96cc7a6	38646	f87eecdb-cf90-44a2-8bc7-711bd96cc7a6
+286de8cd-7222-4f85-a370-79a7903edf45	not reported	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A2CL	e34706dd-c924-471d-9086-003b22c8d91d	40241	e34706dd-c924-471d-9086-003b22c8d91d
+2501ee46-8d38-448b-8765-e9c9706cbbe8	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A191	f74b1349-0cec-4434-ab68-a1c2ce478505	45161	f74b1349-0cec-4434-ab68-a1c2ce478505
+28aef3ae-5375-4139-9b4e-5569eb394c88	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3VA	0d80cae0-b111-4dc5-81e6-16aba0c3f5db	47584	0d80cae0-b111-4dc5-81e6-16aba0c3f5db
+2610485e-f2b2-45f7-a578-99d6983d5f0e	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3UP	dad526aa-4144-422c-ab44-7c28ab1bb1e5	52453	dad526aa-4144-422c-ab44-7c28ab1bb1e5
+2b84cfbc-7cf6-4cb1-a1e3-ba85dafb89f4	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3FR	d5049666-4117-4ca6-877b-4d427a9fb84c	40313	d5049666-4117-4ca6-877b-4d427a9fb84c
+29963391-3926-4b7c-8066-185f0f2d5bfc	Unknown	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A4KQ	f09d1578-847a-4ca2-bb88-d3cc6a00cb5e	47208	f09d1578-847a-4ca2-bb88-d3cc6a00cb5e
+286c69b0-75ba-48d6-a26b-26077f101bbb	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3ZG	45a80802-4d6b-4082-b1af-69bea7a25206	51987	45a80802-4d6b-4082-b1af-69bea7a25206
+46239f1e-bd85-4d7a-a313-762666599a6d	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A3BU	d38fd36d-7c91-449a-b50a-7e3c4cc4785c	53052	d38fd36d-7c91-449a-b50a-7e3c4cc4785c
+3d952b80-501e-41c6-a3af-0bd6014b81e4	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A4JZ	c1148b8a-870e-48a2-9ec9-670d279fa18e	59927	c1148b8a-870e-48a2-9ec9-670d279fa18e
+4aed5116-d27b-4911-b310-05c2248b861f	not reported	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A2CN	2e15c480-7297-4782-bf42-3fb720712c6d	40575	2e15c480-7297-4782-bf42-3fb720712c6d
+4bd61e82-5168-4222-a8c8-5124ab8fdd44	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-KS-A41L	ad35ff86-7a82-4b70-8982-6beaeb43ffd2	57481	ad35ff86-7a82-4b70-8982-6beaeb43ffd2
+44c2da7c-6975-4d09-b65c-4b30afd019bb	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FY-A40N	ddccd4c7-d700-4f0f-8252-e63e3d54e339	52837	ddccd4c7-d700-4f0f-8252-e63e3d54e339
+4d1aec67-c345-4721-8ee8-356b0dff009b	hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FY-A3ON	c73caefd-862c-47ac-983b-69f57b1eb057	50880	c73caefd-862c-47ac-983b-69f57b1eb057
+4ec2bb20-2190-4c37-8aaa-4086fef1fbb6	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DE-A4MB	7d0a73da-eec3-4cc6-b11b-532371a70612	52017	7d0a73da-eec3-4cc6-b11b-532371a70612
+4f340c8c-5912-4257-b57d-c096da254c26	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A4JW	4424f765-4fc5-494f-be43-f634a4e388f1	51853	4424f765-4fc5-494f-be43-f634a4e388f1
+52bc133b-8a10-4c9b-adc3-22910a191e6b	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-KS-A4I9	3af0d6e1-c2dd-44f4-9945-cca0de7ab71c	63376	3af0d6e1-c2dd-44f4-9945-cca0de7ab71c
+4fa53eb7-1fdb-4fe5-b5ad-f3d8069b3eb8	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A2MZ	fd0e7040-d229-4534-b0f9-9fa779867c40	53550	fd0e7040-d229-4534-b0f9-9fa779867c40
+511b5f28-709b-4e43-9efd-b2f425bba962	Unknown	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A4FQ	b6eff8ae-fff4-4611-9f28-bc387a92a429	52322	b6eff8ae-fff4-4611-9f28-bc387a92a429
+4e80f403-0e10-4725-854d-f023c12ee1e2	not reported	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A1CU	63aa4f4b-f77c-4373-8a43-64deea925f18	40064	63aa4f4b-f77c-4373-8a43-64deea925f18
+59681e8f-cf57-47b4-82e1-6be8ead9583e	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A2MX	2a6e2ec1-98aa-47de-b4dd-48bb235e114a	64746	2a6e2ec1-98aa-47de-b4dd-48bb235e114a
+55e03ffc-f006-4ec8-8e5d-a738ff091f8a	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A2OV	cdfa01ba-28de-491e-8cab-a7c2b706b061	45316	cdfa01ba-28de-491e-8cab-a7c2b706b061
+524a39ee-8fa3-418e-98a2-a6a90e9c8064	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A28R	23676095-256e-4adf-8e1f-4571988d6ec0	39878	23676095-256e-4adf-8e1f-4571988d6ec0
+567e4d90-5c5a-44f0-a462-90c831f3c096	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A1YA	f50f468e-a4f5-46ab-a2e2-da89c347b4ee	45181	f50f468e-a4f5-46ab-a2e2-da89c347b4ee
+5c118e15-1e48-42a6-8d29-179e6e71a26c	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FY-A4B4	5bba9d4f-c516-4ec3-859c-9a67c696f17d	57545	5bba9d4f-c516-4ec3-859c-9a67c696f17d
+64de42bd-d134-4f44-82fa-d6614709bf01	hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3ZT	fc08ffee-637a-47f6-84a6-0cd224c508ce	51835	fc08ffee-637a-47f6-84a6-0cd224c508ce
+6b85d76d-6098-47ea-9823-586238526cf1	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A45J	f24262d7-232b-4dbb-a865-4d8beafe158b	51732	f24262d7-232b-4dbb-a865-4d8beafe158b
+707312fe-1d92-413e-a891-1ea3f496c343	not reported	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3AR	c7e2bb6f-dde2-4a23-bfe7-3be2db61dd2b	58122	c7e2bb6f-dde2-4a23-bfe7-3be2db61dd2b
+7244b7db-8282-43aa-a4b4-ad6af972cf9b	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A2CQ	5e454f84-486f-4c9e-ba8b-0471bc2ff080	40298	5e454f84-486f-4c9e-ba8b-0471bc2ff080
+6ee95dc8-2bac-4691-afa2-8222e07506ad	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3US	b0fc99a0-c99e-4cd5-825a-d39151f0b796	47517	b0fc99a0-c99e-4cd5-825a-d39151f0b796
+6ff5c8bd-9929-43ee-b53c-3c7c0b23f97b	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-KS-A4I1	2e05f73b-d93f-492b-bed6-820e524168dc	63354	2e05f73b-d93f-492b-bed6-820e524168dc
+762eddb5-1b47-4b79-b20a-1edfb07c0705	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A1CV	e8e97426-5af1-499b-9391-763d29d7ea06	53327	e8e97426-5af1-499b-9391-763d29d7ea06
+77bb90f0-e923-4e28-bb88-4d6b420e0b5c	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DE-A2OL	3751ed7c-4bd6-455c-b066-72d37676d20a	58314	3751ed7c-4bd6-455c-b066-72d37676d20a
+77d5b246-33ba-4a96-9d73-06aca797653e	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A13O	f9b8f276-b5e9-4849-8cfd-c3c3b1bbb48c	53757	f9b8f276-b5e9-4849-8cfd-c3c3b1bbb48c
+7746be87-7ad0-48a7-84fb-08a81b220bdb	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3MY	53adb194-5389-4aae-9e28-3cfc2d90a571	38875	53adb194-5389-4aae-9e28-3cfc2d90a571
+778a8f53-53f6-4a03-8ce1-b0928539a444	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A45H	00102912-5c22-4ccb-93c2-3544d3788179	51702	00102912-5c22-4ccb-93c2-3544d3788179
+7802140a-e518-4ae6-9bd1-c26d80b14ab1	not reported	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A2CK	19410a26-857e-4280-8cba-f53cbca7164b	40413	19410a26-857e-4280-8cba-f53cbca7164b
+7851512b-5f44-43de-8b27-99b5e91a8119	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A4UL	ca580e3b-79bd-4fef-a5ba-c383396a1c0f	60719	ca580e3b-79bd-4fef-a5ba-c383396a1c0f
+785803bb-42a8-4afb-b7b4-58c114894408	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FK-A3S3	5849c020-821c-41bb-9cd6-8e8896bdd9f8	57062	5849c020-821c-41bb-9cd6-8e8896bdd9f8
+78d14f86-896a-4f98-9274-b2e8e387add9	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FE-A22Z	26e716e2-49d3-41ce-9348-e67ed0777bf3	71381	26e716e2-49d3-41ce-9348-e67ed0777bf3
+7b82e2d2-47f9-41a1-9eca-40904c92039c	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3V5	1b34db63-4490-4820-903c-3407f43cef2a	52222	1b34db63-4490-4820-903c-3407f43cef2a
+7d11b016-c564-4fb5-9b85-1b1a0188006f	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FE-A237	79692a16-ac5f-4f84-b113-9925987318fe	72946	79692a16-ac5f-4f84-b113-9925987318fe
+7d818f01-49a6-4ba8-9f1c-c77398adbdd0	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A2N5	9d195021-f8e2-4af8-81ba-e989d87d0a2e	71807	9d195021-f8e2-4af8-81ba-e989d87d0a2e
+80da6e75-b7ad-47a6-9923-1e21a519a968	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-CE-A483	9651cba8-ace6-4ba2-86b5-efdaab8ffa92	46946	9651cba8-ace6-4ba2-86b5-efdaab8ffa92
+866ca8ad-adc9-45d4-ad92-9f8f1a161ddf	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A0ZH	419a812b-7c6c-4f64-92da-b0647dcb75de	40823	419a812b-7c6c-4f64-92da-b0647dcb75de
+87858089-1bad-4e5d-80ed-04f846da9ca4	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A39N	d6dc2c2a-09d8-4485-bffe-86d0325429a3	71245	d6dc2c2a-09d8-4485-bffe-86d0325429a3
+8c5aef43-341e-4a37-84eb-fd730eb957c7	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A13U	d8caf668-c7c5-4886-9e78-3c4294d4ac02	58477	d8caf668-c7c5-4886-9e78-3c4294d4ac02
+90473122-7221-491d-8fc2-0c72421d7861	not reported	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3FM	86b2b921-20c8-4b5f-9fec-4aa115656ecd	40941	86b2b921-20c8-4b5f-9fec-4aa115656ecd
+8dd09d74-0be8-4c58-bf44-de4a2466d044	Unknown	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A4FR	b2804fc4-65ce-4f99-b036-db497d53ad02	52170	b2804fc4-65ce-4f99-b036-db497d53ad02
+95dcd0a2-2fcd-4952-9022-d8143ba61fac	Unknown	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3SY	fb4964e4-187b-4c06-82ff-f19a9067f5a5	47286	fb4964e4-187b-4c06-82ff-f19a9067f5a5
+989e9202-c08e-4bbf-85b3-1e278a475cb7	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3T8	4baaee27-32a0-41d2-a4b6-ea909e96ecfd	51719	4baaee27-32a0-41d2-a4b6-ea909e96ecfd
+92e9f5e1-b597-451b-b6d5-fad9a77ba87a	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A22M	e43668be-ab46-4fda-96d9-a190d5e0bc9a	40362	e43668be-ab46-4fda-96d9-a190d5e0bc9a
+8e9c3621-bc43-40d0-bb2d-0c8b7ade37c2	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3V7	9fae1fd7-6258-42f7-a055-fc1492b96dda	52541	9fae1fd7-6258-42f7-a055-fc1492b96dda
+99ef2fec-5a3c-4e42-8f78-7eaf9877e26d	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A1QQ	d5e24812-47e5-48ef-b4df-3f40d9f91678	40816	d5e24812-47e5-48ef-b4df-3f40d9f91678
+9d3f6163-f586-4974-babc-67b5163b706b	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3UT	18ccd596-b995-4081-91c1-8b331d46603a	60617	18ccd596-b995-4081-91c1-8b331d46603a
+9b1dbd0d-be6d-4a88-881a-faf57ceba81c	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-CE-A485	33fb817d-6d5b-472a-be6b-fbce04be0b4d	46992	33fb817d-6d5b-472a-be6b-fbce04be0b4d
+a09b20b5-c187-4632-b996-0d5314a9885c	not reported	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-J8-A3YH	35d33566-2529-4d6b-ba39-febf13970923	39128	35d33566-2529-4d6b-ba39-febf13970923
+a253b21e-ba9b-4928-95d1-89b59c868794	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3ZS	61d259b0-7648-40ea-9f87-47220c167495	51583	61d259b0-7648-40ea-9f87-47220c167495
+a3765a2b-ff09-4dec-b990-65529345214e	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3UX	ab1c6e7a-7844-4908-9b29-554c19711850	46733	ab1c6e7a-7844-4908-9b29-554c19711850
+a6bdba04-f27d-4cef-bd82-872fb8390e46	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A3F0	ec1f4240-576b-403d-8abb-3b8170097cf1	40092	ec1f4240-576b-403d-8abb-3b8170097cf1
+e8f56d0f-eee4-4def-a43a-dec91f4382a1	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3AQ	51f37abe-41f1-412d-a795-4581c66d44e9	53846	51f37abe-41f1-412d-a795-4581c66d44e9
+fd3315da-c870-4ad0-9d2a-50b1647d3e46	Unknown	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-J8-A4HW	777f8596-e8ec-4d8b-9a3e-9129ef9211c8	39098	777f8596-e8ec-4d8b-9a3e-9129ef9211c8
+e9ccf355-e68a-489c-a914-31b766bd0aef	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3D5	5807edba-b44d-4753-ad50-5cead456729f	51939	5807edba-b44d-4753-ad50-5cead456729f
+5e085199-152a-40f5-a8f8-3a3a0f31c2e0	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3UW	508c634a-bfc7-43e8-beb0-f2609d97a502	47507	508c634a-bfc7-43e8-beb0-f2609d97a502
+77200abe-4a09-4a4a-bb45-60d9b96d4998	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3H2	31f7a10e-f94f-490d-9ae2-a7023109be4e	38706	31f7a10e-f94f-490d-9ae2-a7023109be4e
+35277c30-010c-4d3f-9dfe-754bf72799d7	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3V4	5cdac0fc-17b9-4fb2-9b8a-f05252cd53ee	65723	5cdac0fc-17b9-4fb2-9b8a-f05252cd53ee
+d4c68c1c-a3f3-4e0c-b555-d457378a1d24	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A291	2555fd88-eacb-4d89-b842-14c33b796dfa	40070	2555fd88-eacb-4d89-b842-14c33b796dfa
+430ad51d-f68c-40b2-bfa2-9da68370b7fa	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-J8-A3NZ	060bea4e-a39f-4ff0-a343-ea62f0679b7b	45178	060bea4e-a39f-4ff0-a343-ea62f0679b7b
+3cd2d4bd-8256-42fa-8272-db379d598007	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A290	a0725cbf-a3a4-416d-8bff-5ed3d058a3aa	45360	a0725cbf-a3a4-416d-8bff-5ed3d058a3aa
+c115df9d-cec4-4d7a-87f0-36a5c1f1d51f	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A3BO	bac7a25e-7a25-4b5a-b696-a50227a67eff	67106	bac7a25e-7a25-4b5a-b696-a50227a67eff
+0314b145-2f3a-4a90-a580-375b5f0a63a4	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-H2-A3RH	509d41bf-3ab6-4024-ad9e-282c84bf67e4	45102	509d41bf-3ab6-4024-ad9e-282c84bf67e4
+00b62df6-1189-4e38-8601-70416e05550d	hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FY-A4B3	a2b5a02f-a4e2-4567-9ad3-99c954b0c1cb	46825	a2b5a02f-a4e2-4567-9ad3-99c954b0c1cb
+039bfc94-fadd-440a-aade-a1595128583e	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-J8-A3O2	27637291-8c53-4d55-85ba-2a4edcdb0d64	45548	27637291-8c53-4d55-85ba-2a4edcdb0d64
+04ae6b65-8514-47fa-b573-ec1e067ff116	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A2CO	553c894b-7187-4ee4-b922-bf94c309fec1	40407	553c894b-7187-4ee4-b922-bf94c309fec1
+1005ccb2-10ef-4e37-950e-ad72393db03c	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A25I	dd75a1af-5abd-42fc-a784-949885923b9f	57910	dd75a1af-5abd-42fc-a784-949885923b9f
+0dc361b5-e755-4131-8766-d2c1375336d8	Unknown	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A4FK	743f0b13-3597-4bb1-bcc9-c0815e159fb5	47027	743f0b13-3597-4bb1-bcc9-c0815e159fb5
+13c97cfb-eea2-4ae8-9209-c967d9642cef	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A2Q5	96aa5de2-54fd-4ce5-a8dd-928c364e190b	58466	96aa5de2-54fd-4ce5-a8dd-928c364e190b
+1757c89f-8795-4c3b-bbad-1e6f617f2472	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A39J	352c54e3-9695-4915-a260-cc1131e9cc67	58293	352c54e3-9695-4915-a260-cc1131e9cc67
+188013d3-cefe-4861-b115-c34db1cf3831	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3VI	a4f17431-bed0-46dd-afcc-9b74c71fc6ab	40137	a4f17431-bed0-46dd-afcc-9b74c71fc6ab
+1a4164d9-4484-452d-9382-8cbf896a870e	not reported	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A22P	01b75a4c-ab4b-4185-b4d1-eb3eeb8104ea	58391	01b75a4c-ab4b-4185-b4d1-eb3eeb8104ea
+1f3915cb-718c-42ae-ab0a-ce62b8664995	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3ZN	959709bc-2129-4609-8a2c-c452e2fb1c4c	47234	959709bc-2129-4609-8a2c-c452e2fb1c4c
+1bacebf3-609e-4bb7-bb93-eb217b3a1b5c	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A4KI	2d435375-653c-4ae6-a24d-880392d04d68	52195	2d435375-653c-4ae6-a24d-880392d04d68
+22eb9f00-6869-4d8f-b657-dfd64f81e9e9	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A1CW	5cee227d-d3e9-4138-85e2-38662ef8aac8	40174	5cee227d-d3e9-4138-85e2-38662ef8aac8
+1e63d4b3-1b49-4bb9-b64f-001273aae120	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A2N9	5cf5724c-3220-491c-bf99-05c362ae12b3	40590	5cf5724c-3220-491c-bf99-05c362ae12b3
+25184e51-1464-438a-80ff-cfc9a443cd36	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-MK-A4N9	890b6f4f-1925-485e-a283-82842782801d	58065	890b6f4f-1925-485e-a283-82842782801d
+212b2002-1ebf-47dd-82f8-6c0b904cf909	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A2CR	cc62b393-bcae-49ca-921a-7eeabdbdc36d	40305	cc62b393-bcae-49ca-921a-7eeabdbdc36d
+24cf6397-60ef-4635-81f0-78a67157aac0	Unknown	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3OA	27769632-fa28-4c18-a3f6-65bb550cd013	60300	27769632-fa28-4c18-a3f6-65bb550cd013
+29c4319c-3ead-42b1-810d-418da8d515c4	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A3PT	95f76c41-7865-4da0-b1a5-01f17317a8b7	51525	95f76c41-7865-4da0-b1a5-01f17317a8b7
+2cb43652-109b-4b59-9fcd-512903591f45	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A3BW	f9777012-e192-4572-a796-b236a70d1b4a	53264	f9777012-e192-4572-a796-b236a70d1b4a
+2a398af1-aea5-4aae-ab00-a2dc152f965a	Unknown	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3O3	842a6ba3-1a9a-45c9-98d2-8b4f4ac78978	51874	842a6ba3-1a9a-45c9-98d2-8b4f4ac78978
+3a211d5a-085f-4902-86b6-50e4eb36b897	Unknown	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3O7	618c1acb-e0b6-44b5-86e3-b46fe67a9890	51753	618c1acb-e0b6-44b5-86e3-b46fe67a9890
+3e9fda23-676d-4e78-8948-0c9df3d10064	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DE-A0XZ	e7b063e1-1f57-4bd5-915f-ac78a13c2286	58587	e7b063e1-1f57-4bd5-915f-ac78a13c2286
+3b5582e4-58af-4a01-b83d-6fe9704f2b43	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A3BN	3253d64a-7139-4e33-a32e-c11bd4d08c4f	39948	3253d64a-7139-4e33-a32e-c11bd4d08c4f
+76c4d298-6f17-4f11-a706-cd844a0e0914	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3V6	a13bc914-3503-40ac-b2b0-bc88898fac66	52468	a13bc914-3503-40ac-b2b0-bc88898fac66
+471636d5-9eca-49df-872a-c2a2cac61838	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3CN	eacbb057-f536-422d-b87a-7db5805005d1	51918	eacbb057-f536-422d-b87a-7db5805005d1
+ab17d69e-0078-4206-939e-e4784fdc9a96	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3CY	157bca82-3c68-4e0e-a41b-2bd09bca36a8	47170	157bca82-3c68-4e0e-a41b-2bd09bca36a8
+4729410a-7240-4ed0-b478-78cc6c7a4810	Unknown	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A4FH	400fa849-5870-442f-9a1c-44fef4548979	52234	400fa849-5870-442f-9a1c-44fef4548979
+3dcee02c-a3d2-4188-a072-4d36c8a7e8fd	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A2N4	23a98604-66c6-4783-acd1-e4afb6448d14	44874	23a98604-66c6-4783-acd1-e4afb6448d14
+47bde6dd-fa41-4d1b-8b20-2a5a5cdb2769	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3AK	79efae8a-c1b8-482f-b133-a05e4d146c49	53289	79efae8a-c1b8-482f-b133-a05e4d146c49
+4cccc34b-daf6-41ca-9bf8-f1614525eac9	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A3PU	96a98c06-ac8d-4797-a3bd-bf5ae6ee6c92	58850	96a98c06-ac8d-4797-a3bd-bf5ae6ee6c92
+4be84ffe-4b12-4b71-90bb-9ea0ca6947f8	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-E8-A433	6ab1cf9d-281d-41d9-84be-07f6a4e47689	60199	6ab1cf9d-281d-41d9-84be-07f6a4e47689
+4d30606f-3ab6-4ef0-9991-8897cdb9960b	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-KS-A4IC	84f6136a-bc51-4b38-9e8c-078f86354c36	63498	84f6136a-bc51-4b38-9e8c-078f86354c36
+4c0b29e6-8530-43d5-8e8a-efb754e83ecd	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3CT	148139f6-7e4b-4092-8d44-0825023a55a7	34064	148139f6-7e4b-4092-8d44-0825023a55a7
+541406fa-4443-4094-a303-43913d96f016	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-IM-A41Y	db35116d-6024-4294-a877-c8c9afefb17e	58079	db35116d-6024-4294-a877-c8c9afefb17e
+52203ff5-57b2-4d56-8935-2ff1eb61d7b8	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FY-A3I5	62b31790-4d2b-40d7-a5e7-5d64d8ca6053	46843	62b31790-4d2b-40d7-a5e7-5d64d8ca6053
+59cd0969-a798-4d19-95ed-a311f39d2f38	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3FN	f86c0380-df03-4ef7-ba57-6f15b1bf9079	40340	f86c0380-df03-4ef7-ba57-6f15b1bf9079
+5832c002-e5a4-45bc-b8f9-dbb841fd22f3	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-J8-A3O0	aa4d1ad2-4f98-4740-9a1a-b2ccef265892	40337	aa4d1ad2-4f98-4740-9a1a-b2ccef265892
+641ba101-135b-4395-9360-2058fabfed56	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3CL	0b483966-a4d9-4315-8835-65068c60219a	33751	0b483966-a4d9-4315-8835-65068c60219a
+6435ea21-7214-40c5-9ccb-a1f22685a728	hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3T3	5b1339cf-c407-43ca-b43e-9e78f113e03f	51893	5b1339cf-c407-43ca-b43e-9e78f113e03f
+618a1c29-5c26-46db-83d5-4799f9043cd3	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A25J	b7eba687-0bcb-468f-ba50-a487806df635	57847	b7eba687-0bcb-468f-ba50-a487806df635
+667eb7f6-1d36-49bb-9d7b-c9d167b64619	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A2CU	70e135eb-de70-4a4b-bd4a-132b4f2a22da	45167	70e135eb-de70-4a4b-bd4a-132b4f2a22da
+69f621c8-de77-48c7-8939-4c887da9e6d8	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3UN	03ad8130-93b5-492b-88e8-c4cd74ff03a1	60720	03ad8130-93b5-492b-88e8-c4cd74ff03a1
+6a63961e-6ca4-45fa-93ee-65f7c392fcf0	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A4JX	0fdd69a8-8056-4aa0-8768-766e6c6154f3	47127	0fdd69a8-8056-4aa0-8768-766e6c6154f3
+6592a7db-cbc7-4afd-9fdb-5cc16c16eeca	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3V3	983ee813-1c64-4113-a29d-09ab9f85e86d	47528	983ee813-1c64-4113-a29d-09ab9f85e86d
+6ba76174-620e-4851-857a-d0adbfd6f3e6	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A28Z	303e4a8f-4b29-4405-80d5-dd82f27232e4	45225	303e4a8f-4b29-4405-80d5-dd82f27232e4
+6b529fb3-0b1b-4d3b-9309-bfcb063dbb71	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FY-A4B0	827834f6-705e-4ed0-83cc-de9b2e06cc75	57623	827834f6-705e-4ed0-83cc-de9b2e06cc75
+6e1c9ac8-eead-4db9-8f30-ef3591daf78b	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A39K	2ef33c5e-840a-4ac0-8f07-ba73bb46ba66	94151	2ef33c5e-840a-4ac0-8f07-ba73bb46ba66
+729fc937-192a-4eb7-b357-b8f0d2da1f08	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A2N8	c40faae2-6cd7-4e10-b3fb-f4db4f603e30	40148	c40faae2-6cd7-4e10-b3fb-f4db4f603e30
+72d8dcc3-0709-4fd1-98d4-fb75e9340758	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A0Z0	d9237ce4-e820-4e20-b7fc-018d6d734016	40531	d9237ce4-e820-4e20-b7fc-018d6d734016
+7555e736-a9e2-4b96-a633-fb0f7224d62c	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A2CS	d2cc949c-d06c-47a7-9669-07df135d1d29	63149	d2cc949c-d06c-47a7-9669-07df135d1d29
+75a93f0e-cd41-43c6-a303-ff37e31395e9	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-CE-A27D	c872b176-947e-4a5f-919c-3185d52848b6	39649	c872b176-947e-4a5f-919c-3185d52848b6
+7044dee0-fd6c-4e75-b731-dc60a386a1ab	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FE-A231	f63cc68c-1bfc-4726-af0e-f56ab21f3206	58748	f63cc68c-1bfc-4726-af0e-f56ab21f3206
+7629f864-a009-4aa9-bf7e-2d99e00d294e	Unknown	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A4KN	e69b7fba-8183-4d67-a176-3a209c15befc	65495	e69b7fba-8183-4d67-a176-3a209c15befc
+744df1f5-a7d5-4675-92ce-6e4713f0d541	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FY-A40M	ef5c34ad-c665-4e89-8d1f-95b180673a58	58110	ef5c34ad-c665-4e89-8d1f-95b180673a58
+745642a0-ddba-495b-bafc-da085552758a	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3CU	d86fcadd-e1f4-4bf9-9058-407bfddc2c8e	51702	d86fcadd-e1f4-4bf9-9058-407bfddc2c8e
+7b46ee87-e976-41bf-bdf1-9bff58f8314e	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3V2	7d2eaa66-285b-41b8-92dc-810e61a04389	48056	7d2eaa66-285b-41b8-92dc-810e61a04389
+7b49f263-fa0d-4f1b-9c00-1ff7a8c9ac79	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A40P	5b71198e-4218-4f32-9045-0affe6583f02	47293	5b71198e-4218-4f32-9045-0affe6583f02
+8023d4c9-b56d-417a-9a52-d45b59c756ed	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-ET-A25M	018da04a-4436-42b5-a86b-3ca30d8ce2af	71267	018da04a-4436-42b5-a86b-3ca30d8ce2af
+7a9b57c9-6f80-4aea-bf9c-76407c8084be	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A2Q7	8f687701-24e7-4ea4-a736-ef76c1752e32	53985	8f687701-24e7-4ea4-a736-ef76c1752e32
+8446bcba-0dcd-42eb-96a1-00f5470c9f65	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FK-A3SG	62477cfc-5a33-4ec2-ab9c-08589f2a68e4	46492	62477cfc-5a33-4ec2-ab9c-08589f2a68e4
+80aeb61d-21cf-4804-90ea-5d22eb06e299	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-H2-A421	de96788c-8ff7-4964-893a-b814ddb6e5e0	64494	de96788c-8ff7-4964-893a-b814ddb6e5e0
+7deedeba-f05b-453c-9df1-eeb20b0ec72e	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-GE-A2C6	84fc2c74-8648-46f8-a473-076cc26e17c3	58499	84fc2c74-8648-46f8-a473-076cc26e17c3
+8492820d-b619-4a74-95d3-eb574067f3f3	not reported	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A22Q	693084a2-2f15-4244-bcc5-5e7fbcf5c09c	40849	693084a2-2f15-4244-bcc5-5e7fbcf5c09c
+812a2d18-c43b-4484-8a8d-234056a0e90b	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FY-A76V	587d2418-cc55-4f2b-9564-d50ff1c38e13	33879	587d2418-cc55-4f2b-9564-d50ff1c38e13
+86b82345-6f4d-44fd-a9db-6f107de62f53	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-E8-A416	39074ab2-aae1-46f7-9606-4b9101f418b4	60040	39074ab2-aae1-46f7-9606-4b9101f418b4
+884ad3b9-5350-4580-85f6-80ac05a6dcea	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-E3-A3E1	5123e5fd-a4bf-4c49-a5cc-b71f6e84bd94	59276	5123e5fd-a4bf-4c49-a5cc-b71f6e84bd94
+8950691c-600f-4a90-adf6-42a8f129aa3e	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FK-A3SB	374682d2-42ee-487e-b07b-dec8d12f0d05	51850	374682d2-42ee-487e-b07b-dec8d12f0d05
+8a8e05aa-f13a-4142-a335-7aafbee7b664	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-FY-A40K	9e6c6c36-4701-4f4b-900f-af6739fe277c	62796	9e6c6c36-4701-4f4b-900f-af6739fe277c
+8ed1b900-a8a8-4164-b96b-f060f15d7075	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-H2-A422	e842382c-6314-42dc-81d9-1b3b2d4a9eac	64440	e842382c-6314-42dc-81d9-1b3b2d4a9eac
+8aa99f35-c644-4f91-9eff-a5d3fae758b0	hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A13S	5fdae1cb-f3c4-4c17-937c-e4a78f702dbe	40316	5fdae1cb-f3c4-4c17-937c-e4a78f702dbe
+8cfc2589-b0ad-4fe6-8420-8f6fe0178bcc	Unknown	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A3OB	09a74534-7652-4702-9e76-813b2ee96fb4	60308	09a74534-7652-4702-9e76-813b2ee96fb4
+99ac4f2e-2e63-4f1e-af0f-8f23a2caf999	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A13V	97795c98-61f4-40f9-a088-6b075b80c986	59025	97795c98-61f4-40f9-a088-6b075b80c986
+97d0e1bb-1459-4124-b25a-48195f2ad8b5	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EL-A3T1	20ce387a-930c-4b78-b597-83ab02df259e	47047	20ce387a-930c-4b78-b597-83ab02df259e
+a2e2fac3-cca5-4e33-aa6c-1d9d3ac3aeec	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-E8-A419	fa830c82-9706-40bd-a2c6-1a497045352b	51434	fa830c82-9706-40bd-a2c6-1a497045352b
+a1196d5f-8c7d-4d9d-9e46-c5c22a9c2fef	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A45C	599f46aa-79a8-4808-b8cb-6eeadc4827ad	52225	599f46aa-79a8-4808-b8cb-6eeadc4827ad
+a65ec434-9ae0-453f-b440-08bf25558fd1	not reported	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-EM-A2OW	fd8d130d-1509-4429-85bf-48d9695282af	53768	fd8d130d-1509-4429-85bf-48d9695282af
+a3810f36-d2b4-4a45-ad08-a4dbfb9d27aa	not hispanic or latino	male	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-BJ-A0ZG	5aeb907e-a4c9-4435-aeed-c33dc8cd9091	53232	5aeb907e-a4c9-4435-aeed-c33dc8cd9091
+a3b49c90-fa9f-4189-a442-64ec1ad97a01	not hispanic or latino	female	Thyroid Carcinoma	Thyroid	TCGA-THCA	TCGA-DJ-A3V8	f55dee3c-5c8c-40fe-8ff1-37e65ddf39d6	52546	f55dee3c-5c8c-40fe-8ff1-37e65ddf39d6
