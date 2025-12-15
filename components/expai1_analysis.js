@@ -186,7 +186,7 @@ function _render_pie_hist_stage(dat_cases){
     let tmp = { 'all': {  } };
     for(let d of dat_cases){
         let v = d[sel_var];
-        if( ! Object.keys(cnt).includes(v) ){
+        if( ! Object.keys(tmp).includes(v) ){
             tmp[v] = {};
         }
         for(let t of targets){
@@ -238,7 +238,7 @@ function _render_prescribed_drugs(dat_cases){
     let tmp = { 'all': { } };
     for(let d of dat_cases){
         let v = d[sel_var];
-        if( ! Object.keys(cnt).includes(v) ){
+        if( ! Object.keys(tmp).includes(v) ){
             tmp[v] = {};
         }
         for(let drg of d['drug_details']){
@@ -261,7 +261,7 @@ function _render_prescribed_drugs(dat_cases){
     keys.forEach( (it) => {
         let _id = it.replaceAll(' ','_');
         htmls += `
-            <div  id = "bar_most_used_drug_${_id}_ai1" class="col-4" >
+            <div  id = "bar_most_used_drug_${_id}_ai1" class="col-6" >
 
             </div>
         `;
@@ -269,15 +269,18 @@ function _render_prescribed_drugs(dat_cases){
     document.getElementById(container).innerHTML = htmls;
 
     keys.forEach( (it) => {
+        console.log('plot2', it)
         let _id = it.replaceAll(' ','_');
 
         let itlay = layout;
         itlay["title"] = { "text": itlay.title.text.replaceAll('__grp__', it) };
         let stmp = Object.fromEntries( Object.entries( tmp[it] ).sort(([,a],[,b]) => b-a ) );
-        let labels = Object.keys( stmp[it] ).slice(0,10);
-        let values = Object.values( stmp[it] ).slice(0,10);
-        let pldata = [{ "name": it, "x": values, "y": labels, "type": "bar" }];
-        Plotly.newPlot( `pie_${_id}_ai1`, pldata, itlay, config);
+        let labels = Object.keys( stmp ).slice(0,10);
+        if( labels.length > 0 ){
+            let values = Object.values( stmp ).slice(0,10);
+            let pldata = [{ "name": it, "x": labels, "y": values, "type": "bar" }];
+            Plotly.newPlot( `bar_most_used_drug_${_id}_ai1`, pldata, itlay, config);
+        }
     });
 
     document.getElementById("cases_most_used_drugs_ai1").style.display = '';
@@ -292,7 +295,7 @@ function _render_distribution_plots(dat_cases){
     let tmp = { 'all': { } };
     for(let d of dat_cases){
         let v = d[sel_var];
-        if( ! Object.keys(cnt).includes(v) ){
+        if( ! Object.keys(tmp).includes(v) ){
             tmp[v] = { };
             for(let t of all_targets){
                 tmp[v][t] = [];
@@ -301,8 +304,10 @@ function _render_distribution_plots(dat_cases){
         }
 
         for(let t of targets){
-            tmp[v][t].push( parseInt(d[sel_var][t]) );
-            tmp['all'][t].push( parseInt(d[sel_var][t]) );
+            if( Object.keys(d).includes(t) ){
+                tmp[v][t].push( parseInt(d[t]) );
+                tmp['all'][t].push( parseInt(d[t]) );
+            }
         }
 
         for(let drg of d['drug_details']){
@@ -399,7 +404,7 @@ function perform_render_stratification_analysis(){
 
     // pie plot stage and horizontal bar of drugs per
 
-    obj_cov.get_clinical_stratification_survival(selected_proj).then( (dat) => {
+    obj_ai1.get_clinical_stratification_survival(selected_proj).then( (dat) => {
         
         tissue_ai1.innerHTML = dat.cases[0].tumor_tissue_site;
         hist_type_ai1.innerHTML = dat.cases[0].histological_type;
@@ -429,8 +434,9 @@ function perform_render_stratification_analysis(){
     } );
 }
 
-function setup_current_project_ai1(p){
+function setup_current_project_ai1(){
     analysis_current_ai1.style.display = 'none';
+    let p = select_project_ai1.value;
 
     obj_ai1.current_project = obj_ai1.projects.filter( x => x.project_id == p )[0];
     document.getElementById('proj_name_ai1').innerHTML = obj_ai1.current_project.name;
