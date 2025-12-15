@@ -432,7 +432,7 @@ function perform_render_stratification_analysis(){
 function setup_current_project_ai1(p){
     analysis_current_ai1.style.display = 'none';
 
-    obj_ai1.current_project = obj_cov.projects.filter( x => x.project_id == p )[0];
+    obj_ai1.current_project = obj_ai1.projects.filter( x => x.project_id == p )[0];
     document.getElementById('proj_name_ai1').innerHTML = obj_ai1.current_project.name;
 
     selected_proj.innerHTML = `Selected project: ${p}`;
