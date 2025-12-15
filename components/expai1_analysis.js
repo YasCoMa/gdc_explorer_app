@@ -330,7 +330,7 @@ function _render_distribution_plots(dat_cases){
                 tmp[v]['duration_treat_radiation'].push( parseInt( v1 ) );
                 tmp['all']['duration_treat_radiation'].push( parseInt( v1 ) );
             }
-            if(v2 != null){
+            if(v2 != null && v2<400 ){
                 tmp[v]['dosis_radiation'].push( parseInt( v2 ) );
                 tmp['all']['dosis_radiation'].push( parseInt( v2 ) );
             }
@@ -371,9 +371,9 @@ function _render_km_survival_plots(dat_surv){
     let sel_var = select_dimension_ai1.value;
     let container = "plot_cases_survival_ai1";
 
-    let tmp = dat_surv[sel_var];
-    let layout = { title: { text: "Kaplan Meier - Subgroup __grp__" }, xaxis: { title: { text: 'Drugs' } }, yaxis: { title: { text: 'Survival probability' } } };
-    let keys = Object.keys(tmp);
+    let dat = dat_surv[sel_var];
+    let layout = { title: { text: "Kaplan Meier - Subgroup __grp__" }, xaxis: { title: { text: 'Time (days)' } }, yaxis: { title: { text: 'Survival probability' } } };
+    let keys = Object.keys(dat);
     let htmls = "";
     keys.forEach( (it) => {
         let _id = it.replaceAll(' ','_');
@@ -386,13 +386,16 @@ function _render_km_survival_plots(dat_surv){
     document.getElementById(container).innerHTML = htmls;
 
      keys.forEach( (it) => {
+        let tmp = dat[it];
         let _id = it.replaceAll(' ','_');
 
         let itlay = layout;
         itlay["title"] = { "text": itlay.title.text.replaceAll('__grp__', it) };
         
-        let pldata = [ { x: tmp.x, y: tmp.y, error_y: { type: 'data', symmetric: false, array: tmp.ciu, arrayminus: tmp.cil }, type: 'scatter' } ];
-        Plotly.newPlot( `km_${_id}_ai1`, pldata, itlay, config);
+        if(tmp.x.length > 0){
+            let pldata = [ { x: tmp.x, y: tmp.y, error_y: { type: 'data', symmetric: false, array: tmp.ciu, arrayminus: tmp.cil }, type: 'scatter' } ];
+            Plotly.newPlot( `km_${_id}_ai1`, pldata, itlay, config);
+        }
     });
 
     document.getElementById("cases_survival_ai1").style.display = '';
@@ -430,7 +433,7 @@ function perform_render_stratification_analysis(){
          _render_pie_hist_stage(dat.cases);
          _render_prescribed_drugs(dat.cases);
          _render_distribution_plots(dat.cases);
-         _render_km_survival_plots(dat_survival);
+         _render_km_survival_plots(dat.survival);
     } );
 }
 
