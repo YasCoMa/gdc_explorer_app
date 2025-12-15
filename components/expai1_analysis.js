@@ -392,7 +392,7 @@ function _render_km_survival_plots(dat_surv){
         let itlay = layout;
         itlay["title"] = { "text": itlay.title.text.replaceAll('__grp__', it) };
         
-        if(tmp.x.length > 0){
+        if(tmp.x){
             let pldata = [ { x: tmp.x, y: tmp.y, error_y: { type: 'data', symmetric: false, array: tmp.ciu, arrayminus: tmp.cil }, type: 'scatter' } ];
             Plotly.newPlot( `km_${_id}_ai1`, pldata, itlay, config);
         }
