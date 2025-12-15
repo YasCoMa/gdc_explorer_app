@@ -269,7 +269,7 @@ function _render_prescribed_drugs(dat_cases){
     document.getElementById(container).innerHTML = htmls;
 
     keys.forEach( (it) => {
-        console.log('plot2', it)
+        console.log('plot2', it, tmp[it])
         let _id = it.replaceAll(' ','_');
 
         let itlay = layout;
