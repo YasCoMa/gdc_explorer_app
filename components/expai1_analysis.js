@@ -55,22 +55,23 @@ class ExpAiDisparitySummary extends HTMLElement {
                         <span style = "font-weight: bold;" > Subgroups count: </span> 
                         <span id = "samples_info_ai1" >  </span> 
                     </p>
+                    <p style="font-weight: bold;" > * the subgroups not represented in the next visualization sections did not have enough annotations in the cases clinical data</p>
 
                     <!-- plot stage per subgroup -->
                     <div class="col-12" id="cases_stage_ai1" style="display: none;" >
-                        <p> The plots below show the distribution of pathological state in each subgroup </p>
+                        <h4> The plots below show the distribution of pathological state in each subgroup </h4>
                         <div id="plot_cases_hist_stage_ai1" class="mt-3 row justify-content-start"  >  </div>
                     </div>
 
                     <!-- plot drugs used per subgroup -->
                     <div class="col-12" id="cases_most_used_drugs_ai1" style="display: none;" >
-                        <p> The plots below show the most frequently prescribed drugs in each subgroup </p>
+                        <h4> The plots below show the most frequently prescribed drugs in each subgroup </h4>
                         <div id="plot_cases_prescribed_drugs_ai1" class="mt-3 row justify-content-start"  >  </div>
                     </div>
 
                     <!-- plot distribution continuous metric variables per subgroup (age at diagnosis, admin drugs and radiation periods, dosis_drugs, dosis_radiation, duration_treat_drug, duration_treat_radiation) / https://plotly.com/javascript/violin/ -->
                     <div class="col-12" id="cases_dist_ai1" style="display: none;" >
-                        <p> The plots below show the distribution of the following continuous variables in each subgroup: 
+                        <h4> The plots below show the distribution of the following continuous variables in each subgroup: 
                             <ul>
                                 <li>Age at diagnosis</li>
                                 <li>Qty. followup events</li>
@@ -81,13 +82,15 @@ class ExpAiDisparitySummary extends HTMLElement {
                                 <li>Dosis used in treatment by drugs</li>
                                 <li>Dosis used in treatment by radiation</li>
                             </ul>
-                        </p>
+                        </h4>
                         <div id="plot_cases_dist_ai1" class="mt-3 row justify-content-start"  >  </div>
                     </div>
 
                     <!-- plot survival KM per subgroup / https://plotly.com/javascript/error-bars/ -->
                     <div class="col-12" id="cases_survival_ai1" style="display: none;" >
-                        <p> The plots below show the Kaplan meyer survival plot in each subgroup </p>
+                        <h4> The plots below show the Kaplan meyer survival plot in each subgroup </h4>
+                        <p style="font-weight: bold;" > * the subgroups not represented here did not have enough annotations to compose at least two time points </p>
+
                         <div id="plot_cases_survival_ai1" class="mt-3 row justify-content-start"  >  </div>
                     </div>
                 </div>
@@ -273,7 +276,7 @@ function _render_prescribed_drugs(dat_cases){
         let _id = it.replaceAll(' ','_');
 
         let itlay = layout;
-        itlay["title"] = { "text": itlay.title.text.replaceAll('__grp__', it) };
+        itlay["title"] = { "text": `Prescribed drugs for treatment - Subgroup ${it}` };
         let stmp = Object.fromEntries( Object.entries( tmp[it] ).sort(([,a],[,b]) => b-a ) );
         let labels = Object.keys( stmp ).slice(0,10);
         if( labels.length > 0 ){
@@ -390,7 +393,7 @@ function _render_km_survival_plots(dat_surv){
         let _id = it.replaceAll(' ','_');
 
         let itlay = layout;
-        itlay["title"] = { "text": itlay.title.text.replaceAll('__grp__', it) };
+        itlay["title"] = { "text": `Kaplan Meier - Subgroup ${it}` };
         
         if(tmp.x){
             let pldata = [ { x: tmp.x, y: tmp.y, error_y: { type: 'data', symmetric: false, array: tmp.ciu, arrayminus: tmp.cil }, type: 'scatter' } ];
