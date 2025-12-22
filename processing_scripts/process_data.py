@@ -2,6 +2,7 @@ import os
 import sys
 import json
 import gzip
+import subprocess
 import shutil
 import requests
 import pandas as pd
@@ -170,9 +171,23 @@ class DataWrangler:
         opath = os.path.join( fsodir, "raw_%s.out" %(uuid) )
         if( not os.path.isfile(opath) ):
             url = "https://api.gdc.cancer.gov/data/%s" %(uuid)
+            '''
             response = requests.get(url)
             f = open( opath, 'w')
             f.write(response.text)
+            f.close()
+            '''
+            subprocess.run(["wget", "-O", opath, url])
+
+            try:
+                with gzip.open(opath, 'rt') as f:
+                    dat = f.readlines()
+            except:
+                with open(opath, 'r') as f:
+                    dat = f.readlines()
+                    
+            f = open( opath,'w')
+            f.write(''.join(dat))
             f.close()
 
     def _get_clinical_properties(self, path):
@@ -338,7 +353,7 @@ class DataWrangler:
         if( len(file_list) < 600 ):
             for uuid in file_list:
                 self._get_file_by_uuid( fsodir, uuid)
-            self.extract_data_clinical(odir, fsodir)
+            #self.extract_data_clinical(odir, fsodir)
         else:
             print('Skipping big files in ', project)
 
