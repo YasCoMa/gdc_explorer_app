@@ -318,6 +318,30 @@ class DataWrangler:
             self._get_file_by_uuid( fsodir, uuid)
         self.extract_data_clinical(odir, fsodir)
 
+    def extract_data_mutationSnv(self, odir, fsodir):
+
+        opath = os.path.join(odir, "data_cases.json")
+        '''
+        if( not os.path.exists(opath) ):
+            dat_cases = []
+            for f in tqdm(os.listdir(fsodir)):
+                path = os.path.join(fsodir, f)
+                instance = self._get_mutationSnv_properties(path)
+                dat_cases.append( instance )
+            json.dump( dat_cases, open(opath, 'w') )
+            #shutil.rmtree(fsodir)
+        '''
+
+    def parse_mutationSnv_data(self, project):
+        datcat = 'simple nucleotide variation'
+        odir, fsodir, file_list = self.get_case_files_by_data_category(project, datcat)
+        if( len(file_list) < 600 ):
+            for uuid in file_list:
+                self._get_file_by_uuid( fsodir, uuid)
+            self.extract_data_clinical(odir, fsodir)
+        else:
+            print('Skipping big files in ', project)
+
     def test_survival_km(self, project, datcat):
         basename = "%s_%s" %(project, datcat.replace(" ", "-"))
         odir = os.path.join(self.out, "%s" %(basename) )
@@ -459,7 +483,8 @@ class DataWrangler:
         for p in tqdm(projects):
             #self.parse_clinical_data(p)
             #self.test_survival_km(p, dc)
-            self._compress_files(p, dc, remove=True)
+            #self._compress_files(p, dc, remove=True)
+            self.parse_mutationSnv_data(p)
 
 if( __name__ == "__main__" ):
     o = DataWrangler()
