@@ -333,6 +333,14 @@ class DataWrangler:
             self._get_file_by_uuid( fsodir, uuid)
         self.extract_data_clinical(odir, fsodir)
 
+    def _get_mutationSnv_properties(self, path):
+        uuid = path.split('/')[-1].split('.')[0].replace('raw_','')
+        dat = { 'uuid': uuid }
+        df = pd.read_csv(path, sep='\t', comment='#')
+        df = df[ (df['Consequence'] != 'synonymous_variant') ]
+
+        return dat
+
     def extract_data_mutationSnv(self, odir, fsodir):
 
         opath = os.path.join(odir, "data_cases.json")
