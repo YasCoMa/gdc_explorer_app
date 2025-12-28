@@ -86,6 +86,63 @@ class DataWrangler:
         else:
             print("Please choose a valid platform for the methylation beads: illumina_27, illumina_450, illumina_epic or illumina_epicv2")
 
+    def get_cases_info_by_project(self, project):
+        basename = "%s_%s" %(project, 'cases')
+        odir = os.path.join(self.out, "%s" %(basename) )
+        if( not os.path.exists(odir) ):
+            os.makedirs(odir)
+
+        opath = os.path.join(odir, "cases_metadata.json")
+        if( not os.path.isfile(opath) ):
+            
+            filters = { "op": "and",
+                    "content":[
+                        {
+                            "op":"in",
+                            "content":{
+                                "field":"project.project_id",
+                                    "value": [ project ]
+                            }
+                        }
+                    ]
+                }
+
+            fields = [
+                "case_id",
+                "submitter_id",
+                "samples.tumor_descriptor",
+                "samples.tissue_type",
+                "demographic.ethnicity",
+                "demographic.gender",
+                "demographic.race"
+            ]
+
+            fields = ",".join(fields)
+            endpoint = "https://api.gdc.cancer.gov/cases"
+
+            params = {
+                "filters": json.dumps(filters),
+                "fields": fields,
+                "format": "json",
+                "size": "2000"
+            }
+            response = requests.get(endpoint, params = params)
+            d = response.json()
+            
+            df = {}
+            for case in d['data']['hits']:
+                _id = case['case_id']
+                meta = case['demographic']
+                meta['submitter_id'] = case['submitter_id']
+                df[_id] = meta
+            
+            with open( opath, 'w') as f:
+                json.dump( df, f)
+        else:
+            df = json.load( open(opath, 'r') )
+
+        return df
+
     def get_case_files_by_data_category(self, project, datcat):
         basename = "%s_%s" %(project, datcat.replace(" ", "-"))
         odir = os.path.join(self.out, "%s" %(basename) )
@@ -338,34 +395,119 @@ class DataWrangler:
         self.extract_data_clinical(odir, fsodir)
 
     def _get_mutationSnv_properties(self, path):
+        '''
+        distribution combinations:
+            chromosome
+            Consequence
+            Hugo_Symbol
+
+        '''
+        group_cols = ["Chromosome", "Hugo_Symbol", "Consequence", "locationAA"]
         uuid = path.split('/')[-1].split('.')[0].replace('raw_','')
-        dat = { 'uuid': uuid }
+        dat = { 'uuid': uuid, 'counts': {} }
+
         df = pd.read_csv(path, sep='\t', comment='#')
-        df = df[ (df['Consequence'] != 'synonymous_variant') ]
+        #df = df[ (df['Consequence'] != 'synonymous_variant') ]
+        df = df[ (~ df['Consequence'].str.lower().str.contains('synonymous')) ]
+        df['locationAA'] = df['Hugo_Symbol']+'_'+df['HGVSp']
+
+        for c in group_cols:
+            keys = df[ [c, 'callers'] ].groupby(c).count().index.values
+            values = df[ [c, 'callers'] ].groupby(c).count().callers.values
+            normc = c.lower()
+            dat['counts'][normc] = dict( zip( keys, values ) )
 
         return dat
 
-    def extract_data_mutationSnv(self, odir, fsodir):
+    def extract_data_mutationSnv(self, odir, fsodir, project):
+        mapp = self._get_map_case_file(odir)
+        meta_cases = self.get_cases_info_by_project(project)
 
         opath = os.path.join(odir, "data_cases.json")
-        '''
-        if( not os.path.exists(opath) ):
-            dat_cases = []
+        cols_stratification = ['race','gender', 'ethnicity']
+
+        datall = { "all": {} }
+        for c in cols_stratification:
+            k = "by_%s" %(c)
+            datall[k] = {}
+
+        if( True or not os.path.exists(opath) ):
+            uids = set()
             for f in tqdm(os.listdir(fsodir)):
                 path = os.path.join(fsodir, f)
                 instance = self._get_mutationSnv_properties(path)
-                dat_cases.append( instance )
-            json.dump( dat_cases, open(opath, 'w') )
-            #shutil.rmtree(fsodir)
-        '''
+                uuid = instance["uuid"]
+                uids.add(uuid)
+                case_id = mapp[uuid]
 
+                cnts = instance["counts"]
+                metas = cnts.keys()
+                for m in metas:
+                    # Stratification
+                    for c in cols_stratification:
+                        k = "by_%s" %(c)
+                        vs = meta_cases[case_id][c]
+                        if( not vs in datall[k] ):
+                            datall[k][vs] = {}
+                        if( not m in datall[k][vs] ):
+                            datall[k][vs][m] = {}
+
+                    # Generical one 
+                    if( not m in datall["all"] ):
+                        datall["all"][m] = {}
+
+                    value_cnts = cnts[m]
+                    for v in value_cnts:
+                        vcount = value_cnts[v].item()
+
+                        # Stratification
+                        for c in cols_stratification:
+                            k = "by_%s" %(c)
+                            vs = meta_cases[case_id][c]
+                            if( not v in datall[k][vs][m] ):
+                                datall[k][vs][m][v] = {}
+                            datall[k][vs][m][v][uuid] = vcount
+
+                        # Generical one
+                        if( not v in datall["all"][m] ):
+                            datall["all"][m][v] = {}
+                        datall["all"][m][v][uuid] = vcount
+
+
+            for c in cols_stratification:
+                k = "by_%s" %(c)
+                for vs in datall[k]:
+                    for m in datall[k][vs]:
+                        for v in datall[k][vs][m]:
+                            for _id in uids:
+                                if( not _id in datall[k][vs][m][v] ):
+                                    datall[k][vs][m][v][_id] = 0
+
+            k = 'all'
+            for m in datall[k]:
+                for v in datall[k][m]:
+                    for _id in uids:
+                        if( not _id in datall[k][m][v] ):
+                            datall[k][m][v][_id] = 0
+
+            json.dump( datall, open(opath, 'w') )
+            #shutil.rmtree(fsodir)
+
+
+    def _get_map_case_file(self, odir):
+        path = os.path.join(odir, 'files_metadata.tsv')
+        df = pd.read_csv( path, sep='\t')
+        mapp = dict( zip( df['file_id'].values, df['cases.0.case_id'].values ) )
+
+        return mapp
+    
     def parse_mutationSnv_data(self, project):
         datcat = 'simple nucleotide variation'
         odir, fsodir, file_list = self.get_case_files_by_data_category(project, datcat)
         if( len(file_list) < 600 ):
             for uuid in file_list:
                 self._get_file_by_uuid( fsodir, uuid)
-            #self.extract_data_clinical(odir, fsodir)
+            self.extract_data_mutationSnv(odir, fsodir, project)
         else:
             print('Skipping big files in ', project)
 
@@ -505,13 +647,15 @@ class DataWrangler:
 
         p = 'TCGA-ACC'
         dc = 'clinical'
+        self.get_cases_info_by_project(p)
+        self.parse_mutationSnv_data(p)
         
         projects = [ "TCGA-ACC",  "TCGA-BLCA",  "TCGA-BRCA",  "TCGA-CESC",  "TCGA-CHOL",  "TCGA-COAD",  "TCGA-DLBC",  "TCGA-ESCA",  "TCGA-GBM",  "TCGA-HNSC",  "TCGA-KICH",  "TCGA-KIRC",  "TCGA-KIRP",  "TCGA-LAML",  "TCGA-LGG",  "TCGA-LIHC",  "TCGA-LUAD",  "TCGA-LUSC",  "TCGA-MESO",  "TCGA-OV",  "TCGA-PAAD",  "TCGA-PCPG",  "TCGA-PRAD",  "TCGA-READ",  "TCGA-SARC",  "TCGA-SKCM",  "TCGA-STAD",  "TCGA-TGCT",  "TCGA-THCA",  "TCGA-THYM",  "TCGA-UCEC",  "TCGA-UCS",  "TCGA-UVM" ]
-        for p in tqdm(projects):
+        #for p in tqdm(projects):
             #self.parse_clinical_data(p)
             #self.test_survival_km(p, dc)
             #self._compress_files(p, dc, remove=True)
-            self.parse_mutationSnv_data(p)
+            #self.parse_mutationSnv_data(p)
 
 if( __name__ == "__main__" ):
     o = DataWrangler()
