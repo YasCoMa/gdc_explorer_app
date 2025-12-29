@@ -609,6 +609,7 @@ class DataWrangler:
         
         datcat = 'transcriptome profiling'
         for p in projects:
+            print('--------------',p)
             odir, fsodir, file_list = self.get_case_files_by_data_category(p, datcat)
             mapp = self._get_map_case_file(odir)
 
