@@ -16,7 +16,9 @@ from matplotlib import pyplot as plt
 from sksurv.nonparametric import kaplan_meier_estimator
 
 class DataWrangler:
-    def __init__(self, fout = '../data_processed'):
+    def __init__(self, fout = '../data_processed', cutoff_cases_expression_rnaseq = 2):
+        self.cutoff_cases_expression_rnaseq = cutoff_cases_expression_rnaseq
+
         self.formats_datCategory = { "biospecimen": ["svs", "jpeg 2000"], "clinical": ["bcr xml"], "copy number variation": ["tsv", "txt"], "dna methylation": ["txt"], "proteome profiling": ["tsv"], "simple nucleotide variation": ["maf"], "transcriptome profiling": ["tsv"] }
 
         self.out = fout
@@ -518,6 +520,13 @@ class DataWrangler:
 
         return mapp
     
+    def _get_map_file_condition(self, odir):
+        path = os.path.join(odir, 'files_metadata.tsv')
+        df = pd.read_csv( path, sep='\t')
+        mapp = dict( zip( df['file_id'].values, df['cases.0.samples.0.tissue_type'].values ) )
+
+        return mapp
+    
     def parse_mutationSnv_data(self, project):
         datcat = 'simple nucleotide variation'
         odir, fsodir, file_list = self.get_case_files_by_data_category(project, datcat)
@@ -528,23 +537,92 @@ class DataWrangler:
         else:
             print('Skipping big files in ', project)
 
+    def _get_gene_counts(self, path):
+        df = pd.read_csv( path, sep='\t', comment='#')
+        df = df[ (~df.gene_name.isna()) ]
+        cnts = dict( zip( df.gene_name.values, df.unstranded.values ))
+        
+        return cnts
+
+    def extract_data_expressionCounts(self, odir, fsodir, project, accepted):
+        '''
+        Experimental design deseq
+        counts: index-rows are the case_sample_ids and the columns are the genes
+        metadata: index-rows are the case_sample_ids and the columns are informations about the samples but the unique mandatory one is the condition (normal x tumor)
+        
+        when using deseq, set case_sample col as index
+        '''
+
+        cols_stratification = ['race','gender', 'ethnicity']
+        gene_names = set()
+        
+        cpath = os.path.join(odir, "deseq_table_counts.tsv")
+        
+        mpath = os.path.join(odir, "deseq_table_meta.tsv")
+        mheader = ["case_sample", "condition"] + cols_stratification
+        mlines = [ mheader ]
+
+        mappc = self._get_map_file_condition(odir)
+        meta_cases = self.get_cases_info_by_project(project)
+        cnts = {}
+        for case_id in accepted:
+            groups = []
+            for cs in cols_stratification:
+                k = "by_%s" %(cs)
+                subgroup = meta_cases[case_id][cs]
+                groups.append(subgroup)
+
+            for uuid in accepted[case_id]:
+                condition = mappc[uuid]
+                path = os.path.join( fsodir, "raw_%s.out" %(uuid) )
+                case_sample = "%s_%s" %(case_id, uuid)
+                mlines.append( [case_sample, condition] + groups )
+
+                cnts[case_sample] = self._get_gene_counts(path)
+                gene_names.update( list(cnts[case_sample]) )
+        
+        # writing counts
+        cheader = ["case_sample"] + list(gene_names)
+        clines = [ cheader ]
+        for cs in cnts:
+            values = [cs]
+            for g in gene_names:
+                try:
+                    values.append( cnts[cs][g] )
+                except:
+                    values.append(0)
+            clines.append(values)
+
+        clines = list( map( lambda x: '\t'.join( [ str(y) for y in x ] ), clines ))
+        f = open( cpath, "w")
+        f.write("\n".join(clines) + "\n")
+        f.close()
+
+        # writing metadata
+        mlines = list( map( lambda x: '\t'.join( [ str(y) for y in x ] ), mlines ))
+        f = open( mpath, "w")
+        f.write("\n".join(mlines) + "\n")
+        f.close()
+
     def parse_expressionCounts_data(self):
         projects = self.select_projects_open_expressionCounts()
         
         datcat = 'transcriptome profiling'
         for p in projects:
-            odir, fsodir, file_list = self.get_case_files_by_data_category(project, datcat)
+            odir, fsodir, file_list = self.get_case_files_by_data_category(p, datcat)
             mapp = self._get_map_case_file(odir)
-            if( len(file_list) < 600 ):
-                for uuid in file_list:
-                    case = mapp[uuid]
-                    if( case in projects[p] ):
-                        self._get_file_by_uuid( fsodir, uuid)
-                #self.extract_data_expressionCounts(odir, fsodir, project)
-            else:
-                print('Skipping big files in ', project)
 
-
+            accepted = {}
+            ok_files = set()
+            for uuid in file_list:
+                case = mapp[uuid]
+                if( case in projects[p] ):
+                    self._get_file_by_uuid( fsodir, uuid)
+                    if( not case in accepted ):
+                        accepted[case] = []
+                    accepted[case].append(uuid)
+            self.extract_data_expressionCounts(odir, fsodir, p, accepted)
+            
         '''
         if( len(file_list) < 600 ):
             for uuid in file_list:
