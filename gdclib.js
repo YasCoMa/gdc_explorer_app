@@ -139,7 +139,6 @@ class GdcExplorerLib {
         let that = this;
         let promises = [ this._get_cases_count_by_data_category(p), this._get_cases_count_by_exp_strategy(p) ];
         let dat = await Promise.all( promises );
-        console.log(dat);
 
         let total_cases = this.processed_counts[p].cases;
         let coverage = { 
