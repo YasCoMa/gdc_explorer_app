@@ -272,7 +272,6 @@ function _render_prescribed_drugs(dat_cases){
     document.getElementById(container).innerHTML = htmls;
 
     keys.forEach( (it) => {
-        console.log('plot2', it, tmp[it])
         let _id = it.replaceAll(' ','_');
 
         let itlay = layout;
@@ -377,6 +376,7 @@ function _render_km_survival_plots(dat_surv){
     let dat = dat_surv[sel_var];
     let layout = { title: { text: "Kaplan Meier - Subgroup __grp__" }, xaxis: { title: { text: 'Time (days)' } }, yaxis: { title: { text: 'Survival probability' } } };
     let keys = Object.keys(dat);
+    console.log('km', keys)
     let htmls = "";
     keys.forEach( (it) => {
         let _id = it.replaceAll(' ','_');
@@ -391,6 +391,7 @@ function _render_km_survival_plots(dat_surv){
      keys.forEach( (it) => {
         let tmp = dat[it];
         let _id = it.replaceAll(' ','_');
+        console.log('km', it)
 
         let itlay = layout;
         itlay["title"] = { "text": `Kaplan Meier - Subgroup ${it}` };

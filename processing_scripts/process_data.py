@@ -218,6 +218,7 @@ class DataWrangler:
             }
 
             response = requests.get(endpoint, params = params)
+            #opath = 'tmp.tsv'
             f = open( opath, 'w')
             f.write(response.text)
             f.close()
@@ -431,7 +432,8 @@ class DataWrangler:
             k = "by_%s" %(c)
             datall[k] = {}
 
-        if( True or not os.path.exists(opath) ):
+        tpath = os.path.join(odir, 'table_cases.tsv')
+        if( not os.path.exists(tpath) ):
             uids = set()
             for f in tqdm(os.listdir(fsodir)):
                 path = os.path.join(fsodir, f)
@@ -474,23 +476,38 @@ class DataWrangler:
                         datall["all"][m][v][uuid] = vcount
 
 
+            header = ["demo_variable", "subgroup", "feature", "feature_value"] + list(uids)
+            lines = [ header ]
             for c in cols_stratification:
                 k = "by_%s" %(c)
                 for vs in datall[k]:
                     for m in datall[k][vs]:
                         for v in datall[k][vs][m]:
+                            values = []
                             for _id in uids:
                                 if( not _id in datall[k][vs][m][v] ):
                                     datall[k][vs][m][v][_id] = 0
+                                values.append( datall[k][vs][m][v][_id] )
+                            el = [k, vs, m, v] + values
+                            lines.append( el )
 
             k = 'all'
             for m in datall[k]:
                 for v in datall[k][m]:
+                    values = []
                     for _id in uids:
                         if( not _id in datall[k][m][v] ):
                             datall[k][m][v][_id] = 0
+                        values.append( datall[k][m][v][_id] )
+                    el = [k, "-", m, v] + values
+                    lines.append( el )
 
-            json.dump( datall, open(opath, 'w') )
+            lines = list( map( lambda x: '\t'.join( [ str(y) for y in x ] ), lines ))
+            f = open(tpath, "w")
+            f.write("\n".join(lines) + "\n")
+            f.close()
+
+            #json.dump( datall, open(opath, 'w') )
             #shutil.rmtree(fsodir)
 
 
@@ -510,6 +527,80 @@ class DataWrangler:
             self.extract_data_mutationSnv(odir, fsodir, project)
         else:
             print('Skipping big files in ', project)
+
+    def parse_expressionCounts_data(self):
+        projects = self.select_projects_open_expressionCounts()
+        
+        datcat = 'transcriptome profiling'
+        for p in projects:
+            odir, fsodir, file_list = self.get_case_files_by_data_category(project, datcat)
+            mapp = self._get_map_case_file(odir)
+            if( len(file_list) < 600 ):
+                for uuid in file_list:
+                    case = mapp[uuid]
+                    if( case in projects[p] ):
+                        self._get_file_by_uuid( fsodir, uuid)
+                #self.extract_data_expressionCounts(odir, fsodir, project)
+            else:
+                print('Skipping big files in ', project)
+
+
+        '''
+        if( len(file_list) < 600 ):
+            for uuid in file_list:
+                self._get_file_by_uuid( fsodir, uuid)
+            #self.extract_data_expressionCounts(odir, fsodir, project)
+        else:
+            print('Skipping big files in ', project)
+        '''
+
+    def select_projects_open_expressionCounts(self):
+        cutoff = self.cutoff_cases_expression_rnaseq
+        ok_projects = {}
+
+        projects = [ "TCGA-ACC",  "TCGA-BLCA",  "TCGA-BRCA",  "TCGA-CESC",  "TCGA-CHOL",  "TCGA-COAD",  "TCGA-DLBC",  "TCGA-ESCA",  "TCGA-GBM",  "TCGA-HNSC",  "TCGA-KICH",  "TCGA-KIRC",  "TCGA-KIRP",  "TCGA-LAML",  "TCGA-LGG",  "TCGA-LIHC",  "TCGA-LUAD",  "TCGA-LUSC",  "TCGA-MESO",  "TCGA-OV",  "TCGA-PAAD",  "TCGA-PCPG",  "TCGA-PRAD",  "TCGA-READ",  "TCGA-SARC",  "TCGA-SKCM",  "TCGA-STAD",  "TCGA-TGCT",  "TCGA-THCA",  "TCGA-THYM",  "TCGA-UCEC",  "TCGA-UCS",  "TCGA-UVM" ]
+
+        otab = os.path.join(self.out, 'expression_overview.tsv')
+        if( not os.path.exists(otab) ):
+            header = ["project", "qty_all_cases", "qty_cases_with_recurrence", "qty_cases_open_with_replicates", "qty_cases_with_normal&tumor", "coverage", "case_ids"]
+            lines = [ header ]
+            for project in projects:
+                datcat = 'transcriptome profiling'
+                odir, fsodir, file_list = self.get_case_files_by_data_category(project, datcat)
+                pmeta = os.path.join(odir, "files_metadata.tsv")
+                df = pd.read_csv( pmeta, sep='\t')
+
+                all_cases = len( df['cases.0.case_id'].unique() )
+                cases_recurrence = len( df[ df['cases.0.samples.0.tumor_descriptor'] == 'Recurrence' ]['cases.0.case_id'].unique() )
+
+                g = df.groupby('cases.0.case_id').count().sort_values( by='platform', ascending=False)
+                cases = g[ g['platform'] > 1 ].index
+                df = df[ df['cases.0.case_id'].isin(cases) ]
+                ok_cases = set()
+                for c in cases:
+                    normal = len( df[ (df['cases.0.samples.0.tissue_type']=='Normal') & ( df['cases.0.case_id']==c ) ] )
+                    tumor = len( df[ (df['cases.0.samples.0.tissue_type']=='Tumor') & ( df['cases.0.case_id']==c ) ] )
+                    if( normal > 0 and tumor > 0 ):
+                        ok_cases.add(c)
+                nexpression_ok = len(ok_cases)
+                cov = (nexpression_ok/all_cases)*100
+                lines.append( [project, all_cases, cases_recurrence, len(cases), nexpression_ok, cov, (','.join(ok_cases)) ] )
+
+                if( nexpression_ok > cutoff ):
+                    ok_projects[project] = ok_cases
+
+            f = open(otab, 'w')
+            lines = list( map( lambda x: '\t'.join( [ str(y) for y in x ] ), lines ))
+            lines = '\n'.join(lines)
+            f.write(lines+'\n')
+            f.close()
+        else:
+            df = pd.read_csv(otab, sep='\t')
+            df = df[ df["qty_cases_with_normal&tumor"] > cutoff ]
+            values = list( map( lambda x: x.split(","), df.case_ids.values ) )
+            ok_projects = dict( zip( df.project.values, values ) )
+
+        return ok_projects
 
     def test_survival_km(self, project, datcat):
         basename = "%s_%s" %(project, datcat.replace(" ", "-"))
@@ -647,8 +738,12 @@ class DataWrangler:
 
         p = 'TCGA-ACC'
         dc = 'clinical'
-        self.get_cases_info_by_project(p)
-        self.parse_mutationSnv_data(p)
+        #self.get_cases_info_by_project(p)
+        #self.parse_mutationSnv_data(p)
+        #self.parse_expressionCounts_data(p)
+
+        p = 'TCGA-LIHC'
+        #_ = self.get_case_files_by_data_category(p, 'transcriptome profiling')
         
         projects = [ "TCGA-ACC",  "TCGA-BLCA",  "TCGA-BRCA",  "TCGA-CESC",  "TCGA-CHOL",  "TCGA-COAD",  "TCGA-DLBC",  "TCGA-ESCA",  "TCGA-GBM",  "TCGA-HNSC",  "TCGA-KICH",  "TCGA-KIRC",  "TCGA-KIRP",  "TCGA-LAML",  "TCGA-LGG",  "TCGA-LIHC",  "TCGA-LUAD",  "TCGA-LUSC",  "TCGA-MESO",  "TCGA-OV",  "TCGA-PAAD",  "TCGA-PCPG",  "TCGA-PRAD",  "TCGA-READ",  "TCGA-SARC",  "TCGA-SKCM",  "TCGA-STAD",  "TCGA-TGCT",  "TCGA-THCA",  "TCGA-THYM",  "TCGA-UCEC",  "TCGA-UCS",  "TCGA-UVM" ]
         #for p in tqdm(projects):
@@ -656,6 +751,9 @@ class DataWrangler:
             #self.test_survival_km(p, dc)
             #self._compress_files(p, dc, remove=True)
             #self.parse_mutationSnv_data(p)
+            
+        #self.select_projects_open_expressionCounts()
+        self.parse_expressionCounts_data()
 
 if( __name__ == "__main__" ):
     o = DataWrangler()
