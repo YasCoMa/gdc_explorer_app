@@ -398,6 +398,31 @@ class DataWrangler:
             self._get_file_by_uuid( fsodir, uuid)
         self.extract_data_clinical(odir, fsodir)
 
+    def _get_snprs_annotation(self, path):
+        dat = {}
+        feat_cols = ['MAX_AF', 'MAX_AF_POPS', 'DOMAINS', 'Hugo_Symbol', 'SWISSPROT', 'Variant_Classification', 'Consequence', 'IMPACT', 'VARIANT_CLASS', 'dbSNP_RS', 'SIFT', 'PolyPhen', 'CLIN_SIG']
+        df = pd.read_csv(path, sep='\t', comment='#')
+        df = df[ (~ df['Consequence'].str.lower().str.contains('synonymous')) ]
+        for i in df.index:
+            gene = df.loc[i, "Hugo_Symbol"]
+            key = df.loc[i, "dbSNP_RS"]
+            if(key == 'novel'):
+                key = '%s_novel' %(gene)
+            if(not key in dat):
+                dat[key] = { }
+
+            for c in feat_cols:
+                cname = c.lower()
+                v = str(df.loc[i, c])
+                if(c == "DOMAINS"):
+                    aux = v.split(';')
+                    for el in aux:
+                        if( el.lower().startswith('pfam') ):
+                            v = el.split(':')[-1]
+                dat[key][cname] = v
+
+        return dat
+
     def _get_mutationSnv_properties(self, path):
         '''
         distribution combinations:
@@ -435,50 +460,55 @@ class DataWrangler:
             k = "by_%s" %(c)
             datall[k] = {}
 
+        rsdat = {}
+        rspath = os.path.join(odir, 'general_snprs_info.json')
         tpath = os.path.join(odir, 'table_cases.tsv')
         if( not os.path.exists(tpath) ):
             uids = set()
             for f in tqdm(os.listdir(fsodir)):
                 path = os.path.join(fsodir, f)
+
                 instance = self._get_mutationSnv_properties(path)
                 uuid = instance["uuid"]
                 uids.add(uuid)
                 case_id = mapp[uuid]
-
-                cnts = instance["counts"]
-                metas = cnts.keys()
-                for m in metas:
-                    # Stratification
-                    for c in cols_stratification:
-                        k = "by_%s" %(c)
-                        vs = meta_cases[case_id][c]
-                        if( not vs in datall[k] ):
-                            datall[k][vs] = {}
-                        if( not m in datall[k][vs] ):
-                            datall[k][vs][m] = {}
-
-                    # Generical one 
-                    if( not m in datall["all"] ):
-                        datall["all"][m] = {}
-
-                    value_cnts = cnts[m]
-                    for v in value_cnts:
-                        vcount = value_cnts[v].item()
-
+                if( case_id in meta_cases ):
+                    rsdat[uuid] = self._get_snprs_annotation(path)
+                    
+                    cnts = instance["counts"]
+                    metas = cnts.keys()
+                    for m in metas:
                         # Stratification
                         for c in cols_stratification:
                             k = "by_%s" %(c)
                             vs = meta_cases[case_id][c]
-                            if( not v in datall[k][vs][m] ):
-                                datall[k][vs][m][v] = {}
-                            datall[k][vs][m][v][uuid] = vcount
+                            if( not vs in datall[k] ):
+                                datall[k][vs] = {}
+                            if( not m in datall[k][vs] ):
+                                datall[k][vs][m] = {}
 
-                        # Generical one
-                        if( not v in datall["all"][m] ):
-                            datall["all"][m][v] = {}
-                        datall["all"][m][v][uuid] = vcount
+                        # Generical one 
+                        if( not m in datall["all"] ):
+                            datall["all"][m] = {}
 
+                        value_cnts = cnts[m]
+                        for v in value_cnts:
+                            vcount = value_cnts[v].item()
 
+                            # Stratification
+                            for c in cols_stratification:
+                                k = "by_%s" %(c)
+                                vs = meta_cases[case_id][c]
+                                if( not v in datall[k][vs][m] ):
+                                    datall[k][vs][m][v] = {}
+                                datall[k][vs][m][v][uuid] = vcount
+
+                            # Generical one
+                            if( not v in datall["all"][m] ):
+                                datall["all"][m][v] = {}
+                            datall["all"][m][v][uuid] = vcount
+
+            
             header = ["demo_variable", "subgroup", "feature", "feature_value"] + list(uids)
             lines = [ header ]
             for c in cols_stratification:
@@ -509,8 +539,9 @@ class DataWrangler:
             f = open(tpath, "w")
             f.write("\n".join(lines) + "\n")
             f.close()
+            
 
-            #json.dump( datall, open(opath, 'w') )
+            json.dump( rsdat, open( rspath, 'w') )
             #shutil.rmtree(fsodir)
 
 
@@ -832,9 +863,9 @@ class DataWrangler:
         for p in tqdm(projects):
             #self.parse_clinical_data(p)
             #self.test_survival_km(p, dc)
-            self._compress_files(p, dc, remove=True)
+            #self._compress_files(p, dc, remove=True)
 
-            #self.parse_mutationSnv_data(p)
+            self.parse_mutationSnv_data(p)
             
         #self.select_projects_open_expressionCounts()
         #self.parse_expressionCounts_data()
