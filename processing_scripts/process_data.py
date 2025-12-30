@@ -133,10 +133,11 @@ class DataWrangler:
             
             df = {}
             for case in d['data']['hits']:
-                _id = case['case_id']
-                meta = case['demographic']
-                meta['submitter_id'] = case['submitter_id']
-                df[_id] = meta
+                if( 'demographic' in case ):
+                    _id = case['case_id']
+                    meta = case['demographic']
+                    meta['submitter_id'] = case['submitter_id']
+                    df[_id] = meta
             
             with open( opath, 'w') as f:
                 json.dump( df, f)
@@ -538,6 +539,7 @@ class DataWrangler:
             print('Skipping big files in ', project)
 
     def _get_gene_counts(self, path):
+        print(path)
         df = pd.read_csv( path, sep='\t', comment='#')
         df = df[ (~df.gene_name.isna()) ]
         cnts = dict( zip( df.gene_name.values, df.unstranded.values ))
@@ -557,52 +559,53 @@ class DataWrangler:
         gene_names = set()
         
         cpath = os.path.join(odir, "deseq_table_counts.tsv")
-        
-        mpath = os.path.join(odir, "deseq_table_meta.tsv")
-        mheader = ["case_sample", "condition"] + cols_stratification
-        mlines = [ mheader ]
+        if( not os.path.exists(cpath) ):
+            mpath = os.path.join(odir, "deseq_table_meta.tsv")
+            mheader = ["case_sample", "condition"] + cols_stratification
+            mlines = [ mheader ]
 
-        mappc = self._get_map_file_condition(odir)
-        meta_cases = self.get_cases_info_by_project(project)
-        cnts = {}
-        for case_id in accepted:
-            groups = []
-            for cs in cols_stratification:
-                k = "by_%s" %(cs)
-                subgroup = meta_cases[case_id][cs]
-                groups.append(subgroup)
+            mappc = self._get_map_file_condition(odir)
+            meta_cases = self.get_cases_info_by_project(project)
+            cnts = {}
+            for case_id in accepted:
+                if(case_id in meta_cases):
+                    groups = []
+                    for cs in cols_stratification:
+                        k = "by_%s" %(cs)
+                        subgroup = meta_cases[case_id][cs]
+                        groups.append(subgroup)
 
-            for uuid in accepted[case_id]:
-                condition = mappc[uuid]
-                path = os.path.join( fsodir, "raw_%s.out" %(uuid) )
-                case_sample = "%s_%s" %(case_id, uuid)
-                mlines.append( [case_sample, condition] + groups )
+                    for uuid in accepted[case_id]:
+                        condition = mappc[uuid]
+                        path = os.path.join( fsodir, "raw_%s.out" %(uuid) )
+                        case_sample = "%s_%s" %(case_id, uuid)
+                        mlines.append( [case_sample, condition] + groups )
 
-                cnts[case_sample] = self._get_gene_counts(path)
-                gene_names.update( list(cnts[case_sample]) )
-        
-        # writing counts
-        cheader = ["case_sample"] + list(gene_names)
-        clines = [ cheader ]
-        for cs in cnts:
-            values = [cs]
-            for g in gene_names:
-                try:
-                    values.append( cnts[cs][g] )
-                except:
-                    values.append(0)
-            clines.append(values)
+                        cnts[case_sample] = self._get_gene_counts(path)
+                        gene_names.update( list(cnts[case_sample]) )
+            
+            # writing counts
+            cheader = ["case_sample"] + list(gene_names)
+            clines = [ cheader ]
+            for cs in cnts:
+                values = [cs]
+                for g in gene_names:
+                    try:
+                        values.append( cnts[cs][g] )
+                    except:
+                        values.append(0)
+                clines.append(values)
 
-        clines = list( map( lambda x: '\t'.join( [ str(y) for y in x ] ), clines ))
-        f = open( cpath, "w")
-        f.write("\n".join(clines) + "\n")
-        f.close()
+            clines = list( map( lambda x: '\t'.join( [ str(y) for y in x ] ), clines ))
+            f = open( cpath, "w")
+            f.write("\n".join(clines) + "\n")
+            f.close()
 
-        # writing metadata
-        mlines = list( map( lambda x: '\t'.join( [ str(y) for y in x ] ), mlines ))
-        f = open( mpath, "w")
-        f.write("\n".join(mlines) + "\n")
-        f.close()
+            # writing metadata
+            mlines = list( map( lambda x: '\t'.join( [ str(y) for y in x ] ), mlines ))
+            f = open( mpath, "w")
+            f.write("\n".join(mlines) + "\n")
+            f.close()
 
     def parse_expressionCounts_data(self):
         projects = self.select_projects_open_expressionCounts()
@@ -825,14 +828,16 @@ class DataWrangler:
         #_ = self.get_case_files_by_data_category(p, 'transcriptome profiling')
         
         projects = [ "TCGA-ACC",  "TCGA-BLCA",  "TCGA-BRCA",  "TCGA-CESC",  "TCGA-CHOL",  "TCGA-COAD",  "TCGA-DLBC",  "TCGA-ESCA",  "TCGA-GBM",  "TCGA-HNSC",  "TCGA-KICH",  "TCGA-KIRC",  "TCGA-KIRP",  "TCGA-LAML",  "TCGA-LGG",  "TCGA-LIHC",  "TCGA-LUAD",  "TCGA-LUSC",  "TCGA-MESO",  "TCGA-OV",  "TCGA-PAAD",  "TCGA-PCPG",  "TCGA-PRAD",  "TCGA-READ",  "TCGA-SARC",  "TCGA-SKCM",  "TCGA-STAD",  "TCGA-TGCT",  "TCGA-THCA",  "TCGA-THYM",  "TCGA-UCEC",  "TCGA-UCS",  "TCGA-UVM" ]
-        #for p in tqdm(projects):
+        dc = 'transcriptome profiling'
+        for p in tqdm(projects):
             #self.parse_clinical_data(p)
             #self.test_survival_km(p, dc)
-            #self._compress_files(p, dc, remove=True)
+            self._compress_files(p, dc, remove=True)
+
             #self.parse_mutationSnv_data(p)
             
         #self.select_projects_open_expressionCounts()
-        self.parse_expressionCounts_data()
+        #self.parse_expressionCounts_data()
 
 if( __name__ == "__main__" ):
     o = DataWrangler()

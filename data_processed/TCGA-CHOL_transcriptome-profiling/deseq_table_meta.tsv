@@ -1,0 +1,17 @@
+case_sample	condition	race	gender	ethnicity
+f47dbd99-920b-4b39-a1b0-6c152ad24884_5bf5af0a-48e0-458a-ad88-4be2a8695da5	Normal	white	male	not hispanic or latino
+f47dbd99-920b-4b39-a1b0-6c152ad24884_66413a73-1bd2-460e-a7a2-fab9dbe6c405	Tumor	white	male	not hispanic or latino
+e76cf9a0-061e-4a7d-ba28-5a40b8da54b8_a4538966-92d7-4849-aa02-ff85dcc1615f	Tumor	white	male	not hispanic or latino
+e76cf9a0-061e-4a7d-ba28-5a40b8da54b8_da51a5ed-fee0-46be-a196-0cc349335890	Normal	white	male	not hispanic or latino
+6e534dd3-81ac-4575-ab1e-02c21e10916d_7a48e51b-adea-4f9b-853b-acef7b644859	Normal	white	male	not hispanic or latino
+6e534dd3-81ac-4575-ab1e-02c21e10916d_f168aeeb-51af-4c6f-bc35-9b3326da8ad6	Tumor	white	male	not hispanic or latino
+aaacf22c-2362-4613-b024-88fb7dd1cca1_96d140e5-1859-4690-ac54-cedb8d713b4f	Normal	white	female	not hispanic or latino
+aaacf22c-2362-4613-b024-88fb7dd1cca1_6c459cd8-cf4b-45a4-8c68-8d3e34fa140b	Tumor	white	female	not hispanic or latino
+adc9a685-5b4a-4c29-881a-da1895c47520_dabbf5b7-016a-4439-90bf-332c02d0de18	Normal	white	female	not hispanic or latino
+adc9a685-5b4a-4c29-881a-da1895c47520_287101b8-bb6b-410b-b185-f0ada78d8ac1	Tumor	white	female	not hispanic or latino
+3c8ca064-a4a7-416f-a069-4324d4a72038_71e30d70-6a41-44d2-b9f8-66f78391a4dd	Tumor	white	male	not hispanic or latino
+3c8ca064-a4a7-416f-a069-4324d4a72038_e4b528f8-b02d-4a5a-8868-471257c43231	Normal	white	male	not hispanic or latino
+2d6e20b2-82c7-4c12-92d0-93282b0a9031_710df862-d28b-4596-926d-dbab3e89edab	Normal	white	male	not hispanic or latino
+2d6e20b2-82c7-4c12-92d0-93282b0a9031_e677fcf6-ddc1-4245-beeb-ab18a28ac3b7	Tumor	white	male	not hispanic or latino
+b4f7f9e4-5fc5-4461-8e0b-0b6c384863c6_0c9aba87-406f-4789-9275-e1d25bb3aea7	Tumor	white	male	not hispanic or latino
+b4f7f9e4-5fc5-4461-8e0b-0b6c384863c6_d98d88b2-195a-4897-aa77-c2bbdc0e1707	Normal	white	male	not hispanic or latino

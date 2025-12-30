@@ -1,14 +1,21 @@
 import os
 import sys
 import json
+import requests
 
 import numpy as np
 import gseapy as gp
+
+from Bio import Entrez
+import xml.etree.ElementTree as ET
 
 class HandleEnrichment:
     # Library reference: https://gseapy.readthedocs.io/en/latest/gseapy_example.html#GSEA-Example
 
     def __init__(self, genes_prey=None, fout = '../data_processed'):
+        Entrez.email = 'ycfrenchgirl2@gmail.com'
+        Entrez.api_key="4543094c8a41e6aecf9a1431bff42cfac209"
+
         self.out = fout
         if( not os.path.exists(self.out) ):
             os.makedirs( fout )
@@ -16,6 +23,55 @@ class HandleEnrichment:
         libs = { "h": "hallmark", "c1": "positional", "c2": "curated", "c3": "regulatory", "c4": "computational", "c5": "ontology", "c6": "oncogenic", "c7": "immunologic", "c8": "cell types" }
         self.prey = genes_prey
 
+
+    def _get_significance_dbsnp(self, rsid):
+        
+        rsid = rsid.replace('rs', '')
+        fetch = Entrez.efetch(db='snp',resetmode='xml',id=rsid,rettype='full')
+        t = fetch.read()
+        tree = ET.fromstring(t)
+        nodes = list(tree.iter())
+        try:
+            significance = list( filter(lambda x: x.tag.lower().endswith('significance'), nodes) )[0].text
+        except:
+            significance = None
+
+        return significance
+
+    def _get_info_clinvar(self, rsid):
+        handle = Entrez.esearch(db='clinvar', sort='relevance', term=rsid, retmax=100)
+        res = Entrez.read(handle)
+        cvids = res['IdList']
+
+        dat = { 'snp_id': rsid, 'clinvar_assoc': {} }
+        for c in cvids:
+            diseases = set()
+            url = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=clinvar&rettype=vcv&is_variationid&id=%s" %(c)
+            r = requests.get( url )
+            tree = ET.fromstring(r.text)
+            nodes = list(tree.iter())
+
+            cls_sections = list( filter(lambda x: x.tag.lower() == 'classifications', nodes) )
+            print( c, len(cls_sections) )
+            aux = []
+            for sec in cls_sections:
+
+                inner_nodes = list(sec.iter())
+                significance = list( filter(lambda x: x.tag.lower() == 'description', inner_nodes) )[0].text
+                obj = {'significance': significance, 'diseases': set() }
+
+                traits = list( filter(lambda x: x.tag.lower() =='trait' and x.attrib['Type']=='Disease', inner_nodes) )
+                
+                for tr in traits:
+                    tr_nodes = list(tr.iter())
+                    names = list( filter(lambda x: x.tag.lower() == 'elementvalue' and x.attrib['Type']=='Preferred', tr_nodes) )
+                    names = list( map( lambda x: x.text, names ) )
+                    diseases.update(names)
+                    obj['diseases'].update(names)
+                aux.append(obj)
+
+            dat['clinvar_assoc'][c] = { "assoc_significance": aux, "all_diseases": diseases }
+        return dat
 
     def init_msigdb(self, subset):
         # Retrieves last release of the hallmark gene sets from msigdb
@@ -169,8 +225,11 @@ class HandleEnrichment:
 
     def run(self):
         p = 'TCGA-ACC'
-        self.enrich_exclusive_mutated_genes(p)
-        
+        #self.enrich_exclusive_mutated_genes(p)
+
+        d= self._get_info_clinvar('rs334')
+        print(d)
+
         projects = [ "TCGA-ACC",  "TCGA-BLCA",  "TCGA-BRCA",  "TCGA-CESC",  "TCGA-CHOL",  "TCGA-COAD",  "TCGA-DLBC",  "TCGA-ESCA",  "TCGA-GBM",  "TCGA-HNSC",  "TCGA-KICH",  "TCGA-KIRC",  "TCGA-KIRP",  "TCGA-LAML",  "TCGA-LGG",  "TCGA-LIHC",  "TCGA-LUAD",  "TCGA-LUSC",  "TCGA-MESO",  "TCGA-OV",  "TCGA-PAAD",  "TCGA-PCPG",  "TCGA-PRAD",  "TCGA-READ",  "TCGA-SARC",  "TCGA-SKCM",  "TCGA-STAD",  "TCGA-TGCT",  "TCGA-THCA",  "TCGA-THYM",  "TCGA-UCEC",  "TCGA-UCS",  "TCGA-UVM" ]
         #for p in tqdm(projects):
             #self.parse_clinical_data(p)

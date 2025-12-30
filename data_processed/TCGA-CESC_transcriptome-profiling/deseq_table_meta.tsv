@@ -1,0 +1,7 @@
+case_sample	condition	race	gender	ethnicity
+f150d999-cdec-427e-b8b2-00731c648989_47b3dc62-b0c0-4cd2-9369-cb6a3b7bcd75	Tumor	black or african american	female	not hispanic or latino
+f150d999-cdec-427e-b8b2-00731c648989_5abfa1bf-f3ad-4e7b-878c-5df4e03c8cdc	Normal	black or african american	female	not hispanic or latino
+4f4e8834-a716-42e6-bd51-60d80a619202_aaaaa808-0cfd-4e29-9d71-5d6ba2c35b69	Normal	white	female	not hispanic or latino
+4f4e8834-a716-42e6-bd51-60d80a619202_8439b3b2-ea14-43f4-b7ab-e18089e4c5a4	Tumor	white	female	not hispanic or latino
+b7f2958f-256e-4c30-9c61-11e76ddb36ba_1e33f3d2-a660-49a8-a6ec-9901841c232c	Normal	white	female	not hispanic or latino
+b7f2958f-256e-4c30-9c61-11e76ddb36ba_47254c42-77f0-4e52-b93a-60d421349b3c	Tumor	white	female	not hispanic or latino
