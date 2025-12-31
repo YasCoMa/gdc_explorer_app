@@ -9,6 +9,10 @@ import gseapy as gp
 from Bio import Entrez
 import xml.etree.ElementTree as ET
 
+from pydeseq2.dds import DeseqDataSet
+from pydeseq2.default_inference import DefaultInference
+from pydeseq2.ds import DeseqStats
+
 class HandleEnrichment:
     # Library reference: https://gseapy.readthedocs.io/en/latest/gseapy_example.html#GSEA-Example
 
@@ -222,6 +226,69 @@ class HandleEnrichment:
 	        	df = self.enrich_single_sample_compare_phenotype(inpath, gmt)
 	        	opath = os.path.join(odir, "%s_result_%s-enrich_table.tsv" %(l, k) )
 	        	df.to_csv(opath, sep='\t', index=None)
+
+    
+    def test_differential_expression(self):
+        folder = '/var/www/html/gdcexplorer_app/data_processed/TCGA-UCEC_transcriptome-profiling/'
+
+        # Loading
+        cpath = os.path.join(folder, 'deseq_table_counts.tsv')
+        counts_df = pd.read_csv( cpath, sep='\t', index_col=0)
+
+        mpath = os.path.join(folder, 'deseq_table_meta.tsv')
+        metadata = pd.read_csv( mpath, sep='\t', index_col=0)
+
+        # Preprocessing data
+        inference = DefaultInference(n_cpus=6)
+        dds = DeseqDataSet( counts=counts_df, metadata=metadata, design="~condition", refit_cooks=True, inference=inference, )
+
+        dds.fit_size_factors()
+        # dds.obs["size_factors"]
+
+        dds.fit_genewise_dispersions()
+        # dds.var["genewise_dispersions"]
+
+        dds.fit_dispersion_trend()
+        # dds.uns["trend_coeffs"]
+        # dds.var["fitted_dispersions"]
+
+        dds.fit_dispersion_prior()
+        # print( f"logres_prior={dds.uns['_squared_logres']}, sigma_prior={dds.uns['prior_disp_var']}" )
+
+        dds.fit_MAP_dispersions()
+        # dds.var["MAP_dispersions"]
+        # dds.var["dispersions"]
+
+        dds.fit_LFC()
+        # dds.varm["LFC"]
+
+        dds.calculate_cooks()
+        dds.refit()
+
+        # Performing stats significance tests
+        ds = DeseqStats(dds, contrast=np.array([0, 1]), alpha=0.05, cooks_filter=True, independent_filter=True,)
+        ds.run_wald_test()
+        # ds.p_values
+
+        if( ds.cooks_filter ):
+            ds._cooks_filtering()
+        #ds.p_values
+
+        if ds.independent_filter:
+            ds._independent_filtering()
+        else:
+            ds._p_value_adjustment()
+        # ds.padj
+
+        # ds.summary()
+        de = ds.results_df
+
+        opath = os.path.join(folder, 'deg_result.pkl')
+        pickle.dump( ds, open(opath, 'wb') )
+
+        # Post processing
+        downs = de[ (de.log2FoldChange < 2 ) & ( de.padj < 0.001 ) ]
+        ups = de[ (de.log2FoldChange > 2 ) & ( de.padj < 0.001 ) ]
 
     def run(self):
         p = 'TCGA-ACC'

@@ -6,6 +6,7 @@ import subprocess
 import shutil
 import requests
 import pandas as pd
+import numpy as np
 
 from tqdm import tqdm
 import xml.etree.ElementTree as ET
@@ -420,6 +421,7 @@ class DataWrangler:
                         if( el.lower().startswith('pfam') ):
                             v = el.split(':')[-1]
                 dat[key][cname] = v
+        del df
 
         return dat
 
@@ -446,6 +448,8 @@ class DataWrangler:
             normc = c.lower()
             dat['counts'][normc] = dict( zip( keys, values ) )
 
+        del df
+
         return dat
 
     def extract_data_mutationSnv(self, odir, fsodir, project):
@@ -462,7 +466,7 @@ class DataWrangler:
 
         rsdat = {}
         rspath = os.path.join(odir, 'general_snprs_info.json')
-        tpath = os.path.join(odir, 'table_cases.tsv')
+        tpath = os.path.join(odir, 'all_table_cases.tsv')
         if( not os.path.exists(tpath) ):
             uids = set()
             for f in tqdm(os.listdir(fsodir)):
@@ -510,35 +514,113 @@ class DataWrangler:
 
             
             header = ["demo_variable", "subgroup", "feature", "feature_value"] + list(uids)
-            lines = [ header ]
+            lines = [  ]
+            lines = {}
             for c in cols_stratification:
                 k = "by_%s" %(c)
+                lines = { k: [header] }
                 for vs in datall[k]:
                     for m in datall[k][vs]:
                         for v in datall[k][vs][m]:
                             values = []
                             for _id in uids:
                                 if( not _id in datall[k][vs][m][v] ):
-                                    datall[k][vs][m][v][_id] = 0
+                                    datall[k][vs][m][v][_id] = ''
                                 values.append( datall[k][vs][m][v][_id] )
                             el = [k, vs, m, v] + values
-                            lines.append( el )
+                            lines[k].append( el )
+
+                tpath = os.path.join(odir, '%s_table_cases.tsv' %(k) ) 
+                ls = list( map( lambda x: '\t'.join( [ str(y) for y in x ] ), lines[k] ))
+                f = open(tpath, "w")
+                f.write("\n".join(ls) + "\n")
+                f.close()
 
             k = 'all'
+            lines = { k: [header] }
             for m in datall[k]:
                 for v in datall[k][m]:
                     values = []
                     for _id in uids:
                         if( not _id in datall[k][m][v] ):
-                            datall[k][m][v][_id] = 0
+                            datall[k][m][v][_id] = ''
                         values.append( datall[k][m][v][_id] )
                     el = [k, "-", m, v] + values
-                    lines.append( el )
+                    lines[k].append( el )
 
-            lines = list( map( lambda x: '\t'.join( [ str(y) for y in x ] ), lines ))
+            for k in lines:
+                tpath = os.path.join(odir, '%s_table_cases.tsv' %(k) ) 
+                ls = list( map( lambda x: '\t'.join( [ str(y) for y in x ] ), lines[k] ))
+                f = open(tpath, "w")
+                f.write("\n".join(ls) + "\n")
+                f.close()
+
+            '''
+            ls = list( map( lambda x: '\t'.join( [ str(y) for y in x ] ), lines ))
             f = open(tpath, "w")
-            f.write("\n".join(lines) + "\n")
+            f.write("\n".join(ls) + "\n")
             f.close()
+            '''
+            
+
+            json.dump( rsdat, open( rspath, 'w') )
+            #shutil.rmtree(fsodir)
+
+    def extract_data_mutationSnv2(self, odir, fsodir, project):
+        mapp = self._get_map_case_file(odir)
+        meta_cases = self.get_cases_info_by_project(project)
+
+        cols_stratification = ['race','gender', 'ethnicity']
+
+        rsdat = {}
+        rspath = os.path.join(odir, 'general_snprs_info.json')
+        tpath = os.path.join(odir, 'by_all_table_cases.tsv')
+        if( not os.path.exists(tpath) ):
+            header = ["demo_variable", "subgroup", "feature", "feature_value", "uuid", "count"] 
+            for c in cols_stratification+['all']:
+                k = "by_%s" %(c)
+                tpath = os.path.join(odir, '%s_table_cases.tsv' %(k) )
+                f = open(tpath, 'w')
+                f.write( '\t'.join(header) )
+                f.close()
+
+            for f in tqdm(os.listdir(fsodir)):
+                lines = {}
+                for c in cols_stratification+['all']:
+                    k = "by_%s" %(c)
+                    lines[k] = []
+
+                path = os.path.join(fsodir, f)
+
+                instance = self._get_mutationSnv_properties(path)
+                uuid = instance["uuid"]
+
+                case_id = mapp[uuid]
+                if( case_id in meta_cases ):
+                    rsdat[uuid] = self._get_snprs_annotation(path)
+                    
+                    cnts = instance["counts"]
+                    metas = cnts.keys()
+                    for m in metas:
+                        value_cnts = cnts[m]
+                        for v in value_cnts:
+                            vcount = value_cnts[v].item()
+
+                            for c in cols_stratification:
+                                k = "by_%s" %(c)
+                                vs = meta_cases[case_id][c]
+                                lines[k].append( [k, vs, m, v, uuid, vcount] )
+
+                            lines['by_all'].append( ['all', '-', m, v, uuid, vcount] )
+                    
+
+                    for c in cols_stratification+['all']:
+                        k = "by_%s" %(c)
+                        tpath = os.path.join(odir, '%s_table_cases.tsv' %(k) )
+                        ls = list( map( lambda x: '\t'.join( [ str(y) for y in x ] ), lines[k] ))
+                        f = open(tpath, "a")
+                        f.write("\n".join(ls) + "\n")
+                        f.close()
             
 
             json.dump( rsdat, open( rspath, 'w') )
@@ -546,16 +628,30 @@ class DataWrangler:
 
 
     def _get_map_case_file(self, odir):
-        path = os.path.join(odir, 'files_metadata.tsv')
-        df = pd.read_csv( path, sep='\t')
-        mapp = dict( zip( df['file_id'].values, df['cases.0.case_id'].values ) )
+        mapp = {}
+        opath = os.path.join(odir, 'mapping_file_case.json')
+
+        if( not os.path.exists(opath) ):
+            path = os.path.join(odir, 'files_metadata.tsv')
+            df = pd.read_csv( path, sep='\t')
+            mapp = dict( zip( df['file_id'].values, df['cases.0.case_id'].values ) )
+            json.dump( mapp, open(opath, 'w') )
+        else:
+            mapp = json.load( open(opath, 'r') )
 
         return mapp
     
     def _get_map_file_condition(self, odir):
-        path = os.path.join(odir, 'files_metadata.tsv')
-        df = pd.read_csv( path, sep='\t')
-        mapp = dict( zip( df['file_id'].values, df['cases.0.samples.0.tissue_type'].values ) )
+        mapp = {}
+        opath = os.path.join(odir, 'mapping_file_condition.json')
+
+        if( not os.path.exists(opath) ):
+            path = os.path.join(odir, 'files_metadata.tsv')
+            df = pd.read_csv( path, sep='\t')
+            mapp = dict( zip( df['file_id'].values, df['cases.0.samples.0.tissue_type'].values ) )
+            json.dump( mapp, open(opath, 'w') )
+        else:
+            mapp = json.load( open(opath, 'r') )
 
         return mapp
     
@@ -565,7 +661,7 @@ class DataWrangler:
         if( len(file_list) < 600 ):
             for uuid in file_list:
                 self._get_file_by_uuid( fsodir, uuid)
-            self.extract_data_mutationSnv(odir, fsodir, project)
+            self.extract_data_mutationSnv2(odir, fsodir, project)
         else:
             print('Skipping big files in ', project)
 
@@ -813,28 +909,33 @@ class DataWrangler:
         ojson = os.path.join(odir, 'survival_probs.json')
         json.dump(valids_by, open(ojson, 'w') )
 
-    def _compress_files(self, project, datcat, remove=False):
+    def _compress_files(self, project, datcat, namefile, remove=False):
+        fname = namefile.split('.')[0]
         basename = "%s_%s" %(project, datcat.replace(" ", "-"))
-        odir = os.path.join(self.out, "%s" %(basename) )
+
+        dest = '/aloy/home/ymartins/data_processed/' # change to self.out
+        dest = self.out
+        odir = os.path.join( dest, "%s" %(basename) )
 
         cwd = os.getcwd()
-        fsodir = os.path.join(self.out, "%s" %(basename), "files" )
+        fsodir = os.path.join( dest, "%s" %(basename), namefile )
         if( os.path.exists(fsodir) ):
             os.chdir(odir)
-            os.system("tar -zcf files.tar.gz files")
+            os.system("tar -zcf %s.tar.gz %s" %(fname, namefile) )
             os.chdir(cwd)
 
             if(remove):
                 shutil.rmtree(fsodir)
 
-    def _decompress_files(self, project, datcat):
+    def _decompress_files(self, project, datcat, namefile):
+        fname = namefile.split('.')[0]
         basename = "%s_%s" %(project, datcat.replace(" ", "-"))
         odir = os.path.join(self.out, "%s" %(basename) )
 
         cwd = os.getwd()
-        fsodir = os.path.join(self.out, "%s" %(basename), "files" )
+        fsodir = os.path.join(self.out, "%s" %(basename), namefile )
         os.chdir(odir)
-        os.system("tar -zxf files.tar.gz")
+        os.system("tar -zxf %s.tar.gz" %(fname) )
         os.chdir(cwd)
 
     def run(self):
@@ -860,10 +961,13 @@ class DataWrangler:
         
         projects = [ "TCGA-ACC",  "TCGA-BLCA",  "TCGA-BRCA",  "TCGA-CESC",  "TCGA-CHOL",  "TCGA-COAD",  "TCGA-DLBC",  "TCGA-ESCA",  "TCGA-GBM",  "TCGA-HNSC",  "TCGA-KICH",  "TCGA-KIRC",  "TCGA-KIRP",  "TCGA-LAML",  "TCGA-LGG",  "TCGA-LIHC",  "TCGA-LUAD",  "TCGA-LUSC",  "TCGA-MESO",  "TCGA-OV",  "TCGA-PAAD",  "TCGA-PCPG",  "TCGA-PRAD",  "TCGA-READ",  "TCGA-SARC",  "TCGA-SKCM",  "TCGA-STAD",  "TCGA-TGCT",  "TCGA-THCA",  "TCGA-THYM",  "TCGA-UCEC",  "TCGA-UCS",  "TCGA-UVM" ]
         dc = 'transcriptome profiling'
+        dc = 'simple nucleotide variation'
         for p in tqdm(projects):
             #self.parse_clinical_data(p)
             #self.test_survival_km(p, dc)
             #self._compress_files(p, dc, remove=True)
+            #self._compress_files(p, dc, "table_cases.tsv", remove=False)
+
 
             self.parse_mutationSnv_data(p)
             
