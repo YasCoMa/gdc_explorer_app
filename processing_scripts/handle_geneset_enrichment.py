@@ -228,15 +228,17 @@ class HandleEnrichment:
 	        	df.to_csv(opath, sep='\t', index=None)
 
     
-    def test_differential_expression(self):
+    def test_differential_expression(self, outdir, ide, metadata, counts_df, cutoff_log2fc=2, cutoff_padj=0.001):
+        '''
         folder = '/var/www/html/gdcexplorer_app/data_processed/TCGA-UCEC_transcriptome-profiling/'
 
         # Loading
-        cpath = os.path.join(folder, 'deseq_table_counts.tsv')
+        cpath = os.path.join(indir, 'deseq_table_counts.tsv')
         counts_df = pd.read_csv( cpath, sep='\t', index_col=0)
 
-        mpath = os.path.join(folder, 'deseq_table_meta.tsv')
+        mpath = os.path.join(indir, 'deseq_table_meta.tsv')
         metadata = pd.read_csv( mpath, sep='\t', index_col=0)
+        '''
 
         # Preprocessing data
         inference = DefaultInference(n_cpus=6)
@@ -283,26 +285,96 @@ class HandleEnrichment:
         # ds.summary()
         de = ds.results_df
 
-        opath = os.path.join(folder, 'deg_result.pkl')
+        opath = os.path.join(outdir, '%s_deg_result.pkl' %(ide) )
         pickle.dump( ds, open(opath, 'wb') )
 
         # Post processing
-        downs = de[ (de.log2FoldChange < 2 ) & ( de.padj < 0.001 ) ]
-        ups = de[ (de.log2FoldChange > 2 ) & ( de.padj < 0.001 ) ]
+        downs = de[ (de.log2FoldChange <= (-1*cutoff_log2fc) ) & ( de.padj <= 0.001 ) ]
+        aux = {}
+        keys = list(downs.index)
+        for k in keys:
+            aux[k] = { 'log2fc': downs.loc[k, 'log2FoldChange'], 'padj': downs.loc[k, 'padj'] }
+        downs = aux
+        
+        ups = de[ (de.log2FoldChange >= cutoff_log2fc ) & ( de.padj <= 0.001 ) ]
+        aux = {}
+        keys = list(ups.index)
+        for k in keys:
+            aux[k] = { 'log2fc': ups.loc[k, 'log2FoldChange'], 'padj': ups.loc[k, 'padj'] }
+        ups = aux
+
+        result = { 'up': ups, 'downs': downs }
+        oname = "%s_result_log2fc-%s_padj-%s.json" %( ide, str(cutoff_log2fc), str(cutoff_padj).split('.')[1] )
+        opath = os.path.join( outdir, oname )
+        json.dump( result, open(opath, 'w') )
+
+    def _test_proportion_demovar(self, mdf, dim, cutoff=0.7):
+        flag = True
+
+        n = len(dm)
+        max_part = 0
+        subgroups = mdf[dim].unique()
+        for s in subgroups:
+            aux = mdf[ mdf[dim] == s ]
+            sp = len(aux)
+            portion = sp/n
+            if(portion > max_part):
+                max_part = portion
+        
+        if(max_part > cutoff):
+            flag = False
+
+        return flag        
+
+    def perform_degs_analysis_simulation(self, project):
+        print('------->', project)
+
+        datcat = "transcriptome profiling"
+        basename = "%s_%s" %(project, datcat.replace(" ", "-"))
+        indir = os.path.join(self.out, "%s" %(basename) )
+        outdir = os.path.join(self.out, "%s" %(basename), 'deg_analysis' )
+        
+
+        cpath = os.path.join(indir, 'deseq_table_counts.tsv')
+        counts_df = pd.read_csv( cpath, sep='\t', index_col=0)
+
+        mpath = os.path.join(indir, 'deseq_table_meta.tsv')
+        metadata = pd.read_csv( mpath, sep='\t', index_col=0)
+
+        ide = "by_all"
+        self.test_differential_expression(outdir, ide, metadata, counts_df)
+        print( '\t', 'all', len(metadata) )
+
+        cols_stratification = ['race','gender', 'ethnicity']
+        for c in cols_stratification:
+            flag = self._test_proportion_demovar(metadata, c)
+            if(flag):
+                k = "by_%s" %(c)
+                aux_outdir = os.path.join( outdir, k )
+                if( not os.path.isdir( aux_outdir ) ):
+                    os.makedirs( aux_outdir )
+
+                subgroups = metadata[c].unique()
+                for s in subgroups:
+                    ide = "by_%s-group_%s_" %(c, s)
+                    meta_aux = metadata[ metadata[c] == s ]
+                    print( '\t', c, s, len(meta_aux) )
+
+                    samples = list( meta_aux.index )
+                    counts_aux = counts_df.iloc[samples, :]
+                    self.test_differential_expression( aux_outdir, ide, meta_aux, counts_aux)
+        print('\n')
 
     def run(self):
         p = 'TCGA-ACC'
         #self.enrich_exclusive_mutated_genes(p)
 
-        d= self._get_info_clinvar('rs334')
-        print(d)
+        #d = self._get_info_clinvar('rs334')
+        #print(d)
 
         projects = [ "TCGA-ACC",  "TCGA-BLCA",  "TCGA-BRCA",  "TCGA-CESC",  "TCGA-CHOL",  "TCGA-COAD",  "TCGA-DLBC",  "TCGA-ESCA",  "TCGA-GBM",  "TCGA-HNSC",  "TCGA-KICH",  "TCGA-KIRC",  "TCGA-KIRP",  "TCGA-LAML",  "TCGA-LGG",  "TCGA-LIHC",  "TCGA-LUAD",  "TCGA-LUSC",  "TCGA-MESO",  "TCGA-OV",  "TCGA-PAAD",  "TCGA-PCPG",  "TCGA-PRAD",  "TCGA-READ",  "TCGA-SARC",  "TCGA-SKCM",  "TCGA-STAD",  "TCGA-TGCT",  "TCGA-THCA",  "TCGA-THYM",  "TCGA-UCEC",  "TCGA-UCS",  "TCGA-UVM" ]
-        #for p in tqdm(projects):
-            #self.parse_clinical_data(p)
-            #self.test_survival_km(p, dc)
-            #self._compress_files(p, dc, remove=True)
-            #self.parse_mutationSnv_data(p)
+        for p in tqdm(projects):
+            self.perform_degs_analysis_simulation(p)
 
 if( __name__ == "__main__" ):
     o = HandleEnrichment()

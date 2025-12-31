@@ -456,120 +456,6 @@ class DataWrangler:
         mapp = self._get_map_case_file(odir)
         meta_cases = self.get_cases_info_by_project(project)
 
-        opath = os.path.join(odir, "data_cases.json")
-        cols_stratification = ['race','gender', 'ethnicity']
-
-        datall = { "all": {} }
-        for c in cols_stratification:
-            k = "by_%s" %(c)
-            datall[k] = {}
-
-        rsdat = {}
-        rspath = os.path.join(odir, 'general_snprs_info.json')
-        tpath = os.path.join(odir, 'all_table_cases.tsv')
-        if( not os.path.exists(tpath) ):
-            uids = set()
-            for f in tqdm(os.listdir(fsodir)):
-                path = os.path.join(fsodir, f)
-
-                instance = self._get_mutationSnv_properties(path)
-                uuid = instance["uuid"]
-                uids.add(uuid)
-                case_id = mapp[uuid]
-                if( case_id in meta_cases ):
-                    rsdat[uuid] = self._get_snprs_annotation(path)
-                    
-                    cnts = instance["counts"]
-                    metas = cnts.keys()
-                    for m in metas:
-                        # Stratification
-                        for c in cols_stratification:
-                            k = "by_%s" %(c)
-                            vs = meta_cases[case_id][c]
-                            if( not vs in datall[k] ):
-                                datall[k][vs] = {}
-                            if( not m in datall[k][vs] ):
-                                datall[k][vs][m] = {}
-
-                        # Generical one 
-                        if( not m in datall["all"] ):
-                            datall["all"][m] = {}
-
-                        value_cnts = cnts[m]
-                        for v in value_cnts:
-                            vcount = value_cnts[v].item()
-
-                            # Stratification
-                            for c in cols_stratification:
-                                k = "by_%s" %(c)
-                                vs = meta_cases[case_id][c]
-                                if( not v in datall[k][vs][m] ):
-                                    datall[k][vs][m][v] = {}
-                                datall[k][vs][m][v][uuid] = vcount
-
-                            # Generical one
-                            if( not v in datall["all"][m] ):
-                                datall["all"][m][v] = {}
-                            datall["all"][m][v][uuid] = vcount
-
-            
-            header = ["demo_variable", "subgroup", "feature", "feature_value"] + list(uids)
-            lines = [  ]
-            lines = {}
-            for c in cols_stratification:
-                k = "by_%s" %(c)
-                lines = { k: [header] }
-                for vs in datall[k]:
-                    for m in datall[k][vs]:
-                        for v in datall[k][vs][m]:
-                            values = []
-                            for _id in uids:
-                                if( not _id in datall[k][vs][m][v] ):
-                                    datall[k][vs][m][v][_id] = ''
-                                values.append( datall[k][vs][m][v][_id] )
-                            el = [k, vs, m, v] + values
-                            lines[k].append( el )
-
-                tpath = os.path.join(odir, '%s_table_cases.tsv' %(k) ) 
-                ls = list( map( lambda x: '\t'.join( [ str(y) for y in x ] ), lines[k] ))
-                f = open(tpath, "w")
-                f.write("\n".join(ls) + "\n")
-                f.close()
-
-            k = 'all'
-            lines = { k: [header] }
-            for m in datall[k]:
-                for v in datall[k][m]:
-                    values = []
-                    for _id in uids:
-                        if( not _id in datall[k][m][v] ):
-                            datall[k][m][v][_id] = ''
-                        values.append( datall[k][m][v][_id] )
-                    el = [k, "-", m, v] + values
-                    lines[k].append( el )
-
-            for k in lines:
-                tpath = os.path.join(odir, '%s_table_cases.tsv' %(k) ) 
-                ls = list( map( lambda x: '\t'.join( [ str(y) for y in x ] ), lines[k] ))
-                f = open(tpath, "w")
-                f.write("\n".join(ls) + "\n")
-                f.close()
-
-            '''
-            ls = list( map( lambda x: '\t'.join( [ str(y) for y in x ] ), lines ))
-            f = open(tpath, "w")
-            f.write("\n".join(ls) + "\n")
-            f.close()
-            '''
-            
-
-            json.dump( rsdat, open( rspath, 'w') )
-            #shutil.rmtree(fsodir)
-
-    def extract_data_mutationSnv2(self, odir, fsodir, project):
-        mapp = self._get_map_case_file(odir)
-        meta_cases = self.get_cases_info_by_project(project)
-
         cols_stratification = ['race','gender', 'ethnicity']
 
         rsdat = {}
@@ -661,12 +547,11 @@ class DataWrangler:
         if( len(file_list) < 600 ):
             for uuid in file_list:
                 self._get_file_by_uuid( fsodir, uuid)
-            self.extract_data_mutationSnv2(odir, fsodir, project)
+            self.extract_data_mutationSnv(odir, fsodir, project)
         else:
             print('Skipping big files in ', project)
 
     def _get_gene_counts(self, path):
-        print(path)
         df = pd.read_csv( path, sep='\t', comment='#')
         df = df[ (~df.gene_name.isna()) ]
         cnts = dict( zip( df.gene_name.values, df.unstranded.values ))
