@@ -315,7 +315,7 @@ class HandleEnrichment:
     def _test_proportion_demovar(self, mdf, dim, cutoff=0.7):
         flag = True
 
-        n = len(dm)
+        n = len(mdf)
         max_part = 0
         subgroups = mdf[dim].unique()
         for s in subgroups:
