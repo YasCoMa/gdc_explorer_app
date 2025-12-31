@@ -339,34 +339,35 @@ class HandleEnrichment:
         
 
         cpath = os.path.join(indir, 'deseq_table_counts.tsv')
-        counts_df = pd.read_csv( cpath, sep='\t', index_col=0)
+        if( os.path.exists(cpath) ):
+            counts_df = pd.read_csv( cpath, sep='\t', index_col=0)
 
-        mpath = os.path.join(indir, 'deseq_table_meta.tsv')
-        metadata = pd.read_csv( mpath, sep='\t', index_col=0)
+            mpath = os.path.join(indir, 'deseq_table_meta.tsv')
+            metadata = pd.read_csv( mpath, sep='\t', index_col=0)
 
-        ide = "by_all"
-        self.test_differential_expression(outdir, ide, metadata, counts_df)
-        print( '\t', 'all', len(metadata) )
+            ide = "by_all"
+            self.test_differential_expression(outdir, ide, metadata, counts_df)
+            print( '\t', 'all', len(metadata) )
 
-        cols_stratification = ['race','gender', 'ethnicity']
-        for c in cols_stratification:
-            flag = self._test_proportion_demovar(metadata, c)
-            if(flag):
-                k = "by_%s" %(c)
-                aux_outdir = os.path.join( outdir, k )
-                if( not os.path.isdir( aux_outdir ) ):
-                    os.makedirs( aux_outdir )
+            cols_stratification = ['race','gender', 'ethnicity']
+            for c in cols_stratification:
+                flag = self._test_proportion_demovar(metadata, c)
+                if(flag):
+                    k = "by_%s" %(c)
+                    aux_outdir = os.path.join( outdir, k )
+                    if( not os.path.isdir( aux_outdir ) ):
+                        os.makedirs( aux_outdir )
 
-                subgroups = metadata[c].unique()
-                for s in subgroups:
-                    ide = "by_%s-group_%s_" %(c, s)
-                    meta_aux = metadata[ metadata[c] == s ]
-                    print( '\t', c, s, len(meta_aux) )
+                    subgroups = metadata[c].unique()
+                    for s in subgroups:
+                        ide = "by_%s-group_%s_" %(c, s)
+                        meta_aux = metadata[ metadata[c] == s ]
+                        print( '\t', c, s, len(meta_aux) )
 
-                    samples = list( meta_aux.index )
-                    counts_aux = counts_df.iloc[samples, :]
-                    self.test_differential_expression( aux_outdir, ide, meta_aux, counts_aux)
-        print('\n')
+                        samples = list( meta_aux.index )
+                        counts_aux = counts_df.iloc[samples, :]
+                        self.test_differential_expression( aux_outdir, ide, meta_aux, counts_aux)
+            print('\n')
 
     def run(self):
         p = 'TCGA-ACC'
