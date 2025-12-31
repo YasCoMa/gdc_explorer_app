@@ -337,7 +337,8 @@ class HandleEnrichment:
         basename = "%s_%s" %(project, datcat.replace(" ", "-"))
         indir = os.path.join(self.out, "%s" %(basename) )
         outdir = os.path.join(self.out, "%s" %(basename), 'deg_analysis' )
-        
+        if( not os.path.isdir( outdir ) ):
+            os.makedirs( outdir )
 
         cpath = os.path.join(indir, 'deseq_table_counts.tsv')
         if( os.path.exists(cpath) ):
