@@ -367,7 +367,7 @@ class HandleEnrichment:
                         print( '\t', c, s, len(meta_aux) )
 
                         samples = list( meta_aux.index )
-                        counts_aux = counts_df.iloc[samples, :]
+                        counts_aux = counts_df.loc[samples, :]
                         self.test_differential_expression( aux_outdir, ide, meta_aux, counts_aux)
             print('\n')
 
