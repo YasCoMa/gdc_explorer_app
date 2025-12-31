@@ -233,7 +233,8 @@ class HandleEnrichment:
     
     def test_differential_expression(self, outdir, ide, metadata, counts_df, cutoff_log2fc=2, cutoff_padj=0.001):
         '''
-        folder = '/var/www/html/gdcexplorer_app/data_processed/TCGA-UCEC_transcriptome-profiling/'
+        outdir = './'
+        indir = '/var/www/html/gdcexplorer_app/data_processed/TCGA-BLCA_transcriptome-profiling/'
 
         # Loading
         cpath = os.path.join(indir, 'deseq_table_counts.tsv')
@@ -285,7 +286,7 @@ class HandleEnrichment:
             ds._p_value_adjustment()
         # ds.padj
 
-        # ds.summary()
+        ds.summary()
         de = ds.results_df
 
         opath = os.path.join(outdir, '%s_deg_result.pkl' %(ide) )
