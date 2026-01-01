@@ -1,4 +1,5 @@
 import os
+import re
 import sys
 import json
 import pickle
@@ -12,6 +13,7 @@ from tqdm import tqdm
 from Bio import Entrez
 import xml.etree.ElementTree as ET
 
+from Bio.Data import IUPACData
 from pydeseq2.dds import DeseqDataSet
 from pydeseq2.default_inference import DefaultInference
 from pydeseq2.ds import DeseqStats
@@ -398,6 +400,26 @@ class HandleEnrichment:
         slines = '\n'.join(slines)
         f.write(slines+'\n')
         f.close()
+
+    def _build_infosets_from_civicDb(self):
+        aad = IUPACData.protein_letters_3to1
+
+        # the objects generate by this function will be used in the gene_sets parameter in gp.enrichr of gseapy package
+        odir = os.path.join(self.out, 'analysis_custom_sets_enrichment', 'custom_sets')
+        if( not os.path.exists(odir) ):
+            os.makedirs(odir)
+
+        # Reading latest release at the moment of the civicdb, evidence summary table; The releases have the following pattern: https://civicdb.org/downloads/01-Dec-2025/01-Dec-2025-ClinicalEvidenceSummaries.tsv . Maybe it is possible to get automatically the new one every second day of the month
+        inpath = "../external_db/cividb_jan-26.tsv"
+        df = pd.read_csv( inpath, sep="\t")
+        df = df[ df["evidence_status"] == "accepted" ] # Filter the curated accepted evidence entries
+        for i in df.index:
+            gene_mut = df.loc[i, 'molecular_profile'] # check pattern regular expression r'\W{3}\d\W{3}'
+            mut = re.findall(r'(\w{1})([0-9]+)(\w{1})', gene_mut)
+            evtype = df.loc[i, 'evidence_type']
+            significance = df.loc[i, 'significance']
+            disease = df.loc[i, 'disease'].lower().replace(' ','_')
+            drugs = df.loc[i, 'therapies'].split(',')
 
     def run(self):
         p = 'TCGA-ACC'
