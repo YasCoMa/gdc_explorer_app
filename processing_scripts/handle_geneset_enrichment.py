@@ -415,7 +415,7 @@ class HandleEnrichment:
         df = df[ df["evidence_status"] == "accepted" ] # Filter the curated accepted evidence entries
         for i in df.index:
             gene_mut = df.loc[i, 'molecular_profile'] # check pattern regular expression r'\W{3}\d\W{3}'
-            mut = re.findall(r'(\w{1})([0-9]+)(\w{1})', gene_mut)
+            mut = re.findall(r'(\w{1})([0-9]+)(\w{1})', gene_mut) # S2275FS is frameshift?
             evtype = df.loc[i, 'evidence_type']
             significance = df.loc[i, 'significance']
             disease = df.loc[i, 'disease'].lower().replace(' ','_')
