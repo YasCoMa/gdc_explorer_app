@@ -1,0 +1,6 @@
+project	demographic_variable	subgroup	qty_samples	qty_ups	qty_downs	cutoff_log2fc	cutoff_padj
+TCGA-ESCA	all	-	26	361	972	2	0.001
+TCGA-ESCA	gender	male	16	151	299	2	0.001
+TCGA-ESCA	gender	female	10	97	297	2	0.001
+TCGA-ESCA	ethnicity	not hispanic or latino	10	1	1	2	0.001
+TCGA-ESCA	ethnicity	not reported	16	1000	1071	2	0.001

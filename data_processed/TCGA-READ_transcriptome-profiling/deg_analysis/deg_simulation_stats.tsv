@@ -1,0 +1,8 @@
+project	demographic_variable	subgroup	qty_samples	qty_ups	qty_downs	cutoff_log2fc	cutoff_padj
+TCGA-READ	all	-	18	864	1421	2	0.001
+TCGA-READ	race	white	10	489	806	2	0.001
+TCGA-READ	race	not reported	8	429	854	2	0.001
+TCGA-READ	gender	male	6	181	256	2	0.001
+TCGA-READ	gender	female	12	668	1452	2	0.001
+TCGA-READ	ethnicity	not hispanic or latino	8	337	503	2	0.001
+TCGA-READ	ethnicity	not reported	10	550	1221	2	0.001

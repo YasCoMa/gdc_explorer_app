@@ -1,0 +1,4 @@
+project	demographic_variable	subgroup	qty_samples	qty_ups	qty_downs	cutoff_log2fc	cutoff_padj
+TCGA-LUAD	all	-	128	6354	839	2	0.001
+TCGA-LUAD	gender	female	74	3724	832	2	0.001
+TCGA-LUAD	gender	male	54	3805	949	2	0.001

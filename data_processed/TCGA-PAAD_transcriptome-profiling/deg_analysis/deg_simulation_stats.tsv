@@ -1,0 +1,4 @@
+project	demographic_variable	subgroup	qty_samples	qty_ups	qty_downs	cutoff_log2fc	cutoff_padj
+TCGA-PAAD	all	-	8	16	0	2	0.001
+TCGA-PAAD	gender	male	4	2	3	2	0.001
+TCGA-PAAD	gender	female	4	43	0	2	0.001

@@ -243,74 +243,82 @@ class HandleEnrichment:
         mpath = os.path.join(indir, 'deseq_table_meta.tsv')
         metadata = pd.read_csv( mpath, sep='\t', index_col=0)
         '''
-
-        # Preprocessing data
-        inference = DefaultInference(n_cpus=6)
-        dds = DeseqDataSet( counts=counts_df, metadata=metadata, design="~condition", refit_cooks=True, inference=inference, )
-
-        dds.fit_size_factors()
-        # dds.obs["size_factors"]
-
-        dds.fit_genewise_dispersions()
-        # dds.var["genewise_dispersions"]
-
-        dds.fit_dispersion_trend()
-        # dds.uns["trend_coeffs"]
-        # dds.var["fitted_dispersions"]
-
-        dds.fit_dispersion_prior()
-        # print( f"logres_prior={dds.uns['_squared_logres']}, sigma_prior={dds.uns['prior_disp_var']}" )
-
-        dds.fit_MAP_dispersions()
-        # dds.var["MAP_dispersions"]
-        # dds.var["dispersions"]
-
-        dds.fit_LFC()
-        # dds.varm["LFC"]
-
-        dds.calculate_cooks()
-        dds.refit()
-
-        # Performing stats significance tests
-        ds = DeseqStats(dds, contrast=np.array([0, 1]), alpha=0.05, cooks_filter=True, independent_filter=True,)
-        ds.run_wald_test()
-        # ds.p_values
-
-        if( ds.cooks_filter ):
-            ds._cooks_filtering()
-        #ds.p_values
-
-        if ds.independent_filter:
-            ds._independent_filtering()
-        else:
-            ds._p_value_adjustment()
-        # ds.padj
-
-        ds.summary()
-        de = ds.results_df
-
-        opath = os.path.join(outdir, '%s_deg_result.pkl' %(ide) )
-        pickle.dump( ds, open(opath, 'wb') )
-
-        # Post processing
-        downs = de[ (de.log2FoldChange <= (-1*cutoff_log2fc) ) & ( de.padj <= 0.001 ) ]
-        aux = {}
-        keys = list(downs.index)
-        for k in keys:
-            aux[k] = { 'log2fc': downs.loc[k, 'log2FoldChange'], 'padj': downs.loc[k, 'padj'] }
-        downs = aux
-        
-        ups = de[ (de.log2FoldChange >= cutoff_log2fc ) & ( de.padj <= 0.001 ) ]
-        aux = {}
-        keys = list(ups.index)
-        for k in keys:
-            aux[k] = { 'log2fc': ups.loc[k, 'log2FoldChange'], 'padj': ups.loc[k, 'padj'] }
-        ups = aux
-
-        result = { 'up': ups, 'downs': downs }
+        ups = []
+        downs = []
         oname = "%s_result_log2fc-%s_padj-%s.json" %( ide, str(cutoff_log2fc), str(cutoff_padj).split('.')[1] )
         opath = os.path.join( outdir, oname )
-        json.dump( result, open(opath, 'w') )
+        if( True or not os.path.exists(opath) ):
+            # Preprocessing data
+            inference = DefaultInference(n_cpus=6)
+            dds = DeseqDataSet( counts=counts_df, metadata=metadata, design="~condition", refit_cooks=True, inference=inference, )
+
+            dds.fit_size_factors()
+            # dds.obs["size_factors"]
+
+            dds.fit_genewise_dispersions()
+            # dds.var["genewise_dispersions"]
+
+            dds.fit_dispersion_trend()
+            # dds.uns["trend_coeffs"]
+            # dds.var["fitted_dispersions"]
+
+            dds.fit_dispersion_prior()
+            # print( f"logres_prior={dds.uns['_squared_logres']}, sigma_prior={dds.uns['prior_disp_var']}" )
+
+            dds.fit_MAP_dispersions()
+            # dds.var["MAP_dispersions"]
+            # dds.var["dispersions"]
+
+            dds.fit_LFC()
+            # dds.varm["LFC"]
+
+            dds.calculate_cooks()
+            dds.refit()
+
+            # Performing stats significance tests
+            ds = DeseqStats(dds, contrast=np.array([0, 1]), alpha=0.05, cooks_filter=True, independent_filter=True,)
+            ds.run_wald_test()
+            # ds.p_values
+
+            if( ds.cooks_filter ):
+                ds._cooks_filtering()
+            #ds.p_values
+
+            if ds.independent_filter:
+                ds._independent_filtering()
+            else:
+                ds._p_value_adjustment()
+            # ds.padj
+
+            ds.summary()
+            de = ds.results_df
+
+            opath = os.path.join(outdir, '%s_deg_result.pkl' %(ide) )
+            #pickle.dump( ds, open(opath, 'wb') )
+
+            # Post processing
+            downs = de[ (de.log2FoldChange <= (-1*cutoff_log2fc) ) & ( de.padj <= 0.001 ) ]
+            aux = {}
+            keys = list(downs.index)
+            for k in keys:
+                aux[k] = { 'log2fc': downs.loc[k, 'log2FoldChange'], 'padj': downs.loc[k, 'padj'] }
+            downs = aux
+            
+            ups = de[ (de.log2FoldChange >= cutoff_log2fc ) & ( de.padj <= 0.001 ) ]
+            aux = {}
+            keys = list(ups.index)
+            for k in keys:
+                aux[k] = { 'log2fc': ups.loc[k, 'log2FoldChange'], 'padj': ups.loc[k, 'padj'] }
+            ups = aux
+
+            result = { 'up': ups, 'down': downs }
+            json.dump( result, open(opath, 'w') )
+        else:
+            result = json.load( open(opath, 'r') )
+            ups = result['up']
+            downs = result['downs']
+
+        return len(ups), len(downs)
 
     def _test_proportion_demovar(self, mdf, dim, cutoff=0.7):
         flag = True
@@ -331,6 +339,9 @@ class HandleEnrichment:
         return flag        
 
     def perform_degs_analysis_simulation(self, project):
+        cutoff_log2fc = 2
+        cutoff_padj = 0.001
+
         print('------->', project)
 
         datcat = "transcriptome profiling"
@@ -340,6 +351,10 @@ class HandleEnrichment:
         if( not os.path.isdir( outdir ) ):
             os.makedirs( outdir )
 
+        spath = os.path.join(outdir, "deg_simulation_stats.tsv")
+        sheader = ["project", "demographic_variable", "subgroup", "qty_samples", "qty_ups", "qty_downs", "cutoff_log2fc", "cutoff_padj"]
+        slines = [sheader]
+
         cpath = os.path.join(indir, 'deseq_table_counts.tsv')
         if( os.path.exists(cpath) ):
             counts_df = pd.read_csv( cpath, sep='\t', index_col=0)
@@ -348,8 +363,9 @@ class HandleEnrichment:
             metadata = pd.read_csv( mpath, sep='\t', index_col=0)
 
             ide = "by_all"
-            self.test_differential_expression(outdir, ide, metadata, counts_df)
+            nu, nd = self.test_differential_expression(outdir, ide, metadata, counts_df)
             print( '\t', 'all', len(metadata) )
+            slines.append( [project, "all", "-", len(metadata), nu, nd, cutoff_log2fc, cutoff_padj ] )
 
             cols_stratification = ['race','gender', 'ethnicity']
             for c in cols_stratification:
@@ -367,9 +383,21 @@ class HandleEnrichment:
                         print( '\t', c, s, len(meta_aux) )
 
                         samples = list( meta_aux.index )
-                        counts_aux = counts_df.loc[samples, :]
-                        self.test_differential_expression( aux_outdir, ide, meta_aux, counts_aux)
+                        nu = 0
+                        nd = 0
+                        if( len(samples) > 2 ):
+                            counts_aux = counts_df.loc[samples, :]
+                            nu, nd = self.test_differential_expression( aux_outdir, ide, meta_aux, counts_aux)
+
+                        slines.append( [project, c, s, len(samples), nu, nd, cutoff_log2fc, cutoff_padj ] )
+
             print('\n')
+
+        f = open( spath, 'w')
+        slines = list( map( lambda x: '\t'.join( [ str(y) for y in x ] ), slines ))
+        slines = '\n'.join(slines)
+        f.write(slines+'\n')
+        f.close()
 
     def run(self):
         p = 'TCGA-ACC'

@@ -1,0 +1,2 @@
+project	demographic_variable	subgroup	qty_samples	qty_ups	qty_downs	cutoff_log2fc	cutoff_padj
+TCGA-THCA	all	-	118	1244	731	2	0.001

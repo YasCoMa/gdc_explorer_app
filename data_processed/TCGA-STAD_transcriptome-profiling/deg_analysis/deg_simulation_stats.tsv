@@ -1,0 +1,8 @@
+project	demographic_variable	subgroup	qty_samples	qty_ups	qty_downs	cutoff_log2fc	cutoff_padj
+TCGA-STAD	all	-	66	824	1215	2	0.001
+TCGA-STAD	race	asian	14	1192	1901	2	0.001
+TCGA-STAD	race	white	42	539	646	2	0.001
+TCGA-STAD	race	not reported	8	89	101	2	0.001
+TCGA-STAD	race	black or african american	2	0	0	2	0.001
+TCGA-STAD	gender	male	46	618	1129	2	0.001
+TCGA-STAD	gender	female	20	249	214	2	0.001

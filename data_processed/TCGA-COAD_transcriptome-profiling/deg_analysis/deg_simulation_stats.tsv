@@ -1,0 +1,10 @@
+project	demographic_variable	subgroup	qty_samples	qty_ups	qty_downs	cutoff_log2fc	cutoff_padj
+TCGA-COAD	all	-	87	3578	1493	2	0.001
+TCGA-COAD	race	not reported	40	2131	1623	2	0.001
+TCGA-COAD	race	white	39	2219	1477	2	0.001
+TCGA-COAD	race	black or african american	6	245	133	2	0.001
+TCGA-COAD	race	american indian or alaska native	2	0	0	2	0.001
+TCGA-COAD	gender	male	42	1388	1536	2	0.001
+TCGA-COAD	gender	female	45	3101	1370	2	0.001
+TCGA-COAD	ethnicity	not reported	40	2131	1623	2	0.001
+TCGA-COAD	ethnicity	not hispanic or latino	47	3159	1373	2	0.001

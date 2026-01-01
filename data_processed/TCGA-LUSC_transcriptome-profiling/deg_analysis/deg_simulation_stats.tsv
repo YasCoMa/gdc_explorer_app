@@ -1,0 +1,4 @@
+project	demographic_variable	subgroup	qty_samples	qty_ups	qty_downs	cutoff_log2fc	cutoff_padj
+TCGA-LUSC	all	-	102	4058	2232	2	0.001
+TCGA-LUSC	ethnicity	not hispanic or latino	60	3661	2183	2	0.001
+TCGA-LUSC	ethnicity	not reported	42	3234	2097	2	0.001

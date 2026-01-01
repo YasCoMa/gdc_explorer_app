@@ -1,0 +1,8 @@
+project	demographic_variable	subgroup	qty_samples	qty_ups	qty_downs	cutoff_log2fc	cutoff_padj
+TCGA-LIHC	all	-	100	1792	510	2	0.001
+TCGA-LIHC	race	white	68	1623	584	2	0.001
+TCGA-LIHC	race	not reported	6	25	196	2	0.001
+TCGA-LIHC	race	black or african american	14	128	30	2	0.001
+TCGA-LIHC	race	asian	12	474	445	2	0.001
+TCGA-LIHC	gender	male	56	1399	711	2	0.001
+TCGA-LIHC	gender	female	44	1203	433	2	0.001

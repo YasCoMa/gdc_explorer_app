@@ -1,0 +1,4 @@
+project	demographic_variable	subgroup	qty_samples	qty_ups	qty_downs	cutoff_log2fc	cutoff_padj
+TCGA-PCPG	all	-	6	1121	846	2	0.001
+TCGA-PCPG	gender	female	2	0	0	2	0.001
+TCGA-PCPG	gender	male	4	959	514	2	0.001

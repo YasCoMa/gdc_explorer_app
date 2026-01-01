@@ -1,0 +1,4 @@
+project	demographic_variable	subgroup	qty_samples	qty_ups	qty_downs	cutoff_log2fc	cutoff_padj
+TCGA-CESC	all	-	6	491	702	2	0.001
+TCGA-CESC	race	black or african american	2	0	0	2	0.001
+TCGA-CESC	race	white	4	57	175	2	0.001

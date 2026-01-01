@@ -1,0 +1,2 @@
+project	demographic_variable	subgroup	qty_samples	qty_ups	qty_downs	cutoff_log2fc	cutoff_padj
+TCGA-PRAD	all	-	106	480	604	2	0.001

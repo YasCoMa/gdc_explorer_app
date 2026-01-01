@@ -219,16 +219,27 @@ function _render_pie_hist_stage(dat_cases){
     });
     document.getElementById(container).innerHTML = htmls;
     
+    let uniques_null = 0;
     keys.forEach( (it) => {
         let _id = it.replaceAll(' ','_');
 
         let itlay = pie_layout;
         itlay["title"] = { "text": `Subgroup ${ _id }` };
         let labels = Object.keys( tmp[it] );
-        let values = Object.values( tmp[it] );
-        let pldata = [{ "values": values, "labels": labels, "type": "pie" }];
-        Plotly.newPlot( `pie_${_id}_ai1`, pldata, itlay, config);
+        if( labels.length == 1 && labels[0]=='null' ){
+            uniques_null += 1;
+        }
+        else{
+            let values = Object.values( tmp[it] );
+            let pldata = [{ "values": values, "labels": labels, "type": "pie" }];
+            Plotly.newPlot( `pie_${_id}_ai1`, pldata, itlay, config);
+        }
+        console.log(it, labels)
     });
+    if(uniques_null == keys.length){
+        document.getElementById(container).innerHTML = "<p> There is no information available about the pathological state. </p>";
+    }
+
     document.getElementById("cases_stage_ai1").style.display = '';
 
 }

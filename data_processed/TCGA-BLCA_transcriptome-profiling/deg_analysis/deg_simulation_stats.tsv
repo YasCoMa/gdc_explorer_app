@@ -1,0 +1,4 @@
+project	demographic_variable	subgroup	qty_samples	qty_ups	qty_downs	cutoff_log2fc	cutoff_padj
+TCGA-BLCA	all	-	40	932	1292	2	0.001
+TCGA-BLCA	gender	male	22	820	1277	2	0.001
+TCGA-BLCA	gender	female	18	146	474	2	0.001

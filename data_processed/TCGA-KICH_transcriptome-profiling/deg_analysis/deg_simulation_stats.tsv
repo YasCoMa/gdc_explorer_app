@@ -1,0 +1,8 @@
+project	demographic_variable	subgroup	qty_samples	qty_ups	qty_downs	cutoff_log2fc	cutoff_padj
+TCGA-KICH	all	-	50	1925	3593	2	0.001
+TCGA-KICH	gender	female	24	1414	2999	2	0.001
+TCGA-KICH	gender	male	26	1449	2917	2	0.001
+TCGA-KICH	ethnicity	hispanic or latino	2	0	0	2	0.001
+TCGA-KICH	ethnicity	Unknown	4	305	858	2	0.001
+TCGA-KICH	ethnicity	not hispanic or latino	22	1254	2467	2	0.001
+TCGA-KICH	ethnicity	not reported	22	1279	2768	2	0.001

@@ -1,0 +1,2 @@
+project	demographic_variable	subgroup	qty_samples	qty_ups	qty_downs	cutoff_log2fc	cutoff_padj
+TCGA-UCEC	all	-	46	1812	1923	2	0.001
