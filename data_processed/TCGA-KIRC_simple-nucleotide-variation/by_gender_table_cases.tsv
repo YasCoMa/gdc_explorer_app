@@ -1,4 +1,5 @@
-demo_variable	subgroup	feature	feature_value	uuid	countby_gender	female	chromosome	chr1	b77b9ee0-65f6-4575-ab60-95e0664476d5	2
+demo_variable	subgroup	feature	feature_value	uuid	count
+by_gender	female	chromosome	chr1	b77b9ee0-65f6-4575-ab60-95e0664476d5	2
 by_gender	female	chromosome	chr10	b77b9ee0-65f6-4575-ab60-95e0664476d5	1
 by_gender	female	chromosome	chr11	b77b9ee0-65f6-4575-ab60-95e0664476d5	2
 by_gender	female	chromosome	chr12	b77b9ee0-65f6-4575-ab60-95e0664476d5	2

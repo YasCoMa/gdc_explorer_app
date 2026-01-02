@@ -1,4 +1,5 @@
-demo_variable	subgroup	feature	feature_value	uuid	countall	-	chromosome	chr1	86d17998-9b12-4b7a-934d-f7a372d5cb94	22
+demo_variable	subgroup	feature	feature_value	uuid	count
+all	-	chromosome	chr1	86d17998-9b12-4b7a-934d-f7a372d5cb94	22
 all	-	chromosome	chr10	86d17998-9b12-4b7a-934d-f7a372d5cb94	4
 all	-	chromosome	chr11	86d17998-9b12-4b7a-934d-f7a372d5cb94	11
 all	-	chromosome	chr12	86d17998-9b12-4b7a-934d-f7a372d5cb94	6

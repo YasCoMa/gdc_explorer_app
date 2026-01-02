@@ -1,4 +1,5 @@
-demo_variable	subgroup	feature	feature_value	uuid	countall	-	chromosome	chr1	7d98710f-8925-4b49-b314-25a719aa1610	1
+demo_variable	subgroup	feature	feature_value	uuid	count
+all	-	chromosome	chr1	7d98710f-8925-4b49-b314-25a719aa1610	1
 all	-	chromosome	chr10	7d98710f-8925-4b49-b314-25a719aa1610	1
 all	-	chromosome	chr12	7d98710f-8925-4b49-b314-25a719aa1610	1
 all	-	chromosome	chr19	7d98710f-8925-4b49-b314-25a719aa1610	1

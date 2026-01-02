@@ -1,4 +1,5 @@
-demo_variable	subgroup	feature	feature_value	uuid	countby_race	white	chromosome	chr12	c05d3448-b137-4853-b61b-f94d465fcda9	1
+demo_variable	subgroup	feature	feature_value	uuid	count
+by_race	white	chromosome	chr12	c05d3448-b137-4853-b61b-f94d465fcda9	1
 by_race	white	chromosome	chr5	c05d3448-b137-4853-b61b-f94d465fcda9	1
 by_race	white	chromosome	chr9	c05d3448-b137-4853-b61b-f94d465fcda9	1
 by_race	white	hugo_symbol	CTSL	c05d3448-b137-4853-b61b-f94d465fcda9	1

@@ -1,2 +1,2 @@
-project	demographic_variable	subgroup	qty_samples	qty_ups	qty_downs	cutoff_log2fc	cutoff_padj
-TCGA-UCEC	all	-	46	1812	1923	2	0.001
+project	demographic_variable	subgroup	qty_samples	qty_ups	qty_downs	qty_ups_incommon_all	qty_downs_incommon_all	qty_ups_diff_all	qty_downs_diff_all	cutoff_log2fc	cutoff_padj
+TCGA-UCEC	all	-	46	1812	1923	1812	1923	0	0	2	0.001

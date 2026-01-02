@@ -1,4 +1,5 @@
-demo_variable	subgroup	feature	feature_value	uuid	countby_ethnicity	hispanic or latino	chromosome	chr1	69ca13ff-0bd9-4f13-b212-24969eb784d1	1
+demo_variable	subgroup	feature	feature_value	uuid	count
+by_ethnicity	hispanic or latino	chromosome	chr1	69ca13ff-0bd9-4f13-b212-24969eb784d1	1
 by_ethnicity	hispanic or latino	chromosome	chr2	69ca13ff-0bd9-4f13-b212-24969eb784d1	1
 by_ethnicity	hispanic or latino	chromosome	chr21	69ca13ff-0bd9-4f13-b212-24969eb784d1	1
 by_ethnicity	hispanic or latino	chromosome	chr3	69ca13ff-0bd9-4f13-b212-24969eb784d1	1

@@ -1,4 +1,5 @@
-demo_variable	subgroup	feature	feature_value	uuid	countall	-	chromosome	chr1	a95c7f26-3d28-498b-b7e2-f13702f4c9d8	1
+demo_variable	subgroup	feature	feature_value	uuid	count
+all	-	chromosome	chr1	a95c7f26-3d28-498b-b7e2-f13702f4c9d8	1
 all	-	chromosome	chr10	a95c7f26-3d28-498b-b7e2-f13702f4c9d8	1
 all	-	chromosome	chr11	a95c7f26-3d28-498b-b7e2-f13702f4c9d8	2
 all	-	chromosome	chr12	a95c7f26-3d28-498b-b7e2-f13702f4c9d8	1

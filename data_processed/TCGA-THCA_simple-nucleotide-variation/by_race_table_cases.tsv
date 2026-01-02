@@ -1,4 +1,5 @@
-demo_variable	subgroup	feature	feature_value	uuid	countby_race	white	chromosome	chr10	76658c03-d6a8-45e3-9a60-9d628adc755b	1
+demo_variable	subgroup	feature	feature_value	uuid	count
+by_race	white	chromosome	chr10	76658c03-d6a8-45e3-9a60-9d628adc755b	1
 by_race	white	chromosome	chr15	76658c03-d6a8-45e3-9a60-9d628adc755b	1
 by_race	white	chromosome	chr3	76658c03-d6a8-45e3-9a60-9d628adc755b	1
 by_race	white	chromosome	chr7	76658c03-d6a8-45e3-9a60-9d628adc755b	1

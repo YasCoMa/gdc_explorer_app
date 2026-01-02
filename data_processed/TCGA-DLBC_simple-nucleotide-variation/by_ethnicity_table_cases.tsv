@@ -1,4 +1,5 @@
-demo_variable	subgroup	feature	feature_value	uuid	countby_ethnicity	not hispanic or latino	chromosome	chr1	94606639-44ac-4eb7-b0ed-367602f4a176	7
+demo_variable	subgroup	feature	feature_value	uuid	count
+by_ethnicity	not hispanic or latino	chromosome	chr1	94606639-44ac-4eb7-b0ed-367602f4a176	7
 by_ethnicity	not hispanic or latino	chromosome	chr10	94606639-44ac-4eb7-b0ed-367602f4a176	3
 by_ethnicity	not hispanic or latino	chromosome	chr11	94606639-44ac-4eb7-b0ed-367602f4a176	8
 by_ethnicity	not hispanic or latino	chromosome	chr12	94606639-44ac-4eb7-b0ed-367602f4a176	5

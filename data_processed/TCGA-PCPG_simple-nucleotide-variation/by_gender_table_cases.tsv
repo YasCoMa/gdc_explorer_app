@@ -1,4 +1,5 @@
-demo_variable	subgroup	feature	feature_value	uuid	countby_gender	male	chromosome	chr10	bb81d5ad-5490-4eb6-a99f-546631550a79	1
+demo_variable	subgroup	feature	feature_value	uuid	count
+by_gender	male	chromosome	chr10	bb81d5ad-5490-4eb6-a99f-546631550a79	1
 by_gender	male	chromosome	chr19	bb81d5ad-5490-4eb6-a99f-546631550a79	1
 by_gender	male	chromosome	chr4	bb81d5ad-5490-4eb6-a99f-546631550a79	2
 by_gender	male	chromosome	chr7	bb81d5ad-5490-4eb6-a99f-546631550a79	1
