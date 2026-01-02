@@ -249,7 +249,7 @@ class HandleEnrichment:
         downs = []
         oname = "%s_result_log2fc-%s_padj-%s.json" %( ide, str(cutoff_log2fc), str(cutoff_padj).split('.')[1] )
         opath = os.path.join( outdir, oname )
-        if( True or not os.path.exists(opath) ):
+        if( not os.path.exists(opath) ):
             # Preprocessing data
             inference = DefaultInference(n_cpus=6)
             dds = DeseqDataSet( counts=counts_df, metadata=metadata, design="~condition", refit_cooks=True, inference=inference, )
@@ -320,7 +320,7 @@ class HandleEnrichment:
             ups = result['up']
             downs = result['downs']
 
-        return len(ups), len(downs)
+        return ups, downs
 
     def _test_proportion_demovar(self, mdf, dim, cutoff=0.7):
         flag = True
@@ -354,7 +354,7 @@ class HandleEnrichment:
             os.makedirs( outdir )
 
         spath = os.path.join(outdir, "deg_simulation_stats.tsv")
-        sheader = ["project", "demographic_variable", "subgroup", "qty_samples", "qty_ups", "qty_downs", "cutoff_log2fc", "cutoff_padj"]
+        sheader = ["project", "demographic_variable", "subgroup", "qty_samples", "qty_ups", "qty_downs", "qty_ups_incommon_all", "qty_downs_incommon_all", "qty_ups_diff_all", "qty_downs_diff_all", "cutoff_log2fc", "cutoff_padj"]
         slines = [sheader]
 
         cpath = os.path.join(indir, 'deseq_table_counts.tsv')
@@ -365,9 +365,9 @@ class HandleEnrichment:
             metadata = pd.read_csv( mpath, sep='\t', index_col=0)
 
             ide = "by_all"
-            nu, nd = self.test_differential_expression(outdir, ide, metadata, counts_df)
+            allnu, allnd = self.test_differential_expression(outdir, ide, metadata, counts_df)
             print( '\t', 'all', len(metadata) )
-            slines.append( [project, "all", "-", len(metadata), nu, nd, cutoff_log2fc, cutoff_padj ] )
+            slines.append( [project, "all", "-", len(metadata), len(allnu), len(allnd), len(allnu), len(allnd), 0, 0, cutoff_log2fc, cutoff_padj ] )
 
             cols_stratification = ['race','gender', 'ethnicity']
             for c in cols_stratification:
@@ -387,11 +387,19 @@ class HandleEnrichment:
                         samples = list( meta_aux.index )
                         nu = 0
                         nd = 0
+                        nuc = 0
+                        ndc = 0
+                        nud = 0
+                        ndd = 0
                         if( len(samples) > 2 ):
                             counts_aux = counts_df.loc[samples, :]
                             nu, nd = self.test_differential_expression( aux_outdir, ide, meta_aux, counts_aux)
+                            nuc = set(nu).intersection( set(allnu) )
+                            ndc = set(nd).intersection( set(allnd) )
+                            nud = set(nu).difference( set(allnu) )
+                            ndd = set(nd).difference( set(allnd) )
 
-                        slines.append( [project, c, s, len(samples), nu, nd, cutoff_log2fc, cutoff_padj ] )
+                        slines.append( [project, c, s, len(samples), len(nu), len(nd),  len(nuc), len(ndc), len(nud), len(ndd), cutoff_log2fc, cutoff_padj ] )
 
             print('\n')
 
@@ -401,25 +409,221 @@ class HandleEnrichment:
         f.write(slines+'\n')
         f.close()
 
+    def _get_aa_mapping(self):
+        mapp = IUPACData.protein_letters_3to1
+        rmapp = { item[1]: item[0] for item in mapp.items() }
+
+        return mapp, rmapp
+
+    def _get_map_project_diseaseCivic(self):
+        projects = [ "TCGA-ACC",  "TCGA-BLCA",  "TCGA-BRCA",  "TCGA-CESC",  "TCGA-CHOL",  "TCGA-COAD",  "TCGA-DLBC",  "TCGA-ESCA",  "TCGA-GBM",  "TCGA-HNSC",  "TCGA-KICH",  "TCGA-KIRC",  "TCGA-KIRP",  "TCGA-LAML",  "TCGA-LGG",  "TCGA-LIHC",  "TCGA-LUAD",  "TCGA-LUSC",  "TCGA-MESO",  "TCGA-OV",  "TCGA-PAAD",  "TCGA-PCPG",  "TCGA-PRAD",  "TCGA-READ",  "TCGA-SARC",  "TCGA-SKCM",  "TCGA-STAD",  "TCGA-TGCT",  "TCGA-THCA",  "TCGA-THYM",  "TCGA-UCEC",  "TCGA-UCS",  "TCGA-UVM" ]
+        diseases = [ ["Adrenocortical Carcinoma"], ["Bladder Carcinoma"], ["Breast Cancer"], ["Cervical Cancer"], ["Cholangiocarcinoma"], ["Colon Adenocarcinoma", "Colorectal Cancer"], ["Diffuse Large B-cell Lymphoma"], ["Esophageal Carcinoma", "Esophagus Squamous Cell Carcinoma"], ["Glioblastoma"], ["Head And Neck Squamous Cell Carcinoma"], ["Chromophobe Renal Cell Carcinoma", "Renal cell carcinoma"], ["Kidney Clear Cell Sarcoma", "Renal cell carcinoma"], ["Papillary Renal Cell Carcinoma", "Renal cell carcinoma"], ["Acute Myeloid Leukemia"], ["Low Grade Glioma"], ["Hepatocellular Carcinoma"], ["Lung Adenocarcinoma"], ["Lung Squamous Cell Carcinoma"], ["Malignant Pleural Mesothelioma"], ["Ovarian Cancer"], ["Pancreatic Cancer"], ["Pheochromocytoma", "Paraganglioma"], ["Prostate Carcinoma"], ["Rectum Cancer"], ["Sarcoma"], ["Skin Melanoma"], ["Stomach Cancer"], ["Testicular Cancer"], ["Thyroid Cancer"], ["Thymic Carcinoma"], ["Uterine Corpus Endometrial Carcinoma", "Endometrial Cancer"], ["Uterine Cancer"], ["Uveal Melanoma"] ]
+        mapp = dict( zip( projects, diseases ))
+
+        return mapp
+
+
     def _build_infosets_from_civicDb(self):
-        aad = IUPACData.protein_letters_3to1
+        aa31, aa13 = self._get_aa_mapping()
 
         # the objects generate by this function will be used in the gene_sets parameter in gp.enrichr of gseapy package
-        odir = os.path.join(self.out, 'analysis_custom_sets_enrichment', 'custom_sets')
+        odir = os.path.join(self.out, 'analysis_custom_sets_enrichment')
         if( not os.path.exists(odir) ):
             os.makedirs(odir)
 
         # Reading latest release at the moment of the civicdb, evidence summary table; The releases have the following pattern: https://civicdb.org/downloads/01-Dec-2025/01-Dec-2025-ClinicalEvidenceSummaries.tsv . Maybe it is possible to get automatically the new one every second day of the month
         inpath = "../external_db/cividb_jan-26.tsv"
+        cnf = {}
+        info = { "disease_to_drug": {}, "disease_to_gene": {}, "disease_to_snv": {}, "diseaseEvidencetype_to_gene": {}, "diseaseEvidencetype_to_snv": {}, "diseaseDrug_to_gene": {}, "diseaseDrug_to_snv": {}, "drugSignificance_to_snv": {} }
+
         df = pd.read_csv( inpath, sep="\t")
         df = df[ df["evidence_status"] == "accepted" ] # Filter the curated accepted evidence entries
         for i in df.index:
-            gene_mut = df.loc[i, 'molecular_profile'] # check pattern regular expression r'\W{3}\d\W{3}'
-            mut = re.findall(r'(\w{1})([0-9]+)(\w{1})', gene_mut) # S2275FS is frameshift?
-            evtype = df.loc[i, 'evidence_type']
-            significance = df.loc[i, 'significance']
-            disease = df.loc[i, 'disease'].lower().replace(' ','_')
+            gene_mut = df.loc[i, 'molecular_profile'] 
+            # check pattern regular expression for mutation
+            mut = re.findall( r'([A-Z]{1})([0-9]+)([A-Z]{1})', gene_mut) # S2275FS is frameshift?
+            # Transforming the matchings to be compatible with
+            muts = [ ( 'p.' + aa13[x[0]] + x[1] + aa13[x[2]] ) for x in mut ]
+            gene = gene_mut.split(' ')[0]
+            snvs = [ (gene + '_' + m) for m in muts ]
+
+            evtype = df.loc[i, 'evidence_type'].replace(' ','_').lower()
+            significance = df.loc[i, 'significance'].replace(' ','_').lower()
+
+            disease = df.loc[i, 'disease'].split(',')
+            diseases = [ x.lower().replace(' ','_') for x in disease ]
+
             drugs = df.loc[i, 'therapies'].split(',')
+
+            # Set cancerType to drugs
+            for di in diseases:
+                if(not di in info["disease_to_drug"]):
+                    info["disease_to_drug"][di] = []
+
+                for dr in drugs:
+                    if( not dr in info["disease_to_drug"][di] ):
+                        info["disease_to_drug"][di].append(dr)
+
+            # Set cancerType to genes and snvs
+            for di in diseases:
+                if(not di in info["disease_to_gene"]):
+                    info["disease_to_gene"][di] = []
+                if(not di in info["disease_to_snv"]):
+                    info["disease_to_snv"][di] = []
+                    
+                if( not gene in info["disease_to_gene"][di] ):
+                    info["disease_to_gene"][di].append(gene)
+                
+                for snv in snvs:
+                    if( not snv in info["disease_to_snv"][di] ):
+                        info["disease_to_snv"][di].append(snv)
+
+            # Set cancerType+evidenceType to genes and snvs
+            for di in diseases:
+                di = "%s-%s" %(di, evtype)
+                if(not di in info["diseaseEvidencetype_to_gene"]):
+                    info["diseaseEvidencetype_to_gene"][di] = []
+                if(not di in info["diseaseEvidencetype_to_snv"]):
+                    info["diseaseEvidencetype_to_snv"][di] = []
+                    
+                if( not gene in info["diseaseEvidencetype_to_gene"][di] ):
+                    info["diseaseEvidencetype_to_geneSnv"][di].append(gene)
+
+                for snv in snvs:
+                    if( not snv in info["diseaseEvidencetype_to_snv"][di] ):
+                        info["diseaseEvidencetype_to_snv"][di].append(snv)
+
+            # Set cancerType+drug to genes and snvs
+            for di in diseases:
+                for dr in drugs:
+                    di = "%s-%s" %(di, dr)
+                    if(not di in info["diseaseDrug_to_gene"]):
+                        info["diseaseDrug_to_gene"][di] = []
+                    if(not di in info["diseaseDrug_to_snv"]):
+                        info["diseaseDrug_to_snv"][di] = []
+                        
+                    if( not gene in info["diseaseDrug_to_gene"][di] ):
+                        info["diseaseDrug_to_geneSnv"][di].append(gene)
+
+                    for snv in snvs:
+                        if( not snv in info["diseaseDrug_to_snv"][di] ):
+                            info["diseaseDrug_to_snv"][di].append(snv)
+
+            # Set drug+significance to snvs
+            for di in diseases:
+                di = "%s-%s" %(di, evtype)
+                if(not di in info["drugSignificance_to_snv"]):
+                    info["drugSignificance_to_snv"][di] = []
+
+                for snv in snvs:
+                    if( not snv in info["drugSignificance_to_snv"][di] ):
+                        info["drugSignificance_to_snv"][di].append(snv)
+
+
+        opath = os.path.join(odir, "custom_sets.json")
+        json.dump( info, open(opath, 'w') )
+
+    def _build_background_drug_list(self, p):
+        datcat = "clinical"
+        basename = "%s_%s" %(project, datcat.replace(" ", "-"))
+        odir = os.path.join(self.out, "%s" %(basename) )
+        path = os.path.join(odir, "data_cases.json")
+        df = json.load( open(path, 'r') )
+
+        drugs = set()
+        for el in df:
+            for d in df["drug_details"]:
+                drugs.add(d["name"])
+
+        back = { "drugs": drugs }
+
+
+        return drugs
+
+    def _build_background_geneSnv_list(self, p):
+        datcat = "simple nucleotide variation"
+        basename = "%s_%s" %(project, datcat.replace(" ", "-"))
+        odir = os.path.join(self.out, "%s" %(basename) )
+        path = os.path.join(odir, "by_all_table_cases.tsv")
+        df = pd.read_csv(path, sep='\t')
+
+        genes = set( df[ df["feature"] == "hugo_symbol" ].feature_value.values )
+        snvs = set( df[ df["feature"] == "locationaa" ].feature_value.values )
+        back = { "genes": genes, "snvs": snvs }
+
+
+        return genes, snvs
+
+    def get_set_localdb_enrichment(self, collection_id, collection, project, enrich_type):
+        datcat = "local_enrichment"
+        basename = "%s_%s" %(project, datcat)
+        odir = os.path.join(self.out, "%s" %(basename) )
+        if( not os.path.exists(odir) ):
+            os.makedirs(odir)
+
+        indir = os.path.join(self.out, 'analysis_custom_sets_enrichment')
+        inpath = os.path.join(indir, "custom_sets.json")
+        infosets = json.load( open(inpath, 'r') )
+
+        back_drugs = self._build_background_drug_list(project)
+        back_genes, back_snvs = self._build_background_geneSnv_list(project)
+
+        categories = list( filter( lambda x: x.endswith(enrich_type), list(categories) ) )
+        back = eval('back_%ss' %(enrich_type))
+
+        for category in categories:
+            tmpath = os.path.join(odir, '%s_%s_enrich.txt')
+            with open(tmpath, 'w') as f:
+                f.write( '\n'.join(back) )
+
+            customset = infosets[category]
+            enr_bg = gp.enrichr(gene_list = collection, gene_sets = customset, background = tmpath, outdir=None, )
+            res = enr_bg.results
+            opath = os.path.join( odir, "%s_%s_enrich.tsv" %(collection_id, category) )
+            res.to_csv(opath, sep='\t', index=None )  
+
+    def perform_degs_localEnrichment_simulation(self, project):
+        enrich_type = "gene"
+        print('------->', project)
+
+        datcat = "transcriptome profiling"
+        basename = "%s_%s" %(project, datcat.replace(" ", "-"))
+        indir = os.path.join(self.out, "%s" %(basename) )
+
+        mpath = os.path.join(indir, 'deseq_table_meta.tsv')
+            metadata = pd.read_csv( mpath, sep='\t', index_col=0)
+
+            ide = "by_all"
+            allnu, allnd = self.test_differential_expression(outdir, ide, metadata, counts_df)
+            collection_id = "%s_up" %(ide)
+            collection = allnu
+            self.get_set_localdb_enrichment(collection_id, collection, project, enrich_type)
+
+            collection_id = "%s_down" %(ide)
+            collection = allnd
+            self.get_set_localdb_enrichment(collection_id, collection, project, enrich_type)
+
+            cols_stratification = ['race','gender', 'ethnicity']
+            for c in cols_stratification:
+                flag = self._test_proportion_demovar(metadata, c)
+                if(flag):
+                    k = "by_%s" %(c)
+                    subgroups = metadata[c].unique()
+                    for s in subgroups:
+                        ide = "by_%s-group_%s_" %(c, s)
+                        meta_aux = metadata[ metadata[c] == s ]
+
+                        samples = list( meta_aux.index )
+                        if( len(samples) > 2 ):
+                            counts_aux = counts_df.loc[samples, :]
+                            nu, nd = self.test_differential_expression( aux_outdir, ide, meta_aux, counts_aux)
+                            collection_id = "%s_up" %(ide)
+                            collection = nu
+                            self.get_set_localdb_enrichment(collection_id, collection, project, enrich_type)
+
+                            collection_id = "%s_down" %(ide)
+                            collection = nd
+                            self.get_set_localdb_enrichment(collection_id, collection, project, enrich_type)
 
     def run(self):
         p = 'TCGA-ACC'

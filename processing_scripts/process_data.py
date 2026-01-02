@@ -467,7 +467,7 @@ class DataWrangler:
                 k = "by_%s" %(c)
                 tpath = os.path.join(odir, '%s_table_cases.tsv' %(k) )
                 f = open(tpath, 'w')
-                f.write( '\t'.join(header) )
+                f.write( '\t'.join(header)+'\n' )
                 f.close()
 
             for f in tqdm(os.listdir(fsodir)):
@@ -852,8 +852,7 @@ class DataWrangler:
             #self.test_survival_km(p, dc)
             #self._compress_files(p, dc, remove=True)
             #self._compress_files(p, dc, "table_cases.tsv", remove=False)
-
-
+            
             self.parse_mutationSnv_data(p)
             
         #self.select_projects_open_expressionCounts()
