@@ -487,7 +487,7 @@ class HandleEnrichment:
                     info["diseaseEvidencetype_to_snv"][di] = []
                     
                 if( not gene in info["diseaseEvidencetype_to_gene"][di] ):
-                    info["diseaseEvidencetype_to_geneSnv"][di].append(gene)
+                    info["diseaseEvidencetype_to_gene"][di].append(gene)
 
                 for snv in snvs:
                     if( not snv in info["diseaseEvidencetype_to_snv"][di] ):
@@ -503,7 +503,7 @@ class HandleEnrichment:
                         info["diseaseDrug_to_snv"][di] = []
                         
                     if( not gene in info["diseaseDrug_to_gene"][di] ):
-                        info["diseaseDrug_to_geneSnv"][di].append(gene)
+                        info["diseaseDrug_to_gene"][di].append(gene)
 
                     for snv in snvs:
                         if( not snv in info["diseaseDrug_to_snv"][di] ):
