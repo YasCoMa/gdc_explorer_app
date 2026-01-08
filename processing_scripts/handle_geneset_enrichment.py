@@ -385,12 +385,12 @@ class HandleEnrichment:
                         print( '\t', c, s, len(meta_aux) )
 
                         samples = list( meta_aux.index )
-                        nu = 0
-                        nd = 0
-                        nuc = 0
-                        ndc = 0
-                        nud = 0
-                        ndd = 0
+                        nu = []
+                        nd = []
+                        nuc = []
+                        ndc = []
+                        nud = []
+                        ndd = []
                         if( len(samples) > 2 ):
                             counts_aux = counts_df.loc[samples, :]
                             nu, nd = self.test_differential_expression( aux_outdir, ide, meta_aux, counts_aux)
