@@ -605,11 +605,11 @@ class HandleEnrichment:
             ide = "by_all"
             allnu, allnd = self.test_differential_expression(outdir, ide, metadata, counts_df)
             collection_id = "%s_up" %(ide)
-            collection = allnu
+            collection = list(allnu)
             self.get_set_localdb_enrichment(collection_id, collection, project, enrich_type)
 
             collection_id = "%s_down" %(ide)
-            collection = allnd
+            collection = list(allnd)
             self.get_set_localdb_enrichment(collection_id, collection, project, enrich_type)
 
             cols_stratification = ['race','gender', 'ethnicity']
@@ -629,11 +629,11 @@ class HandleEnrichment:
                             counts_aux = None
                             nu, nd = self.test_differential_expression( aux_outdir, ide, meta_aux, counts_aux)
                             collection_id = "%s_up" %(ide)
-                            collection = nu
+                            collection = list(nu)
                             self.get_set_localdb_enrichment(collection_id, collection, project, enrich_type)
 
                             collection_id = "%s_down" %(ide)
-                            collection = nd
+                            collection = list(nd)
                             self.get_set_localdb_enrichment(collection_id, collection, project, enrich_type)
         else:
             print('Not enough info for DEGs in project ', project)
