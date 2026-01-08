@@ -538,7 +538,7 @@ class HandleEnrichment:
 
         drugs = set()
         for el in df:
-            for d in df["drug_details"]:
+            for d in el["drug_details"]:
                 drugs.add(d["name"])
 
         back = { "drugs": drugs }
