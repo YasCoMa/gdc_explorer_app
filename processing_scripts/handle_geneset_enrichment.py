@@ -591,6 +591,7 @@ class HandleEnrichment:
         indir = os.path.join(self.out, "%s" %(basename) )
         outdir = os.path.join(self.out, "%s" %(basename), 'deg_analysis' )
 
+        counts_df = None
         mpath = os.path.join(indir, 'deseq_table_meta.tsv')
         if( os.path.exists(mpath) ):
             metadata = pd.read_csv( mpath, sep='\t', index_col=0)
@@ -611,7 +612,7 @@ class HandleEnrichment:
                 if(flag):
                     k = "by_%s" %(c)
                     aux_outdir = os.path.join( outdir, k )
-                    
+
                     subgroups = metadata[c].unique()
                     for s in subgroups:
                         ide = "by_%s-group_%s_" %(c, s)
@@ -619,7 +620,7 @@ class HandleEnrichment:
 
                         samples = list( meta_aux.index )
                         if( len(samples) > 2 ):
-                            counts_aux = counts_df.loc[samples, :]
+                            counts_aux = None
                             nu, nd = self.test_differential_expression( aux_outdir, ide, meta_aux, counts_aux)
                             collection_id = "%s_up" %(ide)
                             collection = nu
