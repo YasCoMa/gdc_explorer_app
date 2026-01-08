@@ -531,7 +531,7 @@ class HandleEnrichment:
 
     def _build_background_drug_list(self, p):
         datcat = "clinical"
-        basename = "%s_%s" %(project, datcat.replace(" ", "-"))
+        basename = "%s_%s" %(p, datcat.replace(" ", "-"))
         odir = os.path.join(self.out, "%s" %(basename) )
         path = os.path.join(odir, "data_cases.json")
         df = json.load( open(path, 'r') )
@@ -548,7 +548,7 @@ class HandleEnrichment:
 
     def _build_background_geneSnv_list(self, p):
         datcat = "simple nucleotide variation"
-        basename = "%s_%s" %(project, datcat.replace(" ", "-"))
+        basename = "%s_%s" %(p, datcat.replace(" ", "-"))
         odir = os.path.join(self.out, "%s" %(basename) )
         path = os.path.join(odir, "by_all_table_cases.tsv")
         df = pd.read_csv(path, sep='\t')
