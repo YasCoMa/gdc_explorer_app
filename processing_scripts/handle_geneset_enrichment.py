@@ -631,6 +631,8 @@ class HandleEnrichment:
     def run(self):
         p = 'TCGA-ACC'
         #self.enrich_exclusive_mutated_genes(p)
+        
+        p = 'TCGA-READ'
         self.perform_degs_localEnrichment_simulation(p)
 
         #d = self._get_info_clinvar('rs334')
