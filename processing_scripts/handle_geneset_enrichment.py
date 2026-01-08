@@ -589,6 +589,7 @@ class HandleEnrichment:
         datcat = "transcriptome profiling"
         basename = "%s_%s" %(project, datcat.replace(" ", "-"))
         indir = os.path.join(self.out, "%s" %(basename) )
+        outdir = os.path.join(self.out, "%s" %(basename), 'deg_analysis' )
 
         mpath = os.path.join(indir, 'deseq_table_meta.tsv')
         if( os.path.exists(mpath) ):
@@ -609,6 +610,8 @@ class HandleEnrichment:
                 flag = self._test_proportion_demovar(metadata, c)
                 if(flag):
                     k = "by_%s" %(c)
+                    aux_outdir = os.path.join( outdir, k )
+                    
                     subgroups = metadata[c].unique()
                     for s in subgroups:
                         ide = "by_%s-group_%s_" %(c, s)
