@@ -590,40 +590,43 @@ class HandleEnrichment:
         basename = "%s_%s" %(project, datcat.replace(" ", "-"))
         indir = os.path.join(self.out, "%s" %(basename) )
 
-        mpath = os.path.join(indir, 'deseq_table_meta.tsv')
-        metadata = pd.read_csv( mpath, sep='\t', index_col=0)
+        try:
+            mpath = os.path.join(indir, 'deseq_table_meta.tsv')
+            metadata = pd.read_csv( mpath, sep='\t', index_col=0)
 
-        ide = "by_all"
-        allnu, allnd = self.test_differential_expression(outdir, ide, metadata, counts_df)
-        collection_id = "%s_up" %(ide)
-        collection = allnu
-        self.get_set_localdb_enrichment(collection_id, collection, project, enrich_type)
+            ide = "by_all"
+            allnu, allnd = self.test_differential_expression(outdir, ide, metadata, counts_df)
+            collection_id = "%s_up" %(ide)
+            collection = allnu
+            self.get_set_localdb_enrichment(collection_id, collection, project, enrich_type)
 
-        collection_id = "%s_down" %(ide)
-        collection = allnd
-        self.get_set_localdb_enrichment(collection_id, collection, project, enrich_type)
+            collection_id = "%s_down" %(ide)
+            collection = allnd
+            self.get_set_localdb_enrichment(collection_id, collection, project, enrich_type)
 
-        cols_stratification = ['race','gender', 'ethnicity']
-        for c in cols_stratification:
-            flag = self._test_proportion_demovar(metadata, c)
-            if(flag):
-                k = "by_%s" %(c)
-                subgroups = metadata[c].unique()
-                for s in subgroups:
-                    ide = "by_%s-group_%s_" %(c, s)
-                    meta_aux = metadata[ metadata[c] == s ]
+            cols_stratification = ['race','gender', 'ethnicity']
+            for c in cols_stratification:
+                flag = self._test_proportion_demovar(metadata, c)
+                if(flag):
+                    k = "by_%s" %(c)
+                    subgroups = metadata[c].unique()
+                    for s in subgroups:
+                        ide = "by_%s-group_%s_" %(c, s)
+                        meta_aux = metadata[ metadata[c] == s ]
 
-                    samples = list( meta_aux.index )
-                    if( len(samples) > 2 ):
-                        counts_aux = counts_df.loc[samples, :]
-                        nu, nd = self.test_differential_expression( aux_outdir, ide, meta_aux, counts_aux)
-                        collection_id = "%s_up" %(ide)
-                        collection = nu
-                        self.get_set_localdb_enrichment(collection_id, collection, project, enrich_type)
+                        samples = list( meta_aux.index )
+                        if( len(samples) > 2 ):
+                            counts_aux = counts_df.loc[samples, :]
+                            nu, nd = self.test_differential_expression( aux_outdir, ide, meta_aux, counts_aux)
+                            collection_id = "%s_up" %(ide)
+                            collection = nu
+                            self.get_set_localdb_enrichment(collection_id, collection, project, enrich_type)
 
-                        collection_id = "%s_down" %(ide)
-                        collection = nd
-                        self.get_set_localdb_enrichment(collection_id, collection, project, enrich_type)
+                            collection_id = "%s_down" %(ide)
+                            collection = nd
+                            self.get_set_localdb_enrichment(collection_id, collection, project, enrich_type)
+        except:
+            print('Not enough info for DEGs in project ', project)
 
     def run(self):
         p = 'TCGA-ACC'
