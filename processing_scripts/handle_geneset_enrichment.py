@@ -571,22 +571,25 @@ class HandleEnrichment:
         inpath = os.path.join(indir, "custom_sets.json")
         infosets = json.load( open(inpath, 'r') )
 
-        back_drugs = self._build_background_drug_list(project)
-        back_genes, back_snvs = self._build_background_geneSnv_list(project)
+        try:
+            back_drugs = self._build_background_drug_list(project)
+            back_genes, back_snvs = self._build_background_geneSnv_list(project)
 
-        categories = list( filter( lambda x: x.endswith(enrich_type), list(infosets) ) )
-        back = eval('back_%ss' %(enrich_type))
+            categories = list( filter( lambda x: x.endswith(enrich_type), list(infosets) ) )
+            back = eval('back_%ss' %(enrich_type))
 
-        for category in categories:
-            tmpath = os.path.join(odir, '%s_%s_enrich.txt')
-            with open(tmpath, 'w') as f:
-                f.write( '\n'.join(back) )
+            for category in categories:
+                tmpath = os.path.join(odir, '%s_%s_enrich.txt')
+                with open(tmpath, 'w') as f:
+                    f.write( '\n'.join(back) )
 
-            customset = infosets[category]
-            enr_bg = gp.enrichr(gene_list = collection, gene_sets = customset, background = tmpath, outdir=None, )
-            res = enr_bg.results
-            opath = os.path.join( odir, "%s_%s_enrich.tsv" %(collection_id, category) )
-            res.to_csv(opath, sep='\t', index=None )  
+                customset = infosets[category]
+                enr_bg = gp.enrichr(gene_list = collection, gene_sets = customset, background = tmpath, outdir=None, )
+                res = enr_bg.results
+                opath = os.path.join( odir, "%s_%s_enrich.tsv" %(collection_id, category) )
+                res.to_csv(opath, sep='\t', index=None )  
+        except:
+            pass
 
     def perform_degs_localEnrichment_simulation(self, project):
         enrich_type = "gene"
