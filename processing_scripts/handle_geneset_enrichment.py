@@ -590,8 +590,8 @@ class HandleEnrichment:
         basename = "%s_%s" %(project, datcat.replace(" ", "-"))
         indir = os.path.join(self.out, "%s" %(basename) )
 
-        try:
-            mpath = os.path.join(indir, 'deseq_table_meta.tsv')
+        mpath = os.path.join(indir, 'deseq_table_meta.tsv')
+        if( os.path.exists(mpath) ):
             metadata = pd.read_csv( mpath, sep='\t', index_col=0)
 
             ide = "by_all"
@@ -625,7 +625,7 @@ class HandleEnrichment:
                             collection_id = "%s_down" %(ide)
                             collection = nd
                             self.get_set_localdb_enrichment(collection_id, collection, project, enrich_type)
-        except:
+        else:
             print('Not enough info for DEGs in project ', project)
 
     def run(self):
