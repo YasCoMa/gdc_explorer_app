@@ -439,7 +439,7 @@ class HandleEnrichment:
         df = pd.read_csv( inpath, sep="\t")
         df = df[ df["evidence_status"] == "accepted" ] # Filter the curated accepted evidence entries
         for i in df.index:
-            gene_mut = df.loc[i, 'molecular_profile'] 
+            gene_mut = str(df.loc[i, 'molecular_profile'] )
             # check pattern regular expression for mutation
             mut = re.findall( r'([A-Z]{1})([0-9]+)([A-Z]{1})', gene_mut) # S2275FS is frameshift?
             # Transforming the matchings to be compatible with
@@ -447,13 +447,13 @@ class HandleEnrichment:
             gene = gene_mut.split(' ')[0]
             snvs = [ (gene + '_' + m) for m in muts ]
 
-            evtype = df.loc[i, 'evidence_type'].replace(' ','_').lower()
-            significance = df.loc[i, 'significance'].replace(' ','_').lower()
+            evtype = str(df.loc[i, 'evidence_type']).replace(' ','_').lower()
+            significance = str(df.loc[i, 'significance']).replace(' ','_').lower()
 
-            disease = df.loc[i, 'disease'].split(',')
+            disease = str(df.loc[i, 'disease']).split(',')
             diseases = [ x.lower().replace(' ','_') for x in disease ]
 
-            drugs = df.loc[i, 'therapies'].split(',')
+            drugs = str(df.loc[i, 'therapies']).split(',')
 
             # Set cancerType to drugs
             for di in diseases:
@@ -643,7 +643,7 @@ class HandleEnrichment:
         #print(d)
 
         self._build_infosets_from_civicDb()
-        
+
         projects = [ "TCGA-ACC",  "TCGA-BLCA",  "TCGA-BRCA",  "TCGA-CESC",  "TCGA-CHOL",  "TCGA-COAD",  "TCGA-DLBC",  "TCGA-ESCA",  "TCGA-GBM",  "TCGA-HNSC",  "TCGA-KICH",  "TCGA-KIRC",  "TCGA-KIRP",  "TCGA-LAML",  "TCGA-LGG",  "TCGA-LIHC",  "TCGA-LUAD",  "TCGA-LUSC",  "TCGA-MESO",  "TCGA-OV",  "TCGA-PAAD",  "TCGA-PCPG",  "TCGA-PRAD",  "TCGA-READ",  "TCGA-SARC",  "TCGA-SKCM",  "TCGA-STAD",  "TCGA-TGCT",  "TCGA-THCA",  "TCGA-THYM",  "TCGA-UCEC",  "TCGA-UCS",  "TCGA-UVM" ]
         for p in tqdm(projects):
             self.perform_degs_analysis_simulation(p)
