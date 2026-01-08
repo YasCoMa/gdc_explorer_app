@@ -574,7 +574,7 @@ class HandleEnrichment:
         back_drugs = self._build_background_drug_list(project)
         back_genes, back_snvs = self._build_background_geneSnv_list(project)
 
-        categories = list( filter( lambda x: x.endswith(enrich_type), list(categories) ) )
+        categories = list( filter( lambda x: x.endswith(enrich_type), list(infosets) ) )
         back = eval('back_%ss' %(enrich_type))
 
         for category in categories:
