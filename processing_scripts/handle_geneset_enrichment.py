@@ -443,7 +443,13 @@ class HandleEnrichment:
             # check pattern regular expression for mutation
             mut = re.findall( r'([A-Z]{1})([0-9]+)([A-Z]{1})', gene_mut) # S2275FS is frameshift?
             # Transforming the matchings to be compatible with
-            muts = [ ( 'p.' + aa13[x[0]] + x[1] + aa13[x[2]] ) for x in mut ]
+            muts = []
+            for x in mut:
+                try:
+                    muts.append( 'p.' + aa13[x[0]] + x[1] + aa13[x[2]] )
+                except:
+                    pass
+            #muts = [ ( 'p.' + aa13[x[0]] + x[1] + aa13[x[2]] ) for x in mut ]
             gene = gene_mut.split(' ')[0]
             snvs = [ (gene + '_' + m) for m in muts ]
 
