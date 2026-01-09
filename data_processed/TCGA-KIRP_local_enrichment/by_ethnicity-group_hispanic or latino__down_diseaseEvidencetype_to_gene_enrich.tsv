@@ -1,0 +1,2 @@
+Gene_set	Term	Overlap	P-value	Adjusted P-value	Odds Ratio	Combined Score	Genes
+gs_ind_0	head_and_neck_squamous_cell_carcinoma-predictive	1/12	0.060970035835103804	0.060970035835103804	25.08011724474841	70.1584365801897	EGF

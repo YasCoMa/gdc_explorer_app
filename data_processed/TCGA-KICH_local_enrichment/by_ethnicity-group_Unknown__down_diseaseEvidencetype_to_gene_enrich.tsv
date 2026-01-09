@@ -1,0 +1,4 @@
+Gene_set	Term	Overlap	P-value	Adjusted P-value	Odds Ratio	Combined Score	Genes
+gs_ind_0	cancer-predictive	1/9	0.32058805119842493	0.4282463807039279	4.042658284687921	4.59892123105116	NTRK3
+gs_ind_0	gastrointestinal_stromal_tumor-predictive	1/1	0.04193138500635324	0.12579415501905972	69.09160305343511	219.1392666991817	NTRK3
+gs_ind_0	lung_non-small_cell_carcinoma-predictive	1/13	0.4282463807039279	0.4282463807039279	2.741679389312977	2.325099282482472	NTRK3

@@ -1,0 +1,4 @@
+Gene_set	Term	Overlap	P-value	Adjusted P-value	Odds Ratio	Combined Score	Genes
+gs_ind_0	breast_cancer-predictive	1/38	0.5196615673093692	0.5196615673093692	2.054211576846307	1.3446407018347886	ESR1
+gs_ind_0	colon_adenocarcinoma-predictive	1/2	0.03780630320360861	0.11341890961082583	51.49900199600798	168.67362235829734	FOS
+gs_ind_0	estrogen-receptor_positive_breast_cancer-predictive	1/8	0.14289386315446037	0.21434079473169057	10.29500998003992	20.030518494034578	ESR1

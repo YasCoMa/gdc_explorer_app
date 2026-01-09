@@ -295,7 +295,7 @@ class HandleEnrichment:
             ds.summary()
             de = ds.results_df
 
-            opath = os.path.join(outdir, '%s_deg_result.pkl' %(ide) )
+            #opath = os.path.join(outdir, '%s_deg_result.pkl' %(ide) )
             #pickle.dump( ds, open(opath, 'wb') )
 
             # Post processing
@@ -318,7 +318,7 @@ class HandleEnrichment:
         else:
             result = json.load( open(opath, 'r') )
             ups = result['up']
-            downs = result['downs']
+            downs = result['down']
 
         return ups, downs
 
@@ -463,67 +463,72 @@ class HandleEnrichment:
 
             # Set cancerType to drugs
             for di in diseases:
-                if(not di in info["disease_to_drug"]):
-                    info["disease_to_drug"][di] = []
+                if(di != 'nan'):
+                    if(not di in info["disease_to_drug"]):
+                        info["disease_to_drug"][di] = []
 
-                for dr in drugs:
-                    if( not dr in info["disease_to_drug"][di] ):
-                        info["disease_to_drug"][di].append(dr)
+                    for dr in drugs:
+                        if( (dr != 'nan') and (not dr in info["disease_to_drug"][di]) ):
+                            info["disease_to_drug"][di].append(dr)
 
             # Set cancerType to genes and snvs
             for di in diseases:
-                if(not di in info["disease_to_gene"]):
-                    info["disease_to_gene"][di] = []
-                if(not di in info["disease_to_snv"]):
-                    info["disease_to_snv"][di] = []
+                if(di != 'nan'):
+                    if(not di in info["disease_to_gene"]):
+                        info["disease_to_gene"][di] = []
+                    if(not di in info["disease_to_snv"]):
+                        info["disease_to_snv"][di] = []
+                        
+                    if( not gene in info["disease_to_gene"][di] ):
+                        info["disease_to_gene"][di].append(gene)
                     
-                if( not gene in info["disease_to_gene"][di] ):
-                    info["disease_to_gene"][di].append(gene)
-                
-                for snv in snvs:
-                    if( not snv in info["disease_to_snv"][di] ):
-                        info["disease_to_snv"][di].append(snv)
+                    for snv in snvs:
+                        if( not snv in info["disease_to_snv"][di] ):
+                            info["disease_to_snv"][di].append(snv)
 
             # Set cancerType+evidenceType to genes and snvs
             for di in diseases:
                 di = "%s-%s" %(di, evtype)
-                if(not di in info["diseaseEvidencetype_to_gene"]):
-                    info["diseaseEvidencetype_to_gene"][di] = []
-                if(not di in info["diseaseEvidencetype_to_snv"]):
-                    info["diseaseEvidencetype_to_snv"][di] = []
-                    
-                if( not gene in info["diseaseEvidencetype_to_gene"][di] ):
-                    info["diseaseEvidencetype_to_gene"][di].append(gene)
+                if(di != 'nan' and evtype != 'nan' ):
+                    if(not di in info["diseaseEvidencetype_to_gene"]):
+                        info["diseaseEvidencetype_to_gene"][di] = []
+                    if(not di in info["diseaseEvidencetype_to_snv"]):
+                        info["diseaseEvidencetype_to_snv"][di] = []
+                        
+                    if( not gene in info["diseaseEvidencetype_to_gene"][di] ):
+                        info["diseaseEvidencetype_to_gene"][di].append(gene)
 
-                for snv in snvs:
-                    if( not snv in info["diseaseEvidencetype_to_snv"][di] ):
-                        info["diseaseEvidencetype_to_snv"][di].append(snv)
+                    for snv in snvs:
+                        if( not snv in info["diseaseEvidencetype_to_snv"][di] ):
+                            info["diseaseEvidencetype_to_snv"][di].append(snv)
 
             # Set cancerType+drug to genes and snvs
             for di in diseases:
                 for dr in drugs:
-                    di = "%s-%s" %(di, dr)
-                    if(not di in info["diseaseDrug_to_gene"]):
-                        info["diseaseDrug_to_gene"][di] = []
-                    if(not di in info["diseaseDrug_to_snv"]):
-                        info["diseaseDrug_to_snv"][di] = []
-                        
-                    if( not gene in info["diseaseDrug_to_gene"][di] ):
-                        info["diseaseDrug_to_gene"][di].append(gene)
+                    if(di != 'nan' and dr != 'nan' ):
+                        di = "%s-%s" %(di, dr)
+                        if(not di in info["diseaseDrug_to_gene"]):
+                            info["diseaseDrug_to_gene"][di] = []
+                        if(not di in info["diseaseDrug_to_snv"]):
+                            info["diseaseDrug_to_snv"][di] = []
+                            
+                        if( not gene in info["diseaseDrug_to_gene"][di] ):
+                            info["diseaseDrug_to_gene"][di].append(gene)
 
-                    for snv in snvs:
-                        if( not snv in info["diseaseDrug_to_snv"][di] ):
-                            info["diseaseDrug_to_snv"][di].append(snv)
+                        for snv in snvs:
+                            if( not snv in info["diseaseDrug_to_snv"][di] ):
+                                info["diseaseDrug_to_snv"][di].append(snv)
 
             # Set drug+significance to snvs
-            for di in diseases:
-                di = "%s-%s" %(di, evtype)
-                if(not di in info["drugSignificance_to_snv"]):
-                    info["drugSignificance_to_snv"][di] = []
+            for dr in drugs:
+                di = "%s-%s" %(dr, significance)
+                if(dr != 'nan' and significance != 'nan' ):
+                    if(not di in info["drugSignificance_to_snv"]):
+                        info["drugSignificance_to_snv"][di] = []
 
-                for snv in snvs:
-                    if( not snv in info["drugSignificance_to_snv"][di] ):
-                        info["drugSignificance_to_snv"][di].append(snv)
+                    for snv in snvs:
+                        if( not snv in info["drugSignificance_to_snv"][di] ):
+                            info["drugSignificance_to_snv"][di].append(snv)
 
 
         opath = os.path.join(odir, "custom_sets.json")
@@ -579,7 +584,7 @@ class HandleEnrichment:
             back = eval('back_%ss' %(enrich_type))
 
             for category in categories:
-                tmpath = os.path.join(odir, '%s_%s_enrich.txt')
+                tmpath = os.path.join(odir, '%s_enrich.txt' %(basename) )
                 with open(tmpath, 'w') as f:
                     f.write( '\n'.join(back) )
 
@@ -588,6 +593,7 @@ class HandleEnrichment:
                 res = enr_bg.results
                 opath = os.path.join( odir, "%s_%s_enrich.tsv" %(collection_id, category) )
                 res.to_csv(opath, sep='\t', index=None )  
+                os.remove(tmpath)
         except:
             pass
 
@@ -655,7 +661,7 @@ class HandleEnrichment:
 
         projects = [ "TCGA-ACC",  "TCGA-BLCA",  "TCGA-BRCA",  "TCGA-CESC",  "TCGA-CHOL",  "TCGA-COAD",  "TCGA-DLBC",  "TCGA-ESCA",  "TCGA-GBM",  "TCGA-HNSC",  "TCGA-KICH",  "TCGA-KIRC",  "TCGA-KIRP",  "TCGA-LAML",  "TCGA-LGG",  "TCGA-LIHC",  "TCGA-LUAD",  "TCGA-LUSC",  "TCGA-MESO",  "TCGA-OV",  "TCGA-PAAD",  "TCGA-PCPG",  "TCGA-PRAD",  "TCGA-READ",  "TCGA-SARC",  "TCGA-SKCM",  "TCGA-STAD",  "TCGA-TGCT",  "TCGA-THCA",  "TCGA-THYM",  "TCGA-UCEC",  "TCGA-UCS",  "TCGA-UVM" ]
         for p in tqdm(projects):
-            self.perform_degs_analysis_simulation(p)
+            #self.perform_degs_analysis_simulation(p)
             self.perform_degs_localEnrichment_simulation(p)
 
 if( __name__ == "__main__" ):

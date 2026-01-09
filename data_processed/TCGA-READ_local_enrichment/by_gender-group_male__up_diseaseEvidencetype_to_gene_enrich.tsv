@@ -1,0 +1,3 @@
+Gene_set	Term	Overlap	P-value	Adjusted P-value	Odds Ratio	Combined Score	Genes
+gs_ind_0	colorectal_cancer-predictive	1/33	0.23510519397090268	0.23510519397090268	5.679030558482613	8.221658790483282	DKK1
+gs_ind_0	estrogen-receptor_positive_breast_cancer-predictive	1/6	0.04751584702620181	0.09503169405240362	33.62515566625156	102.44549283358697	MMP1

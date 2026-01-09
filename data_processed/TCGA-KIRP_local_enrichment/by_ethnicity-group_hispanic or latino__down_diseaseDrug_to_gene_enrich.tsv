@@ -1,0 +1,2 @@
+Gene_set	Term	Overlap	P-value	Adjusted P-value	Odds Ratio	Combined Score	Genes
+gs_ind_0	head_and_neck_squamous_cell_carcinoma-Cetuximab	1/3	0.015595835230434178	0.015595835230434178	115.48988764044944	480.52470854199873	EGF

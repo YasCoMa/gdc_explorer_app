@@ -1,0 +1,2 @@
+Gene_set	Term	Overlap	P-value	Adjusted P-value	Odds Ratio	Combined Score	Genes
+gs_ind_0	breast_cancer-predictive	2/24	0.002886350742752586	0.002886350742752586	34.59191919191919	202.28532071132892	ABCC3;TIMP1

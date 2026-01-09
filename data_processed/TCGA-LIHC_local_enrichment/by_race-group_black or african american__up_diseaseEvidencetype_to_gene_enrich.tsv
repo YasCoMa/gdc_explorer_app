@@ -1,0 +1,2 @@
+Gene_set	Term	Overlap	P-value	Adjusted P-value	Odds Ratio	Combined Score	Genes
+gs_ind_0	colorectal_cancer-predictive	1/31	0.18421589103118285	0.18421589103118285	7.498705780845556	12.685162300852719	PTP4A3

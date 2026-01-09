@@ -1,0 +1,6 @@
+Gene_set	Term	Overlap	P-value	Adjusted P-value	Odds Ratio	Combined Score	Genes
+gs_ind_0	colorectal_cancer-Irinotecan	1/7	0.055214668161268146	0.055214668161268146	28.44994731296101	82.40603011193348	DKK1
+gs_ind_0	colorectal_cancer-Irinotecan-Oxaliplatin	1/1	0.008079324274697024	0.01009915534337128	370.013698630137	1782.8914106705406	DKK1
+gs_ind_0	colorectal_cancer-Irinotecan-Oxaliplatin-Levoleucovorin	1/1	0.008079324274697024	0.01009915534337128	370.013698630137	1782.8914106705406	DKK1
+gs_ind_0	colorectal_cancer-Irinotecan-Oxaliplatin-Levoleucovorin-Fluorouracil	1/1	0.008079324274697024	0.01009915534337128	370.013698630137	1782.8914106705406	DKK1
+gs_ind_0	estrogen-receptor_positive_breast_cancer-Sacituzumab Govitecan	1/1	0.008079324274697024	0.01009915534337128	370.013698630137	1782.8914106705406	MMP1
