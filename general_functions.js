@@ -5,6 +5,60 @@ function _capitalize(vs){
     return nv;
 }
 
+function _get_exclusive_values(target_key, obj, type_value = "dict"){
+	let tvalues = obj[target_key];
+	if( type_value == "dict" ){
+		tvalues = Object.keys(obj[target_key]);
+	}
+	let to_remove = new Set();
+
+	let values = [];
+	for(let k of Object.keys(obj) ){
+		if( k != target_key ){
+			values = obj[k];
+			if( type_value == "dict" ){
+				values = Object.keys(obj[k]);
+			}
+			for( let v of values){
+				if( tvalues.includes(v) ){
+					to_remove.add(v);
+				}
+			}
+		}
+	}
+	tvalues = new Set(tvalues);
+	tvalues = tvalues.difference(to_remove);
+
+	let exclusive = Array.from(tvalues);
+
+	return exclusive;
+}
+
+function _get_intersection_values(obj, type_value = "dict"){
+	let keys = Object.keys(obj);
+	let tvalues = obj[ keys[0] ];
+	if( type_value == "dict" ){
+		tvalues = Object.keys(obj[ keys[0] ]);
+	}
+	let inter = new Set(tvalues);
+
+	let values = [];
+	for(let k of Object.keys(obj) ){
+		if( k != target_key ){
+			values = obj[k];
+			if( type_value == "dict" ){
+				values = Object.keys(obj[k]);
+			}
+			let nv = new Set(values);
+			inter = inter.intersection(nv);
+		}
+	}
+
+	let in_common = Array.from(inter);
+
+	return in_common;
+}
+
 const intersect = (setA, setB, ...args) => {
   const result = new Set([...setA].filter((i) => setB.has(i)))
   if (args.length === 0) return result

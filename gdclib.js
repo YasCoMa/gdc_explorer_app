@@ -309,5 +309,129 @@ class GdcExplorerLib {
         return dat.data;
     }
 
+    async map_fileid_to_caseid(project, datcat){
+        datcat = datcat.replaceAll(" ", "-");
+        let url = `${location.href}/data_processed/${project}_${datcat}/files_metadata.tsv`;
+        let r = await fetch( url );
+        let dat = await r.text();
+        let txt = dat.split("\n").slice(1, -1).map( l => l.split('\t') );
+        let mapp = {};
+        txt.forEach( l => { mapp[ l.slice(-2)[0] ] = l[0]; } );
+
+        return mapp;
+    }
+
+    async map_caseid_to_demovars(project){
+        let datcat = "cases";
+        datcat = datcat.replaceAll(" ", "-");
+        let url = `${location.href}/data_processed/${project}_${datcat}/cases_metadata.json`;
+        let r = await fetch( url );
+        let mapp = await r.json();
+
+        return mapp;
+    }
+
+    async get_mutation_info_metrics_stratified(p){
+        let datcat = "simple nucleotide variation";
+        datcat = datcat.replaceAll(" ", "-");
+        let cols_stratification = ['race','gender', 'ethnicity'];
+        let cols_info = ["impact", "consequence", "clin_sig", "variant_class", "hugo_symbol"];
+        let mp_name_info = { "impact": "Impact", "consequence": "Consequence", "clin_sig": "Pathogenicity", "hugo_symbol": "Gene" };
+        // map nan to 'Not reported'
+        
+        let mapf = await this.map_fileid_to_caseid(p, datcat);
+        let mapc = await this.map_caseid_to_demovars(p);
+        let url = `${location.href}/data_processed/${project}_${datcat}/general_snprs_info.json`;
+        let r = await fetch( url );
+        let dat = await r.json();
+
+        let rdat_mut = {}; // subgroup -> mutation -> count
+        // section 1 plot in fact will be rdat_mut['by_gender'] = { 'male': { 'mapk1_v200f': 3 } } | by_gender or by_colStratification (second select in page) -> in_common or exclusive (first section) -> subgroup , value of col_stratification (male or female) -> mutation -> count
+        // Provide a full table ?
+
+        let rdat_mdetails = {}; // by_gender or by_colStratification (second select in page) -> col_info (impact, consequence, etc) (different plot area) -> subgroup -> values col_info (impacto LOW, HIGH, etc) -> count
+        // This one can be grouped, but the col_info values that are missing must be filled with zero
+
+        // subgroup -> mutation
+        let all_muts = {};
+        let all_values_mut_subgroup = {}; // to calculate later in_common and exclusive
+        let all_values_details = {};
+        for(let c of cols_stratification){
+            all_values_mut_subgroup[`by_${c}`] = {};
+            rdat_mdetails[`by_${c}`] = {};
+        }
+
+        // Getting all possible values first
+        let uuids = Object.keys(dat);
+        for( let f of uuids){
+            let case_id = mapf[f];
+            let infosub = mapc[case_id];
+
+            let mutations = Object.keys(dat[f]);
+            for(let m of mutations){
+                infom = dat[f][m];
+                if( ! Object.keys(all_muts).includes(m) ){
+                    all_muts[m] = 0;
+                }
+                all_muts[m] += 1;
+
+                for ( let ci of cols_info){
+                    if( ! Object.keys(all_values_details).includes(ci) ){
+                        all_values_details[ci] = new Set();
+                    }
+                    all_values_details[ci].add( infom[ci] );
+                }
+
+                
+                for(let c of cols_stratification){
+                    let sub = infosub[c];
+                    if( ! Object.keys(all_values_mut_subgroup[`by_${c}`]).includes(sub) ){
+                        all_values_mut_subgroup[`by_${c}`][sub] = {};
+                        rdat_mdetails[`by_${c}`][sub] = {}
+                    }
+
+                    if( ! Object.keys(all_values_mut_subgroup[`by_${c}`][sub]).includes(m) ){
+                        all_values_mut_subgroup[`by_${c}`][sub][m] = 0;
+                    }
+
+                    all_values_mut_subgroup[`by_${c}`][sub][m] += 1;
+
+                    for ( let ci of cols_info){
+                        if( ! Object.keys( rdat_mdetails[`by_${c}`][sub] ).includes(ci) ){
+                            rdat_mdetails[`by_${c}`][sub][ci] = {};
+                        }
+                        if( ! Object.keys( rdat_mdetails[`by_${c}`][sub][ci] ).includes( infom[ci] ) ){
+                            rdat_mdetails[`by_${c}`][sub][ci][ infom[ci] ] = 0;
+                        }
+                        rdat_mdetails[`by_${c}`][sub][ci][ infom[ci] ] += 1;
+                    }
+                }
+            }
+        }
+
+        // Composing the final data
+        let in_common = {};
+        let exclusive = {};
+        for(let c of cols_stratification){
+            in_common[`by_${c}`] = _get_intersection_values( all_values_mut_subgroup[`by_${c}`], type_value = "dict");
+
+            exclusive[`by_${c}`] = {};
+            let groups = Object.keys( all_values_mut_subgroup[`by_${c}`] );
+            for( let sub of groups ){
+                exclusive[`by_${c}`][sub] = _get_exclusive_values(sub, all_values_mut_subgroup[`by_${c}`], type_value = "dict");
+
+                for( let ci of cols_info ){
+                    for( let v of all_values_details[ci] ){
+                        if( ! Object.keys( rdat_mdetails[`by_${c}`][sub][ci] ).includes(v) ){
+                            rdat_mdetails[`by_${c}`][sub][ci][ v ] = 0;
+                        }
+                    }
+                }
+            }
+        }
+
+        return all_muts, in_common, exclusive, all_values_mut_subgroup, rdat_mdetails, all_values_details;
+    }
+
     
 }

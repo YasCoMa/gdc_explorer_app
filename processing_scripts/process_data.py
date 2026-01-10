@@ -90,7 +90,7 @@ class DataWrangler:
             print("Please choose a valid platform for the methylation beads: illumina_27, illumina_450, illumina_epic or illumina_epicv2")
 
     def get_cases_info_by_project(self, project):
-        basename = "%s_%s" %(project, 'cases')
+        basename = os.path.join(project, 'cases')
         odir = os.path.join(self.out, "%s" %(basename) )
         if( not os.path.exists(odir) ):
             os.makedirs(odir)
@@ -148,7 +148,7 @@ class DataWrangler:
         return df
 
     def get_case_files_by_data_category(self, project, datcat):
-        basename = "%s_%s" %(project, datcat.replace(" ", "-"))
+        basename = os.path.join( project, datcat.replace(" ", "-") )
         odir = os.path.join(self.out, "%s" %(basename) )
         if( not os.path.exists(odir) ):
             os.makedirs(odir)
@@ -697,7 +697,7 @@ class DataWrangler:
         return ok_projects
 
     def test_survival_km(self, project, datcat):
-        basename = "%s_%s" %(project, datcat.replace(" ", "-"))
+        basename = os.path.join( project, datcat.replace(" ", "-") )
         odir = os.path.join(self.out, "%s" %(basename) )
         path = os.path.join(odir, "data_cases.json")
 
@@ -796,7 +796,7 @@ class DataWrangler:
 
     def _compress_files(self, project, datcat, namefile, remove=False):
         fname = namefile.split('.')[0]
-        basename = "%s_%s" %(project, datcat.replace(" ", "-"))
+        basename = os.path.join( project, datcat.replace(" ", "-") )
 
         dest = '/aloy/home/ymartins/data_processed/' # change to self.out
         dest = self.out
@@ -814,7 +814,7 @@ class DataWrangler:
 
     def _decompress_files(self, project, datcat, namefile):
         fname = namefile.split('.')[0]
-        basename = "%s_%s" %(project, datcat.replace(" ", "-"))
+        basename = os.path.join( project, datcat.replace(" ", "-") )
         odir = os.path.join(self.out, "%s" %(basename) )
 
         cwd = os.getwd()

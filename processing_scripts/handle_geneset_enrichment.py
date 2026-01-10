@@ -213,7 +213,7 @@ class HandleEnrichment:
 
     def enrich_exclusive_mutated_genes(self, project):
         datcat = "simple nucleotide variation"
-        basename = "%s_%s" %(project, datcat.replace(" ", "-"))
+        basename = os.path.join( project, datcat.replace(" ", "-") )
         odir = os.path.join(self.out, "%s" %(basename) )
         path = os.path.join(odir, "data_cases.json")
         df = json.load( open(path, 'r') )
@@ -347,7 +347,7 @@ class HandleEnrichment:
         print('------->', project)
 
         datcat = "transcriptome profiling"
-        basename = "%s_%s" %(project, datcat.replace(" ", "-"))
+        basename = os.path.join( project, datcat.replace(" ", "-") )
         indir = os.path.join(self.out, "%s" %(basename) )
         outdir = os.path.join(self.out, "%s" %(basename), 'deg_analysis' )
         if( not os.path.isdir( outdir ) ):
@@ -536,7 +536,7 @@ class HandleEnrichment:
 
     def _build_background_drug_list(self, p):
         datcat = "clinical"
-        basename = "%s_%s" %(p, datcat.replace(" ", "-"))
+        basename = os.path.join(p, datcat.replace(" ", "-"))
         odir = os.path.join(self.out, "%s" %(basename) )
         path = os.path.join(odir, "data_cases.json")
         df = json.load( open(path, 'r') )
@@ -553,7 +553,7 @@ class HandleEnrichment:
 
     def _build_background_geneSnv_list(self, p):
         datcat = "simple nucleotide variation"
-        basename = "%s_%s" %(p, datcat.replace(" ", "-"))
+        basename = os.path.join(p, datcat.replace(" ", "-"))
         odir = os.path.join(self.out, "%s" %(basename) )
         path = os.path.join(odir, "by_all_table_cases.tsv")
         df = pd.read_csv(path, sep='\t')
@@ -567,7 +567,7 @@ class HandleEnrichment:
 
     def get_set_localdb_enrichment(self, collection_id, collection, project, enrich_type):
         datcat = "local_enrichment"
-        basename = "%s_%s" %(project, datcat)
+        basename = os.path.join(project, datcat)
         odir = os.path.join(self.out, "%s" %(basename) )
         if( not os.path.exists(odir) ):
             os.makedirs(odir)
@@ -602,7 +602,7 @@ class HandleEnrichment:
         print('------->', project)
 
         datcat = "transcriptome profiling"
-        basename = "%s_%s" %(project, datcat.replace(" ", "-"))
+        basename = os.path.join( project, datcat.replace(" ", "-") )
         indir = os.path.join(self.out, "%s" %(basename) )
         outdir = os.path.join(self.out, "%s" %(basename), 'deg_analysis' )
 

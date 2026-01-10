@@ -57,10 +57,10 @@ class ExpAiDisparitySNVSummary extends HTMLElement {
                     </p>
                     <p style="font-weight: bold;" > * the subgroups not represented in the next visualization sections did not have enough annotations in the cases clinical data</p>
 
-                    <!-- plot stage per subgroup -->
+                    <!-- plot in_common and exclusive mutations per subgroup -->
                     <div class="col-12" id="cases_stage_ai2" style="display: none;" >
-                        <h4> The plots below show the distribution of pathological state in each subgroup </h4>
-                        <div id="plot_cases_hist_stage_ai2" class="mt-3 row justify-content-start"  >  </div>
+                        <h4> The plots below show the ranked counts of mutations in common among the subgroups and the exclusive ones in each of these subgroups </h4>
+                        <div id="plot_intersection_exclusive_ai2" class="mt-3 row justify-content-start"  >  </div>
                     </div>
         
                 </div>
