@@ -401,20 +401,26 @@ class DataWrangler:
 
     def _get_snprs_annotation(self, path):
         dat = {}
-        feat_cols = ['MAX_AF', 'MAX_AF_POPS', 'DOMAINS', 'Hugo_Symbol', 'SWISSPROT', 'Variant_Classification', 'Consequence', 'IMPACT', 'VARIANT_CLASS', 'dbSNP_RS', 'SIFT', 'PolyPhen', 'CLIN_SIG']
+        feat_cols = ['MAX_AF', 'MAX_AF_POPS', 'DOMAINS', 'Hugo_Symbol', 'SWISSPROT', 'Variant_Classification', 'Consequence', 'IMPACT', 'VARIANT_CLASS', 'dbSNP_RS', 'SIFT', 'PolyPhen', 'CLIN_SIG', "Chromosome"]
         df = pd.read_csv(path, sep='\t', comment='#')
         df = df[ (~ df['Consequence'].str.lower().str.contains('synonymous')) ]
+        df['locationAA'] = df['Hugo_Symbol']+'_'+df['HGVSp']
         for i in df.index:
+            aachange = df.loc[i, 'HGVSp']
             gene = df.loc[i, "Hugo_Symbol"]
-            key = df.loc[i, "dbSNP_RS"]
-            if(key == 'novel'):
-                key = '%s_novel' %(gene)
+            rsid = df.loc[i, "dbSNP_RS"]
+            if(rsid == 'novel'):
+                rsid = '%s_novel' %(gene)
+
+            key = df.loc[i, "locationAA"]
             if(not key in dat):
                 dat[key] = { }
 
+            dat[key]["aa_change"] = aachange
             for c in feat_cols:
                 cname = c.lower()
-                v = str(df.loc[i, c])
+                v = str(df.loc[i, c]).split('(')[0]
+
                 if(c == "DOMAINS"):
                     aux = v.split(';')
                     for el in aux:
@@ -434,6 +440,8 @@ class DataWrangler:
 
         '''
         group_cols = ["Chromosome", "Hugo_Symbol", "Consequence", "locationAA"]
+        
+        group_cols = ["Chromosome", "Hugo_Symbol", "Consequence", "locationAA", 'Variant_Classification', 'Consequence', 'IMPACT', 'VARIANT_CLASS', 'SIFT', 'PolyPhen', 'CLIN_SIG']
         uuid = path.split('/')[-1].split('.')[0].replace('raw_','')
         dat = { 'uuid': uuid, 'counts': {} }
 
@@ -444,6 +452,7 @@ class DataWrangler:
 
         for c in group_cols:
             keys = df[ [c, 'callers'] ].groupby(c).count().index.values
+            keys = list( map( lambda x: str(x).split('(')[0], keys ))
             values = df[ [c, 'callers'] ].groupby(c).count().callers.values
             normc = c.lower()
             dat['counts'][normc] = dict( zip( keys, values ) )
@@ -507,11 +516,20 @@ class DataWrangler:
                         f = open(tpath, "a")
                         f.write("\n".join(ls) + "\n")
                         f.close()
-            
 
             json.dump( rsdat, open( rspath, 'w') )
             #shutil.rmtree(fsodir)
 
+        # Summarizing table
+        opath = os.path.join(odir, 'by_all_table_summary.tsv')
+        if( ( not os.path.exists(opath) ) and os.path.exists(tpath) ):
+            for c in cols_stratification+['all']:
+                k = "by_%s" %(c)
+                tpath = os.path.join(odir, '%s_table_cases.tsv' %(k) )
+                df = pd.read_csv(tpath, sep='\t')
+                sdf = df[ ['demo_variable', 'subgroup', 'feature', 'feature_value', 'count'] ].groupby(['demo_variable', 'subgroup', 'feature', 'feature_value']).sum().reset_index()
+                opath = os.path.join(odir, '%s_table_summary.tsv' %(k) )
+                sdf.to_csv(opath, sep='\t', index=None)
 
     def _get_map_case_file(self, odir):
         mapp = {}
@@ -544,7 +562,8 @@ class DataWrangler:
     def parse_mutationSnv_data(self, project):
         datcat = 'simple nucleotide variation'
         odir, fsodir, file_list = self.get_case_files_by_data_category(project, datcat)
-        if( len(file_list) < 600 ):
+        if( len(file_list) < 1000 ):
+            print("parsing now project", project)
             for uuid in file_list:
                 self._get_file_by_uuid( fsodir, uuid)
             self.extract_data_mutationSnv(odir, fsodir, project)
