@@ -1,6 +1,7 @@
 import os
 import re
 import sys
+import glob
 import json
 import pickle
 import requests
@@ -646,6 +647,50 @@ class HandleEnrichment:
                             self.get_set_localdb_enrichment(collection_id, collection, project, enrich_type)
         else:
             print('Not enough info for DEGs in project ', project)
+
+    def _load_civic_genes(self):
+        inpath = "../external_db/cividb_jan-26.tsv"
+
+        mps = {}
+        df = pd.read_csv( inpath, sep="\t")
+        df = df[ df["evidence_status"] == "accepted" ] # Filter the curated accepted evidence entries
+        for i in df.index:
+            gene_mut = str(df.loc[i, 'molecular_profile'] )
+            evtype = str(df.loc[i, 'evidence_type']).replace(' ','_').lower()
+            significance = str(df.loc[i, 'significance']).replace(' ','_').lower()
+
+            disease = str(df.loc[i, 'disease']).split(',')
+            diseases = [ x.lower().replace(' ','_') for x in disease ]
+
+            drugs = str(df.loc[i, 'therapies']).split(',')
+            mps[gene_mut] = { "evtype": evtype, "significance": significance, "disease": disease, "drug": drugs }
+
+        return mps
+
+    def _find_hits_civic(self):
+        cvdb = self._load_civic_genes()
+        datcat = "transcriptome profiling"
+        basename = os.path.join( project, datcat.replace(" ", "-") )
+        indir = os.path.join(self.out, "%s" %(basename) )
+        outdir = os.path.join(self.out, "%s" %(basename), 'deg_analysis' )
+
+        files = glob.glob( os.path.join(path, 'log2fc*padj*.json') )
+        files += glob.glob( os.path.join(path, '*', 'log2fc*padj*.json') )
+        for f in files:
+            fn = f.split('/')[-1]
+
+            subgroup = '-'
+            mt = re.findall( r'by_([a-z]*)-group_([a-z]*)__result_log2fc\-(\d{1})_padj\-(\d*)', fn )
+            if( len(mt) > 0 ):
+                demovar, subgroup, log2fc, padj = mt[0]
+
+            mt = re.findall( r'by_([a-z]*)_result_log2fc\-(\d{1})_padj\-(\d*)', fn )
+            if( len(mt) > 0 ):
+                demovar, log2fc, padj = mt[0]
+
+            dt = json.load( open(f) )
+            ups = list(dt['up'])
+            downs = list(dt['down'])
 
     def run(self):
         p = 'TCGA-ACC'
