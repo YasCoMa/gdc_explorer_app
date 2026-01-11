@@ -621,7 +621,7 @@ class HandleEnrichment:
             collection = list(allnd)
             self.get_set_localdb_enrichment(collection_id, collection, project, enrich_type)
 
-            cols_stratification = ['race','gender', 'ethnicity']
+            cols_stratification = ['race', 'gender', 'ethnicity']
             for c in cols_stratification:
                 flag = self._test_proportion_demovar(metadata, c)
                 if(flag):
