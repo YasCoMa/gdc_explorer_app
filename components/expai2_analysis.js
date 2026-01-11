@@ -7,9 +7,9 @@ class ExpAiDisparitySNVSummary extends HTMLElement {
     this.innerHTML = `
       <p id = "notice_ai2" > Loading... </p>
 
-      <section id="expai_analysis" class="mt-3">
+      <section id="expai2_analysis" class="mt-3">
             <p>
-                Exploratory clinical data analysis and feature extraction with group stratification, acccording to a project and a target demographic variable
+                Exploratory analysis concerning mutation annotations with group stratification, acccording to a project and a target demographic variable
             </p>
             
             <div id="project_filter_ai2" style="display: none;" > 
@@ -57,8 +57,14 @@ class ExpAiDisparitySNVSummary extends HTMLElement {
                     </p>
                     <p style="font-weight: bold;" > * the subgroups not represented in the next visualization sections did not have enough annotations in the cases clinical data</p>
 
+                    <!-- plot mutation features grouped by subgroup -->
+                    <div class="col-12" id="mut_features_ai2" style="display: none;" >
+                        <h4> The plots below show the ranked frequency of mutation annotations found per subgroup</h4>
+                        <div id="plot_mut_features_ai2" class="mt-3 row justify-content-start"  >  </div>
+                    </div>
+
                     <!-- plot in_common and exclusive mutations per subgroup -->
-                    <div class="col-12" id="cases_stage_ai2" style="display: none;" >
+                    <div class="col-12" id="intersection_exclusive_ai2" style="display: none;" >
                         <h4> The plots below show the ranked counts of mutations in common among the subgroups and the exclusive ones in each of these subgroups </h4>
                         <div id="plot_intersection_exclusive_ai2" class="mt-3 row justify-content-start"  >  </div>
                     </div>
@@ -88,7 +94,7 @@ let pie_layout_ai2 = { "width": 500, "height": 500 };
 // Section 0 - projects filtering
 // obj_ai2.projects.filter( e => e.disease_type.map( e => e.toLowerCase() ).filter( it => it.indexOf('epith')!=-1 ) )
 
-function _fill_data_category(){
+function _fill_data_category_ai2(){
     let p = select_project_ai2.value;
     let allowed = new Set( Object.keys(obj_ai2.formats_datCategory) )
 
@@ -116,7 +122,7 @@ function render_filter_projs_area_ai2(){
     let onchange = "_fill_data_category()"
     fill_select( label, options, domid_target, domid_container, selected, onchange);
 
-    _fill_data_category();
+    _fill_data_category_ai2();
 
     project_filter_ai2.style.display = '';
 }
@@ -126,7 +132,8 @@ function render_clinical_filter_projs_area_ai2(){
 
     let domid_container = "filters_area_ai2";
 
-    projects = [ "TCGA-UVM", "TCGA-UCS", "TCGA-UCEC", "TCGA-THYM", "TCGA-THCA", "TCGA-TGCT", "TCGA-STAD", "TCGA-SKCM", "TCGA-SARC", "TCGA-READ", "TCGA-PRAD", "TCGA-PCPG", "TCGA-PAAD", "TCGA-OV", "TCGA-MESO", "TCGA-LUSC", "TCGA-LIHC", "TCGA-LGG", "TCGA-LAML", "TCGA-KIRP", "TCGA-KIRC", "TCGA-KICH", "TCGA-HNSC", "TCGA-GBM", "TCGA-ESCA", "TCGA-DLBC", "TCGA-COAD", "TCGA-CHOL", "TCGA-CESC", "TCGA-BLCA", "TCGA-ACC" ]
+    // Filtered by those that have general_snprs_info.json
+    projects = [ "TCGA-ACC", "TCGA-BLCA", "TCGA-BRCA", "TCGA-CESC", "TCGA-CHOL", "TCGA-COAD", "TCGA-DLBC", "TCGA-ESCA", "TCGA-GBM", "TCGA-HNSC", "TCGA-KICH", "TCGA-KIRC", "TCGA-KIRP", "TCGA-LAML", "TCGA-LGG", "TCGA-LIHC", "TCGA-LUAD", "TCGA-LUSC", "TCGA-MESO", "TCGA-OV", "TCGA-PAAD", "TCGA-PCPG", "TCGA-PRAD", "TCGA-READ", "TCGA-SARC", "TCGA-SKCM", "TCGA-STAD", "TCGA-TGCT", "TCGA-THCA", "TCGA-THYM", "TCGA-UCEC", "TCGA-UCS", "TCGA-UVM" ]
     let domid_target = "project_ai2";
     let label = "Project";
     let options = projects;
@@ -144,13 +151,66 @@ function render_clinical_filter_projs_area_ai2(){
     project_filter_ai2.style.display = '';
 }
 
-function perform_render_stratification_analysis(){
+function _render_features_mutations( dat ){
+    let container = "plot_mut_features_ai2";
+    let sel_var = select_dimension_ai2.value;
+    dat = dat[`by_${sel_var}`];
+    subgroups = Object.keys(dat);
+
+    let mp_name_info = { "impact": "Impact", "consequence": "Consequence", "clin_sig": "Pathogenicity", "hugo_symbol": "Gene" };
+    let plot_types = Object.keys(mp_name_info);
+
+    let layout = { title: { text: "Mutation features by " }, xaxis: { title: { text: 'Feature' } }, yaxis: { title: { text: 'Values' }, zeroline: false }, barmode: 'group' };
+
+    plot_types.forEach( (pt) => {
+        let ptname = pt;
+        if( Object.keys(mp_name_info).includes(pt) ){
+            ptname = mp_name_info[pt];
+        }
+        layout["title"] = { text: `Mutation features by ${ptname}` };
+
+        let htmls = "";
+        htmls += `
+            <div  id = "bar_mut_feature_by_${pt}_ai1" class="col-6" >
+
+            </div>
+        `;
+        document.getElementById(container).innerHTML += htmls;
+        let pldata = [];
+        subgroups.forEach( (it) => {
+            let tmp = dat[it][pt];
+            tmp = _sort_dict_by_values(tmp);
+
+            let x = Object.keys(tmp);
+            let y = Object.values(tmp);
+            let ridx = x.indexOf('nan');
+            if(ridx != -1){
+                x.splice(ridx, 1);
+                y.splice(ridx, 1);
+            }
+            if( x.length > 20 ){
+                x = x.slice(0,20);
+                y = y.slice(0,20);
+            }
+            
+            let obj = { type: 'bar', x: x, y: y, name: it };
+            pldata.push(obj)
+        });
+
+        Plotly.newPlot( `bar_mut_feature_by_${pt}_ai1`, pldata, layout, config);
+    })
+    
+
+    document.getElementById("mut_features_ai2").style.display = '';
+}
+
+function perform_render_stratification_analysis_ai2(){
     let selected_proj = select_project_ai2.value;
 
     // pie plot stage and horizontal bar of drugs per
 
-    obj_ai2.get_clinical_stratification_survival(selected_proj).then( (dat) => {
-        
+    obj_ai2.load_cases_mutation_annotations(selected_proj).then( (dat) => {
+
         tissue_ai2.innerHTML = dat.cases[0].tumor_tissue_site;
         hist_type_ai2.innerHTML = dat.cases[0].histological_type;
 
@@ -172,6 +232,8 @@ function perform_render_stratification_analysis(){
         }
         samples_info_ai2.innerHTML = info.join(' | ')
 
+        _render_features_mutations(dat.ann_mutations);
+
         /*
          _render_pie_hist_stage(dat.cases);
          _render_prescribed_drugs(dat.cases);
@@ -190,24 +252,23 @@ function setup_current_project_ai2(){
 
     selected_proj.innerHTML = `Selected project: ${p}`;
 
-    perform_render_stratification_analysis();
+    perform_render_stratification_analysis_ai2();
 
     analysis_current_ai2.style.display = '';  
 }
 
-let init_case_expai1 = async () => {
+let init_case_expai2 = async () => {
     document.getElementById('notice_ai2').innerHTML = 'Loading...';
       
     obj_ai2 = new GdcExplorerLib( );
     await obj_ai2.get_projects();
     await obj_ai2.get_all_project_summary( obj_ai2.pids );
     
-    //render_filter_projs_area_ai2();
     render_clinical_filter_projs_area_ai2();
 
     document.getElementById('notice_ai2').innerHTML = '';
 }
 
-init_case_expai1().then( async v => { console.log("Initialized!"); } );
+init_case_expai2().then( async v => { console.log("Initialized!"); } );
 
 

@@ -223,11 +223,11 @@ class GdcExplorerLib {
     }
 
     async get_clinical_stratification_survival(project){
-        let url = `${location.href}/data_processed/${project}_clinical/data_cases.json`;
+        let url = `${location.href}/data_processed/${project}/clinical/data_cases.json`;
         let r = await fetch( url );
         let dat_cases = await r.json();
 
-        url = `${location.href}/data_processed/${project}_clinical/survival_probs.json`;
+        url = `${location.href}/data_processed/${project}/clinical/survival_probs.json`;
         r = await fetch( url );
         let dat_survival = await r.json();
 
@@ -311,7 +311,7 @@ class GdcExplorerLib {
 
     async map_fileid_to_caseid(project, datcat){
         datcat = datcat.replaceAll(" ", "-");
-        let url = `${location.href}/data_processed/${project}_${datcat}/files_metadata.tsv`;
+        let url = `${location.href}/data_processed/${project}/${datcat}/files_metadata.tsv`;
         let r = await fetch( url );
         let dat = await r.text();
         let txt = dat.split("\n").slice(1, -1).map( l => l.split('\t') );
@@ -324,7 +324,7 @@ class GdcExplorerLib {
     async map_caseid_to_demovars(project){
         let datcat = "cases";
         datcat = datcat.replaceAll(" ", "-");
-        let url = `${location.href}/data_processed/${project}_${datcat}/cases_metadata.json`;
+        let url = `${location.href}/data_processed/${project}/${datcat}/cases_metadata.json`;
         let r = await fetch( url );
         let mapp = await r.json();
 
@@ -341,7 +341,7 @@ class GdcExplorerLib {
         
         let mapf = await this.map_fileid_to_caseid(p, datcat);
         let mapc = await this.map_caseid_to_demovars(p);
-        let url = `${location.href}/data_processed/${project}_${datcat}/general_snprs_info.json`;
+        let url = `${location.href}/data_processed/${p}/${datcat}/general_snprs_info.json`;
         let r = await fetch( url );
         let dat = await r.json();
 
@@ -369,7 +369,7 @@ class GdcExplorerLib {
 
             let mutations = Object.keys(dat[f]);
             for(let m of mutations){
-                infom = dat[f][m];
+                let infom = dat[f][m];
                 if( ! Object.keys(all_muts).includes(m) ){
                     all_muts[m] = 0;
                 }
@@ -413,12 +413,12 @@ class GdcExplorerLib {
         let in_common = {};
         let exclusive = {};
         for(let c of cols_stratification){
-            in_common[`by_${c}`] = _get_intersection_values( all_values_mut_subgroup[`by_${c}`], type_value = "dict");
+            in_common[`by_${c}`] = _get_intersection_values( all_values_mut_subgroup[`by_${c}`], "dict");
 
             exclusive[`by_${c}`] = {};
             let groups = Object.keys( all_values_mut_subgroup[`by_${c}`] );
             for( let sub of groups ){
-                exclusive[`by_${c}`][sub] = _get_exclusive_values(sub, all_values_mut_subgroup[`by_${c}`], type_value = "dict");
+                exclusive[`by_${c}`][sub] = _get_exclusive_values(sub, all_values_mut_subgroup[`by_${c}`], "dict");
 
                 for( let ci of cols_info ){
                     for( let v of all_values_details[ci] ){
@@ -429,8 +429,54 @@ class GdcExplorerLib {
                 }
             }
         }
+        console.log("all_muts", all_muts);
+        console.log("in_common", in_common);
+        console.log("exclusive", exclusive);
+        console.log("all_values_mut_subgroup", all_values_mut_subgroup);
+        console.log("rdat_mdetails", rdat_mdetails);
+        console.log("all_values_details", all_values_details);
 
-        return all_muts, in_common, exclusive, all_values_mut_subgroup, rdat_mdetails, all_values_details;
+        return [all_muts, in_common, exclusive, all_values_mut_subgroup, rdat_mdetails, all_values_details];
+    }
+
+    async load_cases_mutation_annotations(project){
+        // Cases
+        let url = `${location.href}/data_processed/${project}/clinical/data_cases.json`;
+        let r = await fetch( url );
+        let dat_cases = await r.json();
+
+        // Mutation information
+        let datcat = "simple nucleotide variation";
+        datcat = datcat.replaceAll(" ", "-");
+        let cols_stratification = ['race','gender', 'ethnicity'];
+
+        let dm = {};
+        for(let c of cols_stratification){
+            dm[`by_${c}`] = {};
+        
+            let url = `${location.href}/data_processed/${project}/${datcat}/by_${c}_table_summary.tsv`;
+            let r = await fetch( url );
+            let txt = await r.text();
+            let dat = _format_table(txt, ["count"]);
+            for(let el of dat){
+                let sub = el["subgroup"];
+                let ci = el["feature"];
+                let v = el["feature_value"];
+                let cnt = el["count"];
+                
+                if( ! Object.keys( dm[`by_${c}`] ).includes(sub) ){
+                    dm[`by_${c}`][sub] = {}
+                }
+                if( ! Object.keys( dm[`by_${c}`][sub] ).includes(ci) ){
+                    dm[`by_${c}`][sub][ci] = {}
+                }
+                
+                dm[`by_${c}`][sub][ci][v] = cnt;
+            }
+        }
+
+        let result = { "cases": dat_cases, "ann_mutations": dm }
+        return result;
     }
 
     

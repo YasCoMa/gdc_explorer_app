@@ -60,7 +60,11 @@
                   </li>
                   
                   <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="expai1-tab" data-bs-toggle="tab" data-bs-target="#expai1" type="button" role="tab" aria-controls="expai1" aria-selected="false"> Exploration of clinical data across demographic soubgroup stratification </button>
+                    <button class="nav-link" id="expai1-tab" data-bs-toggle="tab" data-bs-target="#expai1" type="button" role="tab" aria-controls="expai1" aria-selected="false"> Exploration of clinical data  </button>
+                  </li>
+                  
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="expai2-tab" data-bs-toggle="tab" data-bs-target="#expai2" type="button" role="tab" aria-controls="expai1" aria-selected="false"> Exploration of mutation annotations </button>
                   </li>
                   
                 </ul>
@@ -74,6 +78,10 @@
                         <expai1-component />
                     </div>
                     
+                    <div class="tab-pane " id="expai2" role="tabpanel" aria-labelledby="expai2-tab">
+                        <expai2-component />
+                    </div>
+                    
                 </div>
                 
                 <script src="general_functions.js" ></script>
@@ -82,6 +90,7 @@
                 
                 <script src="components/coverage_analysis.js"></script>
                 <script src="components/expai1_analysis.js"></script>
+                <script src="components/expai2_analysis.js"></script>
                 
             </div>
         </div>

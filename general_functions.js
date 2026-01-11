@@ -5,6 +5,47 @@ function _capitalize(vs){
     return nv;
 }
 
+function _format_table(raw, numeric_cols){
+	if( ! numeric_cols ){
+		numeric_cols = [];
+	}
+	
+	let lines = raw.split('\n').slice(0,-1).map( x => x.split('\t') );
+	let header = lines[0];
+	let body = lines.slice(1);
+	let dat = body.map( x => { 
+		let tmp = {}; 
+		let i = 0; 
+		x.forEach( el => { 
+			let col = header[i];
+			if( numeric_cols.includes(col) ){
+				el = Number(el);
+			}
+			tmp[ col ] = el; 
+			i+=1;
+		} ); 
+		return tmp; 
+	} );
+
+	return dat;
+}
+
+function _sort_dict_by_values( items_dict ){
+	let items = Object.keys( items_dict ).map(function(key) {
+	  return [key, items_dict[key]];
+	});
+
+	// Sort the array based on the second element
+	items.sort(function(first, second) {
+	  return second[1] - first[1];
+	});
+
+	let result = {};
+	items.forEach( x => { result[ x[0] ] = x[1] } )
+
+	return result;
+}
+
 function _get_exclusive_values(target_key, obj, type_value = "dict"){
 	let tvalues = obj[target_key];
 	if( type_value == "dict" ){
@@ -44,14 +85,12 @@ function _get_intersection_values(obj, type_value = "dict"){
 
 	let values = [];
 	for(let k of Object.keys(obj) ){
-		if( k != target_key ){
-			values = obj[k];
-			if( type_value == "dict" ){
-				values = Object.keys(obj[k]);
-			}
-			let nv = new Set(values);
-			inter = inter.intersection(nv);
+		values = obj[k];
+		if( type_value == "dict" ){
+			values = Object.keys(obj[k]);
 		}
+		let nv = new Set(values);
+		inter = inter.intersection(nv);
 	}
 
 	let in_common = Array.from(inter);

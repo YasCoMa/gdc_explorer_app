@@ -7,7 +7,7 @@ class ExpAiDisparitySummary extends HTMLElement {
     this.innerHTML = `
       <p id = "notice_ai1" > Loading... </p>
 
-      <section id="expai_analysis" class="mt-3">
+      <section id="expai1_analysis" class="mt-3">
             <p>
                 Exploratory clinical data analysis and feature extraction with group stratification, acccording to a project and a target demographic variable
             </p>
@@ -417,7 +417,7 @@ function _render_km_survival_plots(dat_surv){
 
 }
 
-function perform_render_stratification_analysis(){
+function perform_render_stratification_analysis_ai1(){
     let selected_proj = select_project_ai1.value;
 
     // pie plot stage and horizontal bar of drugs per
@@ -461,7 +461,7 @@ function setup_current_project_ai1(){
 
     selected_proj.innerHTML = `Selected project: ${p}`;
 
-    perform_render_stratification_analysis();
+    perform_render_stratification_analysis_ai1();
 
     analysis_current_ai1.style.display = '';  
 }
