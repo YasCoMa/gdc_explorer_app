@@ -842,6 +842,53 @@ class DataWrangler:
         os.system("tar -zxf %s.tar.gz" %(fname) )
         os.chdir(cwd)
 
+    def extract_data_methylation(self, odir, fsodir):
+        samples = {}
+        opath = os.path.join(odir, 'methylation_beta_table.tsv')
+        if( not os.path.exists(opath) ):
+            allcpgs = set()
+            for f in os.listdir(fsodir):
+                path = os.path.join(fsodir, f)
+                uuid = path.split('/')[-1].split('.')[0].replace('raw_','')
+
+                df = pd.read_csv( path, sep='\t', header=None )
+                df.columns = ['cpg', 'value']
+                allcpgs.update( df.cpg.unique() )
+                values = dict( zip( df.cpg, df.value ) )
+                #samples[ uuid ] = values
+            
+            header = ['sample'] + list(allcpgs)
+            lines = [ header ]
+            for s in samples:
+                vs = []
+                for ci in allcpgs:
+                    v = 0
+                    if( (ci in samples[s]) and (str(samples[s][ci]).lower().find('na') == -1) ):
+                        v = samples[s][ci]
+                    vs.append( v )
+                lines.append( [s] + vs )
+
+            lines = list( map( lambda x: '\t'.join( [ str(y) for y in x ] ), lines ) )
+            f = open( opath, 'w')
+            f.write( '\n'.join(lines) )
+            f.close()
+        else:
+            df = pd.read_csv( opath, sep='\t' )
+            keys = df.columns
+            for i in df.index:
+                k = df.loc[i, 'sample']
+                values = df.iloc[i, 1:]
+                samples[k] = dict( zip( keys, values ) )
+
+        return samples
+
+    def parse_methylation_data(self, project):
+        datcat = 'dna methylation'
+        odir, fsodir, file_list = self.get_case_files_by_data_category(project, datcat)
+        for uuid in file_list:
+            self._get_file_by_uuid( fsodir, uuid)
+        self.extract_data_methylation(odir, fsodir)
+
     def run(self):
         '''
         option = sys.argv[1]
@@ -860,19 +907,19 @@ class DataWrangler:
         #self.parse_mutationSnv_data(p)
         #self.parse_expressionCounts_data(p)
 
-        p = 'TCGA-LIHC'
-        #_ = self.get_case_files_by_data_category(p, 'transcriptome profiling')
+        p = 'TCGA-COAD'
+        _ = self.parse_methylation_data(p)
         
         projects = [ "TCGA-ACC",  "TCGA-BLCA",  "TCGA-BRCA",  "TCGA-CESC",  "TCGA-CHOL",  "TCGA-COAD",  "TCGA-DLBC",  "TCGA-ESCA",  "TCGA-GBM",  "TCGA-HNSC",  "TCGA-KICH",  "TCGA-KIRC",  "TCGA-KIRP",  "TCGA-LAML",  "TCGA-LGG",  "TCGA-LIHC",  "TCGA-LUAD",  "TCGA-LUSC",  "TCGA-MESO",  "TCGA-OV",  "TCGA-PAAD",  "TCGA-PCPG",  "TCGA-PRAD",  "TCGA-READ",  "TCGA-SARC",  "TCGA-SKCM",  "TCGA-STAD",  "TCGA-TGCT",  "TCGA-THCA",  "TCGA-THYM",  "TCGA-UCEC",  "TCGA-UCS",  "TCGA-UVM" ]
         dc = 'transcriptome profiling'
         dc = 'simple nucleotide variation'
-        for p in tqdm(projects):
+        #for p in tqdm(projects):
             #self.parse_clinical_data(p)
             #self.test_survival_km(p, dc)
             #self._compress_files(p, dc, remove=True)
             #self._compress_files(p, dc, "table_cases.tsv", remove=False)
             
-            self.parse_mutationSnv_data(p)
+            #self.parse_mutationSnv_data(p)
             
         #self.select_projects_open_expressionCounts()
         #self.parse_expressionCounts_data()
