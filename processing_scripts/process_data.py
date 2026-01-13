@@ -842,6 +842,96 @@ class DataWrangler:
         os.system("tar -zxf %s.tar.gz" %(fname) )
         os.chdir(cwd)
 
+    def extract_data_methylation_lowMemory(self, odir, fsodir):
+        chunk = 1000
+        cpgs = {}
+        map_sample_index = {}
+        opath = os.path.join(odir, 'methylation_beta_table.tsv')
+        if( True or not os.path.exists(opath) ):
+            f = open( opath, 'w')
+            f.close()
+            header = ['cpg', 'sample_ids', 'beta_values']
+            lines = [ header ]
+            
+            allcpgs = set()
+            cnt = {}
+            cpgs = { }
+            map_sample_index = { }
+            for f in tqdm( os.listdir(fsodir) ):
+                path = os.path.join(fsodir, f)
+                uuid = path.split('/')[-1].split('.')[0].replace('raw_','')
+                ns = len(map_sample_index)
+                nsid = "sp%i" %(ns)
+                map_sample_index[nsid] = uuid
+
+                df = pd.read_csv( path, sep='\t', header=None )
+                df.columns = ['cpg', 'value']
+                #allcpgs.update( df.cpg.unique() )
+                for c in df.cpg:
+                    try:
+                        cnt[c] += 1
+                    except:
+                        cnt[c] = 0
+                        cnt[c] += 1
+                '''
+                for i in df.index:
+                    cpg = df.loc[i, 'cpg']
+                    v = df.loc[i, 'value']
+                    vs = 0
+                    if( (str(v).lower().find('na') == -1) ):
+                        vs = v
+                    if( cpg not in cpgs ):
+                        cpgs[cpg] = {}
+                    cpgs[cpg][nsid] = v
+                '''
+                
+            print('Total distinct cpgs found in the project samples:', len(cnt) ) # 488027
+            opath = os.path.join(odir, 'count_cpg_samples.json')
+            json.dump(cnt, open(opath, 'w') )
+            '''
+            460449 cpg ids are present in 352 samples
+            25978 cpg ids are present in 555 samples
+            1600 cpg ids are present in 203 samples
+            from collections import Counter
+            d = json.load( open( opath ) )
+            vs = list( d.values() )
+            cnt = Counter(vs)
+
+            '''
+
+            '''
+            for cpg in cpgs:
+                nsids = ';'.join( cpgs.keys() )
+                vs = ';'.join( [ str(x) for x in cpgs.values() ] )
+                lines.append( [cpg, nsids, vs] )
+                if( len(lines)>0 and lines%chunk == 0 ):
+                    lines = list( map( lambda x: '\t'.join( [ str(y) for y in x ] ), lines ) )
+                    f = open( opath, 'a')
+                    f.write( '\n'.join(lines)+'\n' )
+                    f.close()
+                    lines = []
+
+            if( len(lines)>0 ):
+                lines = list( map( lambda x: '\t'.join( [ str(y) for y in x ] ), lines ) )
+                f = open( opath, 'a')
+                f.write( '\n'.join(lines)+'\n' )
+                f.close()
+            
+            opath = os.path.join(odir, 'map_samples.json')
+            json.dump(map_sample_index, open(opath, 'w') )
+
+            opath = os.path.join(odir, 'parsable_cpgs_info.json')
+            json.dump(cpgs, open(opath, 'w') )
+            '''
+        else:
+            opath = os.path.join(odir, 'map_samples.json')
+            map_sample_index = json.load( open(opath, 'r') )
+            
+            opath = os.path.join(odir, 'parsable_cpgs_info.json')
+            cpgs = json.load( open(opath, 'r') )
+
+        return cpgs, map_sample_index
+
     def extract_data_methylation(self, odir, fsodir):
         samples = {}
         opath = os.path.join(odir, 'methylation_beta_table.tsv')
@@ -887,7 +977,7 @@ class DataWrangler:
         odir, fsodir, file_list = self.get_case_files_by_data_category(project, datcat)
         for uuid in file_list:
             self._get_file_by_uuid( fsodir, uuid)
-        self.extract_data_methylation(odir, fsodir)
+        self.extract_data_methylation_lowMemory(odir, fsodir)
 
     def run(self):
         '''
