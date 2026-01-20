@@ -842,12 +842,36 @@ class DataWrangler:
         os.system("tar -zxf %s.tar.gz" %(fname) )
         os.chdir(cwd)
 
+    def _select_cases_with_normalAndTumor(self, odir):
+        pmeta = os.path.join(odir, "files_metadata.tsv")
+        df = pd.read_csv( pmeta, sep='\t')
+
+        all_cases = len( df['cases.0.case_id'].unique() )
+        cases_recurrence = len( df[ df['cases.0.samples.0.tumor_descriptor'] == 'Recurrence' ]['cases.0.case_id'].unique() )
+
+        g = df.groupby('cases.0.case_id').count().sort_values( by='platform', ascending=False)
+        cases = g[ g['platform'] > 1 ].index
+        df = df[ df['cases.0.case_id'].isin(cases) ]
+        g = df.groupby('cases.0.case_id').count().sort_values( by='platform', ascending=False)
+        ok_cases = set()
+        for c in cases:
+            normal = len( df[ (df['cases.0.samples.0.tissue_type']=='Normal') & ( df['cases.0.case_id']==c ) ] )
+            tumor = len( df[ (df['cases.0.samples.0.tissue_type']=='Tumor') & ( df['cases.0.case_id']==c ) ] )
+            if( normal > 0 and tumor > 0 ):
+                ok_cases.add(c)
+
+        ok_uuids = df[ df["cases.0.case_id"].isin(ok_cases) ]["file_id"].values
+
+        return ok_cases, ok_uuids
+
     def extract_data_methylation_lowMemory(self, odir, fsodir):
         chunk = 1000
         cpgs = {}
         map_sample_index = {}
         opath = os.path.join(odir, 'methylation_beta_table.tsv')
         if( True or not os.path.exists(opath) ):
+            ok_cases, ok_uuids = self._select_cases_with_normalAndTumor(odir)
+
             f = open( opath, 'w')
             f.close()
             header = ['cpg', 'sample_ids', 'beta_values']
@@ -860,30 +884,34 @@ class DataWrangler:
             for f in tqdm( os.listdir(fsodir) ):
                 path = os.path.join(fsodir, f)
                 uuid = path.split('/')[-1].split('.')[0].replace('raw_','')
-                ns = len(map_sample_index)
-                nsid = "sp%i" %(ns)
-                map_sample_index[nsid] = uuid
+                if(uuid in ok_uuids):
+                    ns = len(map_sample_index)
+                    nsid = "sp%i" %(ns)
+                    map_sample_index[nsid] = uuid
 
-                df = pd.read_csv( path, sep='\t', header=None )
-                df.columns = ['cpg', 'value']
-                #allcpgs.update( df.cpg.unique() )
-                for c in df.cpg:
-                    try:
-                        cnt[c] += 1
-                    except:
-                        cnt[c] = 0
-                        cnt[c] += 1
-                '''
-                for i in df.index:
-                    cpg = df.loc[i, 'cpg']
-                    v = df.loc[i, 'value']
-                    vs = 0
-                    if( (str(v).lower().find('na') == -1) ):
-                        vs = v
-                    if( cpg not in cpgs ):
-                        cpgs[cpg] = {}
-                    cpgs[cpg][nsid] = v
-                '''
+                    df = pd.read_csv( path, sep='\t', header=None )
+                    df.columns = ['cpg', 'value']
+                    #allcpgs.update( df.cpg.unique() )
+                    for c in df.cpg:
+                        try:
+                            cnt[c] += 1
+                        except:
+                            cnt[c] = 0
+                            cnt[c] += 1
+                    
+                    # Memory expensive part 1
+                    
+                    for i in df.index:
+                        cpg = df.loc[i, 'cpg']
+                        v = df.loc[i, 'value']
+                        vs = 0
+                        if( (str(v).lower().find('na') == -1) ):
+                            vs = v
+                        if( cpg not in cpgs ):
+                            cpgs[cpg] = {}
+                        cpgs[cpg][nsid] = v
+                    '''
+                    '''
                 
             print('Total distinct cpgs found in the project samples:', len(cnt) ) # 488027
             opath = os.path.join(odir, 'count_cpg_samples.json')
@@ -899,12 +927,12 @@ class DataWrangler:
 
             '''
 
-            '''
+            # Memory expensive part 2
             for cpg in cpgs:
                 nsids = ';'.join( cpgs.keys() )
                 vs = ';'.join( [ str(x) for x in cpgs.values() ] )
                 lines.append( [cpg, nsids, vs] )
-                if( len(lines)>0 and lines%chunk == 0 ):
+                if( len(lines)>0 and len(lines)%chunk == 0 ):
                     lines = list( map( lambda x: '\t'.join( [ str(y) for y in x ] ), lines ) )
                     f = open( opath, 'a')
                     f.write( '\n'.join(lines)+'\n' )
@@ -922,6 +950,8 @@ class DataWrangler:
 
             opath = os.path.join(odir, 'parsable_cpgs_info.json')
             json.dump(cpgs, open(opath, 'w') )
+            
+            '''
             '''
         else:
             opath = os.path.join(odir, 'map_samples.json')
