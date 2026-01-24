@@ -715,6 +715,15 @@ class DataWrangler:
 
         return ok_projects
 
+    def _get_cases_metadata(self, project):
+        datcat = 'clinical'
+        basename = os.path.join( project, datcat.replace(" ", "-") )
+        odir = os.path.join(self.out, "%s" %(basename) )
+        path = os.path.join(odir, "data_cases.json")
+        d = json.load( open(path, 'r') )
+
+        return d
+
     def test_survival_km(self, project, datcat):
         basename = os.path.join( project, datcat.replace(" ", "-") )
         odir = os.path.join(self.out, "%s" %(basename) )
@@ -915,7 +924,8 @@ class DataWrangler:
                             vs = v
                         if( cpg not in cpgs ):
                             cpgs[cpg] = {}
-                        cpgs[cpg][nsid] = v
+                        #cpgs[cpg][nsid] = v
+                        cpgs[cpg][uuid] = v
                     '''
                     '''
                 
@@ -933,6 +943,7 @@ class DataWrangler:
 
             '''
 
+            '''
             # Memory expensive part 2
             for cpg in cpgs:
                 nsids = ';'.join( cpgs.keys() )
@@ -950,6 +961,7 @@ class DataWrangler:
                 f = open( opath, 'a')
                 f.write( '\n'.join(lines)+'\n' )
                 f.close()
+            '''
             
             opath = os.path.join(odir, 'map_samples.json')
             json.dump(map_sample_index, open(opath, 'w') )
