@@ -860,11 +860,17 @@ class DataWrangler:
             if( normal > 0 and tumor > 0 ):
                 ok_cases.add(c)
 
-        ok_uuids = df[ df["cases.0.case_id"].isin(ok_cases) ]["file_id"].values
+
+        uuids = df[ df["cases.0.case_id"].isin(ok_cases) ]["file_id"].values
+        conditions = df[ df["cases.0.case_id"].isin(ok_cases) ]["cases.0.samples.0.tissue_type"].values
+        ok_uuids = dict( zip( uuids, conditions ) )
 
         return ok_cases, ok_uuids
 
     def extract_data_methylation_lowMemory(self, odir, fsodir):
+        mpath = os.path.join( self.out, 'all_mapp.json')
+        mapp = json.load( open( mpath, 'r' ) )
+
         chunk = 1000
         cpgs = {}
         map_sample_index = {}
