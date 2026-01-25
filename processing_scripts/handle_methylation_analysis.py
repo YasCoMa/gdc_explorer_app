@@ -1,7 +1,13 @@
 import os
 import json
 import gzip
+
+import numpy as np
+import pandas as pd
+
 from tqdm import tqdm
+from scipy import stats
+
 from process_data import DataWrangler
 
 class HandleMethylationAnalysis:
@@ -71,13 +77,30 @@ class HandleMethylationAnalysis:
     	header = [ ['sampleID'] + cols_stratification ]
     	lines = header + body
     	tpath = os.path.join(odir, '%s_table_cases.tsv' %(k) )
-        ls = list( map( lambda x: '\t'.join( [ str(y) for y in x ] ), lines ))
+        ls = list( map( lambda x: ','.join( [ str(y) for y in x ] ), lines ))
         f = open(tpath, "w")
         f.write("\n".join(ls) + "\n")
         f.close()
 
-    def _prioritize_genes_cpgs(self):
+    def _prioritize_genes_cpgs(self, map_cpg, metdat):
     	# check genes related to colon mucinous adenocarcinoma
+    	incommon = set(map_cpg).intersection( set(metdat) )
+    	genes = set( )
+    	genes.update( [ map_cpg[x]['gene'].split(';') for x in incommon ] )
+    	print('total genes', len(genes) )
+
+    	# Choosing by those genes that have the highest variance across the samples
+    	values = {}
+    	var = {}
+    	for k in incommon:
+    		values[k] = [ x for x in metdat[k].values() ]
+    		var[k] = np.var( values[k] )
+    	
+    	revar = dict( sorted( var.items(), key=lambda item: item[1], reverse=True) )
+    	top = list(revar)[:200]
+    	tgenes = set( [ map_cpg[x]['gene'].split(';')[0] for x in top ] )
+
+    	# selection by those that are associated to any cancer
 
     def _get_exp(self):
     	project = 'TCGA-COAD'
@@ -87,6 +110,10 @@ class HandleMethylationAnalysis:
         cpgs = self._make_cpg_mapping()
         cmeta = self.proc.get_cases_info_by_project(project)
         self._get_covariables_table_glm(odir, map_uuid_treat, cmeta)
+
+        path = os.path.join(odir, 'parsable_cpgs_info.json')
+        metdat = json.load( open(path, 'r') )
+
 
         # cpgtools call
         # dmc_glm.py  -i test_05_TwoGroup.tsv.gz -g test_05_TwoGroup.grp.csv -o GLM_2G
