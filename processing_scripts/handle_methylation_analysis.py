@@ -11,6 +11,11 @@ from scipy import stats
 
 from process_data import DataWrangler
 
+# cpgtools reference: https://cpgtools.readthedocs.io/en/latest/demo/dmc_glm.html
+'''
+Check the coefficients importance of each covariable
+'''
+
 class HandleMethylationAnalysis:
     def __init__(self, dir_gdc_cpg_map, fout):
         self.cpg_map = dir_gdc_cpg_map
@@ -86,7 +91,7 @@ class HandleMethylationAnalysis:
         return tpath
 
     def _get_table_betaValues(self, odir, map_uuid_treat, metdat, filtered_cpgs):
-        header = ['probeID']
+        header = ['ID']
         for uid in map_uuid_treat:
             condition = map_uuid_treat[uid]
             header.append( "%s_%s" %(condition, uid) )
@@ -97,14 +102,16 @@ class HandleMethylationAnalysis:
             for uid in map_uuid_treat:
                 try:
                     v = metdat[cpg][uid]
+                    if( str(v) == 'nan' ):
+                        v = 0
                 except:
                     v = 0
                 values.append( v )
             body.append(values)
 
-        lines = header + body
+        lines = [ header ] + body
         tpath = os.path.join(odir, 'table_databeta.tsv' )
-        ls = list( map( lambda x: ','.join( [ str(y) for y in x ] ), lines ))
+        ls = list( map( lambda x: '\t'.join( [ str(y) for y in x ] ), lines ))
         f = open(tpath, "w")
         f.write("\n".join(ls) + "\n")
         f.close()
@@ -115,7 +122,7 @@ class HandleMethylationAnalysis:
         # check genes related to colon mucinous adenocarcinoma
         incommon = set(map_cpg).intersection( set(metdat) )
         genes = set( )
-        genes.update( [ map_cpg[x]['gene'].split(';') for x in incommon ] )
+        genes.update( [ map_cpg[x]['gene'].split(';')[0] for x in incommon ] )
         print('total genes', len(genes) )
 
         # Choosing by those genes that have the highest variance across the samples
@@ -140,7 +147,7 @@ class HandleMethylationAnalysis:
         fgs = set()
         for gs in df['Genes']:
             fgs.update( gs.split(';') )
-        filtered_cpgs = list( filter( lambda x: map_cpg[x]['gene'] in fgs, incommon )) # 161528
+        filtered_cpgs = list( filter( lambda x: map_cpg[x]['gene'].split(';')[0] in fgs, incommon )) # 161528
 
         return filtered_cpgs
 
@@ -161,17 +168,16 @@ class HandleMethylationAnalysis:
 
         # cpgtools call
         opath = os.path.join( odir, "GLM_met_%s" %( project.lower() ) )
-        os.system( "dmc_glm.py  -i %s -g %s -o %s" %(data_path, grpcov_path, project.lower() ) )
+        os.system( "dmc_glm.py  -i %s -g %s -o %s" %(data_path, grpcov_path, opath ) )
         # dmc_glm.py  -i test_05_TwoGroup.tsv.gz -g test_05_TwoGroup.grp.csv -o GLM_2G
 
     def run(self):
-        self._make_cpg_mapping()
+        #self._make_cpg_mapping()
+        self._get_exp()
 
 if( __name__ == "__main__" ):
-    cpg_map = '/mnt/yasdata/home/yasmmin/Dropbox/iarc_job/gdc_exploration_project/methylation/gdc_cpg_mapping/'
-    out = '/mnt/yasdata/home/yasmmin/Dropbox/iarc_job/gdc_exploration_project/methylation/out'
+    cpg_map = '/mnt/yasdata/home/yasmmin/Dropbox/portfolio_2025/gdc_explorer_app_web/gdc_exploration_project/methylation/gdc_cpg_mapping/'
+    out = '/mnt/yasdata/home/yasmmin/Dropbox/portfolio_2025/gdc_explorer_app_web/gdc_exploration_project/methylation/out'
     
-    cpg_map = '/aloy/home/ymartins/cigs_exercise/gdc_exploration_project/methylation/gdc_cpg_mapping/'
-    out = '/aloy/home/ymartins/cigs_exercise/gdc_exploration_project/methylation/gdc_cpg_mapping/out'
     o = HandleMethylationAnalysis(cpg_map, out)
     o.run()
