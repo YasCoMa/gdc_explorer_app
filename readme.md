@@ -2,6 +2,7 @@
 
 This is a web application that allows exploring basic metrics of the projects data provided by the GDC portal (hosted by National Institute of Health (NIH)) for further deep analysis.
 
+Check it out at https://yascoma.github.io/gdc_explorer_app/ 
 
 ## Summary
 In the first tab, the focus is assessing the size of projects cohort (number of cases) and the number of open access files in each of them. Once choosing a specific project, it shows details about the stratification of its cases according to the demographic variables gender, race and ethnicity. Finally, it shows the data coverage for these samples for each data category (biospecimen, clinical, somatic structural variant, etc) and specific experimental strategy used to acquire the files (WXS, WGS, ATAC-Seq, etc).
