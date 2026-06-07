@@ -1,0 +1,362 @@
+import os
+import json
+import gzip
+
+import numpy as np
+import pandas as pd
+import gseapy as gp
+
+from tqdm import tqdm
+from scipy import stats
+
+from process_data import DataWrangler
+
+"""
+Steps inside a project:
+get cases drugs
+get cases mutations
+    raw cols: Hugo_Symbol, HGVSp_Short, Consequence
+get civic molecular profiles
+    raw cols: molecular_profile (split by ' OR '), therapies (split by comma), evidence_type, evidence_direction, significance
+    put relation mutation -> response/resistance -> drug, and the cancer site
+"""
+
+class HandleBridgePharcogenomicsAnalysis:
+    def __init__(self, fout):
+        self.data_dir = "/var/www/html/gdc_explorer_app/data_processed/"
+        fout = self.data_dir
+
+        self.projects = list( filter( lambda x: x.startswith('TCGA'), os.listdir( self.data_dir ) ))
+
+        self.out = fout
+        if( not os.path.exists(self.out) ):
+            os.makedirs( fout )
+
+        self.proc = DataWrangler(fout)
+        self.map_disease, self.revmap_disease = self._get_map_project_diseaseCivic()
+
+    def _get_map_project_diseaseCivic(self):
+        projects = [ "TCGA-ACC",  "TCGA-BLCA",  "TCGA-BRCA",  "TCGA-CESC",  "TCGA-CHOL",  "TCGA-COAD",  "TCGA-DLBC",  "TCGA-ESCA",  "TCGA-GBM",  "TCGA-HNSC",  "TCGA-KICH",  "TCGA-KIRC",  "TCGA-KIRP",  "TCGA-LAML",  "TCGA-LGG",  "TCGA-LIHC",  "TCGA-LUAD",  "TCGA-LUSC",  "TCGA-MESO",  "TCGA-OV",  "TCGA-PAAD",  "TCGA-PCPG",  "TCGA-PRAD",  "TCGA-READ",  "TCGA-SARC",  "TCGA-SKCM",  "TCGA-STAD",  "TCGA-TGCT",  "TCGA-THCA",  "TCGA-THYM",  "TCGA-UCEC",  "TCGA-UCS",  "TCGA-UVM" ]
+        diseases = [ ["Adrenocortical Carcinoma"], ["Bladder Carcinoma"], ["Breast Cancer"], ["Cervical Cancer"], ["Cholangiocarcinoma"], ["Colon Adenocarcinoma", "Colorectal Cancer"], ["Diffuse Large B-cell Lymphoma"], ["Esophageal Carcinoma", "Esophagus Squamous Cell Carcinoma"], ["Glioblastoma"], ["Head And Neck Squamous Cell Carcinoma"], ["Chromophobe Renal Cell Carcinoma", "Renal cell carcinoma"], ["Kidney Clear Cell Sarcoma", "Renal cell carcinoma"], ["Papillary Renal Cell Carcinoma", "Renal cell carcinoma"], ["Acute Myeloid Leukemia"], ["Low Grade Glioma"], ["Hepatocellular Carcinoma"], ["Lung Adenocarcinoma"], ["Lung Squamous Cell Carcinoma"], ["Malignant Pleural Mesothelioma"], ["Ovarian Cancer"], ["Pancreatic Cancer"], ["Pheochromocytoma", "Paraganglioma"], ["Prostate Carcinoma"], ["Rectum Cancer"], ["Sarcoma"], ["Skin Melanoma"], ["Stomach Cancer"], ["Testicular Cancer"], ["Thyroid Cancer"], ["Thymic Carcinoma"], ["Uterine Corpus Endometrial Carcinoma", "Endometrial Cancer"], ["Uterine Cancer"], ["Uveal Melanoma"] ]
+        mapp = dict( zip( projects, diseases ))
+        
+        revmapp = {}
+        for k in mapp:
+            arr = mapp[k]
+            for d in arr:
+                if( not d in revmapp):
+                    revmapp[d] = []
+                revmapp[d].append(k)
+
+        return mapp, revmapp
+
+    def get_civic_data(self):
+        dat = {}
+
+        dir = '../external_db'
+        path = os.path.join(dir, 'cividb_jun-26.tsv')
+        df = pd.read_csv(path, sep='\t', comment='#')
+        df = df[ (df["evidence_type"] == 'Predictive') & (df['evidence_direction']=='Supports') ]
+
+        for i in df.index:
+            mp = df.loc[i, 'molecular_profile']
+            disease = df.loc[i, 'disease']
+            mps = list(map( lambda x: x.replace(' ', '-'), mp.split(' OR ')))
+            drugs = df.loc[i, 'therapies']
+            if( str(drugs) != 'nan' ):
+                drugs = drugs.split(',')
+                signal = df.loc[i, 'significance']
+
+                for _id in mps:
+                    if( not _id in dat ):
+                        dat[_id] = []
+                    for d in drugs:
+                        dat[_id].append( { 'drug': d, 'significance': signal, 'disease': disease } )
+            else:
+                print(df.loc[i, :].values)
+
+        return dat
+
+    def _get_snprs_annotation(self, path):
+        dat = {}
+        feat_cols = ['MAX_AF', 'MAX_AF_POPS', 'DOMAINS', 'Hugo_Symbol', 'SWISSPROT', 'Variant_Classification', 'Consequence', 'IMPACT', 'VARIANT_CLASS', 'dbSNP_RS', 'SIFT', 'PolyPhen', 'CLIN_SIG', "Chromosome"]
+        df = pd.read_csv(path, sep='\t', comment='#')
+        df = df[ (~ df['Consequence'].str.lower().str.contains('synonymous')) ]
+        df['locationAA'] = df['Hugo_Symbol']+'-'+df['HGVSp_Short']
+        df = df[ ~df['locationAA'].isna() ]
+        df['locationAA'] = df['locationAA'].map( lambda x: x.replace('p.','') )
+        for i in df.index:
+            aachange = df.loc[i, 'HGVSp']
+            gene = df.loc[i, "Hugo_Symbol"]
+            rsid = df.loc[i, "dbSNP_RS"]
+            if(rsid == 'novel'):
+                rsid = '%s_novel' %(gene)
+
+            key = df.loc[i, "locationAA"]
+            if( str(key) != 'nan' ):
+                if(not key in dat):
+                    dat[key] = { }
+
+                dat[key]["aa_change"] = aachange
+                for c in feat_cols:
+                    cname = c.lower()
+                    v = str(df.loc[i, c]).split('(')[0]
+
+                    if(c == "DOMAINS"):
+                        aux = v.split(';')
+                        for el in aux:
+                            if( el.lower().startswith('pfam') ):
+                                v = el.split(':')[-1]
+                    dat[key][cname] = v
+        del df
+
+        return dat
+
+    def merge_datasources(self):
+        feat_cols = ['Variant_Classification', 'Consequence', 'PolyPhen', 'CLIN_SIG', "Chromosome"]
+        feat_cols = list(map( lambda x: x.lower(), feat_cols ))
+        header = ["case_id", "tissue_type", "civic_gene_hits", "civic_mutation_hits", "civic_drug_hits", "civic_mut&drug_hits", "civic_matched_drugs_for_mutation", "civic_matched_diseases_for_mutation", "gene", "mutation", "drug", "cvdb_significance", "cvdb_disease", "race", "gender", "ethnicity"] + feat_cols
+
+        cvdb = self.get_civic_data()
+        cvdb_muts = list(cvdb)
+        cvdb_genes = set( map( lambda x: x.split('-')[0], cvdb_muts ))
+        cvdb_drugs = set()
+        for m in cvdb_muts:
+            cvdb_drugs.update( list(map( lambda x: x['drug'], cvdb[m] )) )
+
+        for project in tqdm(self.projects):
+            indir = os.path.join(self.data_dir, project)
+            dcases = self.proc._get_cases_metadata(project)
+
+            datcat = 'simple nucleotide variation'
+            odir, fsodir, file_list = self.proc.get_case_files_by_data_category(project, datcat)
+            lines = [header]
+
+            mapp = self.proc._get_map_case_file(odir)
+            mapp_tissue = self.proc._get_map_file_condition(odir)
+            for uuid in file_list:
+                f = "raw_%s.out" %(uuid)
+                path = os.path.join(fsodir, f)
+                case_id = mapp[uuid]
+                tissue_type = mapp_tissue[uuid]
+
+                if(case_id in dcases):
+                    dclin = dcases[case_id]
+                    snps = self._get_snprs_annotation(path)
+
+                    drg_details = dclin["drug_details"]
+                    drugs = set()
+                    for d in drg_details:
+                        if('name' in d):
+                            drugs.add(d['name'])
+
+                    gender = dclin["gender"]
+                    race = dclin["race"]
+                    ethnicity = dclin["ethnicity"]
+                    muts = list(snps)
+                    for m in muts:
+                        gene = m.split('-')[0]
+                        flag_cvdb_genes = (gene in cvdb_genes)
+                        flag_cvdb_muts = (m in cvdb_muts)
+
+                        datmuts = []
+                        for f in feat_cols:
+                            datmuts.append( snps[m][f] )
+
+                        for dr in drugs:
+                            flag_cvdb_drugs = (dr in cvdb_drugs)
+                            flag_cvdb_both = (flag_cvdb_muts and flag_cvdb_drugs)
+                            
+                            signal = '-'
+                            disease = '-'
+                            matched_drugs = '-'
+                            matched_dis = '-'
+                            if( m in cvdb):
+                                matched_drugs = list( map( lambda x: x['drug'], cvdb[m] ))
+                                matched_drugs = ','.join(matched_drugs)
+                                matched_dis = list( map( lambda x: x['disease'], cvdb[m] ))
+                                matched_dis = ','.join(matched_dis)
+                                fcv = list(filter( lambda x: x['drug']==dr, cvdb[m] ))
+                                if( len(fcv) > 0 ):
+                                    signal = fcv[0]['significance']
+                                    disease = fcv[0]['disease']
+
+                            el = [case_id, tissue_type, flag_cvdb_genes, flag_cvdb_muts, flag_cvdb_drugs, flag_cvdb_both, matched_drugs, matched_dis, gene, m, dr, signal, disease, race, gender, ethnicity] + datmuts
+                            lines.append(el)
+                else:
+                    print('not found case --> ', project, case_id)
+
+            opath = os.path.join(odir, "data_merge_pharmaco_mutations.tsv")
+            lines = list( map( lambda x: '\t'.join( [ str(y) for y in x ] ), lines ))
+            f = open( opath, "w")
+            f.write("\n".join(lines) + "\n")
+            f.close()
+
+    def generate_app_pgx_compiled_data(self):
+        '''
+        Interface planning:
+        - a plot with the mutations in the cases matched with civicdb, x=mutation, y=cases count
+            A button below showing in a table the other mutations not shown in plot for reasons of clarity
+
+        when clicking on a mutation:
+            - a table with relevant information for each case containing the mutation, prescribed drugs x drugs associated with mutation in civic and what the mutation cause (response or resistance) |
+            - each line of the table there is a button to open specific analysis area for the cases, and shows the overview of mutation features found for the case
+            
+            ok- plots and info for general overview: distribution of cases by gender, race, all civic diseases | drug-significance pairs.
+            
+            - columns of cases table: case_id, demo info ( race| gender | ethnicity), chromosomes, genes, prescribed drugs in treatment, number of muts in civic & all muts
+        
+        when clicking in details button in a specific case:
+            - plot overview of cases-specific information: distribution of genes, chromosome, consequence, drugs used in treatment
+            - button for the user to open the full mutation list in table for the case, and flag the ones that are in civic
+
+        maybe as an accordeon, could have a section showing the drugs plot, that are in the cases and civic db
+        when clicking in a drug, it also appear the same cases table.
+        If mapping from name to atc code, it is possible to get data of pharmoGenomics from pgxdb ( https://pgx-db.org/rest-api/atc/pgx/D07XB05/ ) - important properties: Phenotype_Category (efficacy), Variant_or_Haplotypes (rsid of mutation), Direction_of_effect (increased), PD_PK_terms (response to), PMID
+
+        --- interface
+        table pagination = https://github.com/wenzhixin/bootstrap-pagination
+        modal = https://getbootstrap.com/docs/5.3/components/modal/
+
+        '''
+        cvdb = self.get_civic_data()
+
+        for project in tqdm(self.projects):
+            indir = os.path.join(self.data_dir, project)
+            dcases = self.proc._get_cases_metadata(project)
+
+            datcat = 'simple nucleotide variation'
+            odir, fsodir, file_list = self.proc.get_case_files_by_data_category(project, datcat)
+            path = os.path.join(odir, "data_merge_pharmaco_mutations.tsv")
+            df = pd.read_csv( path, sep='\t')
+            
+            #df[ df['civic_mutation_hits'] ].case_id.unique() # number of cases that had a mutation annotated in civic
+            #df[ df['civic_mutation_hits'] ].groupby(['race', 'gender', 'ethnicity']).count() # same filter but grouping the table by race, gender and ethnicity
+
+            # --- make mapp of case to all mutations observed, in or not in civic
+            aux = {}
+            for c in df.case_id.unique():
+                aux[c] = df[ df.case_id == c ].mutation.unique()
+
+            df = df[ df['civic_mutation_hits'] ]
+            mutdata = dict() # Textual tag p: chromosome, gene, consequence, polyphen, clinsig, civic diseases, drug-variant_association
+            mutcount = dict()
+            casedata = dict()
+            tissue_site = ""
+            hist_type = ""
+            for i in df.index:
+                mut = df.loc[i, 'mutation']
+                case = df.loc[i, 'case_id']
+                tissue_type = df.loc[i, 'tissue_type']
+
+                # filling mut info json
+                if(not mut in mutdata):
+                    mutcount[mut] = { "cases": 0, "race": {}, "gender": {}, "stage": {}, "tissue_type": {} }
+                    mutdata[mut] = { "race": {}, "gender": {}, "stage": {}, "tissue_type": {}, "civic_diseases": {}, "drug-variant_association": {}, "cases": set() }
+
+                mutdata[mut]["cases"].add(case)
+                mutcount[mut]["cases"] = len( mutdata[mut]["cases"] )
+
+                race = df.loc[i, 'race']
+                if(not race in mutdata[mut]["race"] ):
+                    mutdata[mut]["race"][race] = set()
+                mutdata[mut]["race"][race].add(case)
+                mutcount[mut]["race"][race] = len( mutdata[mut]["race"][race] )
+
+                gender = df.loc[i, 'gender']
+                if(not gender in mutdata[mut]["gender"] ):
+                    mutdata[mut]["gender"][gender] = set()
+                mutdata[mut]["gender"][gender].add(case)
+                mutcount[mut]["gender"][gender] = len( mutdata[mut]["gender"][gender] )
+
+                chromosome = str(df.loc[i, 'chromosome'])
+                consequence = str(df.loc[i, 'consequence'])
+                polyphen = str(df.loc[i, 'polyphen'])
+                clinsig = str(df.loc[i, 'clin_sig'])
+                mutdata[mut]["chromosome"] = chromosome
+                mutdata[mut]["consequence"] = consequence
+                mutdata[mut]["polyphen"] = polyphen
+                mutdata[mut]["clinsig"] = clinsig
+
+                cvdat = cvdb[mut]
+                diseases = set( map( lambda x: x["disease"], cvdat ))
+                combs = set( map( lambda x: x["significance"]+" to "+x["drug"], cvdat ))
+                mutdata[mut]["civic_diseases"] = ', '.join(diseases)
+                mutdata[mut]["drug-variant_association"] = ', '.join(combs)
+
+                # filling case info json
+                gene = mut.split('-')[0]
+                mutdata[mut]["gene"] = gene
+                
+                drug = str(df.loc[i, 'drug'])
+                dclin = dcases[case]
+                stage = dclin["pathologic_stage"]
+                tissue_site = dclin["tumor_tissue_site"]
+                hist_type = dclin["histological_type"]
+                if(not case in casedata):
+                    drg_details = dclin["drug_details"]
+                    drugs = set()
+                    for d in drg_details:
+                        if('name' in d):
+                            drugs.add(d['name'])
+                    gender = dclin["gender"]
+                    race = dclin["race"]
+                    ethnicity = dclin["ethnicity"]
+
+                    casedata[case] = { "race": race, "gender": gender, "ethnicity": ethnicity, "stage": stage, "prescribed_drugs": set(), "genes": set(), "muts": set(), "chromosomes": set() }
+                casedata[case]["chromosomes"].add(chromosome)
+
+                if(not stage in mutdata[mut]["stage"] ):
+                    mutdata[mut]["stage"][stage] = set()
+                mutdata[mut]["stage"][stage].add(case)
+                mutcount[mut]["stage"][stage] = len( mutdata[mut]["stage"][stage] )
+
+                if(not tissue_type in mutdata[mut]["tissue_type"] ):
+                    mutdata[mut]["tissue_type"][tissue_type] = set()
+                mutdata[mut]["tissue_type"][tissue_type].add(case)
+                mutcount[mut]["tissue_type"][tissue_type] = len( mutdata[mut]["tissue_type"][tissue_type] )
+
+                flagg = df.loc[i, 'civic_gene_hits']
+                if(flagg):
+                    gene += "*"
+                casedata[case]["genes"].add(gene)
+                
+                flagd = df.loc[i, 'civic_drug_hits']
+                if(flagd):
+                    drug += "*"
+                casedata[case]["prescribed_drugs"].add(drug)
+                
+                casedata[case]["muts"].add(mut)
+                
+            tmp = {}
+            for k in mutdata:
+                tmp[k] = {}
+                tmp[k]["cases"] = list(mutdata[k]["cases"])
+                for c in mutdata[k]:
+                    if(c not in ["race", "gender", "cases", "stage", "tissue_type"] ):
+                        tmp[k][c] = mutdata[k][c]
+            mutdata = tmp
+            
+            for k in casedata:
+                casedata[k]["chromosomes"] = list(casedata[k]["chromosomes"])
+                casedata[k]["genes"] = list(casedata[k]["genes"])
+                casedata[k]["muts"] = list(casedata[k]["muts"])
+                casedata[k]["allmuts"] = list(aux[k])
+                casedata[k]["prescribed_drugs"] = list(casedata[k]["prescribed_drugs"])
+
+            print(project, mutdata, mutcount, casedata)
+            alldat = { "tissue_site": tissue_site, "hist_type": hist_type, "mutation_details": mutdata, "mutation_count": mutcount, "cases_data": casedata }
+            opath = os.path.join(odir, "pgx_data.json")
+            json.dump( alldat, open(opath, 'w') )
+            if( os.path.getsize(opath) == 2 ):
+                print(project)
+
+    def run(self):
+        #self.merge_datasources()
+        self.generate_app_pgx_compiled_data()
+
+if( __name__ == "__main__" ):
+    out = '/mnt/yasdata/home/yasmmin/Dropbox/portfolio_2025/gdc_explorer_app_web/gdc_exploration_project/bridge_pharcoGenomics/out'
+    
+    o = HandleBridgePharcogenomicsAnalysis( out)
+    o.run()

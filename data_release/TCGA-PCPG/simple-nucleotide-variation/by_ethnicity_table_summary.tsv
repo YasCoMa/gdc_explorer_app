@@ -1,0 +1,2978 @@
+demo_variable	subgroup	feature	feature_value	count
+by_ethnicity	Unknown	chromosome	chr1	3
+by_ethnicity	Unknown	chromosome	chr10	1
+by_ethnicity	Unknown	chromosome	chr11	2
+by_ethnicity	Unknown	chromosome	chr12	1
+by_ethnicity	Unknown	chromosome	chr14	1
+by_ethnicity	Unknown	chromosome	chr15	3
+by_ethnicity	Unknown	chromosome	chr16	1
+by_ethnicity	Unknown	chromosome	chr17	3
+by_ethnicity	Unknown	chromosome	chr19	1
+by_ethnicity	Unknown	chromosome	chr2	5
+by_ethnicity	Unknown	chromosome	chr20	2
+by_ethnicity	Unknown	chromosome	chr21	1
+by_ethnicity	Unknown	chromosome	chr22	1
+by_ethnicity	Unknown	chromosome	chr4	1
+by_ethnicity	Unknown	chromosome	chr5	2
+by_ethnicity	Unknown	chromosome	chr6	2
+by_ethnicity	Unknown	chromosome	chr7	1
+by_ethnicity	Unknown	chromosome	chr8	3
+by_ethnicity	Unknown	chromosome	chr9	1
+by_ethnicity	Unknown	clin_sig	likely_pathogenic	1
+by_ethnicity	Unknown	consequence	3_prime_UTR_variant	1
+by_ethnicity	Unknown	consequence	5_prime_UTR_variant	1
+by_ethnicity	Unknown	consequence	frameshift_variant	1
+by_ethnicity	Unknown	consequence	inframe_deletion	1
+by_ethnicity	Unknown	consequence	intron_variant	1
+by_ethnicity	Unknown	consequence	missense_variant	26
+by_ethnicity	Unknown	consequence	non_coding_transcript_exon_variant	1
+by_ethnicity	Unknown	consequence	splice_acceptor_variant	1
+by_ethnicity	Unknown	consequence	splice_acceptor_variant;coding_sequence_variant;intron_variant	1
+by_ethnicity	Unknown	consequence	splice_donor_variant	1
+by_ethnicity	Unknown	hugo_symbol	AFDN	1
+by_ethnicity	Unknown	hugo_symbol	BABAM2	1
+by_ethnicity	Unknown	hugo_symbol	CKAP5	1
+by_ethnicity	Unknown	hugo_symbol	DLAT	1
+by_ethnicity	Unknown	hugo_symbol	DNAAF5	1
+by_ethnicity	Unknown	hugo_symbol	DNAH8	1
+by_ethnicity	Unknown	hugo_symbol	FBXO32	1
+by_ethnicity	Unknown	hugo_symbol	GANC	1
+by_ethnicity	Unknown	hugo_symbol	GCHFR	1
+by_ethnicity	Unknown	hugo_symbol	GLRXP3	1
+by_ethnicity	Unknown	hugo_symbol	HMCN1	1
+by_ethnicity	Unknown	hugo_symbol	IGKV3-20	1
+by_ethnicity	Unknown	hugo_symbol	IL34	1
+by_ethnicity	Unknown	hugo_symbol	IQSEC3	1
+by_ethnicity	Unknown	hugo_symbol	ITSN1	1
+by_ethnicity	Unknown	hugo_symbol	KCNH5	1
+by_ethnicity	Unknown	hugo_symbol	KCNK9	1
+by_ethnicity	Unknown	hugo_symbol	MAL	2
+by_ethnicity	Unknown	hugo_symbol	MYO18B	1
+by_ethnicity	Unknown	hugo_symbol	NAPB	1
+by_ethnicity	Unknown	hugo_symbol	NF1	2
+by_ethnicity	Unknown	hugo_symbol	PDE4D	1
+by_ethnicity	Unknown	hugo_symbol	PTGS1	1
+by_ethnicity	Unknown	hugo_symbol	PTPN14	1
+by_ethnicity	Unknown	hugo_symbol	RALGAPB	1
+by_ethnicity	Unknown	hugo_symbol	SH3TC1	1
+by_ethnicity	Unknown	hugo_symbol	SLFN11	1
+by_ethnicity	Unknown	hugo_symbol	SYT6	1
+by_ethnicity	Unknown	hugo_symbol	TGM5	1
+by_ethnicity	Unknown	hugo_symbol	WWP1	1
+by_ethnicity	Unknown	hugo_symbol	XIRP2	1
+by_ethnicity	Unknown	hugo_symbol	ZEB1	1
+by_ethnicity	Unknown	hugo_symbol	ZNF324B	1
+by_ethnicity	Unknown	impact	HIGH	4
+by_ethnicity	Unknown	impact	MODERATE	27
+by_ethnicity	Unknown	impact	MODIFIER	4
+by_ethnicity	Unknown	locationaa	AFDN_p.Ala298Ser	1
+by_ethnicity	Unknown	locationaa	CKAP5_p.Arg2023Ile	1
+by_ethnicity	Unknown	locationaa	DLAT_p.Val526Ter	1
+by_ethnicity	Unknown	locationaa	DNAAF5_p.Thr542Ala	1
+by_ethnicity	Unknown	locationaa	FBXO32_p.Gln142Glu	1
+by_ethnicity	Unknown	locationaa	GANC_p.Gly404Ser	1
+by_ethnicity	Unknown	locationaa	GCHFR_p.Gln75His	1
+by_ethnicity	Unknown	locationaa	HMCN1_p.Phe402Cys	1
+by_ethnicity	Unknown	locationaa	IGKV3-20_p.Trp14Arg	1
+by_ethnicity	Unknown	locationaa	IL34_p.Met26Thr	1
+by_ethnicity	Unknown	locationaa	IQSEC3_p.Ala459Thr	1
+by_ethnicity	Unknown	locationaa	ITSN1_p.Ala571Gly	1
+by_ethnicity	Unknown	locationaa	KCNH5_p.Pro2Ser	1
+by_ethnicity	Unknown	locationaa	KCNK9_p.Lys49_Ser55del	1
+by_ethnicity	Unknown	locationaa	MAL_p.Ile74Val	1
+by_ethnicity	Unknown	locationaa	MAL_p.Tyr73Cys	1
+by_ethnicity	Unknown	locationaa	MYO18B_p.Ala2078Val	1
+by_ethnicity	Unknown	locationaa	NAPB_p.Arg116Trp	1
+by_ethnicity	Unknown	locationaa	PDE4D_p.Leu543Ile	1
+by_ethnicity	Unknown	locationaa	PTGS1_p.Val286Ala	1
+by_ethnicity	Unknown	locationaa	PTPN14_p.Gly973Ala	1
+by_ethnicity	Unknown	locationaa	RALGAPB_p.Val581Met	1
+by_ethnicity	Unknown	locationaa	SH3TC1_p.Ile1286Val	1
+by_ethnicity	Unknown	locationaa	SLFN11_p.Asp711His	1
+by_ethnicity	Unknown	locationaa	SYT6_p.Arg287His	1
+by_ethnicity	Unknown	locationaa	TGM5_p.Val526Ala	1
+by_ethnicity	Unknown	locationaa	WWP1_p.Gln805Arg	1
+by_ethnicity	Unknown	locationaa	ZEB1_p.Lys894Asn	1
+by_ethnicity	Unknown	polyphen	benign	3
+by_ethnicity	Unknown	polyphen	possibly_damaging	3
+by_ethnicity	Unknown	polyphen	probably_damaging	4
+by_ethnicity	Unknown	sift	deleterious	6
+by_ethnicity	Unknown	sift	deleterious_low_confidence	1
+by_ethnicity	Unknown	sift	tolerated	4
+by_ethnicity	Unknown	sift	tolerated_low_confidence	1
+by_ethnicity	Unknown	variant_class	SNV	32
+by_ethnicity	Unknown	variant_class	deletion	3
+by_ethnicity	Unknown	variant_classification	3'UTR	1
+by_ethnicity	Unknown	variant_classification	5'UTR	1
+by_ethnicity	Unknown	variant_classification	Frame_Shift_Del	1
+by_ethnicity	Unknown	variant_classification	In_Frame_Del	1
+by_ethnicity	Unknown	variant_classification	Intron	1
+by_ethnicity	Unknown	variant_classification	Missense_Mutation	26
+by_ethnicity	Unknown	variant_classification	RNA	1
+by_ethnicity	Unknown	variant_classification	Splice_Site	3
+by_ethnicity	hispanic or latino	chromosome	chr1	4
+by_ethnicity	hispanic or latino	chromosome	chr10	2
+by_ethnicity	hispanic or latino	chromosome	chr11	2
+by_ethnicity	hispanic or latino	chromosome	chr12	7
+by_ethnicity	hispanic or latino	chromosome	chr14	1
+by_ethnicity	hispanic or latino	chromosome	chr15	1
+by_ethnicity	hispanic or latino	chromosome	chr16	2
+by_ethnicity	hispanic or latino	chromosome	chr17	3
+by_ethnicity	hispanic or latino	chromosome	chr18	1
+by_ethnicity	hispanic or latino	chromosome	chr19	5
+by_ethnicity	hispanic or latino	chromosome	chr2	3
+by_ethnicity	hispanic or latino	chromosome	chr20	1
+by_ethnicity	hispanic or latino	chromosome	chr3	2
+by_ethnicity	hispanic or latino	chromosome	chr4	2
+by_ethnicity	hispanic or latino	chromosome	chr5	3
+by_ethnicity	hispanic or latino	chromosome	chr6	3
+by_ethnicity	hispanic or latino	chromosome	chr7	3
+by_ethnicity	hispanic or latino	chromosome	chr8	1
+by_ethnicity	hispanic or latino	chromosome	chr9	2
+by_ethnicity	hispanic or latino	chromosome	chrX	3
+by_ethnicity	hispanic or latino	consequence	frameshift_variant	3
+by_ethnicity	hispanic or latino	consequence	intron_variant	1
+by_ethnicity	hispanic or latino	consequence	missense_variant	44
+by_ethnicity	hispanic or latino	consequence	missense_variant;splice_region_variant	1
+by_ethnicity	hispanic or latino	consequence	splice_acceptor_variant	1
+by_ethnicity	hispanic or latino	consequence	start_lost	1
+by_ethnicity	hispanic or latino	hugo_symbol	ACTR1A	1
+by_ethnicity	hispanic or latino	hugo_symbol	ADAMTS20	1
+by_ethnicity	hispanic or latino	hugo_symbol	AGTPBP1	1
+by_ethnicity	hispanic or latino	hugo_symbol	ANAPC7	1
+by_ethnicity	hispanic or latino	hugo_symbol	BCHE	1
+by_ethnicity	hispanic or latino	hugo_symbol	CCT6B	1
+by_ethnicity	hispanic or latino	hugo_symbol	CEACAM5	1
+by_ethnicity	hispanic or latino	hugo_symbol	CMYA5	1
+by_ethnicity	hispanic or latino	hugo_symbol	COG7	1
+by_ethnicity	hispanic or latino	hugo_symbol	CREB3	1
+by_ethnicity	hispanic or latino	hugo_symbol	CTDSP2	1
+by_ethnicity	hispanic or latino	hugo_symbol	CYP11B1	1
+by_ethnicity	hispanic or latino	hugo_symbol	DKK3	1
+by_ethnicity	hispanic or latino	hugo_symbol	FBXO21	1
+by_ethnicity	hispanic or latino	hugo_symbol	FCRL3	1
+by_ethnicity	hispanic or latino	hugo_symbol	FEZ1	1
+by_ethnicity	hispanic or latino	hugo_symbol	FGD6	1
+by_ethnicity	hispanic or latino	hugo_symbol	FMN2	1
+by_ethnicity	hispanic or latino	hugo_symbol	GABRA3	1
+by_ethnicity	hispanic or latino	hugo_symbol	GATAD1	1
+by_ethnicity	hispanic or latino	hugo_symbol	HRC	1
+by_ethnicity	hispanic or latino	hugo_symbol	IRX6	1
+by_ethnicity	hispanic or latino	hugo_symbol	KMT2D	1
+by_ethnicity	hispanic or latino	hugo_symbol	MRPL46	1
+by_ethnicity	hispanic or latino	hugo_symbol	MYO5B	1
+by_ethnicity	hispanic or latino	hugo_symbol	NF1	1
+by_ethnicity	hispanic or latino	hugo_symbol	OR2A2	1
+by_ethnicity	hispanic or latino	hugo_symbol	PCDHB4	1
+by_ethnicity	hispanic or latino	hugo_symbol	PCDHB6	1
+by_ethnicity	hispanic or latino	hugo_symbol	PPP1R17	1
+by_ethnicity	hispanic or latino	hugo_symbol	PRAMEF18	1
+by_ethnicity	hispanic or latino	hugo_symbol	PRR12	1
+by_ethnicity	hispanic or latino	hugo_symbol	SDF2	1
+by_ethnicity	hispanic or latino	hugo_symbol	SESN1	1
+by_ethnicity	hispanic or latino	hugo_symbol	SHISA4	1
+by_ethnicity	hispanic or latino	hugo_symbol	SLC9A8	1
+by_ethnicity	hispanic or latino	hugo_symbol	SORBS1	1
+by_ethnicity	hispanic or latino	hugo_symbol	STAG2	1
+by_ethnicity	hispanic or latino	hugo_symbol	SULT6B1	1
+by_ethnicity	hispanic or latino	hugo_symbol	SUSD6	1
+by_ethnicity	hispanic or latino	hugo_symbol	TENM3	1
+by_ethnicity	hispanic or latino	hugo_symbol	TFAP2D	1
+by_ethnicity	hispanic or latino	hugo_symbol	TIMELESS	1
+by_ethnicity	hispanic or latino	hugo_symbol	TIPARP	1
+by_ethnicity	hispanic or latino	hugo_symbol	TRAK2	1
+by_ethnicity	hispanic or latino	hugo_symbol	TRIML1	1
+by_ethnicity	hispanic or latino	hugo_symbol	UHRF1BP1	1
+by_ethnicity	hispanic or latino	hugo_symbol	VPS54	1
+by_ethnicity	hispanic or latino	hugo_symbol	ZNF182	1
+by_ethnicity	hispanic or latino	hugo_symbol	ZNF419	1
+by_ethnicity	hispanic or latino	hugo_symbol	ZNF773	1
+by_ethnicity	hispanic or latino	impact	HIGH	5
+by_ethnicity	hispanic or latino	impact	MODERATE	45
+by_ethnicity	hispanic or latino	impact	MODIFIER	1
+by_ethnicity	hispanic or latino	locationaa	ACTR1A_p.Gly78Asp	1
+by_ethnicity	hispanic or latino	locationaa	ADAMTS20_p.Asp671Val	1
+by_ethnicity	hispanic or latino	locationaa	AGTPBP1_p.Pro459Leu	1
+by_ethnicity	hispanic or latino	locationaa	ANAPC7_p.His83Pro	1
+by_ethnicity	hispanic or latino	locationaa	BCHE_p.Ala430Val	1
+by_ethnicity	hispanic or latino	locationaa	CCT6B_p.Asp279Gly	1
+by_ethnicity	hispanic or latino	locationaa	CEACAM5_p.Pro93Ser	1
+by_ethnicity	hispanic or latino	locationaa	CMYA5_p.Lys2195Arg	1
+by_ethnicity	hispanic or latino	locationaa	COG7_p.Ser132Asn	1
+by_ethnicity	hispanic or latino	locationaa	CREB3_p.Glu219AspfsTer31	1
+by_ethnicity	hispanic or latino	locationaa	CTDSP2_p.Ser219Trp	1
+by_ethnicity	hispanic or latino	locationaa	CYP11B1_p.Val31Phe	1
+by_ethnicity	hispanic or latino	locationaa	DKK3_p.Phe128Ile	1
+by_ethnicity	hispanic or latino	locationaa	FBXO21_p.Glu484Gln	1
+by_ethnicity	hispanic or latino	locationaa	FCRL3_p.Asp454Glu	1
+by_ethnicity	hispanic or latino	locationaa	FEZ1_p.Met1?	1
+by_ethnicity	hispanic or latino	locationaa	FGD6_p.Tyr1022Cys	1
+by_ethnicity	hispanic or latino	locationaa	FMN2_p.Leu711His	1
+by_ethnicity	hispanic or latino	locationaa	GATAD1_p.Lys181Glu	1
+by_ethnicity	hispanic or latino	locationaa	HRC_p.Ser601Pro	1
+by_ethnicity	hispanic or latino	locationaa	IRX6_p.Pro126Leu	1
+by_ethnicity	hispanic or latino	locationaa	KMT2D_p.Leu5281Arg	1
+by_ethnicity	hispanic or latino	locationaa	MRPL46_p.Arg46Cys	1
+by_ethnicity	hispanic or latino	locationaa	MYO5B_p.Trp485Ser	1
+by_ethnicity	hispanic or latino	locationaa	NF1_p.Ser1754LeufsTer11	1
+by_ethnicity	hispanic or latino	locationaa	OR2A2_p.His175Gln	1
+by_ethnicity	hispanic or latino	locationaa	PCDHB4_p.Arg228Gln	1
+by_ethnicity	hispanic or latino	locationaa	PCDHB6_p.Arg91Trp	1
+by_ethnicity	hispanic or latino	locationaa	PRAMEF18_p.Ser260Ile	1
+by_ethnicity	hispanic or latino	locationaa	PRR12_p.Cys542Tyr	1
+by_ethnicity	hispanic or latino	locationaa	SDF2_p.Glu210Ala	1
+by_ethnicity	hispanic or latino	locationaa	SESN1_p.Ser267Thr	1
+by_ethnicity	hispanic or latino	locationaa	SHISA4_p.Gln128Glu	1
+by_ethnicity	hispanic or latino	locationaa	SLC9A8_p.His336Asn	1
+by_ethnicity	hispanic or latino	locationaa	SORBS1_p.Lys533Asn	1
+by_ethnicity	hispanic or latino	locationaa	STAG2_p.Phe938LeufsTer11	1
+by_ethnicity	hispanic or latino	locationaa	SULT6B1_p.His153Gln	1
+by_ethnicity	hispanic or latino	locationaa	SUSD6_p.Pro57Leu	1
+by_ethnicity	hispanic or latino	locationaa	TENM3_p.Phe50Tyr	1
+by_ethnicity	hispanic or latino	locationaa	TFAP2D_p.Leu244Arg	1
+by_ethnicity	hispanic or latino	locationaa	TIMELESS_p.Gly397Val	1
+by_ethnicity	hispanic or latino	locationaa	TIPARP_p.Val443Ile	1
+by_ethnicity	hispanic or latino	locationaa	TRAK2_p.Tyr54Phe	1
+by_ethnicity	hispanic or latino	locationaa	TRIML1_p.Thr173Asn	1
+by_ethnicity	hispanic or latino	locationaa	UHRF1BP1_p.Asp815His	1
+by_ethnicity	hispanic or latino	locationaa	VPS54_p.Pro139Ala	1
+by_ethnicity	hispanic or latino	locationaa	ZNF182_p.Ala238Thr	1
+by_ethnicity	hispanic or latino	locationaa	ZNF419_p.Leu330Val	1
+by_ethnicity	hispanic or latino	locationaa	ZNF773_p.Leu318Val	1
+by_ethnicity	hispanic or latino	polyphen	benign	5
+by_ethnicity	hispanic or latino	polyphen	possibly_damaging	5
+by_ethnicity	hispanic or latino	polyphen	probably_damaging	6
+by_ethnicity	hispanic or latino	sift	deleterious	6
+by_ethnicity	hispanic or latino	sift	deleterious_low_confidence	2
+by_ethnicity	hispanic or latino	sift	tolerated	5
+by_ethnicity	hispanic or latino	sift	tolerated_low_confidence	2
+by_ethnicity	hispanic or latino	variant_class	SNV	48
+by_ethnicity	hispanic or latino	variant_class	deletion	3
+by_ethnicity	hispanic or latino	variant_classification	Frame_Shift_Del	3
+by_ethnicity	hispanic or latino	variant_classification	Intron	1
+by_ethnicity	hispanic or latino	variant_classification	Missense_Mutation	45
+by_ethnicity	hispanic or latino	variant_classification	Splice_Site	1
+by_ethnicity	hispanic or latino	variant_classification	Translation_Start_Site	1
+by_ethnicity	not hispanic or latino	chromosome	chr1	116
+by_ethnicity	not hispanic or latino	chromosome	chr10	46
+by_ethnicity	not hispanic or latino	chromosome	chr11	76
+by_ethnicity	not hispanic or latino	chromosome	chr12	61
+by_ethnicity	not hispanic or latino	chromosome	chr13	11
+by_ethnicity	not hispanic or latino	chromosome	chr14	44
+by_ethnicity	not hispanic or latino	chromosome	chr15	30
+by_ethnicity	not hispanic or latino	chromosome	chr16	36
+by_ethnicity	not hispanic or latino	chromosome	chr17	87
+by_ethnicity	not hispanic or latino	chromosome	chr18	17
+by_ethnicity	not hispanic or latino	chromosome	chr19	71
+by_ethnicity	not hispanic or latino	chromosome	chr2	102
+by_ethnicity	not hispanic or latino	chromosome	chr20	36
+by_ethnicity	not hispanic or latino	chromosome	chr21	6
+by_ethnicity	not hispanic or latino	chromosome	chr22	15
+by_ethnicity	not hispanic or latino	chromosome	chr3	62
+by_ethnicity	not hispanic or latino	chromosome	chr4	39
+by_ethnicity	not hispanic or latino	chromosome	chr5	51
+by_ethnicity	not hispanic or latino	chromosome	chr6	44
+by_ethnicity	not hispanic or latino	chromosome	chr7	40
+by_ethnicity	not hispanic or latino	chromosome	chr8	40
+by_ethnicity	not hispanic or latino	chromosome	chr9	39
+by_ethnicity	not hispanic or latino	chromosome	chrX	52
+by_ethnicity	not hispanic or latino	clin_sig	likely_benign	1
+by_ethnicity	not hispanic or latino	clin_sig	likely_pathogenic	3
+by_ethnicity	not hispanic or latino	clin_sig	likely_pathogenic;pathogenic	1
+by_ethnicity	not hispanic or latino	clin_sig	likely_pathogenic;pathogenic/likely_pathogenic;pathogenic	1
+by_ethnicity	not hispanic or latino	clin_sig	likely_pathogenic;pathogenic;pathogenic/likely_pathogenic	2
+by_ethnicity	not hispanic or latino	clin_sig	pathogenic	3
+by_ethnicity	not hispanic or latino	clin_sig	pathogenic;likely_pathogenic	17
+by_ethnicity	not hispanic or latino	clin_sig	pathogenic;pathogenic/likely_pathogenic;likely_pathogenic	1
+by_ethnicity	not hispanic or latino	clin_sig	uncertain_significance	9
+by_ethnicity	not hispanic or latino	consequence	3_prime_UTR_variant	3
+by_ethnicity	not hispanic or latino	consequence	5_prime_UTR_variant	3
+by_ethnicity	not hispanic or latino	consequence	downstream_gene_variant	1
+by_ethnicity	not hispanic or latino	consequence	frameshift_variant	60
+by_ethnicity	not hispanic or latino	consequence	inframe_deletion	11
+by_ethnicity	not hispanic or latino	consequence	intron_variant	14
+by_ethnicity	not hispanic or latino	consequence	mature_miRNA_variant	2
+by_ethnicity	not hispanic or latino	consequence	missense_variant	911
+by_ethnicity	not hispanic or latino	consequence	missense_variant;NMD_transcript_variant	2
+by_ethnicity	not hispanic or latino	consequence	missense_variant;splice_region_variant	29
+by_ethnicity	not hispanic or latino	consequence	missense_variant;splice_region_variant;NMD_transcript_variant	1
+by_ethnicity	not hispanic or latino	consequence	non_coding_transcript_exon_variant	4
+by_ethnicity	not hispanic or latino	consequence	splice_acceptor_variant	14
+by_ethnicity	not hispanic or latino	consequence	splice_donor_variant	8
+by_ethnicity	not hispanic or latino	consequence	splice_donor_variant;coding_sequence_variant	1
+by_ethnicity	not hispanic or latino	consequence	splice_region_variant;intron_variant	1
+by_ethnicity	not hispanic or latino	consequence	start_lost	1
+by_ethnicity	not hispanic or latino	consequence	stop_gained	45
+by_ethnicity	not hispanic or latino	consequence	stop_gained;NMD_transcript_variant	1
+by_ethnicity	not hispanic or latino	consequence	stop_gained;frameshift_variant	2
+by_ethnicity	not hispanic or latino	consequence	stop_gained;splice_region_variant	2
+by_ethnicity	not hispanic or latino	consequence	stop_lost	3
+by_ethnicity	not hispanic or latino	consequence	stop_lost;3_prime_UTR_variant	1
+by_ethnicity	not hispanic or latino	consequence	upstream_gene_variant	1
+by_ethnicity	not hispanic or latino	hugo_symbol	A2M	2
+by_ethnicity	not hispanic or latino	hugo_symbol	AADACL4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	AAK1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ABCA12	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ABCA13	3
+by_ethnicity	not hispanic or latino	hugo_symbol	ABCA9	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ABCB5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ABCC9	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ABCD3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ABCF1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ACACA	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ACOT12	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ACSM2B	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ACTL8	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ADAM2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ADAM20	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ADAMTS10	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ADAMTS8	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ADAT1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ADCY10	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ADCY6	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ADGRA2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ADGRG6	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ADGRG7	2
+by_ethnicity	not hispanic or latino	hugo_symbol	ADGRL4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ADH6	2
+by_ethnicity	not hispanic or latino	hugo_symbol	AFAP1L1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	AFF4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	AGAP3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	AGXT2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	AHCTF1	2
+by_ethnicity	not hispanic or latino	hugo_symbol	AHDC1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	AHNAK	2
+by_ethnicity	not hispanic or latino	hugo_symbol	AHNAK2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	AHRR	1
+by_ethnicity	not hispanic or latino	hugo_symbol	AKAP13	1
+by_ethnicity	not hispanic or latino	hugo_symbol	AKAP4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	AKAP5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	AKAP8L	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ALDH1A3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ALDH1L2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ALG6	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ALK	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ALMS1	2
+by_ethnicity	not hispanic or latino	hugo_symbol	ALMS1P1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ALPK1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ALS2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	AMER2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	AMOT	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ANGEL1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ANK3	2
+by_ethnicity	not hispanic or latino	hugo_symbol	ANKFN1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ANKRD17	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ANKRD28	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ANKRD44	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ANO3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	AOC3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	AP4E1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	APBA1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	APC	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ARAP3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ARFGEF1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ARHGAP22	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ARHGAP39	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ARHGEF10L	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ARHGEF12	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ARHGEF15	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ARHGEF39	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ARID2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ARID3C	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ARL6IP4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ARMC3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ARNT	2
+by_ethnicity	not hispanic or latino	hugo_symbol	ARNT2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ARNTL	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ARSI	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ASB9	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ASH1L	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ASRGL1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ATAD3B	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ATF1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ATP10D	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ATP13A4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ATP1A4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ATP1B4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ATP2A1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ATP6V1G3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ATP8B1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ATP8B2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ATP9A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ATP9B	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ATR	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ATRX	1
+by_ethnicity	not hispanic or latino	hugo_symbol	AZIN1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	B4GALNT4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	BAHD1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	BARD1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	BARHL2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	BAZ2A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	BCAR1	2
+by_ethnicity	not hispanic or latino	hugo_symbol	BCL2L2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	BCOR	1
+by_ethnicity	not hispanic or latino	hugo_symbol	BDH1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	BICC1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	BICDL2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	BIRC3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	BMP1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	BOD1L1	2
+by_ethnicity	not hispanic or latino	hugo_symbol	BPIFA1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	BPIFB6	1
+by_ethnicity	not hispanic or latino	hugo_symbol	BPTF	1
+by_ethnicity	not hispanic or latino	hugo_symbol	BRAF	1
+by_ethnicity	not hispanic or latino	hugo_symbol	BRCA2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	BRD1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	BRWD3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	BSN	1
+by_ethnicity	not hispanic or latino	hugo_symbol	BTBD10	1
+by_ethnicity	not hispanic or latino	hugo_symbol	C10orf90	1
+by_ethnicity	not hispanic or latino	hugo_symbol	C14orf28	1
+by_ethnicity	not hispanic or latino	hugo_symbol	C17orf80	1
+by_ethnicity	not hispanic or latino	hugo_symbol	C1S	1
+by_ethnicity	not hispanic or latino	hugo_symbol	C20orf85	1
+by_ethnicity	not hispanic or latino	hugo_symbol	C2CD3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	C2orf16	1
+by_ethnicity	not hispanic or latino	hugo_symbol	C4orf19	1
+by_ethnicity	not hispanic or latino	hugo_symbol	C5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CA2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CACHD1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CACNA1A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CACNA1D	2
+by_ethnicity	not hispanic or latino	hugo_symbol	CACNA1F	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CACNA1H	2
+by_ethnicity	not hispanic or latino	hugo_symbol	CACNB2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CACYBP	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CAGE1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CALCR	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CALCRL	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CAMK2N1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CASP2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CASP3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CBLN2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CC2D1A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CC2D2A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CCDC121	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CCDC171	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CCDC40	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CCDC60	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CCDC86	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CCDC88C	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CCL13	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CCNI	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CCR4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CCSER1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CD163	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CD180	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CD300C	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CD5L	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CDC42BPA	2
+by_ethnicity	not hispanic or latino	hugo_symbol	CDH20	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CDK19	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CDK5RAP3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CDKN2C	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CENPB	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CEP164	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CEP192	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CEP250	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CFAP47	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CFAP91	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CFH	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CGGBP1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CGNL1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CHD3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CHRM3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CHRNA9	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CHST15	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CHST5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CHSY3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CLASP2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CNOT1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CNST	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CNTN1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CNTN2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	COG1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	COG2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	COG3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	COG7	1
+by_ethnicity	not hispanic or latino	hugo_symbol	COL19A1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	COL5A3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	COL6A3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	COLGALT2	2
+by_ethnicity	not hispanic or latino	hugo_symbol	COPS5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	COX15	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CPT1C	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CRAMP1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CRHR2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CRTAC1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CRYBB1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CRYBG1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CSDE1	2
+by_ethnicity	not hispanic or latino	hugo_symbol	CSF2RA	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CST5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CSTF1	2
+by_ethnicity	not hispanic or latino	hugo_symbol	CSTL1	2
+by_ethnicity	not hispanic or latino	hugo_symbol	CTCF	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CTH	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CXADR	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CXXC4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CXXC5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CYP4A11	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CYP4F2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CYRIA	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CYTH2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	CYTIP	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DAB2IP	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DBF4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DCAF1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DCAF11	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DCK	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DDI2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DDIAS	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DDX21	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DENND4A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DGAT1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DGAT2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DGUOK	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DHTKD1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DIDO1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DLG5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DMBT1	2
+by_ethnicity	not hispanic or latino	hugo_symbol	DMKN	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DMWD	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DNAH1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DNAH17	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DNAH5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DNAH7	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DNAH8	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DNAJC5G	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DNAJC7	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DNMT3A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DOCK4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DOCK7	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DOCK9	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DPEP1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DPP6	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DSC2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DSTYK	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DUSP15	1
+by_ethnicity	not hispanic or latino	hugo_symbol	DYNC2H1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ECD	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ECT2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	EDAR	1
+by_ethnicity	not hispanic or latino	hugo_symbol	EGFR	1
+by_ethnicity	not hispanic or latino	hugo_symbol	EGLN1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	EHBP1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	EHMT1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	EIF3K	1
+by_ethnicity	not hispanic or latino	hugo_symbol	EIF4G3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ELF3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ELFN2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ELOA	1
+by_ethnicity	not hispanic or latino	hugo_symbol	EMC1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ENAM	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ENC1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ENOX2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	EPAS1	6
+by_ethnicity	not hispanic or latino	hugo_symbol	EPC1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	EPOR	1
+by_ethnicity	not hispanic or latino	hugo_symbol	EPS8	1
+by_ethnicity	not hispanic or latino	hugo_symbol	EPS8L2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ERC2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ERCC3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ERCC6L2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ERCC8	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ETV6	1
+by_ethnicity	not hispanic or latino	hugo_symbol	EVPL	1
+by_ethnicity	not hispanic or latino	hugo_symbol	EXOC2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	EYA3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	EYS	1
+by_ethnicity	not hispanic or latino	hugo_symbol	F12	1
+by_ethnicity	not hispanic or latino	hugo_symbol	F13A1	2
+by_ethnicity	not hispanic or latino	hugo_symbol	F5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	F8	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FADD	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FAM107A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FAM187B	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FAM53B	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FAM83A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FAM83D	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FANCI	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FAT1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FAT4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FBF1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FBLN2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FBN3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FBP2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FBXL20	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FBXO28	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FBXO8	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FCAR	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FEM1B	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FEZ1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FGD6	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FGF16	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FGFR1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FGFR2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FIGN	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FLG	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FLNB	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FLRT2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FMN1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FMO3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FMOD	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FNDC7	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FOXA2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FOXM1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FRMPD4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	FXR1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GABRA2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GABRR1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GAD1	2
+by_ethnicity	not hispanic or latino	hugo_symbol	GALNTL6	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GAS2L2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GBA	2
+by_ethnicity	not hispanic or latino	hugo_symbol	GBP1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GBP6	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GCKR	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GCSAML	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GFI1B	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GGT7	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GIGYF2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GIPC1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GIT2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GJA5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GLG1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GLI3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GLOD4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GMPR	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GNE	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GOLGA1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GOLGA4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GOLM2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GON4L	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GOSR2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GOT1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GP2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GPATCH8	2
+by_ethnicity	not hispanic or latino	hugo_symbol	GPNMB	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GPR137	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GPR149	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GPR156	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GPR50	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GPS1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GPX4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GREB1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GRIA2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GRIK1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GRIP1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GSTA3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GTF2A1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GTF2H2B	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GTF2I	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GTF3C1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GTSE1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	GULP1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	H1-7	1
+by_ethnicity	not hispanic or latino	hugo_symbol	H2AC1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	H2AX	1
+by_ethnicity	not hispanic or latino	hugo_symbol	H2BC4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	HAPLN4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	HAT1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	HAVCR1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	HCFC1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	HCN2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	HDAC2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	HDLBP	1
+by_ethnicity	not hispanic or latino	hugo_symbol	HECA	1
+by_ethnicity	not hispanic or latino	hugo_symbol	HECTD1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	HECTD4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	HECW2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	HERC2P3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	HEXD	1
+by_ethnicity	not hispanic or latino	hugo_symbol	HFM1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	HHIPL2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	HIC2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	HLX	1
+by_ethnicity	not hispanic or latino	hugo_symbol	HNF1B	1
+by_ethnicity	not hispanic or latino	hugo_symbol	HNRNPUL2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	HPS3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	HPS4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	HRAS	17
+by_ethnicity	not hispanic or latino	hugo_symbol	HSDL2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	HSP90AA1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	HTT	1
+by_ethnicity	not hispanic or latino	hugo_symbol	HUWE1	3
+by_ethnicity	not hispanic or latino	hugo_symbol	HYDIN	1
+by_ethnicity	not hispanic or latino	hugo_symbol	IDE	1
+by_ethnicity	not hispanic or latino	hugo_symbol	IDH1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	IFIT3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	IFT122	1
+by_ethnicity	not hispanic or latino	hugo_symbol	IGFBP3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	IGHD	1
+by_ethnicity	not hispanic or latino	hugo_symbol	IGHG4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	IGHV1-45	1
+by_ethnicity	not hispanic or latino	hugo_symbol	IGHV3-43	1
+by_ethnicity	not hispanic or latino	hugo_symbol	IGSF1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	IGSF22	1
+by_ethnicity	not hispanic or latino	hugo_symbol	IGSF9B	1
+by_ethnicity	not hispanic or latino	hugo_symbol	IHH	1
+by_ethnicity	not hispanic or latino	hugo_symbol	IKZF3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	IL13RA1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	IL15RA	1
+by_ethnicity	not hispanic or latino	hugo_symbol	IL18RAP	1
+by_ethnicity	not hispanic or latino	hugo_symbol	IL21	1
+by_ethnicity	not hispanic or latino	hugo_symbol	IL4R	1
+by_ethnicity	not hispanic or latino	hugo_symbol	IL6ST	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ILF3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ING1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	INPP1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	IPO8	1
+by_ethnicity	not hispanic or latino	hugo_symbol	IPPK	1
+by_ethnicity	not hispanic or latino	hugo_symbol	IRAK4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	IRF9	1
+by_ethnicity	not hispanic or latino	hugo_symbol	IRX6	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ITGA10	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ITGAM	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ITGAV	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ITIH1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ITLN2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	IVL	1
+by_ethnicity	not hispanic or latino	hugo_symbol	JADE1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	JADE2	2
+by_ethnicity	not hispanic or latino	hugo_symbol	JAG2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	JAK2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	JOSD1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	JOSD2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	KAT6A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	KBTBD2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	KCMF1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	KCNB1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	KCND2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	KCNH5	2
+by_ethnicity	not hispanic or latino	hugo_symbol	KCNH6	1
+by_ethnicity	not hispanic or latino	hugo_symbol	KCNJ16	1
+by_ethnicity	not hispanic or latino	hugo_symbol	KCNT2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	KCTD3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	KDM4B	1
+by_ethnicity	not hispanic or latino	hugo_symbol	KDM5C	1
+by_ethnicity	not hispanic or latino	hugo_symbol	KDM6B	2
+by_ethnicity	not hispanic or latino	hugo_symbol	KIAA1217	1
+by_ethnicity	not hispanic or latino	hugo_symbol	KIAA1958	1
+by_ethnicity	not hispanic or latino	hugo_symbol	KIF13B	2
+by_ethnicity	not hispanic or latino	hugo_symbol	KIF15	1
+by_ethnicity	not hispanic or latino	hugo_symbol	KIR2DS4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	KLHDC3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	KLHL7	1
+by_ethnicity	not hispanic or latino	hugo_symbol	KLRC2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	KLRD1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	KRT3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	KRT6C	1
+by_ethnicity	not hispanic or latino	hugo_symbol	KRT72	1
+by_ethnicity	not hispanic or latino	hugo_symbol	KRT78	1
+by_ethnicity	not hispanic or latino	hugo_symbol	KRTAP4-2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LAMA3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LAMB2	2
+by_ethnicity	not hispanic or latino	hugo_symbol	LAMC3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LARP4B	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LCA5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LCE1E	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LCT	2
+by_ethnicity	not hispanic or latino	hugo_symbol	LETM1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LGALS14	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LGALS9B	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LIG1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LILRB5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LINC02210-CRHR1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LIPJ	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LLGL1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LMNA	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LONP1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LONRF3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LOXL4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LPA	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LPAR4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LPCAT3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LRP6	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LRRC25	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LRRC3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LRRC7	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LRRIQ1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LRRN1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LSAMP	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LSM11	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LSM14B	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LSS	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LTBP1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	LTBP2	2
+by_ethnicity	not hispanic or latino	hugo_symbol	LUM	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MACROD2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MACROH2A1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MAGEB1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MAGED1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MALT1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MAN2B1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MAP2K1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MAPK6	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MARCHF4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MARK2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MARK4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MATN4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MATR3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MBD5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MCOLN2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MCUR1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MDC1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ME3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MECP2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MED13L	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MEF2A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MEFV	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MEGF10	1
+by_ethnicity	not hispanic or latino	hugo_symbol	METTL1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	METTL21A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	METTL21C	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MGA	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MGAT2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MGAT4A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MIGA2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MINK1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MIR216A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MIR548A1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MLH3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MLLT1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MLLT6	2
+by_ethnicity	not hispanic or latino	hugo_symbol	MMP14	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MMP2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MMP27	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MMP8	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MORC3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MRGPRX3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MRPL38	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MSN	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MTFR1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MTOR	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MTR	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MTREX	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MUC16	4
+by_ethnicity	not hispanic or latino	hugo_symbol	MUC5AC	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MUC5B	2
+by_ethnicity	not hispanic or latino	hugo_symbol	MXRA5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MYH14	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MYH3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MYH9	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MYO5A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MYO5C	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MYOM2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MYOM3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	MYPN	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NAGK	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NAV3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NBN	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NBR1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NCKAP1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NCKAP1L	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NCOA3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NCR1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NDN	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NEB	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NEDD9	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NEK4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NF1	10
+by_ethnicity	not hispanic or latino	hugo_symbol	NFE2L2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NFE2L3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NHLRC2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NIBAN1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NID1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NID2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NOL4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NOP9	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NOTCH4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NPY1R	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NRXN3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NSD2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NSD3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NSUN2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NT5C3A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NUDCD2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NUGGC	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NUMA1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NUP98	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NXF3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NXT2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	NYNRIN	1
+by_ethnicity	not hispanic or latino	hugo_symbol	OBSCN	1
+by_ethnicity	not hispanic or latino	hugo_symbol	OCA2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	OGT	1
+by_ethnicity	not hispanic or latino	hugo_symbol	OLIG3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	OMD	1
+by_ethnicity	not hispanic or latino	hugo_symbol	OPRPN	1
+by_ethnicity	not hispanic or latino	hugo_symbol	OR10H2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	OR10R2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	OR10X1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	OR1J1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	OR2L2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	OR4F6	1
+by_ethnicity	not hispanic or latino	hugo_symbol	OR4K1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	OR51B4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	OR52D1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	OR52I2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	OR6C76	1
+by_ethnicity	not hispanic or latino	hugo_symbol	OR6Y1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	OR7C2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	OR8A1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	OR8H3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	OR9G4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ORC5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	OSBPL6	1
+by_ethnicity	not hispanic or latino	hugo_symbol	OSBPL7	1
+by_ethnicity	not hispanic or latino	hugo_symbol	OSMR	1
+by_ethnicity	not hispanic or latino	hugo_symbol	OTULIN	1
+by_ethnicity	not hispanic or latino	hugo_symbol	OXTR	1
+by_ethnicity	not hispanic or latino	hugo_symbol	P2RX4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	P2RY1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	P3H2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	P4HA2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	P4HTM	2
+by_ethnicity	not hispanic or latino	hugo_symbol	PAIP1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PAPPA2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PAQR3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PARD3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PARN	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PAX1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PAXIP1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PCDHA10	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PCDHB12	2
+by_ethnicity	not hispanic or latino	hugo_symbol	PCDHB4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PCDHGA4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PCDHGA7	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PCED1A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PCLO	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PCMTD2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PCNX1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PCSK7	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PDE4A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PDE4B	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PDLIM5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PDPN	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PER2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PEX10	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PEX5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PFKM	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PGLYRP2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PGLYRP4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PGR	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PHC3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PHKA2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PHLDB2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PHTF2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PI3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PIGP	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PIGS	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PIGW	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PIK3CD	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PIK3R5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PIM2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PKD1L1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PLCB3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PLCB4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PLCH1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PLCL1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PLEKHA7	2
+by_ethnicity	not hispanic or latino	hugo_symbol	PLEKHG4B	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PLP1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PLXNA2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PLXNA3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PML	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PMM1	2
+by_ethnicity	not hispanic or latino	hugo_symbol	PNISR	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PNO1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PNPLA8	1
+by_ethnicity	not hispanic or latino	hugo_symbol	POC1B-GALNT4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	POLE	1
+by_ethnicity	not hispanic or latino	hugo_symbol	POLE2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	POLR1A	2
+by_ethnicity	not hispanic or latino	hugo_symbol	POLR1B	1
+by_ethnicity	not hispanic or latino	hugo_symbol	POLR2A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	POLR3A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	POLR3B	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PPEF2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PPIG	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PPP1R10	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PPP6C	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PPRC1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PQBP1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PREB	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PRELP	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PRG2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PRG4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PRICKLE2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PRKACB	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PRMT1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PRMT9	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PRPF8	2
+by_ethnicity	not hispanic or latino	hugo_symbol	PRPH2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PRRC2C	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PRUNE2	2
+by_ethnicity	not hispanic or latino	hugo_symbol	PSAT1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PSD3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PSD4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PSG2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PSMD1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PTCRA	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PTPN13	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PTPN5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	PYGB	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RAB3GAP2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RAB40A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RAB4B	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RABEPK	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RAD51AP1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RAD54B	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RAI1	2
+by_ethnicity	not hispanic or latino	hugo_symbol	RANBP2	2
+by_ethnicity	not hispanic or latino	hugo_symbol	RAP1GAP	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RBBP5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RBL2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RBP2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RBP4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RC3H1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	REM2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	REPIN1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RET	4
+by_ethnicity	not hispanic or latino	hugo_symbol	RMDN1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RNASEK	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RNF10	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RNF149	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RNF168	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RNF19A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RNF20	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RNF213	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RNLS	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RNPEPL1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ROBO1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ROBO2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ROBO4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ROCK2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RP1L1	2
+by_ethnicity	not hispanic or latino	hugo_symbol	RPAP1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RPGR	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RPL27A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RPS27A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RPS6KA5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RPS6KC1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RRAS2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RRBP1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RSBN1L	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RSRC2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RTL1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RTN4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RTP4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RUFY3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RXRB	1
+by_ethnicity	not hispanic or latino	hugo_symbol	RYR1	2
+by_ethnicity	not hispanic or latino	hugo_symbol	SACM1L	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SACS	2
+by_ethnicity	not hispanic or latino	hugo_symbol	SALL1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SBF1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SCAF8	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SCARB1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SCGB3A2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SCN2A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SCNN1B	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SCO2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SCP2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SCRIB	7
+by_ethnicity	not hispanic or latino	hugo_symbol	SDC2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SDHA	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SDR42E1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SEC14L5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SEH1L	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SEMA6D	2
+by_ethnicity	not hispanic or latino	hugo_symbol	SEMG2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SERPINB9	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SERPINF1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SERTM1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SETBP1	2
+by_ethnicity	not hispanic or latino	hugo_symbol	SETD1A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SETD2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SGO1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SH3BP4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SHB	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SHC1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SHOC1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SHROOM3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SIGLEC11	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SIGLEC6	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SIGLEC9	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SIX4	2
+by_ethnicity	not hispanic or latino	hugo_symbol	SKA3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SLC10A5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SLC12A8	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SLC1A3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SLC20A1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SLC22A11	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SLC22A5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SLC25A23	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SLC25A39	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SLC25A44	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SLC26A3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SLC26A9	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SLC27A6	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SLC35B1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SLC36A2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SLC44A1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SLC46A1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SLC52A1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SLC66A1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SLC6A17	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SLC9A4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SLFN11	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SLIT1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SLITRK4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SMC6	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SMG8	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SNX19	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SOCS5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SORBS1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SOX5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SPATA31D1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SPATA6L	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SPDL1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SPDYE1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SPEN	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SPG11	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SPHKAP	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SPIC	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SPINK5	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SPTA1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SRP72	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SRPRA	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SSH1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SSX3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SSX6P	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ST6GAL1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ST6GAL2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ST6GALNAC1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	STAB2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	STAG2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	STAT3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	STK11IP	1
+by_ethnicity	not hispanic or latino	hugo_symbol	STK17B	1
+by_ethnicity	not hispanic or latino	hugo_symbol	STK25	1
+by_ethnicity	not hispanic or latino	hugo_symbol	STON1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	STX8	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SULF1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SUN1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SUPT16H	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SUPT20H	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SUPT20HL1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SUPT6H	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SUPT7L	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SUSD4	2
+by_ethnicity	not hispanic or latino	hugo_symbol	SVEP1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SYT16	1
+by_ethnicity	not hispanic or latino	hugo_symbol	SYT3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TACC2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TAF1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TAF4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TANC2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TAS2R60	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TBC1D10B	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TBC1D10C	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TBC1D2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TBXA2R	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TCAP	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TCF19	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TCHHL1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TCTE1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TDGF1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TDRD9	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TEC	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TECRL	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TENM1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TEX10	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TEX11	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TEX14	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TFAP2C	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TFAP2D	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TFR2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TGFBR3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TGS1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	THOC1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TIAM2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TINAG	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TM2D1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TM7SF3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TM9SF4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TMCO4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TMEM105	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TMEM126B	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TMEM132E	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TMEM208	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TNFAIP1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TNK2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TNKS	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TNPO2	2
+by_ethnicity	not hispanic or latino	hugo_symbol	TOR1AIP1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TOX3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TP53BP1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TPBG	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TPCN1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TPI1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TPO	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TPR	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TPX2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TRAF2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TRAV3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TRAV8-2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TRIM62	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TRIO	2
+by_ethnicity	not hispanic or latino	hugo_symbol	TRIP11	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TRMT1L	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TRMT2B	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TRPC6	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TRPM1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TRRAP	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TSGA10	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TSHZ1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TSPAN15	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TSPOAP1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TTC12	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TTLL1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TTLL6	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TTN	5
+by_ethnicity	not hispanic or latino	hugo_symbol	TTPAL	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TUB	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TUBGCP6	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TULP1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	TVP23C	1
+by_ethnicity	not hispanic or latino	hugo_symbol	UBN1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	UBXN6	1
+by_ethnicity	not hispanic or latino	hugo_symbol	UNC5A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	UNC79	1
+by_ethnicity	not hispanic or latino	hugo_symbol	UPF2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	URGCP	1
+by_ethnicity	not hispanic or latino	hugo_symbol	USP15	2
+by_ethnicity	not hispanic or latino	hugo_symbol	USP28	1
+by_ethnicity	not hispanic or latino	hugo_symbol	USP32	1
+by_ethnicity	not hispanic or latino	hugo_symbol	USP34	2
+by_ethnicity	not hispanic or latino	hugo_symbol	USP9X	1
+by_ethnicity	not hispanic or latino	hugo_symbol	UTRN	1
+by_ethnicity	not hispanic or latino	hugo_symbol	VAMP3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	VAV1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	VCAN	1
+by_ethnicity	not hispanic or latino	hugo_symbol	VCP	1
+by_ethnicity	not hispanic or latino	hugo_symbol	VEZT	1
+by_ethnicity	not hispanic or latino	hugo_symbol	VGLL1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	VHL	2
+by_ethnicity	not hispanic or latino	hugo_symbol	VIT	2
+by_ethnicity	not hispanic or latino	hugo_symbol	VPS13C	1
+by_ethnicity	not hispanic or latino	hugo_symbol	VPS37A	1
+by_ethnicity	not hispanic or latino	hugo_symbol	VPS8	1
+by_ethnicity	not hispanic or latino	hugo_symbol	VSIG4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	VWA3B	2
+by_ethnicity	not hispanic or latino	hugo_symbol	WARS2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	WASHC4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	WDR11	1
+by_ethnicity	not hispanic or latino	hugo_symbol	WNT3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	XDH	1
+by_ethnicity	not hispanic or latino	hugo_symbol	XRN1	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZACN	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZAN	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZBBX	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZBTB14	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZBTB47	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZC3H7B	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZEB2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZFC3H1	2
+by_ethnicity	not hispanic or latino	hugo_symbol	ZFHX3	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZFHX4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZHX2	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZMYND8	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF106	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF275	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF287	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF311	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF341	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF35	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF385D	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF407	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF417	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF425	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF462	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF471	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF484	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF485	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF491	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF493	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF503	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF507	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF510	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF516	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF564	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF569	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF574	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF608	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF613	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF629	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF676	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF77	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF799	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF823	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZNF99	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZSCAN21	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZSCAN31	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZSWIM4	1
+by_ethnicity	not hispanic or latino	hugo_symbol	ZZEF1	1
+by_ethnicity	not hispanic or latino	impact	HIGH	138
+by_ethnicity	not hispanic or latino	impact	LOW	1
+by_ethnicity	not hispanic or latino	impact	MODERATE	954
+by_ethnicity	not hispanic or latino	impact	MODIFIER	28
+by_ethnicity	not hispanic or latino	locationaa	A2M_p.Gly894Arg	1
+by_ethnicity	not hispanic or latino	locationaa	A2M_p.Thr411Ser	1
+by_ethnicity	not hispanic or latino	locationaa	AADACL4_p.Val332Asp	1
+by_ethnicity	not hispanic or latino	locationaa	AAK1_p.Gln526del	1
+by_ethnicity	not hispanic or latino	locationaa	ABCA12_p.Arg1472Cys	1
+by_ethnicity	not hispanic or latino	locationaa	ABCA13_p.Ala104Val	1
+by_ethnicity	not hispanic or latino	locationaa	ABCA13_p.Ala3944Thr	1
+by_ethnicity	not hispanic or latino	locationaa	ABCA13_p.Arg893Cys	1
+by_ethnicity	not hispanic or latino	locationaa	ABCA9_p.Pro1368Ser	1
+by_ethnicity	not hispanic or latino	locationaa	ABCB5_p.Ala534Thr	1
+by_ethnicity	not hispanic or latino	locationaa	ABCC9_p.Ser712Phe	1
+by_ethnicity	not hispanic or latino	locationaa	ABCD3_p.Gly37Ser	1
+by_ethnicity	not hispanic or latino	locationaa	ABCF1_p.Gly673Asp	1
+by_ethnicity	not hispanic or latino	locationaa	ACACA_p.Met346Thr	1
+by_ethnicity	not hispanic or latino	locationaa	ACOT12_p.Glu260Asp	1
+by_ethnicity	not hispanic or latino	locationaa	ACSM2B_p.Leu227Phe	1
+by_ethnicity	not hispanic or latino	locationaa	ACTL8_p.Arg225Cys	1
+by_ethnicity	not hispanic or latino	locationaa	ADAM20_p.Asn568Ile	1
+by_ethnicity	not hispanic or latino	locationaa	ADAM2_p.Ser584Ile	1
+by_ethnicity	not hispanic or latino	locationaa	ADAMTS10_p.Phe625Tyr	1
+by_ethnicity	not hispanic or latino	locationaa	ADAMTS8_p.Asp621Gly	1
+by_ethnicity	not hispanic or latino	locationaa	ADAT1_p.Cys159Ser	1
+by_ethnicity	not hispanic or latino	locationaa	ADCY10_p.Ala1254Thr	1
+by_ethnicity	not hispanic or latino	locationaa	ADCY6_p.Ala617Val	1
+by_ethnicity	not hispanic or latino	locationaa	ADGRA2_p.Leu842Val	1
+by_ethnicity	not hispanic or latino	locationaa	ADGRG7_p.Leu483Val	1
+by_ethnicity	not hispanic or latino	locationaa	ADGRG7_p.Pro780Arg	1
+by_ethnicity	not hispanic or latino	locationaa	ADGRL4_p.Asn292Lys	1
+by_ethnicity	not hispanic or latino	locationaa	ADH6_p.Thr348Ile	1
+by_ethnicity	not hispanic or latino	locationaa	ADH6_p.Thr348Pro	1
+by_ethnicity	not hispanic or latino	locationaa	AFAP1L1_p.Ile40Thr	1
+by_ethnicity	not hispanic or latino	locationaa	AFF4_p.Arg16Lys	1
+by_ethnicity	not hispanic or latino	locationaa	AGAP3_p.Cys263Ter	1
+by_ethnicity	not hispanic or latino	locationaa	AGXT2_p.Gly170Ser	1
+by_ethnicity	not hispanic or latino	locationaa	AHCTF1_p.Asn345Ile	1
+by_ethnicity	not hispanic or latino	locationaa	AHCTF1_p.Met1761Val	1
+by_ethnicity	not hispanic or latino	locationaa	AHDC1_p.Ser811Leu	1
+by_ethnicity	not hispanic or latino	locationaa	AHNAK2_p.Gln5042Glu	1
+by_ethnicity	not hispanic or latino	locationaa	AHNAK_p.Gly4490Arg	1
+by_ethnicity	not hispanic or latino	locationaa	AHNAK_p.Ile1480Met	1
+by_ethnicity	not hispanic or latino	locationaa	AHRR_p.Pro519Leu	1
+by_ethnicity	not hispanic or latino	locationaa	AKAP13_p.His1564Arg	1
+by_ethnicity	not hispanic or latino	locationaa	AKAP4_p.Cys24Tyr	1
+by_ethnicity	not hispanic or latino	locationaa	AKAP5_p.Tyr388Asp	1
+by_ethnicity	not hispanic or latino	locationaa	AKAP8L_p.Gln458Ter	1
+by_ethnicity	not hispanic or latino	locationaa	ALDH1A3_p.Val335Met	1
+by_ethnicity	not hispanic or latino	locationaa	ALDH1L2_p.Ile675Thr	1
+by_ethnicity	not hispanic or latino	locationaa	ALG6_p.Arg268ValfsTer8	1
+by_ethnicity	not hispanic or latino	locationaa	ALK_p.Ala436Val	1
+by_ethnicity	not hispanic or latino	locationaa	ALMS1_p.Gly2848Ser	1
+by_ethnicity	not hispanic or latino	locationaa	ALMS1_p.Thr618Ile	1
+by_ethnicity	not hispanic or latino	locationaa	ALPK1_p.Thr1183Ser	1
+by_ethnicity	not hispanic or latino	locationaa	ALS2_p.Arg497Gly	1
+by_ethnicity	not hispanic or latino	locationaa	AMER2_p.Glu522Lys	1
+by_ethnicity	not hispanic or latino	locationaa	AMOT_p.Gly1072Val	1
+by_ethnicity	not hispanic or latino	locationaa	ANGEL1_p.Ile197Val	1
+by_ethnicity	not hispanic or latino	locationaa	ANK3_p.Ala48Thr	1
+by_ethnicity	not hispanic or latino	locationaa	ANK3_p.His3838Tyr	1
+by_ethnicity	not hispanic or latino	locationaa	ANKFN1_p.Val302Ala	1
+by_ethnicity	not hispanic or latino	locationaa	ANKRD17_p.Ile953Val	1
+by_ethnicity	not hispanic or latino	locationaa	ANKRD28_p.Thr341AsnfsTer12	1
+by_ethnicity	not hispanic or latino	locationaa	ANKRD44_p.His224Arg	1
+by_ethnicity	not hispanic or latino	locationaa	ANO3_p.Lys162Asn	1
+by_ethnicity	not hispanic or latino	locationaa	AOC3_p.Arg132Lys	1
+by_ethnicity	not hispanic or latino	locationaa	AP4E1_p.Glu777Gly	1
+by_ethnicity	not hispanic or latino	locationaa	APBA1_p.Arg734Gln	1
+by_ethnicity	not hispanic or latino	locationaa	APC_p.Gln1596His	1
+by_ethnicity	not hispanic or latino	locationaa	ARAP3_p.Gln311Ter	1
+by_ethnicity	not hispanic or latino	locationaa	ARFGEF1_p.Phe936_Thr937delinsLeu	1
+by_ethnicity	not hispanic or latino	locationaa	ARHGAP22_p.Leu188His	1
+by_ethnicity	not hispanic or latino	locationaa	ARHGAP39_p.Arg354Gln	1
+by_ethnicity	not hispanic or latino	locationaa	ARHGEF10L_p.Val134Gly	1
+by_ethnicity	not hispanic or latino	locationaa	ARHGEF12_p.Thr1224Ile	1
+by_ethnicity	not hispanic or latino	locationaa	ARHGEF15_p.Thr129Met	1
+by_ethnicity	not hispanic or latino	locationaa	ARHGEF39_p.Leu102Phe	1
+by_ethnicity	not hispanic or latino	locationaa	ARID2_p.Ile1401Leu	1
+by_ethnicity	not hispanic or latino	locationaa	ARID3C_p.Asn295Lys	1
+by_ethnicity	not hispanic or latino	locationaa	ARL6IP4_p.Ala363Val	1
+by_ethnicity	not hispanic or latino	locationaa	ARMC3_p.Gln116Glu	1
+by_ethnicity	not hispanic or latino	locationaa	ARNT2_p.Glu203Lys	1
+by_ethnicity	not hispanic or latino	locationaa	ARNT_p.Arg99Trp	1
+by_ethnicity	not hispanic or latino	locationaa	ARNT_p.Gln81LeufsTer4	1
+by_ethnicity	not hispanic or latino	locationaa	ARSI_p.Pro332His	1
+by_ethnicity	not hispanic or latino	locationaa	ASB9_p.Ala191Val	1
+by_ethnicity	not hispanic or latino	locationaa	ASH1L_p.Arg2219ProfsTer70	1
+by_ethnicity	not hispanic or latino	locationaa	ASRGL1_p.Thr141Ala	1
+by_ethnicity	not hispanic or latino	locationaa	ATAD3B_p.Leu261Met	1
+by_ethnicity	not hispanic or latino	locationaa	ATF1_p.Lys239Gln	1
+by_ethnicity	not hispanic or latino	locationaa	ATP13A4_p.Arg396Gly	1
+by_ethnicity	not hispanic or latino	locationaa	ATP1A4_p.Arg558His	1
+by_ethnicity	not hispanic or latino	locationaa	ATP1B4_p.Asp173His	1
+by_ethnicity	not hispanic or latino	locationaa	ATP2A1_p.Cys498Ter	1
+by_ethnicity	not hispanic or latino	locationaa	ATP6V1G3_p.Met49Thr	1
+by_ethnicity	not hispanic or latino	locationaa	ATP8B1_p.Thr639Arg	1
+by_ethnicity	not hispanic or latino	locationaa	ATP8B2_p.Arg338Leu	1
+by_ethnicity	not hispanic or latino	locationaa	ATP9A_p.Arg119Cys	1
+by_ethnicity	not hispanic or latino	locationaa	ATP9B_p.Glu201Gln	1
+by_ethnicity	not hispanic or latino	locationaa	ATRX_p.Lys495AsnfsTer19	1
+by_ethnicity	not hispanic or latino	locationaa	ATR_p.Phe269Ser	1
+by_ethnicity	not hispanic or latino	locationaa	AZIN1_p.Asp6Ala	1
+by_ethnicity	not hispanic or latino	locationaa	B4GALNT4_p.Pro394Leu	1
+by_ethnicity	not hispanic or latino	locationaa	BAHD1_p.Leu763PhefsTer36	1
+by_ethnicity	not hispanic or latino	locationaa	BARD1_p.Ala724Val	1
+by_ethnicity	not hispanic or latino	locationaa	BARHL2_p.Arg222Cys	1
+by_ethnicity	not hispanic or latino	locationaa	BAZ2A_p.His138Arg	1
+by_ethnicity	not hispanic or latino	locationaa	BCAR1_p.Glu705Lys	1
+by_ethnicity	not hispanic or latino	locationaa	BCAR1_p.Glu705Ter	1
+by_ethnicity	not hispanic or latino	locationaa	BCL2L2_p.Ala182ProfsTer3	1
+by_ethnicity	not hispanic or latino	locationaa	BCOR_p.Asn16His	1
+by_ethnicity	not hispanic or latino	locationaa	BDH1_p.Thr17ProfsTer2	1
+by_ethnicity	not hispanic or latino	locationaa	BICC1_p.Asp359His	1
+by_ethnicity	not hispanic or latino	locationaa	BICDL2_p.Glu46Gln	1
+by_ethnicity	not hispanic or latino	locationaa	BIRC3_p.Ile3Val	1
+by_ethnicity	not hispanic or latino	locationaa	BMP1_p.Arg937His	1
+by_ethnicity	not hispanic or latino	locationaa	BOD1L1_p.Glu2548Ter	1
+by_ethnicity	not hispanic or latino	locationaa	BOD1L1_p.Pro2283Ala	1
+by_ethnicity	not hispanic or latino	locationaa	BPIFA1_p.Thr96Met	1
+by_ethnicity	not hispanic or latino	locationaa	BPIFB6_p.Arg120Trp	1
+by_ethnicity	not hispanic or latino	locationaa	BPTF_p.Glu2766Lys	1
+by_ethnicity	not hispanic or latino	locationaa	BRAF_p.Gly509Ala	1
+by_ethnicity	not hispanic or latino	locationaa	BRCA2_p.Cys3097Arg	1
+by_ethnicity	not hispanic or latino	locationaa	BRD1_p.Ala559Thr	1
+by_ethnicity	not hispanic or latino	locationaa	BRWD3_p.Thr253Ala	1
+by_ethnicity	not hispanic or latino	locationaa	BSN_p.Met2058Arg	1
+by_ethnicity	not hispanic or latino	locationaa	BTBD10_p.Ser183Cys	1
+by_ethnicity	not hispanic or latino	locationaa	C10orf90_p.Asp633Gly	1
+by_ethnicity	not hispanic or latino	locationaa	C14orf28_p.Tyr118Cys	1
+by_ethnicity	not hispanic or latino	locationaa	C17orf80_p.Pro271Leu	1
+by_ethnicity	not hispanic or latino	locationaa	C1S_p.Val239Ile	1
+by_ethnicity	not hispanic or latino	locationaa	C20orf85_p.Asp57Gly	1
+by_ethnicity	not hispanic or latino	locationaa	C2CD3_p.Pro1764Arg	1
+by_ethnicity	not hispanic or latino	locationaa	C2orf16_p.Gln1346Lys	1
+by_ethnicity	not hispanic or latino	locationaa	C4orf19_p.Ile9Lys	1
+by_ethnicity	not hispanic or latino	locationaa	C5_p.Phe1186Val	1
+by_ethnicity	not hispanic or latino	locationaa	CA2_p.Val217Asp	1
+by_ethnicity	not hispanic or latino	locationaa	CACHD1_p.Thr621Pro	1
+by_ethnicity	not hispanic or latino	locationaa	CACNA1A_p.Leu1810Arg	1
+by_ethnicity	not hispanic or latino	locationaa	CACNA1D_p.Asp822Gly	1
+by_ethnicity	not hispanic or latino	locationaa	CACNA1D_p.Ile650_Ser652del	1
+by_ethnicity	not hispanic or latino	locationaa	CACNA1F_p.Ala1860Val	1
+by_ethnicity	not hispanic or latino	locationaa	CACNA1H_p.Ile1430Thr	1
+by_ethnicity	not hispanic or latino	locationaa	CACNA1H_p.Leu1447Met	1
+by_ethnicity	not hispanic or latino	locationaa	CACNB2_p.Arg625His	1
+by_ethnicity	not hispanic or latino	locationaa	CACYBP_p.Val169Ala	1
+by_ethnicity	not hispanic or latino	locationaa	CAGE1_p.Glu422Ter	1
+by_ethnicity	not hispanic or latino	locationaa	CALCRL_p.Ala419Val	1
+by_ethnicity	not hispanic or latino	locationaa	CAMK2N1_p.Asn33ThrfsTer35	1
+by_ethnicity	not hispanic or latino	locationaa	CASP2_p.Ser10Phe	1
+by_ethnicity	not hispanic or latino	locationaa	CASP3_p.Val85Ile	1
+by_ethnicity	not hispanic or latino	locationaa	CBLN2_p.Val221Leu	1
+by_ethnicity	not hispanic or latino	locationaa	CC2D1A_p.Leu497Ile	1
+by_ethnicity	not hispanic or latino	locationaa	CC2D2A_p.Glu226Asp	1
+by_ethnicity	not hispanic or latino	locationaa	CCDC121_p.Gln253SerfsTer9	1
+by_ethnicity	not hispanic or latino	locationaa	CCDC171_p.Arg14Gly	1
+by_ethnicity	not hispanic or latino	locationaa	CCDC40_p.Val702Met	1
+by_ethnicity	not hispanic or latino	locationaa	CCDC60_p.Arg234Gln	1
+by_ethnicity	not hispanic or latino	locationaa	CCDC86_p.Ser255Phe	1
+by_ethnicity	not hispanic or latino	locationaa	CCDC88C_p.Leu73Phe	1
+by_ethnicity	not hispanic or latino	locationaa	CCL13_p.Trp81Ser	1
+by_ethnicity	not hispanic or latino	locationaa	CCNI_p.Tyr334Cys	1
+by_ethnicity	not hispanic or latino	locationaa	CCR4_p.Phe245_Val249del	1
+by_ethnicity	not hispanic or latino	locationaa	CCSER1_p.Asp160Gly	1
+by_ethnicity	not hispanic or latino	locationaa	CD163_p.Ser194Thr	1
+by_ethnicity	not hispanic or latino	locationaa	CD180_p.His349Leu	1
+by_ethnicity	not hispanic or latino	locationaa	CD300C_p.Ser141Arg	1
+by_ethnicity	not hispanic or latino	locationaa	CD5L_p.Arg36Trp	1
+by_ethnicity	not hispanic or latino	locationaa	CDC42BPA_p.Ile334Val	1
+by_ethnicity	not hispanic or latino	locationaa	CDC42BPA_p.Thr139Ala	1
+by_ethnicity	not hispanic or latino	locationaa	CDH20_p.Gly671Ser	1
+by_ethnicity	not hispanic or latino	locationaa	CDK19_p.Gln381Ter	1
+by_ethnicity	not hispanic or latino	locationaa	CDK5RAP3_p.Leu111Phe	1
+by_ethnicity	not hispanic or latino	locationaa	CDKN2C_p.Gly137Arg	1
+by_ethnicity	not hispanic or latino	locationaa	CENPB_p.Ser560Thr	1
+by_ethnicity	not hispanic or latino	locationaa	CEP164_p.Leu1324Val	1
+by_ethnicity	not hispanic or latino	locationaa	CEP192_p.Leu2463Pro	1
+by_ethnicity	not hispanic or latino	locationaa	CEP250_p.Ser2421Asn	1
+by_ethnicity	not hispanic or latino	locationaa	CFAP47_p.Ser715Thr	1
+by_ethnicity	not hispanic or latino	locationaa	CFAP91_p.Ser369Ala	1
+by_ethnicity	not hispanic or latino	locationaa	CFH_p.Arg127His	1
+by_ethnicity	not hispanic or latino	locationaa	CGGBP1_p.Pro152Thr	1
+by_ethnicity	not hispanic or latino	locationaa	CGNL1_p.Asp134Asn	1
+by_ethnicity	not hispanic or latino	locationaa	CHD3_p.Arg966Gln	1
+by_ethnicity	not hispanic or latino	locationaa	CHRM3_p.Leu498Arg	1
+by_ethnicity	not hispanic or latino	locationaa	CHRNA9_p.Arg457Gln	1
+by_ethnicity	not hispanic or latino	locationaa	CHST15_p.Arg519Cys	1
+by_ethnicity	not hispanic or latino	locationaa	CHST5_p.Val367Met	1
+by_ethnicity	not hispanic or latino	locationaa	CHSY3_p.Met638Val	1
+by_ethnicity	not hispanic or latino	locationaa	CLASP2_p.Asn1035His	1
+by_ethnicity	not hispanic or latino	locationaa	CNOT1_p.Tyr937CysfsTer3	1
+by_ethnicity	not hispanic or latino	locationaa	CNST_p.Ala35Val	1
+by_ethnicity	not hispanic or latino	locationaa	CNTN1_p.Ser459Arg	1
+by_ethnicity	not hispanic or latino	locationaa	CNTN2_p.Glu374Val	1
+by_ethnicity	not hispanic or latino	locationaa	COG1_p.Leu913Phe	1
+by_ethnicity	not hispanic or latino	locationaa	COG2_p.His644Arg	1
+by_ethnicity	not hispanic or latino	locationaa	COG3_p.Ile618LeufsTer27	1
+by_ethnicity	not hispanic or latino	locationaa	COG7_p.Pro729Ser	1
+by_ethnicity	not hispanic or latino	locationaa	COL5A3_p.Leu948Phe	1
+by_ethnicity	not hispanic or latino	locationaa	COL6A3_p.Val1024Asp	1
+by_ethnicity	not hispanic or latino	locationaa	COLGALT2_p.Ser384Arg	1
+by_ethnicity	not hispanic or latino	locationaa	COLGALT2_p.Tyr289Cys	1
+by_ethnicity	not hispanic or latino	locationaa	COPS5_p.Thr105Ser	1
+by_ethnicity	not hispanic or latino	locationaa	CPT1C_p.Glu308Gly	1
+by_ethnicity	not hispanic or latino	locationaa	CRAMP1_p.Gln1241Arg	1
+by_ethnicity	not hispanic or latino	locationaa	CRHR2_p.Thr312Ser	1
+by_ethnicity	not hispanic or latino	locationaa	CRTAC1_p.Arg451Cys	1
+by_ethnicity	not hispanic or latino	locationaa	CRYBB1_p.Asp169His	1
+by_ethnicity	not hispanic or latino	locationaa	CRYBG1_p.Gly1496Cys	1
+by_ethnicity	not hispanic or latino	locationaa	CSF2RA_p.Ala121Ser	1
+by_ethnicity	not hispanic or latino	locationaa	CST5_p.Gly21Val	1
+by_ethnicity	not hispanic or latino	locationaa	CSTF1_p.Arg71Leu	1
+by_ethnicity	not hispanic or latino	locationaa	CSTF1_p.Tyr2Phe	1
+by_ethnicity	not hispanic or latino	locationaa	CSTL1_p.Ala15Thr	1
+by_ethnicity	not hispanic or latino	locationaa	CSTL1_p.Leu18ThrfsTer13	1
+by_ethnicity	not hispanic or latino	locationaa	CTCF_p.Ile257Met	1
+by_ethnicity	not hispanic or latino	locationaa	CTH_p.Glu381Gln	1
+by_ethnicity	not hispanic or latino	locationaa	CXADR_p.Val281Met	1
+by_ethnicity	not hispanic or latino	locationaa	CXXC4_p.Ser202Cys	1
+by_ethnicity	not hispanic or latino	locationaa	CXXC5_p.Ser62Asn	1
+by_ethnicity	not hispanic or latino	locationaa	CYP4A11_p.Arg143Ter	1
+by_ethnicity	not hispanic or latino	locationaa	CYP4F2_p.Thr250Ala	1
+by_ethnicity	not hispanic or latino	locationaa	CYRIA_p.Ser313Pro	1
+by_ethnicity	not hispanic or latino	locationaa	CYTH2_p.Asn139Ser	1
+by_ethnicity	not hispanic or latino	locationaa	CYTIP_p.Ala23Val	1
+by_ethnicity	not hispanic or latino	locationaa	DAB2IP_p.Leu601Phe	1
+by_ethnicity	not hispanic or latino	locationaa	DCAF11_p.Ser502Leu	1
+by_ethnicity	not hispanic or latino	locationaa	DCAF1_p.Trp1156Cys	1
+by_ethnicity	not hispanic or latino	locationaa	DCK_p.Phe12Val	1
+by_ethnicity	not hispanic or latino	locationaa	DDI2_p.Gly123Arg	1
+by_ethnicity	not hispanic or latino	locationaa	DDIAS_p.Gly884Ser	1
+by_ethnicity	not hispanic or latino	locationaa	DDX21_p.His523Tyr	1
+by_ethnicity	not hispanic or latino	locationaa	DENND4A_p.Pro1779Ser	1
+by_ethnicity	not hispanic or latino	locationaa	DGAT1_p.Phe205Leu	1
+by_ethnicity	not hispanic or latino	locationaa	DGAT2_p.Leu319Phe	1
+by_ethnicity	not hispanic or latino	locationaa	DGUOK_p.Arg5Cys	1
+by_ethnicity	not hispanic or latino	locationaa	DHTKD1_p.Ser873Trp	1
+by_ethnicity	not hispanic or latino	locationaa	DIDO1_p.Arg1584Ser	1
+by_ethnicity	not hispanic or latino	locationaa	DLG5_p.Arg1112Leu	1
+by_ethnicity	not hispanic or latino	locationaa	DMBT1_p.Asp2147Glu	1
+by_ethnicity	not hispanic or latino	locationaa	DMBT1_p.Val2525Ile	1
+by_ethnicity	not hispanic or latino	locationaa	DMKN_p.Gly124Arg	1
+by_ethnicity	not hispanic or latino	locationaa	DMWD_p.His245Gln	1
+by_ethnicity	not hispanic or latino	locationaa	DNAH17_p.Gln3085Ter	1
+by_ethnicity	not hispanic or latino	locationaa	DNAH1_p.Arg2277Trp	1
+by_ethnicity	not hispanic or latino	locationaa	DNAH5_p.Gln4089Arg	1
+by_ethnicity	not hispanic or latino	locationaa	DNAH7_p.Leu2168Phe	1
+by_ethnicity	not hispanic or latino	locationaa	DNAH8_p.Val2218Ile	1
+by_ethnicity	not hispanic or latino	locationaa	DNAJC5G_p.Leu42Phe	1
+by_ethnicity	not hispanic or latino	locationaa	DNAJC7_p.Ile202Val	1
+by_ethnicity	not hispanic or latino	locationaa	DNMT3A_p.Met329Leu	1
+by_ethnicity	not hispanic or latino	locationaa	DOCK4_p.Glu874Ter	1
+by_ethnicity	not hispanic or latino	locationaa	DOCK7_p.Glu692Gln	1
+by_ethnicity	not hispanic or latino	locationaa	DOCK9_p.Val893Ile	1
+by_ethnicity	not hispanic or latino	locationaa	DPEP1_p.Gly63Asp	1
+by_ethnicity	not hispanic or latino	locationaa	DPP6_p.Ile839Thr	1
+by_ethnicity	not hispanic or latino	locationaa	DSC2_p.Phe71Cys	1
+by_ethnicity	not hispanic or latino	locationaa	DSTYK_p.Phe274Leu	1
+by_ethnicity	not hispanic or latino	locationaa	DUSP15_p.Gly210Val	1
+by_ethnicity	not hispanic or latino	locationaa	DYNC2H1_p.Asp1297Gly	1
+by_ethnicity	not hispanic or latino	locationaa	ECD_p.Leu400His	1
+by_ethnicity	not hispanic or latino	locationaa	ECT2_p.Asp273Glu	1
+by_ethnicity	not hispanic or latino	locationaa	EDAR_p.Ile86Thr	1
+by_ethnicity	not hispanic or latino	locationaa	EGFR_p.Glu66_Tyr74del	1
+by_ethnicity	not hispanic or latino	locationaa	EGLN1_p.Ile269Thr	1
+by_ethnicity	not hispanic or latino	locationaa	EHBP1_p.Val1012Ile	1
+by_ethnicity	not hispanic or latino	locationaa	EHMT1_p.Gly850Arg	1
+by_ethnicity	not hispanic or latino	locationaa	EIF4G3_p.Ser594Leu	1
+by_ethnicity	not hispanic or latino	locationaa	ELF3_p.Glu262Lys	1
+by_ethnicity	not hispanic or latino	locationaa	ELFN2_p.Glu540Asp	1
+by_ethnicity	not hispanic or latino	locationaa	ELOA_p.Ile618Leu	1
+by_ethnicity	not hispanic or latino	locationaa	EMC1_p.Asp593Asn	1
+by_ethnicity	not hispanic or latino	locationaa	ENAM_p.Ser108Ter	1
+by_ethnicity	not hispanic or latino	locationaa	ENC1_p.Arg225His	1
+by_ethnicity	not hispanic or latino	locationaa	ENOX2_p.Tyr247Ser	1
+by_ethnicity	not hispanic or latino	locationaa	EPAS1_p.Ala530Val	2
+by_ethnicity	not hispanic or latino	locationaa	EPAS1_p.Pro531Ala	1
+by_ethnicity	not hispanic or latino	locationaa	EPAS1_p.Pro531Leu	2
+by_ethnicity	not hispanic or latino	locationaa	EPAS1_p.Tyr532Cys	1
+by_ethnicity	not hispanic or latino	locationaa	EPC1_p.Met218AsnfsTer10	1
+by_ethnicity	not hispanic or latino	locationaa	EPOR_p.Arg132Ter	1
+by_ethnicity	not hispanic or latino	locationaa	EPS8L2_p.Lys288Arg	1
+by_ethnicity	not hispanic or latino	locationaa	EPS8_p.Ser480Cys	1
+by_ethnicity	not hispanic or latino	locationaa	ERC2_p.Leu196Phe	1
+by_ethnicity	not hispanic or latino	locationaa	ERCC3_p.Lys94Arg	1
+by_ethnicity	not hispanic or latino	locationaa	ERCC6L2_p.Asp1298Glu	1
+by_ethnicity	not hispanic or latino	locationaa	ERCC8_p.Thr112Ile	1
+by_ethnicity	not hispanic or latino	locationaa	ETV6_p.Ile176Thr	1
+by_ethnicity	not hispanic or latino	locationaa	EVPL_p.Val1409Met	1
+by_ethnicity	not hispanic or latino	locationaa	EXOC2_p.Asp305Gly	1
+by_ethnicity	not hispanic or latino	locationaa	EYA3_p.Asp388Val	1
+by_ethnicity	not hispanic or latino	locationaa	EYS_p.Asn102Ile	1
+by_ethnicity	not hispanic or latino	locationaa	F12_p.Thr43Asn	1
+by_ethnicity	not hispanic or latino	locationaa	F13A1_p.Ala8Thr	1
+by_ethnicity	not hispanic or latino	locationaa	F13A1_p.Arg144Gln	1
+by_ethnicity	not hispanic or latino	locationaa	F5_p.Met1089Val	1
+by_ethnicity	not hispanic or latino	locationaa	F8_p.Asp808Asn	1
+by_ethnicity	not hispanic or latino	locationaa	FADD_p.Arg117Pro	1
+by_ethnicity	not hispanic or latino	locationaa	FAM107A_p.Pro114Ser	1
+by_ethnicity	not hispanic or latino	locationaa	FAM187B_p.Ser65Arg	1
+by_ethnicity	not hispanic or latino	locationaa	FAM53B_p.Arg131Ser	1
+by_ethnicity	not hispanic or latino	locationaa	FAM83A_p.Gln69Arg	1
+by_ethnicity	not hispanic or latino	locationaa	FAM83D_p.Ile251Asn	1
+by_ethnicity	not hispanic or latino	locationaa	FANCI_p.Asn123Lys	1
+by_ethnicity	not hispanic or latino	locationaa	FAT1_p.Asp3432Asn	1
+by_ethnicity	not hispanic or latino	locationaa	FAT4_p.Thr4308Ser	1
+by_ethnicity	not hispanic or latino	locationaa	FBF1_p.Asp721Ala	1
+by_ethnicity	not hispanic or latino	locationaa	FBLN2_p.Arg1085His	1
+by_ethnicity	not hispanic or latino	locationaa	FBN3_p.Asp1232Asn	1
+by_ethnicity	not hispanic or latino	locationaa	FBP2_p.Leu14Ter	1
+by_ethnicity	not hispanic or latino	locationaa	FBXL20_p.Ile359Thr	1
+by_ethnicity	not hispanic or latino	locationaa	FBXO28_p.Tyr178His	1
+by_ethnicity	not hispanic or latino	locationaa	FBXO8_p.Thr89Ala	1
+by_ethnicity	not hispanic or latino	locationaa	FCAR_p.Glu173Lys	1
+by_ethnicity	not hispanic or latino	locationaa	FEZ1_p.His226Asn	1
+by_ethnicity	not hispanic or latino	locationaa	FGD6_p.Ser347Arg	1
+by_ethnicity	not hispanic or latino	locationaa	FGF16_p.Asp110Gly	1
+by_ethnicity	not hispanic or latino	locationaa	FGFR1_p.Asn546Lys	1
+by_ethnicity	not hispanic or latino	locationaa	FGFR2_p.Gly690Arg	1
+by_ethnicity	not hispanic or latino	locationaa	FIGN_p.Ser244Arg	1
+by_ethnicity	not hispanic or latino	locationaa	FLG_p.Ala3235Thr	1
+by_ethnicity	not hispanic or latino	locationaa	FLNB_p.Tyr924Ter	1
+by_ethnicity	not hispanic or latino	locationaa	FLRT2_p.Arg584Trp	1
+by_ethnicity	not hispanic or latino	locationaa	FMO3_p.Gly123Ala	1
+by_ethnicity	not hispanic or latino	locationaa	FMOD_p.Leu222Phe	1
+by_ethnicity	not hispanic or latino	locationaa	FNDC7_p.Leu382Phe	1
+by_ethnicity	not hispanic or latino	locationaa	FOXA2_p.Ser183Arg	1
+by_ethnicity	not hispanic or latino	locationaa	FRMPD4_p.Val290Ile	1
+by_ethnicity	not hispanic or latino	locationaa	FXR1_p.Val8Gly	1
+by_ethnicity	not hispanic or latino	locationaa	GABRA2_p.Glu406Asp	1
+by_ethnicity	not hispanic or latino	locationaa	GABRR1_p.Ala21Val	1
+by_ethnicity	not hispanic or latino	locationaa	GAD1_p.Arg457His	1
+by_ethnicity	not hispanic or latino	locationaa	GAD1_p.Thr11Ile	1
+by_ethnicity	not hispanic or latino	locationaa	GALNTL6_p.Arg515Gln	1
+by_ethnicity	not hispanic or latino	locationaa	GAS2L2_p.Asp544Gly	1
+by_ethnicity	not hispanic or latino	locationaa	GBA_p.Lys237Gln	1
+by_ethnicity	not hispanic or latino	locationaa	GBA_p.Pro305Ser	1
+by_ethnicity	not hispanic or latino	locationaa	GBP1_p.Cys12Tyr	1
+by_ethnicity	not hispanic or latino	locationaa	GBP6_p.Gln340SerfsTer3	1
+by_ethnicity	not hispanic or latino	locationaa	GCKR_p.Thr272Ser	1
+by_ethnicity	not hispanic or latino	locationaa	GCSAML_p.Arg114Met	1
+by_ethnicity	not hispanic or latino	locationaa	GFI1B_p.His276Asn	1
+by_ethnicity	not hispanic or latino	locationaa	GGT7_p.Arg206Trp	1
+by_ethnicity	not hispanic or latino	locationaa	GIGYF2_p.Asn1282Ser	1
+by_ethnicity	not hispanic or latino	locationaa	GIPC1_p.Leu187ArgfsTer69	1
+by_ethnicity	not hispanic or latino	locationaa	GIT2_p.Thr480Arg	1
+by_ethnicity	not hispanic or latino	locationaa	GJA5_p.Ala347Val	1
+by_ethnicity	not hispanic or latino	locationaa	GLG1_p.Val777Gly	1
+by_ethnicity	not hispanic or latino	locationaa	GLI3_p.Arg248His	1
+by_ethnicity	not hispanic or latino	locationaa	GLOD4_p.Pro63Thr	1
+by_ethnicity	not hispanic or latino	locationaa	GMPR_p.Pro182Leu	1
+by_ethnicity	not hispanic or latino	locationaa	GNE_p.Val76Ile	1
+by_ethnicity	not hispanic or latino	locationaa	GOLGA1_p.Leu307Val	1
+by_ethnicity	not hispanic or latino	locationaa	GOLGA4_p.Ile1044Leu	1
+by_ethnicity	not hispanic or latino	locationaa	GOLM2_p.His306Tyr	1
+by_ethnicity	not hispanic or latino	locationaa	GON4L_p.Glu1929Ter	1
+by_ethnicity	not hispanic or latino	locationaa	GOT1_p.Glu372Gly	1
+by_ethnicity	not hispanic or latino	locationaa	GP2_p.Val304Ala	1
+by_ethnicity	not hispanic or latino	locationaa	GPATCH8_p.Ile1097Ser	1
+by_ethnicity	not hispanic or latino	locationaa	GPATCH8_p.Tyr145Cys	1
+by_ethnicity	not hispanic or latino	locationaa	GPNMB_p.His164Gln	1
+by_ethnicity	not hispanic or latino	locationaa	GPR137_p.Pro415Ser	1
+by_ethnicity	not hispanic or latino	locationaa	GPR149_p.Ala720Val	1
+by_ethnicity	not hispanic or latino	locationaa	GPR156_p.Leu45Phe	1
+by_ethnicity	not hispanic or latino	locationaa	GPR50_p.His404Gln	1
+by_ethnicity	not hispanic or latino	locationaa	GPS1_p.Asp20Asn	1
+by_ethnicity	not hispanic or latino	locationaa	GPX4_p.Asp50Asn	1
+by_ethnicity	not hispanic or latino	locationaa	GREB1_p.Gly1105Ala	1
+by_ethnicity	not hispanic or latino	locationaa	GRIA2_p.Val392Ala	1
+by_ethnicity	not hispanic or latino	locationaa	GRIK1_p.Arg862Trp	1
+by_ethnicity	not hispanic or latino	locationaa	GRIP1_p.Thr161Ile	1
+by_ethnicity	not hispanic or latino	locationaa	GSTA3_p.Tyr166Asn	1
+by_ethnicity	not hispanic or latino	locationaa	GTF2A1_p.His352_Gly356delinsArg	1
+by_ethnicity	not hispanic or latino	locationaa	GTF2I_p.Leu424His	1
+by_ethnicity	not hispanic or latino	locationaa	GTF3C1_p.Tyr373Cys	1
+by_ethnicity	not hispanic or latino	locationaa	GTSE1_p.Ala109Val	1
+by_ethnicity	not hispanic or latino	locationaa	GULP1_p.Ser6Asn	1
+by_ethnicity	not hispanic or latino	locationaa	H1-7_p.Arg101Ser	1
+by_ethnicity	not hispanic or latino	locationaa	H2AC1_p.Thr77AsnfsTer15	1
+by_ethnicity	not hispanic or latino	locationaa	H2AX_p.Ala54Val	1
+by_ethnicity	not hispanic or latino	locationaa	H2BC4_p.Ser65Tyr	1
+by_ethnicity	not hispanic or latino	locationaa	HAPLN4_p.Glu142Asp	1
+by_ethnicity	not hispanic or latino	locationaa	HAT1_p.Ser281Gly	1
+by_ethnicity	not hispanic or latino	locationaa	HAVCR1_p.Ser98Phe	1
+by_ethnicity	not hispanic or latino	locationaa	HCFC1_p.Ser685Leu	1
+by_ethnicity	not hispanic or latino	locationaa	HCN2_p.Asn403Ser	1
+by_ethnicity	not hispanic or latino	locationaa	HDAC2_p.Tyr253Cys	1
+by_ethnicity	not hispanic or latino	locationaa	HDLBP_p.Arg508Pro	1
+by_ethnicity	not hispanic or latino	locationaa	HECA_p.Leu388Phe	1
+by_ethnicity	not hispanic or latino	locationaa	HECTD1_p.Glu2051Asp	1
+by_ethnicity	not hispanic or latino	locationaa	HECTD4_p.Tyr2423Ser	1
+by_ethnicity	not hispanic or latino	locationaa	HECW2_p.His425Arg	1
+by_ethnicity	not hispanic or latino	locationaa	HEXD_p.Pro440Gln	1
+by_ethnicity	not hispanic or latino	locationaa	HFM1_p.Asp20Gly	1
+by_ethnicity	not hispanic or latino	locationaa	HHIPL2_p.Arg439TyrfsTer18	1
+by_ethnicity	not hispanic or latino	locationaa	HIC2_p.Pro494Ser	1
+by_ethnicity	not hispanic or latino	locationaa	HLX_p.Pro140Leu	1
+by_ethnicity	not hispanic or latino	locationaa	HNF1B_p.Gln182Ter	1
+by_ethnicity	not hispanic or latino	locationaa	HNRNPUL2_p.Leu511Ter	1
+by_ethnicity	not hispanic or latino	locationaa	HPS3_p.Tyr409Cys	1
+by_ethnicity	not hispanic or latino	locationaa	HPS4_p.Asp608Asn	1
+by_ethnicity	not hispanic or latino	locationaa	HRAS_p.Gln61Arg	12
+by_ethnicity	not hispanic or latino	locationaa	HRAS_p.Gln61Leu	1
+by_ethnicity	not hispanic or latino	locationaa	HRAS_p.Gln61Lys	2
+by_ethnicity	not hispanic or latino	locationaa	HRAS_p.Gly13Arg	2
+by_ethnicity	not hispanic or latino	locationaa	HSDL2_p.Pro235Ala	1
+by_ethnicity	not hispanic or latino	locationaa	HSP90AA1_p.Gln194Pro	1
+by_ethnicity	not hispanic or latino	locationaa	HTT_p.Gly2881Val	1
+by_ethnicity	not hispanic or latino	locationaa	HUWE1_p.Arg1996Leu	1
+by_ethnicity	not hispanic or latino	locationaa	HUWE1_p.Arg3780Cys	1
+by_ethnicity	not hispanic or latino	locationaa	HUWE1_p.Glu2469Gly	1
+by_ethnicity	not hispanic or latino	locationaa	HYDIN_p.Arg650Cys	1
+by_ethnicity	not hispanic or latino	locationaa	IDE_p.Arg920Ser	1
+by_ethnicity	not hispanic or latino	locationaa	IDH1_p.Arg132Cys	1
+by_ethnicity	not hispanic or latino	locationaa	IFIT3_p.Gly302Arg	1
+by_ethnicity	not hispanic or latino	locationaa	IFT122_p.Ala710Thr	1
+by_ethnicity	not hispanic or latino	locationaa	IGFBP3_p.Pro212Ser	1
+by_ethnicity	not hispanic or latino	locationaa	IGHD_p.Met65Val	1
+by_ethnicity	not hispanic or latino	locationaa	IGHG4_p.Ter328SerextTer35	1
+by_ethnicity	not hispanic or latino	locationaa	IGHV1-45_p.Met21Arg	1
+by_ethnicity	not hispanic or latino	locationaa	IGHV3-43_p.Ser44Phe	1
+by_ethnicity	not hispanic or latino	locationaa	IGSF1_p.Arg1229Cys	1
+by_ethnicity	not hispanic or latino	locationaa	IGSF22_p.Arg739Ter	1
+by_ethnicity	not hispanic or latino	locationaa	IGSF9B_p.Asp570Val	1
+by_ethnicity	not hispanic or latino	locationaa	IHH_p.Asp93Glu	1
+by_ethnicity	not hispanic or latino	locationaa	IKZF3_p.Val441Met	1
+by_ethnicity	not hispanic or latino	locationaa	IL13RA1_p.Gln181Arg	1
+by_ethnicity	not hispanic or latino	locationaa	IL15RA_p.Trp251Leu	1
+by_ethnicity	not hispanic or latino	locationaa	IL18RAP_p.Gln52His	1
+by_ethnicity	not hispanic or latino	locationaa	IL21_p.Asn51Thr	1
+by_ethnicity	not hispanic or latino	locationaa	IL4R_p.Val769Phe	1
+by_ethnicity	not hispanic or latino	locationaa	IL6ST_p.Asn232Ser	1
+by_ethnicity	not hispanic or latino	locationaa	ILF3_p.Ser856Leu	1
+by_ethnicity	not hispanic or latino	locationaa	INPP1_p.Ala104Gly	1
+by_ethnicity	not hispanic or latino	locationaa	IPO8_p.Glu777Lys	1
+by_ethnicity	not hispanic or latino	locationaa	IPPK_p.Pro97Arg	1
+by_ethnicity	not hispanic or latino	locationaa	IRAK4_p.His242Arg	1
+by_ethnicity	not hispanic or latino	locationaa	IRF9_p.Tyr218Cys	1
+by_ethnicity	not hispanic or latino	locationaa	IRX6_p.Arg11Ser	1
+by_ethnicity	not hispanic or latino	locationaa	ITGA10_p.Gly306Ala	1
+by_ethnicity	not hispanic or latino	locationaa	ITGAM_p.Ala31Thr	1
+by_ethnicity	not hispanic or latino	locationaa	ITGAV_p.Arg6Gln	1
+by_ethnicity	not hispanic or latino	locationaa	ITLN2_p.Ser137Thr	1
+by_ethnicity	not hispanic or latino	locationaa	IVL_p.Gln574Arg	1
+by_ethnicity	not hispanic or latino	locationaa	JADE1_p.Ile326Val	1
+by_ethnicity	not hispanic or latino	locationaa	JADE2_p.Glu683Lys	1
+by_ethnicity	not hispanic or latino	locationaa	JADE2_p.Ser117Phe	1
+by_ethnicity	not hispanic or latino	locationaa	JAG2_p.Arg38Trp	1
+by_ethnicity	not hispanic or latino	locationaa	JAK2_p.Tyr462Ser	1
+by_ethnicity	not hispanic or latino	locationaa	JOSD1_p.Asn114Asp	1
+by_ethnicity	not hispanic or latino	locationaa	JOSD2_p.Thr13Ala	1
+by_ethnicity	not hispanic or latino	locationaa	KAT6A_p.Asn592Ile	1
+by_ethnicity	not hispanic or latino	locationaa	KBTBD2_p.Ala162Val	1
+by_ethnicity	not hispanic or latino	locationaa	KCMF1_p.Ala241Val	1
+by_ethnicity	not hispanic or latino	locationaa	KCNB1_p.Met343Val	1
+by_ethnicity	not hispanic or latino	locationaa	KCND2_p.Ala15Val	1
+by_ethnicity	not hispanic or latino	locationaa	KCNH5_p.Arg631Trp	1
+by_ethnicity	not hispanic or latino	locationaa	KCNH5_p.Gln733Ter	1
+by_ethnicity	not hispanic or latino	locationaa	KCNH6_p.Gln686Ter	1
+by_ethnicity	not hispanic or latino	locationaa	KCNJ16_p.Tyr3Cys	1
+by_ethnicity	not hispanic or latino	locationaa	KCNT2_p.Tyr234Cys	1
+by_ethnicity	not hispanic or latino	locationaa	KCTD3_p.His622Arg	1
+by_ethnicity	not hispanic or latino	locationaa	KDM4B_p.Lys907Glu	1
+by_ethnicity	not hispanic or latino	locationaa	KDM5C_p.Asn587Asp	1
+by_ethnicity	not hispanic or latino	locationaa	KDM6B_p.Gln1550Glu	1
+by_ethnicity	not hispanic or latino	locationaa	KDM6B_p.Gly859Ser	1
+by_ethnicity	not hispanic or latino	locationaa	KIAA1217_p.Ala488Thr	1
+by_ethnicity	not hispanic or latino	locationaa	KIAA1958_p.Leu474ArgfsTer13	1
+by_ethnicity	not hispanic or latino	locationaa	KIF13B_p.Arg847Gly	1
+by_ethnicity	not hispanic or latino	locationaa	KIF13B_p.Lys1822Gln	1
+by_ethnicity	not hispanic or latino	locationaa	KIR2DS4_p.Asn84Ser	1
+by_ethnicity	not hispanic or latino	locationaa	KLHDC3_p.Asp359Gly	1
+by_ethnicity	not hispanic or latino	locationaa	KLHL7_p.Thr583Asn	1
+by_ethnicity	not hispanic or latino	locationaa	KLRC2_p.Leu76Gln	1
+by_ethnicity	not hispanic or latino	locationaa	KLRD1_p.Gly28Ter	1
+by_ethnicity	not hispanic or latino	locationaa	KRT3_p.Gly61Ser	1
+by_ethnicity	not hispanic or latino	locationaa	KRT6C_p.Met452Thr	1
+by_ethnicity	not hispanic or latino	locationaa	KRT72_p.Ala395Thr	1
+by_ethnicity	not hispanic or latino	locationaa	KRT78_p.Asn136Lys	1
+by_ethnicity	not hispanic or latino	locationaa	KRTAP4-2_p.Arg127Cys	1
+by_ethnicity	not hispanic or latino	locationaa	LAMA3_p.Cys1805Tyr	1
+by_ethnicity	not hispanic or latino	locationaa	LAMB2_p.Ser1381Arg	1
+by_ethnicity	not hispanic or latino	locationaa	LAMB2_p.Ser1381Cys	1
+by_ethnicity	not hispanic or latino	locationaa	LAMC3_p.Thr580GlnfsTer7	1
+by_ethnicity	not hispanic or latino	locationaa	LARP4B_p.Lys161Asn	1
+by_ethnicity	not hispanic or latino	locationaa	LCA5_p.Pro345Ser	1
+by_ethnicity	not hispanic or latino	locationaa	LCE1E_p.Thr17Pro	1
+by_ethnicity	not hispanic or latino	locationaa	LCT_p.Ala1350Thr	1
+by_ethnicity	not hispanic or latino	locationaa	LCT_p.Gln1391Ter	1
+by_ethnicity	not hispanic or latino	locationaa	LETM1_p.Lys716Glu	1
+by_ethnicity	not hispanic or latino	locationaa	LGALS14_p.Arg108Pro	1
+by_ethnicity	not hispanic or latino	locationaa	LGALS9B_p.Arg280His	1
+by_ethnicity	not hispanic or latino	locationaa	LIG1_p.Lys282Glu	1
+by_ethnicity	not hispanic or latino	locationaa	LILRB5_p.Ser87Thr	1
+by_ethnicity	not hispanic or latino	locationaa	LINC02210-CRHR1_p.Arg218His	1
+by_ethnicity	not hispanic or latino	locationaa	LIPJ_p.His271Leu	1
+by_ethnicity	not hispanic or latino	locationaa	LLGL1_p.Asp373Gly	1
+by_ethnicity	not hispanic or latino	locationaa	LMNA_p.Glu422Ter	1
+by_ethnicity	not hispanic or latino	locationaa	LONP1_p.Val957Leu	1
+by_ethnicity	not hispanic or latino	locationaa	LONRF3_p.Ala513Ser	1
+by_ethnicity	not hispanic or latino	locationaa	LOXL4_p.Gln508ArgfsTer29	1
+by_ethnicity	not hispanic or latino	locationaa	LPAR4_p.Thr116Ile	1
+by_ethnicity	not hispanic or latino	locationaa	LPA_p.Cys1323Ser	1
+by_ethnicity	not hispanic or latino	locationaa	LPCAT3_p.Ter488TyrextTer98	1
+by_ethnicity	not hispanic or latino	locationaa	LRP6_p.Gly1045Arg	1
+by_ethnicity	not hispanic or latino	locationaa	LRRC25_p.Leu5Arg	1
+by_ethnicity	not hispanic or latino	locationaa	LRRC3_p.Arg234Trp	1
+by_ethnicity	not hispanic or latino	locationaa	LRRC7_p.Ala895Thr	1
+by_ethnicity	not hispanic or latino	locationaa	LRRIQ1_p.Glu626Gly	1
+by_ethnicity	not hispanic or latino	locationaa	LRRN1_p.Trp716Leu	1
+by_ethnicity	not hispanic or latino	locationaa	LSAMP_p.Pro7Ser	1
+by_ethnicity	not hispanic or latino	locationaa	LSM11_p.Val309Glu	1
+by_ethnicity	not hispanic or latino	locationaa	LSM14B_p.Gly124Val	1
+by_ethnicity	not hispanic or latino	locationaa	LSS_p.Thr5Met	1
+by_ethnicity	not hispanic or latino	locationaa	LTBP1_p.Val547Ile	1
+by_ethnicity	not hispanic or latino	locationaa	LTBP2_p.Gln329Ter	1
+by_ethnicity	not hispanic or latino	locationaa	LTBP2_p.Glu1724Ala	1
+by_ethnicity	not hispanic or latino	locationaa	LUM_p.Arg235Cys	1
+by_ethnicity	not hispanic or latino	locationaa	MACROD2_p.Ile205Thr	1
+by_ethnicity	not hispanic or latino	locationaa	MACROH2A1_p.Glu59Asp	1
+by_ethnicity	not hispanic or latino	locationaa	MAGEB1_p.Thr22Ser	1
+by_ethnicity	not hispanic or latino	locationaa	MAN2B1_p.Thr936AsnfsTer?	1
+by_ethnicity	not hispanic or latino	locationaa	MAP2K1_p.Phe53_Gln58delinsLeu	1
+by_ethnicity	not hispanic or latino	locationaa	MAPK6_p.Arg176Trp	1
+by_ethnicity	not hispanic or latino	locationaa	MARCHF4_p.Arg300Cys	1
+by_ethnicity	not hispanic or latino	locationaa	MARK2_p.Asn402Ser	1
+by_ethnicity	not hispanic or latino	locationaa	MARK4_p.Arg517Cys	1
+by_ethnicity	not hispanic or latino	locationaa	MATN4_p.Arg89His	1
+by_ethnicity	not hispanic or latino	locationaa	MATR3_p.Pro359Ser	1
+by_ethnicity	not hispanic or latino	locationaa	MBD5_p.Pro822Arg	1
+by_ethnicity	not hispanic or latino	locationaa	MCOLN2_p.Arg59Ile	1
+by_ethnicity	not hispanic or latino	locationaa	MCUR1_p.Leu303Ser	1
+by_ethnicity	not hispanic or latino	locationaa	MDC1_p.Ala570Thr	1
+by_ethnicity	not hispanic or latino	locationaa	ME3_p.Asp52Asn	1
+by_ethnicity	not hispanic or latino	locationaa	MECP2_p.Gly183Glu	1
+by_ethnicity	not hispanic or latino	locationaa	MED13L_p.Phe1123Cys	1
+by_ethnicity	not hispanic or latino	locationaa	MEF2A_p.Asn94Lys	1
+by_ethnicity	not hispanic or latino	locationaa	MEFV_p.Val67Met	1
+by_ethnicity	not hispanic or latino	locationaa	MEGF10_p.Thr441Ile	1
+by_ethnicity	not hispanic or latino	locationaa	METTL1_p.Phe166Val	1
+by_ethnicity	not hispanic or latino	locationaa	METTL21A_p.Ser68Cys	1
+by_ethnicity	not hispanic or latino	locationaa	METTL21C_p.Glu77Lys	1
+by_ethnicity	not hispanic or latino	locationaa	MGAT2_p.Ile211Val	1
+by_ethnicity	not hispanic or latino	locationaa	MGAT4A_p.Pro383Ser	1
+by_ethnicity	not hispanic or latino	locationaa	MGA_p.Met1615Val	1
+by_ethnicity	not hispanic or latino	locationaa	MIGA2_p.Thr544Pro	1
+by_ethnicity	not hispanic or latino	locationaa	MINK1_p.Arg184Lys	1
+by_ethnicity	not hispanic or latino	locationaa	MLH3_p.Ala1151Val	1
+by_ethnicity	not hispanic or latino	locationaa	MLLT1_p.Pro39Arg	1
+by_ethnicity	not hispanic or latino	locationaa	MLLT6_p.Leu575Phe	1
+by_ethnicity	not hispanic or latino	locationaa	MLLT6_p.Lys1084Arg	1
+by_ethnicity	not hispanic or latino	locationaa	MMP14_p.His186Gln	1
+by_ethnicity	not hispanic or latino	locationaa	MMP27_p.Thr289Lys	1
+by_ethnicity	not hispanic or latino	locationaa	MMP2_p.Arg482His	1
+by_ethnicity	not hispanic or latino	locationaa	MMP8_p.Ala449Ser	1
+by_ethnicity	not hispanic or latino	locationaa	MORC3_p.Gln265Glu	1
+by_ethnicity	not hispanic or latino	locationaa	MRGPRX3_p.Gln296Ter	1
+by_ethnicity	not hispanic or latino	locationaa	MRPL38_p.Ser372Arg	1
+by_ethnicity	not hispanic or latino	locationaa	MSN_p.Tyr201Cys	1
+by_ethnicity	not hispanic or latino	locationaa	MTFR1_p.Asn137Ser	1
+by_ethnicity	not hispanic or latino	locationaa	MTOR_p.Ile2500Phe	1
+by_ethnicity	not hispanic or latino	locationaa	MTREX_p.Leu636Trp	1
+by_ethnicity	not hispanic or latino	locationaa	MTR_p.Arg1029Trp	1
+by_ethnicity	not hispanic or latino	locationaa	MUC16_p.Ala4116Thr	1
+by_ethnicity	not hispanic or latino	locationaa	MUC16_p.Asp3529Asn	1
+by_ethnicity	not hispanic or latino	locationaa	MUC16_p.Met1492Ile	1
+by_ethnicity	not hispanic or latino	locationaa	MUC16_p.Pro5984Gln	1
+by_ethnicity	not hispanic or latino	locationaa	MUC5AC_p.Ala57Val	1
+by_ethnicity	not hispanic or latino	locationaa	MUC5B_p.Ala3746Pro	1
+by_ethnicity	not hispanic or latino	locationaa	MUC5B_p.His3670Gln	1
+by_ethnicity	not hispanic or latino	locationaa	MXRA5_p.Ser1444Ter	1
+by_ethnicity	not hispanic or latino	locationaa	MYH14_p.Gly139Ser	1
+by_ethnicity	not hispanic or latino	locationaa	MYH3_p.Arg1501Gly	1
+by_ethnicity	not hispanic or latino	locationaa	MYH9_p.Lys1274Glu	1
+by_ethnicity	not hispanic or latino	locationaa	MYO5A_p.Lys1179Thr	1
+by_ethnicity	not hispanic or latino	locationaa	MYO5C_p.Thr1647Ile	1
+by_ethnicity	not hispanic or latino	locationaa	MYOM2_p.Arg103Cys	1
+by_ethnicity	not hispanic or latino	locationaa	MYOM3_p.Pro1161Ser	1
+by_ethnicity	not hispanic or latino	locationaa	MYPN_p.Arg285Gln	1
+by_ethnicity	not hispanic or latino	locationaa	NAGK_p.Ala312Ser	1
+by_ethnicity	not hispanic or latino	locationaa	NAV3_p.Met700Thr	1
+by_ethnicity	not hispanic or latino	locationaa	NBN_p.Glu259AsnfsTer17	1
+by_ethnicity	not hispanic or latino	locationaa	NBR1_p.Asp251Gly	1
+by_ethnicity	not hispanic or latino	locationaa	NCKAP1L_p.Glu714Asp	1
+by_ethnicity	not hispanic or latino	locationaa	NCKAP1_p.Ile519Thr	1
+by_ethnicity	not hispanic or latino	locationaa	NCOA3_p.Ala1101Val	1
+by_ethnicity	not hispanic or latino	locationaa	NCR1_p.Leu219Phe	1
+by_ethnicity	not hispanic or latino	locationaa	NDN_p.Gly31Arg	1
+by_ethnicity	not hispanic or latino	locationaa	NEB_p.Asp3785Gly	1
+by_ethnicity	not hispanic or latino	locationaa	NEDD9_p.Val15Ile	1
+by_ethnicity	not hispanic or latino	locationaa	NEK4_p.Ser766Leu	1
+by_ethnicity	not hispanic or latino	locationaa	NF1_p.Arg997Thr	1
+by_ethnicity	not hispanic or latino	locationaa	NF1_p.Asn1004IlefsTer3	1
+by_ethnicity	not hispanic or latino	locationaa	NF1_p.Cys1878Ter	1
+by_ethnicity	not hispanic or latino	locationaa	NF1_p.Leu492PhefsTer7	1
+by_ethnicity	not hispanic or latino	locationaa	NF1_p.Leu650ValfsTer20	1
+by_ethnicity	not hispanic or latino	locationaa	NF1_p.Lys428AsnfsTer41	1
+by_ethnicity	not hispanic or latino	locationaa	NF1_p.Lys874Ter	1
+by_ethnicity	not hispanic or latino	locationaa	NF1_p.Phe1346SerfsTer27	1
+by_ethnicity	not hispanic or latino	locationaa	NF1_p.Pro2310SerfsTer16	1
+by_ethnicity	not hispanic or latino	locationaa	NF1_p.Val2410GlufsTer7	1
+by_ethnicity	not hispanic or latino	locationaa	NFE2L2_p.Leu562Phe	1
+by_ethnicity	not hispanic or latino	locationaa	NFE2L3_p.Asp532GlufsTer3	1
+by_ethnicity	not hispanic or latino	locationaa	NHLRC2_p.Pro456His	1
+by_ethnicity	not hispanic or latino	locationaa	NIBAN1_p.Met730Leu	1
+by_ethnicity	not hispanic or latino	locationaa	NID1_p.Val937Met	1
+by_ethnicity	not hispanic or latino	locationaa	NID2_p.Pro713Leu	1
+by_ethnicity	not hispanic or latino	locationaa	NOL4_p.Ser588Arg	1
+by_ethnicity	not hispanic or latino	locationaa	NOP9_p.Gln38AsnfsTer20	1
+by_ethnicity	not hispanic or latino	locationaa	NOTCH4_p.Trp1813Arg	1
+by_ethnicity	not hispanic or latino	locationaa	NPY1R_p.Cys305Ser	1
+by_ethnicity	not hispanic or latino	locationaa	NRXN3_p.Asp427Asn	1
+by_ethnicity	not hispanic or latino	locationaa	NSD2_p.Trp275Leu	1
+by_ethnicity	not hispanic or latino	locationaa	NSUN2_p.Pro691Thr	1
+by_ethnicity	not hispanic or latino	locationaa	NT5C3A_p.Thr231Ile	1
+by_ethnicity	not hispanic or latino	locationaa	NUDCD2_p.Arg39His	1
+by_ethnicity	not hispanic or latino	locationaa	NUGGC_p.Arg343Trp	1
+by_ethnicity	not hispanic or latino	locationaa	NUMA1_p.Pro2011HisfsTer4	1
+by_ethnicity	not hispanic or latino	locationaa	NUP98_p.Glu1165Gly	1
+by_ethnicity	not hispanic or latino	locationaa	NXF3_p.Pro73Leu	1
+by_ethnicity	not hispanic or latino	locationaa	NXT2_p.Val81Ala	1
+by_ethnicity	not hispanic or latino	locationaa	NYNRIN_p.Thr730Ile	1
+by_ethnicity	not hispanic or latino	locationaa	OCA2_p.Asp408Asn	1
+by_ethnicity	not hispanic or latino	locationaa	OGT_p.Ile211Val	1
+by_ethnicity	not hispanic or latino	locationaa	OLIG3_p.Pro250Leu	1
+by_ethnicity	not hispanic or latino	locationaa	OMD_p.Glu34Gln	1
+by_ethnicity	not hispanic or latino	locationaa	OPRPN_p.Arg110Lys	1
+by_ethnicity	not hispanic or latino	locationaa	OR10H2_p.Phe107Ser	1
+by_ethnicity	not hispanic or latino	locationaa	OR10R2_p.Asp141His	1
+by_ethnicity	not hispanic or latino	locationaa	OR10X1_p.Val31Ala	1
+by_ethnicity	not hispanic or latino	locationaa	OR1J1_p.Val92Ile	1
+by_ethnicity	not hispanic or latino	locationaa	OR2L2_p.Asn293Ser	1
+by_ethnicity	not hispanic or latino	locationaa	OR4F6_p.Lys128Ter	1
+by_ethnicity	not hispanic or latino	locationaa	OR4K1_p.Ile126Thr	1
+by_ethnicity	not hispanic or latino	locationaa	OR51B4_p.Asp50Glu	1
+by_ethnicity	not hispanic or latino	locationaa	OR52D1_p.Val143Asp	1
+by_ethnicity	not hispanic or latino	locationaa	OR52I2_p.Ser194Thr	1
+by_ethnicity	not hispanic or latino	locationaa	OR6C76_p.Gly14Asp	1
+by_ethnicity	not hispanic or latino	locationaa	OR6Y1_p.Val253Ile	1
+by_ethnicity	not hispanic or latino	locationaa	OR7C2_p.Pro79Ser	1
+by_ethnicity	not hispanic or latino	locationaa	OR8A1_p.Leu23Phe	1
+by_ethnicity	not hispanic or latino	locationaa	OR8H3_p.Ser162Phe	1
+by_ethnicity	not hispanic or latino	locationaa	OR9G4_p.Asp20IlefsTer13	1
+by_ethnicity	not hispanic or latino	locationaa	OSBPL6_p.Trp813Cys	1
+by_ethnicity	not hispanic or latino	locationaa	OSBPL7_p.Pro274Arg	1
+by_ethnicity	not hispanic or latino	locationaa	OTULIN_p.Leu277Val	1
+by_ethnicity	not hispanic or latino	locationaa	OXTR_p.Arg137His	1
+by_ethnicity	not hispanic or latino	locationaa	P2RX4_p.Arg318Cys	1
+by_ethnicity	not hispanic or latino	locationaa	P2RY1_p.Ter374ArgextTer31	1
+by_ethnicity	not hispanic or latino	locationaa	P3H2_p.Ala360Thr	1
+by_ethnicity	not hispanic or latino	locationaa	P4HA2_p.Arg174Cys	1
+by_ethnicity	not hispanic or latino	locationaa	P4HTM_p.Arg136Gln	1
+by_ethnicity	not hispanic or latino	locationaa	P4HTM_p.Leu70ThrfsTer40	1
+by_ethnicity	not hispanic or latino	locationaa	PAIP1_p.Ser384Leu	1
+by_ethnicity	not hispanic or latino	locationaa	PAPPA2_p.Asn1150Ser	1
+by_ethnicity	not hispanic or latino	locationaa	PAQR3_p.Tyr17Cys	1
+by_ethnicity	not hispanic or latino	locationaa	PARD3_p.Ser1196Leu	1
+by_ethnicity	not hispanic or latino	locationaa	PARN_p.Tyr381Cys	1
+by_ethnicity	not hispanic or latino	locationaa	PAX1_p.Ser143Tyr	1
+by_ethnicity	not hispanic or latino	locationaa	PAXIP1_p.Gly301Asp	1
+by_ethnicity	not hispanic or latino	locationaa	PCDHA10_p.Pro286Leu	1
+by_ethnicity	not hispanic or latino	locationaa	PCDHB12_p.Asn445Ser	1
+by_ethnicity	not hispanic or latino	locationaa	PCDHB12_p.Lys645Glu	1
+by_ethnicity	not hispanic or latino	locationaa	PCDHB4_p.Arg78Cys	1
+by_ethnicity	not hispanic or latino	locationaa	PCDHGA4_p.Ser789Phe	1
+by_ethnicity	not hispanic or latino	locationaa	PCDHGA7_p.Ser296Pro	1
+by_ethnicity	not hispanic or latino	locationaa	PCED1A_p.Gly187Arg	1
+by_ethnicity	not hispanic or latino	locationaa	PCLO_p.Val3181Leu	1
+by_ethnicity	not hispanic or latino	locationaa	PCMTD2_p.Pro331Ser	1
+by_ethnicity	not hispanic or latino	locationaa	PCNX1_p.Leu2009Arg	1
+by_ethnicity	not hispanic or latino	locationaa	PCSK7_p.Arg423Trp	1
+by_ethnicity	not hispanic or latino	locationaa	PDE4A_p.Ala658Val	1
+by_ethnicity	not hispanic or latino	locationaa	PDLIM5_p.Pro13Ser	1
+by_ethnicity	not hispanic or latino	locationaa	PER2_p.Val19Leu	1
+by_ethnicity	not hispanic or latino	locationaa	PEX5_p.Ala361Val	1
+by_ethnicity	not hispanic or latino	locationaa	PFKM_p.Gly302Asp	1
+by_ethnicity	not hispanic or latino	locationaa	PGLYRP2_p.Asn428Ser	1
+by_ethnicity	not hispanic or latino	locationaa	PGLYRP4_p.Arg253His	1
+by_ethnicity	not hispanic or latino	locationaa	PGR_p.Arg869His	1
+by_ethnicity	not hispanic or latino	locationaa	PHC3_p.Ser304Tyr	1
+by_ethnicity	not hispanic or latino	locationaa	PHKA2_p.Gly1065Ser	1
+by_ethnicity	not hispanic or latino	locationaa	PHLDB2_p.Met105Thr	1
+by_ethnicity	not hispanic or latino	locationaa	PHTF2_p.Ile9Val	1
+by_ethnicity	not hispanic or latino	locationaa	PIGP_p.Thr6Pro	1
+by_ethnicity	not hispanic or latino	locationaa	PIGS_p.Ile399Val	1
+by_ethnicity	not hispanic or latino	locationaa	PIGW_p.Arg366Ter	1
+by_ethnicity	not hispanic or latino	locationaa	PIK3R5_p.Ala644Val	1
+by_ethnicity	not hispanic or latino	locationaa	PKD1L1_p.Ala1401Ser	1
+by_ethnicity	not hispanic or latino	locationaa	PLCB3_p.Thr1122Ter	1
+by_ethnicity	not hispanic or latino	locationaa	PLCB4_p.Tyr651Cys	1
+by_ethnicity	not hispanic or latino	locationaa	PLCH1_p.Ser1026Thr	1
+by_ethnicity	not hispanic or latino	locationaa	PLCL1_p.Pro720Ser	1
+by_ethnicity	not hispanic or latino	locationaa	PLEKHA7_p.Arg737Ter	1
+by_ethnicity	not hispanic or latino	locationaa	PLEKHA7_p.Asp269Tyr	1
+by_ethnicity	not hispanic or latino	locationaa	PLEKHG4B_p.Arg511Gly	1
+by_ethnicity	not hispanic or latino	locationaa	PLP1_p.Gly2Asp	1
+by_ethnicity	not hispanic or latino	locationaa	PLXNA2_p.Ile1495Val	1
+by_ethnicity	not hispanic or latino	locationaa	PLXNA3_p.Arg1092Trp	1
+by_ethnicity	not hispanic or latino	locationaa	PML_p.Pro672Arg	1
+by_ethnicity	not hispanic or latino	locationaa	PMM1_p.Cys145Ser	1
+by_ethnicity	not hispanic or latino	locationaa	PMM1_p.Ser144Arg	1
+by_ethnicity	not hispanic or latino	locationaa	PNISR_p.Glu301Ala	1
+by_ethnicity	not hispanic or latino	locationaa	PNO1_p.Ala221GlnfsTer8	1
+by_ethnicity	not hispanic or latino	locationaa	PNPLA8_p.Arg411Leu	1
+by_ethnicity	not hispanic or latino	locationaa	POC1B-GALNT4_p.Gly309Arg	1
+by_ethnicity	not hispanic or latino	locationaa	POLE2_p.Ser65Cys	1
+by_ethnicity	not hispanic or latino	locationaa	POLE_p.Gly1378Asp	1
+by_ethnicity	not hispanic or latino	locationaa	POLR1A_p.Arg856Gly	1
+by_ethnicity	not hispanic or latino	locationaa	POLR1A_p.Asp284Val	1
+by_ethnicity	not hispanic or latino	locationaa	POLR1B_p.Met184Ile	1
+by_ethnicity	not hispanic or latino	locationaa	POLR2A_p.Tyr1818Cys	1
+by_ethnicity	not hispanic or latino	locationaa	POLR3A_p.Ile600Val	1
+by_ethnicity	not hispanic or latino	locationaa	POLR3B_p.Arg1046His	1
+by_ethnicity	not hispanic or latino	locationaa	PPIG_p.Glu393SerfsTer6	1
+by_ethnicity	not hispanic or latino	locationaa	PPP1R10_p.Arg768His	1
+by_ethnicity	not hispanic or latino	locationaa	PPP6C_p.His187Tyr	1
+by_ethnicity	not hispanic or latino	locationaa	PPRC1_p.Cys1188Tyr	1
+by_ethnicity	not hispanic or latino	locationaa	PQBP1_p.Pro63Thr	1
+by_ethnicity	not hispanic or latino	locationaa	PREB_p.Arg263Ter	1
+by_ethnicity	not hispanic or latino	locationaa	PRELP_p.Ala243Thr	1
+by_ethnicity	not hispanic or latino	locationaa	PRG2_p.Arg209Ter	1
+by_ethnicity	not hispanic or latino	locationaa	PRG4_p.Asn187LysfsTer15	1
+by_ethnicity	not hispanic or latino	locationaa	PRICKLE2_p.Pro97Leu	1
+by_ethnicity	not hispanic or latino	locationaa	PRKACB_p.Thr52Arg	1
+by_ethnicity	not hispanic or latino	locationaa	PRMT1_p.Gly328Cys	1
+by_ethnicity	not hispanic or latino	locationaa	PRMT9_p.Val575Ile	1
+by_ethnicity	not hispanic or latino	locationaa	PRPF8_p.Arg2266Cys	1
+by_ethnicity	not hispanic or latino	locationaa	PRPF8_p.Glu1060Gly	1
+by_ethnicity	not hispanic or latino	locationaa	PRPH2_p.Ala92Thr	1
+by_ethnicity	not hispanic or latino	locationaa	PRRC2C_p.Arg468His	1
+by_ethnicity	not hispanic or latino	locationaa	PRUNE2_p.Glu746Asp	1
+by_ethnicity	not hispanic or latino	locationaa	PRUNE2_p.Val1709Ile	1
+by_ethnicity	not hispanic or latino	locationaa	PSAT1_p.Arg213His	1
+by_ethnicity	not hispanic or latino	locationaa	PSD3_p.Glu744Gly	1
+by_ethnicity	not hispanic or latino	locationaa	PSD4_p.Gln88Glu	1
+by_ethnicity	not hispanic or latino	locationaa	PSG2_p.Asp116Gly	1
+by_ethnicity	not hispanic or latino	locationaa	PSMD1_p.Pro125Thr	1
+by_ethnicity	not hispanic or latino	locationaa	PTCRA_p.Thr82Met	1
+by_ethnicity	not hispanic or latino	locationaa	PTPN13_p.Lys1982Glu	1
+by_ethnicity	not hispanic or latino	locationaa	PTPN5_p.Asn115LysfsTer23	1
+by_ethnicity	not hispanic or latino	locationaa	PYGB_p.Ala696Thr	1
+by_ethnicity	not hispanic or latino	locationaa	RAB3GAP2_p.His795Leu	1
+by_ethnicity	not hispanic or latino	locationaa	RAB40A_p.Glu40Val	1
+by_ethnicity	not hispanic or latino	locationaa	RAB4B_p.Leu8GlyfsTer18	1
+by_ethnicity	not hispanic or latino	locationaa	RABEPK_p.Thr79Ile	1
+by_ethnicity	not hispanic or latino	locationaa	RAD51AP1_p.Asp284His	1
+by_ethnicity	not hispanic or latino	locationaa	RAD54B_p.Ser4Thr	1
+by_ethnicity	not hispanic or latino	locationaa	RAI1_p.Arg26GlnfsTer22	1
+by_ethnicity	not hispanic or latino	locationaa	RAI1_p.Leu1239Arg	1
+by_ethnicity	not hispanic or latino	locationaa	RANBP2_p.Pro623Thr	1
+by_ethnicity	not hispanic or latino	locationaa	RANBP2_p.Trp2404Ter	1
+by_ethnicity	not hispanic or latino	locationaa	RBBP5_p.Phe189Leu	1
+by_ethnicity	not hispanic or latino	locationaa	RBL2_p.Ser159LeufsTer3	1
+by_ethnicity	not hispanic or latino	locationaa	RBP4_p.Ala6Thr	1
+by_ethnicity	not hispanic or latino	locationaa	RC3H1_p.Tyr276Cys	1
+by_ethnicity	not hispanic or latino	locationaa	REM2_p.Tyr168MetfsTer84	1
+by_ethnicity	not hispanic or latino	locationaa	RET_p.Cys515Ser	1
+by_ethnicity	not hispanic or latino	locationaa	RET_p.Cys634Arg	1
+by_ethnicity	not hispanic or latino	locationaa	RET_p.Met918Thr	2
+by_ethnicity	not hispanic or latino	locationaa	RMDN1_p.Leu141Pro	1
+by_ethnicity	not hispanic or latino	locationaa	RNASEK_p.Ala52GlyfsTer28	1
+by_ethnicity	not hispanic or latino	locationaa	RNF10_p.Arg558Ter	1
+by_ethnicity	not hispanic or latino	locationaa	RNF149_p.Ser363Phe	1
+by_ethnicity	not hispanic or latino	locationaa	RNF168_p.Ile294Thr	1
+by_ethnicity	not hispanic or latino	locationaa	RNF19A_p.Met386Thr	1
+by_ethnicity	not hispanic or latino	locationaa	RNF20_p.Leu239del	1
+by_ethnicity	not hispanic or latino	locationaa	RNF213_p.Asn3700Ile	1
+by_ethnicity	not hispanic or latino	locationaa	RNLS_p.Phe223Leu	1
+by_ethnicity	not hispanic or latino	locationaa	RNPEPL1_p.Ile325Val	1
+by_ethnicity	not hispanic or latino	locationaa	ROBO1_p.Cys476Tyr	1
+by_ethnicity	not hispanic or latino	locationaa	ROBO2_p.Ser607Arg	1
+by_ethnicity	not hispanic or latino	locationaa	ROBO4_p.Arg606Cys	1
+by_ethnicity	not hispanic or latino	locationaa	ROCK2_p.Arg1209Ter	1
+by_ethnicity	not hispanic or latino	locationaa	RP1L1_p.Arg118Gln	1
+by_ethnicity	not hispanic or latino	locationaa	RP1L1_p.Gly1209Asp	1
+by_ethnicity	not hispanic or latino	locationaa	RPAP1_p.Asn902Tyr	1
+by_ethnicity	not hispanic or latino	locationaa	RPL27A_p.His25Gln	1
+by_ethnicity	not hispanic or latino	locationaa	RPS27A_p.Thr14Ile	1
+by_ethnicity	not hispanic or latino	locationaa	RPS6KA5_p.Pro782His	1
+by_ethnicity	not hispanic or latino	locationaa	RPS6KC1_p.Leu936Phe	1
+by_ethnicity	not hispanic or latino	locationaa	RRAS2_p.Arg60Ser	1
+by_ethnicity	not hispanic or latino	locationaa	RRBP1_p.Arg828Trp	1
+by_ethnicity	not hispanic or latino	locationaa	RSBN1L_p.Arg126His	1
+by_ethnicity	not hispanic or latino	locationaa	RSRC2_p.Ser218_Arg219del	1
+by_ethnicity	not hispanic or latino	locationaa	RTL1_p.Leu966Phe	1
+by_ethnicity	not hispanic or latino	locationaa	RTN4_p.Phe776SerfsTer3	1
+by_ethnicity	not hispanic or latino	locationaa	RTP4_p.Thr244Ala	1
+by_ethnicity	not hispanic or latino	locationaa	RUFY3_p.Glu204Gly	1
+by_ethnicity	not hispanic or latino	locationaa	RXRB_p.Leu446Pro	1
+by_ethnicity	not hispanic or latino	locationaa	RYR1_p.Arg1820His	1
+by_ethnicity	not hispanic or latino	locationaa	RYR1_p.Glu3853Asp	1
+by_ethnicity	not hispanic or latino	locationaa	SACM1L_p.Tyr100Cys	1
+by_ethnicity	not hispanic or latino	locationaa	SACS_p.Ala2867Ser	1
+by_ethnicity	not hispanic or latino	locationaa	SACS_p.Arg3875Leu	1
+by_ethnicity	not hispanic or latino	locationaa	SALL1_p.Cys1031Tyr	1
+by_ethnicity	not hispanic or latino	locationaa	SBF1_p.Arg507Leu	1
+by_ethnicity	not hispanic or latino	locationaa	SCAF8_p.Arg1124Trp	1
+by_ethnicity	not hispanic or latino	locationaa	SCARB1_p.Val302Leu	1
+by_ethnicity	not hispanic or latino	locationaa	SCGB3A2_p.Val27Met	1
+by_ethnicity	not hispanic or latino	locationaa	SCN2A_p.Arg472Gly	1
+by_ethnicity	not hispanic or latino	locationaa	SCNN1B_p.Ala385Ser	1
+by_ethnicity	not hispanic or latino	locationaa	SCO2_p.Gly235Asp	1
+by_ethnicity	not hispanic or latino	locationaa	SCP2_p.Met529Ile	1
+by_ethnicity	not hispanic or latino	locationaa	SCRIB_p.Gln630Ter	1
+by_ethnicity	not hispanic or latino	locationaa	SCRIB_p.His570Tyr	1
+by_ethnicity	not hispanic or latino	locationaa	SCRIB_p.Leu173Val	1
+by_ethnicity	not hispanic or latino	locationaa	SCRIB_p.Pro768Arg	1
+by_ethnicity	not hispanic or latino	locationaa	SCRIB_p.Pro955Ser	1
+by_ethnicity	not hispanic or latino	locationaa	SCRIB_p.Ser700Phe	1
+by_ethnicity	not hispanic or latino	locationaa	SDC2_p.Arg184Leu	1
+by_ethnicity	not hispanic or latino	locationaa	SDHA_p.Asp653Ala	1
+by_ethnicity	not hispanic or latino	locationaa	SDR42E1_p.Glu295Gly	1
+by_ethnicity	not hispanic or latino	locationaa	SEC14L5_p.Thr502Met	1
+by_ethnicity	not hispanic or latino	locationaa	SEH1L_p.Lys196Asn	1
+by_ethnicity	not hispanic or latino	locationaa	SEMA6D_p.Gly264Ser	1
+by_ethnicity	not hispanic or latino	locationaa	SEMA6D_p.Pro1046Ser	1
+by_ethnicity	not hispanic or latino	locationaa	SEMG2_p.Gln140Lys	1
+by_ethnicity	not hispanic or latino	locationaa	SERPINB9_p.Ile153Thr	1
+by_ethnicity	not hispanic or latino	locationaa	SERPINF1_p.Leu177Arg	1
+by_ethnicity	not hispanic or latino	locationaa	SERTM1_p.Phe87Leu	1
+by_ethnicity	not hispanic or latino	locationaa	SETBP1_p.Met1128Val	1
+by_ethnicity	not hispanic or latino	locationaa	SETBP1_p.Ser716Asn	1
+by_ethnicity	not hispanic or latino	locationaa	SETD1A_p.Ala1119Ser	1
+by_ethnicity	not hispanic or latino	locationaa	SETD2_p.Glu1513Val	1
+by_ethnicity	not hispanic or latino	locationaa	SGO1_p.Asn391Lys	1
+by_ethnicity	not hispanic or latino	locationaa	SH3BP4_p.Gly525Arg	1
+by_ethnicity	not hispanic or latino	locationaa	SHB_p.Arg321Trp	1
+by_ethnicity	not hispanic or latino	locationaa	SHC1_p.Asp2His	1
+by_ethnicity	not hispanic or latino	locationaa	SHOC1_p.Leu632Pro	1
+by_ethnicity	not hispanic or latino	locationaa	SHROOM3_p.Pro840Leu	1
+by_ethnicity	not hispanic or latino	locationaa	SIGLEC11_p.Leu518Pro	1
+by_ethnicity	not hispanic or latino	locationaa	SIGLEC6_p.Cys215Ser	1
+by_ethnicity	not hispanic or latino	locationaa	SIGLEC9_p.Glu86Lys	1
+by_ethnicity	not hispanic or latino	locationaa	SIX4_p.Ala14Glu	1
+by_ethnicity	not hispanic or latino	locationaa	SIX4_p.Ala14Thr	1
+by_ethnicity	not hispanic or latino	locationaa	SKA3_p.Asn109Thr	1
+by_ethnicity	not hispanic or latino	locationaa	SLC10A5_p.Ala345Val	1
+by_ethnicity	not hispanic or latino	locationaa	SLC12A8_p.Ala243Val	1
+by_ethnicity	not hispanic or latino	locationaa	SLC1A3_p.Val78Phe	1
+by_ethnicity	not hispanic or latino	locationaa	SLC20A1_p.Lys151Arg	1
+by_ethnicity	not hispanic or latino	locationaa	SLC22A11_p.Ala10Val	1
+by_ethnicity	not hispanic or latino	locationaa	SLC22A5_p.Gly206Ala	1
+by_ethnicity	not hispanic or latino	locationaa	SLC25A23_p.Cys168Phe	1
+by_ethnicity	not hispanic or latino	locationaa	SLC25A39_p.Cys88Phe	1
+by_ethnicity	not hispanic or latino	locationaa	SLC25A44_p.Ala232Val	1
+by_ethnicity	not hispanic or latino	locationaa	SLC26A3_p.Phe94Leu	1
+by_ethnicity	not hispanic or latino	locationaa	SLC26A9_p.Thr787Pro	1
+by_ethnicity	not hispanic or latino	locationaa	SLC27A6_p.Asp30Glu	1
+by_ethnicity	not hispanic or latino	locationaa	SLC35B1_p.Gly302Ala	1
+by_ethnicity	not hispanic or latino	locationaa	SLC36A2_p.Asn134Tyr	1
+by_ethnicity	not hispanic or latino	locationaa	SLC44A1_p.Tyr495Asn	1
+by_ethnicity	not hispanic or latino	locationaa	SLC46A1_p.Asn342Ser	1
+by_ethnicity	not hispanic or latino	locationaa	SLC52A1_p.Met1?	1
+by_ethnicity	not hispanic or latino	locationaa	SLC66A1_p.Ile46Met	1
+by_ethnicity	not hispanic or latino	locationaa	SLC6A17_p.Thr228Asn	1
+by_ethnicity	not hispanic or latino	locationaa	SLFN11_p.Arg271GlufsTer4	1
+by_ethnicity	not hispanic or latino	locationaa	SLIT1_p.His941Asp	1
+by_ethnicity	not hispanic or latino	locationaa	SLITRK4_p.Val316Phe	1
+by_ethnicity	not hispanic or latino	locationaa	SMC6_p.Ser722Phe	1
+by_ethnicity	not hispanic or latino	locationaa	SMG8_p.Met506Ile	1
+by_ethnicity	not hispanic or latino	locationaa	SNX19_p.His261Gln	1
+by_ethnicity	not hispanic or latino	locationaa	SOCS5_p.Ser416Tyr	1
+by_ethnicity	not hispanic or latino	locationaa	SORBS1_p.Pro581Ser	1
+by_ethnicity	not hispanic or latino	locationaa	SOX5_p.Gly309Val	1
+by_ethnicity	not hispanic or latino	locationaa	SPATA31D1_p.Arg874Ter	1
+by_ethnicity	not hispanic or latino	locationaa	SPATA6L_p.Phe333Cys	1
+by_ethnicity	not hispanic or latino	locationaa	SPDL1_p.Tyr366Cys	1
+by_ethnicity	not hispanic or latino	locationaa	SPDYE1_p.His79del	1
+by_ethnicity	not hispanic or latino	locationaa	SPEN_p.Ala3009Gly	1
+by_ethnicity	not hispanic or latino	locationaa	SPG11_p.Ala8Gly	1
+by_ethnicity	not hispanic or latino	locationaa	SPHKAP_p.Glu1432Gly	1
+by_ethnicity	not hispanic or latino	locationaa	SPIC_p.Leu153Ile	1
+by_ethnicity	not hispanic or latino	locationaa	SPINK5_p.Lys913Asn	1
+by_ethnicity	not hispanic or latino	locationaa	SPTA1_p.Pro399Leu	1
+by_ethnicity	not hispanic or latino	locationaa	SRP72_p.Leu330Phe	1
+by_ethnicity	not hispanic or latino	locationaa	SRPRA_p.Gln114Ter	1
+by_ethnicity	not hispanic or latino	locationaa	SSH1_p.Ile429Val	1
+by_ethnicity	not hispanic or latino	locationaa	SSX3_p.Asp187Tyr	1
+by_ethnicity	not hispanic or latino	locationaa	ST6GAL1_p.Glu388Ter	1
+by_ethnicity	not hispanic or latino	locationaa	ST6GAL2_p.Arg77His	1
+by_ethnicity	not hispanic or latino	locationaa	ST6GALNAC1_p.Ile585Thr	1
+by_ethnicity	not hispanic or latino	locationaa	STAB2_p.Glu2068Gln	1
+by_ethnicity	not hispanic or latino	locationaa	STAG2_p.His108AlafsTer2	1
+by_ethnicity	not hispanic or latino	locationaa	STAT3_p.Thr440Ile	1
+by_ethnicity	not hispanic or latino	locationaa	STK11IP_p.Ser69Phe	1
+by_ethnicity	not hispanic or latino	locationaa	STK17B_p.Ser310Pro	1
+by_ethnicity	not hispanic or latino	locationaa	STK25_p.Ile117Ser	1
+by_ethnicity	not hispanic or latino	locationaa	STON1_p.Ile415Val	1
+by_ethnicity	not hispanic or latino	locationaa	STX8_p.Val228Met	1
+by_ethnicity	not hispanic or latino	locationaa	SULF1_p.His700Tyr	1
+by_ethnicity	not hispanic or latino	locationaa	SUPT16H_p.Ser878Phe	1
+by_ethnicity	not hispanic or latino	locationaa	SUPT20HL1_p.Arg3Ter	1
+by_ethnicity	not hispanic or latino	locationaa	SUPT20H_p.Gly458Asp	1
+by_ethnicity	not hispanic or latino	locationaa	SUPT6H_p.Pro1333Ser	1
+by_ethnicity	not hispanic or latino	locationaa	SUPT7L_p.Gly398Ala	1
+by_ethnicity	not hispanic or latino	locationaa	SUSD4_p.Leu184Arg	1
+by_ethnicity	not hispanic or latino	locationaa	SUSD4_p.Leu184Ile	1
+by_ethnicity	not hispanic or latino	locationaa	SVEP1_p.Arg791His	1
+by_ethnicity	not hispanic or latino	locationaa	SYT16_p.Met327HisfsTer27	1
+by_ethnicity	not hispanic or latino	locationaa	SYT3_p.Pro202Ser	1
+by_ethnicity	not hispanic or latino	locationaa	TACC2_p.Ser575Arg	1
+by_ethnicity	not hispanic or latino	locationaa	TAF1_p.Thr647Ile	1
+by_ethnicity	not hispanic or latino	locationaa	TAF4_p.Val696Met	1
+by_ethnicity	not hispanic or latino	locationaa	TANC2_p.Arg1969Gln	1
+by_ethnicity	not hispanic or latino	locationaa	TAS2R60_p.Leu42Pro	1
+by_ethnicity	not hispanic or latino	locationaa	TBC1D10B_p.Glu623Gly	1
+by_ethnicity	not hispanic or latino	locationaa	TBC1D10C_p.Asp443Glu	1
+by_ethnicity	not hispanic or latino	locationaa	TBC1D2_p.Ser909Cys	1
+by_ethnicity	not hispanic or latino	locationaa	TBXA2R_p.Pro3Ser	1
+by_ethnicity	not hispanic or latino	locationaa	TCAP_p.Gly125Ser	1
+by_ethnicity	not hispanic or latino	locationaa	TCF19_p.Arg161Gln	1
+by_ethnicity	not hispanic or latino	locationaa	TCHHL1_p.Thr444Ile	1
+by_ethnicity	not hispanic or latino	locationaa	TCTE1_p.Asn340His	1
+by_ethnicity	not hispanic or latino	locationaa	TDGF1_p.Phe36Ser	1
+by_ethnicity	not hispanic or latino	locationaa	TDRD9_p.Val665Ala	1
+by_ethnicity	not hispanic or latino	locationaa	TECRL_p.Ser128Pro	1
+by_ethnicity	not hispanic or latino	locationaa	TEC_p.Glu361Lys	1
+by_ethnicity	not hispanic or latino	locationaa	TENM1_p.Asp1824Ala	1
+by_ethnicity	not hispanic or latino	locationaa	TEX10_p.Asp109Val	1
+by_ethnicity	not hispanic or latino	locationaa	TEX11_p.Thr682Ala	1
+by_ethnicity	not hispanic or latino	locationaa	TEX14_p.Arg171Gln	1
+by_ethnicity	not hispanic or latino	locationaa	TFAP2C_p.Asp20Gly	1
+by_ethnicity	not hispanic or latino	locationaa	TFAP2D_p.Met156Lys	1
+by_ethnicity	not hispanic or latino	locationaa	TFR2_p.Ala110Val	1
+by_ethnicity	not hispanic or latino	locationaa	TGFBR3_p.Gln743Ter	1
+by_ethnicity	not hispanic or latino	locationaa	THOC1_p.Gly293Glu	1
+by_ethnicity	not hispanic or latino	locationaa	TIAM2_p.Asp1221His	1
+by_ethnicity	not hispanic or latino	locationaa	TINAG_p.Glu206Ter	1
+by_ethnicity	not hispanic or latino	locationaa	TM2D1_p.Leu46Arg	1
+by_ethnicity	not hispanic or latino	locationaa	TM7SF3_p.Asp404Gly	1
+by_ethnicity	not hispanic or latino	locationaa	TM9SF4_p.Glu245Ter	1
+by_ethnicity	not hispanic or latino	locationaa	TMCO4_p.Ala340Val	1
+by_ethnicity	not hispanic or latino	locationaa	TMEM126B_p.Leu43Val	1
+by_ethnicity	not hispanic or latino	locationaa	TMEM132E_p.Arg317Trp	1
+by_ethnicity	not hispanic or latino	locationaa	TMEM208_p.Asp82Gly	1
+by_ethnicity	not hispanic or latino	locationaa	TNFAIP1_p.Thr270AlafsTer78	1
+by_ethnicity	not hispanic or latino	locationaa	TNK2_p.Asn460Ser	1
+by_ethnicity	not hispanic or latino	locationaa	TNKS_p.Asn1285Ser	1
+by_ethnicity	not hispanic or latino	locationaa	TNPO2_p.Ser57Leu	1
+by_ethnicity	not hispanic or latino	locationaa	TNPO2_p.Tyr47Ter	1
+by_ethnicity	not hispanic or latino	locationaa	TOR1AIP1_p.Val232Phe	1
+by_ethnicity	not hispanic or latino	locationaa	TOX3_p.Leu388Ter	1
+by_ethnicity	not hispanic or latino	locationaa	TPBG_p.Ser143AlafsTer36	1
+by_ethnicity	not hispanic or latino	locationaa	TPCN1_p.His344Arg	1
+by_ethnicity	not hispanic or latino	locationaa	TPI1_p.Ala37Val	1
+by_ethnicity	not hispanic or latino	locationaa	TPO_p.Ala3Thr	1
+by_ethnicity	not hispanic or latino	locationaa	TPR_p.Arg1023Lys	1
+by_ethnicity	not hispanic or latino	locationaa	TPX2_p.Arg345Ser	1
+by_ethnicity	not hispanic or latino	locationaa	TRAF2_p.Leu187Val	1
+by_ethnicity	not hispanic or latino	locationaa	TRAV3_p.Glu85Lys	1
+by_ethnicity	not hispanic or latino	locationaa	TRAV8-2_p.Gly81Asp	1
+by_ethnicity	not hispanic or latino	locationaa	TRIM62_p.Thr405Met	1
+by_ethnicity	not hispanic or latino	locationaa	TRIO_p.Ser148Cys	1
+by_ethnicity	not hispanic or latino	locationaa	TRIO_p.Thr1394Ser	1
+by_ethnicity	not hispanic or latino	locationaa	TRIP11_p.Gln1346Arg	1
+by_ethnicity	not hispanic or latino	locationaa	TRMT1L_p.Tyr417His	1
+by_ethnicity	not hispanic or latino	locationaa	TRMT2B_p.Pro30Leu	1
+by_ethnicity	not hispanic or latino	locationaa	TRPC6_p.Glu156Asp	1
+by_ethnicity	not hispanic or latino	locationaa	TRPM1_p.Ala412Ser	1
+by_ethnicity	not hispanic or latino	locationaa	TRRAP_p.Ala3200Thr	1
+by_ethnicity	not hispanic or latino	locationaa	TSHZ1_p.Tyr533Ter	1
+by_ethnicity	not hispanic or latino	locationaa	TSPAN15_p.Ala173Val	1
+by_ethnicity	not hispanic or latino	locationaa	TSPOAP1_p.Asn1543Ser	1
+by_ethnicity	not hispanic or latino	locationaa	TTC12_p.Ser302Pro	1
+by_ethnicity	not hispanic or latino	locationaa	TTLL1_p.Gly92Arg	1
+by_ethnicity	not hispanic or latino	locationaa	TTLL6_p.Ser787Phe	1
+by_ethnicity	not hispanic or latino	locationaa	TTN_p.Arg14750Ter	1
+by_ethnicity	not hispanic or latino	locationaa	TTN_p.Arg16415Gln	1
+by_ethnicity	not hispanic or latino	locationaa	TTN_p.Arg5923Leu	1
+by_ethnicity	not hispanic or latino	locationaa	TTPAL_p.Ile209Thr	1
+by_ethnicity	not hispanic or latino	locationaa	TUBGCP6_p.Leu1558Met	1
+by_ethnicity	not hispanic or latino	locationaa	TUB_p.Gly19Ser	1
+by_ethnicity	not hispanic or latino	locationaa	TULP1_p.Arg306Cys	1
+by_ethnicity	not hispanic or latino	locationaa	TVP23C_p.His33Leu	1
+by_ethnicity	not hispanic or latino	locationaa	UBN1_p.Leu426Arg	1
+by_ethnicity	not hispanic or latino	locationaa	UBXN6_p.Met322Ile	1
+by_ethnicity	not hispanic or latino	locationaa	UNC5A_p.Ser530Ile	1
+by_ethnicity	not hispanic or latino	locationaa	UNC79_p.Glu1186Lys	1
+by_ethnicity	not hispanic or latino	locationaa	UPF2_p.Ile295Val	1
+by_ethnicity	not hispanic or latino	locationaa	URGCP_p.Leu606Arg	1
+by_ethnicity	not hispanic or latino	locationaa	USP15_p.Arg710Ter	1
+by_ethnicity	not hispanic or latino	locationaa	USP15_p.Asn260Ser	1
+by_ethnicity	not hispanic or latino	locationaa	USP28_p.Asp338Gly	1
+by_ethnicity	not hispanic or latino	locationaa	USP32_p.Thr467Ala	1
+by_ethnicity	not hispanic or latino	locationaa	USP34_p.Asn1078Tyr	1
+by_ethnicity	not hispanic or latino	locationaa	USP34_p.Leu1947Ser	1
+by_ethnicity	not hispanic or latino	locationaa	USP9X_p.Gln605PhefsTer7	1
+by_ethnicity	not hispanic or latino	locationaa	UTRN_p.Ala472Val	1
+by_ethnicity	not hispanic or latino	locationaa	VAMP3_p.Trp73Ter	1
+by_ethnicity	not hispanic or latino	locationaa	VAV1_p.Gly515Glu	1
+by_ethnicity	not hispanic or latino	locationaa	VCAN_p.Thr2115del	1
+by_ethnicity	not hispanic or latino	locationaa	VCP_p.Pro500Leu	1
+by_ethnicity	not hispanic or latino	locationaa	VEZT_p.Met159Arg	1
+by_ethnicity	not hispanic or latino	locationaa	VHL_p.Arg161Gln	1
+by_ethnicity	not hispanic or latino	locationaa	VHL_p.Asp143Glu	1
+by_ethnicity	not hispanic or latino	locationaa	VIT_p.Arg128Gln	1
+by_ethnicity	not hispanic or latino	locationaa	VIT_p.Val628Ile	1
+by_ethnicity	not hispanic or latino	locationaa	VPS13C_p.His1272Arg	1
+by_ethnicity	not hispanic or latino	locationaa	VPS37A_p.Ile65Val	1
+by_ethnicity	not hispanic or latino	locationaa	VPS8_p.Gln1128Ter	1
+by_ethnicity	not hispanic or latino	locationaa	VWA3B_p.Pro1275Arg	1
+by_ethnicity	not hispanic or latino	locationaa	VWA3B_p.Ser1227Phe	1
+by_ethnicity	not hispanic or latino	locationaa	WARS2_p.Lys216Ter	1
+by_ethnicity	not hispanic or latino	locationaa	WASHC4_p.Asn836Ser	1
+by_ethnicity	not hispanic or latino	locationaa	WDR11_p.Pro955Arg	1
+by_ethnicity	not hispanic or latino	locationaa	WNT3_p.Ser184Leu	1
+by_ethnicity	not hispanic or latino	locationaa	XRN1_p.Lys1298Glu	1
+by_ethnicity	not hispanic or latino	locationaa	ZACN_p.Ile76Met	1
+by_ethnicity	not hispanic or latino	locationaa	ZAN_p.Gly1449Asp	1
+by_ethnicity	not hispanic or latino	locationaa	ZBBX_p.Asp430Tyr	1
+by_ethnicity	not hispanic or latino	locationaa	ZBTB14_p.Lys143Gln	1
+by_ethnicity	not hispanic or latino	locationaa	ZBTB47_p.Glu526Gly	1
+by_ethnicity	not hispanic or latino	locationaa	ZC3H7B_p.Asp250Asn	1
+by_ethnicity	not hispanic or latino	locationaa	ZEB2_p.Thr544Ala	1
+by_ethnicity	not hispanic or latino	locationaa	ZFC3H1_p.Ala543Val	1
+by_ethnicity	not hispanic or latino	locationaa	ZFC3H1_p.Leu659Ter	1
+by_ethnicity	not hispanic or latino	locationaa	ZFHX3_p.Leu2785Arg	1
+by_ethnicity	not hispanic or latino	locationaa	ZFHX4_p.Leu1378Val	1
+by_ethnicity	not hispanic or latino	locationaa	ZHX2_p.Tyr731Asp	1
+by_ethnicity	not hispanic or latino	locationaa	ZMYND8_p.Ala305Val	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF106_p.His1818LeufsTer20	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF275_p.Lys328Asn	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF287_p.Lys403Glu	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF311_p.Glu412Lys	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF341_p.Val120Met	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF35_p.His39Leu	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF385D_p.Pro373Leu	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF407_p.Ile2146Met	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF417_p.His374Arg	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF425_p.His268SerfsTer23	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF462_p.Asn681Ser	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF471_p.Cys573Tyr	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF484_p.Lys452AsnfsTer116	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF485_p.Thr368Ala	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF491_p.Arg203His	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF493_p.His515Asp	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF503_p.Gly547Glu	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF507_p.Gln17Arg	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF510_p.Arg555Gln	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF516_p.Ser811Phe	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF564_p.Met244Val	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF569_p.Gly378Asp	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF574_p.Gln562Ter	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF608_p.Pro1157Ser	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF613_p.Ile472Ser	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF629_p.Asn686Ser	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF676_p.Thr118Ala	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF77_p.Glu85Asp	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF799_p.Ser462Tyr	1
+by_ethnicity	not hispanic or latino	locationaa	ZNF823_p.Lys335Arg	1
+by_ethnicity	not hispanic or latino	locationaa	ZSCAN21_p.Gly373Cys	1
+by_ethnicity	not hispanic or latino	locationaa	ZSCAN31_p.Ser224Asn	1
+by_ethnicity	not hispanic or latino	locationaa	ZSWIM4_p.Leu106Val	1
+by_ethnicity	not hispanic or latino	locationaa	ZZEF1_p.Phe771Leu	1
+by_ethnicity	not hispanic or latino	polyphen	benign	128
+by_ethnicity	not hispanic or latino	polyphen	possibly_damaging	91
+by_ethnicity	not hispanic or latino	polyphen	probably_damaging	141
+by_ethnicity	not hispanic or latino	polyphen	unknown	1
+by_ethnicity	not hispanic or latino	sift	deleterious	182
+by_ethnicity	not hispanic or latino	sift	deleterious_low_confidence	49
+by_ethnicity	not hispanic or latino	sift	tolerated	118
+by_ethnicity	not hispanic or latino	sift	tolerated_low_confidence	44
+by_ethnicity	not hispanic or latino	variant_class	SNV	1045
+by_ethnicity	not hispanic or latino	variant_class	deletion	59
+by_ethnicity	not hispanic or latino	variant_class	indel	1
+by_ethnicity	not hispanic or latino	variant_class	insertion	16
+by_ethnicity	not hispanic or latino	variant_classification	3'Flank	1
+by_ethnicity	not hispanic or latino	variant_classification	3'UTR	3
+by_ethnicity	not hispanic or latino	variant_classification	5'Flank	1
+by_ethnicity	not hispanic or latino	variant_classification	5'UTR	3
+by_ethnicity	not hispanic or latino	variant_classification	Frame_Shift_Del	47
+by_ethnicity	not hispanic or latino	variant_classification	Frame_Shift_Ins	13
+by_ethnicity	not hispanic or latino	variant_classification	In_Frame_Del	11
+by_ethnicity	not hispanic or latino	variant_classification	Intron	14
+by_ethnicity	not hispanic or latino	variant_classification	Missense_Mutation	943
+by_ethnicity	not hispanic or latino	variant_classification	Nonsense_Mutation	50
+by_ethnicity	not hispanic or latino	variant_classification	Nonstop_Mutation	4
+by_ethnicity	not hispanic or latino	variant_classification	RNA	6
+by_ethnicity	not hispanic or latino	variant_classification	Splice_Region	1
+by_ethnicity	not hispanic or latino	variant_classification	Splice_Site	23
+by_ethnicity	not hispanic or latino	variant_classification	Translation_Start_Site	1
+by_ethnicity	not reported	chromosome	chr1	33
+by_ethnicity	not reported	chromosome	chr10	15
+by_ethnicity	not reported	chromosome	chr11	12
+by_ethnicity	not reported	chromosome	chr12	18
+by_ethnicity	not reported	chromosome	chr13	11
+by_ethnicity	not reported	chromosome	chr14	10
+by_ethnicity	not reported	chromosome	chr15	7
+by_ethnicity	not reported	chromosome	chr16	10
+by_ethnicity	not reported	chromosome	chr17	14
+by_ethnicity	not reported	chromosome	chr18	2
+by_ethnicity	not reported	chromosome	chr19	13
+by_ethnicity	not reported	chromosome	chr2	18
+by_ethnicity	not reported	chromosome	chr20	6
+by_ethnicity	not reported	chromosome	chr21	1
+by_ethnicity	not reported	chromosome	chr22	11
+by_ethnicity	not reported	chromosome	chr3	13
+by_ethnicity	not reported	chromosome	chr4	10
+by_ethnicity	not reported	chromosome	chr5	9
+by_ethnicity	not reported	chromosome	chr6	15
+by_ethnicity	not reported	chromosome	chr7	21
+by_ethnicity	not reported	chromosome	chr8	5
+by_ethnicity	not reported	chromosome	chr9	8
+by_ethnicity	not reported	chromosome	chrX	18
+by_ethnicity	not reported	clin_sig	likely_pathogenic;pathogenic;pathogenic/likely_pathogenic	2
+by_ethnicity	not reported	clin_sig	pathogenic	1
+by_ethnicity	not reported	clin_sig	pathogenic;likely_pathogenic	1
+by_ethnicity	not reported	clin_sig	pathogenic;pathogenic/likely_pathogenic;likely_pathogenic	1
+by_ethnicity	not reported	clin_sig	uncertain_significance	2
+by_ethnicity	not reported	consequence	frameshift_variant	20
+by_ethnicity	not reported	consequence	frameshift_variant;splice_region_variant	1
+by_ethnicity	not reported	consequence	inframe_deletion	3
+by_ethnicity	not reported	consequence	inframe_insertion	1
+by_ethnicity	not reported	consequence	intron_variant	4
+by_ethnicity	not reported	consequence	missense_variant	222
+by_ethnicity	not reported	consequence	missense_variant;splice_region_variant	7
+by_ethnicity	not reported	consequence	non_coding_transcript_exon_variant	3
+by_ethnicity	not reported	consequence	splice_acceptor_variant	2
+by_ethnicity	not reported	consequence	splice_donor_variant	3
+by_ethnicity	not reported	consequence	stop_gained	13
+by_ethnicity	not reported	consequence	stop_gained;splice_region_variant	1
+by_ethnicity	not reported	hugo_symbol	ABCA12	2
+by_ethnicity	not reported	hugo_symbol	ABCA13	2
+by_ethnicity	not reported	hugo_symbol	ABCA2	1
+by_ethnicity	not reported	hugo_symbol	ABCC10	1
+by_ethnicity	not reported	hugo_symbol	ABCD1	1
+by_ethnicity	not reported	hugo_symbol	ACADM	1
+by_ethnicity	not reported	hugo_symbol	ADAM20	1
+by_ethnicity	not reported	hugo_symbol	ADAMTS3	1
+by_ethnicity	not reported	hugo_symbol	ADH4	1
+by_ethnicity	not reported	hugo_symbol	AGBL2	1
+by_ethnicity	not reported	hugo_symbol	AMER1	1
+by_ethnicity	not reported	hugo_symbol	ANAPC7	1
+by_ethnicity	not reported	hugo_symbol	ANGPTL2	1
+by_ethnicity	not reported	hugo_symbol	ANO3	1
+by_ethnicity	not reported	hugo_symbol	ANXA5	1
+by_ethnicity	not reported	hugo_symbol	AOPEP	1
+by_ethnicity	not reported	hugo_symbol	APOL2	2
+by_ethnicity	not reported	hugo_symbol	ARHGEF17	1
+by_ethnicity	not reported	hugo_symbol	ARMCX3	1
+by_ethnicity	not reported	hugo_symbol	ATF7IP	1
+by_ethnicity	not reported	hugo_symbol	ATP6V1G3	1
+by_ethnicity	not reported	hugo_symbol	ATRX	6
+by_ethnicity	not reported	hugo_symbol	AURKC	1
+by_ethnicity	not reported	hugo_symbol	AWAT1	1
+by_ethnicity	not reported	hugo_symbol	BATF	1
+by_ethnicity	not reported	hugo_symbol	BCL2L14	1
+by_ethnicity	not reported	hugo_symbol	BCR	1
+by_ethnicity	not reported	hugo_symbol	BHLHE40	1
+by_ethnicity	not reported	hugo_symbol	BICD1	1
+by_ethnicity	not reported	hugo_symbol	BICDL1	1
+by_ethnicity	not reported	hugo_symbol	BIRC5	1
+by_ethnicity	not reported	hugo_symbol	BIRC6	2
+by_ethnicity	not reported	hugo_symbol	BRD7	1
+by_ethnicity	not reported	hugo_symbol	C12orf45	1
+by_ethnicity	not reported	hugo_symbol	CA12	1
+by_ethnicity	not reported	hugo_symbol	CCN4	1
+by_ethnicity	not reported	hugo_symbol	CCT4	1
+by_ethnicity	not reported	hugo_symbol	CD300LB	1
+by_ethnicity	not reported	hugo_symbol	CDK5RAP1	1
+by_ethnicity	not reported	hugo_symbol	CDK5RAP2	1
+by_ethnicity	not reported	hugo_symbol	CELSR3	1
+by_ethnicity	not reported	hugo_symbol	CHST10	1
+by_ethnicity	not reported	hugo_symbol	CLCA1	1
+by_ethnicity	not reported	hugo_symbol	CLCN1	1
+by_ethnicity	not reported	hugo_symbol	CMYA5	1
+by_ethnicity	not reported	hugo_symbol	COG5	1
+by_ethnicity	not reported	hugo_symbol	COL12A1	1
+by_ethnicity	not reported	hugo_symbol	COL24A1	1
+by_ethnicity	not reported	hugo_symbol	CPEB1	1
+by_ethnicity	not reported	hugo_symbol	CPSF7	1
+by_ethnicity	not reported	hugo_symbol	CRAT	1
+by_ethnicity	not reported	hugo_symbol	CSDE1	2
+by_ethnicity	not reported	hugo_symbol	CSTB	1
+by_ethnicity	not reported	hugo_symbol	DAZAP2	1
+by_ethnicity	not reported	hugo_symbol	DCDC1	1
+by_ethnicity	not reported	hugo_symbol	DEFB112	1
+by_ethnicity	not reported	hugo_symbol	DENND4A	1
+by_ethnicity	not reported	hugo_symbol	DGKH	1
+by_ethnicity	not reported	hugo_symbol	DHX37	1
+by_ethnicity	not reported	hugo_symbol	DIP2C	1
+by_ethnicity	not reported	hugo_symbol	DNAH3	1
+by_ethnicity	not reported	hugo_symbol	DNAI3	1
+by_ethnicity	not reported	hugo_symbol	DPP9	1
+by_ethnicity	not reported	hugo_symbol	DPPA4	1
+by_ethnicity	not reported	hugo_symbol	DSN1	1
+by_ethnicity	not reported	hugo_symbol	DUOX2	1
+by_ethnicity	not reported	hugo_symbol	DVL2	1
+by_ethnicity	not reported	hugo_symbol	DYSF	1
+by_ethnicity	not reported	hugo_symbol	ECHDC2	1
+by_ethnicity	not reported	hugo_symbol	EHF	1
+by_ethnicity	not reported	hugo_symbol	EIF3L	1
+by_ethnicity	not reported	hugo_symbol	ELOA	1
+by_ethnicity	not reported	hugo_symbol	EPAS1	2
+by_ethnicity	not reported	hugo_symbol	EPB41	1
+by_ethnicity	not reported	hugo_symbol	EPHA3	1
+by_ethnicity	not reported	hugo_symbol	ERCC6	1
+by_ethnicity	not reported	hugo_symbol	ERCC6L	1
+by_ethnicity	not reported	hugo_symbol	F11R	1
+by_ethnicity	not reported	hugo_symbol	FAF1	1
+by_ethnicity	not reported	hugo_symbol	FAM193B	1
+by_ethnicity	not reported	hugo_symbol	FAT1	1
+by_ethnicity	not reported	hugo_symbol	FBXO33	1
+by_ethnicity	not reported	hugo_symbol	FGFR1	1
+by_ethnicity	not reported	hugo_symbol	FKBP9	3
+by_ethnicity	not reported	hugo_symbol	FLT1	1
+by_ethnicity	not reported	hugo_symbol	FNDC3A	1
+by_ethnicity	not reported	hugo_symbol	FOXI2	1
+by_ethnicity	not reported	hugo_symbol	FZD8	1
+by_ethnicity	not reported	hugo_symbol	GABBR1	1
+by_ethnicity	not reported	hugo_symbol	GABRA4	2
+by_ethnicity	not reported	hugo_symbol	GGT1	1
+by_ethnicity	not reported	hugo_symbol	GIPC2	1
+by_ethnicity	not reported	hugo_symbol	GLB1L3	1
+by_ethnicity	not reported	hugo_symbol	GPR132	1
+by_ethnicity	not reported	hugo_symbol	H1-0	1
+by_ethnicity	not reported	hugo_symbol	HABP2	1
+by_ethnicity	not reported	hugo_symbol	HCN1	1
+by_ethnicity	not reported	hugo_symbol	HDHD5	1
+by_ethnicity	not reported	hugo_symbol	HMGCS2	1
+by_ethnicity	not reported	hugo_symbol	HRAS	1
+by_ethnicity	not reported	hugo_symbol	ILDR1	1
+by_ethnicity	not reported	hugo_symbol	IQSEC2	1
+by_ethnicity	not reported	hugo_symbol	ITGB1	2
+by_ethnicity	not reported	hugo_symbol	ITPR3	1
+by_ethnicity	not reported	hugo_symbol	IWS1	1
+by_ethnicity	not reported	hugo_symbol	JMJD1C	1
+by_ethnicity	not reported	hugo_symbol	JUN	1
+by_ethnicity	not reported	hugo_symbol	KATNIP	1
+by_ethnicity	not reported	hugo_symbol	KCNA6	1
+by_ethnicity	not reported	hugo_symbol	KIAA0319	1
+by_ethnicity	not reported	hugo_symbol	KIF2B	1
+by_ethnicity	not reported	hugo_symbol	KLHL22	1
+by_ethnicity	not reported	hugo_symbol	KLHL7	1
+by_ethnicity	not reported	hugo_symbol	KRT35	1
+by_ethnicity	not reported	hugo_symbol	LAMC1	1
+by_ethnicity	not reported	hugo_symbol	LARP1	1
+by_ethnicity	not reported	hugo_symbol	LEXM	1
+by_ethnicity	not reported	hugo_symbol	LHX1	1
+by_ethnicity	not reported	hugo_symbol	LIN9	1
+by_ethnicity	not reported	hugo_symbol	LMTK2	1
+by_ethnicity	not reported	hugo_symbol	LRP1	1
+by_ethnicity	not reported	hugo_symbol	MAGEC1	1
+by_ethnicity	not reported	hugo_symbol	MAML3	1
+by_ethnicity	not reported	hugo_symbol	MCHR2	1
+by_ethnicity	not reported	hugo_symbol	MED12	1
+by_ethnicity	not reported	hugo_symbol	MEPE	1
+by_ethnicity	not reported	hugo_symbol	MGAM	1
+by_ethnicity	not reported	hugo_symbol	MGST1	1
+by_ethnicity	not reported	hugo_symbol	MICAL1	1
+by_ethnicity	not reported	hugo_symbol	MINDY3	1
+by_ethnicity	not reported	hugo_symbol	MIR654	1
+by_ethnicity	not reported	hugo_symbol	MLXIP	1
+by_ethnicity	not reported	hugo_symbol	MMP15	1
+by_ethnicity	not reported	hugo_symbol	MORN4	1
+by_ethnicity	not reported	hugo_symbol	MRC2	1
+by_ethnicity	not reported	hugo_symbol	MSANTD4	1
+by_ethnicity	not reported	hugo_symbol	MUC16	3
+by_ethnicity	not reported	hugo_symbol	MUC17	1
+by_ethnicity	not reported	hugo_symbol	MYH15	1
+by_ethnicity	not reported	hugo_symbol	NAE1	1
+by_ethnicity	not reported	hugo_symbol	NBEA	1
+by_ethnicity	not reported	hugo_symbol	NBEAL2	1
+by_ethnicity	not reported	hugo_symbol	NF1	5
+by_ethnicity	not reported	hugo_symbol	NLRP12	1
+by_ethnicity	not reported	hugo_symbol	NOMO1	1
+by_ethnicity	not reported	hugo_symbol	OAZ3	1
+by_ethnicity	not reported	hugo_symbol	ODAM	1
+by_ethnicity	not reported	hugo_symbol	OLFM3	1
+by_ethnicity	not reported	hugo_symbol	OR2J3	1
+by_ethnicity	not reported	hugo_symbol	OR2W5	1
+by_ethnicity	not reported	hugo_symbol	OTOP1	1
+by_ethnicity	not reported	hugo_symbol	OTUD3	1
+by_ethnicity	not reported	hugo_symbol	PAPOLA	1
+by_ethnicity	not reported	hugo_symbol	PCDHGC3	1
+by_ethnicity	not reported	hugo_symbol	PCK1	1
+by_ethnicity	not reported	hugo_symbol	PCYOX1	1
+by_ethnicity	not reported	hugo_symbol	PHACTR1	1
+by_ethnicity	not reported	hugo_symbol	PHIP	1
+by_ethnicity	not reported	hugo_symbol	PHLPP2	1
+by_ethnicity	not reported	hugo_symbol	PIF1	1
+by_ethnicity	not reported	hugo_symbol	PLCH1	1
+by_ethnicity	not reported	hugo_symbol	PMF1	1
+by_ethnicity	not reported	hugo_symbol	PNLIPRP2	1
+by_ethnicity	not reported	hugo_symbol	POPDC3	1
+by_ethnicity	not reported	hugo_symbol	POU6F2	1
+by_ethnicity	not reported	hugo_symbol	PPP1R13L	1
+by_ethnicity	not reported	hugo_symbol	PPP1R3F	1
+by_ethnicity	not reported	hugo_symbol	PREX2	1
+by_ethnicity	not reported	hugo_symbol	PRKAR1A	1
+by_ethnicity	not reported	hugo_symbol	PRKD2	1
+by_ethnicity	not reported	hugo_symbol	PRTG	1
+by_ethnicity	not reported	hugo_symbol	PSG8	1
+by_ethnicity	not reported	hugo_symbol	PSMA7	1
+by_ethnicity	not reported	hugo_symbol	PTPN14	1
+by_ethnicity	not reported	hugo_symbol	PTPRD	1
+by_ethnicity	not reported	hugo_symbol	PUM2	1
+by_ethnicity	not reported	hugo_symbol	PVALB	1
+by_ethnicity	not reported	hugo_symbol	R3HDML	1
+by_ethnicity	not reported	hugo_symbol	RAB35	1
+by_ethnicity	not reported	hugo_symbol	RBM12B	1
+by_ethnicity	not reported	hugo_symbol	RET	2
+by_ethnicity	not reported	hugo_symbol	RNF149	1
+by_ethnicity	not reported	hugo_symbol	RNF166	1
+by_ethnicity	not reported	hugo_symbol	ROBO3	1
+by_ethnicity	not reported	hugo_symbol	RORC	1
+by_ethnicity	not reported	hugo_symbol	RPGR	1
+by_ethnicity	not reported	hugo_symbol	RPRD2	1
+by_ethnicity	not reported	hugo_symbol	RSRC2	1
+by_ethnicity	not reported	hugo_symbol	RUNX1T1	1
+by_ethnicity	not reported	hugo_symbol	RYR1	2
+by_ethnicity	not reported	hugo_symbol	SALL4	1
+by_ethnicity	not reported	hugo_symbol	SCN10A	1
+by_ethnicity	not reported	hugo_symbol	SEC14L3	1
+by_ethnicity	not reported	hugo_symbol	SETD2	2
+by_ethnicity	not reported	hugo_symbol	SHISA2	1
+by_ethnicity	not reported	hugo_symbol	SHPRH	1
+by_ethnicity	not reported	hugo_symbol	SLC12A4	1
+by_ethnicity	not reported	hugo_symbol	SLC13A4	1
+by_ethnicity	not reported	hugo_symbol	SLC25A21	1
+by_ethnicity	not reported	hugo_symbol	SLC30A5	1
+by_ethnicity	not reported	hugo_symbol	SLC35A4	1
+by_ethnicity	not reported	hugo_symbol	SLC9A3	1
+by_ethnicity	not reported	hugo_symbol	SLITRK1	1
+by_ethnicity	not reported	hugo_symbol	SNRPD2	1
+by_ethnicity	not reported	hugo_symbol	SPDYA	1
+by_ethnicity	not reported	hugo_symbol	SPHKAP	1
+by_ethnicity	not reported	hugo_symbol	SPTA1	1
+by_ethnicity	not reported	hugo_symbol	SQOR	1
+by_ethnicity	not reported	hugo_symbol	SSTR3	1
+by_ethnicity	not reported	hugo_symbol	STXBP3	1
+by_ethnicity	not reported	hugo_symbol	SUN1	1
+by_ethnicity	not reported	hugo_symbol	SVIL	1
+by_ethnicity	not reported	hugo_symbol	SVOPL	1
+by_ethnicity	not reported	hugo_symbol	SYT9	1
+by_ethnicity	not reported	hugo_symbol	SYTL4	1
+by_ethnicity	not reported	hugo_symbol	SZT2	1
+by_ethnicity	not reported	hugo_symbol	TAOK2	1
+by_ethnicity	not reported	hugo_symbol	TAS2R8	1
+by_ethnicity	not reported	hugo_symbol	TBC1D32	1
+by_ethnicity	not reported	hugo_symbol	TCF4	1
+by_ethnicity	not reported	hugo_symbol	TGDS	3
+by_ethnicity	not reported	hugo_symbol	THBS2	1
+by_ethnicity	not reported	hugo_symbol	THSD1	1
+by_ethnicity	not reported	hugo_symbol	TMC1	1
+by_ethnicity	not reported	hugo_symbol	TMCO3	1
+by_ethnicity	not reported	hugo_symbol	TRHDE	3
+by_ethnicity	not reported	hugo_symbol	TRIM17	1
+by_ethnicity	not reported	hugo_symbol	TSPAN13	1
+by_ethnicity	not reported	hugo_symbol	TTN	1
+by_ethnicity	not reported	hugo_symbol	UNC79	2
+by_ethnicity	not reported	hugo_symbol	URM1	1
+by_ethnicity	not reported	hugo_symbol	USF3	1
+by_ethnicity	not reported	hugo_symbol	VCAM1	1
+by_ethnicity	not reported	hugo_symbol	VHL	1
+by_ethnicity	not reported	hugo_symbol	WASF4P	1
+by_ethnicity	not reported	hugo_symbol	WDR11	1
+by_ethnicity	not reported	hugo_symbol	WDR20	1
+by_ethnicity	not reported	hugo_symbol	WDR33	1
+by_ethnicity	not reported	hugo_symbol	WNT9B	1
+by_ethnicity	not reported	hugo_symbol	WT1	1
+by_ethnicity	not reported	hugo_symbol	XDH	1
+by_ethnicity	not reported	hugo_symbol	ZFP2	1
+by_ethnicity	not reported	hugo_symbol	ZKSCAN5	1
+by_ethnicity	not reported	hugo_symbol	ZMYM1	1
+by_ethnicity	not reported	hugo_symbol	ZNF394	1
+by_ethnicity	not reported	hugo_symbol	ZNF426	1
+by_ethnicity	not reported	hugo_symbol	ZNF519	1
+by_ethnicity	not reported	hugo_symbol	ZNF687	1
+by_ethnicity	not reported	hugo_symbol	ZNF777	1
+by_ethnicity	not reported	hugo_symbol	ZNF862	1
+by_ethnicity	not reported	hugo_symbol	ZNHIT1	1
+by_ethnicity	not reported	impact	HIGH	40
+by_ethnicity	not reported	impact	MODERATE	233
+by_ethnicity	not reported	impact	MODIFIER	7
+by_ethnicity	not reported	locationaa	ABCA12_p.Phe273Ile	2
+by_ethnicity	not reported	locationaa	ABCA13_p.Gly1711Val	1
+by_ethnicity	not reported	locationaa	ABCA13_p.Met1847Arg	1
+by_ethnicity	not reported	locationaa	ABCA2_p.Ala869Val	1
+by_ethnicity	not reported	locationaa	ABCC10_p.Pro1257Ser	1
+by_ethnicity	not reported	locationaa	ABCD1_p.Val497Leu	1
+by_ethnicity	not reported	locationaa	ACADM_p.Asp139Glu	1
+by_ethnicity	not reported	locationaa	ADAM20_p.Ile534Val	1
+by_ethnicity	not reported	locationaa	ADAMTS3_p.Arg203Ter	1
+by_ethnicity	not reported	locationaa	ADH4_p.Ser330ValfsTer2	1
+by_ethnicity	not reported	locationaa	AGBL2_p.Trp353Ter	1
+by_ethnicity	not reported	locationaa	AMER1_p.Pro128Leu	1
+by_ethnicity	not reported	locationaa	ANAPC7_p.Leu212PhefsTer3	1
+by_ethnicity	not reported	locationaa	ANGPTL2_p.Thr257Ser	1
+by_ethnicity	not reported	locationaa	ANO3_p.Tyr887Cys	1
+by_ethnicity	not reported	locationaa	ANXA5_p.Arg271Ser	1
+by_ethnicity	not reported	locationaa	AOPEP_p.Lys588Glu	1
+by_ethnicity	not reported	locationaa	APOL2_p.Thr131Ser	2
+by_ethnicity	not reported	locationaa	ARHGEF17_p.Asn1764ThrfsTer3	1
+by_ethnicity	not reported	locationaa	ARMCX3_p.Pro120Arg	1
+by_ethnicity	not reported	locationaa	ATF7IP_p.Ala647Pro	1
+by_ethnicity	not reported	locationaa	ATP6V1G3_p.Lys29Asn	1
+by_ethnicity	not reported	locationaa	ATRX_p.Arg1302LysfsTer7	1
+by_ethnicity	not reported	locationaa	ATRX_p.Asp972ArgfsTer30	1
+by_ethnicity	not reported	locationaa	ATRX_p.Glu1059AsnfsTer59	1
+by_ethnicity	not reported	locationaa	ATRX_p.Pro1886Leu	1
+by_ethnicity	not reported	locationaa	ATRX_p.Pro2292GlnfsTer28	2
+by_ethnicity	not reported	locationaa	AWAT1_p.Thr194Asn	1
+by_ethnicity	not reported	locationaa	BATF_p.Glu105Lys	1
+by_ethnicity	not reported	locationaa	BCR_p.Arg199His	1
+by_ethnicity	not reported	locationaa	BHLHE40_p.Arg268Lys	1
+by_ethnicity	not reported	locationaa	BICD1_p.Lys395Asn	1
+by_ethnicity	not reported	locationaa	BIRC6_p.Ala4490Val	1
+by_ethnicity	not reported	locationaa	BIRC6_p.Tyr1878Ter	1
+by_ethnicity	not reported	locationaa	BRD7_p.Ser408Gly	1
+by_ethnicity	not reported	locationaa	C12orf45_p.Pro95Arg	1
+by_ethnicity	not reported	locationaa	CA12_p.Gly137Arg	1
+by_ethnicity	not reported	locationaa	CCN4_p.Gly133Ser	1
+by_ethnicity	not reported	locationaa	CCT4_p.Asn472Ser	1
+by_ethnicity	not reported	locationaa	CD300LB_p.Cys58Tyr	1
+by_ethnicity	not reported	locationaa	CDK5RAP1_p.Pro75Leu	1
+by_ethnicity	not reported	locationaa	CDK5RAP2_p.Ser20Asn	1
+by_ethnicity	not reported	locationaa	CELSR3_p.Pro1046Leu	1
+by_ethnicity	not reported	locationaa	CHST10_p.Arg208Gln	1
+by_ethnicity	not reported	locationaa	CLCA1_p.Glu45Ala	1
+by_ethnicity	not reported	locationaa	CLCN1_p.Glu193Val	1
+by_ethnicity	not reported	locationaa	CMYA5_p.Leu2640Val	1
+by_ethnicity	not reported	locationaa	COG5_p.Ile169Thr	1
+by_ethnicity	not reported	locationaa	COL12A1_p.Ser469Ile	1
+by_ethnicity	not reported	locationaa	COL24A1_p.Asp1547Asn	1
+by_ethnicity	not reported	locationaa	CPEB1_p.Gly279Asp	1
+by_ethnicity	not reported	locationaa	CPSF7_p.Ala359GlyfsTer4	1
+by_ethnicity	not reported	locationaa	CRAT_p.Leu354Val	1
+by_ethnicity	not reported	locationaa	CSDE1_p.Lys442GlufsTer4	1
+by_ethnicity	not reported	locationaa	CSDE1_p.Lys496ArgfsTer14	1
+by_ethnicity	not reported	locationaa	CSTB_p.Glu62Lys	1
+by_ethnicity	not reported	locationaa	DAZAP2_p.Pro128Ser	1
+by_ethnicity	not reported	locationaa	DCDC1_p.Ser861Cys	1
+by_ethnicity	not reported	locationaa	DEFB112_p.Ile77Asn	1
+by_ethnicity	not reported	locationaa	DENND4A_p.Val1544Gly	1
+by_ethnicity	not reported	locationaa	DGKH_p.Lys864Glu	1
+by_ethnicity	not reported	locationaa	DHX37_p.Asp568Asn	1
+by_ethnicity	not reported	locationaa	DIP2C_p.Phe388Leu	1
+by_ethnicity	not reported	locationaa	DNAH3_p.Val3860Ala	1
+by_ethnicity	not reported	locationaa	DNAI3_p.Asp77Asn	1
+by_ethnicity	not reported	locationaa	DPP9_p.Thr115Met	1
+by_ethnicity	not reported	locationaa	DSN1_p.Thr310MetfsTer49	1
+by_ethnicity	not reported	locationaa	DUOX2_p.Lys1528Glu	1
+by_ethnicity	not reported	locationaa	DVL2_p.Pro679Ser	1
+by_ethnicity	not reported	locationaa	DYSF_p.Gly181Glu	1
+by_ethnicity	not reported	locationaa	ECHDC2_p.Glu44Lys	1
+by_ethnicity	not reported	locationaa	EHF_p.Tyr148Cys	1
+by_ethnicity	not reported	locationaa	EIF3L_p.Arg391Trp	1
+by_ethnicity	not reported	locationaa	ELOA_p.Gln252Ter	1
+by_ethnicity	not reported	locationaa	EPAS1_p.Pro531Ser	1
+by_ethnicity	not reported	locationaa	EPAS1_p.Tyr532Cys	1
+by_ethnicity	not reported	locationaa	EPB41_p.Ala502Glu	1
+by_ethnicity	not reported	locationaa	EPHA3_p.Val698Ile	1
+by_ethnicity	not reported	locationaa	ERCC6L_p.Pro1146Thr	1
+by_ethnicity	not reported	locationaa	F11R_p.Leu26Ser	1
+by_ethnicity	not reported	locationaa	FAF1_p.Ile230Val	1
+by_ethnicity	not reported	locationaa	FAM193B_p.Ala440Thr	1
+by_ethnicity	not reported	locationaa	FAT1_p.Thr3936Lys	1
+by_ethnicity	not reported	locationaa	FBXO33_p.Phe205Leu	1
+by_ethnicity	not reported	locationaa	FGFR1_p.Asn546Lys	1
+by_ethnicity	not reported	locationaa	FKBP9_p.Glu263Gln	3
+by_ethnicity	not reported	locationaa	FLT1_p.Glu758Ter	1
+by_ethnicity	not reported	locationaa	FNDC3A_p.Ile704Val	1
+by_ethnicity	not reported	locationaa	FOXI2_p.Met252Ile	1
+by_ethnicity	not reported	locationaa	FZD8_p.Val490Phe	1
+by_ethnicity	not reported	locationaa	GABBR1_p.Pro733Ser	1
+by_ethnicity	not reported	locationaa	GABRA4_p.Phe322Leu	2
+by_ethnicity	not reported	locationaa	GGT1_p.Asp198Val	1
+by_ethnicity	not reported	locationaa	GIPC2_p.Gly113Glu	1
+by_ethnicity	not reported	locationaa	GLB1L3_p.Gly541Cys	1
+by_ethnicity	not reported	locationaa	GPR132_p.Thr298Met	1
+by_ethnicity	not reported	locationaa	H1-0_p.Ile114Val	1
+by_ethnicity	not reported	locationaa	HABP2_p.Gln279Glu	1
+by_ethnicity	not reported	locationaa	HCN1_p.Arg781Trp	1
+by_ethnicity	not reported	locationaa	HDHD5_p.Leu259Pro	1
+by_ethnicity	not reported	locationaa	HMGCS2_p.Cys194Phe	1
+by_ethnicity	not reported	locationaa	HRAS_p.Gln61Arg	1
+by_ethnicity	not reported	locationaa	ILDR1_p.Ala128Val	1
+by_ethnicity	not reported	locationaa	IQSEC2_p.Gln1036His	1
+by_ethnicity	not reported	locationaa	ITGB1_p.Arg175del	2
+by_ethnicity	not reported	locationaa	ITPR3_p.Glu1731Lys	1
+by_ethnicity	not reported	locationaa	IWS1_p.Ser321Pro	1
+by_ethnicity	not reported	locationaa	JMJD1C_p.Ser1192Cys	1
+by_ethnicity	not reported	locationaa	JUN_p.Gln218Ter	1
+by_ethnicity	not reported	locationaa	KATNIP_p.Arg809Gln	1
+by_ethnicity	not reported	locationaa	KCNA6_p.Val179Ile	1
+by_ethnicity	not reported	locationaa	KIAA0319_p.Pro237Ser	1
+by_ethnicity	not reported	locationaa	KIF2B_p.Thr500Pro	1
+by_ethnicity	not reported	locationaa	KLHL22_p.Leu105Gln	1
+by_ethnicity	not reported	locationaa	KLHL7_p.Gly440Val	1
+by_ethnicity	not reported	locationaa	KRT35_p.Ala21Ser	1
+by_ethnicity	not reported	locationaa	LAMC1_p.Arg1116His	1
+by_ethnicity	not reported	locationaa	LARP1_p.Met836Lys	1
+by_ethnicity	not reported	locationaa	LEXM_p.Pro286Leu	1
+by_ethnicity	not reported	locationaa	LHX1_p.Gln174Lys	1
+by_ethnicity	not reported	locationaa	LIN9_p.Arg371Gln	1
+by_ethnicity	not reported	locationaa	LMTK2_p.Ala399Thr	1
+by_ethnicity	not reported	locationaa	LRP1_p.Leu704Pro	1
+by_ethnicity	not reported	locationaa	MAGEC1_p.Gly944Cys	1
+by_ethnicity	not reported	locationaa	MAML3_p.Pro840Ser	1
+by_ethnicity	not reported	locationaa	MCHR2_p.Gln279Glu	1
+by_ethnicity	not reported	locationaa	MED12_p.His1328Gln	1
+by_ethnicity	not reported	locationaa	MEPE_p.Pro473His	1
+by_ethnicity	not reported	locationaa	MGAM_p.Glu89Ter	1
+by_ethnicity	not reported	locationaa	MGST1_p.Gly112Arg	1
+by_ethnicity	not reported	locationaa	MICAL1_p.Ala341Val	1
+by_ethnicity	not reported	locationaa	MINDY3_p.Pro126Ser	1
+by_ethnicity	not reported	locationaa	MLXIP_p.Arg168Trp	1
+by_ethnicity	not reported	locationaa	MMP15_p.Asn521Ser	1
+by_ethnicity	not reported	locationaa	MORN4_p.Cys127Gly	1
+by_ethnicity	not reported	locationaa	MRC2_p.Gly100Asp	1
+by_ethnicity	not reported	locationaa	MSANTD4_p.His182Asp	1
+by_ethnicity	not reported	locationaa	MUC16_p.Phe13519Leu	1
+by_ethnicity	not reported	locationaa	MUC16_p.Pro8968Ser	1
+by_ethnicity	not reported	locationaa	MUC16_p.Tyr12493Ter	1
+by_ethnicity	not reported	locationaa	MUC17_p.Glu3573Val	1
+by_ethnicity	not reported	locationaa	MYH15_p.Asp1189Glu	1
+by_ethnicity	not reported	locationaa	NAE1_p.Gln94ThrfsTer5	1
+by_ethnicity	not reported	locationaa	NBEAL2_p.Asp1286Val	1
+by_ethnicity	not reported	locationaa	NBEA_p.Leu509Ser	1
+by_ethnicity	not reported	locationaa	NF1_p.Gln400Ter	1
+by_ethnicity	not reported	locationaa	NF1_p.Gly1532GlufsTer42	1
+by_ethnicity	not reported	locationaa	NF1_p.Lys189AsnfsTer2	1
+by_ethnicity	not reported	locationaa	NF1_p.Ser413Ter	1
+by_ethnicity	not reported	locationaa	NF1_p.Trp784Arg	1
+by_ethnicity	not reported	locationaa	NLRP12_p.Arg138Gln	1
+by_ethnicity	not reported	locationaa	NOMO1_p.Ser896Pro	1
+by_ethnicity	not reported	locationaa	OAZ3_p.Ser78Phe	1
+by_ethnicity	not reported	locationaa	ODAM_p.Pro20Arg	1
+by_ethnicity	not reported	locationaa	OLFM3_p.Asp258Asn	1
+by_ethnicity	not reported	locationaa	OR2J3_p.Met203Thr	1
+by_ethnicity	not reported	locationaa	OTOP1_p.Pro385Leu	1
+by_ethnicity	not reported	locationaa	OTUD3_p.Gly302Ser	1
+by_ethnicity	not reported	locationaa	PAPOLA_p.Gln601HisfsTer22	1
+by_ethnicity	not reported	locationaa	PCDHGC3_p.Leu174Val	1
+by_ethnicity	not reported	locationaa	PCK1_p.Ile228Phe	1
+by_ethnicity	not reported	locationaa	PCYOX1_p.Arg3Cys	1
+by_ethnicity	not reported	locationaa	PHIP_p.Tyr1103Cys	1
+by_ethnicity	not reported	locationaa	PHLPP2_p.Ile251Met	1
+by_ethnicity	not reported	locationaa	PIF1_p.Ala581Val	1
+by_ethnicity	not reported	locationaa	PLCH1_p.His449Arg	1
+by_ethnicity	not reported	locationaa	PMF1_p.Phe45SerfsTer15	1
+by_ethnicity	not reported	locationaa	PNLIPRP2_p.Arg87His	1
+by_ethnicity	not reported	locationaa	POPDC3_p.Ala145Val	1
+by_ethnicity	not reported	locationaa	POU6F2_p.Ala116Val	1
+by_ethnicity	not reported	locationaa	PPP1R13L_p.Gly92Ala	1
+by_ethnicity	not reported	locationaa	PPP1R3F_p.Ala790Val	1
+by_ethnicity	not reported	locationaa	PREX2_p.Glu359Asp	1
+by_ethnicity	not reported	locationaa	PRKD2_p.Ala519Ser	1
+by_ethnicity	not reported	locationaa	PRTG_p.Gln125_Ala130del	1
+by_ethnicity	not reported	locationaa	PSG8_p.Gly136Arg	1
+by_ethnicity	not reported	locationaa	PSMA7_p.Gln54Ter	1
+by_ethnicity	not reported	locationaa	PTPN14_p.Ile1138Met	1
+by_ethnicity	not reported	locationaa	PTPRD_p.Ala1413Asp	1
+by_ethnicity	not reported	locationaa	PUM2_p.Gly668Glu	1
+by_ethnicity	not reported	locationaa	PVALB_p.Asp23Asn	1
+by_ethnicity	not reported	locationaa	R3HDML_p.Arg54Gln	1
+by_ethnicity	not reported	locationaa	RAB35_p.His82Tyr	1
+by_ethnicity	not reported	locationaa	RBM12B_p.Ile518Val	1
+by_ethnicity	not reported	locationaa	RET_p.Met918Thr	2
+by_ethnicity	not reported	locationaa	RNF149_p.Gly396Arg	1
+by_ethnicity	not reported	locationaa	RNF166_p.Pro70Ser	1
+by_ethnicity	not reported	locationaa	ROBO3_p.Val254Ala	1
+by_ethnicity	not reported	locationaa	RORC_p.Gly340Asp	1
+by_ethnicity	not reported	locationaa	RPGR_p.Pro471Thr	1
+by_ethnicity	not reported	locationaa	RPRD2_p.His73Gln	1
+by_ethnicity	not reported	locationaa	RSRC2_p.Gln395Ter	1
+by_ethnicity	not reported	locationaa	RUNX1T1_p.Pro318Leu	1
+by_ethnicity	not reported	locationaa	RYR1_p.Arg1100His	1
+by_ethnicity	not reported	locationaa	RYR1_p.Ser1778Leu	1
+by_ethnicity	not reported	locationaa	SALL4_p.Cys571Tyr	1
+by_ethnicity	not reported	locationaa	SCN10A_p.Leu742Pro	1
+by_ethnicity	not reported	locationaa	SEC14L3_p.Gly243AlafsTer3	1
+by_ethnicity	not reported	locationaa	SETD2_p.Thr2037Arg	2
+by_ethnicity	not reported	locationaa	SHISA2_p.Ser176Leu	1
+by_ethnicity	not reported	locationaa	SHPRH_p.Leu795Ile	1
+by_ethnicity	not reported	locationaa	SLC12A4_p.Trp501Arg	1
+by_ethnicity	not reported	locationaa	SLC13A4_p.Val512Met	1
+by_ethnicity	not reported	locationaa	SLC25A21_p.Gly102Glu	1
+by_ethnicity	not reported	locationaa	SLC30A5_p.Ser414Thr	1
+by_ethnicity	not reported	locationaa	SLC35A4_p.Glu207Ter	1
+by_ethnicity	not reported	locationaa	SLC9A3_p.Glu477Lys	1
+by_ethnicity	not reported	locationaa	SLITRK1_p.Gly100Glu	1
+by_ethnicity	not reported	locationaa	SNRPD2_p.Val36ArgfsTer20	1
+by_ethnicity	not reported	locationaa	SPDYA_p.Ser311Arg	1
+by_ethnicity	not reported	locationaa	SPHKAP_p.Ser634Asn	1
+by_ethnicity	not reported	locationaa	SPTA1_p.Glu2358Lys	1
+by_ethnicity	not reported	locationaa	SQOR_p.Cys18Ser	1
+by_ethnicity	not reported	locationaa	SSTR3_p.Arg333His	1
+by_ethnicity	not reported	locationaa	STXBP3_p.Asn398IlefsTer8	1
+by_ethnicity	not reported	locationaa	SUN1_p.Gly161Val	1
+by_ethnicity	not reported	locationaa	SVIL_p.Asp64Glu	1
+by_ethnicity	not reported	locationaa	SVOPL_p.Leu310Phe	1
+by_ethnicity	not reported	locationaa	SYT9_p.Lys271Asn	1
+by_ethnicity	not reported	locationaa	SYTL4_p.Ile265Phe	1
+by_ethnicity	not reported	locationaa	SZT2_p.Ser2347Ter	1
+by_ethnicity	not reported	locationaa	TAOK2_p.Phe19LeufsTer4	1
+by_ethnicity	not reported	locationaa	TAS2R8_p.Tyr107Cys	1
+by_ethnicity	not reported	locationaa	TCF4_p.Val613Ile	1
+by_ethnicity	not reported	locationaa	TGDS_p.Asp143Asn	3
+by_ethnicity	not reported	locationaa	THBS2_p.Thr16Met	1
+by_ethnicity	not reported	locationaa	THSD1_p.Val44Ala	1
+by_ethnicity	not reported	locationaa	TMC1_p.Cys548Trp	1
+by_ethnicity	not reported	locationaa	TMCO3_p.Ile33Met	1
+by_ethnicity	not reported	locationaa	TRHDE_p.Asn929Lys	3
+by_ethnicity	not reported	locationaa	TRIM17_p.Gly361Trp	1
+by_ethnicity	not reported	locationaa	TSPAN13_p.Ala155Val	1
+by_ethnicity	not reported	locationaa	TTN_p.Tyr25112Cys	1
+by_ethnicity	not reported	locationaa	UNC79_p.Ile2048Val	1
+by_ethnicity	not reported	locationaa	UNC79_p.Met2559Ile	1
+by_ethnicity	not reported	locationaa	URM1_p.Gln32Leu	1
+by_ethnicity	not reported	locationaa	USF3_p.Asn1456Asp	1
+by_ethnicity	not reported	locationaa	VCAM1_p.Trp59Cys	1
+by_ethnicity	not reported	locationaa	VHL_p.Asp126dup	1
+by_ethnicity	not reported	locationaa	WDR11_p.Trp121Cys	1
+by_ethnicity	not reported	locationaa	WDR20_p.Phe247Leu	1
+by_ethnicity	not reported	locationaa	WDR33_p.Ala200Val	1
+by_ethnicity	not reported	locationaa	WNT9B_p.Ala190Glu	1
+by_ethnicity	not reported	locationaa	WT1_p.His247Asn	1
+by_ethnicity	not reported	locationaa	XDH_p.Asn894Ser	1
+by_ethnicity	not reported	locationaa	ZFP2_p.Ile140Val	1
+by_ethnicity	not reported	locationaa	ZKSCAN5_p.Val598Ile	1
+by_ethnicity	not reported	locationaa	ZMYM1_p.Ala672Pro	1
+by_ethnicity	not reported	locationaa	ZNF394_p.Arg542Gln	1
+by_ethnicity	not reported	locationaa	ZNF426_p.His20Tyr	1
+by_ethnicity	not reported	locationaa	ZNF519_p.Leu81Ser	1
+by_ethnicity	not reported	locationaa	ZNF687_p.Pro631Ser	1
+by_ethnicity	not reported	locationaa	ZNF777_p.Arg70Gln	1
+by_ethnicity	not reported	locationaa	ZNF862_p.Leu248Pro	1
+by_ethnicity	not reported	locationaa	ZNHIT1_p.Arg16Trp	1
+by_ethnicity	not reported	polyphen	benign	29
+by_ethnicity	not reported	polyphen	possibly_damaging	23
+by_ethnicity	not reported	polyphen	probably_damaging	40
+by_ethnicity	not reported	sift	deleterious	46
+by_ethnicity	not reported	sift	deleterious_low_confidence	12
+by_ethnicity	not reported	sift	tolerated	35
+by_ethnicity	not reported	sift	tolerated_low_confidence	7
+by_ethnicity	not reported	variant_class	SNV	255
+by_ethnicity	not reported	variant_class	deletion	21
+by_ethnicity	not reported	variant_class	insertion	4
+by_ethnicity	not reported	variant_classification	Frame_Shift_Del	18
+by_ethnicity	not reported	variant_classification	Frame_Shift_Ins	3
+by_ethnicity	not reported	variant_classification	In_Frame_Del	3
+by_ethnicity	not reported	variant_classification	In_Frame_Ins	1
+by_ethnicity	not reported	variant_classification	Intron	4
+by_ethnicity	not reported	variant_classification	Missense_Mutation	229
+by_ethnicity	not reported	variant_classification	Nonsense_Mutation	14
+by_ethnicity	not reported	variant_classification	RNA	3
+by_ethnicity	not reported	variant_classification	Splice_Site	5

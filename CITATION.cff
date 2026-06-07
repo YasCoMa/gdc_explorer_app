@@ -1,0 +1,10 @@
+cff-version: 1.0.0
+message: "If you use this software, please cite it as below."
+title: "GDC Exploratory Data Analysis Portal for Coverage & Demographic subgroup stratification"
+version: 1.0.0
+date-released: 2025-12-14
+url: "https://github.com/YasCoMa/gdc_explorer_app"
+authors:
+- family-names: "Martins"
+  given-names: "Yasmmin"
+  orcid: "https://orcid.org/0000-0002-6830-1948"

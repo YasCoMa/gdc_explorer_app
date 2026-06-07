@@ -1,0 +1,143 @@
+  0%|          | 0/33 [00:00<?, ?it/s]  6%|▌         | 2/33 [00:02<00:41,  1.34s/it]  9%|▉         | 3/33 [00:07<01:25,  2.85s/it] 12%|█▏        | 4/33 [00:08<01:06,  2.28s/it] 15%|█▌        | 5/33 [00:09<00:50,  1.81s/it]2026-01-08 23:52:26,125 [ERROR] No hits returned for all input gene sets!
+ 18%|█▊        | 6/33 [00:18<01:50,  4.09s/it]2026-01-08 23:52:30,919 [ERROR] No hits returned for all input gene sets!
+2026-01-08 23:52:30,974 [ERROR] No hits returned for all input gene sets!
+ 24%|██▍       | 8/33 [00:20<01:05,  2.60s/it] 30%|███       | 10/33 [00:24<00:51,  2.25s/it]2026-01-08 23:52:36,666 [ERROR] No hits returned for all input gene sets!
+ 33%|███▎      | 11/33 [00:26<00:48,  2.20s/it]Fitting size factors...
+... done in 0.39 seconds.
+
+-------> TCGA-ACC
+-------> TCGA-ACC
+Not enough info for DEGs in project  TCGA-ACC
+-------> TCGA-BLCA
+	 all 40
+	 gender male 22
+	 gender female 18
+
+
+-------> TCGA-BLCA
+-------> TCGA-BRCA
+	 all 235
+
+
+-------> TCGA-BRCA
+-------> TCGA-CESC
+	 all 6
+	 race black or african american 2
+	 race white 4
+
+
+-------> TCGA-CESC
+-------> TCGA-CHOL
+	 all 16
+
+
+-------> TCGA-CHOL
+-------> TCGA-COAD
+	 all 87
+	 race not reported 40
+	 race white 39
+	 race black or african american 6
+	 race american indian or alaska native 2
+	 gender male 42
+	 gender female 45
+	 ethnicity not reported 40
+	 ethnicity not hispanic or latino 47
+
+
+-------> TCGA-COAD
+-------> TCGA-DLBC
+-------> TCGA-DLBC
+Not enough info for DEGs in project  TCGA-DLBC
+-------> TCGA-ESCA
+	 all 26
+	 gender male 16
+	 gender female 10
+	 ethnicity not hispanic or latino 10
+	 ethnicity not reported 16
+
+
+-------> TCGA-ESCA
+-------> TCGA-GBM
+-------> TCGA-GBM
+Not enough info for DEGs in project  TCGA-GBM
+-------> TCGA-HNSC
+	 all 86
+	 gender male 58
+	 gender female 28
+
+
+-------> TCGA-HNSC
+-------> TCGA-KICH
+	 all 50
+	 gender female 24
+	 gender male 26
+	 ethnicity hispanic or latino 2
+	 ethnicity Unknown 4
+	 ethnicity not hispanic or latino 22
+	 ethnicity not reported 22
+
+
+-------> TCGA-KICH
+-------> TCGA-KIRC
+Using None as control genes, passed at DeseqDataSet initialization
+Fitting dispersions...
+... done in 17.83 seconds.
+
+Fitting dispersion trend curve...
+... done in 1.34 seconds.
+
+Fitting MAP dispersions...
+... done in 23.30 seconds.
+
+Fitting LFCs...
+... done in 11.68 seconds.
+
+Calculating cook's distance...
+... done in 1.21 seconds.
+
+Replacing 2502 outlier genes.
+
+Fitting dispersions...
+... done in 1.08 seconds.
+
+Fitting MAP dispersions...
+... done in 1.03 seconds.
+
+Fitting LFCs...
+... done in 0.71 seconds.
+
+Running Wald tests...
+... done in 4.87 seconds.
+
+ 33%|███▎      | 11/33 [01:58<03:57, 10.78s/it]
+Log2 fold change & Wald test p-value, contrast vector: [0 1]
+               baseMean  log2FoldChange  ...        pvalue          padj
+DDX10P1        4.506234        0.556044  ...  1.290901e-03  2.544896e-03
+DEFB4A         0.050111       -0.088790  ...  9.661523e-01           NaN
+HNRNPA1P48   157.958206        0.521313  ...  5.514469e-10  2.042128e-09
+MEF2C-AS2      3.265579        0.111597  ...  5.588904e-01  6.270980e-01
+DEDD        1332.366640        0.256329  ...  7.529173e-09  2.550100e-08
+...                 ...             ...  ...           ...           ...
+AC074290.1     0.300587       -0.784436  ...  2.860193e-01  3.559951e-01
+AL031602.2    15.063918        0.866858  ...  3.168625e-11  1.293063e-10
+AC008443.2     1.067997       -0.052361  ...  8.523366e-01  8.837756e-01
+ARHGAP40      62.581959       -1.187689  ...  1.783777e-03  3.448200e-03
+RNU6-1175P     0.000000             NaN  ...           NaN           NaN
+
+[59427 rows x 6 columns]
+	 all 144
+
+
+-------> TCGA-KIRC
+Traceback (most recent call last):
+  File "/var/www/html/gdcexplorer_app/processing_scripts/handle_geneset_enrichment.py", line 663, in <module>
+    o.run()
+  File "/var/www/html/gdcexplorer_app/processing_scripts/handle_geneset_enrichment.py", line 659, in run
+    self.perform_degs_localEnrichment_simulation(p)
+  File "/var/www/html/gdcexplorer_app/processing_scripts/handle_geneset_enrichment.py", line 609, in perform_degs_localEnrichment_simulation
+    allnu, allnd = self.test_differential_expression(outdir, ide, metadata, counts_df)
+  File "/var/www/html/gdcexplorer_app/processing_scripts/handle_geneset_enrichment.py", line 255, in test_differential_expression
+    dds = DeseqDataSet( counts=counts_df, metadata=metadata, design="~condition", refit_cooks=True, inference=inference, )
+  File "/aloy/home/ymartins/miniconda3/envs/cc_env/lib/python3.10/site-packages/pydeseq2/dds.py", line 250, in __init__
+    raise ValueError(
+ValueError: Either adata or both counts and metadata arguments must be provided.
