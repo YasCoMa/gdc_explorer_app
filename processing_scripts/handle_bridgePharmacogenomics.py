@@ -1,6 +1,7 @@
 import os
 import json
 import gzip
+import requests
 
 import numpy as np
 import pandas as pd
@@ -351,9 +352,241 @@ class HandleBridgePharcogenomicsAnalysis:
             if( os.path.getsize(opath) == 2 ):
                 print(project)
 
+    def _prepare_drugs_list(self):
+        drugs = set()
+        cvdb = self.get_civic_data()
+        for mut in cvdb:
+            cvdat = cvdb[mut]
+            drugs.update( list( map( lambda x: x["drug"], cvdat )) )
+
+        for project in tqdm(self.projects):
+            indir = os.path.join(self.data_dir, project)
+            dcases = self.proc._get_cases_metadata(project)
+
+            datcat = 'simple nucleotide variation'
+            odir, fsodir, file_list = self.proc.get_case_files_by_data_category(project, datcat)
+            path = os.path.join(odir, "data_merge_pharmaco_mutations.tsv")
+            df = pd.read_csv( path, sep='\t')
+            drugs.update( df.drug.values )
+
+        drugs = list( filter( lambda x: type(x) == str, drugs ) )
+        opath = os.path.join( self.out, "all_drugs.txt")
+        f = open( opath, 'w')
+        f.write( '\n'.join(drugs) )
+        f.close()
+
+    def get_smiles_from_graphql_pdb(self):
+        """
+        the file /mnt/yasdata/home/yasmmin/Dropbox/portfolio_2025/gdc_explorer_app_web/gdc_exploration_project/map_ligands_smiles.tsv has the mapping between ligand id pdb to smiles.
+        To get all available durgbank ligand entries in pdb, go to advanced search, chemical search tab >> filters: Lineage Identifier - ATC (WHO) is L ; Resource Name is Drugbank
+        The antibody-based drugs such as bevacizumab cannot be found this way, only the inhibitors, because they are not ligands or small molecules
+
+        Ligands 3-letter ids:
+        032,07J,09L,0LI,0WM,0XZ,1C9,1E8,1K5,1LT,1N1,1XJ,2HB,2K2,2TA,2YQ,3E8,3EW,3JD,3JW,3WF,40L,4BM,4J8,4MK,5AE,5OG,5P8,5SF,62G,69Q,6E2,6GY,6K9,6T3,6V8,6ZV,6ZZ,72Q,78P,7GI,8JC,8ZF,9CR,9JI,9NQ,9RA,9TP,9UO,A1AAC,A1B7W,A1CI6,A1D8L,A1EK0,A1ESZ,A1JCR,A1JRF,A1JS8,A1JSO,A26,A4I,A9L,AER,AQ4,AR3,ASW,AV9,AXI,AY7,B49,BAX,BBJ,BLM,BO2,C6F,C87,CBL,CEL,CFB,CL9,CP0,CPT,CTX,D16,DB8,DCF,DES,DM1,DM2,DM5,DS9,DX4,ECT,EFD,EMH,EOU,EUI,EVP,EXM,FK5,FMM,FVT,G65,GEO,GZX,HFT,HMT,HSM,I0V,ICQ,IRE,IV3,J33,J8C,JEU,JGQ,LBH,LBM,LEV,LON,LQQ,LYA,MGB,MI1,MIX,MOA,MTX,NHY,NIL,O6U,P06,P30,P31,P7D,PM6,PWV,Q4J,QO7,QOM,QWP,R1Q,RAP,REA,RPB,RQ3,RXT,S4R,SHH,STI,T0R,TA1,TIZ,TTC,TXL,TZ0,UKI,URF,VGH,VH6,VIS,VLB,VUC,XIN,XQQ,Y7W,YMX,YY3,ZD6,ZIY
+        https://data.rcsb.org/graphiql/index.html?query=query%20molecule%20(%24id%3A%20String!)%20%7B%0A%20%20%20%20chem_comp(comp_id%3A%24id)%7B%0A%20%20%20%20%20%20%20%20chem_comp%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20id%0A%20%20%20%20%20%20%20%20%20%20%20%20name%0A%20%20%20%20%20%20%20%20%20%20%20%20formula%0A%20%20%20%20%20%20%20%20%20%20%20%20pdbx_formal_charge%0A%20%20%20%20%20%20%20%20%20%20%20%20formula_weight%0A%20%20%20%20%20%20%20%20%20%20%20%20type%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20pdbx_reference_molecule%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20prd_id%0A%20%20%20%20%20%20%20%20%20%20%20%20chem_comp_id%0A%20%20%20%20%20%20%20%20%20%20%20%20type%0A%20%20%20%20%20%20%20%20%20%20%20%20class%0A%20%20%20%20%20%20%20%20%20%20%20%20name%0A%20%20%20%20%20%20%20%20%20%20%20%20represent_as%0A%20%20%20%20%20%20%20%20%20%20%20%20representative_PDB_id_code%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20rcsb_chem_comp_info%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20atom_count%0A%20%20%20%20%20%20%20%20%20%20%20%20bond_count%0A%20%20%20%20%20%20%20%20%20%20%20%20bond_count_aromatic%0A%20%20%20%20%20%20%20%20%20%20%20%20atom_count_chiral%0A%20%20%20%20%20%20%20%20%20%20%20%20initial_deposition_date%0A%20%20%20%20%20%20%20%20%20%20%20%20revision_date%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20rcsb_chem_comp_descriptor%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20InChI%0A%20%20%20%20%20%20%20%20%20%20%20%20InChIKey%0A%20%20%20%20%20%20%20%20%20%20%20%20SMILES%0A%20%20%20%20%20%20%20%20%20%20%20%20SMILES_stereo%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20pdbx_reference_entity_poly_seq%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20observed%0A%20%20%20%20%20%20%20%20%20%20%20%20mon_id%0A%20%20%20%20%20%20%20%20%20%20%20%20num%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20pdbx_chem_comp_identifier%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20identifier%0A%20%20%20%20%20%20%20%20%20%20%20%20program%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20pdbx_chem_comp_descriptor%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20type%0A%20%20%20%20%20%20%20%20%20%20%20%20descriptor%0A%20%20%20%20%20%20%20%20%20%20%20%20program%0A%20%20%20%20%20%20%20%20%20%20%20%20program_version%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20rcsb_chem_comp_synonyms%20%7B%0A%20%20%20%20%20%20%20%20%20%20name%0A%20%20%20%20%20%20%20%20%20%20type%0A%20%20%20%20%20%20%20%20%20%20provenance_source%0A%20%20%20%20%20%20%20%20%7D%20%0A%20%20%20%20%20%20%20%20drugbank%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20drugbank_info%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20drugbank_id%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20cas_number%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20drug_categories%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20mechanism_of_action%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20synonyms%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20name%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20drug_groups%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20description%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20affected_organisms%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20brand_names%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20indication%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20pharmacology%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20atc_codes%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20drugbank_target%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20target_actions%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20name%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20interaction_type%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20seq_one_letter_code%0A%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20rcsb_chem_comp_related%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20resource_name%0A%20%20%20%20%20%20%20%20%20%20%20%20resource_accession_code%0A%20%20%20%20%20%20%20%20%7D%20%0A%20%20%20%20%7D%0A%7D%0A&variables=%7B%0A%20%20%22id%22%3A%20%225P8%22%0A%7D
+        """
+        ids = "032,07J,09L,0LI,0WM,0XZ,1C9,1E8,1K5,1LT,1N1,1XJ,2HB,2K2,2TA,2YQ,3E8,3EW,3JD,3JW,3WF,40L,4BM,4J8,4MK,5AE,5OG,5P8,5SF,62G,69Q,6E2,6GY,6K9,6T3,6V8,6ZV,6ZZ,72Q,78P,7GI,8JC,8ZF,9CR,9JI,9NQ,9RA,9TP,9UO,A1AAC,A1B7W,A1CI6,A1D8L,A1EK0,A1ESZ,A1JCR,A1JRF,A1JS8,A1JSO,A26,A4I,A9L,AER,AQ4,AR3,ASW,AV9,AXI,AY7,B49,BAX,BBJ,BLM,BO2,C6F,C87,CBL,CEL,CFB,CL9,CP0,CPT,CTX,D16,DB8,DCF,DES,DM1,DM2,DM5,DS9,DX4,ECT,EFD,EMH,EOU,EUI,EVP,EXM,FK5,FMM,FVT,G65,GEO,GZX,HFT,HMT,HSM,I0V,ICQ,IRE,IV3,J33,J8C,JEU,JGQ,LBH,LBM,LEV,LON,LQQ,LYA,MGB,MI1,MIX,MOA,MTX,NHY,NIL,O6U,P06,P30,P31,P7D,PM6,PWV,Q4J,QO7,QOM,QWP,R1Q,RAP,REA,RPB,RQ3,RXT,S4R,SHH,STI,T0R,TA1,TIZ,TTC,TXL,TZ0,UKI,URF,VGH,VH6,VIS,VLB,VUC,XIN,XQQ,Y7W,YMX,YY3,ZD6,ZIY".split(",")
+        url = "https://data.rcsb.org/graphql"
+        graphql_query = """
+
+query molecule ($id: String!) {
+    chem_comp(comp_id: $id){
+        chem_comp {
+            id
+            name
+            formula
+            pdbx_formal_charge
+            formula_weight
+            type
+        }
+        pdbx_reference_molecule {
+            prd_id
+            chem_comp_id
+            type
+            class
+            name
+            represent_as
+            representative_PDB_id_code
+        }
+        rcsb_chem_comp_info {
+            atom_count
+            bond_count
+            bond_count_aromatic
+            atom_count_chiral
+            initial_deposition_date
+            revision_date
+        }
+        rcsb_chem_comp_descriptor {
+            InChI
+            InChIKey
+            SMILES
+            SMILES_stereo
+        }
+        pdbx_reference_entity_poly_seq {
+            observed
+            mon_id
+            num
+        }
+        pdbx_chem_comp_identifier {
+            identifier
+            program
+        }
+        pdbx_chem_comp_descriptor {
+            type
+            descriptor
+            program
+            program_version
+        }
+        rcsb_chem_comp_synonyms {
+          name
+          type
+          provenance_source
+        } 
+        drugbank {
+            drugbank_info {
+                drugbank_id
+                cas_number
+                drug_categories
+                mechanism_of_action
+                synonyms
+                name
+                drug_groups
+                description
+                affected_organisms
+                brand_names
+                indication
+                pharmacology
+                atc_codes
+            }
+            drugbank_target {
+                target_actions
+                name
+                interaction_type
+                seq_one_letter_code
+            }
+        }
+        rcsb_chem_comp_related {
+            resource_name
+            resource_accession_code
+        } 
+    }
+}
+
+        """
+        opath = os.path.join(self.out, "map_drugbank_ligPdb_smiles.tsv")
+        if( not os.path.exists(opath) ):
+            header = ["lig", "name", "smiles"]
+            lines = [ header ]
+            for _id in tqdm(ids):
+                variables = {"id": _id}
+                payload = {
+                    "query": graphql_query,
+                    "variables": variables
+                }
+                response = requests.post( url, data = json.dumps(payload), headers = {'Content-Type': 'application/json'} )
+                
+                # Check and display the parsed JSON data
+                if response.status_code == 200:
+                    data = response.json()["data"]
+                    lig = data["chem_comp"]["chem_comp"]["id"]
+                    name = data["chem_comp"]["drugbank"]["drugbank_info"]["name"]
+                    smiles = data["chem_comp"]["rcsb_chem_comp_descriptor"]["SMILES"]
+                    lines.append([lig, name, smiles])
+                else:
+                    print(f"Query failed with status code {response.status_code}")
+
+            lines = list( map( lambda x: '\t'.join( [ str(y) for y in x ] ), lines ))
+            f = open( opath, "w")
+            f.write("\n".join(lines) + "\n")
+            f.close()
+
+        df = pd.read_csv(opath, sep='\t')
+        smis = df.smiles.values
+        opath = os.path.join( self.out, "smiles_for_admetpred.txt")
+        f = open( opath, 'w')
+        f.write( '\n'.join(smis) )
+        f.close()
+
+    def get_smiles_from_chembl(self):
+        path = os.path.join( self.out, "all_drugs.txt")
+        drugs = open( path, 'r' ).read().split('\n')
+
+        import sqlite3
+        db_path = '/mnt/yasdata/home/yasmmin/Dropbox/portfolio_2025/gdc_explorer_app_web/gdc_exploration_project/Unconfirmed 402173.crdownload' 
+        conn = sqlite3.connect(db_path)
+        cursor = conn.cursor()
+
+        # 2. Define the target compound name (e.g., 'Aspirin' or 'Ibuprofen')
+        compound_name = 'Aspirin'
+
+        # 3. Execute the SQL query
+        query = """
+        SELECT md.molregno, md.pref_name, cs.canonical_smiles
+        FROM molecule_dictionary md
+        JOIN compound_structures cs ON md.molregno = cs.molregno
+        WHERE md.pref_name LIKE ?
+        """
+
+        mapp = {}
+        for drug in drugs:
+            # We use % around the name to act as a wildcard in case of exact casing mismatches
+            cursor.execute(query, (f"%{drug}%",))
+            results = cursor.fetchall()
+
+            # 4. Display the results
+            for row in results:
+                molregno, pref_name, smiles = row
+                print(f"ChEMBL ID: {molregno}")
+                print(f"Name: {pref_name}")
+                print(f"SMILES: {smiles}\n")
+                mapp[drug] = smiles
+        opath = os.path.join( self.out, "drug_smiles.json" )
+
+    def clean_drug_names(self):
+        path = os.path.join( self.out, "all_drugs.txt")
+        drugs = open( path, 'r' ).read().split('\n')
+        drugs = list( map( lambda x: x.lower(), drugs ))
+        ds = set()
+        for d in drugs:
+            d = d.lower()
+            d = d.replace(' or ', ',')
+            d = d.replace(' and ', ',')
+            tmp = [d]
+            if( ',' in d ):
+                tmp = list( map( lambda x: x.strip().lower(), d.split(',') ))
+            if( '+' in d ):
+                tmp = list( map( lambda x: x.strip().lower(), d.split('+') ))
+            if( '/' in d ):
+                tmp = list( map( lambda x: x.strip().lower(), d.split('/') ))
+            tmp = list( filter( lambda x: x != 'placebo', tmp ))
+            ds.update(tmp)
+
+        opath = os.path.join( self.out, "clean_all_drugs.txt")
+        f = open( opath, 'w')
+        f.write( '\n'.join(ds) )
+        f.close()
+
+    def get_clinpgx_drugLabels(self):
+        path = os.path.join( self.out, "clean_all_drugs.txt")
+        drugs = open( path, 'r' ).read().split('\n')
+        dat = {}
+        for d in tqdm(drugs):
+            r = requests.get( f"https://api.clinpgx.org/v1/data/label?relatedChemicals.name={d}" )
+            if( r.status_code == 200 ):
+                dat[d] = r.json()
+
+        opath = os.path.join(self.out, "data_all_drugs_pgx.json")
+        json.dump(dat, open(opath, 'w') )
+
     def run(self):
         #self.merge_datasources()
-        self.generate_app_pgx_compiled_data()
+        #self.generate_app_pgx_compiled_data()
+        #self._prepare_drugs_list()
+        # treat drugnames because they were annotated composed (+)
+        #self.get_smiles_from_graphql_pdb()
+
+        self.clean_drug_names()
+        #self.get_clinpgx_drugLabels()
 
 if( __name__ == "__main__" ):
     out = '/mnt/yasdata/home/yasmmin/Dropbox/portfolio_2025/gdc_explorer_app_web/gdc_exploration_project/bridge_pharcoGenomics/out'

@@ -12,7 +12,21 @@ class ExpAiCivicSNVSummary extends HTMLElement {
                 Exploratory analysis concerning mutations found in the TCGA project cases that have some evidence of association with drugs in <a href="https://civicdb.org/releases/main" target="_blank" > CIVIC database</a>.
                 <br />
                 The approved evidences described in the release launched on June, 2026 were filtered for those that are Predictive and that has the Supports direction.
-             </p>
+            </p>
+            
+            <h5>Context</h5>
+            <p>
+            The nucleus of our cells contains the genome, a series of letters (nucleotides) that encodes each individual unique genetic code with instructions to produce the proteins and how each body tissue and organs must behave. Sometimes, there are a pile of letter changes (mutations) in specific regions of the genome that are not properly repaired by the dna proofreading mechanism or they are severely accumulated, and this may lead to the production of proteins that do not work correctly and later induce the uncontrolled growth of undesired cells.
+        <br />
+            In the first stages of cancer (I, II), blood tests of predictive and diagnostic genes may detect very early, or by image and biopsy exams (to make sure that the tissue and cell has cancerigenous properties). When the mass is small, the prognosis and treatment are less agressive, and a surgery and radiotherapy is able to solve. However, when it is not detected at this stage, the cells continuous to divide and reproduce and in a certain point, the local resources are not able to nourish them, so they need to create their own mechanism to receive the nutrients, so they create their own circulatory system with new blood vessels(angiogenesis).
+        <br />
+            In the stage III, the tumor cells start to migrate and spread to local boundary tissues and local lymph nodes. In stage IV, tumor circulating cells are generated capable to enter in the bloodstream and lymphatic system, in a process named metastasis. These cells may migrate to any other part of the body and create new colonies, with new characteristics that may turn the disease even more complex to treat depending on the protein functional profile. Up to stage III, it is still possible combining surgery intervention with radio and chemo, however in the metastatic stage, conventional treatments are hard to achieve complete remission.
+        <br />
+            New lines of treatment are being derived through precision oncology, when the clinical decisions of treatments (either by drugs, vaccines or surgery interventions) are guided according to the whole set of genetic and protein alterations that the patients have. There are specific hostspots in known predictive and biomarker genes for which some drugs were approved targeting the proteins with the main driver structural phenotype and causing their inhibition which is able to affect downstream signalling cascades and lead to tumor reduction and remission. 
+        <br />
+        Source: https://cancer.ca/en/cancer-information/what-is-cancer/how-cancer-starts-grows-and-spreads
+
+            </p>
             
             <div id="project_filter_ai3" style="display: none;" > 
                 <h4> Filter the project you want to explore </h4>
