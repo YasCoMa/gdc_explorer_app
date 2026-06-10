@@ -11,22 +11,35 @@ class ExpAiCivicSNVSummary extends HTMLElement {
             <p>
                 Exploratory analysis concerning mutations found in the TCGA project cases that have some evidence of association with drugs in <a href="https://civicdb.org/releases/main" target="_blank" > CIVIC database</a>.
                 <br />
-                The approved evidences described in the release launched on June, 2026 were filtered for those that are Predictive and that has the Supports direction.
+                 The approved evidence described in the release launched in June 2026 was filtered for that which is “Predictive” and that has the “Supports” direction.
             </p>
-            
-            <h5>Context</h5>
-            <p>
-            The nucleus of our cells contains the genome, a series of letters (nucleotides) that encodes each individual unique genetic code with instructions to produce the proteins and how each body tissue and organs must behave. Sometimes, there are a pile of letter changes (mutations) in specific regions of the genome that are not properly repaired by the dna proofreading mechanism or they are severely accumulated, and this may lead to the production of proteins that do not work correctly and later induce the uncontrolled growth of undesired cells.
-        <br />
-            In the first stages of cancer (I, II), blood tests of predictive and diagnostic genes may detect very early, or by image and biopsy exams (to make sure that the tissue and cell has cancerigenous properties). When the mass is small, the prognosis and treatment are less agressive, and a surgery and radiotherapy is able to solve. However, when it is not detected at this stage, the cells continuous to divide and reproduce and in a certain point, the local resources are not able to nourish them, so they need to create their own mechanism to receive the nutrients, so they create their own circulatory system with new blood vessels(angiogenesis).
-        <br />
-            In the stage III, the tumor cells start to migrate and spread to local boundary tissues and local lymph nodes. In stage IV, tumor circulating cells are generated capable to enter in the bloodstream and lymphatic system, in a process named metastasis. These cells may migrate to any other part of the body and create new colonies, with new characteristics that may turn the disease even more complex to treat depending on the protein functional profile. Up to stage III, it is still possible combining surgery intervention with radio and chemo, however in the metastatic stage, conventional treatments are hard to achieve complete remission.
-        <br />
-            New lines of treatment are being derived through precision oncology, when the clinical decisions of treatments (either by drugs, vaccines or surgery interventions) are guided according to the whole set of genetic and protein alterations that the patients have. There are specific hostspots in known predictive and biomarker genes for which some drugs were approved targeting the proteins with the main driver structural phenotype and causing their inhibition which is able to affect downstream signalling cascades and lead to tumor reduction and remission. 
-        <br />
-        Source: https://cancer.ca/en/cancer-information/what-is-cancer/how-cancer-starts-grows-and-spreads
+            <button type="button" class="mt-3 btn btn-secondary" onclick="if( read_more_ai3.style.display == 'none' ){ read_more_ai3.style.display = ''; } else { read_more_ai3.style.display = 'none' }" > Read more </button>
 
-            </p>
+            <div id = "read_more_ai3" style = "margin-top: 10px; display: none;" >
+                <h5>Context</h5>
+                <p>
+                The nucleus of our cells contains the genome, a series of letters (nucleotides) that encodes each individual unique genetic code with instructions to produce the proteins and how each body tissue and organ must behave. Sometimes, there are a pile of letter changes (mutations) in specific regions of the genome that are not properly repaired by the DNA proofreading mechanism, or they are severely accumulated, and this may lead to the production of proteins that do not work correctly and later induce the uncontrolled growth of undesired cells.
+            <br />
+                In the first stages of cancer (I, II), blood tests of predictive and diagnostic genes may detect it very early, or by image and biopsy exams (to make sure that the tissue and cell have cancerigenous properties). When the mass is small, the prognosis and treatment are less aggressive, and surgery and radiotherapy are able to solve it. However, when it is not detected at this stage, the cells continue to divide and reproduce, and at a certain point, the local resources are not able to nourish them, so they need to create their own mechanism to receive the nutrients, so they create their own circulatory system with new blood vessels (angiogenesis).
+            <br />
+                In stage III, the tumor cells start to migrate and spread to local boundary tissues and local lymph nodes. In stage IV, tumor circulating cells are generated, capable of entering the bloodstream and lymphatic system in a process named metastasis. These cells may migrate to any other part of the body and create new colonies, with new characteristics that may turn the disease even more complex to treat depending on the protein functional profile. Up to stage III, it is still possible to combine surgical intervention with radio and chemo; however, in the metastatic stage, conventional treatments are hard to achieve complete remission.
+            <br />
+                New lines of treatment are being derived through precision oncology, where the clinical decisions of treatments (either drugs, vaccines, or surgical interventions) are guided according to the whole set of genetic and protein alterations that the patients have. There are specific hotspots in known predictive and biomarker genes for which some drugs were approved, targeting the proteins with the main driver structural phenotype and causing their inhibition, which is able to affect downstream signaling cascades and lead to tumor reduction and remission. 
+            <br />
+                Apart from the mutations in genes that eventually become potential targets for drug binding, there are other sets of mutations in genes that functionally act as enzymes and are responsible for degrading chemical compounds (drugs) and releasing the desired substrates in the bloodstream. The drugs that we take follow a standard path (ADMET) that begins with its Absortion (the way it is administered / enters the organism), following with their distribution (how the substance will traverse the bloodstream or cross the blood-brain barrier and reach the location that it has to produce the effect, binding to a target); once in the correct location and reaching the final structural conformation, it has to be Metabolized (broken in pieces) by the its specific set of enzymes to release the substrates that are needed to activate the planned regulatory pathways; the remaining substrates of the metabolism phase must be Eliminated from the body, usually being filtered in the kidneys and terminating as part of the urine components; lastly, but extremely important, it is the evaluation of the drug's toxicity, assessing the possible adverse reactions, adjusting of the dosage according to the patient response, how dangerous the expected effects of its metabolism products are, and which organs and blood markers should be monitored to track and account for severe systemic harm. 
+            <br />
+                The mutations in these last genes may affect the speed of a certain drug degradation, and depending on the type of drug and the dosage, it may accumulate and become toxic for people carrying the mutation. Precision oncology is also important in this aspect, to provide prescription guidance, adjust the dosage of first-line treatment drugs for a condition, or even recommend other treatment options when the deficiency is even more severe.
+
+            <br />
+            
+            <b>Sources</b>: 
+            <ul>
+                <li>https://cancer.ca/en/cancer-information/what-is-cancer/how-cancer-starts-grows-and-spreads</li>
+                <li>https://www.sciencedirect.com/topics/pharmacology-toxicology-and-pharmaceutical-science/absorption-distribution-metabolism-excretion-toxicity</li>
+            </ul>
+
+                </p>
+            </div>
             
             <div id="project_filter_ai3" style="display: none;" > 
                 <h4> Filter the project you want to explore </h4>
