@@ -41,7 +41,7 @@ class ExpAiCivicSNVSummary extends HTMLElement {
                 </p>
             </div>
             
-            <div id="project_filter_ai3" style="display: none;" > 
+            <div id="project_filter_ai3" style="margin-top: 15px; display: none;" > 
                 <h4> Filter the project you want to explore </h4>
 
                 <div class="row g-2 align-items-center" id="filters_area_ai3" >
