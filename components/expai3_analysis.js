@@ -174,7 +174,7 @@ function render_clinical_filter_projs_area_ai3(){
     let label = "Project";
     let options = projects;
     let selected = options[0];
-    let onchange = ""
+    let onchange = "setup_current_project_ai3()"
     fill_select( label, options, domid_target, domid_container, selected, onchange);
 
     project_filter_ai3.style.display = '';
