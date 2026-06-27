@@ -57,12 +57,6 @@ class ExpAiCivicSNVSummary extends HTMLElement {
             <hr />
 
             <div class="row justify-content-center mt-3"  >
-                <div class="col-12" id="instructions_ai3" style="display: none;" >
-                    <p>
-                        Choose a mutation (clicking on the blue bar) to load details about the information available for the cases.
-                    </p>
-                </div>
-
                 <div class="col-12" id="analysis_current_ai3" style="display: none;"  >
                     <h4 class="mt-3" id="selected_proj_ai3" >  </h4>
                     <p>
@@ -79,17 +73,44 @@ class ExpAiCivicSNVSummary extends HTMLElement {
                         <span style = "font-weight: bold;" > Histological type: </span> 
                         <span id = "hist_type_ai3" >  </span> 
                     </p>
-                    
-                    <div class="col-12"  >
-                        <p>
+
+                    <div class="col-12" id="analysis_clinpgx_ann_ai3" style="display: none;" >
+                        <h4 class="mt-3" > Annotations from ClinPGx database for the cases </h4>
+
+                        <div class="col-12" id="cases_summary_table_ai3_clinpgx" style = "display: none;"  >
+                            <h5>  <b> Summary annotations </b> </h5>
+
+                            <div class="scroll-container" >
+                                <table class="table table-striped scroll-container" id="clinpgx_summary_datatab" >
+                                
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="col-12 mt-3" id="cases_variant_table_ai3_clinpgx" style = "display: none;"  >
+                            <h5>  <b> Variant annotations </b> </h5>
+
+                            <div class="scroll-container" >
+                                <table class="table table-striped" id="clinpgx_variant_datatab" >
+                                    
+                                </table>
+                            </div>
+                        </div>
+
+                        <hr />
+                    </div>
+
+                    <div class="col-12 mt-2"  >
+                        <h4 class="mt-3" > Explore mutation information from CIVICdb </h4>
+                        
+                        <p id="instructions_ai3">
                             Choose a mutation (clicking on the blue bar) to load details about the information available for the cases.
                         </p>
 
                         <div  class="mt-3 row justify-content-center"  >
                             <div id="plot_mutation_case_count" class="col-12 " >  </div>
                         </div>
-                    </div>
-
+                    
                     <div class="col-12" id="analysis_current_mutation_ai3" style="display: none;" >
                         <h4 class="mt-3" id="selected_mut_ai3" >  </h4>
 
@@ -143,6 +164,13 @@ class ExpAiCivicSNVSummary extends HTMLElement {
             </div>
         </div>
         
+        <style>
+        .scroll-container {
+            max-height: 500px;        /* 1. You must define a fixed limit */
+            overflow-y: auto;     /* 2. Adds a vertical scrollbar ONLY when content overflows */
+            overflow-x: hidden;   /* 3. Optional: Prevents accidental horizontal scrolling */
+        }
+        </style>
     `;
   }
 }
@@ -355,6 +383,118 @@ function render_mutation_details(mut){
     console.log(mut)
 }
 
+function _render_cases_table_for_summary_ann(){
+    document.getElementById("clinpgx_summary_datatab").innerHTML = "";
+    document.getElementById("cases_summary_table_ai3_clinpgx").style.display = 'none';
+
+    let htmls = `
+        <tr>
+            <th> Case </th>
+            <th> Allele </th>
+            <th> Function </th>
+            <th> Diseases </th>
+            <th> Drugs </th>
+            <th> Annotation </th>
+        </tr>
+    `;
+
+    let dat = obj_ai3.annotations_pgx;
+    let cases = Object.keys(dat).filter( k => Object.keys(dat[k]['summary_clingx']).length > 0 );
+    if( cases.length > 0 ){
+        for( let c of cases ){
+            let d = dat[c]["summary_clingx"];
+            let alleles = Object.keys(d);
+            for(let allele of alleles){
+                let function_al = d[allele]['function'];
+
+                let annots = d[allele]['anns'][0];
+                for(let ann of annots){
+                    let sentence = ann["ann"];
+                    sentence = `<p style="font-size: 0.8rem !important" > ${sentence} </p>`;
+                    
+                    let diseases = ann['diseases'].map( k => `<span class="badge bg-primary text-light"> ${k} </span>` ).join(', ');
+
+                    let drugs = ann['drugs'].map( k => `<span class="badge  bg-info text-dark"> ${k} </span>` ).join(', ');
+
+                    htmls += `
+                        <tr>
+                            <td> ${ c } </td>
+                            <td> ${ allele } </td>
+                            <td> ${ function_al } </td>
+                            <td> ${ diseases } </td>
+                            <td> ${ drugs } </td>
+                            <td> ${ sentence } </td>
+                        </tr>
+                    `;
+                }
+
+            }
+        }
+        document.getElementById("clinpgx_summary_datatab").innerHTML = htmls;
+
+        document.getElementById("cases_summary_table_ai3_clinpgx").style.display = '';
+    }
+}
+
+function _render_cases_table_for_variant_ann(){
+    document.getElementById("clinpgx_variant_datatab").innerHTML = "";
+    document.getElementById("cases_variant_table_ai3_clinpgx").style.display = 'none';
+
+    let htmls = `
+        <tr>
+            <th> Case </th>
+            <th> Variant </th>
+            <th> Genotype </th>
+            <th> Phenotype Category </th>
+            <th> Drugs </th>
+            <th> Annotation </th>
+        </tr>
+    `;
+
+    let dat = obj_ai3.annotations_pgx;
+    let cases = Object.keys(dat).filter( k => dat[k]['variant_clingx'].length > 0 );
+    if( cases.length > 0 ){
+        for( let c of cases ){
+            let annots = dat[c]["variant_clingx"];
+            for(let ann of annots){
+                let gene = ann["gene"];
+                let rsid = ann["rsid"];
+                let variant = `${rsid} in gene ${gene}`;
+
+                let genotype = ann["genotype"][0];
+
+                let sentence = ann["ann"];
+                sentence = `<p style="font-size: 0.8rem !important" > ${sentence} </p>`;
+                
+                let phenoCats = ann['phenoCats'].map( k => `<span class="badge bg-primary text-light"> ${k} </span>` ).join(', ');
+
+                let drugs = ann['drugs'].map( k => `<span class="badge bg-info text-dark"> ${k} </span>` ).join(', ');
+
+                htmls += `
+                    <tr>
+                        <td> ${ c } </td>
+                        <td> ${ variant } </td>
+                        <td> ${ genotype } </td>
+                        <td> ${ phenoCats } </td>
+                        <td> ${ drugs } </td>
+                        <td> ${ sentence } </td>
+                    </tr>
+                `;
+            }
+        }
+        document.getElementById("clinpgx_variant_datatab").innerHTML = htmls;
+
+        document.getElementById("cases_variant_table_ai3_clinpgx").style.display = '';
+    }
+}
+
+function render_clinpgx_annotations_details(){
+    _render_cases_table_for_summary_ann();
+    _render_cases_table_for_variant_ann();
+
+    analysis_clinpgx_ann_ai3.style.display = '';
+}
+
 function _render_overview_count_mutations( dat ){
     let layout = { barmode: 'group', title: { text: "Cases count per Mutation" }, xaxis: { title: { text: 'Mutations' } }, yaxis: { title: { text: 'Cases Count' } } }
     let pl = [];
@@ -380,21 +520,23 @@ function perform_render_stratification_analysis_ai3(){
 
     // pie plot stage and horizontal bar of drugs per
 
-    obj_ai3.load_pgx_mutation_data(selected_proj).then( (dat) => {
+    obj_ai3.load_pgx_mutation_data(selected_proj).then( (resp) => {
+        let dat = resp.result;
+
         tissue_ai3.innerHTML = dat.tissue_site;
         hist_type_ai3.innerHTML = dat.hist_type;
         obj_ai3.data_pgx = dat;
+        obj_ai3.annotations_pgx = resp.annotations;
 
         _render_overview_count_mutations(dat.mutation_count);
         let all_muts = Object.keys(dat.mutation_count);
         render_mutation_details(all_muts[0]);
 
-        /*
-         _render_pie_hist_stage(dat.cases);
-         _render_prescribed_drugs(dat.cases);
-         _render_distribution_plots(dat.cases);
-         _render_km_survival_plots(dat.survival);
-         */
+        clinpgx_keys = Object.keys(obj_ai3.annotations_pgx);
+        if(clinpgx_keys.length > 0){
+            render_clinpgx_annotations_details();
+        }
+
     } );
 }
 

@@ -8,6 +8,7 @@ import pandas as pd
 import gseapy as gp
 
 from tqdm import tqdm
+from time import sleep
 from scipy import stats
 
 from process_data import DataWrangler
@@ -80,7 +81,7 @@ class HandleBridgePharcogenomicsAnalysis:
 
     def _get_snprs_annotation(self, path):
         dat = {}
-        feat_cols = ['MAX_AF', 'MAX_AF_POPS', 'DOMAINS', 'Hugo_Symbol', 'SWISSPROT', 'Variant_Classification', 'Consequence', 'IMPACT', 'VARIANT_CLASS', 'dbSNP_RS', 'SIFT', 'PolyPhen', 'CLIN_SIG', "Chromosome"]
+        feat_cols = ['Reference_Allele', 'Tumor_Seq_Allele1', 'Tumor_Seq_Allele2', 'HGVSc', 'MAX_AF', 'MAX_AF_POPS', 'DOMAINS', 'Hugo_Symbol', 'SWISSPROT', 'Variant_Classification', 'Consequence', 'IMPACT', 'VARIANT_CLASS', 'dbSNP_RS', 'SIFT', 'PolyPhen', 'CLIN_SIG', "Chromosome"]
         df = pd.read_csv(path, sep='\t', comment='#')
         df = df[ (~ df['Consequence'].str.lower().str.contains('synonymous')) ]
         df['locationAA'] = df['Hugo_Symbol']+'-'+df['HGVSp_Short']
@@ -90,25 +91,27 @@ class HandleBridgePharcogenomicsAnalysis:
             aachange = df.loc[i, 'HGVSp']
             gene = df.loc[i, "Hugo_Symbol"]
             rsid = df.loc[i, "dbSNP_RS"]
-            if(rsid == 'novel'):
-                rsid = '%s_novel' %(gene)
+            t_ref = df.loc[i, "t_ref_count"]
+            t_alt = df.loc[i, "t_alt_count"]
+            if(rsid not in ['novel', 'nan'] ):
+                #rsid = '%s_novel' %(gene)
 
-            key = df.loc[i, "locationAA"]
-            if( str(key) != 'nan' ):
-                if(not key in dat):
-                    dat[key] = { }
+                key = df.loc[i, "locationAA"]
+                if( str(key) != 'nan' ):
+                    if(not key in dat):
+                        dat[key] = { }
 
-                dat[key]["aa_change"] = aachange
-                for c in feat_cols:
-                    cname = c.lower()
-                    v = str(df.loc[i, c]).split('(')[0]
+                    dat[key]["aa_change"] = aachange
+                    for c in feat_cols:
+                        cname = c.lower()
+                        v = str(df.loc[i, c]).split('(')[0]
 
-                    if(c == "DOMAINS"):
-                        aux = v.split(';')
-                        for el in aux:
-                            if( el.lower().startswith('pfam') ):
-                                v = el.split(':')[-1]
-                    dat[key][cname] = v
+                        if(c == "DOMAINS"):
+                            aux = v.split(';')
+                            for el in aux:
+                                if( el.lower().startswith('pfam') ):
+                                    v = el.split(':')[-1]
+                        dat[key][cname] = v
         del df
 
         return dat
@@ -567,6 +570,8 @@ query molecule ($id: String!) {
         f.close()
 
     def get_clinpgx_drugLabels(self):
+        # All clean pgx api urls = https://api.clinpgx.org/swagger/#/
+
         path = os.path.join( self.out, "clean_all_drugs.txt")
         drugs = open( path, 'r' ).read().split('\n')
         dat = {}
@@ -578,6 +583,532 @@ query molecule ($id: String!) {
         opath = os.path.join(self.out, "data_all_drugs_pgx.json")
         json.dump(dat, open(opath, 'w') )
 
+    def get_pharmvar_alleles(self):
+        ids = []
+        opath = os.path.join(self.out, "data_pharmvar_alleles.json")
+        if( not os.path.exists(opath) ):
+            headers = { "Api-Key": os.environ["pharmvar_key"] }
+            r = requests.get( f"https://www.pharmvar.org/api-service/alleles/list", headers = headers )
+            if( r.status_code == 200 ):
+                dat = r.json()
+                json.dump( dat, open(opath, 'w') )
+        else:
+            dat = json.load( open(opath, 'r') )
+        
+        return dat
+
+    def _parse_allele_table_info(self, path):
+        df = pd.read_excel(path, sheet_name="Alleles")
+        
+        als = list( filter( lambda x: x.startswith('*'), df.iloc[:,0].values ))
+        
+        i = 0
+        datmeta = {}
+        metas = { "rsid": "rsid", "on protein": "protein_change", "refseqgene": "refseq_genome_change", "GRCh38": "gv38_genome_change" }
+        for h in df.iloc[:, 0].values:
+            if( h.startswith("*") ):
+                break
+
+            hn = h.lower()
+            for k in metas:
+                if( hn.find(k) != -1 ):
+                    hn = metas[k]
+
+            datmeta[hn] = df.iloc[i, 1:]
+
+            i += 1
+
+        aldat = {}
+        i = 0
+        for h in df.iloc[:, 0].values:
+            if( h.startswith("*") and h != "*1" ):
+                vs = df.iloc[i, 1:]
+                for k in datmeta:
+                    j = 0
+                    for v in vs:
+                        if( str(v) != 'nan' ):
+                            if(not h in aldat):
+                                aldat[h] = {}
+                            if(not k in aldat[h] ):
+                                aldat[h][k] = []
+                                aldat[h]["variant"] = []
+                            aldat[h][k].append( datmeta[k][j] )
+                            aldat[h]["variant"].append( v )
+                        j+=1
+            i+=1
+
+        return aldat
+
+    def _download_parse_allele_definition_table(self, names):
+        dpath = os.path.join(self.out, "allele_definition")
+        if( not os.path.isdir(dpath) ):
+            os.makedirs(dpath)
+
+        dat = {}
+        opath = os.path.join(self.out, "alleles_definition.json")
+        if(not os.path.exists(opath) ):
+            for gn in tqdm(names):
+                dat[gn] = {}
+                dls = f"https://s3.pgkb.org/attachment/{gn}_allele_definition_table.xlsx"
+                resp = requests.get(dls)
+
+                opath = os.path.join( dpath, f"{gn}_alleles.xlsx")
+                output = open( opath, 'wb')
+                output.write(resp.content)
+                output.close()
+
+                dt = self._parse_allele_table_info(opath)
+                dat[gn] = dt
+
+            json.dump(dat, open(opath, 'w') )
+        else:
+            dat = json.load( open(opath, "r") )
+
+        return dat
+
+    def get_pharmvar_allele_info(self, ids = []):
+        dpath = os.path.join(self.out, "allele_information")
+        if( not os.path.isdir(dpath) ):
+            os.makedirs(dpath)
+
+        dat = {}
+        opath = os.path.join( dpath, "alleles_full_information.json")
+        if(not os.path.exists(opath) ):
+            headers = { "Api-Key": os.environ["pharmvar_key"] }
+
+            for i in tqdm(ids):
+                popath = os.path.join(dpath, f"{i}_info.json")
+                part = {}
+                if( not os.path.exists(popath) ):
+                    r = requests.get( f"https://www.pharmvar.org/api-service/alleles/{i}?exclude-sub-alleles=false&include-reference-variants=false&include-retired-alleles=false&include-retired-reference-sequences=false", headers = headers )
+                    if( r.status_code == 200 ):
+                        part = r.json()
+                    else:
+                        print(i, r)
+
+                    json.dump(part, open(popath, 'w') )
+                else:
+                    part = json.load( open(popath, "r") )
+
+                dat[i] = part
+
+            json.dump(dat, open(opath, 'w') )
+        else:
+            dat = json.load( open(opath, "r") )
+
+        return dat
+
+    def process_allele_info(self):
+        dat = {}
+
+        opath = os.path.join( self.out, "allele_info_summary.json")
+        if( not os.path.exists(opath) ):
+            dt = self.get_pharmvar_allele_info()
+            for el in dt:
+                dal = dt[el][0]
+
+                gene = dal["geneSymbol"]
+                allele = dal["coreAllele"]
+                function = dal["function"]
+                if( dal["variants"] is not None ):
+                    variants = list( filter( lambda x: "rsId" in list(x), dal["variants"] )) 
+                    variants = list( map( lambda x: x["rsId"], variants ))
+
+                    if(not gene in dat):
+                        dat[gene] = {}
+                    if( not allele in dat[gene] ):
+                        dat[gene][allele] = {}
+                    dat[gene][allele]["function"] = function
+                    dat[gene][allele]["variants"] = variants
+
+            json.dump(dat, open(opath, 'w') )
+        else:
+            dat = json.load( open(opath, 'r') )
+
+        return dat
+
+    def parse_alleleSpecific_mutations_in_cases(self):
+        """
+Steps:
+    - get genes with named alleles in pharmvar
+    - get allele functions
+    - download and parse allele definition table (clinPgx)
+    - parse tcga mutation file of samples and get the mutations and the alleles that they happen, it 
+        """
+        
+        """
+        dat = self.get_pharmvar_alleles()
+        ids = set([ x["pvId"] for x in dat ])
+        genes = set([ x["geneSymbol"] for x in dat ])
+        infodat = self.get_pharmvar_allele_info(ids)
+        """
+        dat = self.process_allele_info()
+
+        # The function below is not necessary because the individual info from the alleles already have the variants
+        #defdat = self._download_parse_allele_definition_table(genes)
+
+        for project in tqdm(self.projects):
+            indir = os.path.join(self.data_dir, project)
+            dcases = self.proc._get_cases_metadata(project)
+
+            datcat = 'simple nucleotide variation'
+            odir, fsodir, file_list = self.proc.get_case_files_by_data_category(project, datcat)
+
+            start_alleles_cases = {}
+
+            mapp = self.proc._get_map_case_file(odir)
+            mapp_tissue = self.proc._get_map_file_condition(odir)
+            for uuid in file_list:
+                f = "raw_%s.out" %(uuid)
+                path = os.path.join(fsodir, f)
+                case_id = mapp[uuid]
+                tissue_type = mapp_tissue[uuid]
+
+                if(case_id in dcases):
+                    if( not case_id in start_alleles_cases):
+                        start_alleles_cases[case_id] = { "mutations": [] }
+
+                    dclin = dcases[case_id]
+                    snps = self._get_snprs_annotation(path)
+
+                    gender = dclin["gender"]
+                    race = dclin["race"]
+                    ethnicity = dclin["ethnicity"]
+                    muts = list(snps)
+                    for m in muts:
+                        gene = m.split('-')[0]
+                        if( gene in dat ):
+                            refb = snps[m]["reference_allele"]
+                            a1b = snps[m]["tumor_seq_allele1"]
+                            a2b = snps[m]["tumor_seq_allele2"]
+                            rsid = snps[m]["dbsnp_rs"]
+                            
+                            alleles_mutated = []
+                            if( refb!=a1b ):
+                                alleles_mutated.append("a1")
+                            if( refb!=a2b ):
+                                alleles_mutated.append("a2")
+
+                            genotype = f"{refb},{a1b}|{a2b}"
+                            start_alleles_cases[case_id]["mutations"].append( { "gene": gene, "gtype": genotype, "rsid": rsid, "alleles_mutated": alleles_mutated } )
+
+            matched_cases = set()
+            for case_id in start_alleles_cases:
+                start_alleles_cases[case_id]["identified_alleles"] = {}
+
+                genes = set( map( lambda x: x["gene"], start_alleles_cases[case_id]["mutations"] ))
+
+                for g in genes:
+                    filtered_case_mutations = list( filter( lambda x: x["gene"] == g, start_alleles_cases[case_id]["mutations"] ))
+                    filtered_case_mutations =  list( map( lambda x: x["rsid"], filtered_case_mutations ))
+                    #print(case_id, g, filtered_case_mutations)
+                    galleles = dat[g]
+                    for al in galleles:
+                        smuts = galleles[al]["variants"]
+                        t = len(smuts)
+                        inter = set(filtered_case_mutations).intersection( set(smuts) )
+                        n = len(inter)
+                        if( n > 0 ):
+                            matched_cases.add(case_id)
+                            if( not al in start_alleles_cases[case_id]["identified_alleles"] ):
+                                start_alleles_cases[case_id]["identified_alleles"][al] = []
+                            
+                            info = list( filter( lambda x: ( x["gene"] == g and x["rsid"] in inter ), start_alleles_cases[case_id]["mutations"] ))
+                            info =  list( map( lambda x: { "rsid": x["rsid"], "genotype": x["gtype"], "alleles_mutated": x["alleles_mutated"]}, info ))
+
+                            allinfo = { "gene": g, "coverage": (n/t), "details": info }
+                            start_alleles_cases[case_id]["identified_alleles"][al].append( allinfo )
+
+            print( project, " - cases with some PharmVar allele: ", len(matched_cases) )
+            opath = os.path.join( odir, "pgx_alleles_information.json" )
+            json.dump( start_alleles_cases, open(opath, 'w') )
+
+
+    def __check_gene_name(self, chromosome, start, end):
+        chromosome = chromosome.lower().replace('chr','')
+        start = int(start)
+        end = int(end)
+
+        r = []
+        keys = list( filter(  lambda x: (self.gtf_map[x]['chrom'] == chromosome) and (self.gtf_map[x]['coord'][0] >= start) and (self.gtf_map[x]['coord'][1] <= end), self.gtf_map ) )
+        for x in keys:
+            r.append( [ self.gtf_map[x]['gid'], x, self.gtf_map[x]['chrom'], self.gtf_map[x]['coord'][0], self.gtf_map[x]['coord'][1] ] )
+        return r
+
+    def get_specific_allele_count(self):
+        self.gtf_map = json.load( open('/mnt/yasdata/home/yasmmin/Dropbox/portfolio_2025/gdc_explorer_app_web/gdc_exploration_project/copy_number_variation/out/map_gtf.json') )
+        path = '/home/yasmmin/Downloads/gdc_download_20260616_145530.067725/db58c3e8-879c-406d-a37a-ac31d4100b3e/1289b406-41ff-445e-93c4-075d0a2edb25.wgs.ASCAT.copy_number_variation.seg.txt'
+        
+        d = {}
+        df = pd.read_csv(path, sep='\t')
+        for i in df.index:
+            chrom = df.loc[i, 'Chromosome']
+            s = df.loc[i, 'Start']
+            e = df.loc[i, 'End']
+            r = self.__check_gene_name(chrom, s, e)
+            print(r)
+            for x in r:
+                if( not x[1] in d ):
+                    d[ x[1] ] = 0
+                d[ x[1] ] += 1
+
+        maxx = 0
+        maxg = 0
+        for g in d:
+            if( d[g] > maxx ):
+                maxx = d[g]
+                maxg = g
+            #print(g, d[g])
+        print('max count', d[g], '-', g)
+
+    def explore_found_alleles_project_cases(self):
+        # when allele 1 has an empty array, it is the default gene*1 allele, which always has normal function. However individuals that have *1xN or *2xN have increased function, and are rapid or ultra rapid metabolizers.
+        # Reference eaning of columns in maf files: https://docs.gdc.cancer.gov/Data/File_Formats/MAF_Format/
+        # The columns t_ref_count and t_alt_count mean the depth supporting referene and alternative allele in bam file, so the major and minor allele to integrate with CNV data for copies is basically check who is higher than the other (ref or alt). if Tumor_Seq_Allele1==Tumor_Seq_Allele2 the individual is homozygous
+        # The alleles
+
+        idat = self.process_allele_info()
+        summary_genes = set()
+        variant_pairs = set()
+
+        pjs = self.projects
+        pjs = ["TCGA-UCEC"]
+        for project in tqdm(self.projects):
+            indir = os.path.join(self.data_dir, project)
+            dcases = self.proc._get_cases_metadata(project)
+
+            datcat = 'simple nucleotide variation'
+            odir, fsodir, file_list = self.proc.get_case_files_by_data_category(project, datcat)
+            path = os.path.join( odir, "pgx_alleles_information.json" )
+            dat = json.load( open(path, 'r') )
+            dc = {}
+            for case in dat:
+                if( len(dat[ case ]['identified_alleles']) > 0 ):
+                    alleles = dat[ case ]['identified_alleles']
+                    for allele in alleles:
+                        gene = allele.split("*")[0]
+                        summary_genes.add(gene)
+
+                        try:
+                            function = idat[gene][allele]["function"]
+                        except:
+                            function = ""
+                        if( 'details' in alleles[allele][0] ):
+                            for info in alleles[allele][0]["details"]:
+                                rsid = info["rsid"]
+                                if(rsid!='nan'):
+                                    if(not case in dc):
+                                        dc[case] = { 'a1': [], 'a2': [] }
+                                    gtype = info["genotype"]
+                                    for am in info['alleles_mutated']:
+                                        dc[case][am].append([gene, allele, function, rsid, gtype])
+                                        variant_pairs.add( (gene, rsid) )
+
+            print(project, dc)
+            opath = os.path.join( odir, "summary_allele_info.json" )
+            json.dump( dc, open( opath, 'w' ) )
+
+        summary_genes = list(summary_genes)
+        opath = os.path.join( self.out, "pgx_clingx_summary_genes.json" )
+        json.dump( summary_genes, open( opath, 'w' ) )
+
+        variant_pairs = list(variant_pairs)
+        opath = os.path.join( self.out, "pgx_clingx_variant_pairs.json" )
+        json.dump( variant_pairs, open( opath, 'w' ) )
+        
+    def _clean_sumary_data(self, g, od):
+        dat = {}
+        for d in od:
+            try:
+                genes = list( map( lambda x: x["symbol"], d["location"]["genes"] ))
+                drugs = list( map( lambda x: x["name"], d["relatedChemicals"] ))
+                diseases = list( map( lambda x: x["name"], d["relatedDiseases"] ))
+                for al in d["allelePhenotypes"]:
+                    allele = al["allele"]
+                    if(allele.startswith("*")): # because it may be in form of CT
+                        pheno = al["phenotype"]
+                        for g in genes:
+                            allele = g+allele
+                            if( not allele in dat ):
+                                dat[allele] = []
+                            dat[allele].append({ "ann": pheno, "drugs": drugs, "diseases": diseases })
+            except:
+                print(g, d)
+        return dat
+
+    def retrieve_clingx_summary_annotations(self):
+        path = os.path.join( self.out, "pgx_clingx_summary_genes.json" )
+        genes = json.load( open( path, 'r' ) )
+
+        #important metadata: allelePhenotypes.allele, allelePhenotypes.phenotype, relatedChemicals.name, relatedDiseases.name
+        dpath = os.path.join(self.out, "summary_information")
+        if( not os.path.isdir(dpath) ):
+            os.makedirs(dpath)
+
+        dat = {}
+        for g in tqdm(genes):
+            tmp = {}
+            opath = os.path.join( dpath, f"{g.lower()}.json" )
+            if( not os.path.exists(opath) ):
+                url = f"https://api.clinpgx.org/v1/data/summaryAnnotation?location.genes.symbol={g}"
+                r = requests.get( url )
+                tmp = r.json()["data"]
+                json.dump( tmp, open( opath, 'w' ) )
+                sleep(2)
+            else:
+                tmp = json.load( open( opath, 'r' ) )
+            dat[g] = self._clean_sumary_data( g.lower(), tmp )
+
+        return dat
+
+    def _clean_variant_data(self, _id, od):
+        dat = []
+        for d in od:
+            try:
+                try:
+                    gene = d["geneSymbol"]
+                except:
+                    gene = _id.split('_')[0].upper()
+                rsid = d["location"]["rsid"]
+
+                genotype = d["alleleGenotype"].split(" + ")
+                assoc = d["isAssociated"]
+                sentence = d["sentence"]
+                phenoCats = list( map( lambda x: x["term"], d["phenotypeCategories"] ))
+                drugs = list( map( lambda x: x["name"], d["relatedChemicals"] ))
+                pops = set()
+                if( "populationPhenotypes" in d ):
+                    for it in d["populationPhenotypes"]:
+                        if( "disease" in it ):
+                            pops.add( it["disease"]["name"] )
+                pops = list(pops)
+
+                # dat[_id] = { "genotype": genotype, "ann": sentence, "drugs": drugs, "phenoCats": phenoCats, "isAssociated": assoc, "population": pops }
+                dat.append({ "genotype": genotype, "ann": sentence, "drugs": drugs, "phenoCats": phenoCats, "isAssociated": assoc, "population": pops })
+            except:
+                print(_id, d)
+        return dat
+
+    def retrieve_clingx_variant_annotations(self):
+        path = os.path.join( self.out, "pgx_clingx_variant_pairs.json" )
+        pairs = json.load( open( path, 'r' ) )
+
+        # important metadata: alleleGenotype, sentence, isAssociated, phenotypeCategories.term, relatedChemicals.name, populationPhenotypes.disease.name
+        # the allele may come as AA + AG (composed) or alone A
+        dpath = os.path.join(self.out, "variant_information")
+        if( not os.path.isdir(dpath) ):
+            os.makedirs(dpath)
+
+        dat = {}
+        for p in tqdm(pairs):
+            g, v = p
+            _id = f"{g.lower()}_{v.lower()}"
+            tmp = {}
+            opath = os.path.join( dpath, f"{_id}.json" )
+            if( not os.path.exists(opath) ):
+                url = f"https://api.clinpgx.org/v1/data/variantAnnotation?location.genes.symbol={g}&location.fingerprint={v}"
+                r = requests.get( url )
+                tmp = r.json()["data"]
+                json.dump( tmp, open( opath, 'w' ) )
+                sleep(2)
+            else:
+                tmp = json.load( open( opath, 'r' ) )
+            dat[_id] = self._clean_variant_data( _id, tmp )
+
+        return dat
+
+    def get_annotations(self):
+
+        # 1 - get all genes observed in projects and the rsids - ok
+        # 2 - with the genes get summary annotations - ok
+        # 3 - with the gene-rsid pairs get variant annotations - ok
+
+        # 4 - personalize case report with the specific case genotype of alleles and variants
+            # button to modal for summary, and another for variant
+            # highlight genotype
+            # Cross the annotations regarding the gene & rsid related to the selected mutation?
+
+        sann = self.retrieve_clingx_summary_annotations()
+        vann = self.retrieve_clingx_variant_annotations()
+
+        for project in tqdm(self.projects):
+            indir = os.path.join(self.data_dir, project)
+            dcases = self.proc._get_cases_metadata(project)
+
+            datcat = 'simple nucleotide variation'
+            odir, fsodir, file_list = self.proc.get_case_files_by_data_category(project, datcat)
+            path = os.path.join( odir, "summary_allele_info.json" )
+            if( os.path.exists(path) ):
+                dat = json.load( open(path, 'r') )
+                # dc[case][am].append([gene, allele, function, rsid, gtype])
+
+                dc = {}
+                for case_id in dat:
+                    all_alleles = {}
+
+                    info = dat[case_id]
+                    vdat = []
+                    for am in info:
+                        for el in info[am]:
+                            gene, allele, function, rsid, gtype = el
+                            if( gene in sann ):
+                                if( allele in sann[gene] ):
+                                    if( not allele in all_alleles ):
+                                        all_alleles[allele] = { 'function': function, 'anns': [] }
+                                    all_alleles[ allele ]['anns'].append( sann[gene][allele] )
+
+                            _id = f"{ gene.lower() }_{ rsid.lower() }"
+                            if( _id in vann ):
+                                vd = vann[_id]
+                                for it in vd:
+                                    vgtype = it["genotype"]
+                                    vg1 = gtype.split(",")[-1].replace("|", "")
+                                    vg2 = vg1[-1]
+                                    if( (vg1 in vgtype) or (vg2 in vgtype) ):
+                                        it["gene"] = gene
+                                        it["rsid"] = rsid
+                                        vdat.append(it)
+
+                    dc[case_id] = { 'summary_clingx': all_alleles, 'variant_clingx': vdat  }
+                    #if(len(vdat) > 0):
+                    #    print(project, case_id, vdat)
+
+                #print(project, dc)
+                opath = os.path.join( odir, "clingx_filtered_annotation_info_for_cases.json" )
+                json.dump( dc, open( opath, 'w' ) )
+
+                # ---> main div : analysis_clinpgx_ann_ai3
+
+                # cases_summary_table_ai3_clinpgx
+                #    table clinpgx_summary_datatab - cols: case, allele, function, diseases (badge dark blue), drugs (badge light blue), sentence (tag p small text size)
+
+                # cases_variant_table_ai3_clinpgx
+                #   table clinpgx_variant_datatab - cols: case, variant (rsid in gene hugo_symbol), genotype, phenoCategory, drugs, sentence
+
+    def integrate_cnv_n_allele_copies(self):
+        # Only coad has cnv data stored, and the cnv files contain the major copy allele copy count and the same for minor, if minor equals to 0, it refers to a loss of heterozygosity
+        # study case for case_id e703af88-c05f-4d7b-b225-d640e4d1a2a5
+        snv_path = "/var/www/html/gdc_explorer_app/data_processed/TCGA-COAD/simple-nucleotide-variation/files/raw_39495aca-acc5-417a-8679-22e9246e77c0.out"
+        cnv_path = "/var/www/html/gdc_explorer_app/data_processed/TCGA-COAD/copy-number-variation/files/raw_8baa452a-356d-4765-8ab2-c5c320ed7f78.out"
+
+        cdf = pd.read_csv(cnv_path, sep='\t', comment="#")
+        cdf = cdf.dropna()
+        genes = list( map( lambda x: x.split('.')[0], cdf[ (cdf["min_copy_number"] != 1) & (cdf["max_copy_number"] != 1 )  ]["gene_name"].values ))
+        #print(genes)
+        sdf = pd.read_csv(snv_path, sep='\t', comment="#")
+        f = sdf[ (sdf["Hugo_Symbol"].isin(genes)) & ~(sdf["dbSNP_RS"].isna()) ][ ['Reference_Allele', 'Tumor_Seq_Allele1', 'Tumor_Seq_Allele2', 'HGVSc', 'Hugo_Symbol', 'SWISSPROT', 'Variant_Classification', 'Consequence', 'IMPACT', 'VARIANT_CLASS', 'dbSNP_RS', 'SIFT', 'PolyPhen', "t_ref_count", "t_alt_count"] ]
+        print(f)
+
+        f2 = sdf[ sdf["Tumor_Seq_Allele1"] != sdf["Reference_Allele"] ] # zero count - checking if there is a possibility of al1 and al2 being mutated, and maybe for a distinct base
+
+        f2 = sdf[ ['Reference_Allele', 'Tumor_Seq_Allele1', 'Tumor_Seq_Allele2', 'HGVSc', 'Hugo_Symbol', 'SWISSPROT', 'Variant_Classification', 'Consequence', 'IMPACT', 'VARIANT_CLASS', 'dbSNP_RS', 'SIFT', 'PolyPhen', "t_ref_count", "t_alt_count"] ][ sdf["t_ref_count"] < sdf["t_alt_count"] ]
+        """
+        There are two entries, one it is for smad4 gene, but it has no dbsnp id associated, but for the same position and gene here is a entry in dbsnp (rs2144452610) but changing from G to A or C, and not for T.
+        The read count is very low for both columns (tref=8, and talt=15). Since it is one of the major tumor supressor genes, it is frequently mutated and inactivated (PMC8054659) so this could explain the underexpression
+        """
+        
+        print(f2)
+
     def run(self):
         #self.merge_datasources()
         #self.generate_app_pgx_compiled_data()
@@ -585,8 +1116,21 @@ query molecule ($id: String!) {
         # treat drugnames because they were annotated composed (+)
         #self.get_smiles_from_graphql_pdb()
 
-        self.clean_drug_names()
+        #self.clean_drug_names()
         #self.get_clinpgx_drugLabels()
+
+        #self.get_pharmvar_alleles()
+        
+        #self.parse_alleleSpecific_mutations_in_cases()
+        #self.process_allele_info()
+        
+        #self.explore_found_alleles_project_cases()
+        #self.retrieve_clingx_summary_annotations()
+        #self.retrieve_clingx_variant_annotations()
+
+        self.get_annotations()
+
+        #self.integrate_cnv_n_allele_copies()
 
 if( __name__ == "__main__" ):
     out = '/mnt/yasdata/home/yasmmin/Dropbox/portfolio_2025/gdc_explorer_app_web/gdc_exploration_project/bridge_pharcoGenomics/out'

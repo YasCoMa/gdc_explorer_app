@@ -14,7 +14,11 @@ def transfer():
 		"_project_/simple-nucleotide-variation/by_race_table_summary.tsv",
 		"_project_/simple-nucleotide-variation/by_gender_table_summary.tsv",
 		"_project_/simple-nucleotide-variation/by_ethnicity_table_summary.tsv",
-		"_project_/simple-nucleotide-variation/pgx_data.json"
+		"_project_/simple-nucleotide-variation/pgx_data.json",
+		"_project_/simple-nucleotide-variation/clingx_filtered_annotation_info_for_cases.json"
+	]
+	targets = [
+		"_project_/simple-nucleotide-variation/clingx_filtered_annotation_info_for_cases.json"
 	]
 
 	projects = list( filter( lambda x: x.startswith("TCGA"), os.listdir(src) ) )

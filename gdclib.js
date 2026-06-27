@@ -10,6 +10,7 @@ class GdcExplorerLib {
         this.methylation_cgids_ann = {};
     	this.formats_datCategory = { "biospecimen": ["svs", "jpeg 2000"], "clinical": ["bcr xml"], "copy number variation": ["tsv", "txt"], "dna methylation": ["txt"], "proteome profiling": ["tsv"], "simple nucleotide variation": ["maf"], "transcriptome profiling": ["tsv"] };
         this.data_pgx = {};
+        this.annotations_pgx = {};
     	
     }
     // Coverage is given by the case_couunt in each entry of exp strategy or data category divided by the general case_count of the project
@@ -485,7 +486,20 @@ class GdcExplorerLib {
         let url = `${location.href}/data_release/${project}/simple-nucleotide-variation/pgx_data.json`;
         let r = await fetch( url );
         let result = await r.json();
-        return result;
+
+        // Clingx annotations
+        let anns = {}
+        try {
+            url = `${location.href}/data_release/${project}/simple-nucleotide-variation/clingx_filtered_annotation_info_for_cases.json`;
+            r = await fetch( url );
+            anns = await r.json();
+        }
+        catch(error){
+            console.log(error)
+        }
+
+        let response = { "result": result, "annotations": anns }
+        return response;
     }
 
     

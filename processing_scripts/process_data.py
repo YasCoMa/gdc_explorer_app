@@ -1037,6 +1037,12 @@ class DataWrangler:
             self._get_file_by_uuid( fsodir, uuid)
         self.extract_data_methylation_lowMemory(odir, fsodir)
 
+    def parse_copy_number_variation_data (self, project):
+        datcat = 'copy number variation'
+        odir, fsodir, file_list = self.get_case_files_by_data_category(project, datcat)
+        for uuid in file_list:
+            self._get_file_by_uuid( fsodir, uuid)
+
     def run(self):
         '''
         option = sys.argv[1]
